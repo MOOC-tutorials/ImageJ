@@ -24,4 +24,8 @@
       </plugin>
     </plugins>
   </build>
+  <properties>
+    <sonar.organization>metricas-refactor-larios-luna</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
 </project>
