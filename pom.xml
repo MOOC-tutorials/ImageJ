@@ -3,6 +3,10 @@
   <groupId>ImageJ</groupId>
   <artifactId>ImageJ</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <sonar.organization>sebastiannorenamarquezmiso</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
@@ -13,10 +17,6 @@
         </excludes>
       </resource>
     </resources>
-    <properties>
-      <sonar.organization>sebastiannorenamarquezmiso</sonar.organization>
-      <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    </properties>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
