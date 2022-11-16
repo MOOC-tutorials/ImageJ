@@ -1,0 +1,79 @@
+
+Bij.gui.TextRoi#getFontGraphics(Ljava/awt/Font;)Ljava/awt/Graphics;V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaç ç(!"3*ˇ
+2V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaè' è((s
+q
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaè- è(G	
+%1int"__id*
+""ùö
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaè è(&"
+%2java.awt.image.BufferedImage"java.awt.image.BufferedImageÀ
+»
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaè è(H
+%3")java.awt.image.BufferedImage#<init>(III)V*$
+"
+%2java.awt.image.BufferedImage*2*2*
+	
+%1int´
+®
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaè è(I"
+bijava.awt.image.BufferedImage"__id*$
+"
+%2java.awt.image.BufferedImageËÂ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaê ê(.
+%4java.awt.Graphics"=java.awt.image.BufferedImage#getGraphics()Ljava/awt/Graphics;*$
+"
+bijava.awt.image.BufferedImage2getGraphics()†
+ù
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaê ê(."
+ij.gui.TextRoi"
+fontGraphics"__id*
+
+%4java.awt.Graphics*
+1*Ü
+3V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaé é(†
+ù
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaé é(
+%0java.awt.Graphics"__id*$*"
+ij.gui.TextRoi"
+fontGraphics*
+2
+1*˚
+1V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaí í(†
+ù
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaí í(
+%5java.awt.Graphics"__id*$*"
+ij.gui.TextRoi"
+fontGraphics‚ﬂ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaí í(
+
+%6void"+java.awt.Graphics#setFont(Ljava/awt/Font;)V*
+
+%5java.awt.Graphics*
+
+fontjava.awt.Font2setFont(Ljava/awt/Font;)†
+ù
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaì
+ ì(
+%7java.awt.Graphics"__id*$*"
+ij.gui.TextRoi"
+fontGraphics"s
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaì ì(
+
+%7java.awt.Graphics:
+fontjava.awt.FontB
+ij.gui.TextRoi

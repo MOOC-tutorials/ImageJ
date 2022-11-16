@@ -1,0 +1,391 @@
+
+2ij.IJ#doWand(Lij/ImagePlus;IIDLjava/lang/String;)IM
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaô ô("28*µ
+
+13M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaØ Ø(©¶
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaØ Ø(!
+%18
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+imgij.ImagePlus2getRoi()à
+Ö
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaØ Ø("
+previousRoi
+ij.gui.Roi"__id*
+
+%18
+ij.gui.Roik
+i
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∞= ∞(K
+
+%19int"__id*
+""~|
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∞ ∞(
+%20ij.gui.PolygonRoi"ij.gui.PolygonRoiæ
+ª
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∞ ∞(L
+%21"!ij.gui.PolygonRoi#<init>([I[III)V*
+
+%20ij.gui.PolygonRoi*
+""*
+""*
+""*
+
+
+%19intá
+Ñ
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∞ ∞(M
+roi
+ij.gui.Roi"__id*
+
+%20ij.gui.PolygonRoiûõ
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java± ±(
+%22void"ij.ImagePlus#deleteRoi()V*
+
+imgij.ImagePlus2deleteRoi()≈¬
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java≤ ≤(
+%23void""ij.ImagePlus#setRoi(Lij/gui/Roi;)V*
+
+imgij.ImagePlus*
+
+roi
+ij.gui.Roi2setRoi(Lij/gui/Roi;)*
+11
+12*∂
+24M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java† †(÷”
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java† †(
+%6boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+modejava.lang.String*
+42startsWith(Ljava/lang/String;)*
+20
+22*…
+25M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaù ù(j
+h
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaù ù(	
+%5int"__id*
+""*
+24
+19*Ä
+15M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java≠ ≠(≈¬
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java≠ ≠(/
+%16double",ij.process.ImageProcessor#getMaxThreshold()D*!
+
+ipij.process.ImageProcessor2getMaxThreshold()Ÿ÷
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java≠ ≠(7
+%17void"ij.gui.Wand#autoOutline(IIDDI)V*
+
+wij.gui.Wand*
+""*
+""*
+""*
+
+%16double*
+""2autoOutline(IIDDI)*
+13
+1*¨
+26M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaú
+ ú("W
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaú ú(
+""*•
+16M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java™ ™(∆√
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java™ ™((
+%15void"ij.gui.Wand#autoOutline(IIDI)V*
+
+wij.gui.Wand*
+""*
+""*
+""*
+""2autoOutline(IIDI)*
+13
+1*ÿ
+27M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaõ+ õ(1”–
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaõ8 õ(M
+%3float",ij.process.ImageProcessor#getPixelValue(II)F*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixelValue(II)¢
+ü
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaõ+ õ(N
+%4boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+
+%3float*
+25
+26*ÿ
+28M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaö ö(“œ
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaö ö((
+%0ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+imgij.ImagePlus2getProcessor()ú
+ô
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaö ö()
+ipij.process.ImageProcessor"__id*!
+
+%0ij.process.ImageProcessoròï
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaõ õ(	
+%1int"ij.ImagePlus#getType()I*
+
+imgij.ImagePlus2	getType()j
+h
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaõ õ(&	
+%2int"__id*
+""*
+25
+27*ë
+18M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java©* ©(,ƒ¡
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java©* ©(?
+
+%13int"-ij.process.ImageProcessor#getLutUpdateMode()I*!
+
+ipij.process.ImageProcessor2getLutUpdateMode()k
+i
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java©A ©(]
+
+%14int"__id*
+""*
+15
+16*Œ
+19M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaß ß(qo
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaß ß(
+%9ij.gui.Wand"ij.gui.Wand√
+¿
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaß ß(
+%10"0ij.gui.Wand#<init>(Lij/process/ImageProcessor;)V*
+
+%9ij.gui.Wand*!
+
+ipij.process.ImageProcessor~
+|
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaß ß(
+wij.gui.Wand"__id*
+
+%9ij.gui.Wand≈¬
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java® ®("
+%11double",ij.process.ImageProcessor#getMinThreshold()D*!
+
+ipij.process.ImageProcessor2getMinThreshold()n
+l
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java©
+ ©(%
+%12double"__id*
+""*
+16
+18*´
+1M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¬	 ¬(
+"W
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¬ ¬(
+""*≥
+2M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaæ æ(ç
+ä
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaæ æ(
+%37java.lang.String"__id**
+ij.IJ"
+smoothMacro…
+∆
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaæ æ(
+%38java.lang.String"3ij.Macro#eval(Ljava/lang/String;)Ljava/lang/String;*"
+
+ij.Macro*
+
+%37java.lang.String*
+1*∑
+3M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaº º(!ç
+ä
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaº º(!
+%34java.lang.String"__id**
+ij.IJ"
+smoothMacroÖÇ
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaº
+ º(
+%35ij.macro.MacroRunner"ij.macro.MacroRunner≈
+¬
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaº º("
+%36"0ij.macro.MacroRunner#<init>(Ljava/lang/String;)V*
+
+%35ij.macro.MacroRunner*
+
+%34java.lang.String*
+1*Å
+4M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaª	 ª(§
+°
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaª	 ª(&
+%33boolean"'java.awt.EventQueue#isDispatchThread()Z*"
+java.awt.EventQueue*
+2
+3*‹
+5M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∫ ∫("Ú
+Ô
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∫ ∫(I
+%32java.lang.String"Oij.plugin.BatchProcessor#openMacroFromJar(Ljava/lang/String;)Ljava/lang/String;*"
+ij.plugin.BatchProcessor*
+SmoothWandTool.txtç
+ä
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∫ ∫(I
+ij.IJ"
+smoothMacro"__id*
+
+%32java.lang.String*
+4*Í
+6M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaπ	 π(ç
+ä
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaπ	 π(
+%31java.lang.String"__id**
+ij.IJ"
+smoothMacro*
+4
+5*Ø
+8M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∑ ∑(ºπ
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∑ ∑('
+%30java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roi2
+ij.gui.Roi2getBounds()ì
+ê
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∑ ∑((
+boundsjava.awt.Rectangle"__id*
+
+%30java.awt.Rectangle*
+6
+1*‡
+9M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∂ ∂(#ñì
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∂ ∂(-
+
+%28int"ij.gui.Roi#getType()I*
+
+roi2
+ij.gui.Roi2	getType()k
+i
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∂/ ∂(=
+
+%29int"__id*
+""*
+8
+1*ø
+20M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java§ §(„‡
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java§ §(#
+%8boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+modejava.lang.String*
+
+smooth2"contains(Ljava/lang/CharSequence;)*
+19*≤
+22M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¢ ¢(÷”
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¢ ¢( 
+%7boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+modejava.lang.String*
+82startsWith(Ljava/lang/String;)*
+20*ä
+11M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaµ µ(©¶
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaµ µ(
+%27
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+imgij.ImagePlus2getRoi()Ä
+~
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaµ µ(
+roi2
+ij.gui.Roi"__id*
+
+%27
+ij.gui.Roi*
+9
+1*£
+12M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¥ ¥(Ñ
+Å
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¥ ¥(
+%24boolean"ij.IJ#shiftKeyDown()Z*	"
+ij.IJÅ
+
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¥ ¥(+
+%25boolean"ij.IJ#altKeyDown()Z*	"
+ij.IJºπ
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¥ ¥(,
+%26void"ij.gui.Roi#update(ZZ)V*
+
+roi
+ij.gui.Roi*
+
+%24boolean*
+
+%25boolean2
+update(ZZ)*
+11:
+imgij.ImagePlus:
+"":
+"":
+"":
+modejava.lang.StringB	"
+ij.IJ

@@ -1,0 +1,6 @@
+ij.plugin.filter.ParticleAnalyzer#addToRoiManager(Lij/gui/Roi;Lij/process/ImageProcessor;I)V
+ij.WindowManager#getFrame(Ljava/lang/String;)Ljava/awt/Frame;
+ij.macro.Interpreter#isBatchMode()Z
+ij.macro.Interpreter#getBatchModeRoiManager()Lij/plugin/frame/RoiManager;
+ij.Macro#getOptions()Ljava/lang/String;
+ij.IJ#run(Ljava/lang/String;)V

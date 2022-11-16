@@ -1,0 +1,10 @@
+ij.util.WildcardMatch#match(Ljava/lang/String;Ljava/lang/String;)Z
+ij.util.WildcardMatch#getWildcardOffset(C)I
+java.lang.String#length()I
+java.lang.String#substring(I)Ljava/lang/String;
+ij.util.WildcardMatch#getNextSubString(Ljava/lang/String;)Ljava/lang/String;
+ij.util.WildcardMatch#isSingleWildcardChar(C)Z
+java.lang.String#charAt(I)C
+ij.util.WildcardMatch#isWildcard(C)Z
+java.lang.String#indexOf(Ljava/lang/String;)I
+java.lang.String#toLowerCase()Ljava/lang/String;

@@ -1,0 +1,159 @@
+
+Dij.plugin.HyperStackReducer#reduce(Lij/gui/Overlay;)Lij/gui/Overlay;c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaÉ É("29*ﬂ
+2c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaï ï(ÔÏ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaï ï((
+%13void"ij.gui.Overlay#crop(IIIIII)V*
+
+overlay2ij.gui.Overlay*
+""*
+""*
+""*
+""*
+""*
+""2crop(IIIIII)*
+1*ﬁ
+14c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaè è(ÌÍ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaè è(.
+%10void"ij.gui.Overlay#crop(IIIIII)V*
+
+overlay2ij.gui.Overlay*2*
+""*
+""*
+""*
+""*
+""2crop(IIIIII)*
+1*€
+26c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaâ â(ÍÁ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaâ â(0
+
+%7void"ij.gui.Overlay#crop(IIIIII)V*
+
+overlay2ij.gui.Overlay*
+""*
+""*2*
+""*2*
+""2crop(IIIIII)*
+1*›
+6c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaì ì(ÌÍ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaì ì(,
+%12void"ij.gui.Overlay#crop(IIIIII)V*
+
+overlay2ij.gui.Overlay*
+""*
+""*
+""*
+""*2*
+""2crop(IIIIII)*
+1*€
+18c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaç ç(ÍÁ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaç ç(2
+
+%9void"ij.gui.Overlay#crop(IIIIII)V*
+
+overlay2ij.gui.Overlay*2*
+""*2*
+""*
+""*
+""2crop(IIIIII)*
+1*´
+29c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaÑ Ñ(¨
+©
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaÑ Ñ(
+%0ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp≥∞
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaÑ Ñ(	
+%1int"ij.ImagePlus#getChannel()I*
+
+%0ij.ImagePlus2getChannel()¨
+©
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaÖ Ö(
+%2ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impØ¨
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaÖ Ö(	
+%3int"ij.ImagePlus#getSlice()I*
+
+%2ij.ImagePlus2
+getSlice()¨
+©
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaÜ Ü(
+%4ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impØ¨
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaÜ Ü(	
+%5int"ij.ImagePlus#getFrame()I*
+
+%4ij.ImagePlus2
+getFrame()‘—
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaá á((
+%6ij.gui.Overlay"*ij.gui.Overlay#duplicate()Lij/gui/Overlay;*
+
+overlayij.gui.Overlay2duplicate()¢
+ü
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaá á()
+overlay2ij.gui.Overlay"__id*
+
+%6ij.gui.Overlay*
+2
+14
+26
+6
+18
+10
+22
+1*ﬁ
+10c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaë ë(ÌÍ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaë ë(,
+%11void"ij.gui.Overlay#crop(IIIIII)V*
+
+overlay2ij.gui.Overlay*
+""*
+""*2*
+""*
+""*
+""2crop(IIIIII)*
+1*€
+22c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaã ã(ÍÁ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaã ã(2
+
+%8void"ij.gui.Overlay#crop(IIIIII)V*
+
+overlay2ij.gui.Overlay*2*
+""*
+""*
+""*2*
+""2crop(IIIIII)*
+1*Ó
+1c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javañ	 ñ("É
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javañ ñ(
+
+overlay2ij.gui.Overlay:
+overlayij.gui.OverlayB
+ij.plugin.HyperStackReducer

@@ -1,0 +1,15 @@
+ij.measure.Minimizer#minimize([[D)I
+ij.measure.Minimizer#value([D)D
+ij.measure.Minimizer#evaluate([D)V
+ij.measure.Minimizer#belowErrorLimit(DDD)Z
+ij.measure.Minimizer#belowResolutionLimit([D[D)Z
+ij.IJ#escapePressed()Z
+ij.IJ#showStatus(Ljava/lang/String;)V
+ij.measure.Minimizer#getVertexAndEvaluate([D[DD[D)V
+ij.measure.Minimizer#belowResolutionLimit([[DI)Z
+ij.measure.Minimizer#order([[D[I)V
+ij.measure.Minimizer#shrinkSimplexAndEvaluate([[DI)V
+ij.IJ#resetEscape()V
+java.lang.System#currentTimeMillis()J
+java.lang.Double#isNaN(D)Z
+ij.measure.Minimizer#getCenter([[DI[D)V

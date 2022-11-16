@@ -1,0 +1,9 @@
+ij.plugin.Projector#zScale(Lij/ImagePlus;Z)Lij/ImagePlus;
+ij.plugin.Projector#putRGBRow(Lij/ImageStack;III[I)V
+ij.plugin.Projector#getByteRow(Lij/ImageStack;IIIII[I)V
+ij.plugin.Projector#getRGBRow(Lij/ImageStack;IIIII[I)V
+ij.IJ#run(Lij/ImagePlus;Ljava/lang/String;Ljava/lang/String;)V
+ij.plugin.Projector#putByteRow(Lij/ImageStack;III[I)V
+ij.gui.NewImage#createImage(Ljava/lang/String;IIIII)Lij/ImagePlus;
+ij.IJ#showProgress(II)V
+ij.IJ#showStatus(Ljava/lang/String;)V

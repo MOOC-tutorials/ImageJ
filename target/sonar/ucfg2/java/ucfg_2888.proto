@@ -1,0 +1,92 @@
+
+Xij.plugin.filter.Convolver#dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)Z`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java` `($"3*»
+2`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javaf f(Ÿ
+œ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javaf f( 
+%4java.lang.String"__concat*
+
+Convolve: *
+""¨
+¥
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javaf f($
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+x©
+¦
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javaf f('
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+""®
+«
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javaf f(1
+%7java.lang.String"__concat*
+
+%6java.lang.String*	
+ kernel½
+º
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javaf f(2
+
+%8void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%7java.lang.String"j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javag g(
+""*œ	
+3`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javaa a(àÝ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javaa a(
+%0java.lang.String"4ij.gui.GenericDialog#getNextText()Ljava/lang/String;*
+
+gdij.gui.GenericDialog2getNextText()³
+°
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javaa a(,
+ij.plugin.filter.Convolver"
+
+kernelText"__id*
+
+%0java.lang.StringÌÉ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javab b(%
+%1boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()³
+°
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javad d((
+%2java.lang.String"__id*.*,
+ij.plugin.filter.Convolver"
+
+kernelTextŽ‹
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javad d()
+%3boolean"<ij.plugin.filter.Convolver#decodeKernel(Ljava/lang/String;)Z*
+ij.plugin.filter.Convolver*
+
+%2java.lang.String2 decodeKernel(Ljava/lang/String;)*
+2
+1*¢
+1`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javai i(ÎË
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javai i(
+%9boolean"'ij.gui.GenericDialog#isPreviewActive()Z*
+
+gdij.gui.GenericDialog2isPreviewActive()"j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.javai i( 
+"":
+gdij.gui.GenericDialog:
+ejava.awt.AWTEventB
+ij.plugin.filter.Convolver

@@ -1,0 +1,60 @@
+
+Gij.gui.Roi#getFloatPolygon(Ljava/lang/String;)Lij/process/FloatPolygon;R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java… …($"11*®
+5R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java— —(…∆
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java— —(-
+
+%4void"%ij.process.FloatPolygon#addPoint(FF)V*
+
+fpij.process.FloatPolygon*
+""*
+""2addPoint(FF)*
+1*∞	
+11R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java   (œÃ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java   (!
+%0java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*
+
+optionsjava.lang.String2toLowerCase()î
+ë
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java   (!
+optionsjava.lang.String"__id*
+
+%0java.lang.Stringÿ’
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÀ À(5	
+%1int"-java.lang.String#indexOf(Ljava/lang/String;)I*
+
+optionsjava.lang.String*	
+close2indexOf(Ljava/lang/String;)–Õ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÃ Ã(%
+%2ij.process.FloatPolygon"5ij.gui.Roi#getFloatPolygon()Lij/process/FloatPolygon;*
+
+ij.gui.Roi2getFloatPolygon()ù
+ö
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÃ Ã(&
+fpij.process.FloatPolygon"__id*
+
+%2ij.process.FloatPolygonñì
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaŒ Œ(
+%3boolean"ij.gui.Roi#isArea()Z*
+
+ij.gui.Roi2isArea()*
+5
+1*Œ
+1R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java’	 ’("u
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java’ ’(
+
+fpij.process.FloatPolygon:
+optionsjava.lang.StringB
+
+ij.gui.Roi

@@ -1,0 +1,571 @@
+
+;ij.plugin.Thresholder#convertStackToBinary(Lij/ImagePlus;)V]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java« «("41*ç
+26]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java‡ ‡(®
+•
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java‡" ‡((
+%25java.lang.String"__id*%*#
+ij.plugin.Thresholder"
+methodª
+∏
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java‡
+ ‡((
+%26java.lang.String"__concat*
+Thresholding method: *
+
+%25java.lang.Stringµ
+≤
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java‡ ‡()
+%27void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%26java.lang.String*
+3
+23*å
+27]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java› ›(√¿
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java› ›(#
+%23ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+impij.ImagePlus2
+getStack()ò
+ï
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java› ›($
+stackij.ImageStack"__id*
+
+%23ij.ImageStack∏
+µ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaﬁ ﬁ($
+%24void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+Auto-thresholding*
+3
+26
+23*˝
+28]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java€ €(ëé
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java€ €(
+%22void"9ij.ImagePlus#setStack(Ljava/lang/String;Lij/ImageStack;)V*
+
+impij.ImagePlus*
+""*
+
+stack2ij.ImageStack2+setStack(Ljava/lang/String;Lij/ImageStack;)*
+27*≈
+30]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaŸ Ÿ(
+ÜÉ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaŸ Ÿ(1 
+%20ij.process.ImageProcessor"Eij.process.ImageProcessor#convertToByte(Z)Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor*22convertToByte(Z)Ã…
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaŸ Ÿ(2
+%21void"Fij.ImageStack#addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+stack2ij.ImageStack*
+
+labeljava.lang.String*"
+ 
+%20ij.process.ImageProcessor27addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)*
+28
+32*ı
+31]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java÷ ÷(√¿
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java÷ ÷(!
+%18double"#ij.process.ImageProcessor#getMin()D*!
+
+ipij.process.ImageProcessor2getMin()√¿
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java◊ ◊(!
+%19double"#ij.process.ImageProcessor#getMax()D*!
+
+ipij.process.ImageProcessor2getMax()*
+30*í
+
+32]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java— —(£
+†
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java— —(
+%14void"ij.IJ#showProgress(II)V*	"
+ij.IJ*
+""*
+""‚ﬂ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java“ “(*
+%15java.lang.String"0ij.ImageStack#getSliceLabel(I)Ljava/lang/String;*
+
+stack1ij.ImageStack*
+""2getSliceLabel(I)û
+õ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java“ “(+
+labeljava.lang.String"__id*
+
+%15java.lang.StringÚÔ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java” ”(. 
+%16ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stack1ij.ImageStack*
+""2getProcessor(I)≠
+™
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java” ”(/
+ipij.process.ImageProcessor"__id*"
+ 
+%16ij.process.ImageProcessor—Œ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java‘ ‘(
+%17void"+ij.process.ImageProcessor#resetMinAndMax()V*!
+
+ipij.process.ImageProcessor2resetMinAndMax()*
+30
+31*«
+34]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÕ Õ(∏
+µ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÕ Õ(&
+
+%8void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+Converting to byte¬ø
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaŒ Œ(%
+%9ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+impij.ImagePlus2
+getStack()ò
+ï
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaŒ Œ(&
+stack1ij.ImageStack"__id*
+
+%9ij.ImageStack´®
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaœ& œ(4
+
+%10int"ij.ImagePlus#getWidth()I*
+
+impij.ImagePlus2
+getWidth()≠™
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaœ6 œ(E
+
+%11int"ij.ImagePlus#getHeight()I*
+
+impij.ImagePlus2getHeight()áÑ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaœ œ(%
+%12ij.ImageStack"ij.ImageStack∏
+µ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaœ œ(F
+%13"ij.ImageStack#<init>(II)V*
+
+%12ij.ImageStack*
+
+
+%10int*
+
+
+%11intô
+ñ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaœ œ(G
+stack2ij.ImageStack"__id*
+
+%12ij.ImageStack*
+28
+32*†
+35]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java   (?∞≠
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÀ À("	
+%7int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()*
+27
+34*˝
+13]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÒ Ò("ï
+í
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÚ Ú(
+%47java.lang.String"__concat*
+  *
+""®
+•
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÚ Ú(
+%48java.lang.String"__concat*
+
+%47java.lang.String*
+: ∑
+¥
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÚ Ú((
+%49java.lang.String"ij.IJ#d2s(DI)Ljava/lang/String;*	"
+ij.IJ*
+""*
+""ª
+∏
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÚ Ú((
+%50java.lang.String"__concat*
+
+%48java.lang.String*
+
+%49java.lang.Stringß
+§
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÚ Ú(,
+%51java.lang.String"__concat*
+
+%50java.lang.String*
+-∑
+¥
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÚ- Ú(>
+%52java.lang.String"ij.IJ#d2s(DI)Ljava/lang/String;*	"
+ij.IJ*
+""*
+""ª
+∏
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÚ Ú(>
+%53java.lang.String"__concat*
+
+%51java.lang.String*
+
+%52java.lang.Stringµ
+≤
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÚ Ú(?
+%54void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%53java.lang.String*
+5*¯
+36]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java :  (>å
+â
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java :  (>
+%4double[]"__id*
+
+%6
+<nulltype>*
+35*Ì
+14]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÒ  Ò(!Å
+
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÒ  Ò(!
+
+%44int"__id*
+
+
+%46int*
+13*ˆ
+37]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java 1  (8ä
+á
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java &  (9
+%4double[]"__id*
+
+%5double[]*
+35*Ì
+15]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÒ Ò(Å
+
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÒ Ò(
+
+%44int"__id*
+
+
+%45int*
+13*¸
+39]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java…: …(>å
+â
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java…: …(>
+%1double[]"__id*
+
+%3
+<nulltype>*
+36
+37*†
+19]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaË Ë(’“
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaË Ë(&
+%42double",ij.process.ImageProcessor#getMinThreshold()D*!
+
+ipij.process.ImageProcessor2getMinThreshold()’“
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÈ È(&
+%43double",ij.process.ImageProcessor#getMaxThreshold()D*!
+
+ipij.process.ImageProcessor2getMaxThreshold()*
+14
+15
+5*{
+0 "t
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaá á(
+implicit return*è
+1]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÜ Ü(•
+¢
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÜ Ü(
+%67void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ* *
+0*”
+2]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÅ' Å(*ò
+ï
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÅ Å(+
+ciij.CompositeImage"__id*
+
+impij.ImagePlus{
+y
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÇ Ç(
+
+%63int"__id*
+""√¿
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÇ Ç(
+%64void"ij.CompositeImage#setMode(I)V*
+
+ciij.CompositeImage*
+
+
+%63int2
+setMode(I)…∆
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÉ É(
+%65void"'ij.CompositeImage#resetDisplayRanges()V*
+
+ciij.CompositeImage2resetDisplayRanges()øº
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÑ Ñ(
+%66void""ij.CompositeImage#updateAndDraw()V*
+
+ciij.CompositeImage2updateAndDraw()*
+1*ç
+3]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java˝ ˝(Ë
+Â
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java˝ ˝(S 
+%56java.awt.image.ColorModel"Fij.LookUpTable#createGrayscaleColorModel(Z)Ljava/awt/image/ColorModel;*"
+ij.LookUpTable*
+""îë
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java˝ ˝(T
+%57void"9ij.ImageStack#setColorModel(Ljava/awt/image/ColorModel;)V*
+
+stackij.ImageStack*"
+ 
+%56java.awt.image.ColorModel2*setColorModel(Ljava/awt/image/ColorModel;)êç
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java˛ ˛(
+%58void"9ij.ImagePlus#setStack(Ljava/lang/String;Lij/ImageStack;)V*
+
+impij.ImagePlus*
+""*
+
+stackij.ImageStack2+setStack(Ljava/lang/String;Lij/ImageStack;)„‡
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaˇ ˇ( 
+%59ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor(){
+y
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaˇ, ˇ(H
+
+%60int"__id*
+""Ì
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaˇ ˇ(I
+%61void",ij.process.ImageProcessor#setThreshold(DDI)V*"
+ 
+%59ij.process.ImageProcessor*2ˇ*2ˇ*
+
+
+%60int2setThreshold(DDI)µ≤
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÄ Ä(
+%62boolean"ij.ImagePlus#isComposite()Z*
+
+impij.ImagePlus2isComposite()*
+2
+1*√
+5]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java˚ ˚(’“
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java˚ ˚(
+%55void")ij.process.ImageProcessor#applyTable([I)V*!
+
+ipij.process.ImageProcessor*
+""2applyTable([I)*
+3
+23*˙
+40]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java…1 …(8ä
+á
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java…& …(9
+%1double[]"__id*
+
+%2double[]*
+36
+37*¢
+41]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java» »(≤Ø
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java» »("	
+%0int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+39
+40*÷
+20]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÁ Á(®
+•
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÁ Á(
+%37java.lang.String"__id*%*#
+ij.plugin.Thresholder"
+method¨
+©
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÁ! Á(+
+%38java.lang.String"__id*)*'
+ij.plugin.Thresholder"
+
+background‚ﬂ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÁ! Á(;
+%39boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%38java.lang.String*	
+Light2equals(Ljava/lang/Object;){
+y
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÁ= Á(Y
+
+%40int"__id*
+""Æ´
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÁ Á(Z
+%41void"Aij.process.ImageProcessor#setAutoThreshold(Ljava/lang/String;ZI)V*!
+
+ipij.process.ImageProcessor*
+
+%37java.lang.String*
+""*
+
+
+%40int2&setAutoThreshold(Ljava/lang/String;ZI)*
+19*€
+21]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÂ Â({
+y
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÂ Â(/
+
+%34int"__id*
+""{
+y
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÂ1 Â(M
+
+%35int"__id*
+""ıÚ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.javaÂ Â(N
+%36void"/ij.process.ImageProcessor#setAutoThreshold(II)V*!
+
+ipij.process.ImageProcessor*
+
+
+%34int*
+
+
+%35int2setAutoThreshold(II)*
+19*É
+22]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java‰# ‰(-¨
+©
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java‰# ‰(-
+%32java.lang.String"__id*)*'
+ij.plugin.Thresholder"
+
+background‰·
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java‰# ‰(?
+%33boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%32java.lang.String*	
+Default2equals(Ljava/lang/Object;)*
+20
+21*…
+23]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java‚ ‚(£
+†
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java‚ ‚(
+%28void"ij.IJ#showProgress(II)V*	"
+ij.IJ*
+""*
+""ÒÓ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java„ „(, 
+%29ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stackij.ImageStack*
+""2getProcessor(I)≠
+™
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java„ „(-
+ipij.process.ImageProcessor"__id*"
+ 
+%29ij.process.ImageProcessor®
+•
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java‰ ‰(
+%30java.lang.String"__id*%*#
+ij.plugin.Thresholder"
+method‰·
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Thresholder.java‰ ‰(
+%31boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%30java.lang.String*	
+Default2equals(Ljava/lang/Object;)*
+20
+22:
+impij.ImagePlusB
+ij.plugin.Thresholder

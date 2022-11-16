@@ -1,0 +1,61 @@
+
+<ij.macro.Functions#copyStringToClipboard()Ljava/lang/String;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java‚' ‚'(%"1*Ø
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaƒ' ƒ'(ÔÑ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaƒ' ƒ'(
+%0java.lang.String"3ij.macro.Functions#getStringArg()Ljava/lang/String;*
+ij.macro.Functions2getStringArg()™
+–
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaƒ' ƒ'(
+textjava.lang.String"__id*
+
+%0java.lang.String³°
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java„' „'(*+
+%1%java.awt.datatransfer.StringSelection"%java.awt.datatransfer.StringSelectionó
+ð
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java„' „'(0
+%2"Ajava.awt.datatransfer.StringSelection#<init>(Ljava/lang/String;)V*-
++
+%1%java.awt.datatransfer.StringSelection*
+
+textjava.lang.StringÁ
+¾
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java„' „'(1+
+ss%java.awt.datatransfer.StringSelection"__id*-
++
+%1%java.awt.datatransfer.StringSelectionÅ
+Â
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java…'. …'(I
+%3java.awt.Toolkit"6java.awt.Toolkit#getDefaultToolkit()Ljava/awt/Toolkit;*"
+java.awt.Toolkitþû
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java…'. …'(^%
+%4java.awt.datatransfer.Clipboard"Fjava.awt.Toolkit#getSystemClipboard()Ljava/awt/datatransfer/Clipboard;*
+
+%3java.awt.Toolkit2getSystemClipboard()¼
+¹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java…' …'(_,
+	clipboardjava.awt.datatransfer.Clipboard"__id*'
+%
+%4java.awt.datatransfer.Clipboard¥¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java†' †'(!
+
+%5void"xjava.awt.datatransfer.Clipboard#setContents(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V*.
+,
+	clipboardjava.awt.datatransfer.Clipboard*-
++
+ss%java.awt.datatransfer.StringSelection*
+""2WsetContents(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)"d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java‡' ‡'(
+""B
+ij.macro.Functions

@@ -1,0 +1,603 @@
+
+ij.ImagePlus#setSlice(I)VT
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaú ú(""55*Å
+46T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java• •(ûõ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java• •(
+
+%6void"ij.gui.Roi#endPaste()V*
+
+roi
+ij.gui.Roi2
+endPaste()*
+45*ö
+47T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java£ £(™ß
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java£ £(
+%5
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+ij.ImagePlus2getRoi()Ü
+É
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java£ £(
+roi
+ij.gui.Roi"__id*
+
+%5
+ij.gui.Roi*
+46
+45*î
+48T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¢ ¢(ë
+é
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¢ ¢(
+%3ij.ImageStack"__id**
+ij.ImagePlus"
+stacköó
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¢ ¢(	
+%4int"ij.ImageStack#size()I*
+
+%3ij.ImageStack2size()*
+47
+0*Ç
+26T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∫ ∫(	õ
+ò
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∫ ∫(	 
+%31ij.process.ImageProcessor"__id**
+ij.ImagePlus"
+ip*
+20
+23*ﬂ
+27T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaπ π(í
+è
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaπ π(
+%29ij.ImageStack"__id**
+ij.ImagePlus"
+stackŒÀ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaπ π(*
+%30java.lang.Object",ij.ImageStack#getPixels(I)Ljava/lang/Object;*
+
+%29ij.ImageStack*
+""2getPixels(I)ñ
+ì
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaπ π(*
+pixelsjava.lang.Object"__id*
+
+%30java.lang.Object*
+26*ÿ
+28T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∑ ∑(‹Ÿ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∑ ∑()
+%28java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*"
+ 
+ip2ij.process.ImageProcessor2getPixels()ñ
+ì
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∑ ∑()
+pixelsjava.lang.Object"__id*
+
+%28java.lang.Object*
+26*∫
+50T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java† †(
+"^
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java† †(
+
+""*ú
+51T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaü ü(π∂
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaü ü(
+
+%2void"&ij.ImagePlus#updateAndRepaintWindow()V*
+ij.ImagePlus2updateAndRepaintWindow()*
+50*†
+30T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaµ µ(¶
+£
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaµ µ()
+%26java.lang.Object"__mapGet*
+
+propsjava.util.Properties*
+FHTêç
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaµ µ(*
+%27void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+ij.ImagePlus*
+FHT*
+
+%26java.lang.Object21setProperty(Ljava/lang/String;Ljava/lang/Object;)*
+26
+28*à
+53T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaù' ù()ö
+ó
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaù' ù()
+%1ij.process.ImageProcessor"__id**
+ij.ImagePlus"
+ip*
+48
+50
+51
+0*ˆ
+31T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≥' ≥(,í
+è
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≥' ≥(,
+%24ij.ImageStack"__id**
+ij.ImagePlus"
+stack÷”
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≥ ≥(=
+%25java.util.Properties"5ij.VirtualStack#getProperties()Ljava/util/Properties;*
+
+%24ij.ImageStack2getProperties()ù
+ö
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≥ ≥(>
+propsjava.util.Properties"__id*
+
+%25java.util.Properties*
+26
+28
+30*¬
+10T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java… …(ï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java… …(
+%48ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win≈¬
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java… …(,
+%49void")ij.gui.StackWindow#updateSliceSelector()V*
+
+%48ij.gui.ImageWindow2updateSliceSelector()*
+5
+7*˝
+32T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≤ ≤(í
+è
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≤ ≤(
+%23ij.ImageStack"__id**
+ij.ImagePlus"
+stack*
+26
+28
+31*É
+55T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaù ù(ë
+é
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaù ù(
+%0ij.ImageStack"__id**
+ij.ImagePlus"
+stack*
+48
+50
+51
+53
+0*˛
+11T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java» »(ï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java» »(
+%47ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win*
+
+5
+7
+10*√
+33T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java± ±(‡›
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java± ±(
+%22void"*ij.ImagePlus#setOverlay(Lij/gui/Overlay;)V*
+ij.ImagePlus*
+
+overlay2ij.gui.Overlay2setOverlay(Lij/gui/Overlay;)*
+32*˚
+34T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ Ø(.î
+ë
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ Ø(.
+overlay2ij.gui.Overlay"__id*
+
+%19ij.gui.Overlay*
+32
+33*˛
+12T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java» »(
+ï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java» »(
+
+%46ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win*
+
+5
+7
+11*Ó
+35T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ* Ø(.ã
+à
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ* Ø(.
+%19ij.gui.Overlay"__id*
+
+%21
+<nulltype>*
+34*∆
+13T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∆ ∆(õ
+ò
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∆ ∆( 
+%43ij.process.ImageProcessor"__id**
+ij.ImagePlus"
+ip–Õ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∆ ∆(<
+%44ij.process.LUT"2ij.CompositeImage#getChannelLut(I)Lij/process/LUT;*
+ij.ImagePlus*
+""2getChannelLut(I)ÚÔ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∆ ∆(=
+%45void"3ij.process.ImageProcessor#setLut(Lij/process/LUT;)V*"
+ 
+%43ij.process.ImageProcessor*
+
+%44ij.process.LUT2setLut(Lij/process/LUT;)*
+12*œ
+36T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ Ø(⁄◊
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ Ø()
+%20ij.gui.Overlay"6ij.process.ImageProcessor#getOverlay()Lij/gui/Overlay;*"
+ 
+ip2ij.process.ImageProcessor2getOverlay()è
+å
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ Ø()
+%19ij.gui.Overlay"__id*
+
+%20ij.gui.Overlay*
+34*å
+14T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≈ ≈(•¢
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≈ ≈(,
+
+%42int"ij.ImagePlus#getNChannels()I*
+ij.ImagePlus2getNChannels()*
+13
+12*ä
+37T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÆ Æ(í
+è
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÆ Æ(
+%17ij.ImageStack"__id**
+ij.ImagePlus"
+stackÊ„
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÆ Æ(9 
+%18ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+%17ij.ImageStack*
+""2getProcessor(I)•
+¢
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÆ Æ(: 
+ip2ij.process.ImageProcessor"__id*"
+ 
+%18ij.process.ImageProcessor*
+35
+36*¸
+15T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaƒ ƒ(ïí
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaƒ ƒ(
+
+%41int"ij.ImagePlus#getC()I*
+ij.ImagePlus2getC()*
+14
+12*Ç
+16T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java√= √(?õ
+ò
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java√= √(? 
+%40ij.process.ImageProcessor"__id**
+ij.ImagePlus"
+ip*
+15
+12*˘
+39T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≠H ≠(Mí
+è
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≠H ≠(M
+%16ij.ImageStack"__id**
+ij.ImagePlus"
+stack*
+37
+27*à
+17T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java√ √()≠™
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java√ √(+
+
+%38int" ij.ImagePlus#getCompositeMode()I*
+ij.ImagePlus2getCompositeMode()r
+p
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java√- √(9
+
+%39int"__id*
+""*
+16
+12*Ç
+19T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¡ ¡(õ
+ò
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¡ ¡(
+ij.ImagePlus"
+ip"__id*"
+ 
+ip2ij.process.ImageProcessor*
+17
+12*r
+0 "k
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java÷ ÷(
+implicit return*ﬂ
+1T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java‘
+ ‘(
+}
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java‘ ‘(
+ij.ImagePlus"
+img"__id*
+""*
+0*õ
+2T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java“ “(∫∑
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java“ “(
+%60void"&ij.ImagePlus#updateAndRepaintWindow()V*
+ij.ImagePlus2updateAndRepaintWindow()*
+0*ú
+4T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java– –(∏
+µ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java– –(
+%59void"*ij.plugin.frame.ContrastAdjuster#update()V*$""
+ ij.plugin.frame.ContrastAdjuster*
+2
+1*ÿ
+5T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaœ œ(r
+p
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaœ œ(
+
+%58int"__id*
+""*	
+2
+4
+1*¢
+6T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÀ À(òï
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÀ	 À(!
+%51ij.plugin.ContrastEnhancer"ij.plugin.ContrastEnhancer´
+®
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÀ À(
+%52"$ij.plugin.ContrastEnhancer#<init>()V*#
+!
+%51ij.plugin.ContrastEnhancerõ
+ò
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÀ. À(0 
+%53ij.process.ImageProcessor"__id**
+ij.ImagePlus"
+ipõ
+ò
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÀ6 À(8 
+%54ij.process.ImageProcessor"__id**
+ij.ImagePlus"
+ipÓÎ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÀ6 À(C!
+%55ij.process.ImageStatistics"@ij.process.ImageProcessor#getStats()Lij/process/ImageStatistics;*"
+ 
+%54ij.process.ImageProcessor2
+getStats()êç
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÀ À(D
+%56void"fij.plugin.ContrastEnhancer#stretchHistogram(Lij/process/ImageProcessor;DLij/process/ImageStatistics;)V*#
+!
+%51ij.plugin.ContrastEnhancer*"
+ 
+%53ij.process.ImageProcessor*
+""*#
+!
+%55ij.process.ImageStatistics2JstretchHistogram(Lij/process/ImageProcessor;DLij/process/ImageStatistics;)∏
+µ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÃ Ã(
+%57void"*ij.plugin.frame.ContrastAdjuster#update()V*$""
+ ij.plugin.frame.ContrastAdjuster*
+5*’
+7T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java -  (6r
+p
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java 8  (A
+
+%50int"__id*
+""*
+5
+6*˝
+40T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≠ ≠($í
+è
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≠ ≠($
+%15ij.ImageStack"__id**
+ij.ImagePlus"
+stack*
+37
+27
+39*Î
+41T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java™ ™(∂≥
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java™ ™(
+%12void" ij.ImagePlus#setCurrentSlice(I)V*
+ij.ImagePlus*
+""2setCurrentSlice(I)É
+Ä
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java´ ´(
+pixelsjava.lang.Object"__id*
+""É
+Ä
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¨ ¨(
+overlay2ij.gui.Overlay"__id*
+""í
+è
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≠ ≠(
+%13ij.ImageStack"__id**
+ij.ImagePlus"
+stack™ß
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≠ ≠(
+%14boolean"ij.ImageStack#isVirtual()Z*
+
+%13ij.ImageStack2isVirtual()*
+27
+40*·
+42T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java® ®(	ë
+é
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java® ®(	
+%8ij.ImageStack"__id**
+ij.ImagePlus"
+stackö
+ó
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java® ®(
+%9ij.process.ImageProcessor"__id**
+ij.ImagePlus"
+ip€ÿ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java® ®("
+%10java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*!
+
+%9ij.process.ImageProcessor2getPixels()ÔÏ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java® ®(0
+%11void"-ij.ImageStack#setPixels(Ljava/lang/Object;I)V*
+
+%8ij.ImageStack*
+
+%10java.lang.Object*
+""2setPixels(Ljava/lang/Object;I)*
+41*é
+20T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¿ ¿(í
+è
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¿ ¿(
+%36ij.ImageStack"__id**
+ij.ImagePlus"
+stackÊ„
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¿ ¿(. 
+%37ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+%36ij.ImageStack*
+""2getProcessor(I)•
+¢
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¿ ¿(/ 
+ip2ij.process.ImageProcessor"__id*"
+ 
+%37ij.process.ImageProcessor*
+17
+19
+12*Ä
+22T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaΩ Ω(õ
+ò
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaΩ Ω( 
+%34ij.process.ImageProcessor"__id**
+ij.ImagePlus"
+ip˚¯
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaΩ Ω(
+%35void"@ij.process.ImageProcessor#setSnapshotPixels(Ljava/lang/Object;)V*"
+ 
+%34ij.process.ImageProcessor*
+""2%setSnapshotPixels(Ljava/lang/Object;)*
+17
+12*ç
+45T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¶ ¶(¶£
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¶ ¶(
+%7boolean"ij.ImagePlus#isProcessor()Z*
+ij.ImagePlus2isProcessor()*
+41
+42*Ç
+23T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaº º(õ
+ò
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaº º( 
+%32ij.process.ImageProcessor"__id**
+ij.ImagePlus"
+ipÅ˛
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaº º(
+%33void"8ij.process.ImageProcessor#setPixels(Ljava/lang/Object;)V*"
+ 
+%32ij.process.ImageProcessor*
+
+pixelsjava.lang.Object2setPixels(Ljava/lang/Object;)*
+22:
+""B
+ij.ImagePlus

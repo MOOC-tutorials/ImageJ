@@ -1,0 +1,132 @@
+
+Cij.plugin.GaussianBlur3D#getVolume(Lij/ImagePlus;II)Lij/ImageStack;^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javaf f($"10*ƒ
+3^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javap p(‘—
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javap p(&
+
+%11int" ij.ImagePlus#getStackIndex(III)I*
+
+impij.ImagePlus*
+""*
+""*
+""2getStackIndex(III)Û
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javaq q(* 
+%12ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stack1ij.ImageStack*
+""2getProcessor(I)åâ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javaq q(+
+%13void"4ij.ImageStack#addSlice(Lij/process/ImageProcessor;)V*
+
+stack2ij.ImageStack*"
+ 
+%12ij.process.ImageProcessor2%addSlice(Lij/process/ImageProcessor;)*
+4*û
+4^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javao o(∞≠
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javao o($
+
+%10int"ij.ImagePlus#getNSlices()I*
+
+impij.ImagePlus2getNSlices()*
+3
+1*æ
+7^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javak k(—Œ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javak k(&	
+%7int" ij.ImagePlus#getStackIndex(III)I*
+
+impij.ImagePlus*
+""*2*
+""2getStackIndex(III)ÚÔ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javal l(*
+%8ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stack1ij.ImageStack*
+""2getProcessor(I)äá
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javal l(+
+
+%9void"4ij.ImageStack#addSlice(Lij/process/ImageProcessor;)V*
+
+stack2ij.ImageStack*!
+
+%8ij.process.ImageProcessor2%addSlice(Lij/process/ImageProcessor;)*
+8*ù
+8^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javaj j(Ø¨
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javaj j( 	
+%6int"ij.ImagePlus#getNFrames()I*
+
+impij.ImagePlus2getNFrames()*
+7
+1*º
+10^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javag g(√¿
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javag g($
+%0ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+impij.ImagePlus2
+getStack()ô
+ñ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javag g(%
+stack1ij.ImageStack"__id*
+
+%0ij.ImageStack´®
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javah% h(3	
+%1int"ij.ImagePlus#getWidth()I*
+
+impij.ImagePlus2
+getWidth()≠™
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javah5 h(D	
+%2int"ij.ImagePlus#getHeight()I*
+
+impij.ImagePlus2getHeight()áÑ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javah h($
+%3ij.ImageStack"ij.ImageStackµ
+≤
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javah h(E
+%4"ij.ImageStack#<init>(II)V*
+
+%3ij.ImageStack*
+	
+%1int*
+	
+%2intô
+ñ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javah h(F
+stack2ij.ImageStack"__id*
+
+%3ij.ImageStackØ¨
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javai i(	
+%5int"ij.ImagePlus#getNSlices()I*
+
+impij.ImagePlus2getNSlices()*
+4
+8*‡
+1^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javat	 t("{
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.javat t(
+
+stack2ij.ImageStack:
+impij.ImagePlus:
+"":
+""B"
+ij.plugin.GaussianBlur3D

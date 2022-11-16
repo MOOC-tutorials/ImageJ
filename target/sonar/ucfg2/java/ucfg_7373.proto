@@ -1,0 +1,588 @@
+
+"ij.plugin.Selection#interpolate()V[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaä ä("46*“
+46[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaã ã(ú
+ô
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaã ã(
+%0ij.ImagePlus"__id* *
+ij.plugin.Selection"
+impµ≤
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaã ã(
+%1
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+%0ij.ImagePlus2getRoi()ç
+ä
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaã ã(
+roi
+ij.gui.Roi"__id*
+
+%1
+ij.gui.Roi*
+44
+45*‚
+25[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java† †(3y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java°	 °(
+
+%38int"__id*
+""*
+22*„
+26[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java†' †(*y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java†' †(2
+
+%37int"__id*
+""
+}
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java†' †(2
+
+%35int"__id*
+
+
+%37int*
+25*„
+27[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java† †(y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java† †(&
+
+%36int"__id*
+""
+}
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java† †(&
+
+%35int"__id*
+
+
+%36int*
+25*È
+28[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaù ù(Å˛
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaû û(G
+%32ij.process.FloatPolygon">ij.gui.Roi#getInterpolatedPolygon(DZ)Lij/process/FloatPolygon;*
+
+roi
+ij.gui.Roi*
+""*
+""2getInterpolatedPolygon(DZ)©
+¶
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaû û(H
+polyij.process.FloatPolygon"__id* 
+
+%32ij.process.FloatPolygon£†
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaü
+ ü(
+
+%33int"ij.gui.Roi#getType()I*
+
+roi
+ij.gui.Roi2	getType()•¢
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java† †(
+%34boolean"ij.gui.Roi#isLine()Z*
+
+roi
+ij.gui.Roi2isLine()*
+26
+27*Ë
+29[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaù ù(
+}
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaù ù(
+
+%29int"__id*
+
+
+%31int*
+28*Ë
+30[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaù ù(
+}
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaù ù(
+
+%29int"__id*
+
+
+%30int*
+28*ß	
+31[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaô ô(≈¬
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaô ô(&
+%23double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()»≈
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaö ö(
+%24boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaõ õ(
+
+%25int"__id*
+""ù
+ö
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaõ õ(
+%26ij.ImagePlus"__id* *
+ij.plugin.Selection"
+imp¿
+Ω
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaõ õ(
+%27void"ij.Undo#setup(ILij/ImagePlus;)V*"	
+ij.Undo*
+
+
+%25int*
+
+%26ij.ImagePlus»≈
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaú ú(
+%28boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+29
+30*»
+32[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaò ò(
+"e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaò ò(
+
+""*˘
+10[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java© ©(ù
+ö
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java© ©(
+%45ij.ImagePlus"__id* *
+ij.plugin.Selection"
+impÕ 
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java© ©("
+%46ij.gui.ImageCanvas",ij.ImagePlus#getCanvas()Lij/gui/ImageCanvas;*
+
+%45ij.ImagePlus2getCanvas()ù
+ö
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java© ©(#
+icij.gui.ImageCanvas"__id*
+
+%46ij.gui.ImageCanvas*
+3
+8*à
+33[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaï ï(Gïí
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaï ï(G
+%20void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Adjust interval to match*
+
+%17boolean2 addCheckbox(Ljava/lang/String;Z)Ω∫
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javañ ñ(
+%21void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()¬ø
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaó ó(
+%22boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+31
+32*Ú
+34[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaï@ ï(Fà
+Ö
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaï@ ï(F
+%17boolean"__id*
+
+%19boolean*
+33*Ú
+35[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaï: ï(?à
+Ö
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaï: ï(?
+%17boolean"__id*
+
+%18boolean*
+33*‚
+13[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaß ß(y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaß	 ß(
+
+%44int"__id*
+""*
+10*Å
+36[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaî î(5ÉÄ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaî î(5
+%15void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+
+Smooth*
+
+%12boolean2 addCheckbox(Ljava/lang/String;Z)ç
+ä
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaï- ï(9
+%16boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+35
+34*Ú
+37[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaî. î(4à
+Ö
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaî. î(4
+%12boolean"__id*
+
+%14boolean*
+36*Ú
+38[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaî( î(-à
+Ö
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaî( î(-
+%12boolean"__id*
+
+%13boolean*
+36*‚
+16[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java• •(y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java• •(#
+
+%43int"__id*
+""*
+13*√
+39[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaí' í(4íè
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaí í(&
+%8ij.gui.GenericDialog"ij.gui.GenericDialog«
+ƒ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaí í(5
+%9"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%8ij.gui.GenericDialog*
+Interpolate†
+ù
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaí í(6
+gdij.gui.GenericDialog"__id*
+
+%8ij.gui.GenericDialog√¿
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaì ì(5
+%10void"Nij.gui.GenericDialog#addNumericField(Ljava/lang/String;DIILjava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+	Interval:*
+""*2*2*	
+pixel28addNumericField(Ljava/lang/String;DIILjava/lang/String;)ç
+ä
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaî î('
+%11boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+37
+38*Ê
+17[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java• •(y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java•
+ •(
+
+%42int"__id*
+""*
+13
+16*y
+0 "r
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java≥ ≥(
+implicit return*Ø
+1[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaØ Ø(À»
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaØ Ø('
+%57java.awt.Color"+ij.gui.Roi#getStrokeColor()Ljava/awt/Color;*
+
+roi
+ij.gui.Roi2getStrokeColor()ÈÊ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaØ Ø((
+%58void",ij.gui.Roi#setStrokeColor(Ljava/awt/Color;)V*
+
+p
+ij.gui.Roi*
+
+%57java.awt.Color2 setStrokeColor(Ljava/awt/Color;)¡æ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java∞ ∞(
+%59java.lang.String"&ij.gui.Roi#getName()Ljava/lang/String;*
+
+roi
+ij.gui.Roi2	getName()·ﬁ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java∞ ∞(
+%60void"'ij.gui.Roi#setName(Ljava/lang/String;)V*
+
+p
+ij.gui.Roi*
+
+%59java.lang.String2setName(Ljava/lang/String;)Ò
+Ó
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java± ±(
+%61void"Aij.plugin.Selection#transferProperties(Lij/gui/Roi;Lij/gui/Roi;)V*"
+ij.plugin.Selection*
+
+roi
+ij.gui.Roi*
+
+p
+ij.gui.Roiù
+ö
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java≤ ≤(
+%62ij.ImagePlus"__id* *
+ij.plugin.Selection"
+imp—Œ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java≤ ≤(
+%63void""ij.ImagePlus#setRoi(Lij/gui/Roi;)V*
+
+%62ij.ImagePlus*
+
+p
+ij.gui.Roi2setRoi(Lij/gui/Roi;)*
+0*‡
+2[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÆ Æ(≥∞
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÆ Æ((
+%55float"ij.gui.Roi#getStrokeWidth()F*
+
+roi
+ij.gui.Roi2getStrokeWidth()¬ø
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÆ Æ()
+%56void"ij.gui.Roi#setStrokeWidth(F)V*
+
+p
+ij.gui.Roi*
+
+%55float2setStrokeWidth(F)*
+1*∆
+3[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¨ ¨(çä
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¨ ¨(
+%52ij.gui.PolygonRoi"ij.gui.PolygonRoiÂ
+‚
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¨
+ ¨(#
+%53"5ij.gui.PolygonRoi#<init>(Lij/process/FloatPolygon;I)V*
+
+%52ij.gui.PolygonRoi*!
+
+polyij.process.FloatPolygon*
+""ì
+ê
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¨ ¨($
+p
+ij.gui.Roi"__id*
+
+%52ij.gui.PolygonRoiÕ 
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java≠ ≠(
+%54java.awt.BasicStroke",ij.gui.Roi#getStroke()Ljava/awt/BasicStroke;*
+
+roi
+ij.gui.Roi2getStroke()*
+2
+1*·
+5[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java´$ ´('y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java´$ ´(/
+
+%51int"__id*
+""
+}
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java´$ ´(/
+
+%49int"__id*
+
+
+%51int*
+3*·
+6[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java´ ´(y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java´ ´(#
+
+%50int"__id*
+""
+}
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java´ ´(#
+
+%49int"__id*
+
+
+%50int*
+3*ê
+7[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java´
+ ´(•¢
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java´
+ ´(
+%48boolean"ij.gui.Roi#isLine()Z*
+
+roi
+ij.gui.Roi2isLine()*
+5
+6*≤
+8[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java™' ™()«ƒ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java™' ™(<
+%47double"&ij.gui.ImageCanvas#getMagnification()D*
+
+icij.gui.ImageCanvas2getMagnification()*
+3
+7*û
+40[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaë ë(¥
+±
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaë ë(!
+
+%7void"(ij.Macro#setOptions(Ljava/lang/String;)V*"
+
+ij.Macro*
+
+interval=1*
+39*ù
+41[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaê ê(Ø
+¨
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaê ê(&
+%6java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macro*
+39
+40*˙
+42[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaê ê(å
+â
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaê ê(
+%5boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+39
+41*‚
+20[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java£& £('y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java£) £(4
+
+%41int"__id*
+""*
+17*»
+43[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaè è(
+"e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaè è(
+
+""*Ê
+21[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java£ £(y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java£ £($
+
+%40int"__id*
+""*
+17
+20*ä
+44[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaé é(	¢ü
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaé é(	
+%3int"ij.gui.Roi#getType()I*
+
+roi
+ij.gui.Roi2	getType()x
+v
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaé é(	
+%4int"__id*
+""*
+42
+43*Ê
+22[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java£ £(y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java£
+ £(
+
+%39int"__id*
+""*
+17
+21*¨
+45[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaç ç(	·ﬁ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaç ç(
+
+%2void".ij.plugin.Selection#noRoi(Ljava/lang/String;)V*
+ij.plugin.Selection*
+Interpolate2noRoi(Ljava/lang/String;)"e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaç ç(!
+""B
+ij.plugin.Selection

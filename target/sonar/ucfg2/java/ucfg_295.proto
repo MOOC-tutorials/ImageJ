@@ -1,0 +1,104 @@
+
+gij.plugin.filter.EDM#showDialog(Lij/ImagePlus;Ljava/lang/String;Lij/plugin/filter/PlugInFilterRunner;)I\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java‘ ‘("4*Ô
+
+2\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java™& ™(+±®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java™5 ™(G	
+%5int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()…‚
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java™ ™(%
+%6ij.ImageStack"ij.ImageStack·
+´
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java™ ™(H
+%7"ij.ImageStack#<init>(III)V*
+
+%6ij.ImageStack*
+""*
+""*
+	
+%5int¤
+¡
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java™ ™(H$
+ij.plugin.filter.EDM"
+
+outStack"__id*
+
+%6ij.ImageStack¶
+³
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaš š($
+%8ij.plugin.filter.MaximumFinder"__id*'*%
+ij.plugin.filter.EDM"
+	maxFinder±®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaš! š(3	
+%9int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()áÞ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaš š(4
+%10void"-ij.plugin.filter.MaximumFinder#setNPasses(I)V*&
+$
+%8ij.plugin.filter.MaximumFinder*
+	
+%9int2setNPasses(I)*
+1*ä
+3\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java˜& ˜(2y
+w
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java˜4 ˜(B	
+%4int"__id*
+""*
+2
+1*µ
+4\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java’ ’(¶
+³
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java’ ’(
+ij.plugin.filter.EDM"
+pfr"__id*,
+*
+pfr#ij.plugin.filter.PlugInFilterRunner©¦
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java“ “("	
+%0int"ij.ImagePlus#getWidth()I*
+
+impij.ImagePlus2
+getWidth()«¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java” ”(#	
+%1int"ij.ImagePlus#getHeight()I*
+
+impij.ImagePlus2getHeight()»
+¸
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java— —(*	
+%2int"#ij.IJ#setupDialog(Lij/ImagePlus;I)I*	"
+ij.IJ*
+
+impij.ImagePlus*
+""y
+w
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java˜ ˜(	
+%3int"__id*
+""*
+3
+1*É
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaœ œ("f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaœ œ(
+"":
+impij.ImagePlus:
+commandjava.lang.String:*
+pfr#ij.plugin.filter.PlugInFilterRunnerB
+ij.plugin.filter.EDM

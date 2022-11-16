@@ -1,0 +1,476 @@
+
+5ij.plugin.filter.Analyzer#measurePoint(Lij/gui/Roi;)Va
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaˆ ˆ("34*ç
+24a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÅ Å(Gô
+ñ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÅ Å(G
+imp2ij.ImagePlus"__id*
+
+%17ij.ImagePlus*
+22
+23*Ü
+25a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÅB Å(Fñ
+ì
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÅB Å(F
+%17ij.ImagePlus"__id*
+
+%19
+<nulltype>*
+24*π
+26a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÅ% Å(<©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÅ= Å(@
+%20ij.ImagePlus"__id*&*$
+ij.plugin.filter.Analyzer"
+impÇ
+ˇ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÅ% Å(A
+%18ij.ImagePlus"Oij.plugin.filter.Analyzer#getRedirectImageOrStack(Lij/ImagePlus;)Lij/ImagePlus;*
+ij.plugin.filter.Analyzer*
+
+%20ij.ImagePlusò
+ï
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÅ% Å(A
+%17ij.ImagePlus"__id*
+
+%18ij.ImagePlus*
+24*Œ
+27a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÄ Ä(Â‚
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÄ Ä((
+%15ij.process.FloatPolygon"5ij.gui.Roi#getFloatPolygon()Lij/process/FloatPolygon;*
+
+roi
+ij.gui.Roi2getFloatPolygon()¨
+©
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÄ Ä()
+pij.process.FloatPolygon"__id* 
+
+%15ij.process.FloatPolygon√
+¿
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÅ Å($
+%16boolean",ij.plugin.filter.Analyzer#isRedirectImage()Z*"
+ij.plugin.filter.Analyzer*
+25
+26*æ
+28a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java¸ ¸(Ω
+∫
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java¸ ¸(
+%11void")ij.plugin.filter.Analyzer#clearSummary()V*
+ij.plugin.filter.Analyzer≥
+∞
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˝ ˝(
+%12ij.measure.ResultsTable"__id*%*#
+ij.plugin.filter.Analyzer"
+rt©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˝ ˝(
+%13ij.ImagePlus"__id*&*$
+ij.plugin.filter.Analyzer"
+imp¨©
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˝ ˝(%
+%14void"<ij.measure.ResultsTable#update(ILij/ImagePlus;Lij/gui/Roi;)V* 
+
+%12ij.measure.ResultsTable*
+""*
+
+%13ij.ImagePlus*
+
+roi
+ij.gui.Roi2#update(ILij/ImagePlus;Lij/gui/Roi;)*
+27*˜
+29a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˚/ ˚(1≤
+Ø
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˚/ ˚(1
+%8ij.measure.ResultsTable"__id*%*#
+ij.plugin.filter.Analyzer"
+rtÕ 
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˚/ ˚(A	
+%9int"(ij.measure.ResultsTable#getLastColumn()I*
+
+%8ij.measure.ResultsTable2getLastColumn()
+}
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˚B ˚([
+
+%10int"__id*
+""*
+27
+28*Ç
+30a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˚ ˚(≤
+Ø
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˚ ˚(
+%6ij.measure.ResultsTable"__id*%*#
+ij.plugin.filter.Analyzer"
+rtŸ÷
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˚ ˚(*
+%7boolean"(ij.measure.ResultsTable#columnExists(I)Z*
+
+%6ij.measure.ResultsTable*
+""2columnExists(I)*
+27
+29*£
+31a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˙ ˙(≤
+Ø
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˙ ˙(
+%4ij.measure.ResultsTable"__id*%*#
+ij.plugin.filter.Analyzer"
+rt˙˜
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˙ ˙(%	
+%5int";ij.measure.ResultsTable#getColumnIndex(Ljava/lang/String;)I*
+
+%4ij.measure.ResultsTable*
+X2"getColumnIndex(Ljava/lang/String;)*
+29
+30*±
+32a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˘ ˘(	¡æ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˘ ˘(
+%3boolean""ij.plugin.filter.Analyzer#reset()Z*
+ij.plugin.filter.Analyzer2reset()*
+31*ò
+10a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaç	 ç(ıÚ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaç	 ç(% 
+%28ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stackij.ImageStack*
+""2getProcessor(I)±
+Æ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaç ç(%
+ipij.process.ImageProcessor"__id*"
+ 
+%28ij.process.ImageProcessor*
+8*é
+33a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java¯ ¯(
+ö
+ó
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java¯ ¯(
+%2boolean"ij.IJ#isResultsWindow()Z*	"
+ij.IJ*
+31
+32*û
+11a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaå$ å(,´®
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaå. å(:
+
+%27int"ij.ImageStack#size()I*
+
+stackij.ImageStack2size()*
+9
+10*‰
+34a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˜ ˜(≤
+Ø
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˜ ˜(
+%0ij.measure.ResultsTable"__id*%*#
+ij.plugin.filter.Analyzer"
+rtª∏
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java˜ ˜(	
+%1int"ij.measure.ResultsTable#size()I*
+
+%0ij.measure.ResultsTable2size()*
+27
+33*à
+13a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaã ã(ï
+í
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaã ã(
+ipij.process.ImageProcessor"__id*
+""*
+9
+11*ƒ
+14a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaä ä(‘—
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaä ä(+
+
+%26int"$ij.gui.PointRoi#getPointPosition(I)I*
+
+pointRoiij.gui.PointRoi*
+""2getPointPosition(I)*
+13*ö
+17a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÜ Ü(A£
+†
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÜ Ü(A
+pointRoiij.gui.PointRoi"__id*
+
+%24ij.gui.PointRoi*
+13
+14
+0*â
+18a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÜ< Ü(@ô
+ñ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÜ< Ü(@
+%24ij.gui.PointRoi"__id*
+
+%25
+<nulltype>*
+17*•
+19a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÜ8 Ü(;ô
+ñ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÜ8 Ü(;
+%24ij.gui.PointRoi"__id*
+
+roi
+ij.gui.Roiô
+ñ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÜ. Ü(;
+%24ij.gui.PointRoi"__id*
+
+roi
+ij.gui.Roi*
+17*
+0 "x
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java• •(
+implicit return*«
+2a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java£ £(—Œ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java£ £(
+%45void"+ij.plugin.filter.Analyzer#displayResults()V*
+ij.plugin.filter.Analyzer2displayResults()*
+13
+14
+0*…
+3a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java° °(ﬁ€
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java° °(
+%42void"Pij.plugin.filter.Analyzer#saveResults(Lij/process/ImageStatistics;Lij/gui/Roi;)V*
+ij.plugin.filter.Analyzer*%
+#
+statsij.process.ImageStatistics*
+
+pointij.gui.PointRoi25saveResults(Lij/process/ImageStatistics;Lij/gui/Roi;)≥
+∞
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java¢ ¢(	
+%43ij.measure.ResultsTable"__id*%*#
+ij.plugin.filter.Analyzer"
+rtπ
+∂
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.java¢ ¢(
+%44ij.measure.ResultsTable"__id*+*)
+ij.plugin.filter.Analyzer"
+
+systemRT*
+2
+13
+14
+0*Ö
+4a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaô ô(ƒ¡
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaö ö(+
+
+%40int"ij.gui.PointRoi#getCount(I)I*
+
+pointRoiij.gui.PointRoi*
+""2getCount(I)–Õ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaû û(
+%41void"#ij.gui.PointRoi#setCounterInfo([I)V*
+
+pointij.gui.PointRoi*
+""2setCounterInfo([I)*
+3*¥
+6a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaó ó(√¿
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaó ó(+
+%39int[]"ij.gui.PointRoi#getCounters()[I*
+
+pointRoiij.gui.PointRoi2getCounters()*
+3
+4*≥
+7a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javañ ñ(!¬ø
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javañ ñ(0
+
+%38int"ij.gui.PointRoi#getNCounters()I*
+
+pointRoiij.gui.PointRoi2getNCounters()*
+3
+6*Ñ
+8a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaê ê(®
+•
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaê ê(*
+
+%30int"java.lang.Math#round(F)I*"
+java.lang.Math*
+""®
+•
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaê1 ê(I
+
+%31int"java.lang.Math#round(F)I*"
+java.lang.Math*
+""ıÚ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaê ê(P
+%32void"'ij.process.ImageProcessor#setRoi(IIII)V*!
+
+ipij.process.ImageProcessor*
+
+
+%30int*
+
+
+%31int*2*22setRoi(IIII)Ê„
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaëK ë(`
+%33ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+imp2ij.ImagePlus2getCalibration()Ò
+Ó
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaë ë(a!
+%34ij.process.ImageStatistics"zij.process.ImageStatistics#getStatistics(Lij/process/ImageProcessor;ILij/measure/Calibration;)Lij/process/ImageStatistics;*"
+ij.process.ImageStatistics*!
+
+ipij.process.ImageProcessor*
+""*
+
+%33ij.measure.Calibration∂
+≥
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaë ë(b#
+statsij.process.ImageStatistics"__id*#
+!
+%34ij.process.ImageStatisticsèå
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaî î( 
+%35ij.gui.PointRoi"ij.gui.PointRoi¥
+±
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaî î(<
+%36"ij.gui.PointRoi#<init>(DD)V*
+
+%35ij.gui.PointRoi*
+""*
+""†
+ù
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaî î(=
+pointij.gui.PointRoi"__id*
+
+%35ij.gui.PointRoi√¿
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaï ï(
+%37void"ij.gui.Roi#setPosition(I)V*
+
+pointij.gui.PointRoi*
+""2setPosition(I)*
+3
+7*ä
+9a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaè	 è(ËÂ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaè	 è( 
+%29ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+imp2ij.ImagePlus2getProcessor()±
+Æ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaè è(
+ipij.process.ImageProcessor"__id*"
+ 
+%29ij.process.ImageProcessor*
+8*€
+21a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÖ Ö(»≈
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÖ Ö(
+%23ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+imp2ij.ImagePlus2
+getStack()ú
+ô
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÖ Ö(
+stackij.ImageStack"__id*
+
+%23ij.ImageStack*
+18
+19*ø
+22a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÉ É(å
+â
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÉ É(
+stackij.ImageStack"__id*
+""∏µ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÑ Ñ(
+
+%22int"ij.ImagePlus#getStackSize()I*
+
+imp2ij.ImagePlus2getStackSize()*
+18
+19
+21*µ
+23a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÇ Ç(©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÇ Ç(
+%21ij.ImagePlus"__id*&*$
+ij.plugin.filter.Analyzer"
+impô
+ñ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÇ Ç(
+imp2ij.ImagePlus"__id*
+
+%21ij.ImagePlus*
+22:
+roi
+ij.gui.RoiB
+ij.plugin.filter.Analyzer

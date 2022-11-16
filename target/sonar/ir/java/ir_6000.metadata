@@ -1,0 +1,9 @@
+ij.plugin.HyperStackMaker#run(Ljava/lang/String;)V
+ij.Macro#getOptions()Ljava/lang/String;
+ij.IJ#createImage(Ljava/lang/String;Ljava/lang/String;IIIII)Lij/ImagePlus;
+ij.plugin.HyperStackMaker#showDialog()Z
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.util.Tools#parseDouble(Ljava/lang/String;D)D
+ij.Prefs#get(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ij.util.Tools#split(Ljava/lang/String;)[Ljava/lang/String;
+ij.Prefs#set(Ljava/lang/String;Ljava/lang/String;)V

@@ -1,0 +1,5 @@
+ij.plugin.frame.RoiManager#scale(DDZ)V
+ij.plugin.RoiScaler#scale(Lij/gui/Roi;DDZ)Lij/gui/Roi;
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.plugin.frame.RoiManager#setOverlay(Lij/ImagePlus;Lij/gui/Overlay;)V
+ij.plugin.frame.RoiManager#newOverlay()Lij/gui/Overlay;

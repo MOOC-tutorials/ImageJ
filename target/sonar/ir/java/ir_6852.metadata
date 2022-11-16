@@ -1,0 +1,9 @@
+ij.plugin.Duplicator#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.Macro#getOptions()Ljava/lang/String;
+ij.plugin.Duplicator#straightenRotatedRect(Lij/ImagePlus;Lij/gui/Roi;Lij/ImagePlus;)V
+ij.plugin.Duplicator#recordCrop(Lij/ImagePlus;)V
+ij.IJ#isMacro()Z
+ij.IJ#error(Ljava/lang/String;)V
+ij.WindowManager#getUniqueName(Lij/ImagePlus;Ljava/lang/String;)Ljava/lang/String;
+ij.IJ#altKeyDown()Z

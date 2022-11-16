@@ -1,0 +1,165 @@
+
+*ij.WindowManager#getImage(I)Lij/ImagePlus;X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaé& é(."13"14"16*Â
+13X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaí
+ í("b
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaí í(
+""*Œ
+14X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaì ì(!¡
+
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaì ì(#	
+%1int"!ij.WindowManager#getImageCount()I*"
+ij.WindowManager*
+13
+12*•
+16X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaë ë(ª
+§
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaë ë(#	
+%0int""ij.WindowManager#getNthImageID(I)I*"
+ij.WindowManager*
+""*
+13
+14*Ğ
+1X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaı	 ı("q
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaı ı(
+
+impij.ImagePlus*Ñ
+2X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaü
+ ü("r
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaü ü(
+
+imp2ij.ImagePlus*‰
+3X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaû  û($¡
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaû  û(,
+
+%10int"ij.ImagePlus#getID()I*
+
+imp2ij.ImagePlus2getID()*
+2
+1*³
+5X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaú	 ú(¹
+¶
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaú	 ú(
+%9ij.ImagePlus"0ij.WindowManager#getCurrentImage()Lij/ImagePlus;*"
+ij.WindowManager
+Œ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaú ú(
+imp2ij.ImagePlus"__id*
+
+%9ij.ImagePlus*
+3
+1*õ
+7X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaö
+ ö(
+
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaö ö(
+impij.ImagePlus"__id*
+
+imp2ij.ImagePlus*
+5*Ğ
+8X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaó" ó(+ 
+
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaó" ó(+
+%5java.util.Vector"__id*#*!
+ij.WindowManager"
+	imageList£
+ 
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaó" ó(2
+%6java.lang.Object"
+__arrayGet*
+
+%5java.util.Vector*
+""˜
+•
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaó ó(3
+winij.gui.ImageWindow"__id*
+
+%6java.lang.ObjectÏÌ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaô
+ ô(
+%7ij.ImagePlus"/ij.gui.ImageWindow#getImagePlus()Lij/ImagePlus;*
+
+winij.gui.ImageWindow2getImagePlus()
+Œ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaô ô(
+imp2ij.ImagePlus"__id*
+
+%7ij.ImagePlus 
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaõ õ(	
+%8int"ij.ImagePlus#getID()I*
+
+imp2ij.ImagePlus2getID()*
+7
+9*¯
+9X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaò ò( 
+
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaò ò(
+%3java.util.Vector"__id*#*!
+ij.WindowManager"
+	imageList¤¡
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaò ò("	
+%4int"java.util.Vector#size()I*
+
+%3java.util.Vector2size()*
+5
+8*ä
+10X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javañ ñ(
+}
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javañ ñ(
+impij.ImagePlus"__id*
+""*
+9*Ò
+11X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javağ
+ ğ("r
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javağ ğ(
+
+imp2ij.ImagePlus*É
+12X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaî î(Ì
+É
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaî î(9
+%2ij.ImagePlus"7ij.macro.Interpreter#getBatchModeImage(I)Lij/ImagePlus;*"
+ij.macro.Interpreter*
+""
+Œ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaî î(:
+imp2ij.ImagePlus"__id*
+
+%2ij.ImagePlus*
+10
+11:
+""B"
+ij.WindowManager

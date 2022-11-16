@@ -1,0 +1,16 @@
+ij.gui.GenericDialog#getNextString()Ljava/lang/String;
+ij.plugin.frame.Recorder#recordOption(Ljava/lang/String;)V
+ij.Macro#getValue(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.Character#isLetter(C)Z
+ij.plugin.frame.Recorder#fixString(Ljava/lang/String;)Ljava/lang/String;
+java.lang.Character#isDigit(C)Z
+java.lang.String#charAt(I)C
+ij.macro.Interpreter#getInstance()Lij/macro/Interpreter;
+ij.plugin.frame.Recorder#getCommandOptions()Ljava/lang/String;
+ij.gui.GenericDialog#recordOption(Ljava/lang/Object;Ljava/lang/String;)V
+java.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+java.lang.String#length()I
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#startsWith(Ljava/lang/String;)Z

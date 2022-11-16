@@ -1,0 +1,141 @@
+
+Bij.io.FileOpener#validateFileInfo(Ljava/io/File;Lij/io/FileInfo;)ZX
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaú ú( "19*”
+2X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java∞ ∞(
+è
+å
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java∞ ∞(D
+%10void"=ij.io.FileOpener#error(Ljava/lang/String;Lij/io/FileInfo;JJ)V*"
+ij.io.FileOpener*&$
+"Offset + image size > file length.*
+
+fiij.io.FileInfo*
+""*
+"""b
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java± ±(
+""*¬
+14X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java§ §("b
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java§ §(
+""*∆
+17X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java† †(
+Å
+˛
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java† †(7
+
+%1void"=ij.io.FileOpener#error(Ljava/lang/String;Lij/io/FileInfo;JJ)V*"
+ij.io.FileOpener*
+Width or height <= 0.*
+
+fiij.io.FileInfo*
+""*
+"""b
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java° °(
+""*„
+6X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java≠ ≠(|
+z
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java≠ ≠(!
+
+%7long"__id*
+
+
+%9long*
+2
+1*„
+7X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java≠ ≠(|
+z
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java≠ ≠(
+
+%7long"__id*
+
+
+%8long*
+2
+1*û
+19X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaù ù(´®
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaù ù(
+
+%0long"ij.io.FileInfo#getOffset()J*
+
+fiij.io.FileInfo2getOffset()*
+14
+17
+11
+12*√
+8X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java´ ´(†ù
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java´ ´(
+
+%5long"java.io.File#length()J*
+
+fjava.io.File2length()∏µ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java¨! ¨(6	
+%6int""ij.io.FileInfo#getBytesPerPixel()I*
+
+fiij.io.FileInfo2getBytesPerPixel()*
+6
+7*¡
+9X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java™
+ ™("b
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java™ ™(
+""*›
+10X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java©& ©((u
+s
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java©6 ©(O	
+%4int"__id*
+""*
+8
+9*ﬁ
+11X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java© ©(u
+s
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java© ©("	
+%3int"__id*
+""*
+9
+10*ƒ
+12X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java¶ ¶(
+ˇ
+¸
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java¶ ¶(5
+
+%2void"=ij.io.FileOpener#error(Ljava/lang/String;Lij/io/FileInfo;JJ)V*"
+ij.io.FileOpener*
+Offset is negative.*
+
+fiij.io.FileInfo*
+""*
+"""b
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaß ß(
+""*¡
+1X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java≥	 ≥("b
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java≥ ≥(
+"":
+fjava.io.File:
+fiij.io.FileInfoB"
+ij.io.FileOpener

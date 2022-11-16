@@ -1,0 +1,16 @@
+ij.io.FileOpener#createInputStream(Lij/io/FileInfo;)Ljava/io/InputStream;
+java.net.URL#<init>(Ljava/lang/String;)V
+ij.io.RandomAccessStream#<init>(Ljava/io/InputStream;)V
+java.net.URL#openStream()Ljava/io/InputStream;
+ij.io.FileOpener#validateFileInfo(Ljava/io/File;Lij/io/FileInfo;)Z
+ij.io.RandomAccessStream#instance-init#
+java.io.File#instance-init#
+java.util.zip.GZIPInputStream#instance-init#
+java.io.FileInputStream#instance-init#
+java.io.FileInputStream#<init>(Ljava/io/File;)V
+java.io.File#<init>(Ljava/lang/String;)V
+java.lang.String#length()I
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.util.zip.GZIPInputStream#<init>(Ljava/io/InputStream;I)V
+java.lang.String#endsWith(Ljava/lang/String;)Z
+java.net.URL#instance-init#

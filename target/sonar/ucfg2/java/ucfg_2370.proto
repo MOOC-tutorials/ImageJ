@@ -1,0 +1,162 @@
+
+1ij.Undo#swapImages(Lij/ImagePlus;Lij/ImagePlus;)ZO
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÊ Ê("6*¯
+2O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÍ
+ Í("Y
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÍ Í(
+""*ä
+3O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÌ/ Ì(1…
+‚
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÌ/ Ì(@
+%6boolean"ij.IJ#macroRunning()Z*	"
+ij.IJ*
+2
+1*¨
+4O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÌ Ì(	£ 
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÌ Ì(	
+%4int"ij.ImagePlus#getBitDepth()I*
+
+imp1ij.ImagePlus2getBitDepth()£ 
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÌ Ì(+	
+%5int"ij.ImagePlus#getBitDepth()I*
+
+imp2ij.ImagePlus2getBitDepth()*
+2
+3* 
+5O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaË* Ë(.Ÿœ
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaË* Ë(:	
+%2int"ij.ImagePlus#getHeight()I*
+
+imp1ij.ImagePlus2getHeight()Ÿœ
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaË< Ë(L	
+%3int"ij.ImagePlus#getHeight()I*
+
+imp2ij.ImagePlus2getHeight()*
+2
+4*œ
+6O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaË Ë(
+š
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaË Ë(	
+%0int"ij.ImagePlus#getWidth()I*
+
+imp1ij.ImagePlus2
+getWidth()š
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaË Ë(&	
+%1int"ij.ImagePlus#getWidth()I*
+
+imp2ij.ImagePlus2
+getWidth()*
+2
+5*Â
+1O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÎ Î(ÕÒ
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÎ Î(*
+%7ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+imp1ij.ImagePlus2getProcessor()Ÿ
+œ
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÎ Î(+ 
+ip1ij.process.ImageProcessor"__id*!
+
+%7ij.process.ImageProcessorÕÒ
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÏ Ï(*
+%8ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+imp2ij.ImagePlus2getProcessor()Ÿ
+œ
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÏ Ï(+ 
+ip2ij.process.ImageProcessor"__id*!
+
+%8ij.process.ImageProcessorµ²
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÐ Ð(
+%9double"#ij.process.ImageProcessor#getMin()D*"
+ 
+ip1ij.process.ImageProcessor2getMin()¶³
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÑ Ñ(
+%10double"#ij.process.ImageProcessor#getMax()D*"
+ 
+ip1ij.process.ImageProcessor2getMax()¶³
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÒ Ò(
+%11double"#ij.process.ImageProcessor#getMin()D*"
+ 
+ip2ij.process.ImageProcessor2getMin()¶³
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÓ Ó(
+%12double"#ij.process.ImageProcessor#getMax()D*"
+ 
+ip2ij.process.ImageProcessor2getMax()×Ô
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÔ Ô('
+%13java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*"
+ 
+ip1ij.process.ImageProcessor2getPixels()‰†
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÔ Ô((
+%14void"@ij.process.ImageProcessor#setSnapshotPixels(Ljava/lang/Object;)V*"
+ 
+ip2ij.process.ImageProcessor*
+
+%13java.lang.Object2%setSnapshotPixels(Ljava/lang/Object;)ÆÃ
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÕ Õ(
+%15void",ij.process.ImageProcessor#swapPixelArrays()V*"
+ 
+ip2ij.process.ImageProcessor2swapPixelArrays()çä
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÖ Ö('
+%16java.lang.Object"?ij.process.ImageProcessor#getSnapshotPixels()Ljava/lang/Object;*"
+ 
+ip2ij.process.ImageProcessor2getSnapshotPixels()ùö
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÖ Ö((
+%17void"8ij.process.ImageProcessor#setPixels(Ljava/lang/Object;)V*"
+ 
+ip1ij.process.ImageProcessor*
+
+%16java.lang.Object2setPixels(Ljava/lang/Object;)öó
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.java× ×(
+%18void"@ij.process.ImageProcessor#setSnapshotPixels(Ljava/lang/Object;)V*"
+ 
+ip2ij.process.ImageProcessor*
+""2%setSnapshotPixels(Ljava/lang/Object;)ÔÑ
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaØ Ø(
+%19void"+ij.process.ImageProcessor#setMinAndMax(DD)V*"
+ 
+ip1ij.process.ImageProcessor*
+""*
+""2setMinAndMax(DD)ÔÑ
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÙ Ù(
+%20void"+ij.process.ImageProcessor#setMinAndMax(DD)V*"
+ 
+ip2ij.process.ImageProcessor*
+""*
+""2setMinAndMax(DD)"Y
+O
+C/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Undo.javaÚ Ú(
+"":
+imp1ij.ImagePlus:
+imp2ij.ImagePlusB"	
+ij.Undo

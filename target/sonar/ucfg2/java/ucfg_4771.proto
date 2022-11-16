@@ -1,0 +1,307 @@
+
+0ij.io.ImportDialog#getFileInfo()Lij/io/FileInfo;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÎ Î("37*œ
+35Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÓ Ó(¢
+ü
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÓ Ó(
+%1java.lang.String[]"__id*!*
+ij.io.ImportDialog"
+typesß
+§
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÓ Ó(+
+%2java.lang.String"
+__arrayGet*
+
+%1java.lang.String[]*
+""û
+õ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÓ Ó(,
+	imageTypejava.lang.String"__id*
+
+%2java.lang.StringÖÇ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÔ Ô(
+%3ij.io.FileInfo"ij.io.FileInfoó
+î
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÔ Ô(
+%4"ij.io.FileInfo#<init>()V*
+
+%3ij.io.FileInfoì
+ê
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÔ Ô(
+fiij.io.FileInfo"__id*
+
+%3ij.io.FileInfo£
+†
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÒ Ò(
+%5java.lang.String"__id*$*"
+ij.io.ImportDialog"
+
+fileName£
+†
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÒ Ò("
+
+fiij.io.FileInfo"
+
+fileName"__id*
+
+%5java.lang.String§
+°
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÚ Ú('
+%6java.lang.String"__id*%*#
+ij.io.ImportDialog"
+	directory÷
+”
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÚ Ú((
+%7java.lang.String"8ij.IJ#addSeparator(Ljava/lang/String;)Ljava/lang/String;*	"
+ij.IJ*
+
+%6java.lang.String§
+°
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÚ Ú((#
+ij.io.ImportDialog"
+	directory"__id*
+
+%7java.lang.String§
+°
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÛ Û(
+%8java.lang.String"__id*%*#
+ij.io.ImportDialog"
+	directory§
+°
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÛ Û(#
+
+fiij.io.FileInfo"
+	directory"__id*
+
+%8java.lang.String*
+32*ﬁ
+24Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaá á(ÔÏ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaá á(.
+%13boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*
+32-bit Unsigned2equals(Ljava/lang/Object;)*
+
+2
+22
+1*∆
+36Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÌ
+ Ì("d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÌ Ì(
+""*Ÿ
+14Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaë ë(ÍÁ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaë ë()
+%18boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*
+
+24-bit BGR2equals(Ljava/lang/Object;)*
+
+2
+12
+1*£
+37Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÏ Ï(∂≥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÏ Ï(
+%0boolean" ij.io.ImportDialog#showDialog()Z*
+ij.io.ImportDialog2showDialog()*
+35
+36*‹
+26Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÖ Ö(ÌÍ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÖ Ö(,
+%12boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*
+32-bit Signed2equals(Ljava/lang/Object;)*
+
+24
+2
+1*‡
+16Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaè è(ÒÓ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaè è(0
+%17boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*
+24-bit RGB Planar2equals(Ljava/lang/Object;)*
+
+2
+14
+1*ﬁ
+28Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÉ É(ÔÏ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÉ É(.
+%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*
+16-bit Unsigned2equals(Ljava/lang/Object;)*
+
+2
+26
+1*Ÿ
+18Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaç ç(ÍÁ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaç ç()
+%16boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*
+
+24-bit RGB2equals(Ljava/lang/Object;)*
+
+2
+16
+1*∆
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaû û(√¿
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaû û(%
+%25java.lang.Object"(ij.io.FileInfo#clone()Ljava/lang/Object;*
+
+fiij.io.FileInfo2clone()®
+•
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaû û(%&
+ij.io.ImportDialog"
+lastFileInfo"__id*
+
+%25java.lang.Object"t
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaü ü(
+
+fiij.io.FileInfo* 
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaù ù(Æ
+´
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaù ù(.
+%23java.lang.String"__concat*
+ImportDialog: *
+
+fiij.io.FileInfo≤
+Ø
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaù ù(/
+%24void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%23java.lang.String*
+1*÷
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaô ô(ÏÈ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaô ô(+
+%22boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*
+1-bit Bitmap2equals(Ljava/lang/Object;)*
+2
+1*ÿ
+8Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaó ó(ÎË
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaó ó(*
+%21boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*
+32-bit ABGR2equals(Ljava/lang/Object;)*	
+2
+6
+1*‹
+30Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÅ Å(ÌÍ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaÅ Å(,
+%10boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*
+16-bit Signed2equals(Ljava/lang/Object;)*
+
+2
+28
+1*⁄
+20Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaã ã(ÎË
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaã ã(*
+%15boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*
+64-bit Real2equals(Ljava/lang/Object;)*
+
+2
+18
+1*”
+32Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.java˙ ˙(‰·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaˇ ˇ(
+%9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*	
+8-bit2equals(Ljava/lang/Object;)*
+
+2
+30
+1*Ÿ
+10Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaï ï(ÎË
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaï ï(*
+%20boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*
+32-bit ARGB2equals(Ljava/lang/Object;)*	
+2
+8
+1*⁄
+22Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaâ â(ÎË
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaâ â(*
+%14boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*
+32-bit Real2equals(Ljava/lang/Object;)*
+
+2
+20
+1*›
+12Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaì ì(ÓÎ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImportDialog.javaì ì(-
+%19boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+	imageTypejava.lang.String*
+24-bit Integer2equals(Ljava/lang/Object;)*
+
+2
+10
+1B
+ij.io.ImportDialog

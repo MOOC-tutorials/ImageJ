@@ -1,0 +1,5 @@
+ij.plugin.ChannelSplitter#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.plugin.ChannelSplitter#split(Lij/ImagePlus;)[Lij/ImagePlus;
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+ij.plugin.ChannelSplitter#splitRGB(Lij/ImagePlus;)V

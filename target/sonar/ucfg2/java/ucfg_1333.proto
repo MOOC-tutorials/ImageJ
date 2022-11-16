@@ -1,0 +1,207 @@
+
+Pij.plugin.Binner#shrink(Lij/process/ImageProcessor;I)Lij/process/ImageProcessor;X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javañ ñ("19"21*≈
+4X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java© ©(Ì
+Í
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java© ©($
+%13float"7ij.plugin.Binner#getSum(Lij/process/ImageProcessor;II)F*
+ij.plugin.Binner*!
+
+ipij.process.ImageProcessor*
+""*
+""ﬂ‹
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java© ©(%
+%14void"$ij.process.ImageProcessor#setf(IIF)V*"
+ 
+ip2ij.process.ImageProcessor*
+""*
+""*
+
+%13float2	setf(IIF)*
+4
+6
+8
+10
+12
+1*≈
+6X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javaß ß(Ì
+Í
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javaß ß($
+%11float"7ij.plugin.Binner#getMax(Lij/process/ImageProcessor;II)F*
+ij.plugin.Binner*!
+
+ipij.process.ImageProcessor*
+""*
+""ﬂ‹
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javaß ß(%
+%12void"$ij.process.ImageProcessor#setf(IIF)V*"
+ 
+ip2ij.process.ImageProcessor*
+""*
+""*
+
+%11float2	setf(IIF)*
+4
+6
+8
+10
+12
+1*≥
+18X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javaù
+ ù(”
+–
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javaù
+ ù(D
+%4ij.process.ImageProcessor"nij.plugin.Binner#shrinkRGB(Lij/process/ColorProcessor;Lij/process/ColorProcessor;I)Lij/process/ImageProcessor;*
+ij.plugin.Binner*!
+
+ipij.process.ImageProcessor*"
+ 
+ip2ij.process.ImageProcessor*
+"""}
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javaù ù(E!
+
+%4ij.process.ImageProcessor*∫
+19X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javaô
+ ô(æª
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javaô
+ ô(	
+%1int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()¿Ω
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javaö
+ ö(	
+%2int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()êç
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javaõ õ(/
+%3ij.process.ImageProcessor"Hij.process.ImageProcessor#createProcessor(II)Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor*
+""*
+""2createProcessor(II)®
+•
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javaõ õ(0 
+ip2ij.process.ImageProcessor"__id*!
+
+%3ij.process.ImageProcessor*
+4
+6
+18
+8
+10
+1
+12*√
+8X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java• •(Ï
+È
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java• •($
+%9float"7ij.plugin.Binner#getMin(Lij/process/ImageProcessor;II)F*
+ij.plugin.Binner*!
+
+ipij.process.ImageProcessor*
+""*
+""ﬁ€
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java• •(%
+%10void"$ij.process.ImageProcessor#setf(IIF)V*"
+ 
+ip2ij.process.ImageProcessor*
+""*
+""*
+
+%9float2	setf(IIF)*
+4
+6
+8
+10
+12
+1*á
+21X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javaó ó(†
+ù
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.javaó ó( 
+%0java.lang.String[]"__id*!*
+ij.plugin.Binner"	
+methods*
+19*∆
+10X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java£ £(Ô
+Ï
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java£ £('
+%7float":ij.plugin.Binner#getMedian(Lij/process/ImageProcessor;II)F*
+ij.plugin.Binner*!
+
+ipij.process.ImageProcessor*
+""*
+""›⁄
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java£ £((
+
+%8void"$ij.process.ImageProcessor#setf(IIF)V*"
+ 
+ip2ij.process.ImageProcessor*
+""*
+""*
+
+%7float2	setf(IIF)*
+4
+6
+8
+10
+12
+1*«
+12X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java° °(
+Ì
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java° °((
+%5float";ij.plugin.Binner#getAverage(Lij/process/ImageProcessor;II)F*
+ij.plugin.Binner*!
+
+ipij.process.ImageProcessor*
+""*
+""›⁄
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java° °()
+
+%6void"$ij.process.ImageProcessor#setf(IIF)V*"
+ 
+ip2ij.process.ImageProcessor*
+""*
+""*
+
+%5float2	setf(IIF)*
+4
+6
+8
+10
+12
+1*›
+1X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java¨	 ¨("~
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Binner.java¨ ¨("
+ 
+ip2ij.process.ImageProcessor:
+ipij.process.ImageProcessor:
+""B
+ij.plugin.Binner

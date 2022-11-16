@@ -1,0 +1,540 @@
+
+Eij.io.ImageReader#readPixels(Ljava/io/InputStream;)Ljava/lang/Object;Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÇ Ç("46*ô
+46Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÉ É(à
+Ö
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÉ É(
+pixelsjava.lang.Object"__id*
+""ß
+§
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÑ Ñ((
+
+%0long"%java.lang.System#currentTimeMillis()J*"
+java.lang.System*
+5*‘
+24Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¨ ¨(ÏÈ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java≠ ≠(
+%17void".ij.io.ImageReader#skip(Ljava/io/InputStream;)V*
+ij.io.ImageReader*
+
+injava.io.InputStream2skip(Ljava/io/InputStream;)*
+23*ä
+25Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java´ ´(%¢
+ü
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java´ ´(%
+injava.io.InputStream"__id*!
+
+%15ij.io.RandomAccessStream*
+24*‚
+26Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java´" ´($ôñ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java´ ´(!
+%15ij.io.RandomAccessStream"ij.io.RandomAccessStreamﬁ
+€
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java´ ´(%
+%16"7ij.io.RandomAccessStream#<init>(Ljava/io/InputStream;)V*!
+
+%15ij.io.RandomAccessStream*
+
+injava.io.InputStream*
+25*Ü
+27Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java™I ™(Kö
+ó
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java™I ™(K
+%14ij.io.FileInfo"__id**
+ij.io.ImageReader"
+fi*
+24
+26*Ü
+28Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java™0 ™(2ö
+ó
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java™0 ™(2
+%13ij.io.FileInfo"__id**
+ij.io.ImageReader"
+fi*
+24
+27*˜
+30Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaß ß('ê
+ç
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaß ß('
+pixelsjava.lang.Object"__id*
+
+%12int[]*
+4*Ë
+31Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaß ß(#Ä˝
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaß ß('
+%12int[]"8ij.io.ImageReader#readChunkyRGB(Ljava/io/InputStream;)[I*
+ij.io.ImageReader*
+
+injava.io.InputStream2$readChunkyRGB(Ljava/io/InputStream;)*
+30*‘
+32Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java• •(*ÏÈ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¶ ¶(
+%11void".ij.io.ImageReader#skip(Ljava/io/InputStream;)V*
+ij.io.ImageReader*
+
+injava.io.InputStream2skip(Ljava/io/InputStream;)*
+31*Ô
+10Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¡ ¡('à
+Ö
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¬ ¬(
+pixelsjava.lang.Object"__id*
+""*
+4*æ
+33Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaü ®(ô
+ñ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java• •(
+%9ij.io.FileInfo"__id**
+ij.io.ImageReader"
+fi∫∑
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java• •(*
+
+%10int""ij.io.FileInfo#getBytesPerPixel()I*
+
+%9ij.io.FileInfo2getBytesPerPixel()*
+32*Ï
+11Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¡ ¡("ÑÅ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¡ ¡(&
+%26short[]"9ij.io.ImageReader#read12bitImage(Ljava/io/InputStream;)[S*
+ij.io.ImageReader*
+
+injava.io.InputStream2%read12bitImage(Ljava/io/InputStream;)*
+10*‘
+12Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaø √(ÏÈ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¿ ¿(
+%25void".ij.io.ImageReader#skip(Ljava/io/InputStream;)V*
+ij.io.ImageReader*
+
+injava.io.InputStream2skip(Ljava/io/InputStream;)*
+11*¯
+34Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaù ù((ë
+é
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaù ù((
+pixelsjava.lang.Object"__id*
+
+%8float[]*
+4*Î
+35Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaù ù($ÉÄ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaù ù((
+%8float[]"9ij.io.ImageReader#read64bitImage(Ljava/io/InputStream;)[F*
+ij.io.ImageReader*
+
+injava.io.InputStream2%read64bitImage(Ljava/io/InputStream;)*
+34*Ç
+13Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaΩ Ω()õ
+ò
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaΩ Ω()
+pixelsjava.lang.Object"__id*
+
+%24java.lang.Object*
+4*”
+36Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaö û(ÎË
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaú ú(
+
+%7void".ij.io.ImageReader#skip(Ljava/io/InputStream;)V*
+ij.io.ImageReader*
+
+injava.io.InputStream2skip(Ljava/io/InputStream;)*
+35*á
+14Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaΩ Ω(%üú
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaΩ Ω()
+%24java.lang.Object"Jij.io.ImageReader#readRGB48Planar(Ljava/io/InputStream;)Ljava/lang/Object;*
+ij.io.ImageReader*
+
+injava.io.InputStream2&readRGB48Planar(Ljava/io/InputStream;)*
+13*‘
+15Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∫ æ(ÏÈ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaº º(
+%23void".ij.io.ImageReader#skip(Ljava/io/InputStream;)V*
+ij.io.ImageReader*
+
+injava.io.InputStream2skip(Ljava/io/InputStream;)*
+14*¯
+37Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaò ò((ë
+é
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaò ò((
+pixelsjava.lang.Object"__id*
+
+%6float[]*
+4*Î
+38Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaò ò($ÉÄ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaò ò((
+%6float[]"9ij.io.ImageReader#read32bitImage(Ljava/io/InputStream;)[F*
+ij.io.ImageReader*
+
+injava.io.InputStream2%read32bitImage(Ljava/io/InputStream;)*
+37*Ç
+16Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∏ ∏(#õ
+ò
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∏ ∏(#
+pixelsjava.lang.Object"__id*
+
+%22java.lang.Object*
+4*”
+39Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaì ô(ÎË
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaó ó(
+
+%5void".ij.io.ImageReader#skip(Ljava/io/InputStream;)V*
+ij.io.ImageReader*
+
+injava.io.InputStream2skip(Ljava/io/InputStream;)*
+38*˚
+17Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∏ ∏(ìê
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∏ ∏(#
+%22java.lang.Object"Dij.io.ImageReader#readRGB48(Ljava/io/InputStream;)Ljava/lang/Object;*
+ij.io.ImageReader*
+
+injava.io.InputStream2 readRGB48(Ljava/io/InputStream;)*
+16*‘
+18Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaµ π(ÏÈ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∑ ∑(
+%21void".ij.io.ImageReader#skip(Ljava/io/InputStream;)V*
+ij.io.ImageReader*
+
+injava.io.InputStream2skip(Ljava/io/InputStream;)*
+17*¯
+19Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java≥ ≥('ë
+é
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java≥ ≥('
+pixelsjava.lang.Object"__id*
+
+%20byte[]*
+4*Ÿ
+3Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÃ Ã("y
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÕ Õ(
+
+pixelsjava.lang.Object*ô
+4Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÀ À(≥
+∞
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÀ À(
+%50void"#ij.io.ImageReader#showProgress(II)V*
+ij.io.ImageReader*2*2*
+3*£
+5Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÜ Ü(ö
+ó
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÜ Ü(
+%29ij.io.FileInfo"__id**
+ij.io.ImageReader"
+fiw
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaá	 á(
+
+%30int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaà	 à(
+
+%31int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaç	 ç(
+
+%32int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaé	 é(!
+
+%33int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaì	 ì(
+
+%34int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaî	 î(!
+
+%35int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaï	 ï(
+
+%36int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaö	 ö(
+
+%37int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaü	 ü(
+
+%38int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java†	 †(
+
+%39int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java°	 °(
+
+%40int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¢	 ¢(
+
+%41int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java£	 £(
+
+%42int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java§	 §(
+
+%43int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java©	 ©(
+
+%44int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∞	 ∞(
+
+%45int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaµ	 µ(
+
+%46int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∫	 ∫(
+
+%47int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaø	 ø(!
+
+%48int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaƒ	 ƒ(!
+
+%49int"__id*
+""*2
+24
+36
+15
+39
+28
+18
+6
+9
+42
+21
+33
+12
+45*Ó
+6Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java» …(à
+Ö
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java… …(
+pixelsjava.lang.Object"__id*
+""*
+4*¯
+7Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∆ ∆((í
+è
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∆ ∆((
+pixelsjava.lang.Object"__id*
+
+%28float[]*
+4*Í
+8Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∆ ∆($ÑÅ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∆ ∆((
+%28float[]"9ij.io.ImageReader#read24bitImage(Ljava/io/InputStream;)[F*
+ij.io.ImageReader*
+
+injava.io.InputStream2%read24bitImage(Ljava/io/InputStream;)*
+7*“
+9Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaƒ «(ÏÈ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java≈ ≈(
+%27void".ij.io.ImageReader#skip(Ljava/io/InputStream;)V*
+ij.io.ImageReader*
+
+injava.io.InputStream2skip(Ljava/io/InputStream;)*
+8*¯
+40Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaë ë((ë
+é
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaë ë((
+pixelsjava.lang.Object"__id*
+
+%4short[]*
+4*Î
+41Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaë ë($ÉÄ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaë ë((
+%4short[]"9ij.io.ImageReader#read16bitImage(Ljava/io/InputStream;)[S*
+ij.io.ImageReader*
+
+injava.io.InputStream2%read16bitImage(Ljava/io/InputStream;)*
+40*”
+42Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaç í(ÎË
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaê ê(
+
+%3void".ij.io.ImageReader#skip(Ljava/io/InputStream;)V*
+ij.io.ImageReader*
+
+injava.io.InputStream2skip(Ljava/io/InputStream;)*
+41*È
+20Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java≥ ≥(#Å˛
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java≥ ≥('
+%20byte[]"8ij.io.ImageReader#read1bitImage(Ljava/io/InputStream;)[B*
+ij.io.ImageReader*
+
+injava.io.InputStream2$read1bitImage(Ljava/io/InputStream;)*
+19*‘
+21Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∞ ¥(ÏÈ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java≤ ≤(
+%19void".ij.io.ImageReader#skip(Ljava/io/InputStream;)V*
+ij.io.ImageReader*
+
+injava.io.InputStream2skip(Ljava/io/InputStream;)*
+20*˜
+43Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaã ã('ê
+ç
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaã ã('
+pixelsjava.lang.Object"__id*
+
+%2byte[]*
+4*Ë
+44Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaã ã(#Ä˝
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaã ã('
+%2byte[]"8ij.io.ImageReader#read8bitImage(Ljava/io/InputStream;)[B*
+ij.io.ImageReader*
+
+injava.io.InputStream2$read8bitImage(Ljava/io/InputStream;)*
+43*˜
+22Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÆ Æ('ê
+ç
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÆ Æ('
+pixelsjava.lang.Object"__id*
+
+%18int[]*
+4*”
+45Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaá å(ÎË
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaä ä(
+
+%1void".ij.io.ImageReader#skip(Ljava/io/InputStream;)V*
+ij.io.ImageReader*
+
+injava.io.InputStream2skip(Ljava/io/InputStream;)*
+44*Ë
+23Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÆ Æ(#Ä˝
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÆ Æ('
+%18int[]"8ij.io.ImageReader#readPlanarRGB(Ljava/io/InputStream;)[I*
+ij.io.ImageReader*
+
+injava.io.InputStream2$readPlanarRGB(Ljava/io/InputStream;)*
+22:
+injava.io.InputStreamB
+ij.io.ImageReader

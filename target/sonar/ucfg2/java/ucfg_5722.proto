@@ -1,0 +1,164 @@
+
+9ij.gui.Overlay#crop(Ljava/awt/Rectangle;)Lij/gui/Overlay;V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaé é("19"20*î
+13V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaò ò(…‚
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaò ò(#
+%4boolean"4java.awt.Rectangle#intersects(Ljava/awt/Rectangle;)Z*
+
+boundsjava.awt.Rectangle*!
+
+	roiBoundsjava.awt.Rectangle2 intersects(Ljava/awt/Rectangle;)*
+11
+12*§
+2V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaø ø(ÄÁ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaø ø(
+%13void"ij.gui.Overlay#translate(II)V*
+
+overlay2ij.gui.Overlay*
+""*
+""2translate(II)*
+1*ß
+5V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaö ö( z
+x
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaö ö( 
+
+%10int"__id*
+
+
+%12int*
+2
+1*É
+17V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaï ï(ÃÀ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaï ï((
+%3java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roi
+ij.gui.Roi2getBounds()
+›
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaï ï()
+	roiBoundsjava.awt.Rectangle"__id*
+
+%3java.awt.Rectangle*
+13*ß
+6V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaö ö(z
+x
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaö ö(
+
+%10int"__id*
+
+
+%11int*
+2
+1*€
+19V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaì ì(¸µ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaì ì(
+%1ij.gui.Overlay"'ij.gui.Overlay#create()Lij/gui/Overlay;*
+ij.gui.Overlay2create()•
+’
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaì ì(
+overlay2ij.gui.Overlay"__id*
+
+%1ij.gui.Overlayµ²
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaí í(
+%2ij.gui.Roi[]"%ij.gui.Overlay#toArray()[Lij/gui/Roi;*
+ij.gui.Overlay2	toArray()
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaí í(
+allRoisij.gui.Roi[]"__id*
+
+%2ij.gui.Roi[]*
+11*İ
+8V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaõ õ( x
+v
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaõ õ( 	
+%7int"__id*
+	
+%9int*
+5
+6*İ
+9V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaõ õ(x
+v
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaõ õ(	
+%7int"__id*
+	
+%8int*
+5
+6*
+20V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaë
+ ë(¾»
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaë
+ ë(
+%0ij.gui.Overlay"*ij.gui.Overlay#duplicate()Lij/gui/Overlay;*
+ij.gui.Overlay2duplicate()"p
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaë ë(
+
+%0ij.gui.Overlay*…
+11V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaî î({
+y
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaî î(
+roi
+ij.gui.Roi"__id*
+""
+š
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaî î(
+roi
+ij.gui.Roi"
+__arrayGet*
+
+allRoisij.gui.Roi[]*
+""*
+
+17
+8
+9*ô
+12V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaó ó(·´
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaó ó(!
+%5java.lang.Object"$ij.gui.Roi#clone()Ljava/lang/Object;*
+
+roi
+ij.gui.Roi2clone()ÕÒ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaó ó("
+
+%6void"!ij.gui.Overlay#add(Lij/gui/Roi;)V*
+
+overlay2ij.gui.Overlay*
+
+%5java.lang.Object2add(Lij/gui/Roi;)*
+11*Ó
+1V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaù	 ù("v
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaù ù(
+
+overlay2ij.gui.Overlay:
+boundsjava.awt.RectangleB
+ij.gui.Overlay

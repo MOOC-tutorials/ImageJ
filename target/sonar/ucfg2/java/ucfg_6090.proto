@@ -1,0 +1,579 @@
+
+#ij.measure.Minimizer#minimize([[D)I\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaÒ Ò("43*»
+24\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java“ “((Í
+Ê
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java“ “(4
+%39boolean"0ij.measure.Minimizer#belowResolutionLimit([[DI)Z*
+ij.measure.Minimizer*
+""*
+""*
+22
+1*Ÿ
+25\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java‹ Œ(\¼
+¹
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java (+
+%35void""ij.measure.Minimizer#order([[D[I)V*
+ij.measure.Minimizer*
+""*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaŽ' Ž(,
+
+%36int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java+ (5
+
+%37int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java& (*
+
+%38int"__id*
+""*
+24
+22*¸
+26\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaŒ. Œ(BÍ
+Ê
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaŒ. Œ([
+%34boolean"0ij.measure.Minimizer#belowResolutionLimit([D[D)Z*
+ij.measure.Minimizer*
+""*
+""*
+25*½
+28\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java‡ ‡((Î
+Ë
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java‡ ‡(4
+%33void"4ij.measure.Minimizer#shrinkSimplexAndEvaluate([[DI)V*
+ij.measure.Minimizer*
+""*
+""*
+25
+26*Á
+29\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java ("ÒÏ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java (:
+%32void"&ij.measure.Minimizer#copyVertex([D[D)V*
+ij.measure.Minimizer*
+""*
+""2copyVertex([D[D)*
+25
+26*À
+30\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaÿ ÿ((}
+{
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaÿ> ÿ(K
+%28double"__id*
+""æ
+ã
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaÿ ÿ(W
+%29void"3ij.measure.Minimizer#getVertexAndEvaluate([D[DD[D)V*
+ij.measure.Minimizer*
+""*
+""*
+
+%28double*
+""³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java€ €((
+%30double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java€+ €(=
+%31double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""*
+28
+29*Ù
+31\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaýD ý(J³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaýQ ý(a
+%26double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""´
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaýD ý(b
+%27boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+
+%26double*
+28
+30*Ø
+32\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaý ý( ³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaý ý(+
+%24double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaý. ý(@
+%25double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""*
+30
+31*Á
+33\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaù ù("ÒÏ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaù ù(:
+%23void"&ij.measure.Minimizer#copyVertex([D[D)V*
+ij.measure.Minimizer*
+""*
+""2copyVertex([D[D)*
+25
+26*·
+34\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java÷ ÷((}
+{
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java÷? ÷(L
+%19double"__id*
+""Ý
+Ú
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java÷ ÷(X
+%20void"3ij.measure.Minimizer#getVertexAndEvaluate([D[DD[D)V*
+ij.measure.Minimizer*
+""*
+""*
+""*
+""³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaø ø((
+%21double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaø, ø(<
+%22double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""*
+28
+33*Ÿ
+12\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¡ ¡(®
+«
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¡ ¡(
+%52java.lang.String"__id*,**
+ij.measure.Minimizer"
+ijStatusString*
+
+9
+40
+1*Ø
+35\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaõ õ( ³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaõ õ(+
+%17double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaõ. õ(@
+%18double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""*
+32
+34*Á
+36\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaò ò(ÒÏ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaò ò(6
+%16void"&ij.measure.Minimizer#copyVertex([D[D)V*
+ij.measure.Minimizer*
+""*
+""2copyVertex([D[D)*
+25
+26*ç
+14\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaŸ Ÿ(z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaŸ Ÿ(!
+
+%51int"__id*
+""*
+12
+1*Ø
+37\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javañ ñ(³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javañ ñ($
+%14double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javañ' ñ(=
+%15double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""*
+35
+36*Á
+38\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaì ì("ÒÏ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaì ì(:
+%13void"&ij.measure.Minimizer#copyVertex([D[D)V*
+ij.measure.Minimizer*
+""*
+""2copyVertex([D[D)*
+25
+26*¶
+39\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaê ê((|
+z
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaê? ê(J
+%9double"__id*
+""Ý
+Ú
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaê ê(V
+%10void"3ij.measure.Minimizer#getVertexAndEvaluate([D[DD[D)V*
+ij.measure.Minimizer*
+""*
+""*
+""*
+""³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaë ë((
+%11double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaë, ë(<
+%12double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""*
+37
+38*»
+19\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java› ›(³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java›  ›(1
+%48double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java›3 ›(E
+%49double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""á
+Þ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java› ›(K
+%50boolean"*ij.measure.Minimizer#belowErrorLimit(DDD)Z*
+ij.measure.Minimizer*
+
+%48double*
+
+%49double*
+""*
+14
+1*É
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java´ ´("f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java´ ´(
+""*±
+2\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java® ®(Ä
+Á
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java® ®(3
+%66void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*"
+ 
+statusStringjava.lang.String*
+40
+1*Ê
+3\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java­) ­(5º
+·
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java­) ­(G
+%65java.lang.String"__concat*"
+ 
+statusStringjava.lang.String*
+ ESC to stop¤
+¡
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java­) ­(G 
+statusStringjava.lang.String"__id*
+
+%65java.lang.String*
+2*ì
+4\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¬. ¬(<®
+«
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¬. ¬(<
+%60java.lang.String"__id*,**
+ij.measure.Minimizer"
+ijStatusString§
+¤
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¬. ¬(I
+%61java.lang.String"__concat*
+
+%60java.lang.String*
+""§
+¤
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¬. ¬(N
+%62java.lang.String"__concat*
+
+%61java.lang.String*
+ (§
+¤
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¬. ¬(V
+%63java.lang.String"__concat*
+
+%62java.lang.String*
+""ª
+§
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¬. ¬(^
+%64java.lang.String"__concat*
+
+%63java.lang.String*	
+ max)¤
+¡
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¬ ¬(_ 
+statusStringjava.lang.String"__id*
+
+%64java.lang.String*
+2
+3*ž
+5\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java« «(&®
+«
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java« «(&
+%59java.lang.String"__id*,**
+ij.measure.Minimizer"
+ijStatusString*
+
+4
+40
+1*—
+6\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¦! ¦((
+Œ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java§ §((
+%55void"ij.IJ#resetEscape()V*	"
+ij.IJ®
+«
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¨& ¨(4
+%56java.lang.String"__id*,**
+ij.measure.Minimizer"
+ijStatusString­
+ª
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¨& ¨(?
+%57java.lang.String"__concat*
+
+%56java.lang.String*
+
+ ABORTED»
+¸
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¨ ¨(@
+%58void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%57java.lang.String*
+1*€
+7\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¥' ¥()”
+‘
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¥' ¥(9
+%54boolean"ij.IJ#escapePressed()Z*	"
+ij.IJ*
+5
+6*ž
+9\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¢ ¢("«
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java¢ ¢(6
+%53long"%java.lang.System#currentTimeMillis()J*"
+java.lang.System*
+5
+7
+40
+1*þ
+40\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaå å(È
+Å
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaå å(.
+
+%4void"'ij.measure.Minimizer#getCenter([[DI[D)V*
+ij.measure.Minimizer*
+""*
+""*
+""|
+z
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaç; ç(G
+%5double"__id*
+""Ü
+Ù
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaç ç(S
+
+%6void"3ij.measure.Minimizer#getVertexAndEvaluate([D[DD[D)V*
+ij.measure.Minimizer*
+""*
+""*
+""*
+""²
+¯
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaè è($
+%7double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""²
+¯
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaè( è(9
+%8double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""*
+37
+39*½
+20\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java™ ™(ÒÏ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java™ ™(5
+%47void"&ij.measure.Minimizer#copyVertex([D[D)V*
+ij.measure.Minimizer*
+""*
+""2copyVertex([D[D)*
+19*š
+43\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaÓ+ Ó(,»
+¸
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaØ Ø('
+
+%0void""ij.measure.Minimizer#order([[D[I)V*
+ij.measure.Minimizer*
+""*
+""y
+w
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaÙ' Ù(,	
+%1int"__id*
+""y
+w
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaÚ+ Ú(5	
+%2int"__id*
+""y
+w
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.javaÛ& Û(*	
+%3int"__id*
+""*
+40
+1*Û
+21\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java– –(É
+Æ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java– –(.
+%43void"'ij.measure.Minimizer#getCenter([[DI[D)V*
+ij.measure.Minimizer*
+""*
+""*
+""´
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java— —(#
+%44void""ij.measure.Minimizer#evaluate([D)V*
+ij.measure.Minimizer*
+""³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java˜ ˜($
+%45double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java˜' ˜(8
+%46double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""*
+19
+20*¼
+22\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java• •(³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java•  •(1
+%40double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""³
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java•3 •(E
+%41double"ij.measure.Minimizer#value([D)D*
+ij.measure.Minimizer*
+""á
+Þ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/Minimizer.java• •(K
+%42boolean"*ij.measure.Minimizer#belowErrorLimit(DDD)Z*
+ij.measure.Minimizer*
+
+%40double*
+
+%41double*
+""*
+19
+21:
+""B
+ij.measure.Minimizer

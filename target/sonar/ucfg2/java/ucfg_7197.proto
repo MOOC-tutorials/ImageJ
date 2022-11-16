@@ -1,0 +1,735 @@
+
+=ij.gui.Toolbar#actionPerformed(Ljava/awt/event/ActionEvent;)VV
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaä ä("54*¹
+24V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaŽ Ž(
+}
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaŽ Ž(+
+%42java.awt.Color"__id*
+""Ó
+Ð
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaŽ Ž(,
+%43void"<ij.gui.Toolbar#setAndRecordForgroundColor(Ljava/awt/Color;)V*
+ij.gui.Toolbar*
+
+%42java.awt.Color*
+12*Å
+25V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java (ÜÙ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java ( 
+%41boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+Yellow*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+24
+23*¹
+26V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaŒ Œ(
+}
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaŒ Œ()
+%39java.awt.Color"__id*
+""Ó
+Ð
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaŒ Œ(*
+%40void"<ij.gui.Toolbar#setAndRecordForgroundColor(Ljava/awt/Color;)V*
+ij.gui.Toolbar*
+
+%39java.awt.Color*
+12*Ã
+27V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java‹ ‹(Ú×
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java‹ ‹(
+%38boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+Blue*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+25
+26*¹
+28V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaŠ Š(
+}
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaŠ Š(*
+%36java.awt.Color"__id*
+""Ó
+Ð
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaŠ Š(+
+%37void"<ij.gui.Toolbar#setAndRecordForgroundColor(Ljava/awt/Color;)V*
+ij.gui.Toolbar*
+
+%36java.awt.Color*
+12*Ä
+29V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java‰ ‰(ÛØ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java‰ ‰(
+%35boolean",java.lang.String#equals(Ljava/lang/Object;)Z*	
+Green*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+27
+28*¹
+30V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaˆ ˆ(
+}
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaˆ ˆ((
+%33java.awt.Color"__id*
+""Ó
+Ð
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaˆ ˆ()
+%34void"<ij.gui.Toolbar#setAndRecordForgroundColor(Ljava/awt/Color;)V*
+ij.gui.Toolbar*
+
+%33java.awt.Color*
+12*Â
+31V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java‡ ‡(ÙÖ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java‡ ‡(
+%32boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+Red*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+29
+30*‘
+32V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java… …(
+}
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java… …(*
+%28java.awt.Color"__id*
+""Ó
+Ð
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java… …(+
+%29void"<ij.gui.Toolbar#setAndRecordForgroundColor(Ljava/awt/Color;)V*
+ij.gui.Toolbar*
+
+%28java.awt.Color
+}
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java†  †(+
+%30java.awt.Color"__id*
+""Ô
+Ñ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java† †(,
+%31void"=ij.gui.Toolbar#setAndRecordBackgroundColor(Ljava/awt/Color;)V*
+ij.gui.Toolbar*
+
+%30java.awt.Color*
+12*Ê
+33V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java„ „(áÞ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java„ „('
+%27boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+Black/White*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+31
+32*‘
+34V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java‚ ‚(
+}
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java‚ ‚(*
+%23java.awt.Color"__id*
+""Ó
+Ð
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java‚ ‚(+
+%24void"<ij.gui.Toolbar#setAndRecordForgroundColor(Ljava/awt/Color;)V*
+ij.gui.Toolbar*
+
+%23java.awt.Color
+}
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaƒ  ƒ(+
+%25java.awt.Color"__id*
+""Ô
+Ñ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaƒ ƒ(,
+%26void"=ij.gui.Toolbar#setAndRecordBackgroundColor(Ljava/awt/Color;)V*
+ij.gui.Toolbar*
+
+%25java.awt.Color*
+12*Ê
+35V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java (áÞ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java ( 
+%22boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+White/Black*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+33
+34*‰
+36V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java€ €(¡
+ž
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java€ €(
+%21java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopup*
+35
+9*í
+37V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaú ú(¬©
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaû û(
+%20void"ij.gui.Toolbar#setTool(I)V*
+ij.gui.Toolbar*
+""2
+setTool(I)"`
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaý ý(
+
+""*Ê
+38V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaù ù(å
+â
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaù ù()
+%19java.lang.Object"Gij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*	"
+ij.IJ*
+ij.plugin.Zoom*
+max*
+37*Ç
+39V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaø ø(ÞÛ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaø ø("
+%18boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+Maximize*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+37
+38*Ê
+40V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java÷ ÷(å
+â
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java÷ ÷()
+%17java.lang.Object"Gij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*	"
+ij.IJ*
+ij.plugin.Zoom*
+set*
+37*Å
+41V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaö ö(ÜÙ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaö ö( 
+%16boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+Set...*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+39
+40*Ì
+42V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaõ õ(ç
+ä
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaõ õ(+
+%15java.lang.Object"Gij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*	"
+ij.IJ*
+ij.plugin.Zoom*	
+scale*
+37*Ë
+43V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaô ô(âß
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaô ô(&
+%14boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+Scale to Fit*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+41
+42*É
+44V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaó ó(ä
+á
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaó ó((
+%13java.lang.Object"Gij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*	"
+ij.IJ*
+ij.plugin.Zoom*
+to*
+37*Ð
+45V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaò ò(çä
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaò ò(+
+%12boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+Zoom To Selection*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+43
+44*Ë
+46V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javañ ñ(æ
+ã
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javañ ñ(*
+%11java.lang.Object"Gij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*	"
+ij.IJ*
+ij.plugin.Zoom*
+100%*
+37*È
+47V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javað ð(ßÜ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javað ð(#
+%10boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+	View 100%*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+46
+45*Ê
+48V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaï ï(å
+â
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaï ï(*
+%9java.lang.Object"Gij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*	"
+ij.IJ*
+ij.plugin.Zoom*
+orig*
+37*È
+49V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaî î(ßÜ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaî î($
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+Reset Zoom*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+47
+48*É
+50V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaí í(ä
+á
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaí í()
+%7java.lang.Object"Gij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*	"
+ij.IJ*
+ij.plugin.Zoom*
+out*
+37*Æ
+51V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaì ì(ÝÚ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaì ì("
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+Zoom Out*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+49
+50*È
+52V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaë ë(ã
+à
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaë ë((
+%5java.lang.Object"Gij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*	"
+ij.IJ*
+ij.plugin.Zoom*
+in*
+37*Å
+53V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaê ê(ÜÙ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaê ê(
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*	
+Zoom In*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+51
+52*ƒ
+54V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaå å(ØÕ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaå å()
+%0java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*!
+
+ejava.awt.event.ActionEvent2getSource()–
+“
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaå å(*
+itemjava.awt.MenuItem"__id*
+
+%0java.lang.Objectëè
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaæ æ(#
+%1java.lang.String"?java.awt.event.ActionEvent#getActionCommand()Ljava/lang/String;*!
+
+ejava.awt.event.ActionEvent2getActionCommand()”
+‘
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaæ æ($
+cmdjava.lang.String"__id*
+
+%1java.lang.StringßÜ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaç ç(/
+%2java.awt.MenuContainer":java.awt.MenuComponent#getParent()Ljava/awt/MenuContainer;*
+
+itemjava.awt.MenuItem2getParent()ž
+›
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaç ç(0
+popupjava.awt.PopupMenu"__id*
+
+%2java.awt.MenuContainerž
+›
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaé é(
+%3java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	zoomPopup*
+36
+53*í
+10V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaŸ Ÿ(
+¬©
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaŸ Ÿ(
+%71void"ij.gui.Toolbar#setTool(I)V*
+ij.gui.Toolbar*
+""2
+setTool(I)"`
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java   (
+
+""*•
+11V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaž ž(°
+­
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaž ž(
+%70void"%ij.plugin.frame.ColorPicker#update()V*"
+ij.plugin.frame.ColorPicker*
+10*Ë
+12V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java (âß
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java ("
+%69boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+Color Picker*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+10
+11*£
+13V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaœ œ(¾
+»
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaœ œ(!
+%68void"0ij.IJ#run(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+Color Picker...* *
+12*Ý
+14V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java˜ ˜(¸
+µ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java˜ ˜(
+%63void"0ij.IJ#run(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+	Colors...* »
+¸
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java™  ™(4
+%64java.awt.Color"3ij.gui.Toolbar#getForegroundColor()Ljava/awt/Color;*"
+ij.gui.Toolbarß
+Ü
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java™ ™(5
+%65void">ij.plugin.frame.Recorder#setForegroundColor(Ljava/awt/Color;)V*"
+ij.plugin.frame.Recorder*
+
+%64java.awt.Color»
+¸
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaš  š(4
+%66java.awt.Color"3ij.gui.Toolbar#getBackgroundColor()Ljava/awt/Color;*"
+ij.gui.Toolbarß
+Ü
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaš š(5
+%67void">ij.plugin.frame.Recorder#setBackgroundColor(Ljava/awt/Color;)V*"
+ij.plugin.frame.Recorder*
+
+%66java.awt.Color*
+12*È
+15V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java— —(ßÜ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java— —(#
+%62boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+	Colors...*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+13
+14*º
+16V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java– –(¡
+ž
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java–L –([
+%57java.awt.Color"__id*'*%
+ij.gui.Toolbar"
+backgroundColorŒ‰
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java–$ –(0
+%58ij.gui.ColorChooser"ij.gui.ColorChooserü
+ù
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java–  –(c
+%59"@ij.gui.ColorChooser#<init>(Ljava/lang/String;Ljava/awt/Color;Z)V*
+
+%58ij.gui.ColorChooser*
+Select Background Color*
+
+%57java.awt.Color*2 ÌÉ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java–  –(n
+%60java.awt.Color".ij.gui.ColorChooser#getColor()Ljava/awt/Color;*
+
+%58ij.gui.ColorChooser2
+getColor()Ô
+Ñ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java– –(o
+%61void"=ij.gui.Toolbar#setAndRecordBackgroundColor(Ljava/awt/Color;)V*
+ij.gui.Toolbar*
+
+%60java.awt.Color*
+12*Ì
+17V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java• •(ãà
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java• •('
+%56boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+Background...*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+15
+16*¹
+18V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java” ”(¡
+ž
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java”K ”(Z
+%51java.awt.Color"__id*'*%
+ij.gui.Toolbar"
+foregroundColorŒ‰
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java”# ”(/
+%52ij.gui.ColorChooser"ij.gui.ColorChooserü
+ù
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java” ”(b
+%53"@ij.gui.ColorChooser#<init>(Ljava/lang/String;Ljava/awt/Color;Z)V*
+
+%52ij.gui.ColorChooser*
+Select Foreground Color*
+
+%51java.awt.Color*2 ÌÉ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java” ”(m
+%54java.awt.Color".ij.gui.ColorChooser#getColor()Ljava/awt/Color;*
+
+%52ij.gui.ColorChooser2
+getColor()Ó
+Ð
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java” ”(n
+%55void"<ij.gui.Toolbar#setAndRecordForgroundColor(Ljava/awt/Color;)V*
+ij.gui.Toolbar*
+
+%54java.awt.Color*
+12*Ì
+19V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java“ “(ãà
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java“ “('
+%50boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+Foreground...*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+17
+18*t
+0 "m
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java­ ­(
+implicit return*Í
+1V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¬ ¬(¤
+¡
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¬ ¬("
+%78ij.plugin.tool.PlugInTool[]"__id**
+ij.gui.Toolbar"
+tools·
+´
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¬ ¬( 
+%79ij.plugin.tool.PlugInTool"
+__arrayGet*$
+"
+%78ij.plugin.tool.PlugInTool[]*
+""›
+˜
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¬ ¬( 
+%80java.lang.String[]"__id**
+ij.gui.Toolbar"
+names¥
+¢
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¬ ¬(&
+%81java.lang.String"
+__arrayGet*
+
+%80java.lang.String[]*
+""ÃÀ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¬ ¬(,
+%82void"Lij.plugin.tool.PlugInTool#runMenuTool(Ljava/lang/String;Ljava/lang/String;)V*"
+ 
+%79ij.plugin.tool.PlugInTool*
+
+%81java.lang.String*
+
+cmdjava.lang.String21runMenuTool(Ljava/lang/String;Ljava/lang/String;)*
+0*Ä
+2V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java« «(¤
+¡
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java« «("
+%76ij.plugin.tool.PlugInTool[]"__id**
+ij.gui.Toolbar"
+tools·
+´
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java« «( 
+%77ij.plugin.tool.PlugInTool"
+__arrayGet*$
+"
+%76ij.plugin.tool.PlugInTool[]*
+""*
+0
+1*½
+3V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaª ª("`
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaª ª(
+""*²
+7V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¥ ¥(
+š
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¥ ¥(
+%74java.awt.PopupMenu[]"__id**
+ij.gui.Toolbar"
+menus©
+¦
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¥ ¥(
+%75java.awt.PopupMenu"
+__arrayGet*
+
+%74java.awt.PopupMenu[]*
+""*	
+2
+3
+8*’
+8V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¤ ¤(©¦
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¤ ¤(%
+
+%73int"ij.gui.Toolbar#getNumTools()I*
+ij.gui.Toolbar2getNumTools()*	
+2
+3
+7*Ö
+9V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java£ £(t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¤ ¤(
+
+%72int"__id*
+""*
+8*¹
+20V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java’ ’(
+}
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java’ ’(,
+%48java.awt.Color"__id*
+""Ó
+Ð
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java’ ’(-
+%49void"<ij.gui.Toolbar#setAndRecordForgroundColor(Ljava/awt/Color;)V*
+ij.gui.Toolbar*
+
+%48java.awt.Color*
+12*Æ
+21V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java‘ ‘(ÝÚ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java‘ ‘(!
+%47boolean",java.lang.String#equals(Ljava/lang/Object;)Z*	
+Magenta*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+19
+20*¹
+22V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java (
+}
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java ()
+%45java.awt.Color"__id*
+""Ó
+Ð
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java (*
+%46void"<ij.gui.Toolbar#setAndRecordForgroundColor(Ljava/awt/Color;)V*
+ij.gui.Toolbar*
+
+%45java.awt.Color*
+12*Ã
+23V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java (Ú×
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java (
+%44boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+Cyan*
+
+cmdjava.lang.String2equals(Ljava/lang/Object;)*
+21
+22:
+ejava.awt.event.ActionEventB
+ij.gui.Toolbar

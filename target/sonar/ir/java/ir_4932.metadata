@@ -1,0 +1,16 @@
+ij.io.Opener#openImage(Ljava/lang/String;Ljava/lang/String;)Lij/ImagePlus;
+ij.io.OpenDialog#setLastDirectory(Ljava/lang/String;)V
+ij.CompositeImage#instance-init#
+ij.io.FileOpener#setSilentMode(Z)V
+java.lang.String#length()I
+ij.io.OpenDialog#setLastName(Ljava/lang/String;)V
+ij.plugin.AVI_Reader#instance-init#
+ij.CompositeImage#<init>(Lij/ImagePlus;I)V
+ij.io.Opener#openUsingHandleExtraFileTypes(Ljava/lang/String;)Lij/ImagePlus;
+ij.plugin.AVI_Reader#<init>()V
+java.lang.String#endsWith(Ljava/lang/String;)Z
+ij.IJ#log(Ljava/lang/String;)V
+ij.io.Opener#openUsingImageIO(Ljava/lang/String;)Lij/ImagePlus;
+ij.io.Opener#openUsingBioFormats(Ljava/lang/String;)Lij/ImagePlus;
+ij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+ij.IJ#macroRunning()Z

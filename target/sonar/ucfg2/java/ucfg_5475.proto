@@ -1,0 +1,652 @@
+
+4ij.plugin.HyperStackReducer#run(Ljava/lang/String;)Va
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java ("28*‘
+24a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java* *(
+"k
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java* *(
+
+""*‰
+25a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java! !(™
+ß
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java! !(
+%6ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp≠™
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java! !(	
+%7int"ij.ImagePlus#getWidth()I*
+
+%6ij.ImagePlus2
+getWidth()™
+ß
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java" "(
+%8ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impØ¨
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java" "(	
+%9int"ij.ImagePlus#getHeight()I*
+
+%8ij.ImagePlus2getHeight()´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java# #(
+%10ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impøº
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java# #(1
+
+%11int" ij.ImagePlus#getBytesPerPixel()I*
+
+%10ij.ImagePlus2getBytesPerPixel()´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java$ $(
+%12ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp∑¥
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java$ $(,
+
+%13int"ij.ImagePlus#getNChannels()I*
+
+%12ij.ImagePlus2getNChannels()´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java% %(
+%14ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp≥∞
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java% %(&
+
+%15int"ij.ImagePlus#getNSlices()I*
+
+%14ij.ImagePlus2getNSlices()´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java& &(
+%16ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp≥∞
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java& &(&
+
+%17int"ij.ImagePlus#getNFrames()I*
+
+%16ij.ImagePlus2getNFrames()´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java' '(
+%18ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impØ¨
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java' '(
+
+%19int"ij.ImagePlus#getSlice()I*
+
+%18ij.ImagePlus2
+getSlice()´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java( ((
+%20ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impØ¨
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java( ((
+
+%21int"ij.ImagePlus#getFrame()I*
+
+%20ij.ImagePlus2
+getFrame()–Õ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java) )(
+%22boolean")ij.plugin.HyperStackReducer#showDialog()Z*
+ij.plugin.HyperStackReducer2showDialog()*
+24
+21
+22*Æ
+26a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java (◊
+‘
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java (-
+
+%5void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*	
+Reducer*
+HyperStack required"k
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java (
+
+""*÷
+27a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java ( ™
+ß
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java ( 
+%3ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impµ≤
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java (/	
+%4int"ij.ImagePlus#getNChannels()I*
+
+%3ij.ImagePlus2getNChannels()*
+25
+26*Ø
+28a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java (
+•
+¢
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java (
+%0ij.ImagePlus"ij.IJ#getImage()Lij/ImagePlus;*	"
+ij.IJ™
+ß
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java (&
+ij.plugin.HyperStackReducer"
+imp"__id*
+
+%0ij.ImagePlus™
+ß
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java (
+
+%1ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impπ∂
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java (
+%2boolean"ij.ImagePlus#isHyperStack()Z*
+
+%1ij.ImagePlus2isHyperStack()*
+25
+27*”
+10a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java?- ?(0´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java?- ?(0
+%66ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp≤Ø
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java? ?(;
+
+%67int"ij.CompositeImage#getMode()I*
+
+%66ij.ImagePlus2	getMode()
+}
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java?= ?(I
+
+%68int"__id*
+""*
+8
+9*∞
+11a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java> >(´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java> >(
+%59ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp∆√
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java> >(0
+%60double""ij.ImagePlus#getDisplayRangeMin()D*
+
+%59ij.ImagePlus2getDisplayRangeMin()´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java>2 >(5
+%61ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp∆√
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java>2 >(J
+%62double""ij.ImagePlus#getDisplayRangeMax()D*
+
+%61ij.ImagePlus2getDisplayRangeMax()Â‚
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java> >(K
+%63void"!ij.ImagePlus#setDisplayRange(DD)V*
+
+imp2ij.ImagePlus*
+
+%60double*
+
+%62double2setDisplayRange(DD)´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java? ?(
+
+%64ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impπ∂
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java? ?(
+%65boolean"ij.ImagePlus#isComposite()Z*
+
+%64ij.ImagePlus2isComposite()*
+8
+10*¯
+
+12a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java: :("´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java: :("
+%53ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp≤Ø
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java: :(-
+
+%54int"ij.CompositeImage#getMode()I*
+
+%53ij.ImagePlus2	getMode()ìê
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java; ;(
+%55ij.CompositeImage"ij.CompositeImage’
+“
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java;
+ ;((
+%56"*ij.CompositeImage#<init>(Lij/ImagePlus;I)V*
+
+%55ij.CompositeImage*
+
+imp2ij.ImagePlus*
+""û
+õ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java; ;((
+imp2ij.ImagePlus"__id*
+
+%55ij.CompositeImage´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java<# <(&
+%57ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impÈÊ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java< <('
+%58void"+ij.CompositeImage#copyLuts(Lij/ImagePlus;)V*
+
+imp2ij.ImagePlus*
+
+%57ij.ImagePlus2copyLuts(Lij/ImagePlus;)*
+8*€
+13a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java96 9(9´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java96 9(9
+%51ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impπ∂
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java96 9(G
+%52boolean"ij.ImagePlus#isComposite()Z*
+
+%51ij.ImagePlus2isComposite()*
+11
+12*Ÿ
+14a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java9 9(´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java9  9(#
+%49ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp∑¥
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java9  9(2
+
+%50int"ij.ImagePlus#getNChannels()I*
+
+%49ij.ImagePlus2getNChannels()*
+13
+11*‡
+15a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java6 6(´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java6# 6(&
+%42ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impÅ˛
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java6# 6(:
+%43java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+%42ij.ImagePlus*
+Info2getProperty(Ljava/lang/String;)§°
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java6 6(;
+%44void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+
+imp2ij.ImagePlus*
+Info*
+
+%43java.lang.Object21setProperty(Ljava/lang/String;Ljava/lang/Object;)´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java7 7(
+%45ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impËÂ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java7 7(/
+%46java.lang.String[]"6ij.ImagePlus#getPropertiesAsArray()[Ljava/lang/String;*
+
+%45ij.ImagePlus2getPropertiesAsArray()˛˚
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java7 7(0
+%47void"0ij.ImagePlus#setProperties([Ljava/lang/String;)V*
+
+imp2ij.ImagePlus*
+
+%46java.lang.String[]2"setProperties([Ljava/lang/String;)˘ˆ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java8 8(
+%48void"3ij.plugin.HyperStackReducer#reduce(Lij/ImagePlus;)V*
+ij.plugin.HyperStackReducer*
+
+imp2ij.ImagePlus2reduce(Lij/ImagePlus;)*
+14
+11*Â
+16a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java5
+ 5(´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java5
+ 5(
+%38ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java5D 5(G
+%39ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impµ≤
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java5D 5(U
+
+%40int"ij.ImagePlus#getBitDepth()I*
+
+%39ij.ImagePlus2getBitDepth()≈¬
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java5
+ 5(V
+%41ij.ImagePlus"Cij.ImagePlus#createHyperStack(Ljava/lang/String;IIII)Lij/ImagePlus;*
+
+%38ij.ImagePlus*
+
+title2java.lang.String*
+""*
+""*
+""*
+
+
+%40int2(createHyperStack(Ljava/lang/String;IIII)ô
+ñ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java5 5(V
+imp2ij.ImagePlus"__id*
+
+%41ij.ImagePlus*
+15*¬	
+17a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java1 1(Ÿ÷
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java1 1(2
+%33void" ij.ImagePlus#setDimensions(III)V*
+
+imp2ij.ImagePlus*
+""*
+""*
+""2setDimensions(III)´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java2 2(
+%34ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impÂ‚
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java2 2(+
+%35ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+%34ij.ImagePlus2getCalibration()éã
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java2 2(,
+%36void"6ij.ImagePlus#setCalibration(Lij/measure/Calibration;)V*
+
+imp2ij.ImagePlus*
+
+%35ij.measure.Calibration2(setCalibration(Lij/measure/Calibration;)œÃ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java3 3(!
+%37void"$ij.ImagePlus#setOpenAsHyperStack(Z)V*
+
+imp2ij.ImagePlus*22setOpenAsHyperStack(Z)*
+15*‘
+18a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java0 0("k
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java0 0(
+""*ª
+19a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java/
+ /(´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java/! /($
+%29ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impµ≤
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java/! /(2
+
+%30int"ij.ImagePlus#getBitDepth()I*
+
+%29ij.ImagePlus2getBitDepth()°
+û
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java/! /(9
+%31java.lang.String"__concat*
+
+
+%30int*
+-bit°
+û
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java/
+ /(d
+%32ij.ImagePlus"Hij.IJ#createImage(Ljava/lang/String;Ljava/lang/String;III)Lij/ImagePlus;*	"
+ij.IJ*
+
+title2java.lang.String*
+
+%31java.lang.String*
+""*
+""*
+""ô
+ñ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java/ /(d
+imp2ij.ImagePlus"__id*
+
+%32ij.ImagePlus*
+17
+18*
+0 "x
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaN N(
+implicit return*Ù
+1a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaK K(´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaK K(
+%76ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaL L(
+%77ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp™ß
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaL L(
+%78void"ij.ImagePlus#close()V*
+
+%77ij.ImagePlus2close()*
+0*ƒ
+3a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaH H(”–
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaH H(
+%75void"ij.ImagePlus#setPosition(III)V*
+
+imp2ij.ImagePlus*2*
+""*
+""2setPosition(III)*
+0
+1*ù
+5a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaF F(©¶
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaF F(
+%74void"ij.ImagePlus#show()V*
+
+imp2ij.ImagePlus2show()*	
+3
+0
+1*Ë
+6a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaC C(´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaC C(
+%72ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp‰·
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaC C(
+%73void"&ij.ImagePlus#setImage(Lij/ImagePlus;)V*
+
+%72ij.ImagePlus*
+
+imp2ij.ImagePlus2setImage(Lij/ImagePlus;)"k
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaD D(
+
+""*Ú
+8a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaB B(	´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaB B(	
+%70ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+imp”–
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.javaB B(
+%71ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+%70ij.ImagePlus2getWindow()*
+5
+6*”
+9a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java@ @(Â
+‚
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java@ @(
+%69void">ij.IJ#run(Lij/ImagePlus;Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+
+imp2ij.ImagePlus*	
+Grays* *
+8*§
+20a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java, ,(R£
+†
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java, ,(R
+title2java.lang.String"__id*
+
+%23java.lang.Stringä
+á
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java- -(
+imp2ij.ImagePlus"__id*
+""*
+16
+19*é
+21a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java,C ,(F´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java,C ,(F
+%28ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impÕ 
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java,C ,(Q
+%25java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+%28ij.ImagePlus2
+getTitle()†
+ù
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java,C ,(Q
+%23java.lang.String"__id*
+
+%25java.lang.String*
+20*á
+22a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java, ,($´
+®
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java,3 ,(6
+%26ij.ImagePlus"__id*(*&
+ij.plugin.HyperStackReducer"
+impÕ 
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java,3 ,(A
+%27java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+%26ij.ImagePlus2
+getTitle()ˆ
+Û
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java, ,(B
+%24java.lang.String"Dij.WindowManager#getUniqueName(Ljava/lang/String;)Ljava/lang/String;*"
+ij.WindowManager*
+
+%27java.lang.String†
+ù
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/HyperStackReducer.java, ,(B
+%23java.lang.String"__id*
+
+%24java.lang.String*
+20:
+argjava.lang.StringB
+ij.plugin.HyperStackReducer

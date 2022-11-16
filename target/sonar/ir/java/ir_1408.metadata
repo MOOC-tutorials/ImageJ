@@ -1,0 +1,16 @@
+ij.plugin.StackWriter#showDialog(Lij/ImagePlus;)Z
+ij.Macro#getOptions()Ljava/lang/String;
+ij.Macro#setOptions(Ljava/lang/String;)V
+ij.IJ#isMacro()Z
+ij.IJ#addSeparator(Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+ij.gui.GenericDialog#<init>(Ljava/lang/String;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+ij.Prefs#get(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ij.Prefs#set(Ljava/lang/String;Ljava/lang/String;)V
+ij.IJ#getDir(Ljava/lang/String;)Ljava/lang/String;
+ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V
+ij.gui.GenericDialog#instance-init#
+ij.plugin.frame.Recorder#fixPath(Ljava/lang/String;)Ljava/lang/String;

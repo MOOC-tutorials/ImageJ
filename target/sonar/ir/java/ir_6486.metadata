@@ -1,0 +1,5 @@
+ij.plugin.WindowOrganizer#showAll([I)V
+ij.WindowManager#toFront(Ljava/awt/Window;)V
+ij.WindowManager#getAllNonImageWindows()[Ljava/awt/Window;
+ij.IJ#getInstance()Lij/ImageJ;
+ij.WindowManager#toFront(Ljava/awt/Frame;)V

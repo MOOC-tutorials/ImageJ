@@ -1,0 +1,225 @@
+
+#ij.macro.Functions#getPlotValues()DZ
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¶ ¶("25*„
+24Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ Æ(¸˘
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ Æ(0
+%5java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+impij.ImagePlus*	
+XValues2getProperty(Ljava/lang/String;)¸˘
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ Ø(0
+%6java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+impij.ImagePlus*	
+YValues2getProperty(Ljava/lang/String;)*
+9*Æ
+14Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java∫ ∫(∆√
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java∫ ∫(
+%10int[]"'ij.gui.HistogramWindow#getHistogram()[I*
+
+hwij.gui.HistogramWindow2getHistogram()*
+9*◊
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java≈ ≈(åâ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java≈ ≈(
+%18ij.macro.Variable"ij.macro.Variable®
+•
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java≈ ≈(#
+%19"ij.macro.Variable#<init>(D)V*
+
+%18ij.macro.Variable*
+""≥
+∞
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java≈ ≈(#
+%20"
+__arraySet*
+
+yaij.macro.Variable[]*
+""*
+
+%18ij.macro.Variable*
+3
+1*»
+25Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaß ß('ËÂ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaß ß()
+%0ij.macro.Variable"=ij.macro.Functions#getFirstArrayVariable()Lij/macro/Variable;*
+ij.macro.Functions2getFirstArrayVariable()õ
+ò
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaß ß(*
+xvarij.macro.Variable"__id*
+
+%0ij.macro.VariableÊ„
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java® ®((
+%1ij.macro.Variable"<ij.macro.Functions#getLastArrayVariable()Lij/macro/Variable;*
+ij.macro.Functions2getLastArrayVariable()õ
+ò
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java® ®()
+yvarij.macro.Variable"__id*
+
+%1ij.macro.Variableƒ¡
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java´ ´(
+%2ij.ImagePlus"+ij.macro.Functions#getImage()Lij/ImagePlus;*
+ij.macro.Functions2
+getImage()ê
+ç
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java´ ´(
+impij.ImagePlus"__id*
+
+%2ij.ImagePlusÀ»
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¨ ¨(#
+%3ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+impij.ImagePlus2getWindow()ú
+ô
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¨ ¨($
+winij.gui.ImageWindow"__id*
+
+%3ij.gui.ImageWindow¸˘
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java≠ ≠( 
+%4java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+impij.ImagePlus*	
+XValues2getProperty(Ljava/lang/String;)*
+24
+18
+10
+21*–
+18Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaµ) µ(,†
+ù
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaµ µ(-
+hwij.gui.HistogramWindow"__id*
+
+winij.gui.ImageWindowƒ¡
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java∂ ∂(
+%9double[]"%ij.gui.HistogramWindow#getXValues()[D*
+
+hwij.gui.HistogramWindow2getXValues()*
+14*⁄
+7Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java√ √(åâ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java√ √(
+%15ij.macro.Variable"ij.macro.Variable®
+•
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java√ √(#
+%16"ij.macro.Variable#<init>(D)V*
+
+%15ij.macro.Variable*
+""≥
+∞
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java√ √(#
+%17"
+__arraySet*
+
+xaij.macro.Variable[]*
+""*
+
+%15ij.macro.Variable*	
+3
+7
+1*“
+9Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¿ ¿(&êç
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¿ ¿(.
+%13ij.macro.Variable[]"ij.macro.Variable[]û
+õ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¿ ¿(/
+xaij.macro.Variable[]"__id*
+
+%13ij.macro.Variable[]êç
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¡ ¡(.
+%14ij.macro.Variable[]"ij.macro.Variable[]û
+õ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¡ ¡(/
+yaij.macro.Variable[]"__id*
+
+%14ij.macro.Variable[]*	
+3
+7
+1*˚
+21Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java± ±("õ
+ò
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java± ±(#
+pwij.gui.PlotWindow"__id*
+
+winij.gui.ImageWindowπ∂
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java≤ ≤(
+%7float[]" ij.gui.PlotWindow#getXValues()[F*
+
+pwij.gui.PlotWindow2getXValues()π∂
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java≥ ≥(
+%8float[]" ij.gui.PlotWindow#getYValues()[F*
+
+pwij.gui.PlotWindow2getYValues()*
+9*â
+10Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaø ø(	¶
+£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaø ø(	
+%11ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp¯ı
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaø ø(.
+%12void"/ij.macro.Interpreter#error(Ljava/lang/String;)V*
+
+%11ij.macro.Interpreter*
+No plot or histogram window2error(Ljava/lang/String;)*
+9*∫
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java∆ ∆(˘ˆ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java∆ ∆(
+%21void"1ij.macro.Variable#setArray([Lij/macro/Variable;)V*
+
+xvarij.macro.Variable*
+
+xaij.macro.Variable[]2setArray([Lij/macro/Variable;)˘ˆ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java« «(
+%22void"1ij.macro.Variable#setArray([Lij/macro/Variable;)V*
+
+yvarij.macro.Variable*
+
+yaij.macro.Variable[]2setArray([Lij/macro/Variable;){
+y
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java»	 »(
+%23double"__id*
+"""d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java» »(
+""B
+ij.macro.Functions

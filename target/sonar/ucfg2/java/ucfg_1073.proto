@@ -1,0 +1,68 @@
+
+4ij.plugin.FitsDecoder#getString(I)Ljava/lang/String;]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FITS_Reader.java¨ ¨("3*Þ
+2]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FITS_Reader.java¬ ¬(Œ‰
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FITS_Reader.java¬ ¬(
+%2java.lang.String"java.lang.String¯
+¬
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FITS_Reader.java¬
+ ¬(
+%3"java.lang.String#<init>([B)V*
+
+%2java.lang.String*
+
+bbyte[]³
+°
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FITS_Reader.java¬ ¬(
+
+%4void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%2java.lang.String*
+1*ì
+3]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FITS_Reader.java© ©(|
+z
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FITS_Reader.java© ©(
+bbyte[]"__id*
+""©
+¦
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FITS_Reader.javaª ª(
+%0java.io.DataInputStream"__id* *
+ij.plugin.FitsDecoder"
+fÕÒ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FITS_Reader.javaª ª(
+
+%1void"&java.io.DataInputStream#readFully([B)V*
+
+%0java.io.DataInputStream*
+
+bbyte[]2readFully([B)*
+2
+1*ž
+1]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FITS_Reader.java­ ­(Œ‰
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FITS_Reader.java­ ­(
+%5java.lang.String"java.lang.String¯
+¬
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FITS_Reader.java­	 ­(
+%6"java.lang.String#<init>([B)V*
+
+%5java.lang.String*
+
+bbyte[]"y
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FITS_Reader.java­ ­(
+
+%5java.lang.String:
+""B
+ij.plugin.FitsDecoder

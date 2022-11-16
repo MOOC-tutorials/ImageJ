@@ -1,0 +1,200 @@
+
+9ij.process.ImageProcessor#getBestIndex(Ljava/awt/Color;)Ia
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaÚ Ú("20*º
+15a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java˛ ˛(÷”
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java˛ ˛( 	
+%9int",java.awt.image.IndexColorModel#getMapSize()I*'
+%
+icmjava.awt.image.IndexColorModel2getMapSize()Ñ
+Å
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaˇ ˇ("
+rLUTbyte[]"__id*
+""Ñ
+Å
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaÄ Ä(%
+gLUTbyte[]"__id*
+""Ñ
+Å
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaÅ Å("
+bLUTbyte[]"__id*
+""ËÂ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaÇ Ç(
+%10void"+java.awt.image.IndexColorModel#getReds([B)V*'
+%
+icmjava.awt.image.IndexColorModel*
+
+rLUTbyte[]2getReds([B)ÏÈ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaÉ É(
+%11void"-java.awt.image.IndexColorModel#getGreens([B)V*'
+%
+icmjava.awt.image.IndexColorModel*
+
+gLUTbyte[]2getGreens([B)ÍÁ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaÑ Ñ(
+%12void",java.awt.image.IndexColorModel#getBlues([B)V*'
+%
+icmjava.awt.image.IndexColorModel*
+
+bLUTbyte[]2getBlues([B)
+}
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaÖ Ö(%
+
+%13int"__id*
+""≠™
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaà à(
+
+%14int"java.awt.Color#getRed()I*
+
+cjava.awt.Color2getRed()±Æ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaâ â(
+
+%15int"java.awt.Color#getGreen()I*
+
+cjava.awt.Color2
+getGreen()Ø¨
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaä ä(
+
+%16int"java.awt.Color#getBlue()I*
+
+cjava.awt.Color2	getBlue()*
+10
+1*›
+16a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java˝ ˝(¥
+±
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java˝ ˝(
+%8java.awt.image.ColorModel"__id*%*#
+ij.process.ImageProcessor"
+cm∂
+≥
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java˝ ˝(%
+icmjava.awt.image.IndexColorModel"__id*!
+
+%8java.awt.image.ColorModel*
+15*À
+
+17a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java˜ ˜(#‘—
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java˜ ˜(%
+%3double",ij.process.ImageProcessor#getMinThreshold()D*
+ij.process.ImageProcessor2getMinThreshold()‘—
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java¯ ¯(%
+%4double",ij.process.ImageProcessor#getMaxThreshold()D*
+ij.process.ImageProcessor2getMaxThreshold()–Õ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java˘ ˘(
+
+%5void"+ij.process.ImageProcessor#resetThreshold()V*
+ij.process.ImageProcessor2resetThreshold()¥
+±
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java˙ ˙(
+%6java.awt.image.ColorModel"__id*%*#
+ij.process.ImageProcessor"
+cm∂
+≥
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java˙ ˙(%
+icmjava.awt.image.IndexColorModel"__id*!
+
+%6java.awt.image.ColorModelÍÁ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java˚ ˚(0
+
+%7void",ij.process.ImageProcessor#setThreshold(DDI)V*
+ij.process.ImageProcessor*
+""*
+""*
+""2setThreshold(DDI)*
+15*ı
+18a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaˆ ˆ(Å
+
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaˆ ˆ( 
+%2double"__id*
+""*
+16
+17*Œ
+19a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaı ı(ﬁ€
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaı ı(
+
+%1void"2ij.process.ImageProcessor#makeDefaultColorModel()V*
+ij.process.ImageProcessor2makeDefaultColorModel()*
+18*ª
+9a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaå å(…
+∆
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaå å(4
+%18double[]"1ij.process.ColorProcessor#getWeightingFactors()[D*"
+ij.process.ColorProcessor©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaç ç("
+%19long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaé é("
+%20long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaè è("
+%21long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""*
+1*∆
+20a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaÛ Û(õ
+ò
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaÛ Û(%
+icmjava.awt.image.IndexColorModel"__id*
+""¥
+±
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaÙ Ù(
+%0java.awt.image.ColorModel"__id*%*#
+ij.process.ImageProcessor"
+cm*
+18
+19*ª
+10a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaã# ã(&…
+∆
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaã( ã(9%
+%17java.awt.image.IndexColorModel"__id*4*2
+ij.process.ImageProcessor"
+defaultColorModel*
+9
+1*”
+1a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaù ù("k
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaù ù(
+"":
+cjava.awt.ColorB
+ij.process.ImageProcessor

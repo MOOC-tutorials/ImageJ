@@ -1,0 +1,45 @@
+
+Vij.plugin.filter.ThresholdToSelection#convert(Lij/process/ImageProcessor;)Lij/gui/Roi;k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ThresholdToSelection.java) )("1*´
+1k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ThresholdToSelection.java* *( 
+«
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ThresholdToSelection.java* *(/'
+%ij.plugin.filter.ThresholdToSelection"
+ip"__id*!
+
+ipij.process.ImageProcessor‚ﬂ
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ThresholdToSelection.java+ +(#
+%0double",ij.process.ImageProcessor#getMinThreshold()D*!
+
+ipij.process.ImageProcessor2getMinThreshold()‚ﬂ
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ThresholdToSelection.java, ,(#
+%1double",ij.process.ImageProcessor#getMaxThreshold()D*!
+
+ipij.process.ImageProcessor2getMaxThreshold()—Œ
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ThresholdToSelection.java- -(	
+%2int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()”–
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ThresholdToSelection.java. .(	
+%3int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()Û
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ThresholdToSelection.java/	 /(
+%4
+ij.gui.Roi":ij.plugin.filter.ThresholdToSelection#getRoi()Lij/gui/Roi;*)'
+%ij.plugin.filter.ThresholdToSelection2getRoi()"Å
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ThresholdToSelection.java/ /(
+
+%4
+ij.gui.Roi:
+ipij.process.ImageProcessorB)'
+%ij.plugin.filter.ThresholdToSelection

@@ -1,0 +1,121 @@
+
+ij.macro.Functions#newPlot()DZ
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaà à("9*£
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaï ï(¼¹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaï ï(
+%8double[]"#ij.macro.Functions#getNextArray()[D*
+ij.macro.Functions2getNextArray()*
+1*‰
+7Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaè è(¼¹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaè è(
+%5double[]"#ij.macro.Functions#getNextArray()[D*
+ij.macro.Functions2getNextArray()¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaé é(
+%6ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp¸µ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaé é(	
+%7int"!ij.macro.Interpreter#nextToken()I*
+
+%6ij.macro.Interpreter2nextToken()*
+2
+1*°
+9Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaá á(ØÕ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaá á(!
+%0java.lang.String"5ij.macro.Functions#getFirstString()Ljava/lang/String;*
+ij.macro.Functions2getFirstString()š
+—
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaá á("
+titlejava.lang.String"__id*
+
+%0java.lang.StringÖÓ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaâ â(!
+%1java.lang.String"4ij.macro.Functions#getNextString()Ljava/lang/String;*
+ij.macro.Functions2getNextString()›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaâ â("
+xLabeljava.lang.String"__id*
+
+%1java.lang.StringÖÓ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaã ã(!
+%2java.lang.String"4ij.macro.Functions#getNextString()Ljava/lang/String;*
+ij.macro.Functions2getNextString()›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaã ã("
+yLabeljava.lang.String"__id*
+
+%2java.lang.String¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaå å(
+%3ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp¸µ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaå å(	
+%4int"!ij.macro.Interpreter#nextToken()I*
+
+%3ij.macro.Interpreter2nextToken()*
+7
+1*‡
+
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javañ ñ(¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javañ ñ(
+%9ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpÂ¿
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javañ ñ(
+%10void"%ij.macro.Interpreter#getRightParen()V*
+
+%9ij.macro.Interpreter2getRightParen()}
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaò ò(
+%11ij.gui.Plot"ij.gui.Plot¶
+³
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaò	 ò(.
+%12"Oij.gui.Plot#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[D[D)V*
+
+%11ij.gui.Plot*
+
+titlejava.lang.String*
+
+xLabeljava.lang.String*
+
+yLabeljava.lang.String*
+""*
+""›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaò ò(.
+ij.macro.Functions"
+plot"__id*
+
+%11ij.gui.Plot{
+y
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaó	 ó(
+%13double"__id*
+"""d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaó ó(
+""B
+ij.macro.Functions

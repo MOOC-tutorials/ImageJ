@@ -1,0 +1,433 @@
+
+oij.plugin.filter.RankFilters#showDialog(Lij/ImagePlus;Ljava/lang/String;Lij/plugin/filter/PlugInFilterRunner;)Ib
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javat t("33*Å
+24b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java} }(;•’
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java~ ~(:
+%12void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+	Threshold*
+""*
+""2%addNumericField(Ljava/lang/String;DI)
+
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java# (1
+%13java.lang.String[]"__id*
+""
+
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java3 (A
+%14java.lang.String[]"__id*
+""±
+®
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java3 (T
+%15java.lang.String"
+__arrayGet*
+
+%14java.lang.String[]*
+""üù
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java (U
+%16void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Which outliers*
+
+%13java.lang.String[]*
+
+%15java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)
+
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java€ €(
+%17java.lang.String"__id*
+""Î
+Ë
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java€ €(9
+%18java.lang.String"__concat*
+
+%17java.lang.String*%#
+!/docs/menus/process.html#outliersÿü
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java€ €(:
+%19void"1ij.gui.GenericDialog#addHelp(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%18java.lang.String2addHelp(Ljava/lang/String;)*
+19*÷
+25b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java}9 }(:†
+ƒ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java}9 }(:	
+%9int"__id*
+
+
+%11int*
+24*÷
+26b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java}5 }(6†
+ƒ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java}5 }(6	
+%9int"__id*
+
+
+%10int*
+24*£
+27b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java} }(­ª
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java} }(	
+%7int"ij.ImagePlus#getType()I*
+
+impij.ImagePlus2	getType()
+}
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java}" }(2	
+%8int"__id*
+""*
+25
+26*½
+28b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaz z(CÇÄ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java{ {(7
+
+%5void"Nij.gui.GenericDialog#addNumericField(Ljava/lang/String;DIILjava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+Radius*
+""*2*2*
+
+pixels28addNumericField(Ljava/lang/String;DIILjava/lang/String;)
+}
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java| |(	
+%6int"__id*
+""*
+27
+23*ü
+29b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaz- z(7‹
+ˆ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaz- z(C
+%2double"__id*
+
+%4double*
+28*ù
+30b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaz( z()ˆ
+…
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaz( z()
+%2double"__id*
+	
+%3int*
+28*Á
+31b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javay y(¢
+Ÿ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javay y(;
+%1ij.gui.GenericDialog"Wij.gui.GUI#newNonBlockingDialog(Ljava/lang/String;Lij/ImagePlus;)Lij/gui/GenericDialog;*"
+
+ij.gui.GUI*
+
+commandjava.lang.String*
+
+impij.ImagePlus§
+¤
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javay y(<
+gdij.gui.GenericDialog"__id*
+
+%1ij.gui.GenericDialog*
+29
+30*ò
+10d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaŸ Ÿ(ÒÏ
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaŸ Ÿ('
+%42java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roi
+ij.gui.Roi2getBounds()«
+¨
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaŸ Ÿ((
+roiRectjava.awt.Rectangle"__id*
+
+%42java.awt.Rectangle*
+9*ó
+33b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javau u(
+}
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javau u(	
+%0int"__id*
+""*
+31
+12*¼
+11d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaœ œ(²¯
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaœ œ(
+
+%39int"ij.ImagePlus#getWidth()I*
+
+impij.ImagePlus2
+getWidth()´±
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaœ œ(.
+
+%40int"ij.ImagePlus#getHeight()I*
+
+impij.ImagePlus2getHeight()À½
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java (
+%41
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()—
+”
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java (
+roi
+ij.gui.Roi"__id*
+
+%41
+ij.gui.Roi*
+9
+10*‰
+12d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java™ ™(Æ
+Ã
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java™ ™('
+ij.plugin.filter.RankFilters"
+pfr"__id*,
+*
+pfr#ij.plugin.filter.PlugInFilterRunnerÄ
+Á
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaš
+ š($
+
+%37int"#ij.IJ#setupDialog(Lij/ImagePlus;I)I*	"
+ij.IJ*
+
+impij.ImagePlus*
+""ƒ
+€
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java› ›(
+
+%38int"__id*
+""*
+11
+1*ö
+14d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java“ “(ƒ
+€
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java“ “("
+
+%36int"__id*
+""*
+12*ú
+16d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java (ƒ
+€
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java (
+
+%35int"__id*
+""*
+14
+12*Ò
+17d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java (İÚ
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java (
+%32java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;* 
+ij.plugin.filter.RankFilters2
+getClass()¿
+¼
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java (
+%33void""ij.IJ#register(Ljava/lang/Class;)V*	"
+ij.IJ*
+
+%32java.lang.Class¹
+¶
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java (
+%34java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macro*
+16
+12*à
+18d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaŒ  Œ($ƒ
+€
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaŒ  Œ($
+
+%31int"__id*
+"""n
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaŒ Œ(%
+""*ƒ	
+19d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java‡ ‡(ÎË
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java‡ ‡(
+%27void"Oij.gui.GenericDialog#addPreviewCheckbox(Lij/plugin/filter/PlugInFilterRunner;)V*
+
+gdij.gui.GenericDialog*,
+*
+pfr#ij.plugin.filter.PlugInFilterRunner29addPreviewCheckbox(Lij/plugin/filter/PlugInFilterRunner;)¤¡
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaˆ ˆ(
+%28void"@ij.gui.GenericDialog#addDialogListener(Lij/gui/DialogListener;)V*
+
+gdij.gui.GenericDialog* 
+ij.plugin.filter.RankFilters2*addDialogListener(Lij/gui/DialogListener;)ÆÃ
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaŠ Š(
+%29void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()ËÈ
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaŒ Œ(
+%30boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+17
+18*Ù
+1d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaª	 ª("n
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaª ª(
+""*ô
+2d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java¦ ¦(ƒ
+€
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java§ §(
+
+%47int"__id*
+""*
+1*¸
+3d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java¥ ¥(ÄÁ
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java¥ ¥(0
+
+%46int"!ij.ImagePlus#getImageStackSize()I*
+
+impij.ImagePlus2getImageStackSize()*
+2
+1*÷
+6d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java¤ ¤(ƒ
+€
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java¤ ¤(
+
+%45int"__id*
+""*
+3
+1*ú
+8d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java£ £(%ƒ
+€
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java£' £(/
+
+%44int"__id*
+""*	
+3
+6
+1*ú
+9d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java¢ ¢(ƒ
+€
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java£ £(
+
+%43int"__id*
+""*	
+3
+8
+1*
+20d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java„ „(Œ‰
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java„ „(;
+%25void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Light Background*
+""2 addCheckbox(Ljava/lang/String;Z)›˜
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java… …(G
+%26void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*#!
+Don't subtract (grayscale open)*
+""2 addCheckbox(Ljava/lang/String;Z)*
+19*ú
+21d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaƒ ƒ(ƒ
+€
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaƒ ƒ(!
+
+%24int"__id*
+""*
+19
+20*Ò
+22d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java‚ ‚(
+
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java‚ ‚(
+%21java.lang.String"__id*
+""Ê
+Ç
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java‚ ‚(5
+%22java.lang.String"__concat*
+
+%21java.lang.String*!
+/docs/menus/process.html#nansÿü
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java‚ ‚(6
+%23void"1ij.gui.GenericDialog#addHelp(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%22java.lang.String2addHelp(Ljava/lang/String;)*
+19*ú
+23d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java (ƒ
+€
+d
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java ($
+
+%20int"__id*
+""*
+21
+22:
+impij.ImagePlus:
+commandjava.lang.String:*
+pfr#ij.plugin.filter.PlugInFilterRunnerB 
+ij.plugin.filter.RankFilters

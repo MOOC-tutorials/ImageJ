@@ -1,0 +1,31 @@
+
+Kij.macro.Functions#copyFile(Ljava/io/File;Ljava/io/File;)Ljava/lang/String;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÃ# Ã#("1*ò
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÄ#	 Ä#(Â¿
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÄ# Ä#($
+%0java.lang.String"(java.io.File#getPath()Ljava/lang/String;*
+
+f1java.io.File2	getPath()Â¿
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÄ#& Ä#(2
+%1java.lang.String"(java.io.File#getPath()Ljava/lang/String;*
+
+f2java.io.File2	getPath()Ž
+‹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÄ#	 Ä#(3
+%2java.lang.String"Nij.util.Tools#copyFile(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*"
+ij.util.Tools*
+
+%0java.lang.String*
+
+%1java.lang.String"v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÄ# Ä#(4
+
+%2java.lang.String:
+f1java.io.File:
+f2java.io.FileB"
+ij.macro.Functions

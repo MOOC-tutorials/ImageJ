@@ -1,0 +1,7 @@
+ij.macro.Functions#selectWindowManagerImage(Ljava/lang/String;)V
+ij.IJ#selectWindow(I)V
+ij.IJ#wait(I)V
+ij.WindowManager#getImage(I)Lij/ImagePlus;
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.WindowManager#getIDList()[I
+java.lang.System#currentTimeMillis()J

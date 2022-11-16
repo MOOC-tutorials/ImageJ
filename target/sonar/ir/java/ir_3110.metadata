@@ -1,0 +1,8 @@
+ij.macro.Functions#handleTextWindowCommand(Lij/text/TextWindow;Ljava/lang/String;)V
+java.lang.String#length()I
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.util.Tools#parseDouble(Ljava/lang/String;D)D
+java.lang.String#substring(II)Ljava/lang/String;
+java.lang.String#indexOf(Ljava/lang/String;)I
+java.lang.String#startsWith(Ljava/lang/String;)Z

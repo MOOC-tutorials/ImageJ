@@ -1,0 +1,64 @@
+
+Kij.plugin.tool.PixelInspector#getIndex(Lij/gui/Overlay;Ljava/lang/String;)Ij
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java£ £("6"7*å
+3j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¨ ¨("t
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¨ ¨(
+""*ü
+4j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java§ §(­
+ª
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java§ §(
+%1
+ij.gui.Roi"
+__arrayGet*
+
+roisij.gui.Roi[]*
+""ÎË
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java§ §($
+%2java.lang.String"&ij.gui.Roi#getName()Ljava/lang/String;*
+
+%1
+ij.gui.Roi2	getName()þû
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java§ §(%
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+
+%2java.lang.String2equals(Ljava/lang/Object;)*	
+3
+4
+1*ð
+6j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¥ ¥(ÒÏ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¥ ¥( 
+%0ij.gui.Roi[]"%ij.gui.Overlay#toArray()[Lij/gui/Roi;*
+
+overlayij.gui.Overlay2	toArray()¡
+ž
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¥ ¥(!
+roisij.gui.Roi[]"__id*
+
+%0ij.gui.Roi[]*
+4
+1*å
+7j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¤ ¤("t
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¤ ¤(
+""*å
+1j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaª
+ ª("t
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaª ª(
+"":
+overlayij.gui.Overlay:
+namejava.lang.StringB!"
+ij.plugin.tool.PixelInspector

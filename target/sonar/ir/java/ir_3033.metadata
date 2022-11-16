@@ -1,0 +1,15 @@
+ij.macro.Functions#split()[Lij/macro/Variable;
+ij.macro.Variable#instance-init#
+ij.macro.Interpreter#nextToken()I
+ij.macro.Functions#getFirstString()Ljava/lang/String;
+java.lang.String#substring(II)Ljava/lang/String;
+ij.util.Tools#split(Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+java.lang.String#split(Ljava/lang/String;I)[Ljava/lang/String;
+ij.macro.Variable#<init>(IDLjava/lang/String;)V
+ij.macro.Functions#getLastString()Ljava/lang/String;
+java.lang.String#length()I
+ij.macro.Interpreter#getRightParen()V
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#endsWith(Ljava/lang/String;)Z
+ij.util.Tools#split(Ljava/lang/String;)[Ljava/lang/String;
+java.lang.String#startsWith(Ljava/lang/String;)Z

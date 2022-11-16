@@ -1,0 +1,83 @@
+
+;ij.macro.Functions#getClipboardContents()Ljava/lang/String;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaä' ä'($"6*˝
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaè' è'(@ñ
+ì
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaè' è'(@
+sjava.lang.String"__id*
+
+%6java.lang.Object*
+1*Ì
+5Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaè' è'(ï
+í
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaè'( è'(?&
+%5 java.awt.datatransfer.DataFlavor"__id*
+""ÓÎ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaè' è'(@
+%6java.lang.Object"hjava.awt.datatransfer.Transferable#getTransferData(Ljava/awt/datatransfer/DataFlavor;)Ljava/lang/Object;*,
+*
+data"java.awt.datatransfer.Transferable*(
+&
+%5 java.awt.datatransfer.DataFlavor23getTransferData(Ljava/awt/datatransfer/DataFlavor;)*
+2*·
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaã' ã'(•
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaã' ã'(
+%0ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpπ∂
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaã' ã'(
+
+%1void"!ij.macro.Interpreter#getParens()V*
+
+%0ij.macro.Interpreter2getParens()≈
+¬
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaå'. å'(I
+%2java.awt.Toolkit"6java.awt.Toolkit#getDefaultToolkit()Ljava/awt/Toolkit;*"
+java.awt.Toolkit˛˚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaå'. å'(^%
+%3java.awt.datatransfer.Clipboard"Fjava.awt.Toolkit#getSystemClipboard()Ljava/awt/datatransfer/Clipboard;*
+
+%2java.awt.Toolkit2getSystemClipboard()º
+π
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaå' å'(_,
+	clipboardjava.awt.datatransfer.Clipboard"__id*'
+%
+%3java.awt.datatransfer.Clipboard«ƒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaç' ç'(1(
+%4"java.awt.datatransfer.Transferable"cjava.awt.datatransfer.Clipboard#getContents(Ljava/lang/Object;)Ljava/awt/datatransfer/Transferable;*.
+,
+	clipboardjava.awt.datatransfer.Clipboard*
+""2getContents(Ljava/lang/Object;)Ω
+∫
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaç' ç'(2*
+data"java.awt.datatransfer.Transferable"__id**
+(
+%4"java.awt.datatransfer.TransferableÑ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaé' é'(
+sjava.lang.String"__id*
+""*
+5*÷
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaë'	 ë'(
+"u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaë' ë'(
+
+sjava.lang.StringB
+ij.macro.Functions

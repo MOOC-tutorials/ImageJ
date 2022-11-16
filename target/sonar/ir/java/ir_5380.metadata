@@ -1,0 +1,14 @@
+ij.plugin.StackEditor#convertStackToImages(Lij/ImagePlus;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.macro.Interpreter#removeBatchModeImage(Lij/ImagePlus;)V
+ij.IJ#wait(I)V
+ij.gui.Overlay#instance-init#
+ij.IJ#isMacro()Z
+ij.ImagePlus#instance-init#
+ij.IJ#showMessageWithCancel(Ljava/lang/String;Ljava/lang/String;)Z
+ij.macro.Interpreter#isBatchMode()Z
+ij.gui.Overlay#<init>()V
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+ij.IJ#error(Ljava/lang/String;)V

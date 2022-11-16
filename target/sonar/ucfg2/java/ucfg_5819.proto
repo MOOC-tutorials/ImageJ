@@ -1,0 +1,310 @@
+
+Eij.plugin.filter.RankFilters#setup(Ljava/lang/String;Lij/ImagePlus;)Ib
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaI I("31*ª
+13b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java^ ^(¶³
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java^ ^(%
+
+%10int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()*
+6
+12*î
+24b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaR R(
+}
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaS S(	
+%4int"__id*
+""*
+6*Þ
+25b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaQ Q(éæ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaQ Q(!
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+
+variance2equals(Ljava/lang/Object;)*
+24
+23*Ü
+15b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java\ \(äá
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java\ \(
+%9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+nan2equals(Ljava/lang/Object;)*
+13
+6
+11*Ø
+27b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaO O(äá
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaO O(
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+max2equals(Ljava/lang/Object;)*
+25
+6*Û
+17b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaZ Z(çä
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaZ Z(
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+
+tophat2equals(Ljava/lang/Object;)*
+15
+6*Ø
+29b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaM M(äá
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaM M(
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+min2equals(Ljava/lang/Object;)*
+27
+6*Þ
+19b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaX X(êç
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaX X("
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+	despeckle2equals(Ljava/lang/Object;)*
+17
+6*Õ
+1b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaq	 q("l
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaq q(
+""*ï
+2b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javao o(	€
+~
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javao o(
+
+%30int"__id*
+""*
+1*•
+
+3b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javam m(ÐÍ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javam m($
+%24java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roi
+ij.gui.Roi2getBounds()°­
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javam< m(J
+
+%25int"ij.ImagePlus#getWidth()I*
+
+impij.ImagePlus2
+getWidth()²¯
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javamL m([
+
+%26int"ij.ImagePlus#getHeight()I*
+
+impij.ImagePlus2getHeight()–“
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javam2 m(;
+%27java.awt.Rectangle"java.awt.RectangleÇ
+Ä
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javam. m(\
+%28"java.awt.Rectangle#<init>(II)V*
+
+%27java.awt.Rectangle*
+
+
+%25int*
+
+
+%26int…‚
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javam m(]
+%29boolean"2java.awt.Rectangle#contains(Ljava/awt/Rectangle;)Z*
+
+%24java.awt.Rectangle*
+
+%27java.awt.Rectangle2contains(Ljava/awt/Rectangle;)*
+2
+1*È
+4b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javal l(¾»
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javal l(
+%23
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()•
+’
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javal l(
+roi
+ij.gui.Roi"__id*
+
+%23
+ij.gui.Roi*
+3
+1*Ç
+6b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javak k(Õ
+Ò
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javak k(#
+%22boolean"2ij.plugin.filter.RankFilters#isMultiStepFilter(I)Z* 
+ij.plugin.filter.RankFilters*
+""*
+4
+1*‡
+7b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javah h(Ê
+Ç
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javah h(?
+%19java.lang.String"__concat*#!
+Argument missing or undefined: *
+
+argjava.lang.Stringß
+Ü
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javah h(@
+%20void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+RankFilters*
+
+%19java.lang.String€
+~
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javai
+ i(
+
+%21int"__id*
+"""l
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javai i(
+""*©
+8b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javae e(ÎË
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javae e(
+%17void")ij.plugin.filter.RankFilters#showMasks()V* 
+ij.plugin.filter.RankFilters2showMasks()€
+~
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaf
+ f(
+
+%18int"__id*
+"""l
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaf f(
+""*Ù
+9b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javad d(çä
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javad d( 
+%16boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*	
+masks2equals(Ljava/lang/Object;)*
+7
+8*‰
+31b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaJ J(­
+ª
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaJ J('
+ij.plugin.filter.RankFilters"
+imp"__id*
+
+impij.ImagePlusåâ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaK K(
+%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+mean2equals(Ljava/lang/Object;)*
+6
+29*Ý
+21b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaV V(éæ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaV V(!
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+
+outliers2equals(Ljava/lang/Object;)*
+6
+19*á
+10b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javac c(èå
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javac c(% 
+%14ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()†
+ƒ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javac c(&
+%15void"Jij.plugin.filter.RankFilters#setDisplayRange(Lij/process/ImageProcessor;)V* 
+ij.plugin.filter.RankFilters*"
+ 
+%14ij.process.ImageProcessor*
+6*Û
+11b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javab b(çä
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javab b( 
+%13boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*	
+final2equals(Ljava/lang/Object;)*
+9
+10*Í
+12b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java_ _(ñ
+î
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java_ _(E
+%11void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+RankFilters*+)
+'\"Remove NaNs\" requires a 32-bit image€
+~
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java` `(
+
+%12int"__id*
+"""l
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.java` `(
+""*Û
+23b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaT T(çä
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/RankFilters.javaT T(!
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+
+median2equals(Ljava/lang/Object;)*
+6
+21:
+argjava.lang.String:
+impij.ImagePlusB 
+ij.plugin.filter.RankFilters

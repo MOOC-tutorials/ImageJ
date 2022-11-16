@@ -1,0 +1,5 @@
+ij.WindowManager#removeWindow(Ljava/awt/Window;)V
+ij.WindowManager#removeImageWindow(Lij/gui/ImageWindow;)V
+ij.WindowManager#setWindow(Ljava/awt/Frame;)V
+ij.Menus#removeWindowMenuItem(I)V
+ij.IJ#getInstance()Lij/ImageJ;

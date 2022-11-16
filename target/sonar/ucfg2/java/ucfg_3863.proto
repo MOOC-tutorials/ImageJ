@@ -1,0 +1,1135 @@
+
+Hij.Menus#getExamplesMenu(Ljava/awt/event/ActionListener;)Ljava/awt/Menu;P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaœ œ(#"1*™î
+1P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java (!xv
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java (
+%0java.awt.Menu"java.awt.Menu«
+¨
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java ("
+%1")java.awt.Menu#<init>(Ljava/lang/String;)V*
+
+%0java.awt.Menu*
+
+Examples‰
+†
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java (#
+menujava.awt.Menu"__id*
+
+%0java.awt.Menuxv
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java (
+%2java.awt.Menu"java.awt.Menu¨
+¥
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java ("
+%3")java.awt.Menu#<init>(Ljava/lang/String;)V*
+
+%2java.awt.Menu*	
+PlotsŒ
+‰
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java (#
+submenujava.awt.Menu"__id*
+
+%2java.awt.Menuÿ
+ü
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaŸ Ÿ(:
+
+%4void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Example Plot*
+Example_Plot_.ijm
+ş
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java   (<
+
+%5void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Semi-log Plot*
+Semi-log_Plot_.ijmû
+ø
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¡ ¡(6
+
+%6void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Arrow Plot*
+Arrow_Plot_.ijm‡
+„
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¢ ¢(B
+
+%7void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Damped Wave Plot*
+Damped_Wave_Plot_.ijmÿ
+ü
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java£ £(:
+
+%8void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Dynamic Plot*
+Dynamic_Plot_.ijm…
+‚
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¤ ¤(@
+
+%9void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Dynamic Plot 2D*
+Dynamic_Plot_2D_.ijm
+‹
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¥ ¥(H
+%10void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Custom Plot Symbols*
+Custom_Plot_Symbols_.ijmü
+ù
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¦ ¦(6
+%11void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Histograms*
+Histograms_.ijmü
+ù
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java§ §(6
+%12void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Bar Charts*
+Bar_Charts_.ijmù
+ö
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¨ ¨(3
+%13void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Shapes*
+Plot_Shapes_.ijmş
+û
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java© ©(8
+%14void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Plot Styles*
+Plot_Styles_.ijmş
+û
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaª ª(8
+%15void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Random Data*
+Random_Data_.ijm€
+ı
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java« «(:
+%16void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Plot Results*
+Plot_Results_.ijm¦£
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¬ ¬(%
+%17void"Ejava.awt.MenuItem#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+submenujava.awt.Menu*+
+)
+listenerjava.awt.event.ActionListener22addActionListener(Ljava/awt/event/ActionListener;)ùö
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java­ ­(
+%18java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+menujava.awt.Menu*
+
+submenujava.awt.Menu2add(Ljava/awt/MenuItem;)yw
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¯ ¯(
+%19java.awt.Menu"java.awt.Menuª
+§
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¯ ¯(
+%20")java.awt.Menu#<init>(Ljava/lang/String;)V*
+
+%19java.awt.Menu*	
+Tools
+Š
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¯ ¯(
+submenujava.awt.Menu"__id*
+
+%19java.awt.Menu
+‹
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java° °(H
+%21void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Annular Selection*
+Annular_Selection_Tool.ijm€
+ı
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java± ±(:
+%22void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Big Cursor*
+Big_Cursor_Tool.ijmı
+ú
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java² ²(7
+%23void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Circle Tool*
+Circle_Tool.ijm„
+
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java³ ³(>
+%24void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Point Picker*
+Point_Picker_Tool.ijmù
+ö
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java´ ´(3
+%25void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+	Star Tool*
+Star_Tool.ijm‹
+ˆ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaµ µ(E
+%26void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Animated Icon Tool*
+Animated_Icon_Tool.ijm¦£
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¶ ¶(%
+%27void"Ejava.awt.MenuItem#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+submenujava.awt.Menu*+
+)
+listenerjava.awt.event.ActionListener22addActionListener(Ljava/awt/event/ActionListener;)ùö
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java· ·(
+%28java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+menujava.awt.Menu*
+
+submenujava.awt.Menu2add(Ljava/awt/MenuItem;)yw
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¹ ¹(
+%29java.awt.Menu"java.awt.Menuª
+§
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¹ ¹(
+%30")java.awt.Menu#<init>(Ljava/lang/String;)V*
+
+%29java.awt.Menu*	
+Macro
+Š
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¹ ¹(
+submenujava.awt.Menu"__id*
+
+%29java.awt.Menuó
+ğ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaº º(-
+%31void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Sphere*
+
+Sphere.ijmû
+ø
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java» »(5
+%32void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Dialog Box*
+Dialog_Box.ijm‰
+†
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¼ ¼(C
+%33void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Process Folder*
+Batch_Process_Folder.ijm…
+‚
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java½ ½(?
+%34void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+OpenDialog Demo*
+OpenDialog_Demo.ijm…
+‚
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¾ ¾(?
+%35void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Save All Images*
+Save_All_Images.ijm‰
+†
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¿ ¿(C
+%36void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Sine/Cosine Table*
+Sine_Cosine_Table.ijm‰
+†
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÀ À(C
+%37void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Non-numeric Table*
+Non-numeric_Table.ijmõ
+ò
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÁ Á(/
+%38void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*	
+Overlay*
+Overlay.ijm
+ş
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÂ Â(;
+%39void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Stack Overlay*
+Stack_Overlay.ijm…
+‚
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÃ Ã(?
+%40void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Array Functions*
+Array_Functions.ijm‹
+ˆ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÄ Ä(E
+%41void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Dual Progress Bars*
+Dual_Progress_Bars.ijm‘
+
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÅ Å(K
+%42void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Grab Viridis Colormap*
+Grab_Viridis_Colormap.ijm‹
+ˆ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÆ Æ(E
+%43void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Custom Measurement*
+Custom_Measurement.ijm‡
+„
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÇ Ç(A
+%44void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Synthetic Images*
+Synthetic_Images.ijm…
+‚
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÈ È(?
+%45void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Spiral Rotation*
+Spiral_Rotation.ijm
+ş
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÉ É(;
+%46void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Curve Fitting*
+Curve_Fitting.ijmƒ
+€
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÊ Ê(=
+%47void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Colors of 2021*
+Colors_of_2021.ijm¦£
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaË Ë(%
+%48void"Ejava.awt.MenuItem#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+submenujava.awt.Menu*+
+)
+listenerjava.awt.event.ActionListener22addActionListener(Ljava/awt/event/ActionListener;)ùö
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÌ Ì(
+%49java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+menujava.awt.Menu*
+
+submenujava.awt.Menu2add(Ljava/awt/MenuItem;)yw
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÎ Î(
+%50java.awt.Menu"java.awt.Menu¯
+¬
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÎ Î("
+%51")java.awt.Menu#<init>(Ljava/lang/String;)V*
+
+%50java.awt.Menu*
+
+JavaScript
+Š
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÎ Î("
+submenujava.awt.Menu"__id*
+
+%50java.awt.Menuò
+ï
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÏ Ï(,
+%52void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Sphere*
+	Sphere.jsş
+û
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaĞ Ğ(8
+%53void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Plasma Cloud*
+Plasma_Cloud.js‚
+ÿ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÑ Ñ(<
+%54void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Cloud Debugger*
+Cloud_Debugger.js†
+ƒ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÒ Ò(@
+%55void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Synthetic Images*
+Synthetic_Images.jsò
+ï
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÓ Ó(,
+%56void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Points*
+	Points.js„
+
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÔ Ô(>
+%57void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Spiral Rotation*
+Spiral_Rotation.jsş
+û
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÕ Õ(8
+%58void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Example Plot*
+Example_Plot.js€
+ı
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÖ Ö(:
+%59void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Semi-log Plot*
+Semi-log_Plot.jsú
+÷
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java× ×(4
+%60void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Arrow Plot*
+Arrow_Plot.jsş
+û
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaØ Ø(8
+%61void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Dynamic Plot*
+Dynamic_Plot.jsü
+ù
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÙ Ù(6
+%62void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Plot Styles*
+Plot_Styles.js†
+ƒ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÚ Ú(@
+%63void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Plot Random Data*
+Plot_Random_Data.js„
+
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÛ Û(>
+%64void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Histogram Plots*
+Histogram_Plots.jsˆ
+…
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÜ Ü(B
+%65void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+JPEG Quality Plot*
+JPEG_Quality_Plot.jsˆ
+…
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaİ İ(B
+%66void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Process Folder*
+Batch_Process_Folder.jsˆ
+…
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaŞ Ş(B
+%67void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Sine/Cosine Table*
+Sine_Cosine_Table.jsˆ
+…
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaß ß(B
+%68void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Non-numeric Table*
+Non-numeric_Table.jsô
+ñ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaà à(.
+%69void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*	
+Overlay*
+
+Overlay.js€
+ı
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaá á(:
+%70void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Stack Overlay*
+Stack_Overlay.jsŠ
+‡
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaâ â(D
+%71void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Dual Progress Bars*
+Dual_Progress_Bars.js‚
+ÿ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaã ã(<
+%72void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Gamma Adjuster*
+Gamma_Adjuster.jsŠ
+‡
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaä ä(D
+%73void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Custom Measurement*
+Custom_Measurement.js
+
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaå å(J
+%74void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Terabyte VirtualStack*
+Terabyte_VirtualStack.js‚
+ÿ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaæ æ(<
+%75void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Event Listener*
+Event_Listener.jsú
+÷
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaç ç(4
+%76void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+FFT Filter*
+FFT_Filter.js€
+ı
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaè è(:
+%77void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Curve Fitting*
+Curve_Fitting.jsş
+û
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaé é(8
+%78void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Overlay Text*
+Overlay_Text.jsŠ
+‡
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaê ê(D
+%79void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Crop Multiple Rois*
+Crop_Multiple_Rois.js€
+ı
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaë ë(:
+%80void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Show all LUTs*
+Show_all_LUTs.jsü
+ù
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaì ì(6
+%81void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Dialog Demo*
+Dialog_Demo.js¦£
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaí í(%
+%82void"Ejava.awt.MenuItem#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+submenujava.awt.Menu*+
+)
+listenerjava.awt.event.ActionListener22addActionListener(Ljava/awt/event/ActionListener;)ùö
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaî î(
+%83java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+menujava.awt.Menu*
+
+submenujava.awt.Menu2add(Ljava/awt/MenuItem;)yw
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaï ï(
+%84java.awt.Menu"java.awt.Menu®
+«
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaï ï(!
+%85")java.awt.Menu#<init>(Ljava/lang/String;)V*
+
+%84java.awt.Menu*
+	BeanShell
+Š
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaï ï(!
+submenujava.awt.Menu"__id*
+
+%84java.awt.Menuó
+ğ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javağ ğ(-
+%86void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Sphere*
+
+Sphere.bshÿ
+ü
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javañ ñ(9
+%87void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Example Plot*
+Example_Plot.bsh
+ş
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaò ò(;
+%88void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Semi-log Plot*
+Semi-log_Plot.bshû
+ø
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaó ó(5
+%89void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Arrow Plot*
+Arrow_Plot.bsh‰
+†
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaô ô(C
+%90void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Sine/Cosine Table*
+Sine_Cosine_Table.bsh¦£
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaõ õ(%
+%91void"Ejava.awt.MenuItem#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+submenujava.awt.Menu*+
+)
+listenerjava.awt.event.ActionListener22addActionListener(Ljava/awt/event/ActionListener;)ùö
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaö ö(
+%92java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+menujava.awt.Menu*
+
+submenujava.awt.Menu2add(Ljava/awt/MenuItem;)yw
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java÷ ÷(
+%93java.awt.Menu"java.awt.Menu«
+¨
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java÷ ÷(
+%94")java.awt.Menu#<init>(Ljava/lang/String;)V*
+
+%93java.awt.Menu*
+
+Python
+Š
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java÷ ÷(
+submenujava.awt.Menu"__id*
+
+%93java.awt.Menuò
+ï
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaø ø(,
+%95void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Sphere*
+	Sphere.py’
+
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaù ù(L
+%96void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Animated Gaussian Blur*
+Animated_Gaussian_Blur.py„
+
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaú ú(>
+%97void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Spiral Rotation*
+Spiral_Rotation.pyô
+ñ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaû û(.
+%98void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*	
+Overlay*
+
+Overlay.py¦£
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaü ü(%
+%99void"Ejava.awt.MenuItem#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+submenujava.awt.Menu*+
+)
+listenerjava.awt.event.ActionListener22addActionListener(Ljava/awt/event/ActionListener;)ú÷
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaı ı(
+%100java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+menujava.awt.Menu*
+
+submenujava.awt.Menu2add(Ljava/awt/MenuItem;)zx
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaş ş(
+%101java.awt.Menu"java.awt.Menu«
+¨
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaş ş(
+%102")java.awt.Menu#<init>(Ljava/lang/String;)V*
+
+%101java.awt.Menu*
+Java
+‹
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaş ş(
+submenujava.awt.Menu"__id*
+
+%101java.awt.Menuö
+ó
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÿ ÿ(/
+%103void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Sphere*
+Sphere_.java
+ş
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java€ €(:
+%104void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Plasma Cloud*
+Plasma_Cloud.java…
+‚
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java (>
+%105void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Gamma Adjuster*
+Gamma_Adjuster.javaø
+õ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java‚ ‚(1
+%106void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+
+Plugin*
+My_Plugin.javaƒ
+€
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaƒ ƒ(<
+%107void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Plugin Filter*
+Filter_Plugin.java
+ş
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java„ „(:
+%108void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Plugin Frame*
+Plugin_Frame.java‚
+ÿ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java… …(;
+%109void"Iij.Menus#addExample(Ljava/awt/Menu;Ljava/lang/String;Ljava/lang/String;)V*"
+
+ij.Menus*
+
+submenujava.awt.Menu*
+Plugin Tool*
+Prototype_Tool.java§¤
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java† †(%
+%110void"Ejava.awt.MenuItem#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+submenujava.awt.Menu*+
+)
+listenerjava.awt.event.ActionListener22addActionListener(Ljava/awt/event/ActionListener;)ú÷
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java‡ ‡(
+%111java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+menujava.awt.Menu*
+
+submenujava.awt.Menu2add(Ljava/awt/MenuItem;)«¨
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaˆ ˆ(
+%112void"java.awt.Menu#addSeparator()V*
+
+menujava.awt.Menu2addSeparator()“
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java‰ ‰(.!
+%113java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItemÏ
+Ì
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java‰ ‰(B
+%114"5java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;)V*#
+!
+%113java.awt.CheckboxMenuItem*
+Autorun Examples£
+ 
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java‰ ‰(C!
+itemjava.awt.CheckboxMenuItem"__id*#
+!
+%113java.awt.CheckboxMenuItemƒ€
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaŠ Š(
+%115java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+menujava.awt.Menu*#
+!
+itemjava.awt.CheckboxMenuItem2add(Ljava/awt/MenuItem;)„
+
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java‹ ‹(
+%116	ij.ImageJ"__id**
+
+ij.Menus"
+ij˜•
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java‹ ‹(
+%117void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*#
+!
+itemjava.awt.CheckboxMenuItem*
+
+%116	ij.ImageJ2.addItemListener(Ljava/awt/event/ItemListener;)ÅÂ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaŒ Œ(&
+%118void"&java.awt.CheckboxMenuItem#setState(Z)V*#
+!
+itemjava.awt.CheckboxMenuItem*
+""2setState(Z)"k
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java (
+
+menujava.awt.Menu:)
+listenerjava.awt.event.ActionListenerB"
+
+ij.Menus

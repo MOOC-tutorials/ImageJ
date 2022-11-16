@@ -1,0 +1,17 @@
+ij.text.TextWindow#addMenuBar()V
+java.awt.MenuBar#<init>()V
+java.awt.MenuShortcut#instance-init#
+ij.Prefs#get(Ljava/lang/String;Z)Z
+java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;Z)V
+java.awt.Menu#<init>(Ljava/lang/String;)V
+java.awt.Menu#instance-init#
+java.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.Menus#getFontSize()I
+java.awt.MenuShortcut#<init>(I)V
+java.awt.CheckboxMenuItem#instance-init#
+ij.Menus#getFont()Ljava/awt/Font;
+java.awt.MenuItem#<init>(Ljava/lang/String;)V
+java.awt.MenuItem#instance-init#
+java.awt.MenuBar#instance-init#
+ij.IJ#isMacOSX()Z

@@ -1,0 +1,136 @@
+
+Aij.plugin.FFT#newFHT(Lij/process/ImageProcessor;)Lij/process/FHT;U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java∏ ∏("8*é
+2U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java» »(ˆÛ
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java» »(. 
+%11java.awt.image.ColorModel"Dij.process.ImageProcessor#getColorModel()Ljava/awt/image/ColorModel;*!
+
+ipij.process.ImageProcessor2getColorModel()≥
+∞
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java» »(.-
+
+fhtij.process.FHT"
+originalColorModel"__id*"
+ 
+%11java.awt.image.ColorModel*
+1*†
+3U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java≈ ≈(ê
+ç
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java≈ ≈(
+%9ij.ImagePlus"__id**
+ij.plugin.FFT"
+imp®•
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java≈ ≈("
+
+%10int"ij.ImagePlus#getBitDepth()I*
+
+%9ij.ImagePlus2getBitDepth()*
+2
+1*Ê
+6U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java¿ ¿(ûõ
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java¿ ¿(
+%6ij.process.ImageProcessor"Iij.plugin.FFT#pad(Lij/process/ImageProcessor;)Lij/process/ImageProcessor;*
+ij.plugin.FFT*!
+
+ipij.process.ImageProcessor2 pad(Lij/process/ImageProcessor;)}
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java¿ ¿(
+%7ij.process.FHT"ij.process.FHT–
+Õ
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java¿	 ¿(
+%8"3ij.process.FHT#<init>(Lij/process/ImageProcessor;)V*
+
+%7ij.process.FHT*!
+
+%6ij.process.ImageProcessorè
+å
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java¿ ¿(
+fhtij.process.FHT"__id*
+
+%7ij.process.FHT*
+3*É
+7U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.javaª ª(„‡
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.javaª ª(&
+
+%0void"-ij.plugin.FFT#showStatus(Ljava/lang/String;)V*
+ij.plugin.FFT*
+Extracting brightness2showStatus(Ljava/lang/String;)ıÚ
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.javaº º(<
+%1ij.process.FloatProcessor"Dij.process.ColorProcessor#getBrightness()Lij/process/FloatProcessor;*!
+
+ipij.process.ImageProcessor2getBrightness()•
+¢
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.javaº º(= 
+ip2ij.process.ImageProcessor"__id*!
+
+%1ij.process.FloatProcessorüú
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.javaΩ Ω(
+%2ij.process.ImageProcessor"Iij.plugin.FFT#pad(Lij/process/ImageProcessor;)Lij/process/ImageProcessor;*
+ij.plugin.FFT*"
+ 
+ip2ij.process.ImageProcessor2 pad(Lij/process/ImageProcessor;)}
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.javaΩ Ω(
+%3ij.process.FHT"ij.process.FHT–
+Õ
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.javaΩ	 Ω(
+%4"3ij.process.FHT#<init>(Lij/process/ImageProcessor;)V*
+
+%3ij.process.FHT*!
+
+%2ij.process.ImageProcessorè
+å
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.javaΩ Ω(
+fhtij.process.FHT"__id*
+
+%3ij.process.FHTÌÍ
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.javaæ æ(+
+%5ij.process.ImageProcessor"@ij.process.ImageProcessor#duplicate()Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor2duplicate()£
+†
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.javaæ æ(+
+
+fhtij.process.FHT"
+rgb"__id*!
+
+%5ij.process.ImageProcessor*
+3*‚
+8U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.javaπ π(
+~
+|
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.javaπ π(
+
+fhtij.process.FHT"__id*
+""*
+6
+7*Ã
+1U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java…	 …("p
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFT.java… …(
+
+fhtij.process.FHT:
+ipij.process.ImageProcessorB
+ij.plugin.FFT

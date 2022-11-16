@@ -1,0 +1,69 @@
+
+Rij.plugin.frame.RoiManager#makeButtonPanel(Lij/gui/GenericDialog;)Ljava/awt/Panel;b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaú ú("1*É
+1b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaù ù(çä
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaù ù(
+%0java.awt.Panel"java.awt.Panelü
+ú
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaù ù(
+%1"java.awt.Panel#<init>()V*
+
+%0java.awt.Panelû
+õ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaù ù(
+paneljava.awt.Panel"__id*
+
+%0java.awt.Panelèå
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaü ü(
+%2java.awt.Button"java.awt.ButtonŒ
+À
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaü ü(3
+%3"+java.awt.Button#<init>(Ljava/lang/String;)V*
+
+%2java.awt.Button*
+\"Show All\" Color...µ
+≤
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaü ü(3-
+ij.plugin.frame.RoiManager"
+colorButton"__id*
+
+%2java.awt.Buttonµ
+≤
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java† †(
+%4java.awt.Button"__id*/*-
+ij.plugin.frame.RoiManager"
+colorButton•¢
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java† †(%
+
+%5void"Cjava.awt.Button#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+%4java.awt.Button*
+ij.plugin.frame.RoiManager22addActionListener(Ljava/awt/event/ActionListener;)µ
+≤
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java° °(
+%6java.awt.Button"__id*/*-
+ij.plugin.frame.RoiManager"
+colorButtoníè
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java° °(
+%7java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+paneljava.awt.Panel*
+
+%6java.awt.Button2add(Ljava/awt/Component;)"
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java¢ ¢(
+
+paneljava.awt.Panel:
+gdij.gui.GenericDialogB
+ij.plugin.frame.RoiManager

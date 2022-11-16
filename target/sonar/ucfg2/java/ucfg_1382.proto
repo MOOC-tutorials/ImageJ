@@ -1,0 +1,45 @@
+
+3ij.io.ImageReader#readJPEG(Ljava/io/InputStream;)[IY
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaö ö("1*‘
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java÷ ÷(‹
+ˆ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java÷ ÷(%"
+%0java.awt.image.BufferedImage"Ojavax.imageio.ImageIO#read(Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;*"
+javax.imageio.ImageIO*
+
+injava.io.InputStream®
+«
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java÷ ÷(&"
+bijava.awt.image.BufferedImage"__id*$
+"
+%0java.awt.image.BufferedImageš—
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaø ø()
+%1ij.process.ColorProcessor"ij.process.ColorProcessorâ
+ß
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaø ø(-
+%2"3ij.process.ColorProcessor#<init>(Ljava/awt/Image;)V*!
+
+%1ij.process.ColorProcessor*$
+"
+bijava.awt.image.BufferedImage¨
+¥
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaø ø(.
+ipij.process.ImageProcessor"__id*!
+
+%1ij.process.ColorProcessorßÜ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaù ù(
+%3java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*!
+
+ipij.process.ImageProcessor2getPixels()"c
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaù ù(
+"":
+injava.io.InputStreamB
+ij.io.ImageReader

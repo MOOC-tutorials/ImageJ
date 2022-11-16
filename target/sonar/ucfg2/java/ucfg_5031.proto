@@ -1,0 +1,118 @@
+
+<ij.CompositeImage#getRGBStack(Lij/ImagePlus;)Lij/ImageStack;Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaæ æ("1*Ë
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaø ø(ﬁ€
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaø ø((
+%0ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()®
+•
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaø ø()
+ipij.process.ImageProcessor"__id*!
+
+%0ij.process.ImageProcessorøº
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java¿
+ ¿(	
+%1int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()¡æ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java¡
+ ¡(	
+%2int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()x
+v
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java√ √(
+rbyte[]"__id*
+""x
+v
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaƒ ƒ(
+gbyte[]"__id*
+""x
+v
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java≈ ≈(
+bbyte[]"__id*
+""ıÚ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java∆ ∆(&
+
+%3void")ij.process.ColorProcessor#getRGB([B[B[B)V*!
+
+ipij.process.ImageProcessor*
+
+rbyte[]*
+
+gbyte[]*
+
+bbyte[]2getRGB([B[B[B)Å
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java« «(#
+%4ij.ImageStack"ij.ImageStack¶
+£
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java« «()
+%5"ij.ImageStack#<init>(II)V*
+
+%4ij.ImageStack*
+""*
+""ì
+ê
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java« «(*
+stackij.ImageStack"__id*
+
+%4ij.ImageStackãà
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java» »(
+
+%6void"=ij.ImageStack#addSlice(Ljava/lang/String;Ljava/lang/Object;)V*
+
+stackij.ImageStack*
+Red*
+
+rbyte[]2.addSlice(Ljava/lang/String;Ljava/lang/Object;)çä
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java… …(
+
+%7void"=ij.ImageStack#addSlice(Ljava/lang/String;Ljava/lang/Object;)V*
+
+stackij.ImageStack*	
+Green*
+
+gbyte[]2.addSlice(Ljava/lang/String;Ljava/lang/Object;)åâ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java   (
+
+%8void"=ij.ImageStack#addSlice(Ljava/lang/String;Ljava/lang/Object;)V*
+
+stackij.ImageStack*
+Blue*
+
+bbyte[]2.addSlice(Ljava/lang/String;Ljava/lang/Object;)ëé
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaÀ À(/$
+%9java.awt.image.IndexColorModel"Pij.process.ImageProcessor#getDefaultColorModel()Ljava/awt/image/IndexColorModel;*!
+
+ipij.process.ImageProcessor2getDefaultColorModel()îë
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaÀ À(0
+%10void"9ij.ImageStack#setColorModel(Ljava/awt/image/ColorModel;)V*
+
+stackij.ImageStack*&
+$
+%9java.awt.image.IndexColorModel2*setColorModel(Ljava/awt/image/ColorModel;)"u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaÃ Ã(
+
+stackij.ImageStack:
+impij.ImagePlusB
+ij.CompositeImage

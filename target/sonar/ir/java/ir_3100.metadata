@@ -1,0 +1,17 @@
+ij.macro.Functions#setBatchMode()V
+ij.macro.Interpreter#removeBatchModeImage(Lij/ImagePlus;)V
+ij.IJ#selectWindow(I)V
+ij.macro.Interpreter#getLeftParen()V
+ij.macro.Functions#getString()Ljava/lang/String;
+ij.macro.Interpreter#setBatchMode(Z)V
+ij.WindowManager#setTempCurrentImage(Lij/ImagePlus;)V
+ij.WindowManager#getTempCurrentImage()Lij/ImagePlus;
+ij.macro.Interpreter#isBatchMode()Z
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.macro.Interpreter#getBooleanExpression()D
+ij.macro.Interpreter#checkBoolean(D)V
+ij.macro.Interpreter#getRightParen()V
+ij.macro.Interpreter#addBatchModeImage(Lij/ImagePlus;)V
+ij.macro.Interpreter#setTempShowMode(Z)V
+ij.IJ#showProgress(II)V
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z

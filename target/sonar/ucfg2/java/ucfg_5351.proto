@@ -1,0 +1,392 @@
+
+qij.plugin.filter.MaximumFinder#showDialog(Lij/ImagePlus;Ljava/lang/String;Lij/plugin/filter/PlugInFilterRunner;)Id
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javax x("19*ü
+13f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÇ Ç(\¶
+£
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÇ Ç(\
+unitjava.lang.String"__id*
+
+%11java.lang.String*
+10
+11*î
+14f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÇW Ç([ü
+ú
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÇW Ç([
+%11java.lang.String"__id*
+
+%13
+<nulltype>*
+13*¯
+15f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÇ3 Ç(6ÍÁ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÇ3 Ç(G
+%14ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()ÓÎ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÇ3 Ç(V
+%12java.lang.String"7ij.measure.Calibration#getValueUnit()Ljava/lang/String;*
+
+%14ij.measure.Calibration2getValueUnit()•
+¢
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÇ3 Ç(V
+%11java.lang.String"__id*
+
+%12java.lang.String*
+13*î
+16f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÅ- Å(4ùö
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÅ Å(,
+%8ij.gui.GenericDialog"ij.gui.GenericDialog‡
+›
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÅ Å(5
+%9"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%8ij.gui.GenericDialog*
+
+commandjava.lang.String´
+®
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÅ Å(6
+gdij.gui.GenericDialog"__id*
+
+%8ij.gui.GenericDialogÍÁ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÇ Ç(+
+%10ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()*
+14
+15*Å
+17d
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java~ ~(ƒ¡
+d
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java (H
+%6java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*
+
+optionsjava.lang.String*
+
+noise=*
+prominence=20replaceAll(Ljava/lang/String;Ljava/lang/String;)«
+ƒ
+d
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java (I
+
+%7void"(ij.Macro#setOptions(Ljava/lang/String;)V*"
+
+ij.Macro*
+
+%6java.lang.String*
+16*‚
+18d
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java} }(%ÎË
+d
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java} }(7	
+%5int"-java.lang.String#indexOf(Ljava/lang/String;)I*
+
+optionsjava.lang.String*
+
+noise=2indexOf(Ljava/lang/String;)*
+16
+17*∆
+19d
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javay y(ÈÊ
+d
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javay y(.
+%0ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()≥
+∞
+d
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javay y(/
+ipij.process.ImageProcessor"__id*!
+
+%0ij.process.ImageProcessor„‡
+d
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaz z(!
+
+%1void"1ij.process.ImageProcessor#resetBinaryThreshold()V*!
+
+ipij.process.ImageProcessor2resetBinaryThreshold()€ÿ
+d
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java{ {(*
+%2double",ij.process.ImageProcessor#getMinThreshold()D*!
+
+ipij.process.ImageProcessor2getMinThreshold()Ö
+Ç
+d
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java{, {(G
+%3double"__id*
+""∏
+µ
+d
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java| |(+
+%4java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macro¶
+£
+d
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java| |(,
+optionsjava.lang.String"__id*
+
+%4java.lang.String*
+16
+18*Ö
+1f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaô ô(
+·ﬁ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaô ô(#
+%41java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*" 
+ij.plugin.filter.MaximumFinder2
+getClass()¡
+æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaô ô($
+%42void""ij.IJ#register(Ljava/lang/Class;)V*	"
+ij.IJ*
+
+%41java.lang.Class"p
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaö ö(
+""*Â
+2f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaò ò(Ö
+Ç
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaò ò(
+
+%40int"__id*
+"""p
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaò ò(
+""*◊
+3f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javañ ñ(·ﬁ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaó ó((
+%39boolean"\ij.plugin.filter.MaximumFinder#dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)Z*" 
+ij.plugin.filter.MaximumFinder*
+
+gdij.gui.GenericDialog*
+""2<dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)*
+2
+1*Â
+4f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaï ï(Ö
+Ç
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaï ï(
+
+%38int"__id*
+"""p
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaï ï(
+""*å 
+5f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaä ä(
+éã
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaä ä(;
+%23void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Light background*
+""2 addCheckbox(Ljava/lang/String;Z)î
+ë
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaã% ã(4
+%24java.lang.String[]"__id*
+""î
+ë
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaã6 ã(E
+%25java.lang.String[]"__id*
+""µ
+≤
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaã6 ã(W
+%26java.lang.String"
+__arrayGet*
+
+%25java.lang.String[]*
+""˛˚
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaã ã(X
+%27void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Output type:*
+
+%24java.lang.String[]*
+
+%26java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)ëé
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaå å(=
+%28void"aij.gui.GenericDialog#addPreviewCheckbox(Lij/plugin/filter/PlugInFilterRunner;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*,
+*
+pfr#ij.plugin.filter.PlugInFilterRunner*
+Preview point selection2KaddPreviewCheckbox(Lij/plugin/filter/PlugInFilterRunner;Ljava/lang/String;)ˆÛ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaç ç(
+%29void"4ij.gui.GenericDialog#addMessage(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+    2addMessage(Ljava/lang/String;)ÈÊ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaé é(,
+%30java.awt.Component"5ij.gui.GenericDialog#getMessage()Ljava/awt/Component;*
+
+gdij.gui.GenericDialog2getMessage()¡
+æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaé é(,1 
+ij.plugin.filter.MaximumFinder"
+messageArea"__id*
+
+%30java.awt.Component®•
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaè è("
+%31void"@ij.gui.GenericDialog#addDialogListener(Lij/gui/DialogListener;)V*
+
+gdij.gui.GenericDialog*" 
+ij.plugin.filter.MaximumFinder2*addDialogListener(Lij/gui/DialogListener;)ÎË
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaê ê('
+%32java.util.Vector"6ij.gui.GenericDialog#getCheckboxes()Ljava/util/Vector;*
+
+gdij.gui.GenericDialog2getCheckboxes()æ
+ª
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaê ê('0 
+ij.plugin.filter.MaximumFinder"
+
+checkboxes"__id*
+
+%32java.util.Vectorí
+è
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaí í(
+%33java.lang.String"__id*
+""”
+–
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaí í(:
+%34java.lang.String"__concat*
+
+%33java.lang.String*(&
+$/docs/menus/process.html#find-maximaÅ˛
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaí í(;
+%35void"1ij.gui.GenericDialog#addHelp(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%34java.lang.String2addHelp(Ljava/lang/String;)»≈
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaì ì(
+%36void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()Õ 
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaî î(
+%37boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+3
+4*Ü
+6f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaâ â(ìê
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaâ â(D
+%22void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Above lower threshold*
+""2 addCheckbox(Ljava/lang/String;Z)*
+5*ı
+7f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÖ Ö(
+‰·
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÖ Ö(E
+%19void"Nij.gui.GenericDialog#addNumericField(Ljava/lang/String;DIILjava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Prominence >*
+""*
+""*2*
+
+unitjava.lang.String28addNumericField(Ljava/lang/String;DIILjava/lang/String;)ÑÅ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÜ Ü((
+%20void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+
+Strict*
+""2 addCheckbox(Ljava/lang/String;Z)ëé
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaá á(=
+%21void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Exclude edge maxima*
+""2 addCheckbox(Ljava/lang/String;Z)*
+5
+6*Ü
+8f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÑ. Ñ(2ì
+ê
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÑ' Ñ(2
+unitjava.lang.String"__id*
+""*
+7*Á
+9f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÉ É(LÒÓ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÑ Ñ(%
+%18boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+unitjava.lang.String*
+
+Gray Value2equals(Ljava/lang/Object;)*
+7
+8*ˇ
+10f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÉJ É(Kã
+à
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÉJ É(K
+
+%15int"__id*
+
+
+%17int*
+9*ˇ
+11f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÉF É(Gã
+à
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÉF É(G
+
+%15int"__id*
+
+
+%16int*
+9:
+impij.ImagePlus:
+commandjava.lang.String:*
+pfr#ij.plugin.filter.PlugInFilterRunnerB" 
+ij.plugin.filter.MaximumFinder

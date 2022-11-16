@@ -1,0 +1,733 @@
+
+7ij.plugin.frame.ColorThresholder#apply(Lij/ImagePlus;)Vh
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaİ İ("130"131* 
+25h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java­	 ­	(µ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java­	 ­	(
+%72byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+hSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java®	 ®	(
+%73byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+sSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¯	 ¯	(
+%74byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+bSource*
+25
+16*„
+28h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java«	= «	(FÂ
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java«	= «	(F
+%70java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassBÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java«	= «	(Q
+%71boolean"java.awt.Checkbox#getState()Z*
+
+%70java.awt.Checkbox2
+getState()*
+25
+16*„
+29h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java«	% «	(.Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java«	% «	(.
+%68java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassSÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java«	% «	(9
+%69boolean"java.awt.Checkbox#getState()Z*
+
+%68java.awt.Checkbox2
+getState()*
+16
+28*¾
+130h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaß. ß(1‡„
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaß. ß(E
+%1java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+impij.ImagePlus*
+Mask2getProperty(Ljava/lang/String;)¶
+³
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaß ß(F'
+
+fillMaskIPij.process.ImageProcessor"__id*
+
+%1java.lang.Object*
+
+128
+129*¹
+131h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaŞ Ş(À
+½
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaŞ Ş(4
+
+%0void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+ColorThresholder.apply*
+130*‹
+112h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaï? ï(HÂ
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaï? ï(H
+%16java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassBÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaï? ï(S
+%17boolean"java.awt.Checkbox#getState()Z*
+
+%16java.awt.Checkbox2
+getState()*
+16
+109
+100*‡
+113h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaï& ï(/Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaï& ï(/
+%14java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassSÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaï& ï(:
+%15boolean"java.awt.Checkbox#getState()Z*
+
+%14java.awt.Checkbox2
+getState()*
+
+112
+100*‡
+114h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaï ï(Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaï ï(
+%12java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassHÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaï ï(!
+%13boolean"java.awt.Checkbox#getState()Z*
+
+%12java.awt.Checkbox2
+getState()*
+
+113
+100*ˆ
+70h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java	? 	(HÂ
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java	? 	(H
+%43java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassBÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java	? 	(S
+%44boolean"java.awt.Checkbox#getState()Z*
+
+%43java.awt.Checkbox2
+getState()*
+58
+16
+67*„
+71h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java	& 	(/Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java	& 	(/
+%41java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassSÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java	& 	(:
+%42boolean"java.awt.Checkbox#getState()Z*
+
+%41java.awt.Checkbox2
+getState()*
+58
+70*„
+72h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java	 	(Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java	 	(
+%39java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassHÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java	 	(!
+%40boolean"java.awt.Checkbox#getState()Z*
+
+%39java.awt.Checkbox2
+getState()*
+58
+71* 
+95h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaû û(µ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaû û(
+%27byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+hSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaü ü(
+%28byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+sSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaı ı(
+%29byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+bSource*
+16
+95*„
+30h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java«	 «	(Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java«	 «	(
+%66java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassHÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java«	 «	( 
+%67boolean"java.awt.Checkbox#getState()Z*
+
+%66java.awt.Checkbox2
+getState()*
+16
+29* 
+53h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java™	 ™	(µ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java™	 ™	(
+%54byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+hSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaš	 š	(
+%55byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+sSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java›	 ›	(
+%56byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+bSource*
+16
+53*ˆ
+98h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaù= ù(FÂ
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaù= ù(F
+%25java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassBÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaù= ù(Q
+%26boolean"java.awt.Checkbox#getState()Z*
+
+%25java.awt.Checkbox2
+getState()*
+16
+95
+86*„
+99h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaù$ ù(-Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaù$ ù(-
+%23java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassSÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaù$ ù(8
+%24boolean"java.awt.Checkbox#getState()Z*
+
+%23java.awt.Checkbox2
+getState()*
+86
+98*†
+11h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java»	1 »	(;
+Š
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java»	1 »	(;
+
+%78int"__id*
+
+
+%80int*
+8
+9*†
+12h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java»	& »	(0
+Š
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java»	& »	(0
+
+%78int"__id*
+
+
+%79int*
+8
+9*ˆ
+56h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—	= —	(FÂ
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—	= —	(F
+%52java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassBÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—	= —	(Q
+%53boolean"java.awt.Checkbox#getState()Z*
+
+%52java.awt.Checkbox2
+getState()*
+16
+53
+44*ê
+13h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaº	 º	(ïì
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaº	 º	('
+%77java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*!
+
+ipij.process.ImageProcessor2getPixels()*
+11
+12*„
+57h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—	% —	(.Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—	% —	(.
+%50java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassSÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—	% —	(9
+%51boolean"java.awt.Checkbox#getState()Z*
+
+%50java.awt.Checkbox2
+getState()*
+44
+56*
+14h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¹	 ¹	(
+‡
+„
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¹	 ¹	(
+
+%76int"__id*
+""*
+13
+1*„
+58h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—	 —	(Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—	 —	(
+%48java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassHÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—	 —	(!
+%49boolean"java.awt.Checkbox#getState()Z*
+
+%48java.awt.Checkbox2
+getState()*
+57
+44*â
+15h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¸	 ¸	("r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¸	 ¸	(
+""*¤
+16h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java·	 ·	(îë
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java·	 ·	(( 
+%75ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()¸
+µ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java·	 ·	()
+ipij.process.ImageProcessor"__id*"
+ 
+%75ij.process.ImageProcessor*
+14
+15* 
+39h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java£	 £	(µ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java£	 £	(
+%63byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+hSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¤	 ¤	(
+%64byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+sSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¥	 ¥	(
+%65byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+bSource*
+16
+39*†
+0 "
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÇ	 Ç	(
+implicit return*…
+100h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaù ù(Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaù ù(
+%21java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassHÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaù ù( 
+%22boolean"java.awt.Checkbox#getState()Z*
+
+%21java.awt.Checkbox2
+getState()*
+86
+99*¬
+1h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÄ	 Ä	(ÿü
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÄ	 Ä	(
+%84java.awt.Color"Aij.plugin.frame.ColorThresholder#thresholdColor()Ljava/awt/Color;*$"
+ ij.plugin.frame.ColorThresholder2thresholdColor()‰†
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÄ	 Ä	( 
+%85void"5ij.process.ImageProcessor#setColor(Ljava/awt/Color;)V*!
+
+ipij.process.ImageProcessor*
+
+%84java.awt.Color2setColor(Ljava/awt/Color;)©¦
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÅ	 Å	(
+%86void"<ij.process.ImageProcessor#fill(Lij/process/ImageProcessor;)V*!
+
+ipij.process.ImageProcessor*)
+'
+
+fillMaskIPij.process.ImageProcessor2!fill(Lij/process/ImageProcessor;)*
+0*¡
+123h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaç ç(´
+±
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaç ç(
+%9byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+hSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaè è(
+%10byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+sSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaé é(
+%11byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+bSource*	
+123
+16*ˆ
+126h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaå6 å(?Á
+¾
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaå6 å(?
+%7java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassBÂ¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaå6 å(J
+%8boolean"java.awt.Checkbox#getState()Z*
+
+%7java.awt.Checkbox2
+getState()*
+123
+114
+16*„
+127h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaå å('Á
+¾
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaå å('
+%5java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassSÂ¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaå å(2
+%6boolean"java.awt.Checkbox#getState()Z*
+
+%5java.awt.Checkbox2
+getState()*
+
+114
+126*¡
+128h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaá á(&öó
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaá á(2
+%2java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*)
+'
+
+fillMaskIPij.process.ImageProcessor2getPixels()¡
+
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaá á(3
+fillMaskbyte[]"__id*
+
+%2java.lang.ObjectÁ
+¾
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaå å(
+%3java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassHÂ¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaå å(
+%4boolean"java.awt.Checkbox#getState()Z*
+
+%3java.awt.Checkbox2
+getState()*
+
+114
+127*ã
+129h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaà à("r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaà à(
+""*‚
+8h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¼	1 ¼	(;
+Š
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¼	1 ¼	(;
+
+%81int"__id*
+
+
+%83int*
+0* 
+81h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java…	 …	(µ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java…	 …	(
+%36byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+hSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java†	 †	(
+%37byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+sSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java‡	 ‡	(
+%38byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+bSource*
+16
+81*‚
+9h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¼	& ¼	(0
+Š
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¼	& ¼	(0
+
+%81int"__id*
+
+
+%82int*
+0*¢
+109h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javañ ñ(µ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javañ ñ(
+%18byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+hSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaò ò(
+%19byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+sSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaó ó(
+%20byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+bSource*	
+16
+109*ˆ
+84h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaƒ	> ƒ	(GÂ
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaƒ	> ƒ	(G
+%34java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassBÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaƒ	> ƒ	(R
+%35boolean"java.awt.Checkbox#getState()Z*
+
+%34java.awt.Checkbox2
+getState()*
+16
+81
+72*„
+85h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaƒ	& ƒ	(/Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaƒ	& ƒ	(/
+%32java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassSÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaƒ	& ƒ	(:
+%33boolean"java.awt.Checkbox#getState()Z*
+
+%32java.awt.Checkbox2
+getState()*
+72
+84*„
+86h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaƒ	 ƒ	(Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaƒ	 ƒ	(
+%30java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassHÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaƒ	 ƒ	(!
+%31boolean"java.awt.Checkbox#getState()Z*
+
+%30java.awt.Checkbox2
+getState()*
+72
+85*ˆ
+42h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¡	? ¡	(HÂ
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¡	? ¡	(H
+%61java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassBÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¡	? ¡	(S
+%62boolean"java.awt.Checkbox#getState()Z*
+
+%61java.awt.Checkbox2
+getState()*
+16
+39
+30*„
+43h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¡	& ¡	(/Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¡	& ¡	(/
+%59java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassSÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¡	& ¡	(:
+%60boolean"java.awt.Checkbox#getState()Z*
+
+%59java.awt.Checkbox2
+getState()*
+30
+42*„
+44h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¡	 ¡	(Â
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¡	 ¡	(
+%57java.awt.Checkbox"__id*3*1"
+ ij.plugin.frame.ColorThresholder"
+	bandPassHÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¡	 ¡	("
+%58boolean"java.awt.Checkbox#getState()Z*
+
+%57java.awt.Checkbox2
+getState()*
+30
+43* 
+67h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java	 	(µ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java	 	(
+%45byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+hSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java	 	(
+%46byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+sSourceµ
+²
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java‘	 ‘	(
+%47byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+bSource*
+16
+67:
+impij.ImagePlusB$"
+ ij.plugin.frame.ColorThresholder

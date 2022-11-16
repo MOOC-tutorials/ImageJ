@@ -1,0 +1,83 @@
+
+ij.plugin.frame.Editor#copy()Z^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaË	 Ë("3*…
+
+2^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÐ. Ð(/·´
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÐ Ð(-+
+%4%java.awt.datatransfer.StringSelection"%java.awt.datatransfer.StringSelectionô
+ñ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÐ Ð(0
+%5"Ajava.awt.datatransfer.StringSelection#<init>(Ljava/lang/String;)V*-
++
+%4%java.awt.datatransfer.StringSelection*
+
+sjava.lang.StringÇ
+Ä
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÐ Ð(1-
+cont%java.awt.datatransfer.StringSelection"__id*-
++
+%4%java.awt.datatransfer.StringSelectionº·
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÑ Ñ(
+
+%6void"xjava.awt.datatransfer.Clipboard#setContents(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V*)
+'
+clipjava.awt.datatransfer.Clipboard*/
+-
+cont%java.awt.datatransfer.StringSelection*
+ij.plugin.frame.Editor2WsetContents(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)"h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÒ Ò(
+""*¿
+3^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÌ Ì(ˆ
+…
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÌ Ì(
+sjava.lang.String"__id*
+""¦
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÍ Í(
+%0java.awt.TextArea"__id*"* 
+ij.plugin.frame.Editor"
+taåâ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÍ Í(
+%1java.lang.String":java.awt.TextComponent#getSelectedText()Ljava/lang/String;*
+
+%0java.awt.TextArea2getSelectedText()š
+—
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÍ Í(
+sjava.lang.String"__id*
+
+%1java.lang.StringÕÒ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÎ Î(
+%2java.awt.Toolkit".java.awt.Window#getToolkit()Ljava/awt/Toolkit;*
+ij.plugin.frame.Editor2getToolkit()‚ÿ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÎ Î(4%
+%3java.awt.datatransfer.Clipboard"Fjava.awt.Toolkit#getSystemClipboard()Ljava/awt/datatransfer/Clipboard;*
+
+%2java.awt.Toolkit2getSystemClipboard()»
+¸
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÎ Î(5'
+clipjava.awt.datatransfer.Clipboard"__id*'
+%
+%3java.awt.datatransfer.Clipboard*
+2
+1*Í
+1^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÔ
+ Ô("h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÔ Ô(
+""B
+ij.plugin.frame.Editor

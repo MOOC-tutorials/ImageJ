@@ -1,0 +1,11 @@
+ij.plugin.frame.Editor#balance()V
+java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+java.lang.String#length()I
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.IJ#beep()V
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+java.lang.String#toCharArray()[C
+ij.plugin.frame.Editor#maskQuotes([C)V
+java.lang.String#indexOf(I)I
+ij.IJ#showStatus(Ljava/lang/String;)V
+ij.plugin.frame.Editor#maskComments([C)V

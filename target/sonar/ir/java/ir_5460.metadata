@@ -1,0 +1,10 @@
+ij.plugin.FITS_Writer#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.io.SaveDialog#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ij.plugin.FITS_Writer#getHeader(Lij/ImagePlus;)[Ljava/lang/String;
+java.io.File#<init>(Ljava/lang/String;)V
+java.lang.String#length()I
+java.io.File#instance-init#
+ij.IJ#error(Ljava/lang/String;)V
+java.lang.String#trim()Ljava/lang/String;
+ij.io.SaveDialog#instance-init#

@@ -1,0 +1,720 @@
+
+Eij.plugin.LutLoader#getBuiltInLut(Ljava/lang/String;)Lij/io/FileInfo;Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaD D("35*ù
+24Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaU U(ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaU U(
+%15byte[]"__id* *
+
+fiij.io.FileInfo"
+redsó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaU U(#
+%16byte[]"__id*"* 
+
+fiij.io.FileInfo"
+greensñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaU% U(-
+%17byte[]"__id*!*
+
+fiij.io.FileInfo"
+bluesÂ‚
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaU U(.
+
+%18int" ij.plugin.LutLoader#ice([B[B[B)I*
+ij.plugin.LutLoader*
+
+%15byte[]*
+
+%16byte[]*
+
+%17byte[]2ice([B[B[B)*	
+2
+3
+1*…
+25Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaT T(›⁄
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaT T(
+%14boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+ice2equals(Ljava/lang/Object;)*
+24
+23*°
+26Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaS S(ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaS S(
+%10byte[]"__id* *
+
+fiij.io.FileInfo"
+redsó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaS S(%
+%11byte[]"__id*"* 
+
+fiij.io.FileInfo"
+greensñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaS' S(/
+%12byte[]"__id*!*
+
+fiij.io.FileInfo"
+bluesÈÊ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaS S(0
+
+%13int""ij.plugin.LutLoader#grays([B[B[B)I*
+ij.plugin.LutLoader*
+
+%10byte[]*
+
+%11byte[]*
+
+%12byte[]2grays([B[B[B)*	
+2
+3
+1* 
+27Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaR R(ﬁ€
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaR R(
+%9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*	
+grays2equals(Ljava/lang/Object;)*
+25
+26*ò
+28Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaQ Q(î
+ë
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaQ Q(
+%5byte[]"__id* *
+
+fiij.io.FileInfo"
+redsñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaQ Q($
+%6byte[]"__id*"* 
+
+fiij.io.FileInfo"
+greensï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaQ& Q(.
+%7byte[]"__id*!*
+
+fiij.io.FileInfo"
+blues„‡
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaQ Q(/	
+%8int"!ij.plugin.LutLoader#fire([B[B[B)I*
+ij.plugin.LutLoader*
+
+%5byte[]*
+
+%6byte[]*
+
+%7byte[]2fire([B[B[B)*	
+2
+3
+1*…
+29Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaO O(›⁄
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaP P(
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+fire2equals(Ljava/lang/Object;)*
+27
+28*Ù
+30Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaN% N(/å
+â
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaN  N(/
+namejava.lang.String"__id*
+
+redgreen*
+29*Œ
+31Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaN N(
+‚ﬂ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaN N(
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+	red/green2equals(Ljava/lang/Object;)*
+29
+30*ı
+32Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaM% M(0ç
+ä
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaM  M(0
+namejava.lang.String"__id*
+	3-3-2 RGB*
+31*∑
+10Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javac c(ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javac c($
+%50byte[]"__id* *
+
+fiij.io.FileInfo"
+redsó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javac& c(/
+%51byte[]"__id*"* 
+
+fiij.io.FileInfo"
+greensñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javac1 c(9
+%52byte[]"__id*!*
+
+fiij.io.FileInfo"
+bluesˇ¸
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javac c(:
+
+%53int"*ij.plugin.LutLoader#primaryColor(I[B[B[B)I*
+ij.plugin.LutLoader*2*
+
+%50byte[]*
+
+%51byte[]*
+
+%52byte[]2primaryColor(I[B[B[B)*	
+2
+3
+1*Œ
+33Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaM M(
+‚ﬂ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaM M(
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+	3-3-2 rgb2equals(Ljava/lang/Object;)*
+31
+32*Ã
+11Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javab b(·ﬁ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javab b(!
+%49boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*	
+magenta2equals(Ljava/lang/Object;)*
+9
+10*‘
+34Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaL
+ L("s
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaL L(
+
+fiij.io.FileInfo*∑
+12Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaa a(ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaa a($
+%45byte[]"__id* *
+
+fiij.io.FileInfo"
+redsó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaa& a(/
+%46byte[]"__id*"* 
+
+fiij.io.FileInfo"
+greensñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaa1 a(9
+%47byte[]"__id*!*
+
+fiij.io.FileInfo"
+bluesˇ¸
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaa a(:
+
+%48int"*ij.plugin.LutLoader#primaryColor(I[B[B[B)I*
+ij.plugin.LutLoader*2*
+
+%45byte[]*
+
+%46byte[]*
+
+%47byte[]2primaryColor(I[B[B[B)*	
+2
+3
+1*·
+35Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaE E(ÑÅ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaE E(
+%0ij.io.FileInfo"ij.io.FileInfoñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaE E(
+%1"ij.io.FileInfo#<init>()V*
+
+%0ij.io.FileInfoí
+è
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaE E(
+fiij.io.FileInfo"__id*
+
+%0ij.io.FileInfoå
+â
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaF F(
+
+fiij.io.FileInfo"
+reds"__id*
+""é
+ã
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaG G( 
+
+fiij.io.FileInfo"
+greens"__id*
+""ç
+ä
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaH H(
+
+fiij.io.FileInfo"
+blues"__id*
+""ê
+ç
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaJ J("
+
+fiij.io.FileInfo"
+
+fileName"__id*
+""*
+33
+34* 
+13Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java` `(ﬁ€
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java` `(
+%44boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+cyan2equals(Ljava/lang/Object;)*
+11
+12*∑
+14Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java_ _(ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java_ _($
+%40byte[]"__id* *
+
+fiij.io.FileInfo"
+redsó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java_& _(/
+%41byte[]"__id*"* 
+
+fiij.io.FileInfo"
+greensñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java_1 _(9
+%42byte[]"__id*!*
+
+fiij.io.FileInfo"
+bluesˇ¸
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java_ _(:
+
+%43int"*ij.plugin.LutLoader#primaryColor(I[B[B[B)I*
+ij.plugin.LutLoader*2*
+
+%40byte[]*
+
+%41byte[]*
+
+%42byte[]2primaryColor(I[B[B[B)*	
+2
+3
+1* 
+15Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java^ ^(ﬁ€
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java^ ^(
+%39boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+blue2equals(Ljava/lang/Object;)*
+13
+14*∑
+16Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java] ](ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java] ]($
+%35byte[]"__id* *
+
+fiij.io.FileInfo"
+redsó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java]& ](/
+%36byte[]"__id*"* 
+
+fiij.io.FileInfo"
+greensñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java]1 ](9
+%37byte[]"__id*!*
+
+fiij.io.FileInfo"
+bluesˇ¸
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java] ](:
+
+%38int"*ij.plugin.LutLoader#primaryColor(I[B[B[B)I*
+ij.plugin.LutLoader*2*
+
+%35byte[]*
+
+%36byte[]*
+
+%37byte[]2primaryColor(I[B[B[B)*	
+2
+3
+1*À
+17Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java\ \(ﬂ‹
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java\ \(
+%34boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*	
+green2equals(Ljava/lang/Object;)*
+15
+16*∑
+18Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java[ [(ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java[ [($
+%30byte[]"__id* *
+
+fiij.io.FileInfo"
+redsó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java[& [(/
+%31byte[]"__id*"* 
+
+fiij.io.FileInfo"
+greensñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java[1 [(9
+%32byte[]"__id*!*
+
+fiij.io.FileInfo"
+bluesˇ¸
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.java[ [(:
+
+%33int"*ij.plugin.LutLoader#primaryColor(I[B[B[B)I*
+ij.plugin.LutLoader*2*
+
+%30byte[]*
+
+%31byte[]*
+
+%32byte[]2primaryColor(I[B[B[B)*	
+2
+3
+1*…
+19Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaZ Z(›⁄
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaZ Z(
+%29boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+red2equals(Ljava/lang/Object;)*
+17
+18*”
+1Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javam	 m("s
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javam m(
+
+fiij.io.FileInfo*ä
+2Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javak k(§
+°
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javak k("
+
+fiij.io.FileInfo"
+
+fileName"__id*
+
+namejava.lang.String*
+1*±
+3Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaj j(ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaj j(
+%64byte[]"__id* *
+
+fiij.io.FileInfo"
+redsó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaj j("
+%65byte[]"__id*"* 
+
+fiij.io.FileInfo"
+greensñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaj$ j(,
+%66byte[]"__id*!*
+
+fiij.io.FileInfo"
+bluesÄ˝
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaj j(6
+%67void")ij.plugin.LutLoader#interpolate([B[B[BI)V*
+ij.plugin.LutLoader*
+
+%64byte[]*
+
+%65byte[]*
+
+%66byte[]*
+""2interpolate([B[B[BI)*
+2*¶
+6Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javag g(ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javag g(
+%60byte[]"__id* *
+
+fiij.io.FileInfo"
+redsó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javag g((
+%61byte[]"__id*"* 
+
+fiij.io.FileInfo"
+greensñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javag* g(2
+%62byte[]"__id*!*
+
+fiij.io.FileInfo"
+bluesÔÏ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javag g(3
+
+%63int"%ij.plugin.LutLoader#redGreen([B[B[B)I*
+ij.plugin.LutLoader*
+
+%60byte[]*
+
+%61byte[]*
+
+%62byte[]2redGreen([B[B[B)*	
+2
+3
+1*—
+7Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaf f(‚ﬂ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaf f("
+%59boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+
+redgreen2equals(Ljava/lang/Object;)*
+2
+3
+6
+1*∂
+8Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javae e(ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javae e($
+%55byte[]"__id* *
+
+fiij.io.FileInfo"
+redsó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javae& e(/
+%56byte[]"__id*"* 
+
+fiij.io.FileInfo"
+greensñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javae1 e(9
+%57byte[]"__id*!*
+
+fiij.io.FileInfo"
+bluesˇ¸
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javae e(:
+
+%58int"*ij.plugin.LutLoader#primaryColor(I[B[B[B)I*
+ij.plugin.LutLoader*2*
+
+%55byte[]*
+
+%56byte[]*
+
+%57byte[]2primaryColor(I[B[B[B)*	
+2
+3
+1*…
+9Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javad d(‡›
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javad d( 
+%54boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+
+yellow2equals(Ljava/lang/Object;)*
+7
+8*£
+20Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaY Y(ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaY Y(
+%25byte[]"__id* *
+
+fiij.io.FileInfo"
+redsó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaY Y(&
+%26byte[]"__id*"* 
+
+fiij.io.FileInfo"
+greensñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaY( Y(0
+%27byte[]"__id*!*
+
+fiij.io.FileInfo"
+bluesÎË
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaY Y(1
+
+%28int"#ij.plugin.LutLoader#rgb332([B[B[B)I*
+ij.plugin.LutLoader*
+
+%25byte[]*
+
+%26byte[]*
+
+%27byte[]2rgb332([B[B[B)*	
+2
+3
+1*œ
+21Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaX X(„‡
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaX X(#
+%24boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+	3-3-2 RGB2equals(Ljava/lang/Object;)*
+19
+20*ß
+22Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaW W(ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaW W(
+%20byte[]"__id* *
+
+fiij.io.FileInfo"
+redsó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaW W((
+%21byte[]"__id*"* 
+
+fiij.io.FileInfo"
+greensñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaW* W(2
+%22byte[]"__id*!*
+
+fiij.io.FileInfo"
+bluesÔÏ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaW W(3
+
+%23int"%ij.plugin.LutLoader#spectrum([B[B[B)I*
+ij.plugin.LutLoader*
+
+%20byte[]*
+
+%21byte[]*
+
+%22byte[]2spectrum([B[B[B)*	
+2
+3
+1*Œ
+23Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaV V(‚ﬂ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LutLoader.javaV V("
+%19boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+
+spectrum2equals(Ljava/lang/Object;)*
+21
+22:
+namejava.lang.StringB
+ij.plugin.LutLoader

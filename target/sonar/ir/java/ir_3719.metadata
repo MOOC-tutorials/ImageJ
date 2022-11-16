@@ -1,0 +1,10 @@
+ij.WindowManager#activateWindow(Ljava/lang/String;Ljava/awt/MenuItem;)V
+java.lang.String#lastIndexOf(I)I
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.WindowManager#getImage(I)Lij/ImagePlus;
+ij.util.Tools#parseDouble(Ljava/lang/String;D)D
+java.lang.String#substring(II)Ljava/lang/String;
+ij.WindowManager#toFront(Ljava/awt/Frame;)V
+ij.IJ#isMacro()Z
+ij.WindowManager#setCurrentWindow(Lij/gui/ImageWindow;)V
+ij.plugin.frame.Recorder#record(Ljava/lang/String;Ljava/lang/String;)V

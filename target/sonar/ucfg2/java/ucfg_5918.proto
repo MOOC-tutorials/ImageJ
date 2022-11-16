@@ -1,0 +1,63 @@
+
+‚ij.plugin.frame.SyncWindows#adaptEvent(Ljava/awt/event/MouseEvent;Ljava/awt/Component;Ljava/awt/Point;)Ljava/awt/event/MouseEvent;c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javað ð("1*é
+1c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javañ ñ(º·
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javañ ñ($	
+%0int"java.awt.AWTEvent#getID()I* 
+
+ejava.awt.event.MouseEvent2getID()ÇÄ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javañ& ñ(1
+
+%1long"$java.awt.event.InputEvent#getWhen()J* 
+
+ejava.awt.event.MouseEvent2	getWhen()ÐÍ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javañ3 ñ(C	
+%2int")java.awt.event.InputEvent#getModifiers()I* 
+
+ejava.awt.event.MouseEvent2getModifiers()ÒÏ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaò ò( 	
+%3int"*java.awt.event.MouseEvent#getClickCount()I* 
+
+ejava.awt.event.MouseEvent2getClickCount()ØÕ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaò" ò(4
+%4boolean"+java.awt.event.MouseEvent#isPopupTrigger()Z* 
+
+ejava.awt.event.MouseEvent2isPopupTrigger()¤¡
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javañ ñ(
+%5java.awt.event.MouseEvent"java.awt.event.MouseEventÂ
+¿
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javañ	 ò(5
+%6">java.awt.event.MouseEvent#<init>(Ljava/awt/Component;IJIIIIZ)V*!
+
+%5java.awt.event.MouseEvent*
+
+cjava.awt.Component*
+	
+%0int*
+
+
+%1long*
+	
+%2int*
+""*
+""*
+	
+%3int*
+
+%4boolean"ˆ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javañ ò(6!
+
+%5java.awt.event.MouseEvent:
+ejava.awt.event.MouseEvent:
+cjava.awt.Component:
+pjava.awt.PointB
+ij.plugin.frame.SyncWindows

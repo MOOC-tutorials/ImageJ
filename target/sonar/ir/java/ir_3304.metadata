@@ -1,0 +1,13 @@
+ij.plugin.Compiler#open(Ljava/lang/String;Ljava/lang/String;)Z
+ij.IJ#getDirectory(Ljava/lang/String;)Ljava/lang/String;
+ij.io.OpenDialog#instance-init#
+java.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.String#lastIndexOf(I)I
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#endsWith(Ljava/lang/String;)Z
+ij.io.OpenDialog#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+java.lang.String#substring(II)Ljava/lang/String;
+ij.plugin.frame.Editor#setDefaultDirectory(Ljava/lang/String;)V
+ij.IJ#error(Ljava/lang/String;)V
+java.lang.String#startsWith(Ljava/lang/String;)Z

@@ -1,0 +1,1018 @@
+
+'ij.plugin.AVI_Reader#readBitMapInfo(J)V\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java± ±("53*ı
+
+27\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaô ô(&ü
+ú
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaô ô(1
+%85java.lang.String"__concat*
+Unsupported: *
+""¬
+ø
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaô ô(Q
+%86java.lang.String"__concat*
+
+%85java.lang.String*!
+ bits/pixel for compression '‘
+—
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaö ö( 
+%87java.lang.String"6ij.plugin.AVI_Reader#fourccString(I)Ljava/lang/String;*
+ij.plugin.AVI_Reader*
+""∫
+∑
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaô ö( 
+%88java.lang.String"__concat*
+
+%86java.lang.String*
+
+%87java.lang.String¶
+£
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaô ö($
+%89java.lang.String"__concat*
+
+%88java.lang.String*
+'íè
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaô ô(
+%90java.lang.Exception"java.lang.Exception“
+œ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaô	 ö(%
+%91"/java.lang.Exception#<init>(Ljava/lang/String;)V*
+
+%90java.lang.Exception*
+
+%89java.lang.String*
+0*Ë
+51\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaŒ ’(
+z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java” ”(#
+
+%38int"__id*
+""*
+30
+31*ò&
+52\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaæ æ(ú
+ô
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaæ
+ æ(
+%11java.lang.String"__concat*
+
+   biSize=*
+""¥
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaæ æ( 
+%12void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%11java.lang.Stringù
+ö
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaø
+ ø(!
+%13java.lang.String"__concat*
+   biWidth=*
+""¥
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaø ø("
+%14void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%13java.lang.Stringû
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¿
+ ¿(#
+%15java.lang.String"__concat*
+   biHeight=*
+""¥
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¿ ¿($
+%16void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%15java.lang.Stringû
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¡
+ ¡(#
+%17java.lang.String"__concat*
+   biPlanes=*
+""¥
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¡ ¡($
+%18void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%17java.lang.String†
+ù
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¬
+ ¬('
+%19java.lang.String"__concat*
+   biBitCount=*
+""¥
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¬ ¬((
+%20void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%19java.lang.StringÕ
+ 
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java√" √(D
+%21java.lang.String"2java.lang.Integer#toHexString(I)Ljava/lang/String;*"
+java.lang.Integer*
+""∏
+µ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java√
+ √(D
+%22java.lang.String"__concat*
+   biCompression=0x*
+
+%21java.lang.Stringß
+§
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java√
+ √(I
+%23java.lang.String"__concat*
+
+%22java.lang.String*
+ '‘
+—
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java√J √(e
+%24java.lang.String"6ij.plugin.AVI_Reader#fourccString(I)Ljava/lang/String;*
+ij.plugin.AVI_Reader*
+""∫
+∑
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java√
+ √(e
+%25java.lang.String"__concat*
+
+%23java.lang.String*
+
+%24java.lang.String¶
+£
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java√
+ √(i
+%26java.lang.String"__concat*
+
+%25java.lang.String*
+'¥
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java√ √(j
+%27void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%26java.lang.String°
+û
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaƒ
+ ƒ()
+%28java.lang.String"__concat*
+   biSizeImage=*
+""¥
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaƒ ƒ(*
+%29void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%28java.lang.String•
+¢
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java≈
+ ≈(1
+%30java.lang.String"__concat*
+   biXPelsPerMeter=*
+""¥
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java≈ ≈(2
+%31void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%30java.lang.String•
+¢
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∆
+ ∆(1
+%32java.lang.String"__concat*
+   biYPelsPerMeter=*
+""¥
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∆ ∆(2
+%33void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%32java.lang.Stringü
+ú
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java«
+ «(%
+%34java.lang.String"__concat*
+   biClrUsed=*
+""¥
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java« «(&
+%35void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%34java.lang.String§
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java»
+ »(/
+%36java.lang.String"__concat*
+   biClrImportant=*
+""¥
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java» »(0
+%37void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%36java.lang.String*
+33*˙
+30\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaó4 ó(>É
+Ä
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaó4 ó(>
+
+%82int"__id*
+
+%84short*
+27
+18
+19
+21*¿
+53\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java≤ ≤(≤Ø
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java≤ ≤(	
+%0int"ij.plugin.AVI_Reader#readInt()I*
+ij.plugin.AVI_Reader2	readInt()≤Ø
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java≥ ≥(	
+%1int"ij.plugin.AVI_Reader#readInt()I*
+ij.plugin.AVI_Reader2	readInt()≤Ø
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¥ ¥(	
+%2int"ij.plugin.AVI_Reader#readInt()I*
+ij.plugin.AVI_Reader2	readInt()∏µ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaµ µ(
+%3short"!ij.plugin.AVI_Reader#readShort()S*
+ij.plugin.AVI_Reader2readShort()∏µ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∂ ∂(
+%4short"!ij.plugin.AVI_Reader#readShort()S*
+ij.plugin.AVI_Reader2readShort()≤Ø
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∑ ∑(	
+%5int"ij.plugin.AVI_Reader#readInt()I*
+ij.plugin.AVI_Reader2	readInt()≤Ø
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∏ ∏(	
+%6int"ij.plugin.AVI_Reader#readInt()I*
+ij.plugin.AVI_Reader2	readInt()≤Ø
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaπ π(	
+%7int"ij.plugin.AVI_Reader#readInt()I*
+ij.plugin.AVI_Reader2	readInt()≤Ø
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∫ ∫(	
+%8int"ij.plugin.AVI_Reader#readInt()I*
+ij.plugin.AVI_Reader2	readInt()≤Ø
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaª ª(	
+%9int"ij.plugin.AVI_Reader#readInt()I*
+ij.plugin.AVI_Reader2	readInt()≥∞
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaº º(
+
+%10int"ij.plugin.AVI_Reader#readInt()I*
+ij.plugin.AVI_Reader2	readInt()*
+52
+33*Û
+31\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaó( ó(1z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaó( ó(1
+
+%83int"__id*
+""Ä
+~
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaó( ó(1
+
+%82int"__id*
+
+
+%83int*
+27
+18
+19
+21*Ñ
+33\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÀ À(z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaŒ Œ(
+
+%53int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaœ œ(
+
+%54int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java– –(
+
+%55int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java÷ ÷(
+
+%56int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java◊ ◊(
+
+%57int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÿ ÿ(
+
+%58int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java› ›(
+
+%59int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaﬁ ﬁ(
+
+%60int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java‚ ‚(
+
+%61int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÊ Ê(
+
+%62int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÁ Á(
+
+%63int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÈ È(
+
+%64int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÍ Í(
+
+%65int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÓ Ó(
+
+%66int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÔ Ô(
+
+%67int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java (
+
+%68int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaı ı(
+
+%69int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java˙ ˙(
+
+%70int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java˚ ˚(
+
+%71int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¸ ¸(
+
+%72int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java˝ ˝(
+
+%73int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java˛ ˛(
+
+%74int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÖ Ö(
+
+%75int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÜ Ü(
+
+%76int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaá á(
+
+%77int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaà à(
+
+%78int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaå å(
+
+%79int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaç ç(
+
+%80int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaé é(
+
+%81int"__id*
+""*
+37
+51
+30
+31
+43*é
+34\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaì î(O∫
+∑
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaì î(O
+%50java.lang.String"__concat*
+
+%44java.lang.String*
+
+%45java.lang.Stringíè
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaì ì(
+%51java.lang.Exception"java.lang.Exception“
+œ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaì
+ î(P
+%52"/java.lang.Exception#<init>(Ljava/lang/String;)V*
+
+%51java.lang.Exception*
+
+%50java.lang.String*
+0*”
+12\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java´ ´(Œ
+À
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java´' ´(K
+%106java.lang.String"2java.lang.Integer#toHexString(I)Ljava/lang/String;*"
+java.lang.Integer*
+""ø
+º
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java´
+ ´(K
+%107java.lang.String"__concat*
+   > data compression=0x*
+
+%106java.lang.String©
+¶
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java´
+ ´(P
+%108java.lang.String"__concat*
+
+%107java.lang.String*
+ '’
+“
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java´Q ´(n
+%109java.lang.String"6ij.plugin.AVI_Reader#fourccString(I)Ljava/lang/String;*
+ij.plugin.AVI_Reader*
+""Ω
+∫
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java´
+ ´(n
+%110java.lang.String"__concat*
+
+%108java.lang.String*
+
+%109java.lang.String®
+•
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java´
+ ´(r
+%111java.lang.String"__concat*
+
+%110java.lang.String*
+'∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java´ ´(s
+%112void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%111java.lang.Stringß
+§
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¨
+ ¨(,
+%113java.lang.String"__concat*
+   > palette colors=*
+""∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¨ ¨(-
+%114void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%113java.lang.Stringß
+§
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java≠
+ ≠(/
+%115java.lang.String"__concat*
+   > scan line size=*
+""∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java≠ ≠(0
+%116void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%115java.lang.String¶
+£
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÆ
+ Æ(-
+%117java.lang.String"__concat*
+   > data top down=*
+""∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÆ Æ(.
+%118void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%117java.lang.String*
+5
+6
+8
+0*Ü
+35\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaîL î(Nõ
+ò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaîL î(N
+%45java.lang.String"__id*
+
+%47java.lang.String*
+34*∞
+36\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaî# î('‘
+—
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaî* î(E
+%48java.lang.String"6ij.plugin.AVI_Reader#fourccString(I)Ljava/lang/String;*
+ij.plugin.AVI_Reader*
+""ß
+§
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaî# î(E
+%49java.lang.String"__concat*
+ '*
+
+%48java.lang.String¶
+£
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaî# î(I
+%46java.lang.String"__concat*
+
+%49java.lang.String*
+'õ
+ò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaî# î(I
+%45java.lang.String"__id*
+
+%46java.lang.String*
+34*˝
+37\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaí î(QÕ
+ 
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaì4 ì(V
+%43java.lang.String"2java.lang.Integer#toHexString(I)Ljava/lang/String;*"
+java.lang.Integer*
+""æ
+ª
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaì ì(V
+%44java.lang.String"__concat*
+Unsupported compression: *
+
+%43java.lang.String*
+35
+36*˙
+17\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¢ £(GØ
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¶& ¶(, 
+%104java.io.RandomAccessFile"__id*$*"
+ij.plugin.AVI_Reader"
+raFile—Œ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¶& ¶(=
+%105long"*java.io.RandomAccessFile#getFilePointer()J*"
+ 
+%104java.io.RandomAccessFile2getFilePointer()*
+5
+6
+8
+0
+12*Ó
+18\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java£# £(*É
+Ä
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java£! £(G
+%101int"__id*
+
+%103int*
+17*Ó
+19\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java£ £(É
+Ä
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java£ £(
+%101int"__id*
+
+%102int*
+17*z
+0 "s
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¬ ¬(
+implicit return*Œ
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¿ ¿(&©¶
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¿ ¿(&
+%137java.awt.image.IndexColorModel"java.awt.image.IndexColorModelÖ
+Ç
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¿ ¿(>
+%138"0java.awt.image.IndexColorModel#<init>(II[B[B[B)V*(
+&
+%137java.awt.image.IndexColorModel*
+""*
+""*
+
+prbyte[]*
+
+pgbyte[]*
+
+pbbyte[]±
+Æ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¿ ¿(>
+ij.plugin.AVI_Reader"
+cm"__id*(
+&
+%137java.awt.image.IndexColorModel*
+0*—
+3\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaª ª(Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaª ª( 
+%129java.io.RandomAccessFile"__id*$*"
+ij.plugin.AVI_Reader"
+raFile≈¬
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaª ª(
+%130byte"$java.io.RandomAccessFile#readByte()B*"
+ 
+%129java.io.RandomAccessFile2
+readByte()Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaº º( 
+%131java.io.RandomAccessFile"__id*$*"
+ij.plugin.AVI_Reader"
+raFile≈¬
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaº º(
+%132byte"$java.io.RandomAccessFile#readByte()B*"
+ 
+%131java.io.RandomAccessFile2
+readByte()Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaΩ Ω( 
+%133java.io.RandomAccessFile"__id*$*"
+ij.plugin.AVI_Reader"
+raFile≈¬
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaΩ Ω(
+%134byte"$java.io.RandomAccessFile#readByte()B*"
+ 
+%133java.io.RandomAccessFile2
+readByte()Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaæ æ(
+ 
+%135java.io.RandomAccessFile"__id*$*"
+ij.plugin.AVI_Reader"
+raFile≈¬
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaæ æ(
+%136byte"$java.io.RandomAccessFile#readByte()B*"
+ 
+%135java.io.RandomAccessFile2
+readByte()*
+3
+1*„
+5\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∑ ∑(#|
+z
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∑ ∑(%
+prbyte[]"__id*
+""|
+z
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∏ ∏(%
+pgbyte[]"__id*
+""|
+z
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaπ π(%
+pbbyte[]"__id*
+""*
+3
+1*Á
+6\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∂ ∂(+§
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∂ ∂(;
+%124java.lang.String"__concat*
+Not enough data (*
+""Ω
+∫
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∂ ∂(T
+%125java.lang.String"__concat*
+
+%124java.lang.String*
+) for palette of size ©
+¶
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∂ ∂(b
+%126java.lang.String"__concat*
+
+%125java.lang.String*
+""ìê
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∂ ∂(
+%127java.lang.Exception"java.lang.Exception’
+“
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java∂
+ ∂(c
+%128"/java.lang.Exception#<init>(Ljava/lang/String;)V*
+
+%127java.lang.Exception*
+
+%126java.lang.String*
+0*ó
+8\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¥ ¥(û
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¥ ¥("
+%119java.lang.String"__concat*
+   Reading *
+""∏
+µ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¥ ¥(6
+%120java.lang.String"__concat*
+
+%119java.lang.String*
+ Palette colors: ÷
+”
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¥9 ¥(W
+%121java.lang.String"7ij.plugin.AVI_Reader#posSizeString(J)Ljava/lang/String;*
+ij.plugin.AVI_Reader*
+""Ω
+∫
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¥ ¥(W
+%122java.lang.String"__concat*
+
+%120java.lang.String*
+
+%121java.lang.String∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java¥ ¥(X
+%123void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%122java.lang.String*
+5
+6*Ô
+41\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÄ Ä(&Ä
+~
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÄ Ä(&
+
+%40int"__id*
+
+
+%42int*
+30
+31*Î
+42\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÄ Ä(z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÄ Ä(
+
+%41int"__id*
+""Ä
+~
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaÄ Ä(
+
+%40int"__id*
+
+
+%41int*
+30
+31*Ë
+43\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java˙ Ñ(
+z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.javaˇ( ˇ(8
+
+%39int"__id*
+""*
+41
+42*«
+21\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java† †(#ú
+ô
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java† †(+
+%92java.lang.String"__concat*
+
+Odd size (*
+""¶
+£
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java† †(/
+%93java.lang.String"__concat*
+
+%92java.lang.String*
+xß
+§
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java† †(8
+%94java.lang.String"__concat*
+
+%93java.lang.String*
+""∏
+µ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java† †(N
+%95java.lang.String"__concat*
+
+%94java.lang.String*
+) unsupported with ‘
+—
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java†O †(j
+%96java.lang.String"6ij.plugin.AVI_Reader#fourccString(I)Ljava/lang/String;*
+ij.plugin.AVI_Reader*
+""∫
+∑
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java† †(j
+%97java.lang.String"__concat*
+
+%95java.lang.String*
+
+%96java.lang.String±
+Æ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java† †(y
+%98java.lang.String"__concat*
+
+%97java.lang.String*
+ compressioníè
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java† †(
+%99java.lang.Exception"java.lang.Exception”
+–
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/AVI_Reader.java†	 †(z
+%100"/java.lang.Exception#<init>(Ljava/lang/String;)V*
+
+%99java.lang.Exception*
+
+%98java.lang.String*
+0:
+""B
+ij.plugin.AVI_Reader

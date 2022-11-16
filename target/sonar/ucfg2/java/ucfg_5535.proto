@@ -1,0 +1,88 @@
+
+?ij.io.FileOpener#readPixels(Lij/io/FileInfo;)Ljava/lang/Object;X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÇ Ç("12*®
+6X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÎ Î(!™
+–
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÎ Î(!
+pixelsjava.lang.Object"__id*
+
+%3java.lang.Object­ª
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÑ Ñ(
+
+%4void"java.io.InputStream#close()V*
+
+isjava.io.InputStream2close()*
+1*ž
+7X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÍ Í(,›
+˜
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÍ Í(,
+readerij.io.ImageReader"__id*
+
+%1ij.io.ImageReader›˜
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÎ Î(!
+%3java.lang.Object"Eij.io.ImageReader#readPixels(Ljava/io/InputStream;)Ljava/lang/Object;*
+
+readerij.io.ImageReader*
+
+isjava.io.InputStream2!readPixels(Ljava/io/InputStream;)*
+6*´
+8X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÍ( Í(*‰†
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÍ Í('
+%1ij.io.ImageReader"ij.io.ImageReaderÃ
+À
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÍ Í(+
+%2"+ij.io.ImageReader#<init>(Lij/io/FileInfo;)V*
+
+%1ij.io.ImageReader*
+
+fiij.io.FileInfo*
+7*Á
+9X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÌ Ì("b
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÌ Ì(
+""*„
+10X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÊ Ê(*›
+˜
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÊ Ê(*
+isjava.io.InputStream"__id*
+
+%0java.io.InputStream*
+8
+9*ý
+11X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÊ Ê(%–“
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÊ Ê()
+%0java.io.InputStream"Iij.io.FileOpener#createInputStream(Lij/io/FileInfo;)Ljava/io/InputStream;*
+ij.io.FileOpener*
+
+fiij.io.FileInfo2#createInputStream(Lij/io/FileInfo;)*
+10*î
+12X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÈ È(‡
+„
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.javaÈ È(
+pixelsjava.lang.Object"__id*
+""*
+11*×
+1X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java×	 ×("x
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileOpener.java× ×(
+
+pixelsjava.lang.Object:
+fiij.io.FileInfoB
+ij.io.FileOpener

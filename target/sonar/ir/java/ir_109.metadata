@@ -1,0 +1,9 @@
+ij.plugin.LutLoader#showLut(Lij/io/FileInfo;Z)V
+ij.plugin.LutLoader#createImage(Lij/io/FileInfo;Z)V
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.IJ#wait(I)V
+ij.plugin.LutLoader#saveLUTName(Lij/ImagePlus;Lij/io/FileInfo;)V
+ij.IJ#isMacro()Z
+ij.IJ#error(Ljava/lang/String;)V
+java.awt.image.IndexColorModel#<init>(II[B[B[B)V
+java.awt.image.IndexColorModel#instance-init#

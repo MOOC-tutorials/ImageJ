@@ -1,0 +1,802 @@
+
+Eij.plugin.ScaleBar#setElementsPositions(Lij/process/ImageProcessor;)VZ
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaº º("41*Í
+24Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÏ Ï(6£
+ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÐ Ð(
+%53java.awt.Rectangle"__id*!*
+ij.plugin.ScaleBar"
+hTextº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÐ Ð(/
+%54(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config*
+22
+23*£
+25Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÏ' Ï(-º
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÏ' Ï(-/
+%52(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÏ' Ï(6
+
+%49int"__id*
+
+
+%51int*
+24*æ
+26Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÏ# Ï($~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÏ# Ï($
+
+%49int"__id*
+
+
+%50int*
+24*Ô
+27Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaË Ë(b¢
+Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÌ Ì(
+%44java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+hBar¢
+Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÍ Í(
+%45java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+hBarº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÍ Í(/
+%46(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config£
+ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÏ Ï(
+%47java.awt.Rectangle"__id*!*
+ij.plugin.ScaleBar"
+hTextº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÏ Ï(/
+%48(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config*
+25
+26*æ
+28Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaË` Ë(a~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaË` Ë(a
+
+%40int"__id*
+
+
+%42int*
+27*£
+29Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaË5 Ë(?º
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaËB Ë(H/
+%43(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaË5 Ë(]
+
+%40int"__id*
+
+
+%41int*
+27*¼
+30[
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÊ Ê(£¢
+Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaË Ë(
+%38java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+hBar©
+¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaË Ë(
+%39java.awt.Rectangle"__id*'*%
+ij.plugin.ScaleBar"
+hBackground*
+28
+29*ë
+31\
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÊ¡ Ê(¢€
+~
+\
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÊ¡ Ê(¢
+
+%34int"__id*
+
+
+%36int*
+30*§
+32[
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÊw Ê(€¼
+¹
+\
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÊƒ Ê(‰/
+%37(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config
+}
+[
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÊw Ê(ž
+
+%34int"__id*
+
+
+%35int*
+30*Á
+10Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÖ Ö(p¢
+Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java× ×(
+%85java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+vBar©
+¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java× ×(
+%86java.awt.Rectangle"__id*'*%
+ij.plugin.ScaleBar"
+vBackground¢
+Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java×7 ×(;
+%87java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+vBar£
+ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÙ Ù(
+%88java.awt.Rectangle"__id*!*
+ij.plugin.ScaleBar"
+vTextº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÙ Ù(/
+%89(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config*
+8
+9*Ï
+11Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÖ2 Ö(=©
+¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÖ2 Ö(=
+%83java.awt.Rectangle"__id*'*%
+ij.plugin.ScaleBar"
+vBackgroundº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÖF Ö(L/
+%84(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÖ2 Ö(o
+
+%80int"__id*
+
+
+%82int*
+10*æ
+12Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÖ$ Ö(/~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÖ$ Ö(/
+
+%80int"__id*
+
+
+%81int*
+10*ø
+35Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÈ È(2¢
+Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÊ Ê(
+%31java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+hBar©
+¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÊ Ê(
+%32java.awt.Rectangle"__id*'*%
+ij.plugin.ScaleBar"
+hBackgroundº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÊN Ê(T/
+%33(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config*
+31
+32*Â
+13Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÒ Ò(k¢
+Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÔ Ô(
+%75java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+vBarº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÔ Ô(/
+%76(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config¢
+Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÕ Õ(
+%77java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+vBar¢
+Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÖ Ö(
+%78java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+vBar©
+¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÖ Ö(
+%79java.awt.Rectangle"__id*'*%
+ij.plugin.ScaleBar"
+vBackground*
+11
+12*°
+14Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÒV Ò(Z¢
+Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÒV Ò(Z
+%73java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+hBar¢
+Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÒ_ Ò(c
+%74java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+hBar~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÒV Ò(j
+
+%68int"__id*
+
+
+%70int*
+13*£
+37Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇ Ç(rº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÈ È(/
+%30(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config*
+35*Ï
+15Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÒ Ò(#©
+¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÒ Ò(#
+%71java.awt.Rectangle"__id*'*%
+ij.plugin.ScaleBar"
+hBackgroundº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÒ< Ò(B/
+%72(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÒ Ò(Q
+
+%68int"__id*
+
+
+%69int*
+13*Ž	
+38Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇD Ç(Jº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇD Ç(J/
+%24(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config¿
+¼
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇD Ç(S
+%25java.lang.String"__id*?*=
+/
+%24(ij.plugin.ScaleBar$ScaleBarConfiguration"
+
+locationˆ
+…
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇ[ Ç(d
+%26java.lang.String[]"__id*
+""x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇe Ç(o
+
+%27int"__id*
+""¯
+¬
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇ[ Ç(p
+%28java.lang.String"
+__arrayGet*
+
+%26java.lang.String[]*
+
+
+%27intïì
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇD Ç(q
+%29boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%25java.lang.String*
+
+%28java.lang.String2equals(Ljava/lang/Object;)*
+37*‘
+16[
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÑ Ñ(ž£
+ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÒ Ò(
+%67java.awt.Rectangle"__id*!*
+ij.plugin.ScaleBar"
+hText*
+14
+15*’	
+39Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆ Æ(sº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇ Ç(/
+%18(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config¿
+¼
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇ Ç(!
+%19java.lang.String"__id*?*=
+/
+%18(ij.plugin.ScaleBar$ScaleBarConfiguration"
+
+locationˆ
+…
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇ) Ç(2
+%20java.lang.String[]"__id*
+""x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇ3 Ç(>
+
+%21int"__id*
+""¯
+¬
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇ) Ç(?
+%22java.lang.String"
+__arrayGet*
+
+%20java.lang.String[]*
+
+
+%21intïì
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÇ Ç(@
+%23boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%19java.lang.String*
+
+%22java.lang.String2equals(Ljava/lang/Object;)*
+37
+38*ë
+17\
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÑœ Ñ(€
+~
+\
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÑœ Ñ(
+
+%63int"__id*
+
+
+%65int*
+16*¥
+18Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÑr Ñ({»
+¸
+[
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÑ~ Ñ(„/
+%66(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config
+}
+[
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÑr Ñ(™
+
+%63int"__id*
+
+
+%64int*
+16*x
+0 "q
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÝ Ý(
+implicit return*ß
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ Û(|¤
+¡
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÜ Ü(
+%109java.awt.Rectangle"__id*!*
+ij.plugin.ScaleBar"
+vTextª
+§
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÜ Ü(
+%110java.awt.Rectangle"__id*'*%
+ij.plugin.ScaleBar"
+vBackground¤
+¡
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÜ8 Ü(=
+%111java.awt.Rectangle"__id*!*
+ij.plugin.ScaleBar"
+vText*
+0*‰
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ- Û(1£
+ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ- Û(1
+%106java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+vBar»
+¸
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛB Û(H0
+%107(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config»
+¸
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛf Û(l0
+%108(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config€
+~
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ- Û({
+%101int"__id*
+
+%103int*
+1*³
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ Û(£
+ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ Û(
+%104java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+vBar£
+ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ Û("
+%105java.awt.Rectangle"__id* *
+ij.plugin.ScaleBar"
+vBar€
+~
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ Û((
+%101int"__id*
+
+%102int*
+1*Ž
+4Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÚ Ú(5¤
+¡
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ Û(
+%100java.awt.Rectangle"__id*!*
+ij.plugin.ScaleBar"
+vText*
+2
+3*¡
+5Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÚ& Ú(,º
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÚ& Ú(,/
+%99(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÚ& Ú(5
+
+%96int"__id*
+
+
+%98int*
+4*ä
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÚ" Ú(#~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÚ" Ú(#
+
+%96int"__id*
+
+
+%97int*
+4*Ê
+7Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÙ Ù(E£
+ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÚ Ú(
+%94java.awt.Rectangle"__id*!*
+ij.plugin.ScaleBar"
+vTextº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÚ Ú(/
+%95(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config*
+5
+6*Å
+8Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÙ' Ù()ÏÌ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÙ9 Ù(D
+%93java.lang.String"0ij.plugin.ScaleBar#getVLabel()Ljava/lang/String;*
+ij.plugin.ScaleBar2getVLabel()Œ‰
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÙ' Ù(E
+
+%92int"=ij.process.ImageProcessor#getStringWidth(Ljava/lang/String;)I*!
+
+ipij.process.ImageProcessor*
+
+%93java.lang.String2"getStringWidth(Ljava/lang/String;)~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÙ' Ù(E
+
+%90int"__id*
+
+
+%92int*
+7*ä
+9Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÙ# Ù($~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÙ# Ù($
+
+%90int"__id*
+
+
+%91int*
+7*Ž	
+40Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆD Æ(Jº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆD Æ(J/
+%12(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config¿
+¼
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆD Æ(S
+%13java.lang.String"__id*?*=
+/
+%12(ij.plugin.ScaleBar$ScaleBarConfiguration"
+
+locationˆ
+…
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆ[ Æ(d
+%14java.lang.String[]"__id*
+""x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆe Æ(p
+
+%15int"__id*
+""¯
+¬
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆ[ Æ(q
+%16java.lang.String"
+__arrayGet*
+
+%14java.lang.String[]*
+
+
+%15intïì
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆD Æ(r
+%17boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%13java.lang.String*
+
+%16java.lang.String2equals(Ljava/lang/Object;)*
+39*¸
+41Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java¼ ¼(®«
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java¼ ¼(!
+
+%0void"Lij.plugin.ScaleBar#setBackgroundBoxesPositions(Lij/process/ImageProcessor;)V*
+ij.plugin.ScaleBar*!
+
+ipij.process.ImageProcessor28setBackgroundBoxesPositions(Lij/process/ImageProcessor;)ÆÃ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java¾ ¾((	
+%1int"*ij.plugin.ScaleBar#getHBoxWidthInPixels()I*
+ij.plugin.ScaleBar2getHBoxWidthInPixels()ÈÅ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java¿ ¿(*	
+%2int"+ij.plugin.ScaleBar#getHBoxHeightInPixels()I*
+ij.plugin.ScaleBar2getHBoxHeightInPixels()ÆÃ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÁ Á((	
+%3int"*ij.plugin.ScaleBar#getVBoxWidthInPixels()I*
+ij.plugin.ScaleBar2getVBoxWidthInPixels()ÈÅ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÂ Â(*	
+%4int"+ij.plugin.ScaleBar#getVBoxHeightInPixels()I*
+ij.plugin.ScaleBar2getVBoxHeightInPixels()ÒÏ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÄ Ä(0	
+%5int"0ij.plugin.ScaleBar#getInnerMarginSizeInPixels()I*
+ij.plugin.ScaleBar2getInnerMarginSizeInPixels()¹
+¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆ Æ(.
+%6(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config½
+º
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆ Æ(!
+%7java.lang.String"__id*>*<
+.
+%6(ij.plugin.ScaleBar$ScaleBarConfiguration"
+
+location‡
+„
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆ) Æ(2
+%8java.lang.String[]"__id*
+""w
+u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆ3 Æ(>	
+%9int"__id*
+""­
+ª
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆ) Æ(?
+%10java.lang.String"
+__arrayGet*
+
+%8java.lang.String[]*
+	
+%9intîë
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÆ Æ(@
+%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%7java.lang.String*
+
+%10java.lang.String2equals(Ljava/lang/Object;)*
+39
+40*Ÿ
+21Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÐ Ð(D£
+ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÑ Ñ(
+%59java.awt.Rectangle"__id*!*
+ij.plugin.ScaleBar"
+hText©
+¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÑ Ñ(
+%60java.awt.Rectangle"__id*'*%
+ij.plugin.ScaleBar"
+hBackground£
+ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÑ7 Ñ(<
+%61java.awt.Rectangle"__id*!*
+ij.plugin.ScaleBar"
+hTextº
+·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÑI Ñ(O/
+%62(ij.plugin.ScaleBar$ScaleBarConfiguration"__id*"* 
+ij.plugin.ScaleBar"
+config*
+17
+18*Ç
+22Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÐ& Ð((ÏÌ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÐ8 Ð(C
+%58java.lang.String"0ij.plugin.ScaleBar#getHLabel()Ljava/lang/String;*
+ij.plugin.ScaleBar2getHLabel()Œ‰
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÐ& Ð(D
+
+%57int"=ij.process.ImageProcessor#getStringWidth(Ljava/lang/String;)I*!
+
+ipij.process.ImageProcessor*
+
+%58java.lang.String2"getStringWidth(Ljava/lang/String;)~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÐ& Ð(D
+
+%55int"__id*
+
+
+%57int*
+21*æ
+23Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÐ" Ð(#~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÐ" Ð(#
+
+%55int"__id*
+
+
+%56int*
+21:
+ipij.process.ImageProcessorB
+ij.plugin.ScaleBar

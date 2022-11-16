@@ -1,0 +1,171 @@
+
+5ij.plugin.Hotkeys#getAllCommands()[Ljava/lang/String;Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaã
+ ã("8*◊
+2Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaí í(ÒÓ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaí í(
+%11void"0java.util.Vector#addElement(Ljava/lang/Object;)V*
+
+vjava.util.Vector*
+
+cmdjava.lang.String2addElement(Ljava/lang/Object;)*
+7*Á
+3Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaëK ë(T˛˚
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaëK ë(b
+%10boolean"1java.util.Hashtable#contains(Ljava/lang/Object;)Z*"
+ 
+	shortcutsjava.util.Hashtable*
+
+cmdjava.lang.String2contains(Ljava/lang/Object;)*
+2
+7*ì
+4Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaë7 ë(:™ß
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaë7 ë(C	
+%9int"java.lang.String#length()I*
+
+cmdjava.lang.String2length()*
+3
+7* 
+5Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaë  ë(#·ﬁ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaë  ë(3
+%8boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+cmdjava.lang.String*
+ 2startsWith(Ljava/lang/String;)*
+4
+7*¬
+6Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaê ê(€ÿ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaê ê((
+%6java.lang.Object"5java.util.Enumeration#nextElement()Ljava/lang/Object;*
+
+enjava.util.Enumeration2nextElement()ó
+î
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaê ê()
+cmdjava.lang.String"__id*
+
+%6java.lang.Object·ﬁ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaë ë(
+%7boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+cmdjava.lang.String*
+*2startsWith(Ljava/lang/String;)*
+5
+7*≤
+7Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaè+ è(-…∆
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaè+ è(?
+%5boolean"(java.util.Enumeration#hasMoreElements()Z*
+
+enjava.util.Enumeration2hasMoreElements()*
+6
+1*‰
+8Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaå å(àÖ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaå å(
+%0java.util.Vector"java.util.Vectorö
+ó
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaå å(
+%1"java.util.Vector#<init>()V*
+
+%0java.util.Vectorï
+í
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaå å(
+vjava.util.Vector"__id*
+
+%0java.util.Vector¥
+±
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaç ç(.
+%2java.util.Hashtable"+ij.Menus#getCommands()Ljava/util/Hashtable;*"
+
+ij.Menus¶
+£
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaç ç(/#
+commandTablejava.util.Hashtable"__id*
+
+%2java.util.Hashtableµ
+≤
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaé é(,
+%3java.util.Hashtable",ij.Menus#getShortcuts()Ljava/util/Hashtable;*"
+
+ij.Menus£
+†
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaé é(- 
+	shortcutsjava.util.Hashtable"__id*
+
+%3java.util.Hashtable›⁄
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaè è()
+%4java.util.Enumeration"1java.util.Hashtable#keys()Ljava/util/Enumeration;*%
+#
+commandTablejava.util.Hashtable2keys()†
+ù
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaè è()
+enjava.util.Enumeration"__id*
+
+%4java.util.Enumeration*
+7*∂
+
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaî î(•¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaî î(%
+
+%12int"java.util.Vector#size()I*
+
+vjava.util.Vector2size()çä
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaî î(&
+%13java.lang.String[]"java.lang.String[]ù
+ö
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaî î('
+listjava.lang.String[]"__id*
+
+%13java.lang.String[]ÚÔ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaï ï(
+%14void"/java.util.Vector#copyInto([Ljava/lang/Object;)V*
+
+vjava.util.Vector*
+
+listjava.lang.String[]2copyInto([Ljava/lang/Object;)â
+Ü
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javañ ñ(1
+%15java.util.Comparator"__id*
+""Å
+˛
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javañ ñ(2
+%16void"Ajava.util.Arrays#sort([Ljava/lang/Object;Ljava/util/Comparator;)V*"
+java.util.Arrays*
+
+listjava.lang.String[]*
+
+%15java.util.Comparator"y
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Hotkeys.javaó ó(
+
+listjava.lang.String[]B
+ij.plugin.Hotkeys

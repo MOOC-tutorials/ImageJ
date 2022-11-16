@@ -1,0 +1,253 @@
+
+Aij.gui.HistogramWindow#getResultsTable()Lij/measure/ResultsTable;^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaó ó($"19*Š
+13^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaù ù(;¡
+
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaù ù(;
+vheadingjava.lang.String"__id*
+
+%6java.lang.String¬
+©
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaú ú(	
+%9ij.measure.Calibration"__id*#*!
+ij.gui.HistogramWindow"
+calÇÄ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaú ú(
+%10boolean"$ij.measure.Calibration#calibrated()Z*
+
+%9ij.measure.Calibration2calibrated()*
+6
+12*ˆ
+14^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaù/ ù(:›
+˜
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaù/ ù(:
+%6java.lang.String"__id*
+
+%8java.lang.String*
+13*ˆ
+15^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaù' ù(.›
+˜
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaù' ù(.
+%6java.lang.String"__id*
+
+%7java.lang.String*
+13*ó
+16^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java÷ ÷(&›˜
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java÷ ÷($
+%2ij.measure.ResultsTable"ij.measure.ResultsTable­
+ª
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java÷ ÷(&
+%3"!ij.measure.ResultsTable#<init>()V*
+
+%2ij.measure.ResultsTable©
+¦
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java÷ ÷('
+rtij.measure.ResultsTable"__id*
+
+%2ij.measure.ResultsTableÓĞ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaø ø(
+
+%4void"(ij.measure.ResultsTable#setPrecision(I)V*
+
+rtij.measure.ResultsTable*
+""2setPrecision(I)²
+¯
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaù ù( 
+%5ij.process.ImageStatistics"__id*%*#
+ij.gui.HistogramWindow"
+stats*
+14
+15*Ÿ
+18^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaõ õ(²
+¯
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaõ õ( 
+%1ij.process.ImageStatistics"__id*%*#
+ij.gui.HistogramWindow"
+stats*
+16*©
+19^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaô ô(¸
+µ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaô ô(-	
+%0int")ij.plugin.filter.Analyzer#getPrecision()I*"
+ij.plugin.filter.Analyzer*
+16
+18*ç
+1^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaˆ	 ˆ("
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaˆ ˆ(
+
+rtij.measure.ResultsTable*„
+3^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java„ „(­
+ª
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java„ „( 
+%24ij.measure.Calibration"__id*#*!
+ij.gui.HistogramWindow"
+cal³
+°
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java„+ „(0!
+%25ij.process.ImageStatistics"__id*%*#
+ij.gui.HistogramWindow"
+stats³
+°
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java„; „(@!
+%26ij.process.ImageStatistics"__id*%*#
+ij.gui.HistogramWindow"
+statsÏÌ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java„ „(I
+%27double"$ij.measure.Calibration#getCValue(D)D*
+
+%24ij.measure.Calibration*
+""2getCValue(D)£ 
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java„ „(J
+%28void"7ij.measure.ResultsTable#setValue(Ljava/lang/String;ID)V*
+
+rtij.measure.ResultsTable*
+
+vheadingjava.lang.String*
+""*
+
+%27double2setValue(Ljava/lang/String;ID)…‚
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java… …()
+%29void"7ij.measure.ResultsTable#setValue(Ljava/lang/String;ID)V*
+
+rtij.measure.ResultsTable*	
+count*
+""*
+""2setValue(Ljava/lang/String;ID)*
+6*ğ
+4^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaƒ ƒ(…‚
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaƒ ƒ(
+%23void"7ij.measure.ResultsTable#setValue(Ljava/lang/String;ID)V*
+
+rtij.measure.ResultsTable*	
+index*
+""*
+""2setValue(Ljava/lang/String;ID)*
+3*¡
+5^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java‚ ‚(³
+°
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java‚ ‚(!
+%22ij.process.ImageStatistics"__id*%*#
+ij.gui.HistogramWindow"
+stats*
+3
+4*¡
+6^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java (³
+°
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.java (!
+%21ij.process.ImageStatistics"__id*%*#
+ij.gui.HistogramWindow"
+stats*
+5
+1*
+9^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaü ü(…‚
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaü ü(
+%14void"7ij.measure.ResultsTable#setValue(Ljava/lang/String;ID)V*
+
+rtij.measure.ResultsTable*	
+level*
+""*
+""2setValue(Ljava/lang/String;ID)­
+ª
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaı ı( 
+%15ij.measure.Calibration"__id*#*!
+ij.gui.HistogramWindow"
+cal³
+°
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaı+ ı(0!
+%16ij.process.ImageStatistics"__id*%*#
+ij.gui.HistogramWindow"
+stats³
+°
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaı; ı(@!
+%17ij.process.ImageStatistics"__id*%*#
+ij.gui.HistogramWindow"
+statsÏÌ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaı ı(I
+%18double"$ij.measure.Calibration#getCValue(D)D*
+
+%15ij.measure.Calibration*
+""2getCValue(D)£ 
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaı ı(J
+%19void"7ij.measure.ResultsTable#setValue(Ljava/lang/String;ID)V*
+
+rtij.measure.ResultsTable*
+
+vheadingjava.lang.String*
+""*
+
+%18double2setValue(Ljava/lang/String;ID)…‚
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaş ş()
+%20void"7ij.measure.ResultsTable#setValue(Ljava/lang/String;ID)V*
+
+rtij.measure.ResultsTable*	
+count*
+""*
+""2setValue(Ljava/lang/String;ID)*
+10*¢
+10^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaû û(³
+°
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaû û(!
+%13ij.process.ImageStatistics"__id*%*#
+ij.gui.HistogramWindow"
+stats*
+9
+1*î
+12^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaú ú(­
+ª
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaú ú(
+%11ij.measure.Calibration"__id*#*!
+ij.gui.HistogramWindow"
+calÎË
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramWindow.javaú ú(.
+%12boolean"'ij.measure.Calibration#isSigned16Bit()Z*
+
+%11ij.measure.Calibration2isSigned16Bit()*
+6
+10B
+ij.gui.HistogramWindow

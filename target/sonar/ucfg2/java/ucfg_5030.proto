@@ -1,0 +1,68 @@
+
+Aij.CompositeImage#getRGBSampleModel()Ljava/awt/image/SampleModel;Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java¶ ¶("1*×
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java· ·(!¦£
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java· ·(%
+%0java.awt.image.DirectColorModel"java.awt.image.DirectColorModelÚ
+×
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java·
+ ·(:
+%1"-java.awt.image.DirectColorModel#<init>(IIII)V*'
+%
+%0java.awt.image.DirectColorModel*2*2€€ü*2€þ*2ÿ­
+ª
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java· ·(:
+ij.CompositeImage"
+rgbCM"__id*'
+%
+%0java.awt.image.DirectColorModel§
+¤
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java¸ ¸(
+%2java.awt.image.ColorModel"__id* *
+ij.CompositeImage"
+rgbCM³°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java¸ ¸(@#
+%3java.awt.image.WritableRaster"[java.awt.image.ColorModel#createCompatibleWritableRaster(II)Ljava/awt/image/WritableRaster;*!
+
+%2java.awt.image.ColorModel*2*22"createCompatibleWritableRaster(II)°
+­
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java¸ ¸(A#
+wrjava.awt.image.WritableRaster"__id*%
+#
+%3java.awt.image.WritableRasterýú
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java¹ ¹(/ 
+%4java.awt.image.SampleModel"Bjava.awt.image.Raster#getSampleModel()Ljava/awt/image/SampleModel;*%
+#
+wrjava.awt.image.WritableRaster2getSampleModel()³
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java¹ ¹(0)
+sampleModeljava.awt.image.SampleModel"__id*"
+ 
+%4java.awt.image.SampleModel¶³
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaº º(F 
+%5java.awt.image.SampleModel"Vjava.awt.image.SampleModel#createCompatibleSampleModel(II)Ljava/awt/image/SampleModel;*+
+)
+sampleModeljava.awt.image.SampleModel*
+""*
+""2createCompatibleSampleModel(II)³
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaº º(F)
+sampleModeljava.awt.image.SampleModel"__id*"
+ 
+%5java.awt.image.SampleModel"ˆ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java» »(+
+)
+sampleModeljava.awt.image.SampleModelB
+ij.CompositeImage

@@ -1,0 +1,16 @@
+ij.plugin.Histogram#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.gui.HistogramPlot#<init>()V
+ij.Macro#getOptions()Ljava/lang/String;
+ij.process.StackStatistics#instance-init#
+ij.IJ#isMacro()Z
+ij.ImagePlus#getDefault16bitRange()I
+ij.ImagePlus#instance-init#
+ij.IJ#altKeyDown()Z
+ij.process.StackStatistics#<init>(Lij/ImagePlus;IDD)V
+ij.gui.HistogramPlot#instance-init#
+java.lang.Math#pow(DD)D
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V
+ij.util.Tools#parseDouble(Ljava/lang/String;D)D
+ij.IJ#setKeyUp(I)V

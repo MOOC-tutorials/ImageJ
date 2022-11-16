@@ -1,0 +1,109 @@
+
+)ij.plugin.Profiler#getPlot()Lij/gui/Plot;X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java   ("8*¡
+2X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java%
+ %("b
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java% %(
+""*À
+3X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java$ $(Ê
+„
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java$ $(F
+
+%5void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+Plot Profile**(
+&Line or rectangular selection required*
+2*Å
+6X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java"# "(&üú
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java"# "(0	
+%3int"ij.gui.Roi#getType()I*
+
+roi
+ij.gui.Roi2	getType()u
+s
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java"2 "(?	
+%4int"__id*
+""*	
+2
+3
+1*è
+7X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java" "(°û
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java" "(!
+%2boolean"ij.gui.Roi#isLine()Z*
+
+roi
+ij.gui.Roi2isLine()*
+2
+3
+6
+1*≈
+8X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java! !(ò
+ï
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java! !(
+%0ij.ImagePlus"__id**
+ij.plugin.Profiler"
+imp≤Ø
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java! !(
+%1
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+%0ij.ImagePlus2getRoi()ä
+á
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java! !(
+roi
+ij.gui.Roi"__id*
+
+%1
+ij.gui.Roi*	
+2
+3
+7*•
+1X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java'# '(&ò
+ï
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java'# '(&
+%6ij.ImagePlus"__id**
+ij.plugin.Profiler"
+impãà
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java' '("
+%7ij.gui.ProfilePlot"ij.gui.ProfilePlot 
+«
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java' '(7
+%8"+ij.gui.ProfilePlot#<init>(Lij/ImagePlus;Z)V*
+
+%7ij.gui.ProfilePlot*
+
+%6ij.ImagePlus*
+""ô
+ñ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java' '(8
+ppij.gui.ProfilePlot"__id*
+
+%7ij.gui.ProfilePlot¬ø
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java(	 ((
+%9ij.gui.Plot")ij.gui.ProfilePlot#getPlot()Lij/gui/Plot;*
+
+ppij.gui.ProfilePlot2	getPlot()"o
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Profiler.java( ((
+
+%9ij.gui.PlotB
+ij.plugin.Profiler

@@ -1,0 +1,11 @@
+ij.Undo#undo()V
+ij.Undo#setup(ILij/ImagePlus;)V
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.Undo#undoOverlay(Lij/ImagePlus;)V
+ij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V
+ij.IJ#beep()V
+ij.Undo#swapImages(Lij/ImagePlus;Lij/ImagePlus;)Z
+ij.IJ#log(Ljava/lang/String;)V
+ij.Undo#reset()V
+ij.ImagePlus#instance-init#
+ij.IJ#macroRunning()Z

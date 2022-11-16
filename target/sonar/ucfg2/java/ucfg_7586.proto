@@ -1,0 +1,135 @@
+
+4ij.plugin.PluginInstaller#download(Ljava/io/File;)[Ba
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java… …("12*∞
+4a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java’ ’(¬ø
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java’ ’(
+%11void""java.io.FilterInputStream#close()V* 
+
+disjava.io.DataInputStream2close()*
+1*É
+5a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java“ “(1≠
+™
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java“ “(1
+disjava.io.DataInputStream"__id*
+
+%8java.io.DataInputStreamÑ
+Å
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java” ”(
+databyte[]"__id*
+""ﬁ€
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java‘ ‘(
+%10void"&java.io.DataInputStream#readFully([B)V* 
+
+disjava.io.DataInputStream*
+
+databyte[]2readFully([B)*
+4*†
+6a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java— —(D¨
+©
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java— —(D
+injava.io.InputStream"__id*#
+!
+%6java.io.BufferedInputStreamûõ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java“ “(,
+%8java.io.DataInputStream"java.io.DataInputStream‚
+ﬂ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java“ “(0
+%9"6java.io.DataInputStream#<init>(Ljava/io/InputStream;)V*
+
+%8java.io.DataInputStream*
+
+injava.io.InputStream*
+5*Ö
+7a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java— —(C¶£
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java— —(+!
+%6java.io.BufferedInputStream"java.io.BufferedInputStreamÓ
+Î
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java— —(C
+%7":java.io.BufferedInputStream#<init>(Ljava/io/InputStream;)V*#
+!
+%6java.io.BufferedInputStream*
+
+%4java.io.FileInputStream*
+6*‚
+8a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java– –(ûõ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java—0 —(?
+%4java.io.FileInputStream"java.io.FileInputStream”
+–
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java—, —(B
+%5"/java.io.FileInputStream#<init>(Ljava/io/File;)V*
+
+%4java.io.FileInputStream*
+
+fjava.io.File*
+7*ó
+9a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java– –(©¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java– –(
+
+%3long"java.io.File#length()J*
+
+fjava.io.File2length()*
+8*Û
+10a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.javaŒ Œ(Ñ
+Å
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.javaŒ Œ(
+databyte[]"__id*
+""*
+9*Ó
+11a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.javaÀ À(≥
+∞
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.javaÀ  À(4
+%1java.lang.String"__concat*
+File not found: *
+
+fjava.io.File·
+ﬁ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.javaÀ À(5
+
+%2void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+Plugin Installer*
+
+%1java.lang.String"k
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.javaÃ Ã(
+""*†
+12a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java   (¨©
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java   (
+%0boolean"java.io.File#exists()Z*
+
+fjava.io.File2exists()*
+10
+11*›
+1a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java€	 €("u
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PluginInstaller.java€ €(
+
+databyte[]:
+fjava.io.FileB
+ij.plugin.PluginInstaller

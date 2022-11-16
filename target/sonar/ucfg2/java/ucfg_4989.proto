@@ -1,0 +1,63 @@
+
+jij.plugin.filter.BackgroundSubtracter#shrinkImage(Lij/process/FloatProcessor;I)Lij/process/FloatProcessor;m
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaª ª("18*Ó
+18m
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java« «(ÓĞ
+m
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java« «(!	
+%0int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.FloatProcessor2
+getWidth()ÕÒ
+m
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java¬ ¬(#	
+%1int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.FloatProcessor2getHeight()óğ
+m
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java­" ­(0
+%2java.lang.Object"7ij.process.FloatProcessor#getPixels()Ljava/lang/Object;*!
+
+ipij.process.FloatProcessor2getPixels()é
+æ
+m
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java° °(
+
+%3void"6ij.plugin.filter.BackgroundSubtracter#showProgress(D)V*)'
+%ij.plugin.filter.BackgroundSubtracter*
+""®«
+m
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java±( ±(6
+%4ij.process.FloatProcessor"ij.process.FloatProcessorÒ
+Ï
+m
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java±$ ±(G
+%5"%ij.process.FloatProcessor#<init>(II)V*!
+
+%4ij.process.FloatProcessor*
+""*
+""Ä
+Á
+m
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java± ±(H'
+
+smallImageij.process.FloatProcessor"__id*!
+
+%4ij.process.FloatProcessorûø
+m
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java²# ²(9
+%6java.lang.Object"7ij.process.FloatProcessor#getPixels()Ljava/lang/Object;*)
+'
+
+smallImageij.process.FloatProcessor2getPixels()*
+1*
+1m
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaÂ Â("š
+m
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaÂ Â()
+'
+
+smallImageij.process.FloatProcessor:
+ipij.process.FloatProcessor:
+""B)'
+%ij.plugin.filter.BackgroundSubtracter

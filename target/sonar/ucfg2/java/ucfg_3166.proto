@@ -1,0 +1,102 @@
+
+0ij.macro.Functions#addPlotLegend(Lij/gui/Plot;)DZ
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼ ¼("4*Ð
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÂ Â(	¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÂ Â(	
+%4ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpÁ¾
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÂ Â(
+
+%5void"%ij.macro.Interpreter#getRightParen()V*
+
+%4ij.macro.Interpreter2getRightParen()*
+1*Ü
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÀ À(ÖÓ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÀ À(
+%3java.lang.String"4ij.macro.Functions#getLastString()Ljava/lang/String;*
+ij.macro.Functions2getLastString()œ
+™
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÀ À(
+optionsjava.lang.String"__id*
+
+%3java.lang.String*
+1*Ò
+4Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java½ ½( ØÕ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java½ ½("
+%0java.lang.String"5ij.macro.Functions#getFirstString()Ljava/lang/String;*
+ij.macro.Functions2getFirstString()›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java½ ½(#
+labelsjava.lang.String"__id*
+
+%0java.lang.StringŒ
+‰
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾ ¾(
+optionsjava.lang.String"__id*
+auto¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¿ ¿(
+%1ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp¸µ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¿ ¿(	
+%2int"!ij.macro.Interpreter#nextToken()I*
+
+%1ij.macro.Interpreter2nextToken()*
+2
+3*•	
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÃ Ã(ƒ
+€
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÃ Ã(
+%6java.awt.Color"__id*
+""ßÜ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÃ Ã(
+
+%7void"'ij.gui.Plot#setColor(Ljava/awt/Color;)V*
+
+plotij.gui.Plot*
+
+%6java.awt.Color2setColor(Ljava/awt/Color;)·´
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÄ Ä(
+
+%8void"ij.gui.Plot#setLineWidth(I)V*
+
+plotij.gui.Plot*22setLineWidth(I)®«
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÅ Å(!
+
+%9void"<ij.gui.Plot#addLegend(Ljava/lang/String;Ljava/lang/String;)V*
+
+plotij.gui.Plot*
+
+labelsjava.lang.String*
+
+optionsjava.lang.String2/addLegend(Ljava/lang/String;Ljava/lang/String;){
+y
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ	 Æ(
+%10double"__id*
+"""d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ Æ(
+"":
+plotij.gui.PlotB
+ij.macro.Functions

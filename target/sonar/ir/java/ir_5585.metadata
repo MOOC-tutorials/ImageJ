@@ -1,0 +1,8 @@
+ij.plugin.FFT#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.gui.GUI#showCompositeAdvisory(Lij/ImagePlus;Ljava/lang/String;)Z
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V
+java.lang.String#startsWith(Ljava/lang/String;)Z
+ij.IJ#showProgress(D)V

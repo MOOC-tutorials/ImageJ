@@ -1,0 +1,8 @@
+ij.macro.Interpreter#abortMacro()V
+ij.macro.Interpreter#shutdown()V
+ij.macro.Interpreter#abortAllMacroThreads()V
+ij.IJ#wait(I)V
+ij.macro.Interpreter#setInstance(Lij/macro/Interpreter;)V
+java.lang.System#currentTimeMillis()J
+java.lang.String#indexOf(Ljava/lang/String;)I
+ij.IJ#showStatus(Ljava/lang/String;)V

@@ -1,0 +1,55 @@
+
+Hij.plugin.CompositeConverter#makeComposite(Lij/ImagePlus;)Lij/ImagePlus;b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaI I(&"5*ì
+2b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaM
+ M(†
+ƒ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaM
+ M($
+%3ij.ImagePlus"Pij.plugin.CompositeConverter#convertRGBToComposite(Lij/ImagePlus;)Lij/ImagePlus;* "
+ij.plugin.CompositeConverter*
+
+impij.ImagePlus"z
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaM M(%
+
+%3ij.ImagePlus*Ž
+3b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaL L(Ÿ
+œ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaL L(U
+
+%2void"Jij.plugin.frame.Recorder#recordCall(Ljava/lang/String;Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+	ImagePlus*1/
+-imp2 = CompositeConverter.makeComposite(imp);*
+2*®
+4b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaK K(¼
+¹
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaK K(
+%1boolean"&ij.plugin.frame.Recorder#scriptMode()Z*"
+ij.plugin.frame.Recorder*
+2
+3*§
+5b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaJ J(	µ²
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaJ J(	
+%0int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()*
+4
+1*Õ
+1b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaO
+ O("l
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaO O(
+"":
+impij.ImagePlusB "
+ij.plugin.CompositeConverter

@@ -1,0 +1,15 @@
+ij.plugin.CompositeConverter#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.CompositeImage#instance-init#
+ij.IJ#wait(I)V
+ij.plugin.CompositeConverter#makeComposite(Lij/ImagePlus;)Lij/ImagePlus;
+ij.IJ#isMacro()Z
+ij.WindowManager#setCurrentWindow(Lij/gui/ImageWindow;)V
+ij.macro.Interpreter#isBatchMode()Z
+ij.CompositeImage#<init>(Lij/ImagePlus;I)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.gui.GenericDialog#<init>(Ljava/lang/String;)V
+ij.gui.ImageWindow#setNextLocation(Ljava/awt/Point;)V
+ij.gui.GenericDialog#instance-init#
+ij.IJ#error(Ljava/lang/String;)V
+ij.IJ#macroRunning()Z

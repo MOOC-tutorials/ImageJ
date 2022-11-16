@@ -1,0 +1,10 @@
+ij.macro.Interpreter#doArrayElementAssignment()V
+ij.macro.Variable#instance-init#
+ij.macro.Variable#<init>(D)V
+ij.macro.Interpreter#getToken()V
+ij.macro.Interpreter#getExpression()D
+ij.macro.Interpreter#nextToken()I
+ij.macro.Interpreter#getFactor()D
+ij.macro.Interpreter#lookupLocalVariable(I)Lij/macro/Variable;
+ij.macro.Interpreter#putTokenBack()V
+ij.macro.Interpreter#getString()Ljava/lang/String;

@@ -1,0 +1,10 @@
+ij.macro.Functions#resetTable()Lij/macro/Variable;
+ij.macro.Functions#getResultsTable(Ljava/lang/String;)Lij/measure/ResultsTable;
+ij.plugin.filter.Analyzer#getResultsTable()Lij/measure/ResultsTable;
+ij.macro.Functions#toFront(Ljava/lang/String;)V
+ij.measure.ResultsTable#<init>()V
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.macro.Functions#getRT(Ljava/lang/String;)Lij/measure/ResultsTable;
+ij.measure.ResultsTable#instance-init#
+ij.macro.Functions#getTitleArg()Ljava/lang/String;
+ij.macro.Functions#waitUntilActivated(Ljava/lang/String;)V

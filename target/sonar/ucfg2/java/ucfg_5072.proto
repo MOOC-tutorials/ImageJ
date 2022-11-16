@@ -1,0 +1,723 @@
+
+&ij.io.Opener#open(Ljava/lang/String;)VR
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaU U("55*∫
+46R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaa a(•
+¢
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaa a(#
+%10java.lang.String"__concat*
+	Opening: *
+
+pathjava.lang.String±
+Æ
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaa a($
+%11void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%10java.lang.String*
+45*◊
+47R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java_	 _(ﬁ
+€
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java_	 _(
+%9java.lang.String"?ij.io.Opener#makeFullPath(Ljava/lang/String;)Ljava/lang/String;*"
+ij.io.Opener*
+
+pathjava.lang.Stringë
+é
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java_ _(
+pathjava.lang.String"__id*
+
+%9java.lang.String*
+46
+45*Ò
+48R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java\ \(ìê
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java\	 \(
+%6ij.plugin.PluginInstaller"ij.plugin.PluginInstaller•
+¢
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java\ \(
+%7"#ij.plugin.PluginInstaller#<init>()V*!
+
+%6ij.plugin.PluginInstaller˙˜
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java\ \()
+%8boolean"6ij.plugin.PluginInstaller#install(Ljava/lang/String;)Z*!
+
+%6ij.plugin.PluginInstaller*
+
+pathjava.lang.String2install(Ljava/lang/String;)"\
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java] ](
+""*»
+26T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaáH á(N·ﬁ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaáH á(c
+%33boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+osNamejava.lang.String*
+
+Windows Me2equals(Ljava/lang/Object;)*
+21
+23*¡
+49R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java[ [(#‹Ÿ
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java[ [(6
+%5boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+pathjava.lang.String*
+
+.class2endsWith(Ljava/lang/String;)*
+47
+48*Ã
+27T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaá) á(/·ﬁ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaá) á(D
+%32boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+osNamejava.lang.String*
+
+Windows 982equals(Ljava/lang/Object;)*
+26
+21
+23*¡
+28T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaÜ Ü(Ÿ
+÷
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaÜ Ü(3
+%30java.lang.String"Bjava.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;*"
+java.lang.System*	
+os.nameñ
+ì
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaÜ Ü(4
+osNamejava.lang.String"__id*
+
+%30java.lang.String·ﬁ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaá
+ á(%
+%31boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+osNamejava.lang.String*
+
+Windows 952equals(Ljava/lang/Object;)*
+27
+21
+23*◊
+29T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaÇ Ç({y
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaÇ Ç(
+%27java.io.File"java.io.FileΩ
+∫
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaÇ Ç(
+%28"(java.io.File#<init>(Ljava/lang/String;)V*
+
+%27java.io.File*
+
+pathjava.lang.Stringå
+â
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaÇ Ç( 
+filejava.io.File"__id*
+
+%27java.io.File†ù
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaÑ Ñ(
+%29long"java.io.File#length()J*
+
+filejava.io.File2length()*
+28
+21
+23*ø
+50R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java[ [(
+⁄◊
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java[ [(
+%4boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+pathjava.lang.String*
+.jar2endsWith(Ljava/lang/String;)*
+48
+49*ö
+51R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaX X(·ﬁ
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaX X(
+
+%3void"-ij.io.Opener#openTextURL(Ljava/lang/String;)V*
+ij.io.Opener*
+
+pathjava.lang.String2openTextURL(Ljava/lang/String;)"\
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaY Y(
+
+""*£
+52R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaW W(æ
+ª
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaW W(
+%2boolean"(ij.io.Opener#isText(Ljava/lang/String;)Z*
+ij.io.Opener*
+
+pathjava.lang.String*
+50
+51*∆
+30R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java~ ~(ÜÉ
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java~
+ ~(
+%23ij.text.TextWindow"ij.text.TextWindow◊
+‘
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java~ ~("
+%24"0ij.text.TextWindow#<init>(Ljava/lang/String;II)V*
+
+%23ij.text.TextWindow*
+
+pathjava.lang.String*2ê*2¬p
+n
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java (!
+
+%25int"__id*
+""ë
+é
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java ("
+%26void"ij.IJ#setKeyUp(I)V*	"
+ij.IJ*
+
+
+%25int*
+0*Ì
+31S
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java| è(á
+Ñ
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java}	 }(
+%22boolean"ij.IJ#altKeyDown()Z*	"
+ij.IJ*
+29
+30*Õ
+54R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaV* V(.ËÂ
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaV* V(A
+%1boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+pathjava.lang.String*
+
+file:/2"contains(Ljava/lang/CharSequence;)*
+50
+52*è
+10T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java°
+ °(ß§
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java°
+ °(
+
+%54int"java.lang.String#length()I*
+
+pathjava.lang.String2length()*	
+5
+7
+9*Ÿ
+32R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javay {(˘
+ˆ
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaz z(.
+%21java.lang.Object"Gij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*	"
+ij.IJ*
+ij.plugin.RoiReader*
+
+pathjava.lang.String*
+0*Œ
+55R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaV V(Â‚
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaV V(&
+%0boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+pathjava.lang.String*
+://2"contains(Ljava/lang/CharSequence;)*
+50
+52
+54*ı
+11T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java† †({y
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java† †(
+%51java.io.File"java.io.FileΩ
+∫
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java† †(
+%52"(java.io.File#<init>(Ljava/lang/String;)V*
+
+%51java.io.File*
+
+pathjava.lang.Stringæª
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java† †((
+%53java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+%51java.io.File2	getName()î
+ë
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java† †((
+pathjava.lang.String"__id*
+
+%53java.lang.String*
+10*˘
+34R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaw w(	ôñ
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaw w(
+%20void"ij.ImagePlus#show()V*
+
+impij.ImagePlus2show()*
+0*é
+12T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaü
+ ü(ß§
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaü
+ ü(
+
+%50int"java.lang.String#length()I*
+
+pathjava.lang.String2length()*
+10
+11*ê
+35R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javat x(˘
+ˆ
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javau u(?
+%18java.lang.Object"Gij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*	"
+ij.IJ*
+ij.plugin.LutLoader*
+
+pathjava.lang.Stringç
+ä
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javau u(?
+impij.ImagePlus"__id*
+
+%18java.lang.Object†ù
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javav	 v(
+
+%19int"ij.ImagePlus#getWidth()I*
+
+impij.ImagePlus2
+getWidth()*
+0
+34*¸
+13T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaõ ù(ì
+ê
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaõ ù(
+msgjava.lang.String"__id*
+
+%47java.lang.String*
+
+5
+7
+12*ô
+36R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaq q(ﬁ
+€
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaq q(#
+%16java.lang.String";ij.io.Opener#getLoadRate(DLij/ImagePlus;)Ljava/lang/String;*"
+ij.io.Opener*
+""*
+
+impij.ImagePlusÿ’
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaq q($
+%17void"&ij.ImagePlus#show(Ljava/lang/String;)V*
+
+impij.ImagePlus*
+
+%16java.lang.String2show(Ljava/lang/String;)*
+0*ˆ
+14T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaù ù(ì
+ê
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaù ù(
+%47java.lang.String"__id*
+
+%49java.lang.String*
+13*±
+37R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javao o(—Œ
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javao o(
+%15void"'ij.io.Opener#openRGB48(Lij/ImagePlus;)V*
+ij.io.Opener*
+
+impij.ImagePlus2openRGB48(Lij/ImagePlus;)*
+0*ˆ
+15T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaú ú(8ì
+ê
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaú ú(8
+%47java.lang.String"__id*
+
+%48java.lang.String*
+13*–
+16T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaô ©({y
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaö ö(
+%44java.io.File"java.io.FileΩ
+∫
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaö ö(
+%45"(java.io.File#<init>(Ljava/lang/String;)V*
+
+%44java.io.File*
+
+pathjava.lang.Stringâ
+Ü
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaö ö(
+fjava.io.File"__id*
+
+%44java.io.File†ù
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaõ õ(
+%46boolean"java.io.File#exists()Z*
+
+fjava.io.File2exists()*
+14
+15*◊
+17T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javañ ò(ı
+Ú
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaó ó((
+%43java.lang.Object"Gij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*	"
+ij.IJ*
+ij.plugin.Raw*
+
+pathjava.lang.String*
+0*£
+18T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaì ï(¡
+æ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaî î(
+%42void"+ij.io.Opener#openTable(Ljava/lang/String;)V*"
+ij.io.Opener*
+
+pathjava.lang.String*
+0*“
+19T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaê í(
+Ì
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaë ë(#
+%41java.lang.Object"Gij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*	"
+ij.IJ*
+
+ObjectJ_*
+
+pathjava.lang.String*
+0*r
+0 "k
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java¨ ¨(
+implicit return*ê
+1R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javas s(p
+n
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javat	 t(
+
+%65int"__id*
+""p
+n
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javay	 y(
+
+%66int"__id*
+""p
+n
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java|	 |(
+
+%67int"__id*
+""p
+n
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java| |( 
+
+%68int"__id*
+""r
+p
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaê	 ê(
+
+%69int"__id*
+""r
+p
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaì	 ì(
+
+%70int"__id*
+""r
+p
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javañ	 ñ(
+
+%71int"__id*
+""r
+p
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaô	 ô(
+
+%72int"__id*
+""*
+35
+16
+17
+18
+19
+31
+32
+0*ø
+2T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java¶ ¶("è
+å
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java¶ ¶("
+%63void"ij.IJ#wait(I)V*	"
+ij.IJ*
+
+
+%60intÃ
+…
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaß ß(
+%64void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+
+Opener*
+
+msgjava.lang.String*
+0*ÿ
+3T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java¶ ¶(!x
+v
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java¶ ¶(!
+
+%60int"__id*
+
+
+%62int*
+2*ÿ
+4T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java¶ ¶(x
+v
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java¶ ¶(
+
+%60int"__id*
+
+
+%61int*
+2*Í
+5T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java¶ ¶(Ü
+É
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java¶ ¶(
+%59boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+3
+4*∆
+6T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java• •(	œ
+Ã
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java• •(A
+%58java.lang.String"__concat*
+
+msgjava.lang.String*64
+2\n \nNOTE: The \"OpenUsingPlugins\" option is set.ì
+ê
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java• •(A
+msgjava.lang.String"__id*
+
+%58java.lang.String*
+5*ä
+7T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java§ §( ¶£
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java§ §()
+
+%57int"java.lang.String#length()I*
+
+msgjava.lang.String2length()*
+5
+6*–
+9T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java¢ ¢(°
+û
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java¢ ¢(
+%55java.lang.String"__concat*
+ \n*
+
+pathjava.lang.String≤
+Ø
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java¢ ¢(
+%56java.lang.String"__concat*
+
+msgjava.lang.String*
+
+%55java.lang.Stringì
+ê
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java¢ ¢(
+msgjava.lang.String"__id*
+
+%56java.lang.String*
+5
+7*∂
+40R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javak k(
+"\
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javak k(
+
+""*Î
+43R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javag g(!Û
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javah	 h(
+%14ij.ImagePlus"8ij.io.Opener#openImage(Ljava/lang/String;)Lij/ImagePlus;*
+ij.io.Opener*
+
+pathjava.lang.String2openImage(Ljava/lang/String;)â
+Ü
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javah h(
+impij.ImagePlus"__id*
+
+%14ij.ImagePlus*
+36
+37
+40
+1*∆
+21T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaé é(àÖ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaé
+ é(
+%39ij.text.TextWindow"ij.text.TextWindowŸ
+÷
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaé é("
+%40"0ij.text.TextWindow#<init>(Ljava/lang/String;II)V*
+
+%39ij.text.TextWindow*
+
+pathjava.lang.String*2ê*2¬*
+0*Ñ
+22T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaå å(˜Ù
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaå å((
+%36java.lang.String"9ij.io.Opener#getDir(Ljava/lang/String;)Ljava/lang/String;*
+ij.io.Opener*
+
+pathjava.lang.String2getDir(Ljava/lang/String;)˘ˆ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaå* å(7
+%37java.lang.String":ij.io.Opener#getName(Ljava/lang/String;)Ljava/lang/String;*
+ij.io.Opener*
+
+pathjava.lang.String2getName(Ljava/lang/String;)¨©
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaå å(8
+%38void"Bij.plugin.frame.Editor#open(Ljava/lang/String;Ljava/lang/String;)V*
+
+edij.plugin.frame.Editor*
+
+%36java.lang.String*
+
+%37java.lang.String2*open(Ljava/lang/String;Ljava/lang/String;)*
+0*Í
+45R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javab b(°
+û
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javab b()
+%12long"%java.lang.System#currentTimeMillis()J*"
+java.lang.Systemy
+w
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javac c(
+impij.ImagePlus"__id*
+""€ÿ
+R
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javad d(
+%13boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+pathjava.lang.String*
+.txt2endsWith(Ljava/lang/String;)*
+36
+37
+40
+43
+1*Î
+23T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaã ã(!êç
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaã ã(
+%34ij.plugin.frame.Editor"ij.plugin.frame.Editor—
+Œ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaã ã("
+%35"2ij.plugin.frame.Editor#<init>(Ljava/lang/String;)V*
+
+%34ij.plugin.frame.Editor*
+
+pathjava.lang.Stringû
+õ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaã ã(#
+edij.plugin.frame.Editor"__id*
+
+%34ij.plugin.frame.Editor*
+22
+0:
+pathjava.lang.StringB
+ij.io.Opener

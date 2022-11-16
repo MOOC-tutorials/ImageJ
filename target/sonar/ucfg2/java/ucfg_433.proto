@@ -1,0 +1,231 @@
+
+Aij.macro.Tokenizer#tokenize(Ljava/lang/String;)Lij/macro/Program;X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java ("9*£
+2X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java!	 !(æª
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java!	 !(
+%27void"&ij.macro.Tokenizer#addUserFunctions()V*
+ij.macro.Tokenizer2addUserFunctions()*
+1*Ö
+3X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java   (ù
+ö
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java   (
+%26ij.macro.Program"__id**
+ij.macro.Tokenizer"
+pgm*
+2
+1*›
+4X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (v
+t
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+
+%25int"__id*
+""*
+3
+5*ƒ
+5X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (Æ´
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+%23void"ij.macro.Tokenizer#getToken()V*
+ij.macro.Tokenizer2
+getToken()Æ´
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+%24void"ij.macro.Tokenizer#addToken()V*
+ij.macro.Tokenizer2
+addToken()*
+4*â 
+6X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java2 (9èå
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java% (1
+%3java.io.StringReader"java.io.StringReader“
+œ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java! (:
+%4"0java.io.StringReader#<init>(Ljava/lang/String;)V*
+
+%3java.io.StringReader*
+
+programjava.lang.Stringïí
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java ( 
+%5java.io.StreamTokenizer"java.io.StreamTokenizer’
+“
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (;
+%6"1java.io.StreamTokenizer#<init>(Ljava/io/Reader;)V*
+
+%5java.io.StreamTokenizer*
+
+%3java.io.StringReader¢
+ü
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (;
+ij.macro.Tokenizer"
+st"__id*
+
+%5java.io.StreamTokenizer¢
+ü
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+
+%7java.io.StreamTokenizer"__id**
+ij.macro.Tokenizer"
+stÃ…
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+
+%8void"(java.io.StreamTokenizer#ordinaryChar(I)V*
+
+%7java.io.StreamTokenizer*
+-2ordinaryChar(I)¢
+ü
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+
+%9java.io.StreamTokenizer"__id**
+ij.macro.Tokenizer"
+stÕ 
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+%10void"(java.io.StreamTokenizer#ordinaryChar(I)V*
+
+%9java.io.StreamTokenizer*
+/2ordinaryChar(I)£
+†
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+
+%11java.io.StreamTokenizer"__id**
+ij.macro.Tokenizer"
+stŒÀ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+%12void"(java.io.StreamTokenizer#ordinaryChar(I)V* 
+
+%11java.io.StreamTokenizer*
+.2ordinaryChar(I)£
+†
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+
+%13java.io.StreamTokenizer"__id**
+ij.macro.Tokenizer"
+st—Œ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+%14void"&java.io.StreamTokenizer#wordChars(II)V* 
+
+%13java.io.StreamTokenizer*
+_*
+_2wordChars(II)£
+†
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+
+%15java.io.StreamTokenizer"__id**
+ij.macro.Tokenizer"
+st›⁄
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java ($
+%16void",java.io.StreamTokenizer#whitespaceChars(II)V* 
+
+%15java.io.StreamTokenizer*2Ä*2ˇ2whitespaceChars(II)£
+†
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+
+%17java.io.StreamTokenizer"__id**
+ij.macro.Tokenizer"
+st◊‘
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java ("
+%18void"-java.io.StreamTokenizer#slashStarComments(Z)V* 
+
+%17java.io.StreamTokenizer*22slashStarComments(Z)£
+†
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+
+%19java.io.StreamTokenizer"__id**
+ij.macro.Tokenizer"
+stŸ÷
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (#
+%20void".java.io.StreamTokenizer#slashSlashComments(Z)V* 
+
+%19java.io.StreamTokenizer*22slashSlashComments(Z)àÖ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+%21ij.macro.Program"ij.macro.Programõ
+ò
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+%22"ij.macro.Program#<init>()V*
+
+%21ij.macro.Programù
+ö
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (
+ij.macro.Tokenizer"
+pgm"__id*
+
+%21ij.macro.Program*
+5*˛
+7X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (+¸
+˘
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (4
+%2java.lang.String"Nij.macro.Tokenizer#addSpacesToEmptyLines(Ljava/lang/String;)Ljava/lang/String;*
+ij.macro.Tokenizer*
+
+programjava.lang.Stringö
+ó
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (4
+programjava.lang.String"__id*
+
+%2java.lang.String*
+6*’
+8X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java& (-ÌÍ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java& (<
+%1boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+programjava.lang.String*
+*/2"contains(Ljava/lang/CharSequence;)*
+6
+7*’
+9X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java (ÌÍ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java ("
+%0boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+programjava.lang.String*
+/*2"contains(Ljava/lang/CharSequence;)*
+6
+8*Ù
+1X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java# #(ù
+ö
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java# #(
+%28ij.macro.Program"__id**
+ij.macro.Tokenizer"
+pgm"u
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java# #(
+
+%28ij.macro.Program:
+programjava.lang.StringB
+ij.macro.Tokenizer

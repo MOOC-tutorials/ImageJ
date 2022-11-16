@@ -1,0 +1,174 @@
+
++ij.gui.GUI#scale(Ljavax/swing/JComponent;)ZR
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaç ç("17*Æ
+13R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaí
+ í(Ø
+Õ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaí
+ í((
+%2java.awt.Font"@javax.swing.UIManager#getFont(Ljava/lang/Object;)Ljava/awt/Font;*"
+javax.swing.UIManager*
+	List.font‹
+ˆ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaí í((
+fontjava.awt.Font"__id*
+
+%2java.awt.Font*
+7*ÿ
+2R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java÷ ÷(ÉÆ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java÷4 ÷(_
+
+%10int"'javax.swing.JList#getFixedCellHeight()I*%
+#
+	componentjavax.swing.JComponent2getFixedCellHeight()ÔÑ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java÷ ÷(r
+%11void"(javax.swing.JList#setFixedCellHeight(I)V*%
+#
+	componentjavax.swing.JComponent*
+""2setFixedCellHeight(I)*
+1*Ä
+15R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaë ë(ËÈ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaë ë(!
+%1java.awt.Font"+java.awt.Component#getFont()Ljava/awt/Font;*%
+#
+	componentjavax.swing.JComponent2	getFont()‹
+ˆ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaë ë("
+fontjava.awt.Font"__id*
+
+%1java.awt.Font*
+13
+7
+8
+10*ç
+4R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaõ õ(½º
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaõ, õ(O	
+%8int""javax.swing.JTable#getRowHeight()I*%
+#
+	componentjavax.swing.JComponent2getRowHeight()ÈÅ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaõ õ(b
+
+%9void"#javax.swing.JTable#setRowHeight(I)V*%
+#
+	componentjavax.swing.JComponent*
+""2setRowHeight(I)*
+1*¶
+16R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaê
+ ê("\
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaê ê(
+""*ñ
+17R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaè è(Œ
+‰
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaè è(-
+%0double"ij.Prefs#getGuiScale()D*"
+
+ij.Prefs*
+15
+16*µ
+6R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaó
+ ó("\
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaó ó(
+""*¤
+7R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaò ò(
+ 
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaò ò(	
+%5int"java.awt.Font#getSize()I*
+
+fontjava.awt.Font2	getSize()y
+w
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaò ò(#
+%6java.awt.Font"__id*
+""›
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaò ò(-	
+%7int"java.awt.Font#getSize()I*
+
+%6java.awt.Font2	getSize()*
+2
+4
+6
+1*Æ
+8R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javañ
+ ñ(Ù
+Ö
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javañ
+ ñ()
+%4java.awt.Font"@javax.swing.UIManager#getFont(Ljava/lang/Object;)Ljava/awt/Font;*"
+javax.swing.UIManager*
+
+Label.font‹
+ˆ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javañ ñ()
+fontjava.awt.Font"__id*
+
+%4java.awt.Font*
+7*Ç
+10R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaï
+ ï(Ù
+Ö
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaï
+ ï()
+%3java.awt.Font"@javax.swing.UIManager#getFont(Ljava/lang/Object;)Ljava/awt/Font;*"
+javax.swing.UIManager*
+
+Table.font‹
+ˆ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaï ï()
+fontjava.awt.Font"__id*
+
+%3java.awt.Font*
+7*—
+1R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaø ø(¡
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaø7 ø(E
+
+%12int"java.awt.Font#getSize()I*
+
+fontjava.awt.Font2	getSize()ÉÆ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaø ø(F
+%13java.awt.Font"*java.awt.Font#deriveFont(F)Ljava/awt/Font;*
+
+fontjava.awt.Font*
+""2deriveFont(F)ïì
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaø ø(G
+%14void"0javax.swing.JComponent#setFont(Ljava/awt/Font;)V*%
+#
+	componentjavax.swing.JComponent*
+
+%13java.awt.Font2setFont(Ljava/awt/Font;)"\
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaù ù(
+"":#
+	componentjavax.swing.JComponentB"
+
+ij.gui.GUI

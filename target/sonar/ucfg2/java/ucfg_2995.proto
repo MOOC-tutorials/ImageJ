@@ -1,0 +1,710 @@
+
+>ij.gui.HistogramPlot#drawText(Lij/process/ImageProcessor;IIZ)V\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaû û("31*Ü
+24\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÆ- Æ(Cõ
+ò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÆ- Æ(C
+%18java.lang.String"__id*
+
+%19java.lang.String*
+22*◊
+26\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¶ ¶(À
+»
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¶ ¶(
+%11java.lang.String"-ij.gui.HistogramPlot#d2s(D)Ljava/lang/String;*
+ij.gui.HistogramPlot*
+""õò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¶ ¶($
+%12void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+
+%11java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)À
+»
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaß ß(
+%13java.lang.String"-ij.gui.HistogramPlot#d2s(D)Ljava/lang/String;*
+ij.gui.HistogramPlot*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaß ß()
+
+%14int"__id*
+""òï
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaß, ß(>
+
+%15int"<ij.gui.HistogramPlot#getWidth(DLij/process/ImageProcessor;)I*
+ij.gui.HistogramPlot*
+""*!
+
+ipij.process.ImageProcessor2&getWidth(DLij/process/ImageProcessor;)õò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaß ß(G
+%16void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+
+%13java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java® ®(
+
+%17int"__id*
+""*
+13
+11*€
+30\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java§ §(®
+•
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java§ §(
+%9ij.measure.Calibration"__id*!*
+ij.gui.HistogramPlot"
+cal≈¬
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java§ §(#
+%10boolean"$ij.measure.Calibration#calibrated()Z*
+
+%9ij.measure.Calibration2calibrated()*
+26*æ
+31\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaü ü(†
+ù
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaü ü(
+%0java.awt.Font"__id*"* 
+ij.gui.HistogramPlot"
+fontˆÛ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaü ü(
+
+%1void"3ij.process.ImageProcessor#setFont(Ljava/awt/Font;)V*!
+
+ipij.process.ImageProcessor*
+
+%0java.awt.Font2setFont(Ljava/awt/Font;)ﬂ‹
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java† †(
+
+%2void"0ij.process.ImageProcessor#setAntialiasedText(Z)V*!
+
+ipij.process.ImageProcessor*22setAntialiasedText(Z)®
+•
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java° °(
+%3ij.measure.Calibration"__id*!*
+ij.gui.HistogramPlot"
+calÆ
+´
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java° °(# 
+%4ij.process.ImageStatistics"__id*#*!
+ij.gui.HistogramPlot"
+statsÀ»
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java° °(,
+%5double"$ij.measure.Calibration#getCValue(D)D*
+
+%3ij.measure.Calibration*
+""2getCValue(D)®
+•
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¢ ¢(
+%6ij.measure.Calibration"__id*!*
+ij.gui.HistogramPlot"
+calÆ
+´
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¢ ¢(# 
+%7ij.process.ImageStatistics"__id*#*!
+ij.gui.HistogramPlot"
+statsÀ»
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¢ ¢(,
+%8double"$ij.measure.Calibration#getCValue(D)D*
+
+%6ij.measure.Calibration*
+""2getCValue(D)*
+26
+30*¿
+11\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java∑ ∑(Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java∑ ∑(!
+%42ij.process.ImageStatistics"__id*#*!
+ij.gui.HistogramPlot"
+stats§
+°
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java∏ ∏(
+%43double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""*
+9*À
+12\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaµ µ(z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaµ µ(2
+
+%40int"__id*
+""‰·
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaµ µ(3
+%41void".ij.process.ImageProcessor#setJustification(I)V*!
+
+ipij.process.ImageProcessor*
+
+
+%40int2setJustification(I)*
+11*´
+13\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java© ©(z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java© ©(
+
+%30int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java´ ´(4
+
+%31int"__id*
+""‰·
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java´ ´(5
+%32void".ij.process.ImageProcessor#setJustification(I)V*!
+
+ipij.process.ImageProcessor*
+
+
+%31int2setJustification(I)Ÿ÷
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¨ ¨(>
+%33boolean".ij.process.ColorProcessor#weightedHistogram()Z*!
+
+ipij.process.ImageProcessor2weightedHistogram()z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÆ	 Æ(
+
+%34int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaØ	 Ø(
+
+%35int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java∞	 ∞(
+
+%36int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java±	 ±(
+
+%37int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java≤	 ≤(
+
+%38int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java≥	 ≥(
+
+%39int"__id*
+""*$
+24
+14
+15
+16
+17
+19
+20
+12
+23*ı
+14\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java≥ ≥(3äá
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java≥ ≥(*
+%29void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+Blue*
+""*
+""2 drawString(Ljava/lang/String;II)*
+12*ˆ
+15\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java≤ ≤(4ãà
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java≤ ≤(,
+%28void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*	
+Green*
+""*
+""2 drawString(Ljava/lang/String;II)*
+12*Ù
+16\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java± ±(0âÜ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java± ±((
+%27void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+Red*
+""*
+""2 drawString(Ljava/lang/String;II)*
+12*ˆ
+17\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java∞ ∞(2ãà
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java∞ ∞(*
+%26void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*	
+R+G+B*
+""*
+""2 drawString(Ljava/lang/String;II)*
+12*Ü
+18\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaØ_ Ø(`õò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaØ Ø(d
+%25void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+
+%22java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)*
+12*Ü
+19\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaØF Ø(\õ
+ò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaØF Ø(\
+%22java.lang.String"__id*
+
+%24java.lang.String*
+18*z
+0 "s
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java– –(
+implicit return*—
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÕ Õ(Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÕ  Õ(%!
+%86ij.process.ImageStatistics"__id*#*!
+ij.gui.HistogramPlot"
+statsÀ
+»
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÕ Õ(,
+%87java.lang.String"-ij.gui.HistogramPlot#d2s(D)Ljava/lang/String;*
+ij.gui.HistogramPlot*
+""´
+®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÕ Õ(,
+%88java.lang.String"__concat*
+
+Bins: *
+
+%87java.lang.Stringõò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÕ Õ(9
+%89void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+
+%88java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)À
+»
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaŒ! Œ(.
+%90java.lang.String"-ij.gui.HistogramPlot#d2s(D)Ljava/lang/String;*
+ij.gui.HistogramPlot*
+""∞
+≠
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaŒ Œ(.
+%91java.lang.String"__concat*
+Bin Width: *
+
+%90java.lang.Stringõò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaŒ Œ(;
+%92void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+
+%91java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)*
+0*ﬁ&
+2\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java∆ ∆(ï
+í
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java∆ ∆(
+%63java.lang.String"__concat*
+N: *
+""õò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java∆ ∆(*
+%64void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+
+%63java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java« «(#!
+%65ij.process.ImageStatistics"__id*#*!
+ij.gui.HistogramPlot"
+statsÀ
+»
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java« «((
+%66java.lang.String"-ij.gui.HistogramPlot#d2s(D)Ljava/lang/String;*
+ij.gui.HistogramPlot*
+""™
+ß
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java« «((
+%67java.lang.String"__concat*	
+Min: *
+
+%66java.lang.Stringõò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java« «(5
+%68void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+
+%67java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java» »($!
+%69ij.process.ImageStatistics"__id*#*!
+ij.gui.HistogramPlot"
+statsÀ
+»
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java» »(*
+%70java.lang.String"-ij.gui.HistogramPlot#d2s(D)Ljava/lang/String;*
+ij.gui.HistogramPlot*
+""´
+®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java» »(*
+%71java.lang.String"__concat*
+
+Mean: *
+
+%70java.lang.Stringõò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java» »(7
+%72void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+
+%71java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java… …(#!
+%73ij.process.ImageStatistics"__id*#*!
+ij.gui.HistogramPlot"
+statsÀ
+»
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java… …((
+%74java.lang.String"-ij.gui.HistogramPlot#d2s(D)Ljava/lang/String;*
+ij.gui.HistogramPlot*
+""™
+ß
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java… …((
+%75java.lang.String"__concat*	
+Max: *
+
+%74java.lang.Stringõò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java… …(5
+%76void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+
+%75java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java !  (&!
+%77ij.process.ImageStatistics"__id*#*!
+ij.gui.HistogramPlot"
+statsÀ
+»
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java   (.
+%78java.lang.String"-ij.gui.HistogramPlot#d2s(D)Ljava/lang/String;*
+ij.gui.HistogramPlot*
+""≠
+™
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java   (.
+%79java.lang.String"__concat*
+
+StdDev: *
+
+%78java.lang.Stringõò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java   (;
+%80void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+
+%79java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÀ À($!
+%81ij.process.ImageStatistics"__id*#*!
+ij.gui.HistogramPlot"
+statsÀ
+»
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÀ À(+
+%82java.lang.String"-ij.gui.HistogramPlot#d2s(D)Ljava/lang/String;*
+ij.gui.HistogramPlot*
+""´
+®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÀ À(+
+%83java.lang.String"__concat*
+
+Mode: *
+
+%82java.lang.String¿
+Ω
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÀ À(7
+%84java.lang.String"__concat*
+
+%83java.lang.String*
+
+	modeCountjava.lang.Stringõò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÀ À(D
+%85void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+
+%84java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)*
+0
+1*Û
+3\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaƒ) ƒ(+ä
+á
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaƒ ƒ(+
+	modeCountjava.lang.String"__id* *
+2*∂
+4\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¬ ¬(LØ
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java√ √(!!
+%59ij.process.ImageStatistics"__id*#*!
+ij.gui.HistogramPlot"
+statsî
+ë
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java√ √(*
+%60java.lang.String"__concat*
+ (*
+""¶
+£
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java√ √(0
+%61java.lang.String"__concat*
+
+%60java.lang.String*
+)°
+û
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java√ √(1
+	modeCountjava.lang.String"__id*
+
+%61java.lang.String¥±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaƒ ƒ(
+
+%62int"java.lang.String#length()I*
+
+	modeCountjava.lang.String2length()*
+2
+3*ú
+5\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¬; ¬(@Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¬; ¬(@!
+%58ij.process.ImageStatistics"__id*#*!
+ij.gui.HistogramPlot"
+statsÅ
+
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¬; ¬(K
+%54long"__id*
+
+
+%56int*
+4*û
+6\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¬& ¬(+Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¬& ¬(+!
+%57ij.process.ImageStatistics"__id*#*!
+ij.gui.HistogramPlot"
+statsÉ
+Ä
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¬& ¬(:
+%54long"__id*
+
+%55long*
+4*ó
+7\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaæ	 æ(}
+{
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaæ æ(
+%49double"__id*
+""}
+{
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaø ø(
+%50double"__id*
+""}
+{
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¿ ¿(
+%51double"__id*
+""}
+{
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¡ ¡(
+%52double"__id*
+""Ø
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java¬ ¬(!
+%53ij.process.ImageStatistics"__id*#*!
+ij.gui.HistogramPlot"
+stats*
+5
+6*Â
+8\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaΩ Ω(}
+{
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaΩ  Ω(%
+%48double"__id*
+""*
+7*‹
+9\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaπ π()z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.java∫	 ∫(
+
+%44int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaª	 ª(
+
+%45int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaª ª(
+
+%46int"__id*
+""}
+{
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaº º(
+%47double"__id*
+""*
+7
+8*Ü
+20\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaØ- Ø(Eõ
+ò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaØ- Ø(E
+%22java.lang.String"__id*
+
+%23java.lang.String*
+18*Ü
+22\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÆ_ Æ(`õò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÆ Æ(d
+%21void";ij.process.ImageProcessor#drawString(Ljava/lang/String;II)V*!
+
+ipij.process.ImageProcessor*
+
+%18java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)*
+12*Ü
+23\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÆD Æ(\õ
+ò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/HistogramPlot.javaÆD Æ(\
+%18java.lang.String"__id*
+
+%20java.lang.String*
+22:
+ipij.process.ImageProcessor:
+"":
+"":
+""B
+ij.gui.HistogramPlot

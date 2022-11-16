@@ -1,0 +1,105 @@
+
+Iij.plugin.tool.BrushTool#getOverlayImage(Lij/ImagePlus;)Lij/gui/ImageRoi;^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javap p(!"11"12*Í
+2^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.java{
+ {("h
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.java{ {(
+""*›
+3^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javaz> z(D­ª
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javazM z(\	
+%4int"ij.ImagePlus#getHeight()I*
+
+impij.ImagePlus2getHeight()*
+2
+1*™
+4^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javaz  z(&«¨
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javaz. z(<	
+%3int"ij.ImagePlus#getWidth()I*
+
+impij.ImagePlus2
+getWidth()*
+2
+3*ß
+6^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javay y(ËÈ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javay y($
+%2java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roi
+ij.gui.Roi2getBounds()£
+ 
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javay y(%
+boundsjava.awt.Rectangle"__id*
+
+%2java.awt.Rectangle*
+2
+4*Í
+7^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javax
+ x("h
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javax x(
+""*í
+9^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javav v(ìé
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javav v("
+%1
+ij.gui.Roi"2ij.gui.Overlay#get(Ljava/lang/String;)Lij/gui/Roi;*
+
+overlayij.gui.Overlay*	
+[Brush]2get(Ljava/lang/String;)
+
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javav v(#
+roi
+ij.gui.Roi"__id*
+
+%1
+ij.gui.Roi*
+6
+7*Î
+10^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javau
+ u("h
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javau u(
+""*Ø
+11^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javas s(ÉÆ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javas s($
+%0ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+impij.ImagePlus2getOverlay()œ
+™
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javas s(%
+overlayij.gui.Overlay"__id*
+
+%0ij.gui.Overlay*
+9
+10*Î
+12^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javar
+ r("h
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.javar r(
+""*Ú
+1^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.java| |("u
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/BrushTool.java| |(
+
+roi
+ij.gui.Roi:
+impij.ImagePlusB
+ij.plugin.tool.BrushTool

@@ -1,0 +1,161 @@
+
+1ij.plugin.Histogram#setupDialog(Lij/ImagePlus;I)I[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java† †("14*¡
+13[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java£ £(Ø
+¨
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java£ £(+
+%1java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macro¢
+ü
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java£ £(, 
+macroOptionsjava.lang.String"__id*
+
+%1java.lang.String*
+9
+12*∫
+2[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java¥ ¥(“
+œ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java¥ ¥("
+%14void":ij.plugin.frame.Recorder#recordOption(Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*	
+slice*
+1*ù
+14[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java° °(∞≠
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java° °($	
+%0int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+13
+1*¬
+4[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java± ±(y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java± ±()
+
+%13int"__id*
+"""e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java± ±(*
+""*∫
+5[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java∞ ∞(“
+œ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java∞ ∞(#
+%12void":ij.plugin.frame.Recorder#recordOption(Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*	
+stack*
+4*∏
+7[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.javaÆ Æ(«ƒ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.javaÆ Æ(
+%11boolean"&ij.gui.YesNoCancelDialog#yesPressed()Z*
+
+dij.gui.YesNoCancelDialog2yesPressed()*
+2
+4
+5
+1*¬
+8[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java≠ ≠(y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java≠ ≠(
+
+%10int"__id*
+"""e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java≠ ≠(
+""*à
+9[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java™/ ™(1ú
+ô
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java™/ ™(?
+%4	ij.ImageJ"ij.IJ#getInstance()Lij/ImageJ;*	"
+ij.IJú
+ô
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java´ ´()
+%5java.lang.String"__concat*
+Include all *
+""™
+ß
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java´ ´(4
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+
+ images?öó
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java™ ™(.
+%7ij.gui.YesNoCancelDialog"ij.gui.YesNoCancelDialogú
+ô
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java™ ´(5
+%8"Vij.gui.YesNoCancelDialog#<init>(Ljava/awt/Frame;Ljava/lang/String;Ljava/lang/String;)V* 
+
+%7ij.gui.YesNoCancelDialog*
+
+%4	ij.ImageJ*
+	Histogram*
+
+%6java.lang.Stringß
+§
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java™ ´(6
+dij.gui.YesNoCancelDialog"__id* 
+
+%7ij.gui.YesNoCancelDialogÃ…
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java¨ ¨(
+%9boolean")ij.gui.YesNoCancelDialog#cancelPressed()Z*
+
+dij.gui.YesNoCancelDialog2cancelPressed()*
+7
+8*»
+10[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java® ®("e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java® ®(
+""*¬
+11[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java¶ ¶(x
+v
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java¶ ¶(*	
+%3int"__id*
+"""e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java¶ ¶(+
+""*’
+12[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java• •(Á‰
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java• •(&	
+%2int"-java.lang.String#indexOf(Ljava/lang/String;)I*"
+ 
+macroOptionsjava.lang.String*
+
+stack 2indexOf(Ljava/lang/String;)*
+10
+11*«
+1[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java∂	 ∂("e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Histogram.java∂ ∂(
+"":
+impij.ImagePlus:
+""B
+ij.plugin.Histogram

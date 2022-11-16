@@ -1,0 +1,70 @@
+
+%ij.ImagePlus#isSmaller(Lij/gui/Roi;)ZT
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÍ	 Í("3*¹
+2T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÏ Ï("^
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÏ Ï(
+""*Õ
+3T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÎ Î(ÉÆ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÎ Î(#
+%0ij.process.ImageProcessor"/ij.gui.Roi#getMask()Lij/process/ImageProcessor;*
+
+r
+ij.gui.Roi2	getMask()¥
+¢
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÎ Î($!
+maskij.process.ImageProcessor"__id*!
+
+%0ij.process.ImageProcessor*
+2
+1*õ	
+1T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÐ Ð(q
+o
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÐ Ð(:	
+%1int"__id*
+""æã
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÐ Ð(;
+
+%2void",ij.process.ImageProcessor#setThreshold(DDI)V*#
+!
+maskij.process.ImageProcessor*2ÿ*2ÿ*
+	
+%1int2setThreshold(DDI)q
+o
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÑ> Ñ(B	
+%3int"__id*
+""q
+o
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÑC Ñ(H	
+%4int"__id*
+""Ì
+É
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÑ Ñ(O 
+%5ij.process.ImageStatistics"zij.process.ImageStatistics#getStatistics(Lij/process/ImageProcessor;ILij/measure/Calibration;)Lij/process/ImageStatistics;*"
+ij.process.ImageStatistics*#
+!
+maskij.process.ImageProcessor*
+""*
+""¨
+¥
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÑ Ñ(P#
+statsij.process.ImageStatistics"__id*"
+ 
+%5ij.process.ImageStatistics"^
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÒ Ò("
+"":
+r
+ij.gui.RoiB
+ij.ImagePlus

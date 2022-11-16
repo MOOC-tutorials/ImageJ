@@ -1,0 +1,89 @@
+
+2ij.gui.Roi#getFeretBreadth(Ljava/awt/Shape;DDDDD)DR
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÕ Õ("1*ú
+1R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÖ Ö(›˜
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaØ Ø(*#
+%0java.awt.geom.AffineTransform"java.awt.geom.AffineTransform­
+ª
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaØ Ø(,
+%1"'java.awt.geom.AffineTransform#<init>()V*%
+#
+%0java.awt.geom.AffineTransform©
+¦
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaØ Ø(-#
+atjava.awt.geom.AffineTransform"__id*%
+#
+%0java.awt.geom.AffineTransformr
+p
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÙ Ù(
+%2double"__id*
+""ÛØ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÙ Ù((
+
+%3void"*java.awt.geom.AffineTransform#rotate(DDD)V*%
+#
+atjava.awt.geom.AffineTransform*
+""*
+""*
+""2rotate(DDD)±®
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÚ Ú(,
+%4java.awt.Shape"Vjava.awt.geom.AffineTransform#createTransformedShape(Ljava/awt/Shape;)Ljava/awt/Shape;*%
+#
+atjava.awt.geom.AffineTransform*
+
+shapejava.awt.Shape2(createTransformedShape(Ljava/awt/Shape;)Š
+‡
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÚ Ú(-
+sjava.awt.Shape"__id*
+
+%4java.awt.Shape×Ô
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÛ Û(!
+%5java.awt.geom.Rectangle2D"7java.awt.Shape#getBounds2D()Ljava/awt/geom/Rectangle2D;*
+
+sjava.awt.Shape2getBounds2D() 
+
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÛ Û("
+rjava.awt.geom.Rectangle2D"__id*!
+
+%5java.awt.geom.Rectangle2D¿¼
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÜ Ü(
+%6double"*java.awt.geom.RectangularShape#getWidth()D* 
+
+rjava.awt.geom.Rectangle2D2
+getWidth()Á¾
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÜ  Ü(-
+%7double"+java.awt.geom.RectangularShape#getHeight()D* 
+
+rjava.awt.geom.Rectangle2D2getHeight()²
+¯
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÜ	 Ü(.
+%8double"java.lang.Math#min(DD)D*"
+java.lang.Math*
+
+%6double*
+
+%7double"\
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÜ Ü(/
+"":
+shapejava.awt.Shape:
+"":
+"":
+"":
+"":
+""B
+
+ij.gui.Roi

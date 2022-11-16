@@ -1,0 +1,673 @@
+
+)ij.plugin.OverlayCommands#addSelection()V_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaa a("48*Ý
+46_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javad1 d(=ëè
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javad1 d(O	
+%3int"-java.lang.String#indexOf(Ljava/lang/String;)I*"
+ 
+macroOptionsjava.lang.String*
+
+remove2indexOf(Ljava/lang/String;)*
+44
+45*Š
+24a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaƒ ƒ(T–
+“
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java„ „(
+%37boolean"ij.IJ#altKeyDown()Z*	"
+ij.IJ*
+21
+23*‡
+47_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javad d(•
+’
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javad d(-
+%2boolean"ij.IJ#macroRunning()Z*	"
+ij.IJ*
+46
+44*°
+25a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaƒ; ƒ(>À½
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaƒ. ƒ(Q
+
+%36int"$ij.gui.PolygonRoi#getNCoordinates()I*
+
+roi
+ij.gui.Roi2getNCoordinates()*
+24*Œ
+48_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javab b(£
+ 
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javab b(
+%0ij.ImagePlus"ij.IJ#getImage()Lij/ImagePlus;*	"
+ij.IJ•
+’
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javab b( 
+impij.ImagePlus"__id*
+
+%0ij.ImagePlus³
+°
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javac c(*
+%1java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macro¦
+£
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javac c(+ 
+macroOptionsjava.lang.String"__id*
+
+%1java.lang.String*
+47
+44*ö
+26a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‚ ‚(‚
+ÿ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‚ ‚(
+%35void"Bij.plugin.OverlayCommands#setPosition(Lij/ImagePlus;Lij/gui/Roi;)V*
+ij.plugin.OverlayCommands*
+
+impij.ImagePlus*
+
+roi
+ij.gui.Roi*
+24
+25*Þ
+27a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java€ €(®
+«
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java€ €(
+%32
+ij.gui.Roi"__id*-*+
+ij.plugin.OverlayCommands"
+
+defaultRoiÍÊ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java€ €(.
+%33java.awt.Color")ij.gui.Roi#getFillColor()Ljava/awt/Color;*
+
+%32
+ij.gui.Roi2getFillColor()íê
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java€ €(/
+%34void"*ij.gui.Roi#setFillColor(Ljava/awt/Color;)V*
+
+roi
+ij.gui.Roi*
+
+%33java.awt.Color2setFillColor(Ljava/awt/Color;)*
+26*½
+28_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java (
+ËÈ
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java (
+%31java.awt.Color")ij.gui.Roi#getFillColor()Ljava/awt/Color;*
+
+roi
+ij.gui.Roi2getFillColor()*
+26
+27*Þ
+29_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java~ ~(¬
+©
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java~ ~(!
+%28
+ij.gui.Roi"__id*-*+
+ij.plugin.OverlayCommands"
+
+defaultRoiÏÌ
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java~ ~(2
+%29java.awt.Color"+ij.gui.Roi#getStrokeColor()Ljava/awt/Color;*
+
+%28
+ij.gui.Roi2getStrokeColor()ïì
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java~ ~(3
+%30void",ij.gui.Roi#setStrokeColor(Ljava/awt/Color;)V*
+
+roi
+ij.gui.Roi*
+
+%29java.awt.Color2 setStrokeColor(Ljava/awt/Color;)*
+28*ð
+30_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java}8 }(B¬
+©
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java}8 }(B
+%26
+ij.gui.Roi"__id*-*+
+ij.plugin.OverlayCommands"
+
+defaultRoiÏÌ
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java}8 }(S
+%27java.awt.Color"+ij.gui.Roi#getStrokeColor()Ljava/awt/Color;*
+
+%26
+ij.gui.Roi2getStrokeColor()*
+28
+29*Œ
+31_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java}% }()š
+—
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java}% }(4
+
+%25int"ij.gui.Line#getWidth()I*"
+ij.gui.Line*
+28
+30*™
+10a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java”5 ”(<£
+ 
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java”5 ”(H
+
+%63int"ij.gui.Toolbar#getToolId()I*"
+ij.gui.Toolbar
+}
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java”J ”(V
+
+%64int"__id*
+""*	
+2
+8
+1*Á
+32_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java} }(
+ÏÌ
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java} }(
+%24java.awt.Color"+ij.gui.Roi#getStrokeColor()Ljava/awt/Color;*
+
+roi
+ij.gui.Roi2getStrokeColor()*
+29
+31*õ
+11a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java’ ’(	ÛØ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java’ ’(
+%59void"!ij.gui.Overlay#add(Lij/gui/Roi;)V*
+
+overlayij.gui.Overlay*
+
+roi
+ij.gui.Roi2add(Lij/gui/Roi;)ñî
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java“ “(
+%60void"*ij.ImagePlus#setOverlay(Lij/gui/Overlay;)V*
+
+impij.ImagePlus*
+
+overlayij.gui.Overlay2setOverlay(Lij/gui/Overlay;)©¦
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java” ”("
+
+%61int"ij.gui.Roi#getType()I*
+
+roi
+ij.gui.Roi2	getType()
+}
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java”$ ”(1
+
+%62int"__id*
+""*
+2
+8
+10
+1*Ÿ
+33_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java| |(¬
+©
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java| |(!
+%21
+ij.gui.Roi"__id*-*+
+ij.plugin.OverlayCommands"
+
+defaultRoi·´
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java| |(2
+%22float"ij.gui.Roi#getStrokeWidth()F*
+
+%21
+ij.gui.Roi2getStrokeWidth()ÈÅ
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java| |(3
+%23void"ij.gui.Roi#setStrokeWidth(F)V*
+
+roi
+ij.gui.Roi*
+
+%22float2setStrokeWidth(F)*
+32*Ã
+34_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java{ {(
+ÑÎ
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java{ {(
+%20java.awt.BasicStroke",ij.gui.Roi#getStroke()Ljava/awt/BasicStroke;*
+
+roi
+ij.gui.Roi2getStroke()*
+32
+33*æ
+12a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‘ ‘(Ó
+Ð
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‘ ‘(*
+%58ij.gui.Overlay"7ij.plugin.OverlayLabels#createOverlay()Lij/gui/Overlay;*"
+ij.plugin.OverlayLabels 
+
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‘ ‘(*
+overlayij.gui.Overlay"__id*
+
+%58ij.gui.Overlay*
+11*÷
+35_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javax x(Á¾
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javax x(
+%17java.lang.Object"$ij.gui.Roi#clone()Ljava/lang/Object;*
+
+roi
+ij.gui.Roi2clone()˜
+•
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javax x(
+roi
+ij.gui.Roi"__id*
+
+%17java.lang.ObjectËÈ
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javay y($
+%18ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+impij.ImagePlus2getOverlay()ž
+›
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javay y(%
+overlayij.gui.Overlay"__id*
+
+%18ij.gui.Overlay·´
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaz z(
+%19boolean"ij.gui.Roi#isDrawingTool()Z*
+
+roi
+ij.gui.Roi2isDrawingTool()*
+26
+34*™
+36_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javau u(Æ
+Ã
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javau u(1
+%16void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*&$
+"This command requires a selection."i
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javav v(
+
+""*œ
+15a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java (´
+±
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java ($
+%56java.awt.Color"%ij.gui.Roi#getColor()Ljava/awt/Color;*"
+
+ij.gui.Roiñî
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java (%
+%57void",ij.gui.Roi#setStrokeColor(Ljava/awt/Color;)V*
+
+roi
+ij.gui.Roi*
+
+%56java.awt.Color2 setStrokeColor(Ljava/awt/Color;)*
+11
+12*Ð
+38_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javar r(
+"i
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javar r(
+
+""*
+16a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaŒ Œ(@ÃÀ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java (!
+%54java.lang.Object"$ij.gui.Roi#clone()Ljava/lang/Object;*
+
+roi
+ij.gui.Roi2clone()ÑÎ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaŽ Ž(
+%55java.awt.Color"+ij.gui.Roi#getStrokeColor()Ljava/awt/Color;*
+
+roi
+ij.gui.Roi2getStrokeColor()*
+15
+11
+12*È
+39_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaq q(Ú×
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaq q(
+%15void"*ij.ImagePlus#setOverlay(Lij/gui/Overlay;)V*
+
+impij.ImagePlus*
+""2setOverlay(Lij/gui/Overlay;)*
+38*Ý
+17a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaŒ% Œ()íê
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaŒ% Œ(?
+%53boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+new-overlay2equals(Ljava/lang/Object;)*
+16*ß
+18a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‹ ‹(ÇÄ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‹ ‹(
+%52java.lang.String"&ij.gui.Roi#getName()Ljava/lang/String;*
+
+roi
+ij.gui.Roi2	getName()¡
+ž
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‹ ‹(
+namejava.lang.String"__id*
+
+%52java.lang.String*
+16
+17*‘
+19a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‡ ‡(®
+«
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‡ ‡(
+%43
+ij.gui.Roi"__id*-*+
+ij.plugin.OverlayCommands"
+
+defaultRoiÑÎ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‡ ‡(1
+%44java.awt.Color"+ij.gui.Roi#getStrokeColor()Ljava/awt/Color;*
+
+roi
+ij.gui.Roi2getStrokeColor()ñî
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‡ ‡(2
+%45void",ij.gui.Roi#setStrokeColor(Ljava/awt/Color;)V*
+
+%43
+ij.gui.Roi*
+
+%44java.awt.Color2 setStrokeColor(Ljava/awt/Color;)®
+«
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaˆ ˆ(
+%46
+ij.gui.Roi"__id*-*+
+ij.plugin.OverlayCommands"
+
+defaultRoi¹¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaˆ ˆ(1
+%47float"ij.gui.Roi#getStrokeWidth()F*
+
+roi
+ij.gui.Roi2getStrokeWidth()ÊÇ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaˆ ˆ(2
+%48void"ij.gui.Roi#setStrokeWidth(F)V*
+
+%46
+ij.gui.Roi*
+
+%47float2setStrokeWidth(F)®
+«
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‰ ‰(
+%49
+ij.gui.Roi"__id*-*+
+ij.plugin.OverlayCommands"
+
+defaultRoiÍÊ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‰ ‰(-
+%50java.awt.Color")ij.gui.Roi#getFillColor()Ljava/awt/Color;*
+
+roi
+ij.gui.Roi2getFillColor()íê
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java‰ ‰(.
+%51void"*ij.gui.Roi#setFillColor(Ljava/awt/Color;)V*
+
+%49
+ij.gui.Roi*
+
+%50java.awt.Color2setFillColor(Ljava/awt/Color;)*
+18*
+0 "x
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java˜ ˜(
+implicit return*µ
+1a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java— —(
+}
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java— —("
+
+%67int"__id*
+""Æ
+Ã
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java— —((
+%68void"ij.Undo#setup(ILij/ImagePlus;)V*"	
+ij.Undo*
+
+
+%67int*
+
+impij.ImagePlus*
+0* 
+2a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java– –(²¯
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java– –(
+%66void"ij.ImagePlus#deleteRoi()V*
+
+impij.ImagePlus2deleteRoi()*
+1*—
+8a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java”Z ”(a¦
+£
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java”Z ”(p
+
+%65int"ij.gui.Toolbar#getBrushSize()I*"
+ij.gui.Toolbar*
+2
+1*¾
+40_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javap p(	ÌÉ
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javap p(
+%14boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+38
+39*Ð
+41_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javao o( "i
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javao o( 
+""*‚
+42_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaj( j(6–“
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaj j('
+%7ij.gui.GenericDialog"ij.gui.GenericDialogÌ
+É
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaj j(7
+%8"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%7ij.gui.GenericDialog*
+No Selection¤
+¡
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaj j(8
+gdij.gui.GenericDialog"__id*
+
+%7ij.gui.GenericDialogŒ
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javak k(9
+
+%9void"4ij.gui.GenericDialog#addMessage(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*)'
+%\"Overlay>Add\" requires a selection.2addMessage(Ljava/lang/String;)ÕÒ
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javal l(
+%10void"$ij.gui.GenericDialog#setInsets(III)V*
+
+gdij.gui.GenericDialog*2*2(*2 2setInsets(III)Š‡
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javam m(3
+%11void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Remove existing overlay*2 2 addCheckbox(Ljava/lang/String;Z)Á¾
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javan n(
+%12void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()ÆÃ
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javao o(
+%13boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+40
+41*Ô
+20a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java† †( "k
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java† †( 
+""*À
+43_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javai i(ÊÇ
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javai i(#
+%6ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+impij.ImagePlus2getOverlay()*
+35
+36
+42*ö
+21a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java…( …(8™–
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java… …('
+%40ij.gui.RoiProperties"ij.gui.RoiPropertiesó
+ð
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java… …(>
+%41"<ij.gui.RoiProperties#<init>(Ljava/lang/String;Lij/gui/Roi;)V*
+
+%40ij.gui.RoiProperties*
+Add to Overlay*
+
+roi
+ij.gui.Roi§
+¤
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java… …(?
+rpij.gui.RoiProperties"__id*
+
+%40ij.gui.RoiPropertiesÆÃ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java† †(
+%42boolean""ij.gui.RoiProperties#showDialog()Z*
+
+rpij.gui.RoiProperties2showDialog()*
+19
+20*Ä
+44_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javah h(º·
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javah h(
+%5
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()‘
+Ž
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javah h(
+roi
+ij.gui.Roi"__id*
+
+%5
+ij.gui.Roi*
+35
+36
+43*ª
+22a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java„/ „(4¶
+³
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java„/ „(A
+%39java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macro*
+18
+21*¬
+45_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javae e(ÙÖ
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javae e(
+
+%4void"*ij.ImagePlus#setOverlay(Lij/gui/Overlay;)V*
+
+impij.ImagePlus*
+""2setOverlay(Lij/gui/Overlay;)"i
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.javaf f(
+
+""*Œ
+23a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java„ „(˜
+•
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/OverlayCommands.java„ „(+
+%38boolean"ij.IJ#macroRunning()Z*	"
+ij.IJ*
+18
+22B
+ij.plugin.OverlayCommands

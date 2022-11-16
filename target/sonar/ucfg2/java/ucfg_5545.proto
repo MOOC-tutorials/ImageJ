@@ -1,0 +1,78 @@
+
+Yij.plugin.filter.Translator#dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)Za
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaB B(!"7*Ó
+2a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaJ
+ J("k
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaJ J(
+""*¥
+3a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaI I(·
+´
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaI I(3
+
+%7void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*
+Offset is invalid.*
+2*°
+4a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaI I(	¿¼
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaI I(
+%6boolean"ij.gui.GenericDialog#wasOKed()Z*
+
+gdij.gui.GenericDialog2	wasOKed()*
+2
+3*¼
+5a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaH H(ËÈ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaH H(
+%5boolean"%ij.gui.GenericDialog#invalidNumber()Z*
+
+gdij.gui.GenericDialog2invalidNumber()*
+4
+1*»
+6a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaG G(ÍÊ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaG G($
+%4boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+5*“
+7a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaC C(ÊÇ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaC C(
+%0double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()ÊÇ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaD D(
+%1double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()ÑÎ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaE E(/	
+%2int"*ij.gui.GenericDialog#getNextChoiceIndex()I*
+
+gdij.gui.GenericDialog2getNextChoiceIndex()´
+±
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaF F(
+%3ij.gui.Overlay"__id*0*.
+ij.plugin.filter.Translator"
+origOverlay*
+5
+6*Ó
+1a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaL	 L("k
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Translator.javaL L(
+"":
+gdij.gui.GenericDialog:
+ejava.awt.AWTEventB
+ij.plugin.filter.Translator

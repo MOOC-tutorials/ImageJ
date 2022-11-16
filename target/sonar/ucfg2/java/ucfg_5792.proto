@@ -1,0 +1,196 @@
+
+ij.plugin.Commands#closeAll()ZX
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.java_ _("21*˚
+13X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javag g(!é
+ã
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javag g(0
+%2boolean"ij.IJ#macroRunning()Z*	"
+ij.IJ*
+
+5
+12
+1*â
+4X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.java| |(°û
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.java} }(
+%14void"ij.ImagePlus#close()V*
+
+impij.ImagePlus2close()*
+5
+1*π
+5X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javaz z(!º
+π
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javaz z(3
+%13ij.ImagePlus"*ij.WindowManager#getImage(I)Lij/ImagePlus;*"
+ij.WindowManager*
+""è
+å
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javaz z(4
+impij.ImagePlus"__id*
+
+%13ij.ImagePlus*	
+4
+5
+1*Ω
+18X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javad d(!ª
+∏
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javad d(3
+%1ij.ImagePlus"*ij.WindowManager#getImage(I)Lij/ImagePlus;*"
+ij.WindowManager*
+""é
+ã
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javad d(4
+impij.ImagePlus"__id*
+
+%1ij.ImagePlus*
+13
+5
+18
+1*¡
+8X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javav v("b
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javav v(
+""*≤
+
+9X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javar r(∑
+¥
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javar r(/
+%7java.lang.String"__concat*
+
+msgjava.lang.String*
+ with unsaved changes. ∏
+µ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javar r(7
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+
+pronounjava.lang.Stringÿ
+’
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javar s(A
+%9java.lang.String"__concat*
+
+%8java.lang.String*=;
+9 will\nbe closed without being saved if you click \"OK\".¯ı
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javar s(B
+%10void"4ij.gui.GenericDialog#addMessage(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%9java.lang.String2addMessage(Ljava/lang/String;)∫∑
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javat t(
+%11void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()øº
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javau u(
+%12boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*	
+5
+8
+1*ë
+21X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.java` `(†
+ù
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.java` `(+
+%0int[]"ij.WindowManager#getIDList()[I*"
+ij.WindowManager*
+13
+5
+18
+1*Ã
+10X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javao o(ó
+î
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javao o()
+%5java.lang.String"__concat*
+
+There are *
+""¶
+£
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javao o(3
+%6java.lang.String"__concat*
+
+%5java.lang.String*	
+ imagesñ
+ì
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javao o(3
+msgjava.lang.String"__id*
+
+%6java.lang.Stringä
+á
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javap p(
+pronounjava.lang.String"__id*
+They*
+9*Ö
+11X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javal l(î
+ë
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javal l(
+msgjava.lang.String"__id*
+There is one imageà
+Ö
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javam m(
+pronounjava.lang.String"__id*
+It*
+9*Ò
+12X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javah) h(4èå
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javah h((
+%3ij.gui.GenericDialog"ij.gui.GenericDialog¬
+ø
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javah h(5
+%4"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%3ij.gui.GenericDialog*
+	Close Allù
+ö
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javah h(6
+gdij.gui.GenericDialog"__id*
+
+%3ij.gui.GenericDialogÑ
+Å
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javai i(
+msgjava.lang.String"__id*
+""à
+Ö
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javaj j(
+pronounjava.lang.String"__id*
+""*
+10
+11*≈
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javaÇ Ç("d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Commands.javaÇ Ç(
+""B"
+ij.plugin.Commands

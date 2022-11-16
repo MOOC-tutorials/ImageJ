@@ -1,0 +1,527 @@
+
+Iij.plugin.FileInfoVirtualStack#getProcessor(I)Lij/process/ImageProcessor;f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java¬ ¬(#"20*£
+13f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java” ”(∏
+µ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java” ”(
+%33ij.io.FileInfo[]"__id*,** 
+ij.plugin.FileInfoVirtualStack"
+info±
+Æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java” ”(
+%34ij.io.FileInfo"
+__arrayGet*
+
+%33ij.io.FileInfo[]*
+""øº
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java” ”((
+%35void"ij.ImagePlus#setSlice(I)V*
+
+impij.ImagePlus*
+""2setSlice(I)*
+12*€
+14f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java— —(”–
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java— —("
+%30ij.ImagePlus"*ij.io.FileOpener#openImage()Lij/ImagePlus;*
+
+foij.io.FileOpener2openImage()ù
+ö
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java— —(#
+impij.ImagePlus"__id*
+
+%30ij.ImagePlus∏
+µ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java“ “(
+%31ij.io.FileInfo[]"__id*,** 
+ij.plugin.FileInfoVirtualStack"
+info±
+Æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java“ “(
+%32ij.io.FileInfo"
+__arrayGet*
+
+%31ij.io.FileInfo[]*
+""*
+13
+12*Ò
+15f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaœ" œ(&∏
+µ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaœ" œ(&
+%23ij.io.FileInfo[]"__id*,** 
+ij.plugin.FileInfoVirtualStack"
+info±
+Æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaœ" œ(+
+%24ij.io.FileInfo"
+__arrayGet*
+
+%23ij.io.FileInfo[]*
+""ñì
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaœ œ(!
+%25ij.io.FileOpener"ij.io.FileOpener“
+œ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaœ œ(,
+%26"*ij.io.FileOpener#<init>(Lij/io/FileInfo;)V*
+
+%25ij.io.FileOpener*
+
+%24ij.io.FileInfo§
+°
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaœ œ(-
+foij.io.FileOpener"__id*
+
+%25ij.io.FileOpener∏
+µ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java– –(
+%27ij.io.FileInfo[]"__id*,** 
+ij.plugin.FileInfoVirtualStack"
+info±
+Æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java– –(
+%28ij.io.FileInfo"
+__arrayGet*
+
+%27ij.io.FileInfo[]*
+""Ö
+Ç
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java– –()
+
+%29int"__id*
+""*
+14
+11*…
+16f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java   (¥
+±
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java   ('
+
+%6long"%java.lang.System#currentTimeMillis()J*"
+java.lang.System∑
+¥
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÀ" À(&
+%7ij.io.FileInfo[]"__id*,** 
+ij.plugin.FileInfoVirtualStack"
+infoØ
+¨
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÀ" À(+
+%8ij.io.FileInfo"
+__arrayGet*
+
+%7ij.io.FileInfo[]*
+""ïí
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÀ À(!
+%9ij.io.FileOpener"ij.io.FileOpener–
+Õ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÀ À(,
+%10"*ij.io.FileOpener#<init>(Lij/io/FileInfo;)V*
+
+%9ij.io.FileOpener*
+
+%8ij.io.FileInfo£
+†
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÀ À(-
+foij.io.FileOpener"__id*
+
+%9ij.io.FileOpenerıÚ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÃ Ã( 
+%11ij.process.ImageProcessor";ij.io.FileOpener#openProcessor()Lij/process/ImageProcessor;*
+
+foij.io.FileOpener2openProcessor()∂
+≥
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÃ Ã(
+ipij.process.ImageProcessor"__id*"
+ 
+%11ij.process.ImageProcessor≤
+Ø
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÕ
+ Õ($
+%12java.lang.String"__concat*
+FileInfoVirtualStack: *
+""∏
+µ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÕ
+ Õ(0
+%13java.lang.String"__concat*
+
+%12java.lang.String*
+	, offset=∏
+µ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÕ1 Õ(5
+%14ij.io.FileInfo[]"__id*,** 
+ij.plugin.FileInfoVirtualStack"
+info±
+Æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÕ1 Õ(:
+%15ij.io.FileInfo"
+__arrayGet*
+
+%14ij.io.FileInfo[]*
+""ª∏
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÕ1 Õ(F
+%16long"ij.io.FileInfo#getOffset()J*
+
+%15ij.io.FileInfo2getOffset()∏
+µ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÕ
+ Õ(F
+%17java.lang.String"__concat*
+
+%13java.lang.String*
+
+%16long±
+Æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÕ
+ Õ(K
+%18java.lang.String"__concat*
+
+%17java.lang.String*
+, µ
+≤
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÕM Õ(g
+%19long"%java.lang.System#currentTimeMillis()J*"
+java.lang.System±
+Æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÕ
+ Õ(k
+%20java.lang.String"__concat*
+
+%18java.lang.String*
+""±
+Æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÕ
+ Õ(p
+%21java.lang.String"__concat*
+
+%20java.lang.String*
+msæ
+ª
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÕ Õ(q
+%22void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%21java.lang.String*	
+7
+8
+1*ˇ
+17f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java« «(∑
+¥
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java« «(
+%4ij.io.FileInfo[]"__id*,** 
+ij.plugin.FileInfoVirtualStack"
+infoØ
+¨
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java« «(
+%5ij.io.FileInfo"
+__arrayGet*
+
+%4ij.io.FileInfo[]*
+""ö
+ó
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java» »(
+ipij.process.ImageProcessor"__id*
+""*
+15
+16*‹
+18f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java≈& ≈(?≤
+Ø
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java≈& ≈(A
+%1java.lang.String"__concat*
+Argument out of range: *
+""π∂
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java≈ ≈(%(
+%2"java.lang.IllegalArgumentException""java.lang.IllegalArgumentException˜
+Ù
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java≈	 ≈(B
+%3">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V**
+(
+%2"java.lang.IllegalArgumentException*
+
+%1java.lang.String*
+0*Ñ
+0 "}
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaÁ Á(
+implicit return*ˇ
+1f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java›	 ›(”–
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java›	 ›(
+
+%47int"*ij.plugin.FileInfoVirtualStack#getWidth()I*" 
+ij.plugin.FileInfoVirtualStack2
+getWidth()’“
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java› ›("
+
+%48int"+ij.plugin.FileInfoVirtualStack#getHeight()I*" 
+ij.plugin.FileInfoVirtualStack2getHeight()∫
+∑
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaﬁ
+ ﬁ(,
+%49java.lang.String"__concat*" 
+Read error or file not found (*
+""≤
+Ø
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaﬁ
+ ﬁ(2
+%50java.lang.String"__concat*
+
+%49java.lang.String*
+): ∏
+µ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaﬁ3 ﬁ(7
+%51ij.io.FileInfo[]"__id*,** 
+ij.plugin.FileInfoVirtualStack"
+info±
+Æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaﬁ3 ﬁ(<
+%52ij.io.FileInfo"
+__arrayGet*
+
+%51ij.io.FileInfo[]*
+""≤
+Ø
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaﬁ3 ﬁ(F
+%53java.lang.String"__id*&*$
+
+%52ij.io.FileInfo"
+	directoryƒ
+¡
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaﬁ
+ ﬁ(F
+%54java.lang.String"__concat*
+
+%50java.lang.String*
+
+%53java.lang.String∏
+µ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaﬁG ﬁ(K
+%55ij.io.FileInfo[]"__id*,** 
+ij.plugin.FileInfoVirtualStack"
+info±
+Æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaﬁG ﬁ(P
+%56ij.io.FileInfo"
+__arrayGet*
+
+%55ij.io.FileInfo[]*
+""±
+Æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaﬁG ﬁ(Y
+%57java.lang.String"__id*%*#
+
+%56ij.io.FileInfo"
+
+fileNameƒ
+¡
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaﬁ
+ ﬁ(Y
+%58java.lang.String"__concat*
+
+%54java.lang.String*
+
+%57java.lang.Stringæ
+ª
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaﬁ ﬁ(Z
+%59void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%58java.lang.String «
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.javaﬂ ﬂ(
+
+%60int"ij.VirtualStack#getBitDepth()I*" 
+ij.plugin.FileInfoVirtualStack2getBitDepth()*
+2
+3
+4
+5
+6*›
+2f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java‰ ‰("p
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java‰ ‰(
+""*ı
+3f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java„ „(-®•
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java„ „(& 
+%45ij.process.FloatProcessor"ij.process.FloatProcessorÕ
+ 
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java„ „(,
+%46"%ij.process.FloatProcessor#<init>(II)V*"
+ 
+%45ij.process.FloatProcessor*
+""*
+"""å
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java„ „(-"
+ 
+%45ij.process.FloatProcessor*ı
+4f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java‚ ‚(-®•
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java‚ ‚(& 
+%43ij.process.ColorProcessor"ij.process.ColorProcessorÕ
+ 
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java‚ ‚(,
+%44"%ij.process.ColorProcessor#<init>(II)V*"
+ 
+%43ij.process.ColorProcessor*
+""*
+"""å
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java‚ ‚(-"
+ 
+%43ij.process.ColorProcessor*ı
+5f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java· ·(-®•
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java· ·(& 
+%41ij.process.ShortProcessor"ij.process.ShortProcessorÕ
+ 
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java· ·(,
+%42"%ij.process.ShortProcessor#<init>(II)V*"
+ 
+%41ij.process.ShortProcessor*
+""*
+"""å
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java· ·(-"
+ 
+%41ij.process.ShortProcessor*
+6f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java‡ ‡(+¶£
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java‡ ‡($
+%39ij.process.ByteProcessor"ij.process.ByteProcessorÀ
+»
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java‡ ‡(*
+%40"$ij.process.ByteProcessor#<init>(II)V*!
+
+%39ij.process.ByteProcessor*
+""*
+"""ã
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java‡ ‡(+!
+
+%39ij.process.ByteProcessor*˘
+7f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java€
+ €("ã
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java€ €(!
+
+ipij.process.ImageProcessor*„
+8f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java⁄ ⁄(Ì
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java⁄ ⁄("
+%38void"2ij.process.ImageProcessor#setCalibrationTable([F)V*!
+
+ipij.process.ImageProcessor*
+""2setCalibrationTable([F)*
+7*»
+20f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java√ √(œÃ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java√ √(	
+%0int"ij.VirtualStack#translate(I)I*" 
+ij.plugin.FileInfoVirtualStack*
+""2translate(I)*
+17
+18*®
+11f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java÷	 ÷(ıÚ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java÷	 ÷( 
+%37ij.process.ImageProcessor";ij.io.FileOpener#openProcessor()Lij/process/ImageProcessor;*
+
+foij.io.FileOpener2openProcessor()∂
+≥
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java÷ ÷(
+ipij.process.ImageProcessor"__id*"
+ 
+%37ij.process.ImageProcessor*	
+7
+8
+1*ü
+12f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java‘	 ‘(ÏÈ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java‘	 ‘( 
+%36ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()∂
+≥
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FileInfoVirtualStack.java‘ ‘(
+ipij.process.ImageProcessor"__id*"
+ 
+%36ij.process.ImageProcessor*	
+7
+8
+1:
+""B" 
+ij.plugin.FileInfoVirtualStack

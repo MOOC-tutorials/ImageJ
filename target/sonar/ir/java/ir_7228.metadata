@@ -1,0 +1,16 @@
+ij.gui.ImageWindow#close()Z
+ij.io.FileSaver#instance-init#
+ij.IJ#wait(I)V
+ij.io.FileSaver#<init>(Lij/ImagePlus;)V
+ij.gui.YesNoCancelDialog#<init>(Ljava/awt/Frame;Ljava/lang/String;Ljava/lang/String;)V
+java.awt.Point#instance-init#
+ij.IJ#isMacro()Z
+ij.macro.Interpreter#isBatchMode()Z
+ij.Prefs#saveLocation(Ljava/lang/String;Ljava/awt/Point;)V
+java.lang.String#length()I
+ij.IJ#getApplet()Ljava/applet/Applet;
+ij.WindowManager#getWindowCount()I
+ij.gui.YesNoCancelDialog#instance-init#
+ij.WindowManager#removeWindow(Ljava/awt/Frame;)V
+java.awt.Point#<init>(II)V
+ij.IJ#macroRunning()Z

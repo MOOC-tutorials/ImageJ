@@ -1,0 +1,166 @@
+
+Wij.gui.Roi#getInterpolatedPolygon(Lij/process/FloatPolygon;DZ)Lij/process/FloatPolygon;R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javañ ñ(."32*†
+14R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¼ ¼(š
+—
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¼ ¼(
+%10double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""*
+15
+22
+12
+1*¦
+15R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaµ µ(š
+—
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¸ ¸(0
+%8double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""™
+–
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java» »(
+%9double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""*
+14
+15
+22
+12
+1*Ã
+27R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java€ €(
+¬
+©
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java (:
+%5float[]"java.util.Arrays#copyOf([FI)[F*"
+java.util.Arrays*
+""*
+""¬
+©
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaƒ ƒ(:
+%6float[]"java.util.Arrays#copyOf([FI)[F*"
+java.util.Arrays*
+""*
+""*
+15
+22
+1*ÿ
+29R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaû û(®
+«
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaû û('
+
+%4void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*
+Interval must be >= 0.01"t
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaü ü(
+
+pij.process.FloatPolygon*‰
+30R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaú ú(
+™
+–
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaú ú(
+%3double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""*
+15
+27
+29
+22
+1*Î
+31R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaù
+ ù("t
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaù ù(
+
+pij.process.FloatPolygon*Ü
+32R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaò ò("™
+–
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaó ó(
+%0double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""–“
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaô ô( 
+%1boolean"ij.gui.Roi#isLine()Z*
+
+ij.gui.Roi2isLine()Â¿
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaõ õ(%
+%2double"%ij.process.FloatPolygon#getLength(Z)D*
+
+pij.process.FloatPolygon*
+""2getLength(Z)*
+30
+31*Ì
+22R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaš š(ä
+á
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java (^
+%7double[]"-ij.gui.Roi#lineCircleIntersection(DDDDDDDZ)[D*"
+
+ij.gui.Roi*
+""*
+""*
+""*
+""*
+""*
+""*
+""*2*
+15
+22
+1*‚
+12R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÂ( Â(,š
+—
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÂ( Â(6
+%11double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""*
+15
+22
+1*Â
+1R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaĞ( Ğ(/
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaĞ Ğ('
+%12ij.process.FloatPolygon"ij.process.FloatPolygon·
+´
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaĞ Ğ(9
+%13"%ij.process.FloatPolygon#<init>([F[F)V* 
+
+%12ij.process.FloatPolygon*
+""*
+""¡
+
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaĞ Ğ(: 
+fPolyij.process.FloatPolygon"__id* 
+
+%12ij.process.FloatPolygon"x
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÑ Ñ("
+ 
+fPolyij.process.FloatPolygon:
+pij.process.FloatPolygon:
+"":
+""B
+
+ij.gui.Roi

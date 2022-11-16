@@ -1,0 +1,10 @@
+ij.IJ#selectWindow(Ljava/lang/String;)V
+ij.IJ#selectWindow(I)V
+ij.IJ#wait(I)V
+ij.IJ#selectWindow(Ljava/awt/Window;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.WindowManager#getImage(I)Lij/ImagePlus;
+ij.WindowManager#getIDList()[I
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+java.lang.System#currentTimeMillis()J
+ij.WindowManager#getWindow(Ljava/lang/String;)Ljava/awt/Window;

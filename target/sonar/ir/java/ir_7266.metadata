@@ -1,0 +1,9 @@
+ij.text.TextPanel#<init>()V
+java.awt.BorderLayout#<init>()V
+java.awt.Scrollbar#<init>(I)V
+ij.gui.GUI#fixScrollbar(Ljava/awt/Scrollbar;)V
+ij.text.TextCanvas#instance-init#
+ij.IJ#getInstance()Lij/ImageJ;
+ij.text.TextCanvas#<init>(Lij/text/TextPanel;)V
+java.awt.BorderLayout#instance-init#
+java.awt.Scrollbar#instance-init#

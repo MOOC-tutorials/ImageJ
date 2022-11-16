@@ -1,0 +1,507 @@
+
+/ij.io.FileSaver#saveAsTiff(Ljava/lang/String;)ZU
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javab b("27*Ï
+13U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaw w(*ó
+î
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaw w(*
+fileij.io.TiffEncoder"__id*
+
+%42ij.io.TiffEncoderïí
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javax; x(K
+%44java.io.FileOutputStream"java.io.FileOutputStream÷
+”
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javax7 x(Q
+%45"4java.io.FileOutputStream#<init>(Ljava/lang/String;)V*!
+
+%44java.io.FileOutputStream*
+
+pathjava.lang.String*
+12*‘
+24U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javae& e(*ÏÈ
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javae& e(>
+%4boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+pathjava.lang.String*	
+FFT of 2"contains(Ljava/lang/CharSequence;)*
+22
+23*»
+14U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaw& w((î
+ë
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaw& w((
+%41ij.io.FileInfo"__id**
+ij.io.FileSaver"
+fiáÑ
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaw w(%
+%42ij.io.TiffEncoder"ij.io.TiffEncoder√
+¿
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaw w()
+%43"+ij.io.TiffEncoder#<init>(Lij/io/FileInfo;)V*
+
+%42ij.io.TiffEncoder*
+
+%41ij.io.FileInfo*
+13*Ô
+25U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javae e(	í
+è
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javae e(	
+%2ij.ImagePlus"__id**
+ij.io.FileSaver"
+impÚÔ
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javae e(
+%3java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+%2ij.ImagePlus*
+FHT2getProperty(Ljava/lang/String;)*
+24
+22*Ó
+15U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javar r(î
+ë
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javar r(
+%31ij.io.FileInfo"__id**
+ij.io.FileSaver"
+fiì
+ê
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javar& r()
+%32ij.ImagePlus"__id**
+ij.io.FileSaver"
+imp±Æ
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javar& r(2
+%33
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+%32ij.ImagePlus2getRoi()∆
+√
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javar r(3
+%34byte[]"0ij.io.RoiEncoder#saveAsByteArray(Lij/gui/Roi;)[B*"
+ij.io.RoiEncoder*
+
+%33
+ij.gui.Roië
+é
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javar r(3
+
+%31ij.io.FileInfo"
+roi"__id*
+
+%34byte[]î
+ë
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javas s(
+%35ij.io.FileInfo"__id**
+ij.io.FileSaver"
+fiì
+ê
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javas s(
+%36ij.ImagePlus"__id**
+ij.io.FileSaver"
+imp∆
+√
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javas s(
+%37byte[][]"-ij.io.FileSaver#getOverlay(Lij/ImagePlus;)[[B*"
+ij.io.FileSaver*
+
+%36ij.ImagePlusó
+î
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javas s("
+
+%35ij.io.FileInfo"	
+overlay"__id*
+
+%37byte[][]î
+ë
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javat t(
+%38ij.io.FileInfo"__id**
+ij.io.FileSaver"
+fiì
+ê
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javat t(
+%39ij.ImagePlus"__id**
+ij.io.FileSaver"
+imp‹Ÿ
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javat t(,
+%40java.lang.String[]"6ij.ImagePlus#getPropertiesAsArray()[Ljava/lang/String;*
+
+%39ij.ImagePlus2getPropertiesAsArray()§
+°
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javat t(,%
+
+%38ij.io.FileInfo"
+
+properties"__id*
+
+%40java.lang.String[]â
+Ü
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javau u(
+outjava.io.DataOutputStream"__id*
+""*
+14*¥
+26U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javad
+ d(ıÚ
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javad
+ d(
+%1boolean"4ij.io.FileSaver#saveAsTiffStack(Ljava/lang/String;)Z*
+ij.io.FileSaver*
+
+pathjava.lang.String2#saveAsTiffStack(Ljava/lang/String;)"_
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javad d( 
+""*Ò	
+16U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javao o(ì
+ê
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javao o(
+%26ij.ImagePlus"__id**
+ij.io.FileSaver"
+impÄ
+~
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javao& o(7
+%27java.lang.String"__id*
+""ÜÉ
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javao o(8
+%28java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+%26ij.ImagePlus*
+
+%27java.lang.String2getProperty(Ljava/lang/String;)ê
+ç
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javao o(:
+plotij.gui.Plot"__id*
+
+%28java.lang.Objectî
+ë
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javap p(
+%29ij.io.FileInfo"__id**
+ij.io.FileSaver"
+fi¨©
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javap p(
+%30byte[]"ij.gui.Plot#toByteArray()[B*
+
+plotij.gui.Plot2toByteArray()í
+è
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javap p(
+
+%29ij.io.FileInfo"
+plot"__id*
+
+%30byte[]*
+15*˚
+27U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javac c(ì
+ê
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javac c(
+%0ij.io.FileInfo"__id**
+ij.io.FileSaver"
+fi*
+25
+26*°	
+17U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javam m(î
+ë
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javam m(
+%21ij.io.FileInfo"__id**
+ij.io.FileSaver"
+fi⁄◊
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javam m()
+%22java.lang.String"8ij.io.FileSaver#getDescriptionString()Ljava/lang/String;*
+ij.io.FileSaver2getDescriptionString()£
+†
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javam m()&
+
+%21ij.io.FileInfo"
+description"__id*
+
+%22java.lang.Stringì
+ê
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javan n(	
+%23ij.ImagePlus"__id**
+ij.io.FileSaver"
+impÄ
+~
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javan n('
+%24java.lang.String"__id*
+""ÜÉ
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javan n((
+%25java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+%23ij.ImagePlus*
+
+%24java.lang.String2getProperty(Ljava/lang/String;)*
+15
+16*ô
+18U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaj j(î
+ë
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaj j(
+%16ij.io.FileInfo"__id**
+ij.io.FileSaver"
+fiâÜ
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaj j(!
+%17java.lang.String[]"java.lang.String[]•
+¢
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaj j(!&
+
+%16ij.io.FileInfo"
+sliceLabels"__id*
+
+%17java.lang.String[]î
+ë
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javak k(
+%18ij.io.FileInfo"__id**
+ij.io.FileSaver"
+fi•
+¢
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javak k(
+%19java.lang.String[]"__id*(*&
+
+%18ij.io.FileInfo"
+sliceLabels´
+®
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javak k(
+%20"
+__arraySet*
+
+%19java.lang.String[]*2 *
+
+labeljava.lang.String*
+17*˛
+19U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javah h(Jñ
+ì
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javah h(J
+labeljava.lang.String"__id*
+
+%11java.lang.String*
+17
+18*u
+0 "n
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÑ Ñ(
+implicit return*¶
+1W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÇ Ç(ñ
+ì
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÇ Ç(
+%54ij.io.FileInfo"__id**
+ij.io.FileSaver"
+fiu
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÇ Ç(
+
+%55int"__id*
+""‘
+—
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÇ Ç(
+%56void"-ij.io.FileSaver#updateImp(Lij/io/FileInfo;I)V*
+ij.io.FileSaver*
+
+%54ij.io.FileInfo*
+
+
+%55int"a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÉ É(
+""*°
+4W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÄ	 Ä(∫∑
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÄ	 Ä(
+%53void"#java.io.FilterOutputStream#close()V*!
+
+outjava.io.DataOutputStream2close()*
+0
+1*†
+9U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaz z(∏µ
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaz z(
+%51void"#java.io.FilterOutputStream#close()V*!
+
+outjava.io.DataOutputStream2close()*	
+4
+0
+1*Ú
+20U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javahE h(Ié
+ã
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javahE h(I
+%11java.lang.String"__id*
+
+%13
+<nulltype>*
+19*§
+21U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javah% h((ì
+ê
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javah% h((
+%14ij.ImagePlus"__id**
+ij.io.FileSaver"
+impª∏
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javah% h(3
+%15ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+%14ij.ImagePlus2
+getStack()’“
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javah% h(D
+%12java.lang.String"0ij.ImageStack#getSliceLabel(I)Ljava/lang/String;*
+
+%15ij.ImageStack*22getSliceLabel(I)î
+ë
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javah% h(D
+%11java.lang.String"__id*
+
+%12java.lang.String*
+19*ä
+10U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javax x(Y§
+°
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javax x(Y
+outjava.io.DataOutputStream"__id*!
+
+%48java.io.DataOutputStreamÄ˝
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javay y(
+%50void"4ij.io.TiffEncoder#write(Ljava/io/DataOutputStream;)V*
+
+fileij.io.TiffEncoder*!
+
+outjava.io.DataOutputStream2!write(Ljava/io/DataOutputStream;)*
+9*≈
+22U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javag g(ì
+ê
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javag g(
+%6ij.io.FileInfo"__id**
+ij.io.FileSaver"
+fií
+è
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javag g(
+%7ij.ImagePlus"__id**
+ij.io.FileSaver"
+impÕ 
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javag g(!
+%8java.lang.String"0ij.ImagePlus#getInfoProperty()Ljava/lang/String;*
+
+%7ij.ImagePlus2getInfoProperty()ö
+ó
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javag g(!
+
+%6ij.io.FileInfo"
+info"__id*
+
+%8java.lang.Stringí
+è
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javah h(
+%9ij.ImagePlus"__id**
+ij.io.FileSaver"
+imp∞≠
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javah h($
+%10boolean"ij.ImagePlus#hasImageStack()Z*
+
+%9ij.ImagePlus2hasImageStack()*
+20
+21*·
+11U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javax	 x(Yïí
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javax x(
+%48java.io.DataOutputStream"java.io.DataOutputStreamÂ
+‚
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javax	 x(Y
+%49"8java.io.DataOutputStream#<init>(Ljava/io/OutputStream;)V*!
+
+%48java.io.DataOutputStream*%
+#
+%46java.io.BufferedOutputStream*
+10*ˆ
+12U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaxR x(Wùö
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javax" x(6#
+%46java.io.BufferedOutputStream"java.io.BufferedOutputStreamÚ
+Ô
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javax x(X
+%47"=java.io.BufferedOutputStream#<init>(Ljava/io/OutputStream;I)V*%
+#
+%46java.io.BufferedOutputStream*!
+
+%44java.io.FileOutputStream*
+""*
+11*Ä
+23U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaf f(ú
+ô
+U
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaf f(
+
+%5void"ij.io.FileSaver#setupFFTSave()V*
+ij.io.FileSaver*
+22:
+pathjava.lang.StringB
+ij.io.FileSaver

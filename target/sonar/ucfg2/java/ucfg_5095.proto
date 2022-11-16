@@ -1,0 +1,85 @@
+
+Lij.io.Opener#openPngUsingURL(Ljava/lang/String;Ljava/net/URL;)Lij/ImagePlus;T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaè è("9"10*π
+2T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaú! ú(&zx
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaú ú( 
+%5ij.ImagePlus"ij.ImagePlusÂ
+‚
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaú ú(,
+%6"8ij.ImagePlus#<init>(Ljava/lang/String;Ljava/awt/Image;)V*
+
+%5ij.ImagePlus*
+
+titlejava.lang.String*
+
+imgjava.awt.Imageä
+á
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaú ú(-
+impij.ImagePlus"__id*
+
+%5ij.ImagePlus"m
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaù ù(
+
+impij.ImagePlus*Ä
+4T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaï ï(ú
+ô
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaï ï(
+imgjava.awt.Image"__id*$
+"
+%1java.awt.image.BufferedImage*
+2
+1*Å
+7T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaî î(%ó
+î
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaî î(%
+injava.io.InputStream"__id*
+
+%0java.io.InputStreamÜ
+É
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaï	 ï("
+%1java.awt.image.BufferedImage"Ojavax.imageio.ImageIO#read(Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;*"
+javax.imageio.ImageIO*
+
+injava.io.InputStream*
+4*™
+8T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaî î(…∆
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaî î($
+%0java.io.InputStream".java.net.URL#openStream()Ljava/io/InputStream;*
+
+urljava.net.URL2openStream()*
+7*›
+9T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaí í(}
+{
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaí í(
+imgjava.awt.Image"__id*
+""*
+8*∫
+10T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaë
+ ë("^
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaë ë(
+""*π
+1T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaü
+ ü("^
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaü ü(
+"":
+titlejava.lang.String:
+urljava.net.URLB
+ij.io.Opener

@@ -1,0 +1,515 @@
+
+0ij.plugin.ColorPanel#paint(Ljava/awt/Graphics;)V\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaª ª("4"16"5"10"0*Ÿ#
+4\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java– –(°
+û
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java– –( 
+%44java.awt.Color[]"__id**
+ij.plugin.ColorPanel"
+cß
+§
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java– –('
+%45java.awt.Color"
+__arrayGet*
+
+%44java.awt.Color[]*
+""ÏÈ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java– –((
+%46void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%45java.awt.Color2setColor(Ljava/awt/Color;)z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java—! —(+
+
+%47int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java—0 —(;
+
+%48int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java—= —(G
+
+%49int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java—I —(T
+
+%50int"__id*
+""Á‰
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java— —(U
+%51void"!java.awt.Graphics#fillRect(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+
+
+%49int*
+
+
+%50int2fillRect(IIII)Ü
+É
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java“ “(*
+%52java.awt.Color"__id*
+""ÏÈ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java“ “(+
+%53void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%52java.awt.Color2setColor(Ljava/awt/Color;)z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java”" ”(,
+
+%54int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java”2 ”(=
+
+%55int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java”@ ”(J
+
+%56int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java”N ”(Y
+
+%57int"__id*
+""€ÿ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java” ”(\
+%58void"!java.awt.Graphics#drawRect(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawRect(IIII)Ü
+É
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java‘ ‘(*
+%59java.awt.Color"__id*
+""ÏÈ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java‘ ‘(+
+%60void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%59java.awt.Color2setColor(Ljava/awt/Color;)z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java’" ’(,
+
+%61int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java’2 ’(=
+
+%62int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java’C ’(M
+
+%63int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java’O ’(Y
+
+%64int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java’` ’(j
+
+%65int"__id*
+""€ÿ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java’ ’(l
+%66void"!java.awt.Graphics#drawLine(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawLine(IIII)z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java÷" ÷(,
+
+%67int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java÷2 ÷(=
+
+%68int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java÷C ÷(M
+
+%69int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java÷S ÷(^
+
+%70int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java÷` ÷(k
+
+%71int"__id*
+""€ÿ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java÷ ÷(n
+%72void"!java.awt.Graphics#drawLine(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawLine(IIII)*
+4
+5
+10
+0*´
+16\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaΩ Ω(∑¥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaΩ Ω(
+
+%0void"!ij.plugin.ColorPanel#updateLut()V*
+ij.plugin.ColorPanel2updateLut()*
+4
+5
+10
+0*ò,
+5\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java« «(†
+ù
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java« «( 
+%8java.awt.Color[]"__id**
+ij.plugin.ColorPanel"
+c•
+¢
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java« «('
+%9java.awt.Color"
+__arrayGet*
+
+%8java.awt.Color[]*
+""«ƒ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java« «(2
+%10java.awt.Color")java.awt.Color#brighter()Ljava/awt/Color;*
+
+%9java.awt.Color2
+brighter()ÏÈ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java« «(3
+%11void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%10java.awt.Color2setColor(Ljava/awt/Color;)z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java»! »(+
+
+%12int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java»0 »(;
+
+%13int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java»= »(G
+
+%14int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java»I »(T
+
+%15int"__id*
+""Á‰
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java» »(U
+%16void"!java.awt.Graphics#fillRect(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+
+
+%14int*
+
+
+%15int2fillRect(IIII)Ü
+É
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java… …(*
+%17java.awt.Color"__id*
+""ÏÈ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java… …(+
+%18void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%17java.awt.Color2setColor(Ljava/awt/Color;)z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java "  (,
+
+%19int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java 2  (=
+
+%20int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java @  (J
+
+%21int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java L  (W
+
+%22int"__id*
+""Á‰
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java   (X
+%23void"!java.awt.Graphics#drawRect(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+
+
+%21int*
+
+
+%22int2drawRect(IIII)Ü
+É
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÀ À(*
+%24java.awt.Color"__id*
+""ÏÈ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÀ À(+
+%25void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%24java.awt.Color2setColor(Ljava/awt/Color;)z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÃ" Ã(,
+
+%26int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÃ. Ã(8
+
+%27int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÃ? Ã(J
+
+%28int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÃP Ã(Z
+
+%29int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÃ\ Ã(f
+
+%30int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÃm Ã(w
+
+%31int"__id*
+""{
+y
+]
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÃy Ã(Ñ
+
+%32int"__id*
+""‹Ÿ
+]
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÃ Ã(Ö
+%33void"!java.awt.Graphics#drawLine(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawLine(IIII)z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÕ" Õ(,
+
+%34int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÕ2 Õ(=
+
+%35int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÕ? Õ(J
+
+%36int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÕQ Õ([
+
+%37int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÕ] Õ(g
+
+%38int"__id*
+""z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÕn Õ(y
+
+%39int"__id*
+""{
+y
+]
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÕ{ Õ(Ü
+
+%40int"__id*
+""‹Ÿ
+]
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaÕ Õ(â
+%41void"!java.awt.Graphics#drawLine(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawLine(IIII)Ü
+É
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaŒ Œ(*
+%42java.awt.Color"__id*
+""ÏÈ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaŒ Œ(+
+%43void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%42java.awt.Color2setColor(Ljava/awt/Color;)*
+4
+5
+10
+0*π	
+10\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaƒ ƒ(Ö
+Ç
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaƒ ƒ(.
+%1java.awt.Color"__id*
+""ÍÁ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.javaƒ ƒ(/
+
+%2void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%1java.awt.Color2setColor(Ljava/awt/Color;)y
+w
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java≈! ≈(+	
+%3int"__id*
+""y
+w
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java≈0 ≈(;	
+%4int"__id*
+""y
+w
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java≈= ≈(G	
+%5int"__id*
+""y
+w
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java≈I ≈(T	
+%6int"__id*
+""‰·
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java≈ ≈(U
+
+%7void"!java.awt.Graphics#fillRect(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+	
+%5int*
+	
+%6int2fillRect(IIII)*
+4
+5
+10
+0*z
+0 "s
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/LUT_Editor.java€ €(
+implicit return:
+gjava.awt.GraphicsB
+ij.plugin.ColorPanel

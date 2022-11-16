@@ -1,0 +1,107 @@
+
+Gij.plugin.ZProjector#projectStackRois(Lij/gui/Overlay;)Lij/gui/Overlay;\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaé é(!"8"9*â
+2\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaì ì(
+}
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaì ì(
+r
+ij.gui.Roi"__id*
+""ú
+ô
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaì ì(
+r
+ij.gui.Roi"
+__arrayGet*
+
+%1ij.gui.Roi[]*
+""*
+6
+1*¯
+3\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaó ó(∂≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaó ó(
+
+%4void"ij.gui.Roi#setPosition(I)V*
+
+roi
+ij.gui.Roi*
+""2setPosition(I)÷”
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaò ò(
+
+%5void"!ij.gui.Overlay#add(Lij/gui/Roi;)V*
+
+overlay2ij.gui.Overlay*
+
+roi
+ij.gui.Roi2add(Lij/gui/Roi;)*
+2*Í
+6\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaî î(©¶
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaî î(	
+%2int"ij.gui.Roi#getPosition()I*
+
+r
+ij.gui.Roi2getPosition()ª∏
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaï ï(
+%3java.lang.Object"$ij.gui.Roi#clone()Ljava/lang/Object;*
+
+r
+ij.gui.Roi2clone()î
+ë
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaï ï(
+roi
+ij.gui.Roi"__id*
+
+%3java.lang.Object*
+2
+3*≠
+7\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaì ì(ƒ¡
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaì ì( 
+%1ij.gui.Roi[]"%ij.gui.Overlay#toArray()[Lij/gui/Roi;*
+
+overlayij.gui.Overlay2	toArray()*
+2*“
+8\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaê ê(«ƒ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaê ê(%
+%0ij.gui.Overlay"'ij.gui.Overlay#create()Lij/gui/Overlay;*
+
+overlayij.gui.Overlay2create()õ
+ò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaê ê(&
+overlay2ij.gui.Overlay"__id*
+
+%0ij.gui.OverlayÅ
+
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaë ë(
+
+roi
+ij.gui.Roi"__id*
+""*
+7*…
+9\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaè è( "f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaè è(!
+""*ﬂ
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaõ	 õ("|
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaõ õ(
+
+overlay2ij.gui.Overlay:
+overlayij.gui.OverlayB
+ij.plugin.ZProjector

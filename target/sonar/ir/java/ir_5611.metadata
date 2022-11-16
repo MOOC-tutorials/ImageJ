@@ -1,0 +1,12 @@
+ij.plugin.StackMaker#run(Ljava/lang/String;)V
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+ij.Macro#getOptions()Ljava/lang/String;
+java.lang.Integer#parseInt(Ljava/lang/String;)I
+ij.plugin.StackMaker#info(Ljava/lang/String;Lij/ImagePlus;I)I
+ij.gui.GenericDialog#<init>(Ljava/lang/String;)V
+ij.IJ#noImage()V
+ij.ImagePlus#instance-init#
+ij.IJ#error(Ljava/lang/String;)V
+ij.gui.GenericDialog#instance-init#
+ij.ImagePlus#<init>(Ljava/lang/String;Lij/ImageStack;)V

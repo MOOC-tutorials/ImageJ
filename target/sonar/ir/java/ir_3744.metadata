@@ -1,0 +1,11 @@
+ij.Menus#installJarPlugin(Ljava/lang/String;Ljava/lang/String;)V
+ij.Menus#getMenu(Ljava/lang/String;)Ljava/awt/Menu;
+java.lang.String#length()I
+java.lang.String#substring(I)Ljava/lang/String;
+ij.Menus#addPluginItem(Ljava/awt/Menu;Ljava/lang/String;)V
+java.lang.String#substring(II)Ljava/lang/String;
+ij.Menus#addPluginSeparatorIfNeeded(Ljava/awt/Menu;)I
+java.lang.String#trim()Ljava/lang/String;
+java.lang.String#indexOf(I)I
+java.lang.String#indexOf(II)I
+java.lang.String#startsWith(Ljava/lang/String;)Z

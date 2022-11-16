@@ -1,0 +1,9 @@
+ij.plugin.frame.SyncWindows#<init>(Ljava/lang/String;)V
+java.lang.Object#getClass()Ljava/lang/Class;
+ij.ImagePlus#addImageListener(Lij/ImageListener;)V
+ij.Executer#addCommandListener(Lij/CommandListener;)V
+ij.IJ#getInstance()Lij/ImageJ;
+ij.WindowManager#addWindow(Ljava/awt/Frame;)V
+ij.WindowManager#toFront(Ljava/awt/Frame;)V
+ij.gui.GUI#scale(Ljava/awt/Component;)V
+ij.IJ#register(Ljava/lang/Class;)V

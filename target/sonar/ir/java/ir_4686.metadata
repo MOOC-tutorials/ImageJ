@@ -1,0 +1,14 @@
+ij.plugin.AVI_Reader#readMovieData(J)V
+java.util.Vector#<init>(I)V
+ij.plugin.AVI_Reader#posSizeString(J)Ljava/lang/String;
+ij.plugin.AVI_Reader#readInt()I
+ij.ImageStack#instance-init#
+java.util.Vector#instance-init#
+ij.plugin.AVI_Reader#frameLabel(J)Ljava/lang/String;
+ij.plugin.AVI_Reader#fourccString(I)Ljava/lang/String;
+ij.plugin.AVI_Reader#readType(J)I
+ij.ImageStack#<init>(II)V
+ij.IJ#log(Ljava/lang/String;)V
+ij.plugin.AVI_Reader#readFrame(Ljava/io/RandomAccessFile;JI)Ljava/lang/Object;
+ij.plugin.AVI_Reader#timeString()Ljava/lang/String;
+ij.IJ#showProgress(D)V

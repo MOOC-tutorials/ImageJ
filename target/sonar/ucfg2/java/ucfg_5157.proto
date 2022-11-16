@@ -1,0 +1,293 @@
+
+Yij.plugin.SurfacePlotter#drawAxis(Lij/process/ImageProcessor;IIIILjava/lang/String;IIII)V`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java√ √("13"12*˘
+13`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java≈ ≈(â
+Ü
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java≈ ≈(
+%0java.awt.Color"__id*
+""ˇ¸
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java≈ ≈(
+
+%1void"5ij.process.ImageProcessor#setColor(Ljava/awt/Color;)V*!
+
+ipij.process.ImageProcessor*
+
+%0java.awt.Color2setColor(Ljava/awt/Color;)*
+9*ï
+2`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÊ" Ê('ä
+á
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÊ" Ê(-
+%24java.awt.Color"__id*
+""õ
+ò
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÊ" Ê(-
+%22java.awt.Color"__id*
+
+%24java.awt.Color*
+1*ï
+3`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÊ Ê(ä
+á
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÊ Ê(!
+%23java.awt.Color"__id*
+""õ
+ò
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÊ Ê(!
+%22java.awt.Color"__id*
+
+%23java.awt.Color*
+1*©
+5`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÂ) Â(+ûõ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÂ Â(
+%20ij.process.ColorBlitter"ij.process.ColorBlitterÔ
+Ï
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÂ Â(,
+%21"<ij.process.ColorBlitter#<init>(Lij/process/ColorProcessor;)V* 
+
+%20ij.process.ColorBlitter*!
+
+ipij.process.ImageProcessor¶
+£
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÂ Â(,
+bij.process.Blitter"__id* 
+
+%20ij.process.ColorBlitter*
+2
+3*£
+6`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java„' „()úô
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java„ „(
+%18ij.process.ByteBlitter"ij.process.ByteBlitterÏ
+È
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java„ „(*
+%19":ij.process.ByteBlitter#<init>(Lij/process/ByteProcessor;)V*
+
+%18ij.process.ByteBlitter*!
+
+ipij.process.ImageProcessor•
+¢
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java„ „(*
+bij.process.Blitter"__id*
+
+%18ij.process.ByteBlitter*
+2
+3*¸
+7`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java· ·(å
+â
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java· ·(
+bij.process.Blitter"__id*
+""*
+5
+6*µ
+8`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaﬂ ﬂ(	»≈
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaﬂ ﬂ(
+%17void"#ij.process.ImageProcessor#invert()V*%
+#
+ipTextij.process.ImageProcessor2invert()*
+7*Ò
+9`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÕ Õ(®
+•
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaŒ Œ($
+%4double"java.lang.Math#atan(D)D*"
+java.lang.Math*
+""ß
+§
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java–) –(8
+%5double"java.lang.Math#sin(D)D*"
+java.lang.Math*
+""ß
+§
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java—) —(8
+%6double"java.lang.Math#cos(D)D*"
+java.lang.Math*
+""ß
+§
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java”* ”(9
+%7double"java.lang.Math#cos(D)D*"
+java.lang.Math*
+""ß
+§
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java‘* ‘(9
+%8double"java.lang.Math#cos(D)D*"
+java.lang.Math*
+""ß
+§
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java÷* ÷(9
+%9double"java.lang.Math#sin(D)D*"
+java.lang.Math*
+""®
+•
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java◊* ◊(9
+%10double"java.lang.Math#sin(D)D*"
+java.lang.Math*
+""Ì
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaŸ Ÿ(
+%11void")ij.process.ImageProcessor#drawLine(IIII)V*!
+
+ipij.process.ImageProcessor*
+""*
+""*
+""*
+""2drawLine(IIII)Ì
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java€ €(#
+%12void")ij.process.ImageProcessor#drawLine(IIII)V*!
+
+ipij.process.ImageProcessor*
+""*
+""*
+""*
+""2drawLine(IIII)Ì
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java‹ ‹(#
+%13void")ij.process.ImageProcessor#drawLine(IIII)V*!
+
+ipij.process.ImageProcessor*
+""*
+""*
+""*
+""2drawLine(IIII)©
+¶
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java›8 ›(D
+%14double"java.lang.Math#atan(D)D*"
+java.lang.Math*
+""Å
+
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java›G ›(N
+%15double"__id*
+""ôñ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java› ›(U 
+%16ij.process.ImageProcessor"nij.plugin.SurfacePlotter#drawString(Lij/process/ImageProcessor;Ljava/lang/String;I)Lij/process/ImageProcessor;*
+ij.plugin.SurfacePlotter*!
+
+ipij.process.ImageProcessor*
+
+labeljava.lang.String*
+""2:drawString(Lij/process/ImageProcessor;Ljava/lang/String;I)¥
+±
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java› ›(V#
+ipTextij.process.ImageProcessor"__id*"
+ 
+%16ij.process.ImageProcessor*
+7
+8*˘
+12`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java« «(â
+Ü
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java« «(
+%2java.awt.Color"__id*
+""ˇ¸
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.java« «(
+
+%3void"5ij.process.ImageProcessor#setColor(Ljava/awt/Color;)V*!
+
+ipij.process.ImageProcessor*
+
+%2java.awt.Color2setColor(Ljava/awt/Color;)*
+9*ß
+1`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÊ Ê(.ô
+ñ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÊ Ê(.
+cjava.awt.Color"__id*
+
+%22java.awt.ColorÜÉ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÁ Á(
+%25void"9ij.process.Blitter#setTransparentColor(Ljava/awt/Color;)V*
+
+bij.process.Blitter*
+
+cjava.awt.Color2%setTransparentColor(Ljava/awt/Color;)À»
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaË Ë((
+
+%26int"%ij.process.ImageProcessor#getWidth()I*%
+#
+ipTextij.process.ImageProcessor2
+getWidth()®
+•
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaËR Ë(a
+%27double"java.lang.Math#cos(D)D*"
+java.lang.Math*
+""Õ 
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÈ È()
+
+%28int"&ij.process.ImageProcessor#getHeight()I*%
+#
+ipTextij.process.ImageProcessor2getHeight()®
+•
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÈR È(a
+%29double"java.lang.Math#sin(D)D*"
+java.lang.Math*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÍ! Í(9
+
+%30int"__id*
+""∫∑
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÍ Í(:
+%31void"<ij.process.Blitter#copyBits(Lij/process/ImageProcessor;III)V*
+
+bij.process.Blitter*%
+#
+ipTextij.process.ImageProcessor*
+""*
+""*
+
+
+%30int2(copyBits(Lij/process/ImageProcessor;III)"j
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SurfacePlotter.javaÏ Ï(	
+"":
+ipij.process.ImageProcessor:
+"":
+"":
+"":
+"":
+labeljava.lang.String:
+"":
+"":
+"":
+""B
+ij.plugin.SurfacePlotter

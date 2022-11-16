@@ -1,0 +1,13 @@
+ij.plugin.PointToolOptions#dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)Z
+ij.gui.PointRoi#getDefaultType()I
+ij.gui.PointRoi#getDefaultSize()I
+ij.gui.Roi#getColor()Ljava/awt/Color;
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.gui.Roi#setColor(Ljava/awt/Color;)V
+ij.gui.Toolbar#getInstance()Lij/gui/Toolbar;
+ij.plugin.Colors#getColor(Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;
+ij.gui.PointRoi#setDefaultSize(I)V
+ij.plugin.PointToolOptions#setCounter(I)V
+ij.plugin.PointToolOptions#getPointRoi()Lij/gui/PointRoi;
+ij.gui.PointRoi#setDefaultType(I)V
+ij.plugin.PointToolOptions#getCounter()I

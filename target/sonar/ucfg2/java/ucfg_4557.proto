@@ -1,0 +1,223 @@
+
+Tij.plugin.filter.FFTCustomFilter#newFHT(Lij/process/ImageProcessor;)Lij/process/FHT;f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaV V("7*ú
+2f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javah h(º
+π
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javah6 h(:
+%19java.awt.Rectangle"__id*.*,"
+ ij.plugin.filter.FFTCustomFilter"
+rectº
+π
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javah> h(B
+%20java.awt.Rectangle"__id*.*,"
+ ij.plugin.filter.FFTCustomFilter"
+rectãà
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javah h(E 
+%21ij.process.ImageProcessor"aij.plugin.filter.FFTFilter#tileMirror(Lij/process/ImageProcessor;IIII)Lij/process/ImageProcessor;*)
+'
+	fftFilterij.plugin.filter.FFTFilter*!
+
+ipij.process.ImageProcessor*
+""*
+""*
+""*
+""2+tileMirror(Lij/process/ImageProcessor;IIII)íè
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javah h(
+%22ij.process.FHT"ij.process.FHT‰
+·
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javah	 h(F
+%23"3ij.process.FHT#<init>(Lij/process/ImageProcessor;)V*
+
+%22ij.process.FHT*"
+ 
+%21ij.process.ImageProcessor°
+û
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javah h(F
+fhtij.process.FHT"__id*
+
+%22ij.process.FHT*
+1*π
+3f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javac c(õò
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javac c(&
+%11void"@ij.plugin.filter.FFTCustomFilter#showStatus(Ljava/lang/String;)V*$"
+ ij.plugin.filter.FFTCustomFilter*
+Extracting brightness2showStatus(Ljava/lang/String;)áÑ
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javad d(< 
+%12ij.process.FloatProcessor"Dij.process.ColorProcessor#getBrightness()Lij/process/FloatProcessor;*!
+
+ipij.process.ImageProcessor2getBrightness()∑
+¥
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javad d(= 
+ip2ij.process.ImageProcessor"__id*"
+ 
+%12ij.process.FloatProcessorº
+π
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javae7 e(;
+%13java.awt.Rectangle"__id*.*,"
+ ij.plugin.filter.FFTCustomFilter"
+rectº
+π
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javae? e(C
+%14java.awt.Rectangle"__id*.*,"
+ ij.plugin.filter.FFTCustomFilter"
+rectåâ
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javae e(F 
+%15ij.process.ImageProcessor"aij.plugin.filter.FFTFilter#tileMirror(Lij/process/ImageProcessor;IIII)Lij/process/ImageProcessor;*)
+'
+	fftFilterij.plugin.filter.FFTFilter*"
+ 
+ip2ij.process.ImageProcessor*
+""*
+""*
+""*
+""2+tileMirror(Lij/process/ImageProcessor;IIII)íè
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javae e(
+%16ij.process.FHT"ij.process.FHT‰
+·
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javae	 e(G
+%17"3ij.process.FHT#<init>(Lij/process/ImageProcessor;)V*
+
+%16ij.process.FHT*"
+ 
+%15ij.process.ImageProcessor°
+û
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javae e(G
+fhtij.process.FHT"__id*
+
+%16ij.process.FHTˇ¸
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaf f(+ 
+%18ij.process.ImageProcessor"@ij.process.ImageProcessor#duplicate()Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor2duplicate()µ
+≤
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaf f(+
+
+fhtij.process.FHT"
+rgb"__id*"
+ 
+%18ij.process.ImageProcessor*
+1*˜
+4f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java] ](ª
+∏
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java] ](
+%3java.awt.Rectangle"__id*.*,"
+ ij.plugin.filter.FFTCustomFilter"
+rect≠
+™
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java] ](,
+
+%4long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""ª
+∏
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java^ ^(
+%5java.awt.Rectangle"__id*.*,"
+ ij.plugin.filter.FFTCustomFilter"
+rect≠
+™
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java^ ^(-
+
+%6long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""ª
+∏
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java_ _(
+%7java.awt.Rectangle"__id*.*,"
+ ij.plugin.filter.FFTCustomFilter"
+rectª
+∏
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java` `(
+%8java.awt.Rectangle"__id*.*,"
+ ij.plugin.filter.FFTCustomFilter"
+rect©¶
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaa a(% 
+%9ij.plugin.filter.FFTFilter"ij.plugin.filter.FFTFilterº
+π
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaa a('
+%10"$ij.plugin.filter.FFTFilter#<init>()V*"
+ 
+%9ij.plugin.filter.FFTFilteræ
+ª
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaa a(('
+	fftFilterij.plugin.filter.FFTFilter"__id*"
+ 
+%9ij.plugin.filter.FFTFilter*
+2
+3*Ÿ
+7f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaW W(
+ê
+ç
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaW W(
+
+fhtij.process.FHT"__id*
+""Ã…
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaX X(	
+%0int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()ŒÀ
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaY Y(	
+%1int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()≥
+∞
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaZ Z($	
+%2int"java.lang.Math#max(II)I*"
+java.lang.Math*
+""*
+""*
+4*‰
+1f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javai i(µ
+≤
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javak k(
+%24ij.ImagePlus"__id*-*+"
+ ij.plugin.filter.FFTCustomFilter"
+imp∫∑
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javak k(*
+
+%25int"ij.ImagePlus#getBitDepth()I*
+
+%24ij.ImagePlus2getBitDepth()"Å
+f
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javal l(
+
+fhtij.process.FHT:
+ipij.process.ImageProcessorB$"
+ ij.plugin.filter.FFTCustomFilter

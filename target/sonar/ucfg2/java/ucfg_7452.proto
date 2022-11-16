@@ -1,0 +1,113 @@
+
+9ij.gui.ImageWindow#getMaximumBounds()Ljava/awt/Rectangle;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.java˝ ˝(""10*‰
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaâ â($ÿ’
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaâ â(&
+%6java.awt.Dimension"5ij.gui.ImageWindow#getExtraSize()Ljava/awt/Dimension;*
+ij.gui.ImageWindow2getExtraSize()¢
+ü
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaâ â('
+	extraSizejava.awt.Dimension"__id*
+
+%6java.awt.Dimension*
+1*®
+8Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaÅ Å(ö
+ó
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaÅ Å(
+%2ij.ImagePlus"__id**
+ij.gui.ImageWindow"
+imp¶£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaÅ Å(	
+%3int"ij.ImagePlus#getWidth()I*
+
+%2ij.ImagePlus2
+getWidth()ö
+ó
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaÇ Ç(
+%4ij.ImagePlus"__id**
+ij.gui.ImageWindow"
+imp®•
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaÇ Ç(!	
+%5int"ij.ImagePlus#getHeight()I*
+
+%4ij.ImagePlus2getHeight()≥
+∞
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaÑ Ñ()
+ij.gui.ImageWindow"
+maxWindowBounds"__id*!
+
+	maxWindowjava.awt.Rectangle*
+6*‡
+9Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaÄ
+ Ä("
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaÄ Ä(!
+
+	maxWindowjava.awt.Rectangle*ó
+10Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.java˛ ˛(Í
+Á
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.java˛ ˛(4
+%0java.awt.Rectangle"Gij.gui.GUI#getMaxWindowBounds(Ljava/awt/Component;)Ljava/awt/Rectangle;*"
+
+ij.gui.GUI*
+ij.gui.ImageWindow¢
+ü
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.java˛ ˛(5
+	maxWindowjava.awt.Rectangle"__id*
+
+%0java.awt.Rectangleö
+ó
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaˇ ˇ(	
+%1ij.ImagePlus"__id**
+ij.gui.ImageWindow"
+imp*
+8
+9*Ñ
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaö ö(ß
+§
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaö ö(=	
+%7int"java.lang.Math#min(II)I*"
+java.lang.Math*
+""*
+""ß
+§
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaõ õ(/	
+%8int"java.lang.Math#min(II)I*"
+java.lang.Math*
+""*
+""çä
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaú ú(
+%9java.awt.Rectangle"java.awt.Rectangleƒ
+¡
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaú	 ú(:
+%10" java.awt.Rectangle#<init>(IIII)V*
+
+%9java.awt.Rectangle*
+""*
+""*
+""*
+"""x
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageWindow.javaú ú(;
+
+%9java.awt.RectangleB
+ij.gui.ImageWindow

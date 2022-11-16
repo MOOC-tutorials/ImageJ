@@ -1,0 +1,61 @@
+
+.ij.gui.OvalRoi#getPolygon(Z)Ljava/awt/Polygon;V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/OvalRoi.java¿	 ¿("6*‰	
+6V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/OvalRoi.javaÀ À(ÐÍ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/OvalRoi.javaÀ À(!
+%0ij.process.ImageProcessor"3ij.gui.OvalRoi#getMask()Lij/process/ImageProcessor;*
+ij.gui.OvalRoi2	getMask()§
+¤
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/OvalRoi.javaÀ À("!
+maskij.process.ImageProcessor"__id*!
+
+%0ij.process.ImageProcessorzx
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/OvalRoi.javaÁ Á(
+%1ij.gui.Wand"ij.gui.WandÍ
+Ê
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/OvalRoi.javaÁ Á(
+%2"0ij.gui.Wand#<init>(Lij/process/ImageProcessor;)V*
+
+%1ij.gui.Wand*#
+!
+maskij.process.ImageProcessor‹
+ˆ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/OvalRoi.javaÁ Á(
+wandij.gui.Wand"__id*
+
+%1ij.gui.WandÏÌ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/OvalRoi.javaÂ Â(.
+
+%3void"ij.gui.Wand#autoOutline(IIII)V*
+
+wandij.gui.Wand*
+""*
+""*2ÿ*2ÿ2autoOutline(IIII)*
+1*Ž
+1V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/OvalRoi.javaÈ È(…‚
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/OvalRoi.javaÈ È(
+%4java.awt.Polygon"java.awt.Polygon´
+±
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/OvalRoi.javaÈ	 È(>
+%5"java.awt.Polygon#<init>([I[II)V*
+
+%4java.awt.Polygon*
+""*
+""*
+"""r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/OvalRoi.javaÈ È(?
+
+%4java.awt.Polygon:
+""B
+ij.gui.OvalRoi

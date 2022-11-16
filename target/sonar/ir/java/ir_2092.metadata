@@ -1,0 +1,14 @@
+ij.macro.Interpreter#runStringFunction(Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#charAt(I)C
+ij.macro.Interpreter#getParens()V
+ij.macro.Interpreter#getToken()V
+java.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+java.lang.String#length()I
+java.lang.String#toUpperCase(Ljava/util/Locale;)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+java.lang.String#endsWith(Ljava/lang/String;)Z
+ij.macro.Functions#getArg()D
+java.lang.String#trim()Ljava/lang/String;
+java.lang.String#lastIndexOf(Ljava/lang/String;)I
+java.lang.String#startsWith(Ljava/lang/String;)Z

@@ -1,0 +1,73 @@
+
+8ij.gui.PolygonRoi#getSmoothedLineLength(Lij/ImagePlus;)DY
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaà	 à	("10*Š
+3Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javað		 ð	(¡
+ž
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaò	 ò	()
+%4double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""*
+3
+1*Š
+5Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaì	 ì	(
+¡
+ž
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaî	 î	((
+%3double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""*
+3
+1*è
+6Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaè	 è	(ÜÙ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaè	 è	()
+%2ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()£
+ 
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaè	 è	(*
+calij.measure.Calibration"__id*
+
+%2ij.measure.Calibration*
+5*Ë
+8Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaâ	
+ â	($…‚
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaâ	
+ â	()
+%1double"=ij.gui.PolygonRoi#getFloatSmoothedLineLength(Lij/ImagePlus;)D*
+ij.gui.PolygonRoi*
+
+impij.ImagePlus2*getFloatSmoothedLineLength(Lij/ImagePlus;)"c
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaâ	 â	(*
+""*©
+10Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaá	 á	(¼¹
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaá	 á	(
+%0boolean" ij.gui.Roi#subPixelResolution()Z*
+ij.gui.PolygonRoi2subPixelResolution()*	
+5
+6
+8*ç
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaô	 ô	(	¡
+ž
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaö	 ö	((
+%5double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+"""c
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java÷	 ÷	(
+"":
+impij.ImagePlusB
+ij.gui.PolygonRoi

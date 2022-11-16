@@ -1,0 +1,14 @@
+ij.plugin.Benchmark#run(Ljava/lang/String;)V
+ij.IJ#createImage(Ljava/lang/String;Ljava/lang/String;III)Lij/ImagePlus;
+ij.measure.ResultsTable#instance-init#
+ij.util.Tools#split(Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+ij.IJ#d2s(DI)Ljava/lang/String;
+ij.IJ#showStatus(Ljava/lang/String;)V
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.IJ#runPlugIn(Lij/ImagePlus;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+ij.measure.ResultsTable#<init>()V
+java.lang.String#length()I
+ij.process.ImageProcessor#setRandomSeed(D)V
+ij.IJ#run(Lij/ImagePlus;Ljava/lang/String;Ljava/lang/String;)V
+java.lang.System#currentTimeMillis()J
+ij.Prefs#getThreads()I

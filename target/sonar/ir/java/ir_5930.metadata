@@ -1,0 +1,10 @@
+ij.plugin.Projector#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.IJ#showMessageWithCancel(Ljava/lang/String;Ljava/lang/String;)Z
+ij.plugin.Projector#doHyperstackProjections(Lij/ImagePlus;)V
+ij.plugin.Projector#zScale(Lij/ImagePlus;Z)Lij/ImagePlus;
+ij.plugin.Projector#doRGBProjections(Lij/ImagePlus;)V
+ij.IJ#isMacro()Z
+ij.IJ#error(Ljava/lang/String;)V
+ij.plugin.Projector#showDialog()Z
+ij.plugin.Projector#doProjections(Lij/ImagePlus;)Lij/ImagePlus;

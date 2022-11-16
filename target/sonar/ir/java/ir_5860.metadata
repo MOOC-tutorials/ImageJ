@@ -1,0 +1,7 @@
+ij.plugin.NewPlugin#createPlugin(Ljava/lang/String;ILjava/lang/String;)V
+java.lang.String#length()I
+ij.io.SaveDialog#setExtension(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#endsWith(Ljava/lang/String;)Z
+java.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#substring(II)Ljava/lang/String;
+ij.IJ#runPlugIn(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;

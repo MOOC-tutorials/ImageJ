@@ -1,0 +1,17 @@
+ij.gui.ShapeRoi#parsePath(Ljava/awt/geom/PathIterator;ILjava/util/ArrayList;)D
+ij.util.FloatArray#<init>()V
+ij.gui.Roi#sqr(D)D
+java.awt.geom.CubicCurve2D$Double#<init>(DDDDDDDD)V
+ij.gui.ShapeRoi#nCoords(I)I
+java.awt.geom.QuadCurve2D$Double#<init>(DDDDDD)V
+ij.gui.PolygonRoi#<init>(Lij/process/FloatPolygon;I)V
+ij.gui.ShapeRoi#createRoi([F[FI)Lij/gui/Roi;
+java.lang.Math#sqrt(D)D
+ij.util.FloatArray#instance-init#
+ij.gui.ShapeRoi#makeShapeFromArray([F)Ljava/awt/geom/GeneralPath;
+java.awt.geom.CubicCurve2D$Double#instance-init#
+ij.gui.ShapeRoi#guessType(IDZZZ)I
+ij.gui.PolygonRoi#instance-init#
+ij.gui.ShapeRoi#addOffset([FIFF)V
+java.lang.Double#isNaN(D)Z
+java.awt.geom.QuadCurve2D$Double#instance-init#

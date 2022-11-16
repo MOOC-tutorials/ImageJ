@@ -1,0 +1,9 @@
+ij.macro.ExtensionDescriptor#dispatch(Lij/macro/Functions;)Ljava/lang/String;
+ij.macro.ExtensionDescriptor#isOutputArg(I)Z
+ij.macro.Interpreter#getLeftParen()V
+ij.macro.Interpreter#nextToken()I
+ij.macro.ExtensionDescriptor#convertVariable(Lij/macro/Interpreter;ILij/macro/Variable;)Ljava/lang/Object;
+ij.macro.ExtensionDescriptor#isOptionalArg(I)Z
+ij.macro.ExtensionDescriptor#getTypeName(I)Ljava/lang/String;
+ij.macro.Interpreter#getParens()V
+ij.macro.ExtensionDescriptor#convertOutputType(Lij/macro/Variable;Ljava/lang/Object;)V

@@ -1,0 +1,113 @@
+
+iij.plugin.frame.SyncWindows#getMatchingCoords(Lij/gui/ImageCanvas;Lij/gui/ImageCanvas;II)Ljava/awt/Point;c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java⁄ ⁄(""3*ù
+2c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java‡# ‡(%ﬂ‹
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java‡# ‡(1
+%4java.awt.Container"2java.awt.Component#getParent()Ljava/awt/Container;*
+
+icij.gui.ImageCanvas2getParent()Ÿ÷
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java‡ ‡(A
+%5ij.ImagePlus"/ij.gui.ImageWindow#getImagePlus()Lij/ImagePlus;*
+
+%4java.awt.Container2getImagePlus()Â‚
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java‡ ‡(R
+%6ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+%5ij.ImagePlus2getCalibration()≠
+™
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java‡ ‡(S
+calij.measure.Calibration"__id*
+
+%6ij.measure.Calibration‡›
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java·& ·(5
+%7java.awt.Container"2java.awt.Component#getParent()Ljava/awt/Container;*
+
+iccij.gui.ImageCanvas2getParent()Ÿ÷
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java· ·(E
+%8ij.ImagePlus"/ij.gui.ImageWindow#getImagePlus()Lij/ImagePlus;*
+
+%7java.awt.Container2getImagePlus()Â‚
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java· ·(V
+%9ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+%8ij.ImagePlus2getCalibration()∞
+≠
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java· ·(W 
+curCalij.measure.Calibration"__id*
+
+%9ij.measure.Calibration*
+1*È
+3c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java‹ ‹($Ω
+∫
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java‹ ‹($
+%0java.awt.Rectangle"__id*3*1
+ij.plugin.frame.SyncWindows"
+currentSrcRectΩ
+∫
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java› ›($
+%1java.awt.Rectangle"__id*3*1
+ij.plugin.frame.SyncWindows"
+currentSrcRect∂
+≥
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaﬂ ﬂ(
+%2java.awt.Checkbox"__id*-*+
+ij.plugin.frame.SyncWindows"
+
+cScalingΩ∫
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaﬂ ﬂ(
+%3boolean"java.awt.Checkbox#getState()Z*
+
+%2java.awt.Checkbox2
+getState()*
+2
+1*√
+1c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaÁ Á(∆√
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaÁ Á($
+
+%10int"ij.gui.ImageCanvas#screenXD(D)I*
+
+icij.gui.ImageCanvas*
+""2screenXD(D)∆√
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaË Ë($
+
+%11int"ij.gui.ImageCanvas#screenYD(D)I*
+
+icij.gui.ImageCanvas*
+""2screenYD(D)èå
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaÍ Í(
+%12java.awt.Point"java.awt.Point¥
+±
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaÍ	 Í(
+%13"java.awt.Point#<init>(II)V*
+
+%12java.awt.Point*
+""*
+"""~
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaÍ Í(
+
+%12java.awt.Point:
+icij.gui.ImageCanvas:
+iccij.gui.ImageCanvas:
+"":
+""B
+ij.plugin.frame.SyncWindows

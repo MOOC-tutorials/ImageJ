@@ -1,0 +1,147 @@
+
+Gij.plugin.CanvasResizer#expandStack(Lij/ImageStack;IIII)Lij/ImageStack;]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javac c("8*ê
+3]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javap p(øº
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javap p(
+
+%9void"!ij.process.ImageProcessor#fill()V*$
+"
+ipNewij.process.ImageProcessor2fill()ÙÒ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javaq q(( 
+%10ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stackOldij.ImageStack*
+""2getProcessor(I)≤Ø
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javaq q(5
+%11void"@ij.process.ImageProcessor#insert(Lij/process/ImageProcessor;II)V*$
+"
+ipNewij.process.ImageProcessor*"
+ 
+%10ij.process.ImageProcessor*
+""*
+""2%insert(Lij/process/ImageProcessor;II)‰·
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javar r(.
+%12java.lang.String"0ij.ImageStack#getSliceLabel(I)Ljava/lang/String;*
+
+stackOldij.ImageStack*
+""2getSliceLabel(I)ŒÀ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javar r(6
+%13void"Fij.ImageStack#addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+stackNewij.ImageStack*
+
+%12java.lang.String*$
+"
+ipNewij.process.ImageProcessor27addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)*
+6
+1*—
+4]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javao o(	Á‰
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javao o($
+
+%8void"5ij.process.ImageProcessor#setGlobalBackgroundColor()V*$
+"
+ipNewij.process.ImageProcessor2setGlobalBackgroundColor()*
+3*ª
+5]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javam m(	—Œ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javam m(
+
+%7void"&ij.process.ImageProcessor#setValue(D)V*$
+"
+ipNewij.process.ImageProcessor*
+""2setValue(D)*
+3*”
+6]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javaj j(ô
+ñ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javaj j(%
+
+%5void"ij.IJ#showProgress(D)V*	"
+ij.IJ*
+""òï
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javak k(,
+%6ij.process.ImageProcessor"Hij.process.ImageProcessor#createProcessor(II)Lij/process/ImageProcessor;*$
+"
+ipOldij.process.ImageProcessor*
+""*
+""2createProcessor(II)Ø
+¨
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javak k(,"
+ipNewij.process.ImageProcessor"__id*!
+
+%6ij.process.ImageProcessor*
+4
+5*ÿ
+8]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javad d(Ø¨
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javad d("	
+%0int"ij.ImageStack#getSize()I*
+
+stackOldij.ImageStack2	getSize()ÒÓ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javae e(1
+%1ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stackOldij.ImageStack*22getProcessor(I)Ø
+¨
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javae e(2"
+ipOldij.process.ImageProcessor"__id*!
+
+%1ij.process.ImageProcessorÎË
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javaf3 f(K
+%2java.awt.image.ColorModel"8ij.ImageStack#getColorModel()Ljava/awt/image/ColorModel;*
+
+stackOldij.ImageStack2getColorModel()ÜÉ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javaf f(&
+%3ij.ImageStack"ij.ImageStackË
+Â
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javaf f(L
+%4"4ij.ImageStack#<init>(IILjava/awt/image/ColorModel;)V*
+
+%3ij.ImageStack*
+""*
+""*!
+
+%2java.awt.image.ColorModelö
+ó
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javaf f(M
+stackNewij.ImageStack"__id*
+
+%3ij.ImageStackî
+ë
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javag g("
+ipNewij.process.ImageProcessor"__id*
+""*
+6
+1*‡
+1]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javat	 t("|
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CanvasResizer.javat t(
+
+stackNewij.ImageStack:
+stackOldij.ImageStack:
+"":
+"":
+"":
+""B
+ij.plugin.CanvasResizer

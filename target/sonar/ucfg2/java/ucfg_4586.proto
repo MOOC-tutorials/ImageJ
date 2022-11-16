@@ -1,0 +1,95 @@
+
+bij.measure.ResultsTable#createTableFromImage(Lij/process/ImageProcessor;)Lij/measure/ResultsTable;_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaÅ Å(0"8*É
+4_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaà à(ï
+í
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaà à(
+%6java.lang.String"__concat*
+X*
+""Â‚
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaà à(,
+%7float",ij.process.ImageProcessor#getPixelValue(II)F*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixelValue(II)ëé
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaà à(-
+
+%8void"6ij.measure.ResultsTable#addValue(Ljava/lang/String;D)V*
+
+rtij.measure.ResultsTable*
+
+%6java.lang.String*
+
+%7float2addValue(Ljava/lang/String;D)*	
+4
+6
+1*ä
+6_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaÖ Ö(“œ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaÖ Ö(
+
+%3void"+ij.measure.ResultsTable#incrementCounter()V*
+
+rtij.measure.ResultsTable2incrementCounter()ï
+í
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaÜ Ü(
+%4java.lang.String"__concat*
+Y*
+""´®
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaÜ Ü(
+
+%5void"Gij.measure.ResultsTable#addLabel(Ljava/lang/String;Ljava/lang/String;)V*
+
+rtij.measure.ResultsTable*
+ *
+
+%4java.lang.String2.addLabel(Ljava/lang/String;Ljava/lang/String;)*	
+4
+6
+1*Ò
+8_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaÇ Ç(&úô
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaÇ Ç($
+%0ij.measure.ResultsTable"ij.measure.ResultsTableÆ
+´
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaÇ Ç(&
+%1"!ij.measure.ResultsTable#<init>()V*
+
+%0ij.measure.ResultsTable™
+ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaÇ Ç('
+rtij.measure.ResultsTable"__id*
+
+%0ij.measure.ResultsTable„‡
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaÉ É(
+%2java.awt.Rectangle"6ij.process.ImageProcessor#getRoi()Ljava/awt/Rectangle;*!
+
+ipij.process.ImageProcessor2getRoi()ü
+ú
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaÉ É(
+rjava.awt.Rectangle"__id*
+
+%2java.awt.Rectangle*
+6
+1*È
+1_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaä	 ä("Ç
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaä ä(
+
+rtij.measure.ResultsTable:
+ipij.process.ImageProcessorB"
+ij.measure.ResultsTable

@@ -1,0 +1,13 @@
+ij.Menus#installPlugin(Ljava/lang/String;CLjava/lang/String;Ljava/lang/String;Lij/ImageJ;)I
+java.awt.MenuShortcut#<init>(IZ)V
+ij.Menus#getMenu(Ljava/lang/String;)Ljava/awt/Menu;
+java.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V
+ij.Menus#shortcutInUse(Ljava/lang/String;)Z
+java.lang.Integer#valueOf(I)Ljava/lang/Integer;
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.Menus#commandInUse(Ljava/lang/String;)Z
+ij.Menus#convertShortcutToCode(Ljava/lang/String;)I
+java.awt.MenuItem#<init>(Ljava/lang/String;)V
+java.awt.MenuItem#instance-init#
+java.awt.MenuShortcut#instance-init#
+ij.Menus#validShortcut(Ljava/lang/String;)Z

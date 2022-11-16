@@ -1,0 +1,184 @@
+
+-ij.io.FileSaver#getOverlay(Lij/ImagePlus;)[[BW
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaï ï(""18*◊
+13W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaú ú(’“
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaú ú( 
+%3ij.gui.Overlay"3ij.gui.ImageCanvas#getShowAllList()Lij/gui/Overlay;*
+
+icij.gui.ImageCanvas2getShowAllList()ï
+í
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaú ú( 
+overlayij.gui.Overlay"__id*
+
+%3ij.gui.Overlay*
+11
+12*¿
+14W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaõ õ("a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaõ õ(
+""*Õ
+15W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaö ö(»≈
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaö ö(#
+%2ij.gui.ImageCanvas",ij.ImagePlus#getCanvas()Lij/gui/ImageCanvas;*
+
+impij.ImagePlus2getCanvas()ò
+ï
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaö ö($
+icij.gui.ImageCanvas"__id*
+
+%2ij.gui.ImageCanvas*
+13
+14*ƒ
+16W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaò ò(¬ø
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaò ò($
+%1ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+impij.ImagePlus2getOverlay()ï
+í
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaò ò(%
+overlayij.gui.Overlay"__id*
+
+%1ij.gui.Overlay*
+15
+11*¿
+17W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaó
+ ó("a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaó ó(
+""*û
+18W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javañ ñ(	¥±
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javañ ñ(
+%0boolean"ij.ImagePlus#getHideOverlay()Z*
+
+impij.ImagePlus2getHideOverlay()*
+16
+17*Ã
+1W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java´	 ´("n
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java´ ´(
+
+arraybyte[][]* 
+3W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java© ©(«
+ƒ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java© ©(-
+%9byte[]"0ij.io.RoiEncoder#saveAsByteArray(Lij/gui/Roi;)[B*"
+ij.io.RoiEncoder*
+
+roi
+ij.gui.Roiú
+ô
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java© ©(-
+%10"
+__arraySet*
+
+arraybyte[][]*
+""*
+
+%9byte[]*
+6*ÿ
+4W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java® ®(ÙÒ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java® ®($
+
+%8void"1ij.gui.Roi#setPrototypeOverlay(Lij/gui/Overlay;)V*
+
+roi
+ij.gui.Roi*
+
+overlayij.gui.Overlay2%setPrototypeOverlay(Lij/gui/Overlay;)*
+3*±
+5W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java¶ ¶(æª
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java¶ ¶(
+%7
+ij.gui.Roi"!ij.gui.Overlay#get(I)Lij/gui/Roi;*
+
+overlayij.gui.Overlay*
+""2get(I)â
+Ü
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java¶ ¶(
+roi
+ij.gui.Roi"__id*
+
+%7
+ij.gui.Roi*
+3
+4*ã
+6W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java• •(§°
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java• •( 	
+%6int"ij.gui.Overlay#size()I*
+
+overlayij.gui.Overlay2size()*
+5
+1*ﬂ
+7W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java§ §(|
+z
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java§ §(!
+arraybyte[][]"__id*
+""*
+6*ø
+8W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java£
+ £("a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java£ £(
+""*»
+9W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java¢ ¢(·
+ﬁ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java¢ ¢(-
+%5boolean"=ij.plugin.Orthogonal_Views#isOrthoViewsImage(Lij/ImagePlus;)Z*"
+ij.plugin.Orthogonal_Views*
+
+impij.ImagePlus*
+7
+8*¿
+10W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java°
+ °("a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.java° °(
+""*ç
+11W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaü
+ ü(§°
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaü
+ ü(	
+%4int"ij.gui.Overlay#size()I*
+
+overlayij.gui.Overlay2size()*
+9
+10*¿
+12W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaù ù(!"a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaù ù("
+"":
+impij.ImagePlusB"
+ij.io.FileSaver

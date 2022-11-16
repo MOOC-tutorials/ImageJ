@@ -1,0 +1,15 @@
+ij.plugin.MacroInstaller#addShortcut(Ljava/lang/String;)V
+java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+ij.Menus#getMacroShortcuts()Ljava/util/Hashtable;
+java.lang.String#charAt(I)C
+java.lang.String#substring(II)Ljava/lang/String;
+java.lang.String#length()I
+java.lang.String#toUpperCase(Ljava/util/Locale;)Ljava/lang/String;
+java.lang.Integer#valueOf(I)Ljava/lang/Integer;
+java.lang.String#lastIndexOf(I)I
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.Menus#convertShortcutToCode(Ljava/lang/String;)I
+ij.Menus#getShortcuts()Ljava/util/Hashtable;
+ij.IJ#log(Ljava/lang/String;)V
+java.lang.String#indexOf(I)I
+java.lang.String#startsWith(Ljava/lang/String;)Z

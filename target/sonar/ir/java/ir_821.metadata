@@ -1,0 +1,12 @@
+ij.gui.GenericDialog#getNextNumber()D
+ij.gui.GenericDialog#recordOption(Ljava/lang/Object;Ljava/lang/String;)V
+ij.Macro#getValue(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+java.lang.String#substring(I)Ljava/lang/String;
+ij.gui.GenericDialog#trim(Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+ij.macro.Interpreter#getInstance()Lij/macro/Interpreter;
+java.lang.Double#doubleValue()D
+java.lang.Double#isNaN(D)Z
+java.lang.String#startsWith(Ljava/lang/String;)Z

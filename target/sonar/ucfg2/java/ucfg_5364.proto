@@ -1,0 +1,280 @@
+
+oij.plugin.filter.MaximumFinder#getSortedMaxPoints(Lij/process/ImageProcessor;Lij/process/ByteProcessor;ZZFFD)[Jf
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java¶ ¶("57*¥
+57f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java¸ ¸(êç
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java¸ ¸(#
+%0java.awt.Rectangle"6ij.process.ImageProcessor#getRoi()Ljava/awt/Rectangle;*!
+
+ipij.process.ImageProcessor2getRoi()¨
+¥
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java¸ ¸($
+roijava.awt.Rectangle"__id*
+
+%0java.awt.Rectangleíê
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java¹  ¹(1
+%1java.lang.Object"6ij.process.ByteProcessor#getPixels()Ljava/lang/Object;*#
+!
+typePij.process.ByteProcessor2getPixels()œ
+™
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java¹ ¹(2
+typesbyte[]"__id*
+
+%1java.lang.Object‡
+„
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java», »(G
+%2double"__id*
+""Í
+Ê
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java¼ ¼(.
+%3java.lang.Thread"2java.lang.Thread#currentThread()Ljava/lang/Thread;*"
+java.lang.Thread§
+¤
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java¼ ¼(/
+threadjava.lang.Thread"__id*
+
+%3java.lang.Thread*
+16
+50
+54*”
+25f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÎp Î(y
+Œ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÎp Î(y
+%13float"__id*
+
+%15float*
+27
+16
+28
+50
+54*’
+48f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÂ> Â(?
+Š
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÂ> Â(?
+%6float"__id*
+
+%8float*
+16
+27
+28
+50
+54*Þ
+15f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÛ+ Û(/"p
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÛ$ Û(0
+""*÷
+26f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÎ6 Î(C‡
+„
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÎF Î(R
+%16int[]"__id*
+""‡
+„
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÎY Î(e
+%17int[]"__id*
+""ÌÉ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÎ6 Î(m
+%14float"Lij.plugin.filter.MaximumFinder#trueEdmHeight(IILij/process/ImageProcessor;)F*" 
+ij.plugin.filter.MaximumFinder*
+""*
+""*!
+
+ipij.process.ImageProcessor2,trueEdmHeight(IILij/process/ImageProcessor;)
+Œ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÎ6 Î(m
+%13float"__id*
+
+%14float*
+27
+16
+28
+50
+54*à
+49f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÂ& Â(3ËÈ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÂ& Â(;
+%7float"Lij.plugin.filter.MaximumFinder#trueEdmHeight(IILij/process/ImageProcessor;)F*" 
+ij.plugin.filter.MaximumFinder*
+""*
+""*!
+
+ipij.process.ImageProcessor2,trueEdmHeight(IILij/process/ImageProcessor;)
+Š
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÂ& Â(;
+%6float"__id*
+
+%7float*
+16
+27
+28
+50
+54*É
+16f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÛ Û(ÍÊ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÛ Û("
+%18boolean"!java.lang.Thread#isInterrupted()Z*
+
+threadjava.lang.Thread2isInterrupted()*
+3
+15
+10*ú
+27f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÍ* Í(,‡
+„
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÍ= Í(I
+%10int[]"__id*
+""‡
+„
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÍP Í(\
+%11int[]"__id*
+""íê
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÍ* Í(`
+%12float",ij.process.ImageProcessor#getPixelValue(II)F*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixelValue(II)*
+25
+26*ù
+28f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÌ# Ì(+ôñ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÌ# Ì(4
+%9boolean"-ij.plugin.filter.MaximumFinder#isWithin(III)Z*" 
+ij.plugin.filter.MaximumFinder*
+""*
+""*
+""2isWithin(III)*
+27
+16
+28
+50
+54*’
+1f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaê ê(²
+¯
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaê ê(
+%24void"java.util.Arrays#sort([J)V*"
+java.util.Arrays*
+"""p
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaì ì(
+""*Ý
+2f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaé+ é(/"p
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaé$ é(0
+""*Ã
+3f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaé é(ÍÊ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaé é("
+%23boolean"!java.lang.Thread#isInterrupted()Z*
+
+threadjava.lang.Thread2isInterrupted()*
+2
+1*ö
+7f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaä? ä(Aíê
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaä? ä(T
+%22float",ij.process.ImageProcessor#getPixelValue(II)F*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixelValue(II)
+Œ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaä? ä(T
+%20float"__id*
+
+%22float*
+3
+10*Õ
+8f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaä) ä(6ÌÉ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaä) ä(>
+%21float"Lij.plugin.filter.MaximumFinder#trueEdmHeight(IILij/process/ImageProcessor;)F*" 
+ij.plugin.filter.MaximumFinder*
+""*
+""*!
+
+ipij.process.ImageProcessor2,trueEdmHeight(IILij/process/ImageProcessor;)
+Œ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaä) ä(>
+%20float"__id*
+
+%21float*
+3
+10*å
+50f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÁ Á(ìé
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaÁ Á(/
+%5float",ij.process.ImageProcessor#getPixelValue(II)F*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixelValue(II)*
+48
+49*Þ
+53f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java¿: ¿(>"p
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java¿3 ¿(?
+""*Í
+54f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java¿ ¿(!ÌÉ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.java¿ ¿(1
+%4boolean"!java.lang.Thread#isInterrupted()Z*
+
+threadjava.lang.Thread2isInterrupted()*
+16
+50
+53
+54*„
+10f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaã ã(†
+ƒ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/MaximumFinder.javaã ã(%
+%19byte"__id*
+""*
+3
+7
+8
+10:
+ipij.process.ImageProcessor:!
+typePij.process.ByteProcessor:
+"":
+"":
+"":
+"":
+""B" 
+ij.plugin.filter.MaximumFinder

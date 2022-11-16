@@ -1,0 +1,12 @@
+ij.plugin.RoiEnlarger#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+java.lang.Math#abs(D)D
+ij.plugin.RoiEnlarger#enlarge255(Lij/gui/Roi;D)Lij/gui/Roi;
+ij.Prefs#set(Ljava/lang/String;Z)V
+ij.Prefs#set(Ljava/lang/String;D)V
+ij.plugin.RoiEnlarger#enlarge(Lij/gui/Roi;D)Lij/gui/Roi;
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+java.lang.Math#round(D)J
+ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V
+java.lang.Double#isNaN(D)Z
+ij.gui.Roi#setPreviousRoi(Lij/gui/Roi;)V

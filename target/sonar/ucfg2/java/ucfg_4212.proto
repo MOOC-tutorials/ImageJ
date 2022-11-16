@@ -1,0 +1,219 @@
+
+Nij.plugin.Raw#openAllVirtual(Ljava/lang/String;Lij/io/FileInfo;)Lij/ImagePlus;S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java. .('"9*˝	
+3S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java: :(ª∏
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java: :(!
+%9java.lang.Object"(ij.io.FileInfo#clone()Ljava/lang/Object;*
+
+fiij.io.FileInfo2clone()©
+¶
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java: :(!
+%10"
+__arraySet*
+
+infoij.io.FileInfo[]*
+""*
+
+%9java.lang.Objectü
+ú
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java; ;(
+
+%11ij.io.FileInfo"
+__arrayGet*
+
+infoij.io.FileInfo[]*
+""•
+¢
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java; ;( $
+
+%11ij.io.FileInfo"
+	directory"__id*
+
+	directoryjava.lang.Stringü
+ú
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java< <(
+
+%12ij.io.FileInfo"
+__arrayGet*
+
+infoij.io.FileInfo[]*
+""£
+†
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java< <(
+%13java.lang.String"
+__arrayGet*
+
+listjava.lang.String[]*
+""û
+õ
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java< <(#
+
+%12ij.io.FileInfo"
+
+fileName"__id*
+
+%13java.lang.String*
+3
+1*Ï
+5S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java7 7(÷
+”
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java7 7((
+%7java.lang.String"8ij.IJ#addSeparator(Ljava/lang/String;)Ljava/lang/String;*	"
+ij.IJ*
+
+	directoryjava.lang.Stringó
+î
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java7 7((
+	directoryjava.lang.String"__id*
+
+%7java.lang.StringÅ
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java8 8(-
+%8ij.io.FileInfo[]"ij.io.FileInfo[]í
+è
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java8 8(.
+infoij.io.FileInfo[]"__id*
+
+%8ij.io.FileInfo[]*
+3
+1*∑
+6S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java6
+ 6("]
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java6 6(
+""*´
+7S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java2 2(&éã
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java2 2($
+%3ij.plugin.FolderOpener"ij.plugin.FolderOpener†
+ù
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java2 2(&
+%4" ij.plugin.FolderOpener#<init>()V*
+
+%3ij.plugin.FolderOpenerú
+ô
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java2 2('
+foij.plugin.FolderOpener"__id*
+
+%3ij.plugin.FolderOpener†ù
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java3	 3(
+%5java.lang.String[]"Kij.plugin.FolderOpener#trimFileList([Ljava/lang/String;)[Ljava/lang/String;*
+
+foij.plugin.FolderOpener*
+
+listjava.lang.String[]2!trimFileList([Ljava/lang/String;)ñ
+ì
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java3 3(
+listjava.lang.String[]"__id*
+
+%5java.lang.String[]†ù
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java4	 4(
+%6java.lang.String[]"Kij.plugin.FolderOpener#sortFileList([Ljava/lang/String;)[Ljava/lang/String;*
+
+foij.plugin.FolderOpener*
+
+listjava.lang.String[]2!sortFileList([Ljava/lang/String;)ñ
+ì
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java4 4(
+listjava.lang.String[]"__id*
+
+%6java.lang.String[]*
+5
+6*∑
+8S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java1
+ 1("]
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java1 1(
+""*Ò
+9S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java/ /($yw
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java/ /(
+%0java.io.File"java.io.Fileø
+º
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java/ /(%
+%1"(java.io.File#<init>(Ljava/lang/String;)V*
+
+%0java.io.File*
+
+	directoryjava.lang.String∏µ
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java/ /(,
+%2java.lang.String[]"&java.io.File#list()[Ljava/lang/String;*
+
+%0java.io.File2list()ñ
+ì
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java/ /(-
+listjava.lang.String[]"__id*
+
+%2java.lang.String[]*
+7
+8*Ê	
+1S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java>0 >(4üú
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java> >(/%
+%14ij.plugin.FileInfoVirtualStack"ij.plugin.FileInfoVirtualStackﬂ
+‹
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java> >(5
+%15"9ij.plugin.FileInfoVirtualStack#<init>([Lij/io/FileInfo;)V*'
+%
+%14ij.plugin.FileInfoVirtualStack*
+
+infoij.io.FileInfo[]°
+û
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java> >(6
+stackij.VirtualStack"__id*'
+%
+%14ij.plugin.FileInfoVirtualStackzx
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java? ?(
+%16ij.ImagePlus"ij.ImagePlusÏ
+È
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java? ?(1
+%17"7ij.ImagePlus#<init>(Ljava/lang/String;Lij/ImageStack;)V*
+
+%16ij.ImagePlus*
+
+	directoryjava.lang.String*
+
+stackij.VirtualStackä
+á
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java? ?(2
+impij.ImagePlus"__id*
+
+%16ij.ImagePlus"l
+S
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Raw.java@ @(
+
+impij.ImagePlus:
+	directoryjava.lang.String:
+fiij.io.FileInfoB"
+ij.plugin.Raw

@@ -1,0 +1,117 @@
+
+aij.plugin.frame.ColorThresholder#RGBtoLab(Lij/process/ImageProcessor;)Lij/process/ImageProcessor;h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÀ
+ À
+('"1*£
+1h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÃ
+
+ Ã
+(ÿ’
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÃ
+
+ Ã
+(	
+%0int"*ij.process.ImageProcessor#getPixelCount()I*!
+
+ipij.process.ImageProcessor2getPixelCount()à
+Ö
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÕ
+ Õ
+(
+Lbyte[]"__id*
+""à
+Ö
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaŒ
+ Œ
+(
+abyte[]"__id*
+""à
+Ö
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaœ
+ œ
+(
+bbyte[]"__id*
+""º
+π
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java–
+ –
+(&
+
+%1void"Kij.plugin.frame.ColorThresholder#getLab(Lij/process/ImageProcessor;[B[B[B)V*$""
+ ij.plugin.frame.ColorThresholder*!
+
+ipij.process.ImageProcessor*
+
+Lbyte[]*
+
+abyte[]*
+
+bbyte[]ŒÀ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—
+) —
+(6	
+%2int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()–Õ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—
+7 —
+(E	
+%3int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()©¶
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—
+ —
+((
+%4ij.process.ColorProcessor"ij.process.ColorProcessor◊
+‘
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—
+ —
+(F
+%5"%ij.process.ColorProcessor#<init>(II)V*!
+
+%4ij.process.ColorProcessor*
+	
+%2int*
+	
+%3int∑
+¥
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java—
+ —
+(G
+cpij.process.ColorProcessor"__id*!
+
+%4ij.process.ColorProcessorÑÅ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java“
+ “
+(
+
+%6void")ij.process.ColorProcessor#setRGB([B[B[B)V*!
+
+cpij.process.ColorProcessor*
+
+Lbyte[]*
+
+abyte[]*
+
+bbyte[]2setRGB([B[B[B)"ç
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java”
+ ”
+(!
+
+cpij.process.ColorProcessor:
+ipij.process.ImageProcessorB$""
+ ij.plugin.frame.ColorThresholder

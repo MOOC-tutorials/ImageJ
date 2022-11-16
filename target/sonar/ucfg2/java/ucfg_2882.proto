@@ -1,0 +1,119 @@
+
+Aij.plugin.filter.Filters#setup(Ljava/lang/String;Lij/ImagePlus;)I^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java ("8*í
+3^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (ß§
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (!
+%5boolean"ij.gui.Roi#isArea()Z*
+
+roi
+ij.gui.Roi2isArea()*
+1*°
+5^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (¨©
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (
+
+%4void"ij.ImagePlus#resetRoi()V*
+
+impij.ImagePlus2
+resetRoi()Ñ
+Å
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (
+roi
+ij.gui.Roi"__id*
+""*
+3
+1*‘
+6^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java* (-„‡
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java* (>
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+
+invert2equals(Ljava/lang/Object;)*	
+3
+5
+1*Ê
+7^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (π∂
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (
+%0
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()ê
+ç
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (
+roi
+ij.gui.Roi"__id*
+
+%0
+ij.gui.Roi©¶
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (	
+%1int"ij.ImagePlus#getType()I*
+
+impij.ImagePlus2	getType(){
+y
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (&	
+%2int"__id*
+""*	
+3
+6
+1*ø
+8^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (©
+¶
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (#
+ij.plugin.filter.Filters"
+arg"__id*
+
+argjava.lang.String•
+¢
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (#
+ij.plugin.filter.Filters"
+imp"__id*
+
+impij.ImagePlus*
+7
+1*Ñ
+1^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java ({
+y
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java" (*	
+%6int"__id*
+""{
+y
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java+ (2	
+%7int"__id*
+""{
+y
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java3 (C	
+%8int"__id*
+""Ω
+∫
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (D	
+%9int"#ij.IJ#setupDialog(Lij/ImagePlus;I)I*	"
+ij.IJ*
+
+impij.ImagePlus*
+"""h
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filters.java (
+"":
+argjava.lang.String:
+impij.ImagePlusB
+ij.plugin.filter.Filters

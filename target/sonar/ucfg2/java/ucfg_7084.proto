@@ -1,0 +1,154 @@
+
+4ij.plugin.Duplicator#getNewTitle()Ljava/lang/String;\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaê ê("11"12*∑
+2\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaö ö(ü
+ú
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaö ö(
+titlejava.lang.String"__id*
+
+labeljava.lang.String¨
+©
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaõ õ(&
+ij.plugin.Duplicator"
+
+sliceLabel"__id*
+
+labeljava.lang.String*
+1*ˆ
+4\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaò ò(ä
+á
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaò ò(
+labeljava.lang.String"__id*
+""*
+2
+1*ü
+5\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaó ó(∞≠
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaó ó($
+
+%11int"java.lang.String#length()I*
+
+labeljava.lang.String2length()*	
+2
+4
+1*’
+
+6\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaï ï(û
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaï ï(
+%6ij.ImagePlus"__id*!*
+ij.plugin.Duplicator"
+imp¿Ω
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaï ï($
+%7ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+%6ij.ImagePlus2
+getStack()ñ
+ì
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaï ï(%
+stackij.ImageStack"__id*
+
+%7ij.ImageStackû
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javañ+ ñ(.
+%8ij.ImagePlus"__id*!*
+ij.plugin.Duplicator"
+imp∂≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javañ+ ñ(@	
+%9int"ij.ImagePlus#getCurrentSlice()I*
+
+%8ij.ImagePlus2getCurrentSlice()ÔÏ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javañ ñ(A
+%10java.lang.String"5ij.ImageStack#getShortSliceLabel(I)Ljava/lang/String;*
+
+stackij.ImageStack*
+	
+%9int2getShortSliceLabel(I)ù
+ö
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javañ ñ(B
+labeljava.lang.String"__id*
+
+%10java.lang.String*	
+2
+5
+1*“
+7\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaîX î(e≠
+™
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaîX î(e
+%4java.awt.Checkbox"__id*+*)
+ij.plugin.Duplicator"
+stackCheckbox∂≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaîX î(p
+%5boolean"java.awt.Checkbox#getState()Z*
+
+%4java.awt.Checkbox2
+getState()*
+6
+1*ô
+8\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaîB î(O≠
+™
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaîB î(O
+%3java.awt.Checkbox"__id*+*)
+ij.plugin.Duplicator"
+stackCheckbox*
+6
+7*ã
+11\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaì ì(´
+®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaì ì(
+%0java.lang.String"__id***(
+ij.plugin.Duplicator"
+defaultTitleú
+ô
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaì ì(
+titlejava.lang.String"__id*
+
+%0java.lang.Stringû
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaî î(	
+%1ij.ImagePlus"__id*!*
+ij.plugin.Duplicator"
+imp∞≠
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaî î(	
+%2int"ij.ImagePlus#getStackSize()I*
+
+%1ij.ImagePlus2getStackSize()*
+8
+1* 
+12\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaí
+ í("f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaí í(
+""*ﬁ
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaû	 û("{
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Duplicator.javaû û(
+
+titlejava.lang.StringB
+ij.plugin.Duplicator

@@ -1,0 +1,7 @@
+ij.macro.Functions#selectImage()V
+ij.IJ#selectWindow(I)V
+ij.macro.Interpreter#getLeftParen()V
+ij.macro.Interpreter#getExpression()D
+ij.macro.Interpreter#getRightParen()V
+ij.WindowManager#getImage(I)Lij/ImagePlus;
+ij.macro.Functions#getString()Ljava/lang/String;

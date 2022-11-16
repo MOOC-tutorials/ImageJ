@@ -1,0 +1,314 @@
+
+%ij.io.ImageReader#lzwUncompress([B)[BY
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaï ï("26"27*¬
+13Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaØ Ø(ú
+ô
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaØ Ø(
+%11byte[]"
+__arrayGet*
+
+symbolTablebyte[][]*
+""ª∏
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaØ Ø(
+%12void"ij.io.ByteVector#add([B)V*
+
+outij.io.ByteVector*
+
+%11byte[]2add([B)*
+25*ñ
+24Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java£
+ £(≥∞
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java£
+ £( 	
+%5int"ij.io.BitBuffer#getBits(I)I*
+
+bbij.io.BitBuffer*
+""2
+getBits(I)v
+t
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java§ §(	
+%6int"__id*
+""*
+21
+1*ë
+25Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¢	 ¢(¶£
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¢	 ¢(	
+%4int"ij.io.ByteVector#size()I*
+
+outij.io.ByteVector2size()*
+24
+1*ì
+26Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaò" ò('Ö
+Ç
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaò ò(,
+symbolTablebyte[][]"__id*
+""àÖ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaù ù(!
+%0ij.io.ByteVector"ij.io.ByteVector¢
+ü
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaù ù('
+%1"ij.io.ByteVector#<init>(I)V*
+
+%0ij.io.ByteVector*2Ä@ó
+î
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaù ù((
+outij.io.ByteVector"__id*
+
+%0ij.io.ByteVectorÜÉ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaû û(
+%2ij.io.BitBuffer"ij.io.BitBuffer≠
+™
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaû û(%
+%3"ij.io.BitBuffer#<init>([B)V*
+
+%2ij.io.BitBuffer*
+
+inputbyte[]î
+ë
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaû û(&
+bbij.io.BitBuffer"__id*
+
+%2ij.io.BitBufferÉ
+Ä
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaü ü($
+byteBuffer1byte[]"__id*
+""É
+Ä
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java† †($
+byteBuffer2byte[]"__id*
+""*
+25*ó
+16Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java™ ™(≥∞
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¨ ¨(!	
+%9int"ij.io.BitBuffer#getBits(I)I*
+
+bbij.io.BitBuffer*
+""2
+getBits(I)w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java≠ ≠(
+
+%10int"__id*
+""*
+13
+1*œ
+27Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaó
+ ó("n
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaó ó(
+
+inputbyte[]*á
+18Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java© ©(õ
+ò
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java© ©(
+%8byte[]"
+__arrayGet*
+
+symbolTablebyte[][]*
+""*
+16
+18*ª
+8Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaø( ø(3âÜ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaø ø('
+%23ij.io.ByteVector"ij.io.ByteVector∑
+¥
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaø ø(4
+%24"ij.io.ByteVector#<init>([B)V*
+
+%23ij.io.ByteVector*
+
+byteBuffer2byte[]õ
+ò
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaø ø(5
+symbolij.io.ByteVector"__id*
+
+%23ij.io.ByteVectorú
+ô
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¿ ¿($
+%25byte[]"
+__arrayGet*
+
+symbolTablebyte[][]*
+""æª
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¿ ¿(%
+%26void"ij.io.ByteVector#add([B)V*
+
+symbolij.io.ByteVector*
+
+%25byte[]2add([B)ú
+ô
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¡ ¡($
+%27byte[]"
+__arrayGet*
+
+symbolTablebyte[][]*
+""≥∞
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¡ ¡((
+%28void"ij.io.ByteVector#add(B)V*
+
+symbolij.io.ByteVector*
+""2add(B)ºπ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¬ ¬(,
+%29byte[]" ij.io.ByteVector#toByteArray()[B*
+
+symbolij.io.ByteVector2toByteArray()ä
+á
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¬ ¬(-
+	outStringbyte[]"__id*
+
+%29byte[]¡æ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java√ √(
+%30void"ij.io.ByteVector#add([B)V*
+
+outij.io.ByteVector*
+
+	outStringbyte[]2add([B)´
+®
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaƒ ƒ((
+%31"
+__arraySet*
+
+symbolTablebyte[][]*
+""*
+
+	outStringbyte[]*
+25*¡
+9Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaµ µ(ú
+ô
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaµ µ(
+%13byte[]"
+__arrayGet*
+
+symbolTablebyte[][]*
+""ª∏
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaµ µ(
+%14void"ij.io.ByteVector#add([B)V*
+
+outij.io.ByteVector*
+
+%13byte[]2add([B)âÜ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∑ ∑('
+%15ij.io.ByteVector"ij.io.ByteVector∑
+¥
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∑ ∑(4
+%16"ij.io.ByteVector#<init>([B)V*
+
+%15ij.io.ByteVector*
+
+byteBuffer1byte[]õ
+ò
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∑ ∑(5
+symbolij.io.ByteVector"__id*
+
+%15ij.io.ByteVectorú
+ô
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∏ ∏($
+%17byte[]"
+__arrayGet*
+
+symbolTablebyte[][]*
+""æª
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∏ ∏(%
+%18void"ij.io.ByteVector#add([B)V*
+
+symbolij.io.ByteVector*
+
+%17byte[]2add([B)ú
+ô
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaπ π(!
+%19byte[]"
+__arrayGet*
+
+symbolTablebyte[][]*
+""≥∞
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaπ π(%
+%20void"ij.io.ByteVector#add(B)V*
+
+symbolij.io.ByteVector*
+""2add(B)ºπ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∫ ∫(3
+%21byte[]" ij.io.ByteVector#toByteArray()[B*
+
+symbolij.io.ByteVector2toByteArray()•
+¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java∫ ∫(3
+%22"
+__arraySet*
+
+symbolTablebyte[][]*
+""*
+
+%21byte[]*
+25*Á
+21Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¶ ¶(v
+t
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.java¶ ¶(	
+%7int"__id*
+""*
+16
+18
+8
+9*à
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÕ	 Õ(π∂
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÕ	 Õ(
+%32byte[]" ij.io.ByteVector#toByteArray()[B*
+
+outij.io.ByteVector2toByteArray()"l
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÕ Õ(
+
+%32byte[]:
+inputbyte[]B
+ij.io.ImageReader

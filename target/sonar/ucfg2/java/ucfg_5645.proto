@@ -1,0 +1,231 @@
+
+pij.plugin.filter.GaussianBlur#showDialog(Lij/ImagePlus;Ljava/lang/String;Lij/plugin/filter/PlugInFilterRunner;)Ic
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaJ J("14*·
+13c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaQ Q(ÎË
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaQ Q(*	
+%4int"-java.lang.String#indexOf(Ljava/lang/String;)I*
+
+optionsjava.lang.String*	
+radius=2indexOf(Ljava/lang/String;)*
+11
+12*Ò
+14c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaK K(∑
+¥
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaL L(+
+%0java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macro•
+¢
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaL L(,
+optionsjava.lang.String"__id*
+
+%0java.lang.StringËÂ
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaN N(&
+%1ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()—Œ
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaN N(5	
+%2int")ij.process.ImageProcessor#getNChannels()I*!
+
+%1ij.process.ImageProcessor2getNChannels()⁄◊
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaO O(
+
+%3void",ij.plugin.filter.GaussianBlur#setNPasses(I)V*!
+ij.plugin.filter.GaussianBlur*22setNPasses(I)*
+13
+11*€
+6c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaa% a()Å
+
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaa% a()
+
+%23int"__id*
+"""m
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaa a(*
+""*¸
+7c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java^ ^(
+Õ 
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java^ ^("
+%19void"Oij.gui.GenericDialog#addPreviewCheckbox(Lij/plugin/filter/PlugInFilterRunner;)V*
+
+gdij.gui.GenericDialog*,
+*
+pfr#ij.plugin.filter.PlugInFilterRunner29addPreviewCheckbox(Lij/plugin/filter/PlugInFilterRunner;)§°
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java_ _("
+%20void"@ij.gui.GenericDialog#addDialogListener(Lij/gui/DialogListener;)V*
+
+gdij.gui.GenericDialog*!
+ij.plugin.filter.GaussianBlur2*addDialogListener(Lij/gui/DialogListener;)≈¬
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java` `(
+%21void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog() «
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaa a(
+%22boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+6
+1*Ω	
+9c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaZ Z(Á‰
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java[, [(@
+%14ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()„‡
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java[, [(K
+%15java.lang.String"3ij.measure.Calibration#getUnits()Ljava/lang/String;*
+
+%14ij.measure.Calibration2
+getUnits()∫
+∑
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java[ [(K
+%16java.lang.String"__concat*
+Scaled Units (*
+
+%15java.lang.String≠
+™
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java[ [(O
+%17java.lang.String"__concat*
+
+%16java.lang.String*
+)êç
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java[ [(]
+%18void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+
+%17java.lang.String*
+""2 addCheckbox(Ljava/lang/String;Z)*
+7*≠
+10c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaY+ Y(.Á‰
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaY+ Y(?
+%11ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()„‡
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaY+ Y(J
+%12java.lang.String"3ij.measure.Calibration#getUnits()Ljava/lang/String;*
+
+%11ij.measure.Calibration2
+getUnits()ÈÊ
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaY+ Y([
+%13boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%12java.lang.String*
+
+pixels2equals(Ljava/lang/Object;)*
+7
+9*ˆ	
+11c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaV V(£
+†
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaV V(;
+%7ij.gui.GenericDialog"Wij.gui.GUI#newNonBlockingDialog(Ljava/lang/String;Lij/ImagePlus;)Lij/gui/GenericDialog;*"
+
+ij.gui.GUI*
+
+commandjava.lang.String*
+
+impij.ImagePlus®
+•
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaV V(<
+gdij.gui.GenericDialog"__id*
+
+%7ij.gui.GenericDialog™
+ß
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaW W(
+%8double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""ôñ
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaX X(7
+
+%9void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+Sigma (Radius):*
+""*22%addNumericField(Ljava/lang/String;DI)Á‰
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaY Y( 
+%10ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()*
+7
+10*˙
+12c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaR R(øº
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaS! S(H
+%5java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*
+
+optionsjava.lang.String*	
+radius=*
+
+sigma=20replaceAll(Ljava/lang/String;Ljava/lang/String;)∆
+√
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaS S(I
+
+%6void"(ij.Macro#setOptions(Ljava/lang/String;)V*"
+
+ij.Macro*
+
+%5java.lang.String*
+11*æ
+1c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javag g(
+›⁄
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javag g(#
+%24java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*!
+ij.plugin.filter.GaussianBlur2
+getClass()æ
+ª
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javag g($
+%25void""ij.IJ#register(Ljava/lang/Class;)V*	"
+ij.IJ*
+
+%24java.lang.Class√
+¿
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javah h()
+
+%26int"#ij.IJ#setupDialog(Lij/ImagePlus;I)I*	"
+ij.IJ*
+
+impij.ImagePlus*
+"""m
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javah h(*
+"":
+impij.ImagePlus:
+commandjava.lang.String:*
+pfr#ij.plugin.filter.PlugInFilterRunnerB!
+ij.plugin.filter.GaussianBlur

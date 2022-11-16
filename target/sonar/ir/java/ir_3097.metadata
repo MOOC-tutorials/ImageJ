@@ -1,0 +1,6 @@
+ij.macro.Functions#selectImage(Ljava/lang/String;)V
+ij.WindowManager#setTempCurrentImage(Lij/ImagePlus;)V
+ij.macro.Interpreter#isBatchMode()Z
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.macro.Interpreter#activateImage(Lij/ImagePlus;)V

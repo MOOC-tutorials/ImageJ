@@ -1,0 +1,1165 @@
+
+cij.plugin.filter.PlugInFilterRunner#<init>(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)Vi
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java, ,("103*Ñ
+68i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaR R(à
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaR R(
+
+%40int"__id*
+""*
+64
+67*–
+69i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaN N(ÿ
+’
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaN N(
+%39void"2ij.plugin.filter.PlugInFilterRunner#killPreview()V*'%
+#ij.plugin.filter.PlugInFilterRunner*
+68*≤
+28k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaàC à(J°û
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaà* à(B
+%88java.util.Hashtable"java.util.HashtableΩ
+∫
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaà& à(M
+%89"java.util.Hashtable#<init>(I)V*
+
+%88java.util.Hashtable*
+""–
+Õ
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaà à(M:%
+#ij.plugin.filter.PlugInFilterRunner"
+slicesForThread"__id*
+
+%88java.util.Hashtable*
+20
+22*›
+70i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaJ J(ﬂ
+‹
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaK K(
+%36void"9ij.plugin.filter.PlugInFilterRunner#waitForPreviewDone()V*'%
+#ij.plugin.filter.PlugInFilterRunnerª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaL L(
+%37ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp≈¬
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaL L(.
+
+%38int"ij.ImagePlus#getCurrentSlice()I*
+
+%37ij.ImagePlus2getCurrentSlice()*
+68*»
+72i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaI I(Ã
+…
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaI I(
+%35java.awt.Checkbox"__id*<*:%
+#ij.plugin.filter.PlugInFilterRunner"
+previewCheckbox*
+69
+70*≈
+74i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaH' H(4…
+∆
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaH' H(4
+%34java.lang.Thread"__id*:*8%
+#ij.plugin.filter.PlugInFilterRunner"
+previewThread*
+69
+72*§
+31k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaÜ Ü(¢
+ü
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaÜ Ü(!
+
+%87int"ij.Prefs#getThreads()I*"
+
+ij.Prefs*
+28
+20
+22*∑
+75i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaH H(ª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaH H(
+%33ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp*
+69
+74*å
+32k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaÑ Ñ(ä
+á
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaÖ Ö(.
+
+%86int"__id*
+""*
+31
+20
+22*Ñ
+76i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaG G(#à
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaG$ G(E
+
+%32int"__id*
+""*
+69
+75*Â
+33k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaÉ É(%ÎË
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaÉ É(:
+%85void"4ij.plugin.filter.ExtendedPlugInFilter#setNPasses(I)V*
+
+	theFilterjava.lang.Object*
+""2setNPasses(I)*
+32*è
+77i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaF F(à
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaF F(
+
+%29int"__id*
+""ª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaF F(
+%30ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+impŒ
+À
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaF F( 
+%31void"ij.Undo#setup(ILij/ImagePlus;)V*"	
+ij.Undo*
+
+
+%29int*
+
+%30ij.ImagePlus*
+76*∆
+78i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaE E( 
+«
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaE E(
+%28java.lang.Object"__id*;*9%
+#ij.plugin.filter.PlugInFilterRunner"
+snapshotPixels*
+76
+77*é
+35k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaÄ8 Ä(>ê
+ç
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaÄ8 Ä(>
+
+%82int"__id*
+
+
+%84int*
+32
+33*é
+36k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaÄ- Ä(3ê
+ç
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaÄ- Ä(5
+
+%82int"__id*
+
+
+%83int*
+32
+33*ò
+37i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java (ú
+ô
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java (
+%81void"ij.IJ#resetEscape()V*	"
+ij.IJ*
+35
+36*í
+38i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java~ ~(	ö
+ó
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java~ ~(
+%80void"ij.Undo#reset()V*"	
+ij.Undo*
+37*Ñ
+39i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java}	 }(à
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java} }()
+
+%79int"__id*
+""*
+37
+38*Â
+100i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java2, 2(3"s
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java2, 2(3
+""*ˆ
+101i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java2 2(∫
+∑
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java2 2(
+%4ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+impª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java2 2(*
+%5boolean"Vij.plugin.filter.PlugInFilterRunner#checkImagePlus(Lij/ImagePlus;ILjava/lang/String;)Z*'%
+#ij.plugin.filter.PlugInFilterRunner*
+
+%4ij.ImagePlus*
+""*
+
+commandjava.lang.String*	
+99
+100*Â
+102i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java1$ 1(+"s
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java1$ 1(+
+""*§
+103i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java- -(À
+»
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java- -(4%
+#ij.plugin.filter.PlugInFilterRunner"
+	theFilter"__id*
+
+	theFilterjava.lang.Object«
+ƒ
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java. .(2%
+#ij.plugin.filter.PlugInFilterRunner"	
+command"__id*
+
+commandjava.lang.String 
+«
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java/ /('
+%0ij.ImagePlus"0ij.WindowManager#getCurrentImage()Lij/ImagePlus;*"
+ij.WindowManager∫
+∑
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java/ /('.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp"__id*
+
+%0ij.ImagePlus∫
+∑
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java0/ 0(2
+%1ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+impºπ
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java0
+ 0(3	
+%2int"Fij.plugin.filter.PlugInFilter#setup(Ljava/lang/String;Lij/ImagePlus;)I*
+
+	theFilterjava.lang.Object*
+
+argjava.lang.String*
+
+%1ij.ImagePlus2'setup(Ljava/lang/String;Lij/ImagePlus;)á
+Ñ
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java1 1(	
+%3int"__id*
+""*
+
+101
+102*·
+40i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java{ {(ÈÊ
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java{ {(
+%78void"1ij.process.ImageProcessor#resetBinaryThreshold()V*!
+
+ipij.process.ImageProcessor2resetBinaryThreshold()*
+14*Ñ
+41i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaz- z(2à
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaz3 z(N
+
+%77int"__id*
+""*
+14
+40*˝
+86i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java?# ?(,ª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java?9 ?(<
+%19ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp«ƒ
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java? ?(L
+
+%20int"xij.plugin.filter.ExtendedPlugInFilter#showDialog(Lij/ImagePlus;Ljava/lang/String;Lij/plugin/filter/PlugInFilterRunner;)I*
+
+	theFilterjava.lang.Object*
+
+%19ij.ImagePlus*
+
+commandjava.lang.String*'%
+#ij.plugin.filter.PlugInFilterRunner2QshowDialog(Lij/ImagePlus;Ljava/lang/String;Lij/plugin/filter/PlugInFilterRunner;)*
+78*Ñ
+42i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaz	 z(à
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaz z(&
+
+%76int"__id*
+""*
+14
+41*í
+43i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javax x(
+ö
+ó
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javax x(
+%75void"ij.Undo#reset()V*"	
+ij.Undo*
+42*Å	
+44i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javau u( 
+«
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javau u()
+%70java.lang.Object"__id*;*9%
+#ij.plugin.filter.PlugInFilterRunner"
+snapshotPixels¢ü
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javau u(*
+%71void"@ij.process.ImageProcessor#setSnapshotPixels(Ljava/lang/Object;)V*!
+
+ipij.process.ImageProcessor*
+
+%70java.lang.Object2%setSnapshotPixels(Ljava/lang/Object;)à
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javav v(
+
+%72int"__id*
+""ª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javav v(!
+%73ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+impŒ
+À
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javav v("
+%74void"ij.Undo#setup(ILij/ImagePlus;)V*"	
+ij.Undo*
+
+
+%72int*
+
+%73ij.ImagePlus*
+42*∆
+45i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javat	 t( 
+«
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javat	 t(
+%69java.lang.Object"__id*;*9%
+#ij.plugin.filter.PlugInFilterRunner"
+snapshotPixels*
+43
+44*Ÿ
+46i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javar r( 
+«
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javar r(*
+%66java.lang.Object"__id*;*9%
+#ij.plugin.filter.PlugInFilterRunner"
+snapshotPixelsÖ
+Ç
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javar r(+
+%67void"~ij.plugin.filter.PlugInFilterRunner#processOneImage(Lij/process/ImageProcessor;Lij/process/FloatProcessor;Ljava/lang/Object;)V*'%
+#ij.plugin.filter.PlugInFilterRunner*!
+
+ipij.process.ImageProcessor*!
+
+fpij.process.FloatProcessor*
+
+%66java.lang.Objectà
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javas s(&
+
+%68int"__id*
+""*
+42
+45*ô
+47i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javan n(—Œ
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javan n(
+%64void"%ij.process.ImageProcessor#snapshot()V*!
+
+ipij.process.ImageProcessor2
+snapshot()Ä˝
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javao o(-
+%65java.lang.Object"?ij.process.ImageProcessor#getSnapshotPixels()Ljava/lang/Object;*!
+
+ipij.process.ImageProcessor2getSnapshotPixels() 
+«
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javao o(-9%
+#ij.plugin.filter.PlugInFilterRunner"
+snapshotPixels"__id*
+
+%65java.lang.Object*
+46*‚
+48i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javam: m(GÊ
+„
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javam: m(X
+%63java.awt.Window"?ij.WindowManager#getWindow(Ljava/lang/String;)Ljava/awt/Window;*"
+ij.WindowManager*
+B&C*
+46
+47*ä
+90i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java;\ ;(]é
+ã
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java;\ ;(]
+
+%14int"__id*
+
+
+%16int*
+68
+86*ñ
+91i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java;: ;(=ª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java;: ;(=
+%17ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+impÔÏ
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java;: ;(L 
+%18ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+%17ij.ImagePlus2getProcessor()Ÿ÷
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java;: ;([
+
+%15int")ij.process.ImageProcessor#getNChannels()I*"
+ 
+%18ij.process.ImageProcessor2getNChannels()é
+ã
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java;: ;([
+
+%14int"__id*
+
+
+%15int*
+68
+86*Ñ
+92i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java; ;(à
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java; ;(2
+
+%13int"__id*
+""*
+90
+91*‰
+93i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java: :("s
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java: :(
+""*Ì
+94i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java9 9(ª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java9 9(
+%11ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp≥∞
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java9 9(
+%12boolean"ij.ImagePlus#lock()Z*
+
+%11ij.ImagePlus2lock()*
+92
+93*¨
+95i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java8 8(¥±
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java8 8( 
+%10void"ij.gui.Roi#endPaste()V*
+
+roi
+ij.gui.Roi2
+endPaste()*
+94*à
+51i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javal1 l(6à
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javal7 l(K
+
+%62int"__id*
+""*
+46
+47
+48*ö
+96i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java7	 7(∫
+∑
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java7	 7(
+%8ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp√¿
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java7	 7(
+%9
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+%8ij.ImagePlus2getRoi()õ
+ò
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java7 7(
+roi
+ij.gui.Roi"__id*
+
+%9
+ij.gui.Roi*
+94
+95*Ã
+97i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java5 5(è
+å
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java5 5(
+roi
+ij.gui.Roi"__id*
+""∫
+∑
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java6 6(	
+%7ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp*
+68
+96
+86*å
+53i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javak	 k(à
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javak k(&
+
+%61int"__id*
+""*
+46
+47
+48
+51*§
+98i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java4	 4(¨
+©
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java4 4(.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp"__id*
+""*
+97*æ
+10k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java§ §(≈
+¬
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java§ §()
+%114java.lang.String"__concat*
+
+commandjava.lang.String*
+ INTERRUPTEDÃ
+…
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java§ §(*
+%115void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%114java.lang.StringÆ
+´
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java• •(
+%116void"ij.IJ#showProgress(II)V*	"
+ij.IJ*2*2*
+5*·
+54i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaj j(%ÈÊ
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaj j(:
+%60void"4ij.plugin.filter.ExtendedPlugInFilter#setNPasses(I)V*
+
+	theFilterjava.lang.Object*
+""2setNPasses(I)*
+53*É
+99i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java3 3(á
+Ñ
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java3 3(+	
+%6int"__id*
+""*
+97
+98*°
+11k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java£ £(§
+°
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java£ £(
+%113boolean"ij.IJ#escapePressed()Z*	"
+ij.IJ*
+9
+10*í
+55i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaf f(ù
+ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaf f(
+fpij.process.FloatProcessor"__id*
+""ª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javag g(
+%55ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp¿
+Ω
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javag g(
+%56void"`ij.plugin.filter.PlugInFilterRunner#prepareProcessor(Lij/process/ImageProcessor;Lij/ImagePlus;)V*'%
+#ij.plugin.filter.PlugInFilterRunner*!
+
+ipij.process.ImageProcessor*
+
+%55ij.ImagePlusª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javah h(
+%57ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp≈¬
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javah h(-
+
+%58int"ij.ImagePlus#getCurrentSlice()I*
+
+%57ij.ImagePlus2getCurrentSlice()Ô
+Ï
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javah h(.
+%59void";ij.plugin.filter.PlugInFilterRunner#announceSliceNumber(I)V*'%
+#ij.plugin.filter.PlugInFilterRunner*
+
+
+%58int*
+53
+54*Ì
+12k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java¢ ¢(æ
+ª
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java¢, ¢(/
+%111ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp≤Ø
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java¢ ¢(0
+%112int"Fij.plugin.filter.PlugInFilter#setup(Ljava/lang/String;Lij/ImagePlus;)I*
+
+	theFilterjava.lang.Object*	
+final*
+
+%111ij.ImagePlus2'setup(Ljava/lang/String;Lij/ImagePlus;)*
+11*Â
+56i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javac c(ª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javac c(
+%53ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+impÔÏ
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javac c() 
+%54ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+%53ij.ImagePlus2getProcessor()π
+∂
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javac c(*
+ipij.process.ImageProcessor"__id*"
+ 
+%54ij.process.ImageProcessor*
+39
+55*¢
+13k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java°3 °(5§
+°
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java°3 °(E
+%110boolean"ij.IJ#escapePressed()Z*	"
+ij.IJ*
+11
+12*â
+14k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java° °(ã
+à
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java° °(*
+%109int"__id*
+""*
+13
+11*¯
+58i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java_ _(;ª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java` `(
+%51ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+impæª
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java` `(
+%52void"ij.ImagePlus#startTiming()V*
+
+%51ij.ImagePlus2startTiming()*
+14
+56*ö
+15k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaú ú(—
+Œ
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaú ú(
+%107java.util.Hashtable"__id*<*:%
+#ij.plugin.filter.PlugInFilterRunner"
+slicesForThreadÃ
+…
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaú ú('
+%108int[]"__mapRemove*
+
+%107java.util.Hashtable*
+
+	theThreadjava.lang.Thread*
+19*Ä
+59i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java_ _(à
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java_ _(7
+
+%50int"__id*
+""*
+58*ª
+17k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaö ö(¡æ
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaö ö(
+%106void"java.lang.Thread#join()V*
+
+	theThreadjava.lang.Thread2join()*
+15*ﬂ
+18k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaò! ò(0—
+Œ
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaò! ò(0
+%103java.util.Hashtable"__id*<*:%
+#ij.plugin.filter.PlugInFilterRunner"
+slicesForThreadÈÊ
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaò! ò(7
+%104java.util.Enumeration"1java.util.Hashtable#keys()Ljava/util/Enumeration;*
+
+%103java.util.Hashtable2keys()ÒÓ
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaò! ò(E
+%105java.lang.Thread"5java.util.Enumeration#nextElement()Ljava/lang/Object;*
+
+%104java.util.Enumeration2nextElement()±
+Æ
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaò ò(F
+	theThreadjava.lang.Thread"__id*
+
+%105java.lang.Thread*
+17*ì
+19k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaó ó(—
+Œ
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaó ó(
+%101java.util.Hashtable"__id*<*:%
+#ij.plugin.filter.PlugInFilterRunner"
+slicesForThread¡æ
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaó ó("
+%102int"java.util.Hashtable#size()I*
+
+%101java.util.Hashtable2size()*
+14
+18*ä
+0 "Ç
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java≥ ≥(
+implicit return*Ò
+1k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java≤ ≤(æ
+ª
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java≤ ≤(
+%131ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp∏µ
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java≤ ≤(
+%132void"ij.ImagePlus#unlock()V*
+
+%131ij.ImagePlus2unlock()*
+0* 
+3k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java≠ ≠(æ
+ª
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java≠ ≠(
+%129ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+impﬂ‹
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java≠ ≠(#
+%130ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+%129ij.ImagePlus2getWindow()Ø
+¨
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java≠ ≠($
+winij.gui.ImageWindow"__id*
+
+%130ij.gui.ImageWindow*
+1*¿
+4k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java™ ™(æ
+ª
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java™ ™(
+%126ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+impæ
+ª
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java´ ´(
+%127ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp∆√
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java´ ´(
+%128void"ij.ImagePlus#updateAndDraw()V*
+
+%127ij.ImagePlus2updateAndDraw()*
+3*§
+5k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java® ®(©
+¶
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java® ®(
+%125void"ij.IJ#showProgress(D)V*	"
+ij.IJ*
+""*
+3
+4*Å
+6k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaß ß(Uâ
+Ü
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaß ß(U
+%124void"3ij.IJ#showTime(Lij/ImagePlus;JLjava/lang/String;I)V*	"
+ij.IJ*
+
+%117ij.ImagePlus*
+""*
+
+%120java.lang.String*
+
+%121int*
+5*ä
+7k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaßS ß(Tí
+è
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaßS ß(T
+%121int"__id*
+
+%123int*
+6*ä
+8k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaßL ß(Rí
+è
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaßL ß(R
+%121int"__id*
+
+%122int*
+6*ˇ
+9k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaß ß(æ
+ª
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaß ß(
+%117ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+impæ
+ª
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaß ß(
+%118ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+impƒ¡
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaß ß(&
+%119long"ij.ImagePlus#getStartTime()J*
+
+%118ij.ImagePlus2getStartTime()ª
+∏
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaß4 ß(B
+%120java.lang.String"__concat*
+
+commandjava.lang.String*
+: *
+7
+8*Ñ
+61i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java^ ^(à
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java^ ^(,
+
+%49int"__id*
+""*
+58
+59*à
+62i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java[ [(ª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java[ [(
+%46ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+impøº
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java[ [(!
+
+%47int"ij.ImagePlus#getStackSize()I*
+
+%46ij.ImagePlus2getStackSize()à
+Ö
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.java] ](,
+
+%48int"__id*
+""*
+58
+59
+61*Ó
+63i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaW W(áÑ
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaW W(&
+%45void"?ij.plugin.filter.PlugInFilter#run(Lij/process/ImageProcessor;)V*
+
+	theFilterjava.lang.Object*
+""2 run(Lij/process/ImageProcessor;)"s
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaX X(
+
+""*ø
+20k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaï ï(Ì
+Í
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaï ï($
+%99void"5ij.plugin.filter.PlugInFilterRunner#processStack(II)V*'%
+#ij.plugin.filter.PlugInFilterRunner*
+""*
+""—
+Œ
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javañ ñ(
+%100java.util.Hashtable"__id*<*:%
+#ij.plugin.filter.PlugInFilterRunner"
+slicesForThread*
+14
+19*∑
+64i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaV V(ª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaV V(
+%44ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp*
+62
+63*‰
+65i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaU U(
+"s
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaU U(
+
+""*¥
+22k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaé" é(&π
+∂
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaé( é(3
+%90java.lang.String"__concat*
+
+commandjava.lang.String*
+ ∂
+≥
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaé( é(>
+%91java.lang.String"__concat*
+
+%90java.lang.String*
+""µ
+≤
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaé( é(B
+%92java.lang.String"__concat*
+
+%91java.lang.String*
+-∂
+≥
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaé( é(K
+%93java.lang.String"__concat*
+
+%92java.lang.String*
+""õò
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaé é(!
+%94java.lang.Thread"java.lang.Threadò
+ï
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaé é(L
+%95"@java.lang.Thread#<init>(Ljava/lang/Runnable;Ljava/lang/String;)V*
+
+%94java.lang.Thread*'%
+#ij.plugin.filter.PlugInFilterRunner*
+
+%93java.lang.StringØ
+¨
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaé é(M
+bgThreadjava.lang.Thread"__id*
+
+%94java.lang.Thread–
+Õ
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaè è(
+%96java.util.Hashtable"__id*<*:%
+#ij.plugin.filter.PlugInFilterRunner"
+slicesForThreadŒ
+À
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaè è(D
+%97int[]"__mapSet*
+
+%96java.util.Hashtable*
+
+bgThreadjava.lang.Thread*
+""¡æ
+k
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaê ê(
+%98void"java.lang.Thread#start()V*
+
+bgThreadjava.lang.Thread2start()*
+20
+22*Í
+66i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaT T(ª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaT T(
+%42ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp¥±
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaT T(
+%43void"ij.ImagePlus#unlock()V*
+
+%42ij.ImagePlus2unlock()*
+65*∑
+67i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaS S(
+ª
+∏
+i
+_/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/PlugInFilterRunner.javaS S(
+
+%41ij.ImagePlus"__id*0*.%
+#ij.plugin.filter.PlugInFilterRunner"
+imp*
+65
+66:
+	theFilterjava.lang.Object:
+commandjava.lang.String:
+argjava.lang.StringB'%
+#ij.plugin.filter.PlugInFilterRunner

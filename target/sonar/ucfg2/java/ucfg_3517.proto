@@ -1,0 +1,131 @@
+
+2ij.VirtualStack#getSliceLabel(I)Ljava/lang/String;W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaı ı("7*æ
+2W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java… …(ª§
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java… …(+	
+%6int"java.lang.String#length()I*
+
+labeljava.lang.String2length()åâ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java… …(,
+%7java.lang.String"0java.lang.String#substring(II)Ljava/lang/String;*
+
+labeljava.lang.String*2*
+	
+%6int2substring(II)"s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java… …(-
+
+%7java.lang.String*Î
+3W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java„ „(çä
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java„ „("
+%5boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+labeljava.lang.String*	
+Label: 2startsWith(Ljava/lang/String;)*
+2
+1*—
+4W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java‚
+ ‚(œ
+™
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java‚
+ ‚(
+%3java.lang.String[]"__id**
+ij.VirtualStack"
+names¤
+¡
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java‚
+ ‚(
+%4java.lang.String"
+__arrayGet*
+
+%3java.lang.String[]*
+"""s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java‚ ‚(
+
+%4java.lang.String*Å
+5W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java€ €(
+š
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java€ €(
+%1java.lang.String[]"__id**
+ij.VirtualStack"
+labels¤
+¡
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java€ €(
+%2java.lang.String"
+__arrayGet*
+
+%1java.lang.String[]*
+""—
+”
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java€ €(
+labeljava.lang.String"__id*
+
+%2java.lang.String*
+3
+4*¿
+6W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaÿ
+ ÿ("a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaÿ ÿ(
+""*„
+7W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaş ş(
+š
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaş ş(
+%0java.lang.String[]"__id**
+ij.VirtualStack"
+labels*
+5
+6*ö
+1W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java‡ ‡(œ
+™
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java‡ ‡(
+%8java.lang.String[]"__id**
+ij.VirtualStack"
+names¤
+¡
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java‡ ‡(
+%9java.lang.String"
+__arrayGet*
+
+%8java.lang.String[]*
+""¡
+
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java‡ ‡(
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+\n·
+´
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java‡ ‡( 
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+
+labeljava.lang.String"t
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java‡ ‡(!
+
+%11java.lang.String:
+""B
+ij.VirtualStack

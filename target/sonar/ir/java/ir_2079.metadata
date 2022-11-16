@@ -1,0 +1,15 @@
+ij.macro.Interpreter#getFactor()D
+ij.macro.Interpreter#getArrayElement(Lij/macro/Variable;)Lij/macro/Variable;
+ij.macro.Functions#getFunctionValue(I)D
+ij.macro.Interpreter#nextToken()I
+ij.macro.Interpreter#getNumericStringFunction(Ljava/lang/String;)D
+ij.util.Tools#parseDouble(Ljava/lang/String;)D
+ij.macro.Interpreter#getFactor()D
+ij.macro.Interpreter#lookupVariable()Lij/macro/Variable;
+ij.macro.Interpreter#getToken()V
+ij.macro.Interpreter#getRightParen()V
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.util.Tools#parseDouble(Ljava/lang/String;D)D
+ij.macro.Interpreter#runNumericFunction(Lij/macro/Variable;)D
+ij.macro.Interpreter#getLogicalExpression()D
+java.lang.Double#isNaN(D)Z

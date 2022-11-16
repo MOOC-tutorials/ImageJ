@@ -1,0 +1,352 @@
+
+Bij.plugin.filter.ImageProperties#getUnitIndex(Ljava/lang/String;)Ih
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaˇ ˇ("29*Î
+24h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÑ
+ Ñ(Ü
+É
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÑ
+ Ñ(	
+%7int"__id*
+"""r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÑ Ñ(
+""*
+25h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÉ É("ıÚ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÉ É(6
+%6boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+unitjava.lang.String*	
+milli2startsWith(Ljava/lang/String;)*
+24
+23*Â
+26h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÉ É(ÍÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÉ É(
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+unitjava.lang.String*
+mm2equals(Ljava/lang/Object;)*
+24
+25*Î
+27h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÇ
+ Ç(Ü
+É
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÇ
+ Ç(	
+%4int"__id*
+"""r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÇ Ç(
+""*Ô
+28h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÅ Å(ÙÒ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÅ Å(0
+%3boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+unitjava.lang.String*
+cent2startsWith(Ljava/lang/String;)*
+26
+27*»
+29h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÄ	 Ä(ì
+ê
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÄ Ä(#
+%0java.util.Locale"__id*
+""†ù
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÄ	 Ä($
+%1java.lang.String"Bjava.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;*
+
+unitjava.lang.String*
+
+%0java.util.Locale2toLowerCase(Ljava/util/Locale;)ß
+§
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÄ Ä($
+unitjava.lang.String"__id*
+
+%1java.lang.StringÍÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÅ Å(
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+unitjava.lang.String*
+cm2equals(Ljava/lang/Object;)*
+27
+28*Ó
+10h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaç ç("ıÚ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaç ç(5
+%23boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+unitjava.lang.String*
+kilo2startsWith(Ljava/lang/String;)*
+8
+9*Â
+11h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaç ç(ÎË
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaç ç(
+%22boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+unitjava.lang.String*
+km2equals(Ljava/lang/Object;)*
+9
+10*Ï
+12h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaå
+ å(á
+Ñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaå
+ å(
+
+%21int"__id*
+"""r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaå å(
+""*Ò
+13h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaã ã(#ˆÛ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaã ã(7
+%20boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+unitjava.lang.String*	
+meter2startsWith(Ljava/lang/String;)*
+11
+12*Â
+14h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaã ã(ÍÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaã ã(
+%19boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+unitjava.lang.String*
+m2equals(Ljava/lang/Object;)*
+13
+12*Ï
+15h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaä
+ ä(á
+Ñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaä
+ ä(
+
+%18int"__id*
+"""r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaä ä(
+""*
+16h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaâ â("ıÚ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaâ â(5
+%17boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+unitjava.lang.String*
+nano2startsWith(Ljava/lang/String;)*
+14
+15*Ê
+17h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaâ â(ÎË
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaâ â(
+%16boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+unitjava.lang.String*
+nm2equals(Ljava/lang/Object;)*
+15
+16*Ï
+18h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaà
+ à(á
+Ñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaà
+ à(
+
+%15int"__id*
+"""r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaà à(
+""*Ò
+19h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaáF á(JˆÛ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaáF á(^
+%14boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+unitjava.lang.String*	
+micro2startsWith(Ljava/lang/String;)*
+17
+18*Î
+1h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaî
+ î(á
+Ñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaî
+ î(
+
+%32int"__id*
+"""r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaî î(
+""*Î
+2h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaí
+ í(á
+Ñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaí
+ í(
+
+%31int"__id*
+"""r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaí í(
+""*Ì
+3h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaë ë("ıÚ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaë ë(5
+%30boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+unitjava.lang.String*
+mile2startsWith(Ljava/lang/String;)*
+2
+1*„
+4h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaë ë(ÎË
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaë ë(
+%29boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+unitjava.lang.String*
+mi2equals(Ljava/lang/Object;)*
+2
+3*Î
+5h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaê
+ ê(á
+Ñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaê
+ ê(
+
+%28int"__id*
+"""r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaê ê(
+""*Â
+6h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaè3 è(7ÌÍ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaè3 è(F
+%27boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+unitjava.lang.String*
+feet2equals(Ljava/lang/Object;)*
+4
+5*Â
+7h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaè è("ÌÍ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaè è(1
+%26boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+unitjava.lang.String*
+foot2equals(Ljava/lang/Object;)*
+5
+6*„
+8h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaè è(ÎË
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaè è(
+%25boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+unitjava.lang.String*
+ft2equals(Ljava/lang/Object;)*
+5
+7*Î
+9h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaé
+ é(á
+Ñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaé
+ é(
+
+%24int"__id*
+"""r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaé é(
+""*Ì
+20h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaá0 á(4ÚÔ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaá0 á(D
+%13boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+unitjava.lang.String*
+u2startsWith(Ljava/lang/String;)*
+18
+19*≤
+21h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaá á(à
+Ö
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaá á(-
+%10char"__id*
+""£
+†
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaá á(-
+%11java.lang.String"__concat* *
+
+%10charÜÉ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaá á(.
+%12boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+unitjava.lang.String*
+
+%11java.lang.String2startsWith(Ljava/lang/String;)*
+18
+20*Î
+22h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÜ
+ Ü(Ü
+É
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÜ
+ Ü(	
+%9int"__id*
+"""r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÜ Ü(
+""*Ô
+23h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÖ Ö(ÙÒ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageProperties.javaÖ Ö("
+%8boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+unitjava.lang.String*
+inch2startsWith(Ljava/lang/String;)*
+21
+22:
+unitjava.lang.StringB$""
+ ij.plugin.filter.ImageProperties

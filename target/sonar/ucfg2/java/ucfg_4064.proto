@@ -1,0 +1,821 @@
+
+2ij.gui.PointRoi#drawPoint(Ljava/awt/Graphics;III)VW
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÓ Ó("78*Å
+69W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˛ ˛(Ä
+~
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˛ ˛(
+%10java.awt.Color"__id*
+""î
+ë
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˛ ˛(
+colorjava.awt.Color"__id*
+
+%10java.awt.Color*
+64
+65*Ê
+25W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java® ®(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java© ©(
+
+%51int"__id*
+""*
+17
+18
+20
+21*⁄
+27W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaß ß(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaß ß(
+
+%50int"__id*
+""*
+25*⁄
+29W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¶ ¶(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¶ ¶(
+
+%49int"__id*
+""*
+27*˛
+70W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¸ ¸(
+}
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¸ ¸(
+%9java.awt.Color"__id*
+""ì
+ê
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¸ ¸(
+colorjava.awt.Color"__id*
+
+%9java.awt.Color*
+64
+65*Ë
+71W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˚ ˚(
+}
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˚ ˚(
+%8java.awt.Color"__id*
+""*
+69
+70*¶
+72W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˙ ˙($∏µ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˙ ˙(&
+%7boolean" ij.gui.Roi#isActiveOverlayRoi()Z*
+ij.gui.PointRoi2isActiveOverlayRoi()*
+71
+64
+65*Å
+73W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˘ ˘(7ì
+ê
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˘ ˘(7
+colorjava.awt.Color"__id*
+
+%4java.awt.Color*
+72
+64
+65*è
+74W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˘. ˘(6ñ
+ì
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˘. ˘(6
+%6java.awt.Color"__id**
+
+ij.gui.Roi"
+
+ROIColorê
+ç
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˘. ˘(6
+%4java.awt.Color"__id*
+
+%6java.awt.Color*
+73*ó
+75W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˘" ˘(-û
+õ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˘" ˘(-
+%5java.awt.Color"__id*$*"
+ij.gui.PointRoi"
+strokeColorê
+ç
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˘" ˘(-
+%4java.awt.Color"__id*
+
+%5java.awt.Color*
+73*⁄
+31W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java• •(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java• •(
+
+%48int"__id*
+""*
+29*à
+76W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˘ ˘(û
+õ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java˘ ˘(
+%3java.awt.Color"__id*$*"
+ij.gui.PointRoi"
+strokeColor*
+74
+75*†
+77W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÙ Ù(ÚÔ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÙ Ù(!#
+%0java.awt.geom.AffineTransform"Ajava.awt.Graphics2D#getTransform()Ljava/awt/geom/AffineTransform;*
+
+g2djava.awt.Graphics2D2getTransform()µ
+≤
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÙ Ù(!*
+	saveXformjava.awt.geom.AffineTransform"__id*%
+#
+%0java.awt.geom.AffineTransform…∆
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaı ı(
+
+%1void""java.awt.Graphics2D#translate(II)V*
+
+g2djava.awt.Graphics2D*
+""*
+""2translate(II)¡æ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaˆ ˆ((
+
+%2void"java.awt.Graphics2D#scale(DD)V*
+
+g2djava.awt.Graphics2D*
+""*
+""2	scale(DD)*
+76*⁄
+33W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java£ £(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java§ §(
+
+%47int"__id*
+""*
+31*õ
+78W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÔ Ô(ò
+ï
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÒ Ò(!
+g2djava.awt.Graphics2D"__id*
+
+gjava.awt.Graphicsñ
+ì
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÚ Ú(#*
+	saveXformjava.awt.geom.AffineTransform"__id*
+""*
+76
+77*¿
+36W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java† †(÷”
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java† †(,
+%46void"!java.awt.Graphics#fillRect(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2fillRect(IIII)*
+17
+33*¿
+37W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaû û(÷”
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaû û(8
+%45void"!java.awt.Graphics#fillRect(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2fillRect(IIII)*
+17
+33*ﬁ
+38W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaù ù(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaù  ù(&
+
+%44int"__id*
+""*
+36
+37*ﬁ
+39W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaù ù(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaù ù(
+
+%43int"__id*
+""*
+36
+38*¿
+40W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaú ú(÷”
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaú ú(8
+%42void"!java.awt.Graphics#fillRect(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2fillRect(IIII)*
+17
+33*ﬁ
+41W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaõ õ(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaõ  õ(&
+
+%41int"__id*
+""*
+39
+40*ﬁ
+42W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaõ õ(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaõ õ(
+
+%40int"__id*
+""*
+39
+41*¿
+43W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaö ö(÷”
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaö ö(,
+%39void"!java.awt.Graphics#fillOval(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2fillOval(IIII)*
+17
+33*ﬁ
+44W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaô ô(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaô ô(
+
+%38int"__id*
+""*
+42
+43*ﬁ
+45W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaô ô(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaô ô(
+
+%37int"__id*
+""*
+42
+44*Á
+46W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaò ò(á
+Ñ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaò ò(
+%35java.awt.BasicStroke"__id*
+""˜Ù
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaò ò(
+%36void"1java.awt.Graphics2D#setStroke(Ljava/awt/Stroke;)V*
+
+g2djava.awt.Graphics2D*
+
+%35java.awt.BasicStroke2setStroke(Ljava/awt/Stroke;)*
+45*ﬁ
+47W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaó ó(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaó ó(
+
+%34int"__id*
+""*
+46
+45*œ
+48W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaî î(ÈÊ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaî î(
+%33void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+colorjava.awt.Color2setColor(Ljava/awt/Color;)*
+47*Ê
+50W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaí í(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaí í(
+
+%32int"__id*
+""*
+47
+48
+17
+33*‚
+51W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaí í(
+u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaí í(
+
+%31int"__id*
+""*
+47
+48
+50*‡
+52W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaë ë(é
+ã
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaë ë(7"
+%28java.awt.RenderingHints$Key"__id*
+""É
+Ä
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaë9 ë(Z
+%29java.lang.Object"__id*
+""„‡
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaë ë([
+%30void"Vjava.awt.Graphics2D#setRenderingHint(Ljava/awt/RenderingHints$Key;Ljava/lang/Object;)V*
+
+g2djava.awt.Graphics2D*$
+"
+%28java.awt.RenderingHints$Key*
+
+%29java.lang.Object2AsetRenderingHint(Ljava/awt/RenderingHints$Key;Ljava/lang/Object;)*
+51*ﬁ
+53W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaê ê(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaê ê(
+
+%27int"__id*
+""*
+51
+52*ﬁ
+54W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaê ê(
+u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaê ê(
+
+%26int"__id*
+""*
+51
+53*‹
+10W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java∑ ∑(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java∑ ∑(
+
+%68int"__id*
+""*
+7
+9*ï
+55W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaç ç(÷”
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaç ç()
+%24void"!java.awt.Graphics#drawLine(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawLine(IIII)÷”
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaé é()
+%25void"!java.awt.Graphics#drawLine(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawLine(IIII)*
+54*ª
+11W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java∂ ∂(÷”
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java∂ ∂(8
+%67void"!java.awt.Graphics#drawOval(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawOval(IIII)*
+6*Á
+56W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaå å(á
+Ñ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaå å(!
+%22java.awt.BasicStroke"__id*
+""˜Ù
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaå å("
+%23void"1java.awt.Graphics2D#setStroke(Ljava/awt/Stroke;)V*
+
+g2djava.awt.Graphics2D*
+
+%22java.awt.BasicStroke2setStroke(Ljava/awt/Stroke;)*
+55*ﬁ
+12W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaµ µ(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaµ µ(!
+
+%66int"__id*
+""*
+10
+11*ﬁ
+57W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaã ã(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaã ã(
+
+%21int"__id*
+""*
+55
+56*À
+13W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¥ ¥(Ä
+~
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¥ ¥(
+%63java.awt.Color"__id*
+""Á‰
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¥ ¥(
+%64void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%63java.awt.Color2setColor(Ljava/awt/Color;)u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaµ µ(
+
+%65int"__id*
+""*
+10
+12*Á
+58W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaä ä(á
+Ñ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaä ä( 
+%19java.awt.BasicStroke"__id*
+""˜Ù
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaä ä(!
+%20void"1java.awt.Graphics2D#setStroke(Ljava/awt/Stroke;)V*
+
+g2djava.awt.Graphics2D*
+
+%19java.awt.BasicStroke2setStroke(Ljava/awt/Stroke;)*
+55*›
+14W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java≥/ ≥(3u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java≥5 ≥(8
+
+%62int"__id*
+""*
+13
+6*ﬁ
+59W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaâ â(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaâ â(
+
+%18int"__id*
+""*
+57
+58*ﬁ
+15W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java≥! ≥(%u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java≥' ≥(-
+
+%61int"__id*
+""*
+13
+14*›
+16W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java≥ ≥(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java≥ ≥(
+
+%60int"__id*
+""*
+15
+6*ﬁ
+17W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java≥ ≥(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java≥ ≥(
+
+%59int"__id*
+""*
+15
+16*£
+18W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaØ Ø(Ω
+∫
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaØ Ø(&
+%55java.awt.Color"+ij.gui.PointRoi#getColor(I)Ljava/awt/Color;*"
+ij.gui.PointRoi*
+""Á‰
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaØ Ø('
+%56void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%55java.awt.Color2setColor(Ljava/awt/Color;)ã
+à
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java∞ ∞(!
+%57java.lang.String"__concat* *
+""ÖÇ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java∞ ∞(A
+%58void"3java.awt.Graphics#drawString(Ljava/lang/String;II)V*
+
+gjava.awt.Graphics*
+
+%57java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)*
+17*u
+0 "n
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java≈ ≈(
+implicit return*å
+1W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaƒ ƒ(®•
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaƒ ƒ(
+%79void"Bjava.awt.Graphics2D#setTransform(Ljava/awt/geom/AffineTransform;)V*
+
+g2djava.awt.Graphics2D*,
+*
+	saveXformjava.awt.geom.AffineTransform2-setTransform(Ljava/awt/geom/AffineTransform;)*
+0*Ω
+3W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¡ ¡(÷”
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¡ ¡(E
+%78void"!java.awt.Graphics#drawOval(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawOval(IIII)*
+0
+1*Â
+4W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¿ ¿(á
+Ñ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¿ ¿(
+%76java.awt.BasicStroke"__id*
+""˜Ù
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¿ ¿( 
+%77void"1java.awt.Graphics2D#setStroke(Ljava/awt/Stroke;)V*
+
+g2djava.awt.Graphics2D*
+
+%76java.awt.BasicStroke2setStroke(Ljava/awt/Stroke;)*
+3*Ë
+5W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaΩ Ω(û
+õ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaΩ Ω(+
+
+%73int"java.lang.Math#round(F)I*"
+java.lang.Math*
+""ÈÊ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaæ æ(
+%74void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+colorjava.awt.Color2setColor(Ljava/awt/Color;)u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaø ø(
+
+%75int"__id*
+""*
+3
+4*ﬁ
+6W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaº º(
+u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaº º(
+
+%72int"__id*
+""*	
+5
+0
+1*∫
+7W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java∫ ∫(÷”
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java∫ ∫(8
+%71void"!java.awt.Graphics#drawOval(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawOval(IIII)*
+6*∫
+8W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java∏ ∏(÷”
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java∏ ∏(0
+%70void"!java.awt.Graphics#drawOval(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawOval(IIII)*
+6*€
+9W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java∑ ∑(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java∑  ∑(&
+
+%69int"__id*
+""*
+7
+8*œ
+60W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÜ Ü(ÈÊ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÜ Ü(
+%17void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+colorjava.awt.Color2setColor(Ljava/awt/Color;)*
+59*–
+61W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÑ Ñ(Ä
+~
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÑ Ñ(
+%15java.awt.Color"__id*
+""Á‰
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÑ Ñ(
+%16void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%15java.awt.Color2setColor(Ljava/awt/Color;)*
+59*ﬁ
+62W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÉ É(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÉ É(
+
+%14int"__id*
+""*
+60
+61*ﬁ
+63W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÇ Ç(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÇ Ç(!
+
+%13int"__id*
+""*
+62
+54*ﬁ
+64W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÇ Ç(
+u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÇ Ç(
+
+%12int"__id*
+""*
+62
+63*˘
+20W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java≠ ≠(ã
+à
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java≠ ≠(
+%53java.lang.String"__concat* *
+""ÖÇ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java≠ ≠(5
+%54void"3java.awt.Graphics#drawString(Ljava/lang/String;II)V*
+
+gjava.awt.Graphics*
+
+%53java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)*
+17*∫
+65W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÅ Å(Ω
+∫
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÅ Å("
+%11java.awt.Color"+ij.gui.PointRoi#getColor(I)Ljava/awt/Color;*"
+ij.gui.PointRoi*
+""î
+ë
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaÅ Å("
+colorjava.awt.Color"__id*
+
+%11java.awt.Color*
+64*œ
+21W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¨ ¨(ÈÊ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java¨ ¨(
+%52void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+colorjava.awt.Color2setColor(Ljava/awt/Color;)*
+20:
+gjava.awt.Graphics:
+"":
+"":
+""B
+ij.gui.PointRoi

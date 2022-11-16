@@ -1,0 +1,415 @@
+
+6ij.plugin.frame.Editor#debug(Lij/macro/Interpreter;I)I^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java˛ ˛("46"47*Î
+46^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÅ Å(
+{
+y
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÅ Å(	
+%7int"__id*
+""*
+44
+45*–
+
+47^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÄ Ä(»≈
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÄ Ä(*	
+%0int"%ij.macro.Interpreter#getLineNumber()I* 
+
+interpij.macro.Interpreter2getLineNumber()ü
+ú
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÄ
+ Ä(*
+%1java.lang.String"__concat*	
+debug: *
+	
+%0intß
+§
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÄ
+ Ä(/
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+  ß
+§
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÄ
+ Ä(4
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+""ß
+§
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÄ
+ Ä(9
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+  ¡
+æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÄ
+ Ä(@
+%5java.lang.String"__concat*
+
+%4java.lang.String* 
+
+interpij.macro.Interpreter¥
+±
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÄ Ä(A
+
+%6void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%5java.lang.String*
+46*ˆ
+32^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaõ õ(±Æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaõ õ('
+
+%20int"java.lang.String#length()I*
+
+textjava.lang.String2length()Å
+
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaõ õ()
+charschar[]"__id*
+""øº
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaú
+ ú(
+%21char[]" java.lang.String#toCharArray()[C*
+
+textjava.lang.String2toCharArray()ã
+à
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaú ú(
+charschar[]"__id*
+
+%21char[]*
+16
+17*Ì
+10^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∏ ∏(
+|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∏ ∏(
+
+%34int"__id*
+""*	
+4
+7
+1*ø
+33^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaö
+ ö(±Æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaö
+ ö('
+%19java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*
+
+textjava.lang.String*
+\r\n*
+\n20replaceAll(Ljava/lang/String;Ljava/lang/String;)û
+õ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaö ö('
+textjava.lang.String"__id*
+
+%19java.lang.String*
+32*˚
+11^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaµ µ(	ÿ’
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaµ µ( 
+%32void",ij.macro.Interpreter#updateArrayInspector()V* 
+
+interpij.macro.Interpreter2updateArrayInspector()≥∞
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∂ ∂(
+%33void"java.awt.Window#toFront()V*
+ij.plugin.frame.Editor2	toFront()*
+10*ﬁ
+34^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javañ ñ(	≥∞
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javañ ñ(
+%15void"java.awt.Window#toFront()V*
+ij.plugin.frame.Editor2	toFront()ß
+§
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaò ò(
+%16java.awt.TextArea"__id*"* 
+ij.plugin.frame.Editor"
+ta◊‘
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaò ò(
+%17java.lang.String"2java.awt.TextComponent#getText()Ljava/lang/String;*
+
+%16java.awt.TextArea2	getText()û
+õ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaò ò(
+textjava.lang.String"__id*
+
+%17java.lang.Stringí
+è
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaô ô(
+%18boolean"ij.IJ#isWindows()Z*	"
+ij.IJ*
+32
+33*¢
+12^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¥ ¥(±
+Æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¥ ¥(
+%31ij.text.TextWindow"__id*+*)
+ij.plugin.frame.Editor"
+debugWindow*
+10
+11*˛
+35^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaï ï(ë
+é
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaï ï(
+%14void"ij.IJ#wait(I)V*	"
+ij.IJ*22*
+34*ª
+13^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≥ ≥(ËÂ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≥* ≥(?
+%28java.lang.String[]"6ij.macro.Interpreter#getVariables()[Ljava/lang/String;* 
+
+interpij.macro.Interpreter2getVariables()±
+Æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≥A ≥(L
+%29ij.text.TextWindow"__id*+*)
+ij.plugin.frame.Editor"
+debugWindow˚¯
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≥ ≥(M
+%30ij.text.TextWindow"cij.macro.Interpreter#updateDebugWindow([Ljava/lang/String;Lij/text/TextWindow;)Lij/text/TextWindow;* 
+
+interpij.macro.Interpreter*
+
+%28java.lang.String[]*
+
+%29ij.text.TextWindow2:updateDebugWindow([Ljava/lang/String;Lij/text/TextWindow;)±
+Æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≥ ≥(M)
+ij.plugin.frame.Editor"
+debugWindow"__id*
+
+%30ij.text.TextWindow*
+12*’
+36^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaì ì(∆
+√
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaì ì(.
+%13java.awt.Window"3ij.WindowManager#getActiveWindow()Ljava/awt/Window;*"
+ij.WindowManagerõ
+ò
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaì ì(/
+winjava.awt.Window"__id*
+
+%13java.awt.Window*
+35
+34*Ä
+14^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∞ ∞(	ÙÒ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∞ ∞(
+%27void"6ij.macro.Interpreter#setDebugger(Lij/macro/Debugger;)V* 
+
+interpij.macro.Interpreter*
+""2 setDebugger(Lij/macro/Debugger;)ú
+ô
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java± ±()
+ij.plugin.frame.Editor"
+debugWindow"__id*
+""*
+12*Œ
+37^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaê ê("h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaë ë(
+""*‡
+15^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaØ Ø('±
+Æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaØ Ø('
+%25ij.text.TextWindow"__id*+*)
+ij.plugin.frame.Editor"
+debugWindowª∏
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaØ Ø(3
+%26boolean"java.awt.Window#isShowing()Z*
+
+%25ij.text.TextWindow2isShowing()*
+13
+14*õ
+16^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÆ Æ(ß
+§
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÆ Æ(
+%22java.awt.TextArea"__id*"* 
+ij.plugin.frame.Editor"
+taÃ…
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÆ Æ(!
+%23void""java.awt.TextComponent#select(II)V*
+
+%22java.awt.TextArea*
+""*
+""2
+select(II)±
+Æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaØ Ø(
+%24ij.text.TextWindow"__id*+*)
+ij.plugin.frame.Editor"
+debugWindow*
+13
+15*ï
+39^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaå å(	ƒ¡
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaå å(
+%12void""ij.macro.Interpreter#abortMacro()V* 
+
+interpij.macro.Interpreter2abortMacro()"h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaç ç(
+""*Œ
+17^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≠
+ ≠("h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≠ ≠(
+""*Õ
+1^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¬	 ¬(
+"h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¬ ¬(
+""*˝
+2^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¿ ¿(í
+è
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¿ ¿(
+%40void"ij.IJ#wait(I)V*	"
+ij.IJ*2ñ*
+1*¸
+3^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaæ æ(ë
+é
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaæ æ(
+%39void"ij.IJ#wait(I)V*	"
+ij.IJ*2*
+1*È
+4^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaΩ Ω(|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaΩ Ω(
+
+%38int"__id*
+""*
+2
+3*ˇ
+5^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaª ª(ë
+é
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaª ª(
+%37void"ij.IJ#wait(I)V*	"
+ij.IJ*2*
+7
+1*´
+6^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∫% ∫(.Ω∫
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∫% ∫(0
+%36boolean"java.awt.Component#isVisible()Z*
+ij.plugin.frame.Editor2isVisible()*
+5
+1*©
+7^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∫ ∫(ª∏
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∫ ∫(!
+%35boolean"ij.macro.Interpreter#done()Z* 
+
+interpij.macro.Interpreter2done()*
+6
+1*≤
+40^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaã ã(Ω∫
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaã ã(
+%11boolean"java.awt.Component#isVisible()Z*
+ij.plugin.frame.Editor2isVisible()*
+36
+37
+39*Œ
+41^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaâ â("h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaâ â(
+""*ø
+42^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÜ Ü(“œ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaá á(
+%10void"%ij.macro.Interpreter#setDebugMode(I)V* 
+
+interpij.macro.Interpreter*
+""2setDebugMode(I)*
+40*∫
+44^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÉ
+ É(»≈
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÉ
+ É( 	
+%8int"%ij.macro.Interpreter#getLineNumber()I* 
+
+interpij.macro.Interpreter2getLineNumber(){
+y
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÑ Ñ(	
+%9int"__id*
+""*
+40
+41
+42*Œ
+45^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÇ
+ Ç("h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÇ Ç(
+"":
+interpij.macro.Interpreter:
+""B
+ij.plugin.frame.Editor

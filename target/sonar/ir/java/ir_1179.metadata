@@ -1,0 +1,12 @@
+ij.plugin.frame.ColorCanvas#mousePressed(Ljava/awt/event/MouseEvent;)V
+ij.gui.Toolbar#getForegroundColor()Ljava/awt/Color;
+ij.plugin.frame.Recorder#setBackgroundColor(Ljava/awt/Color;)V
+ij.plugin.frame.Recorder#setForegroundColor(Ljava/awt/Color;)V
+ij.plugin.Colors#colorToString(Ljava/awt/Color;)Ljava/lang/String;
+ij.IJ#setTool(I)V
+ij.gui.Toolbar#getBackgroundColor()Ljava/awt/Color;
+ij.plugin.frame.ColorCanvas#showStatus(Ljava/lang/String;I)V
+ij.gui.Toolbar#setBackgroundColor(Ljava/awt/Color;)V
+ij.gui.Toolbar#getToolId()I
+java.lang.System#currentTimeMillis()J
+ij.gui.Toolbar#setForegroundColor(Ljava/awt/Color;)V

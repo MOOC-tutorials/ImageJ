@@ -1,0 +1,9 @@
+ij.io.OpenDialog#<init>(Ljava/lang/String;Ljava/lang/String;)V
+ij.Macro#getValue(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ij.Macro#getOptions()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.io.OpenDialog#setDefaultDirectory(Ljava/lang/String;)V
+ij.io.OpenDialog#lookupPathVariable(Ljava/lang/String;)Ljava/lang/String;
+ij.io.OpenDialog#getDefaultDirectory()Ljava/lang/String;
+ij.IJ#register(Ljava/lang/Class;)V
+ij.IJ#macroRunning()Z

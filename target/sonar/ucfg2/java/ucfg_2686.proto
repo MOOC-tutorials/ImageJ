@@ -1,0 +1,79 @@
+
+7ij.gui.Roi#getRotationCenter()Lij/process/FloatPolygon;R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java∆ ∆(&"3*÷
+2R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java   (∑¥
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java   (
+%4double"&java.awt.geom.RectangularShape#getX()D* 
+
+rjava.awt.geom.Rectangle2D2getX()øº
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java   ("
+%5double"*java.awt.geom.RectangularShape#getWidth()D* 
+
+rjava.awt.geom.Rectangle2D2
+getWidth()∑¥
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÀ À(
+%6double"&java.awt.geom.RectangularShape#getY()D* 
+
+rjava.awt.geom.Rectangle2D2getY()¡æ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÀ À(#
+%7double"+java.awt.geom.RectangularShape#getHeight()D* 
+
+rjava.awt.geom.Rectangle2D2getHeight()*
+1*‰
+3R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java« «(%èå
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java« «(#
+%0ij.process.FloatPolygon"ij.process.FloatPolygon°
+û
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java« «(%
+%1"!ij.process.FloatPolygon#<init>()V*
+
+%0ij.process.FloatPolygonú
+ô
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java« «(&
+pij.process.FloatPolygon"__id*
+
+%0ij.process.FloatPolygon‡›
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java» »("&
+%2 java.awt.geom.Rectangle2D$Double"=ij.gui.Roi#getFloatBounds()Ljava/awt/geom/Rectangle2D$Double;*
+
+ij.gui.Roi2getFloatBounds()ß
+§
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java» »(#
+rjava.awt.geom.Rectangle2D"__id*(
+&
+%2 java.awt.geom.Rectangle2D$Double†
+ù
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java… …(
+%3boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+""*
+2
+1*ò
+1R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÕ Õ(»≈
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÕ Õ(
+
+%8void"%ij.process.FloatPolygon#addPoint(DD)V*
+
+pij.process.FloatPolygon*
+""*
+""2addPoint(DD)"t
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaŒ Œ(
+
+pij.process.FloatPolygonB
+
+ij.gui.Roi

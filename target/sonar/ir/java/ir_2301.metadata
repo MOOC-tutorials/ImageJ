@@ -1,0 +1,9 @@
+ij.gui.NewImage#createIntImage(Ljava/lang/String;IIII)Lij/ImagePlus;
+ij.gui.NewImage#getSize(II)I
+ij.gui.NewImage#fillNoiseInt(Lij/process/ImageProcessor;)V
+ij.gui.NewImage#createStack(Lij/ImagePlus;Lij/process/ImageProcessor;III)Z
+ij.process.IntProcessor#<init>(II[I)V
+ij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V
+ij.gui.NewImage#getFill(I)I
+ij.ImagePlus#instance-init#
+ij.process.IntProcessor#instance-init#

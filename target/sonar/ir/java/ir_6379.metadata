@@ -1,0 +1,5 @@
+ij.plugin.filter.PlugInFilterRunner#processImageUsingThreads(Lij/process/ImageProcessor;Lij/process/FloatProcessor;Ljava/lang/Object;)V
+ij.IJ#log(Ljava/lang/String;)V
+ij.plugin.filter.PlugInFilterRunner#processChannelUsingThreads(Lij/process/ImageProcessor;)V
+java.lang.Thread#currentThread()Ljava/lang/Thread;
+ij.IJ#showProgress(D)V

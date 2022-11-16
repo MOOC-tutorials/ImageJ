@@ -1,0 +1,14 @@
+ij.plugin.Straightener#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.Macro#getOptions()Ljava/lang/String;
+ij.WindowManager#getUniqueName(Ljava/lang/String;)Ljava/lang/String;
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+java.lang.Math#round(F)I
+ij.ImagePlus#instance-init#
+ij.gui.GenericDialog#<init>(Ljava/lang/String;)V
+ij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V
+ij.IJ#run(Lij/ImagePlus;Ljava/lang/String;Ljava/lang/String;)V
+ij.gui.Line#setWidth(I)V
+ij.gui.GenericDialog#instance-init#
+ij.ImagePlus#<init>(Ljava/lang/String;Lij/ImageStack;)V
+ij.IJ#macroRunning()Z

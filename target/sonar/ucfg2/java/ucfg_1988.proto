@@ -1,0 +1,572 @@
+
+8ij.IJ#getDirectory(Ljava/lang/String;)Ljava/lang/String;M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java™ ™(""39*é
+24M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaæ	 æ(§
+°
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaæ	 æ(
+%21java.lang.String")ij.Prefs#getImageJDir()Ljava/lang/String;*"
+
+ij.Prefså
+â
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaæ æ(
+dirjava.lang.String"__id*
+
+%21java.lang.String*
+1*∂
+25M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaΩ Ω(÷”
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaΩ Ω("
+%20boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*
+
+imagej2equals(Ljava/lang/Object;)*
+24
+23*é
+26M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaº	 º(§
+°
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaº	 º(
+%19java.lang.String")ij.Prefs#getImageJDir()Ljava/lang/String;*"
+
+ij.Prefså
+â
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaº º(
+dirjava.lang.String"__id*
+
+%19java.lang.String*
+1*∑
+27M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaª ª(◊‘
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaª ª(#
+%18boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*	
+startup2equals(Ljava/lang/Object;)*
+25
+26*à
+28M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∫	 ∫(‘
+—
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∫	 ∫((
+%14java.lang.String"Bjava.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;*"
+java.lang.System*
+	user.homex
+v
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∫) ∫(7
+%15java.lang.String"__id*
+""´
+®
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∫	 ∫(7
+%16java.lang.String"__concat*
+
+%14java.lang.String*
+
+%15java.lang.Stringü
+ú
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∫	 ∫(C
+%17java.lang.String"__concat*
+
+%16java.lang.String*
+	Downloadså
+â
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∫ ∫(C
+dirjava.lang.String"__id*
+
+%17java.lang.String*
+1*π
+29M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaπ π(Ÿ÷
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaπ π(%
+%13boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*
+	downloads2equals(Ljava/lang/Object;)*
+27
+28*æ
+30M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∏	 ∏(‘
+—
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∏	 ∏((
+%12java.lang.String"Bjava.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;*"
+java.lang.System*
+	user.homeå
+â
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∏ ∏((
+dirjava.lang.String"__id*
+
+%12java.lang.String*
+1*¥
+31M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∑ ∑(‘—
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∑ ∑("
+%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*
+home2equals(Ljava/lang/Object;)*
+29
+30*“
+32M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∂
+ ∂(x
+v
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∂ ∂(
+dirjava.lang.String"__id*
+""*
+1*ˆ
+10M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java… …(ò
+ï
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java… …(
+%35java.lang.String"__id*%*#
+
+fiij.io.FileInfo"
+	directory*
+8
+9*™
+33M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¥
+ ¥(õ
+ò
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¥
+ ¥(
+%8java.lang.String"__concat*
+
+ijdirjava.lang.String*
+lutsw
+u
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¥ ¥()
+%9java.lang.String"__id*
+""©
+¶
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¥
+ ¥()
+%10java.lang.String"__concat*
+
+%8java.lang.String*
+
+%9java.lang.Stringå
+â
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¥ ¥()
+dirjava.lang.String"__id*
+
+%10java.lang.String*
+1*Ê
+11M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java» »(:á
+Ñ
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java» »(:
+fiij.io.FileInfo"__id*
+
+%32ij.io.FileInfo*
+8
+10*ì
+34M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java≤ ≤(£
+†
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java≤ ≤(&
+%7java.lang.String")ij.Prefs#getImageJDir()Ljava/lang/String;*"
+
+ij.Prefsç
+ä
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java≤ ≤('
+ijdirjava.lang.String"__id*
+
+%7java.lang.String*
+32
+33*‡
+12M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java»5 »(9Ñ
+Å
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java»5 »(9
+%32ij.io.FileInfo"__id*
+
+%34
+<nulltype>*
+11*≥
+35M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java± ±(”–
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java± ±( 
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*
+luts2equals(Ljava/lang/Object;)*
+31
+34*≤
+13M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java» »(À»
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java» »(4
+%33ij.io.FileInfo"2ij.ImagePlus#getOriginalFileInfo()Lij/io/FileInfo;*
+
+impij.ImagePlus2getOriginalFileInfo()à
+Ö
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java» »(4
+%32ij.io.FileInfo"__id*
+
+%33ij.io.FileInfo*
+11*ç
+36M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∞	 ∞(§
+°
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∞	 ∞(
+%5java.lang.String"*ij.Menus#getMacrosPath()Ljava/lang/String;*"
+
+ij.Menusã
+à
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∞ ∞(
+dirjava.lang.String"__id*
+
+%5java.lang.String*
+1*ñ
+14M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java« «( Ø
+¨
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java« «(2
+%31ij.ImagePlus"0ij.WindowManager#getCurrentImage()Lij/ImagePlus;*"
+ij.WindowManagerÑ
+Å
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java« «(3
+impij.ImagePlus"__id*
+
+%31ij.ImagePlus*
+13
+12*µ
+37M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaØ Ø(’“
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaØ Ø("
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*
+
+macros2equals(Ljava/lang/Object;)*
+35
+36*¥
+15M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∆ ∆(’“
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java∆ ∆(#
+%30boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*	
+image2equals(Ljava/lang/Object;)*
+14
+7*é
+38M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaÆ	 Æ(•
+¢
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaÆ	 Æ(
+%3java.lang.String"+ij.Menus#getPlugInsPath()Ljava/lang/String;*"
+
+ij.Menusã
+à
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaÆ Æ(
+dirjava.lang.String"__id*
+
+%3java.lang.String*
+1*’
+16M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java≈ ≈(#{
+y
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java≈ ≈(#
+dirjava.lang.String"__id*	
+/tmp/*
+1*√
+39M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java´ ´(x
+v
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java´ ´(
+dirjava.lang.String"__id*
+""w
+u
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¨$ ¨(-
+%0java.util.Locale"__id*
+""ÜÉ
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¨ ¨(.
+%1java.lang.String"Bjava.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;*
+
+titlejava.lang.String*
+
+%0java.util.Locale2toLowerCase(Ljava/util/Locale;)é
+ã
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¨ ¨(/
+title2java.lang.String"__id*
+
+%1java.lang.String÷”
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java≠ ≠(
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*	
+plugins2equals(Ljava/lang/Object;)*
+37
+38*Õ
+17M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaƒ	 ƒ(Ÿ
+÷
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaƒ	 ƒ(-
+%28java.lang.String"Bjava.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;*"
+java.lang.System*
+java.io.tmpdirå
+â
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaƒ ƒ(-
+dirjava.lang.String"__id*
+
+%28java.lang.StringÉ
+Ä
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java≈ ≈(
+%29boolean"ij.IJ#isMacintosh()Z*	"
+ij.IJ*
+16
+1*¥
+18M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java√ √(‘—
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java√ √( 
+%27boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*
+temp2equals(Ljava/lang/Object;)*
+15
+17*ç
+19M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¬	 ¬(£
+†
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¬	 ¬(
+%26java.lang.String"(ij.Prefs#getPrefsDir()Ljava/lang/String;*"
+
+ij.Prefså
+â
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¬ ¬(
+dirjava.lang.String"__id*
+
+%26java.lang.String*
+1*õ
+1M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java÷ ÷(À
+»
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java÷ ÷(
+%45java.lang.String"8ij.IJ#addSeparator(Ljava/lang/String;)Ljava/lang/String;*	"
+ij.IJ*
+
+dirjava.lang.Stringå
+â
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java÷ ÷(
+dirjava.lang.String"__id*
+
+%45java.lang.String"j
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java◊ ◊(
+
+dirjava.lang.String*ÿ
+2M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java‘ ‘(
+}
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java‘ ‘(
+%44void"ij.Macro#abort()V*"
+
+ij.Macro*
+1*¥
+3M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java“. “(3âÜ
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java“ “(-
+%41ij.io.DirectoryChooser"ij.io.DirectoryChooserÀ
+»
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java“ “(4
+%42"2ij.io.DirectoryChooser#<init>(Ljava/lang/String;)V*
+
+%41ij.io.DirectoryChooser*
+
+titlejava.lang.Stringó
+î
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java“ “(5
+dcij.io.DirectoryChooser"__id*
+
+%41ij.io.DirectoryChooser‘—
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java”	 ”(
+%43java.lang.String"7ij.io.DirectoryChooser#getDirectory()Ljava/lang/String;*
+
+dcij.io.DirectoryChooser2getDirectory()å
+â
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java” ”(
+dirjava.lang.String"__id*
+
+%43java.lang.String*
+2
+1*º
+4M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java–	 –(”
+–
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java–	 –('
+%40java.lang.String"Bjava.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;*"
+java.lang.System*
+
+user.dirå
+â
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java– –('
+dirjava.lang.String"__id*
+
+%40java.lang.String*
+1*∞
+5M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaœ œ(”–
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaœ œ(
+%39boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*
+cwd2equals(Ljava/lang/Object;)*
+3
+4*°
+6M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaŒ	 Œ(∏
+µ
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaŒ	 Œ(&
+%38java.lang.String"5ij.io.OpenDialog#getLastDirectory()Ljava/lang/String;*"
+ij.io.OpenDialogå
+â
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaŒ Œ(&
+dirjava.lang.String"__id*
+
+%38java.lang.String*
+1*±
+7M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaÕ Õ(‘—
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaÕ Õ("
+%37boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*
+file2equals(Ljava/lang/Object;)*
+5
+6*—
+8M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaÃ
+ Ã(x
+v
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaÃ Ã(
+dirjava.lang.String"__id*
+""*
+1*Å
+9M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java 
+  (ò
+ï
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java 
+  (
+%36java.lang.String"__id*%*#
+
+fiij.io.FileInfo"
+	directoryå
+â
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java   (
+dirjava.lang.String"__id*
+
+%36java.lang.String*
+1*ª
+20M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¡ ¡(€ÿ
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¡ ¡('
+%25boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*
+preferences2equals(Ljava/lang/Object;)*
+18
+19*•
+21M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¿	 ¿(ª
+∏
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¿	 ¿()
+%24java.lang.String"8ij.io.OpenDialog#getDefaultDirectory()Ljava/lang/String;*"
+ij.io.OpenDialogå
+â
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¿ ¿()
+dirjava.lang.String"__id*
+
+%24java.lang.String*
+1*∑
+22M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaø' ø(-◊‘
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaø' ø(?
+%23boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*	
+default2equals(Ljava/lang/Object;)*
+20
+21*∑
+23M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaø ø(◊‘
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaø ø(#
+%22boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+title2java.lang.String*	
+current2equals(Ljava/lang/Object;)*
+21
+22:
+titlejava.lang.StringB	"
+ij.IJ

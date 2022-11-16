@@ -1,0 +1,655 @@
+
+Rij.plugin.frame.ContrastAdjuster#apply(Lij/ImagePlus;Lij/process/ImageProcessor;)Vh
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÄ Ä("58"56*∏
+46h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaè è(
+Ω∫
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaè è(	
+%6int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+44
+45*˚
+24h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaØ Ø(ƒ¡
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaØ Ø(
+%25
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()˘ˆ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaØ Ø(
+%26void"/ij.process.ImageProcessor#setRoi(Lij/gui/Roi;)V*!
+
+ipij.process.ImageProcessor*
+
+%25
+ij.gui.Roi2setRoi(Lij/gui/Roi;)æª
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java∞ ∞(
+
+%27int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+9
+23*‚
+48h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaç ç(
+"r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaç ç(
+
+""*º
+49h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaå å(
+±Æ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaå å(
+%5boolean"ij.ImagePlus#lock()Z*
+
+impij.ImagePlus2lock()*
+46
+35
+36
+48
+39
+41*©
+50h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaã ã(≤Ø
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaã ã(
+
+%4void"ij.ImagePlus#unlock()V*
+
+impij.ImagePlus2unlock()*
+49*í
+51h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaâ â(ó
+î
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaâ â(
+optionjava.lang.String"__id*
+""*
+49
+50*‚
+52h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaá á("r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaá á(
+""* 
+53h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÖ Ö(MÕ
+ 
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÖ Ö(N
+msgjava.lang.String"__id*?=
+;WARNING: the pixel values will\nchange if you click \"OK\".ˇ
+¸
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÜ Ü(<
+%3boolean"Bij.IJ#showMessageWithCancel(Ljava/lang/String;Ljava/lang/String;)Z*	"
+ij.IJ*
+Apply Lookup Table?*
+
+msgjava.lang.String*
+51
+52*î
+54h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÑ& Ñ((ô
+ñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÑ& Ñ(2
+%2boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+51
+53*Ì	
+10h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java» »(–Õ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java» »(
+%53void"%ij.process.ImageProcessor#snapshot()V*!
+
+ipij.process.ImageProcessor2
+snapshot()‡›
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java… …(
+%54void")ij.process.ImageProcessor#applyTable([I)V*!
+
+ipij.process.ImageProcessor*
+""2applyTable([I)˝˙
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java   ( 
+%55ij.process.ImageProcessor">ij.process.ImageProcessor#getMask()Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor2	getMask()§°
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java   (
+%56void"=ij.process.ImageProcessor#reset(Lij/process/ImageProcessor;)V*!
+
+ipij.process.ImageProcessor*"
+ 
+%55ij.process.ImageProcessor2"reset(Lij/process/ImageProcessor;)ö
+ó
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÀ À(
+optionjava.lang.String"__id*	
+slice*
+8*‘
+11h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java≈ ≈(¡æ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java≈ ≈(
+%52void"ij.ImagePlus#setSlice(I)V*
+
+impij.ImagePlus*
+""2setSlice(I)ö
+ó
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java∆ ∆(
+optionjava.lang.String"__id*	
+stack*
+8*¬	
+33h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¶ ¶(≠
+™
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¶ ¶(0
+%19java.lang.String"__concat*
+Apply: mapping *
+""≤
+Ø
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¶ ¶(4
+%20java.lang.String"__concat*
+
+%19java.lang.String*
+-≥
+∞
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¶ ¶(8
+%21java.lang.String"__concat*
+
+%20java.lang.String*
+""∑
+¥
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¶ ¶(A
+%22java.lang.String"__concat*
+
+%21java.lang.String*
+
+ to 0-≥
+∞
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¶ ¶(K
+%23java.lang.String"__concat*
+
+%22java.lang.String*
+""¿
+Ω
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¶ ¶(L
+%24void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%23java.lang.String*
+24*ò
+34h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¢ ¢()Õ 
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java§ §()
+%17double""ij.ImagePlus#getDisplayRangeMin()D*
+
+impij.ImagePlus2getDisplayRangeMin()Õ 
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java• •()
+%18double""ij.ImagePlus#getDisplayRangeMax()D*
+
+impij.ImagePlus2getDisplayRangeMax()*
+24
+33*∂
+56h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÉ É(ª∏
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÉ É("	
+%1int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()*
+51
+54*Ñ
+35h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¢% ¢((ç
+ä
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¢% ¢((
+
+%14int"__id*
+
+
+%16int*
+34*‚
+57h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÇ Ç(
+"r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÇ Ç(
+
+""*ˇ
+13h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¬ ¬(‡›
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¬ ¬(
+%50void")ij.process.ImageProcessor#applyTable([I)V*!
+
+ipij.process.ImageProcessor*
+""2applyTable([I)•¢
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java√ √(
+%51void"=ij.process.ImageProcessor#reset(Lij/process/ImageProcessor;)V*!
+
+ipij.process.ImageProcessor*#
+!
+maskij.process.ImageProcessor2"reset(Lij/process/ImageProcessor;)*
+16*Ñ
+36h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¢ ¢($ç
+ä
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¢ ¢($
+
+%14int"__id*
+
+
+%15int*
+34*∫
+58h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÅ Å(øº
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÅ Å("
+%0boolean"ij.ImagePlus#isComposite()Z*
+
+impij.ImagePlus2isComposite()*
+57
+56*«
+14h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¡ ¡(–Õ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¡ ¡("
+%49void"%ij.process.ImageProcessor#snapshot()V*!
+
+ipij.process.ImageProcessor2
+snapshot()*
+13*Ë
+15h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaø ø(¡æ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaø ø(
+%47void"ij.ImagePlus#setSlice(I)V*
+
+impij.ImagePlus*
+""2setSlice(I)ÓÎ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¿
+ ¿( 
+%48ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()∏
+µ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¿ ¿(
+ipij.process.ImageProcessor"__id*"
+ 
+%48ij.process.ImageProcessor*
+13
+14*≤
+38h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java† †(∑
+¥
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java† †()
+%13double"java.lang.Math#pow(DD)D*"
+java.lang.Math*2*
+""*
+35
+36*π
+16h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaæ æ(æª
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaæ æ('
+
+%46int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+15
+11*∞
+39h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaù ù(±
+Æ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaû û(0
+
+%12int"$ij.ImagePlus#getDefault16bitRange()I*"
+ij.ImagePlus*
+35
+36
+38*ﬂ
+17h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaº º(ƒ¡
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaº º('
+
+%44int"ij.ImagePlus#getCurrentSlice()I*
+
+impij.ImagePlus2getCurrentSlice()‰·
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaΩ Ω(' 
+%45ij.process.ImageProcessor"1ij.ImagePlus#getMask()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2	getMask()∫
+∑
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaΩ Ω((!
+maskij.process.ImageProcessor"__id*"
+ 
+%45ij.process.ImageProcessor*
+16*ß
+18h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java∏ ∏(≥∞
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java∏ ∏(
+%42void"ij.ImagePlus#unlock()V*
+
+impij.ImagePlus2unlock()å
+â
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaπ π(p
+%43void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*ca
+_\"Apply\" does not work with virtual stacks. Use\nImage>Duplicate to convert to a normal stack."r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java∫ ∫(
+""*ä
+19h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java∑ ∑(ŒÀ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java∑ ∑(
+%40ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+impij.ImagePlus2
+getStack()æª
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java∑ ∑("
+%41boolean"ij.ImageStack#isVirtual()Z*
+
+%40ij.ImageStack2isVirtual()*
+17
+18*Ü
+0 "
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java‡ ‡(
+implicit return*Ì
+1h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java› ›(¯
+ı
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java› ›((
+%68void"Fij.plugin.frame.Recorder#record(Ljava/lang/String;Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+run*
+	Apply LUT*
+0*ù
+2h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java€ €(®
+•
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java€ €(0
+%67void"Xij.plugin.frame.Recorder#record(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+run*
+	Apply LUT*
+
+optionjava.lang.String*
+0*Ó
+4h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÿ ÿ(—
+Œ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÿ ÿ(>
+%64java.lang.String"__concat*!
+IJ.run(imp, \"Apply LUT\", \"*
+
+optionjava.lang.Stringµ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÿ ÿ(E
+%65java.lang.String"__concat*
+
+%64java.lang.String*
+\");Ì
+Í
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaÿ ÿ(F
+%66void"8ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+
+%65java.lang.String*
+0*à
+5h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java◊ ◊(!ì
+ê
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java◊ ◊(!
+optionjava.lang.String"__id* *
+4*¡
+7h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java÷ ÷(√
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java÷ ÷(
+%63boolean"&ij.plugin.frame.Recorder#scriptMode()Z*"
+ij.plugin.frame.Recorder*
+2
+4
+5
+1*é
+8h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java“ “(‡›
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java“ “(
+%61void"Rij.plugin.frame.ContrastAdjuster#reset(Lij/ImagePlus;Lij/process/ImageProcessor;)V*$"
+ ij.plugin.frame.ContrastAdjuster*
+
+impij.ImagePlus*!
+
+ipij.process.ImageProcessor20reset(Lij/ImagePlus;Lij/process/ImageProcessor;)≥∞
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java‘ ‘(
+%62void"ij.ImagePlus#unlock()V*
+
+impij.ImagePlus2unlock()*
+7
+0*œ
+9h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaŒ Œ(–Õ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaŒ Œ(
+%57void"%ij.process.ImageProcessor#snapshot()V*!
+
+ipij.process.ImageProcessor2
+snapshot()‡›
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaœ œ(
+%58void")ij.process.ImageProcessor#applyTable([I)V*!
+
+ipij.process.ImageProcessor*
+""2applyTable([I)˝˙
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java– –( 
+%59ij.process.ImageProcessor">ij.process.ImageProcessor#getMask()Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor2	getMask()§°
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java– –(
+%60void"=ij.process.ImageProcessor#reset(Lij/process/ImageProcessor;)V*!
+
+ipij.process.ImageProcessor*"
+ 
+%59ij.process.ImageProcessor2"reset(Lij/process/ImageProcessor;)*
+8*à
+41h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javañ ñ(ì
+ê
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javañ ñ(
+
+%9void"ij.IJ#beep()V*	"
+ij.IJ◊
+‘
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaó ó(9
+%10void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*.,
+*\"Apply\" does not work with 32-bit images≥∞
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaò ò(
+%11void"ij.ImagePlus#unlock()V*
+
+impij.ImagePlus2unlock()"r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaô ô(
+
+""*œ
+20h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java∂ ∂(‘—
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java∂ ∂(
+%39boolean"&ij.gui.YesNoCancelDialog#yesPressed()Z*
+
+dij.gui.YesNoCancelDialog2yesPressed()*
+19
+10*‚
+43h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaì ì(
+"r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaì ì(
+
+""*ò
+21h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaµ µ(≥∞
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaµ µ(
+%38void"ij.ImagePlus#unlock()V*
+
+impij.ImagePlus2unlock()"r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaµ µ(
+""*‹
+44h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaí í(Â‚
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaí í(
+
+%8void"Uij.plugin.frame.ContrastAdjuster#applyRGB(Lij/ImagePlus;Lij/process/ImageProcessor;)V*$"
+ ij.plugin.frame.ContrastAdjuster*
+
+impij.ImagePlus*!
+
+ipij.process.ImageProcessor23applyRGB(Lij/ImagePlus;Lij/process/ImageProcessor;)*
+43*ÿ
+22h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java± ±(ŒÀ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java± ±($
+%29ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+impij.ImagePlus2
+getStack()£
+†
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java± ±(%
+stackij.ImageStack"__id*
+
+%29ij.ImageStackîë
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java≤3 ≤(8
+%30java.awt.Frame"java.awt.Frameß
+§
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java≤/ ≤(:
+%31"java.awt.Frame#<init>()V*
+
+%30java.awt.Frame≤Ø
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java≥) ≥(5
+
+%32int"ij.ImageStack#size()I*
+
+stackij.ImageStack2size()µ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java≥ ≥(5
+%33java.lang.String"__concat*
+Apply LUT to all *
+
+
+%32intø
+º
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java≥ ≥(F
+%34java.lang.String"__concat*
+
+%33java.lang.String*
+ stack slices?®•
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java≤ ≤(.
+%35ij.gui.YesNoCancelDialog"ij.gui.YesNoCancelDialog∂
+≥
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java≤ ≥(G
+%36"Vij.gui.YesNoCancelDialog#<init>(Ljava/awt/Frame;Ljava/lang/String;Ljava/lang/String;)V*!
+
+%35ij.gui.YesNoCancelDialog*
+
+%30java.awt.Frame*
+Entire Stack?*
+
+%34java.lang.Stringµ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java≤ ≥(H
+dij.gui.YesNoCancelDialog"__id*!
+
+%35ij.gui.YesNoCancelDialog⁄◊
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java¥ ¥(
+%37boolean")ij.gui.YesNoCancelDialog#cancelPressed()Z*
+
+dij.gui.YesNoCancelDialog2cancelPressed()*
+20
+21*Ó
+45h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaê ê(˜
+Ù
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.javaê ê(
+
+%7void"?ij.plugin.frame.ContrastAdjuster#applyRGBStack(Lij/ImagePlus;)V*$"
+ ij.plugin.frame.ContrastAdjuster*
+
+impij.ImagePlus*
+43*∫
+23h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java∞ ∞("¿Ω
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ContrastAdjuster.java∞ ∞(0
+%28boolean"ij.ImagePlus#isComposite()Z*
+
+impij.ImagePlus2isComposite()*
+9
+22:
+impij.ImagePlus:
+ipij.process.ImageProcessorB$"
+ ij.plugin.frame.ContrastAdjuster

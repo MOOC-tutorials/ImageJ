@@ -1,0 +1,255 @@
+
+<ij.gui.ShapeRoi#unaryOp(Lij/gui/ShapeRoi;I)Lij/gui/ShapeRoi;W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaÿ
+ ÿ("12* 
+3W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java‡ ‡(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java·	 ·(
+
+%18int"__id*
+""u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java‚	 ‚(
+
+%19int"__id*
+""u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java„	 „(
+
+%20int"__id*
+""u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java‰	 ‰(
+
+%21int"__id*
+""*
+5
+7
+9
+11
+1*Ÿ
+5W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java‰ ‰(%ıÚ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java‰ ‰(
+%17void"2java.awt.geom.Area#subtract(Ljava/awt/geom/Area;)V*
+
+a1java.awt.geom.Area*
+
+a2java.awt.geom.Area2subtract(Ljava/awt/geom/Area;)*
+1*ﬂ
+7W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java„ „((˚¯
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java„ „( 
+%16void"5java.awt.geom.Area#exclusiveOr(Ljava/awt/geom/Area;)V*
+
+a1java.awt.geom.Area*
+
+a2java.awt.geom.Area2!exclusiveOr(Ljava/awt/geom/Area;)*
+1*€
+9W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java‚ ‚(&˜Ù
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java‚ ‚(
+%15void"3java.awt.geom.Area#intersect(Ljava/awt/geom/Area;)V*
+
+a1java.awt.geom.Area*
+
+a2java.awt.geom.Area2intersect(Ljava/awt/geom/Area;)*
+1*–
+11W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java· ·(ÎË
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java· ·(
+%14void"-java.awt.geom.Area#add(Ljava/awt/geom/Area;)V*
+
+a1java.awt.geom.Area*
+
+a2java.awt.geom.Area2add(Ljava/awt/geom/Area;)*
+1*å
+12W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaŸ Ÿ(,†ù
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaŸ Ÿ(*#
+%0java.awt.geom.AffineTransform"java.awt.geom.AffineTransform≤
+Ø
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaŸ Ÿ(,
+%1"'java.awt.geom.AffineTransform#<init>()V*%
+#
+%0java.awt.geom.AffineTransformÆ
+´
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaŸ Ÿ(-#
+atjava.awt.geom.AffineTransform"__id*%
+#
+%0java.awt.geom.AffineTransform‹Ÿ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java⁄ ⁄(
+
+%2void",java.awt.geom.AffineTransform#translate(DD)V*%
+#
+atjava.awt.geom.AffineTransform*
+""*
+""2translate(DD)øº
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java€/ €(9
+%3java.awt.Shape"*ij.gui.ShapeRoi#getShape()Ljava/awt/Shape;*
+ij.gui.ShapeRoi2
+getShape()≥∞
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java€ €(:
+%4java.awt.Shape"Vjava.awt.geom.AffineTransform#createTransformedShape(Ljava/awt/Shape;)Ljava/awt/Shape;*%
+#
+atjava.awt.geom.AffineTransform*
+
+%3java.awt.Shape2(createTransformedShape(Ljava/awt/Shape;)äá
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java€ €(
+%5java.awt.geom.Area"java.awt.geom.Areaƒ
+¡
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java€ €(;
+%6",java.awt.geom.Area#<init>(Ljava/awt/Shape;)V*
+
+%5java.awt.geom.Area*
+
+%4java.awt.Shapeò
+ï
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java€ €(<
+a1java.awt.geom.Area"__id*
+
+%5java.awt.geom.Area†ù
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java‹ ‹(#
+%7java.awt.geom.AffineTransform"java.awt.geom.AffineTransform≤
+Ø
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java‹ ‹(
+%8"'java.awt.geom.AffineTransform#<init>()V*%
+#
+%7java.awt.geom.AffineTransformÆ
+´
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java‹ ‹(#
+atjava.awt.geom.AffineTransform"__id*%
+#
+%7java.awt.geom.AffineTransform‹Ÿ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java› ›(
+
+%9void",java.awt.geom.AffineTransform#translate(DD)V*%
+#
+atjava.awt.geom.AffineTransform*
+""*
+""2translate(DD)ƒ¡
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaﬁ/ ﬁ(<
+%10java.awt.Shape"*ij.gui.ShapeRoi#getShape()Ljava/awt/Shape;*
+
+srij.gui.ShapeRoi2
+getShape()µ≤
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaﬁ ﬁ(=
+%11java.awt.Shape"Vjava.awt.geom.AffineTransform#createTransformedShape(Ljava/awt/Shape;)Ljava/awt/Shape;*%
+#
+atjava.awt.geom.AffineTransform*
+
+%10java.awt.Shape2(createTransformedShape(Ljava/awt/Shape;)ãà
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaﬁ ﬁ(
+%12java.awt.geom.Area"java.awt.geom.Area«
+ƒ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaﬁ ﬁ(>
+%13",java.awt.geom.Area#<init>(Ljava/awt/Shape;)V*
+
+%12java.awt.geom.Area*
+
+%11java.awt.Shapeô
+ñ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaﬁ ﬁ(?
+a2java.awt.geom.Area"__id*
+
+%12java.awt.geom.Area*
+3*€
+1W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaÁ Á(‘—
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaÁ Á(
+%22java.awt.Rectangle"2java.awt.geom.Area#getBounds()Ljava/awt/Rectangle;*
+
+a1java.awt.geom.Area2getBounds()ò
+ï
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaÁ Á(
+rjava.awt.Rectangle"__id*
+
+%22java.awt.Rectangle°û
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaË Ë($
+%23java.awt.geom.AffineTransform"java.awt.geom.AffineTransform¥
+±
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaË Ë(
+%24"'java.awt.geom.AffineTransform#<init>()V*&
+$
+%23java.awt.geom.AffineTransformØ
+¨
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaË Ë(#
+atjava.awt.geom.AffineTransform"__id*&
+$
+%23java.awt.geom.AffineTransform›⁄
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaÈ È(
+%25void",java.awt.geom.AffineTransform#translate(DD)V*%
+#
+atjava.awt.geom.AffineTransform*
+""*
+""2translate(DD)∏µ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaÍ Í(8
+%26java.awt.Shape"Vjava.awt.geom.AffineTransform#createTransformedShape(Ljava/awt/Shape;)Ljava/awt/Shape;*%
+#
+atjava.awt.geom.AffineTransform*
+
+a1java.awt.geom.Area2(createTransformedShape(Ljava/awt/Shape;)ôñ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaÍ Í( 
+%27java.awt.geom.GeneralPath"java.awt.geom.GeneralPath’
+“
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaÍ Í(9
+%28"3java.awt.geom.GeneralPath#<init>(Ljava/awt/Shape;)V*"
+ 
+%27java.awt.geom.GeneralPath*
+
+%26java.awt.ShapeÓÎ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaÍ Í(:
+%29boolean"+ij.gui.ShapeRoi#setShape(Ljava/awt/Shape;)Z*
+ij.gui.ShapeRoi*"
+ 
+%27java.awt.geom.GeneralPath2setShape(Ljava/awt/Shape;)ç
+ä
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaÌ Ì(!
+ij.gui.ShapeRoi"
+
+cachedMask"__id*
+"""n
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaÓ Ó(
+ij.gui.ShapeRoi:
+srij.gui.ShapeRoi:
+""B
+ij.gui.ShapeRoi

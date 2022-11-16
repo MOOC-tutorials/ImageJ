@@ -1,0 +1,186 @@
+
+Nij.util.Tools#getHash(Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/String;U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaæ æ("20*ª
+13U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java… …("^
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java… …(
+0*ê
+14U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java« «(2¨
+©
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java« «(2%
+digestjava.security.MessageDigest"__id*#
+!
+%4java.security.MessageDigest*
+12*È
+15U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java« «(Ö
+Ç
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java« «(2!
+%4java.security.MessageDigest"Xjava.security.MessageDigest#getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;*"
+java.security.MessageDigest*	
+SHA-256*
+14*ê
+17U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java≈ ≈(-¨
+©
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java≈ ≈(-%
+digestjava.security.MessageDigest"__id*#
+!
+%3java.security.MessageDigest*
+12*Â
+18U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java≈ ≈(Å
+˛
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java≈ ≈(-!
+%3java.security.MessageDigest"Xjava.security.MessageDigest#getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;*"
+java.security.MessageDigest*
+MD5*
+17*˚
+19U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java√ √(è
+å
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java√ √(%
+digestjava.security.MessageDigest"__id*
+""*
+13
+15
+18*Œ
+3U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java— —(""r
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java— —("
+
+%10java.lang.String*±
+4U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java—
+ —(œ
+Ã
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java—
+ —(!
+%10java.lang.String".ij.util.Tools#bytesToHex([B)Ljava/lang/String;*"
+ij.util.Tools*
+
+encodedhashbyte[]*
+3*È
+5U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaœ œ(8á
+Ñ
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaœ œ(8
+encodedhashbyte[]"__id*
+
+%9byte[]*
+4*π
+6U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaœ œ(8◊‘
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaœ œ(8
+%9byte[]"(java.security.MessageDigest#digest([B)[B*'
+%
+digestjava.security.MessageDigest*
+
+%8byte[]2
+digest([B)*
+5*ô
+7U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaœ œ(∑¥
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaœ  œ(7
+%8byte[]"java.lang.String#getBytes()[B*"
+ 
+pathOrStringjava.lang.String2
+getBytes()*
+6*È
+8U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaÕ Õ(9á
+Ñ
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaÕ Õ(9
+encodedhashbyte[]"__id*
+
+%7byte[]*
+4*π
+9U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaÕ Õ(9◊‘
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaÕ Õ(9
+%7byte[]"(java.security.MessageDigest#digest([B)[B*'
+%
+digestjava.security.MessageDigest*
+
+%6byte[]2
+digest([B)*
+8*¨
+20U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaø ø(—Œ
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaø ø(
+%0java.lang.String"0java.lang.String#toUpperCase()Ljava/lang/String;*
+
+methodjava.lang.String2toUpperCase()ñ
+ì
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaø ø(
+methodjava.lang.String"__id*
+
+%0java.lang.StringÍÁ
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java¿ ¿(&
+%1boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+methodjava.lang.String*
+MD52"contains(Ljava/lang/CharSequence;)ÓÎ
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java¡ ¡(.
+%2boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+methodjava.lang.String*	
+SHA-2562"contains(Ljava/lang/CharSequence;)*
+19*º
+10U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaÕ Õ(Ÿ
+÷
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaÕ  Õ(8
+%6byte[]"8java.nio.file.Files#readAllBytes(Ljava/nio/file/Path;)[B*"
+java.nio.file.Files*
+
+pathjava.nio.file.Path*
+9*ˇ
+11U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java   ('ò
+ï
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java   ('
+pathjava.nio.file.Path"__id*
+
+%5java.nio.file.Path~
+|
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.javaÀ À(
+encodedhashbyte[]"__id*
+""*
+7
+10*È
+12U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java   (Ö
+Ç
+U
+I/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/Tools.java   (&
+%5java.nio.file.Path"Rjava.nio.file.Paths#get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;*"
+java.nio.file.Paths*"
+ 
+pathOrStringjava.lang.String*
+11:
+methodjava.lang.String:
+"": 
+pathOrStringjava.lang.StringB"
+ij.util.Tools

@@ -1,0 +1,235 @@
+
+6ij.plugin.ListVirtualStack#showDialog(Lij/ImagePlus;)Z`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.java;	 ;("7*—
+2`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaL L($"j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaL L(%
+""*%
+3`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaE E('¬ø
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaF F(&	
+%8int"%ij.plugin.ListVirtualStack#getSize()I*
+ij.plugin.ListVirtualStack2	getSize()π
+∂
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaF F(/
+%9java.lang.String"ij.IJ#d2s(DI)Ljava/lang/String;*	"
+ij.IJ*
+""*
+""´
+®
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaF F(5
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+ MB°
+û
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaF F(6
+size1java.lang.String"__id*
+
+%10java.lang.String∏
+µ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaG G(
+%11java.lang.String"ij.IJ#d2s(DI)Ljava/lang/String;*	"
+ij.IJ*
+""*2¨
+©
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaG G(%
+%12java.lang.String"__concat*
+
+%11java.lang.String*
+ MB°
+û
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaG G(&
+size2java.lang.String"__id*
+
+%12java.lang.Stringòï
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaH H(&
+%13ij.gui.GenericDialog"ij.gui.GenericDialog◊
+‘
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaH H(>
+%14"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%13ij.gui.GenericDialog*
+Open Stack From List¶
+£
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaH H(?
+gdij.gui.GenericDialog"__id*
+
+%13ij.gui.GenericDialogâÜ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaI I(.
+%15void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Use Virtual Stack*
+""2 addCheckbox(Ljava/lang/String;Z)õ
+ò
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaJ J("
+%16java.lang.String"__concat*	
+This *
+""™
+ß
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaJ J(&
+%17java.lang.String"__concat*
+
+%16java.lang.String*
+x´
+®
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaJ J(2
+%18java.lang.String"__concat*
+
+%17java.lang.String*
+""™
+ß
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaJ J(6
+%19java.lang.String"__concat*
+
+%18java.lang.String*
+x√¿
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaJ7 J(@
+
+%20int"%ij.plugin.ListVirtualStack#getSize()I*
+ij.plugin.ListVirtualStack2	getSize()±
+Æ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaJ J(@
+%21java.lang.String"__concat*
+
+%19java.lang.String*
+
+
+%20intΩ
+∫
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaJ J(W
+%22java.lang.String"__concat*
+
+%21java.lang.String*
+ stack will require ¿
+Ω
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaJ J(]
+%23java.lang.String"__concat*
+
+%22java.lang.String*
+
+size1java.lang.String∞
+≠
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaJ J(g
+%24java.lang.String"__concat*
+
+%23java.lang.String*	
+,\n or ¿
+Ω
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaJ J(m
+%25java.lang.String"__concat*
+
+%24java.lang.String*
+
+size2java.lang.String»
+≈
+a
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaJ J(é
+%26java.lang.String"__concat*
+
+%25java.lang.String*" 
+ if opened as a virtual stack.Çˇ
+a
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaJ J(è
+%27void"4ij.gui.GenericDialog#addMessage(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%26java.lang.String2addMessage(Ljava/lang/String;)¬ø
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaK K(
+%28void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()«ƒ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaL L(
+%29boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+2
+1*
+4`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaE% E(&É
+Ä
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaE% E(&	
+%5int"__id*
+	
+%7int*
+3*
+5`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaE# E($É
+Ä
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaE# E($	
+%5int"__id*
+	
+%6int*
+3*≤
+6`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaD D(¬ø
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaE E(	
+%4int"%ij.plugin.ListVirtualStack#getSize()I*
+ij.plugin.ListVirtualStack2	getSize()*
+4
+5*ï
+7`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.java< <(´®
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.java=
+ =(	
+%0int"ij.ImagePlus#getType()I*
+
+impij.ImagePlus2	getType()}
+{
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.java> >(	
+%1int"__id*
+""}
+{
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.java@ @(	
+%2int"__id*
+""}
+{
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaA A(	
+%3int"__id*
+""*
+6*°
+1`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaM M(Õ 
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaM M(
+%30boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()"j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaN N(
+"":
+impij.ImagePlusB
+ij.plugin.ListVirtualStack

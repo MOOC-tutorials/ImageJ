@@ -1,0 +1,160 @@
+
+Cij.plugin.filter.FFTFilter#setup(Ljava/lang/String;Lij/ImagePlus;)I`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java' '("10*ñ
+2`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java5? 5(G~
+|
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java5? 5(G
+
+%11int"__id*
+""„
+
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java5? 5(G	
+%9int"__id*
+
+
+%11int*
+1*ñ
+3`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java5 5(~
+|
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java5 5(
+
+%12int"__id*
+""~
+|
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java5  5(+
+
+%13int"__id*
+""~
+|
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java5, 5(>
+
+%14int"__id*
+""„
+
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java5 5(>	
+%9int"__id*
+
+
+%10int*
+1*Ð
+5`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java3
+ 3(}
+{
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java3
+ 3(	
+%8int"__id*
+"""j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java3 3(
+""*‚
+6`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java2 2(Œ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java2 2(
+%7boolean">ij.plugin.filter.FFTFilter#showBandpassDialog(Lij/ImagePlus;)Z*
+ij.plugin.filter.FFTFilter*
+
+impij.ImagePlus2"showBandpassDialog(Lij/ImagePlus;)*	
+2
+3
+5*¶
+7`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java/ /(ã
+à
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java/ /(:
+
+%5void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+
+FFT Filter*!
+Spatial domain image required}
+{
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java0
+ 0(	
+%6int"__id*
+"""j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java0 0(
+""*‚
+8`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java, ,(µ²
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java, ,(!	
+%2int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()þû
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java- -($
+%3java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+impij.ImagePlus*
+FHT2getProperty(Ljava/lang/String;)¬
+©
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java- -($%
+ij.plugin.filter.FFTFilter"
+fht"__id*
+
+%3java.lang.Objectª
+§
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java. .(	
+%4ij.process.FHT"__id*'*%
+ij.plugin.filter.FFTFilter"
+fht*
+6
+7*á
+9`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java+ +(Ž
+‹
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java+ +(
+
+%0void"ij.IJ#noImage()V*	"
+ij.IJ}
+{
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java+ +(	
+%1int"__id*
+"""j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java+ +(
+""*Ê
+10`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java( ((­
+ª
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java( ((%
+ij.plugin.filter.FFTFilter"
+arg"__id*
+
+argjava.lang.String©
+¦
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java) )(%
+ij.plugin.filter.FFTFilter"
+imp"__id*
+
+impij.ImagePlus*
+8
+9*Ñ
+1`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java5 5(H"j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java5 5(H
+"":
+argjava.lang.String:
+impij.ImagePlusB
+ij.plugin.filter.FFTFilter

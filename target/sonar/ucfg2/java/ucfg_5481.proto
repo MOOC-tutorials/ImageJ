@@ -1,0 +1,551 @@
+
+5ij.plugin.CompositeConverter#run(Ljava/lang/String;)Vb
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java ("38*π
+24b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java( ((Ä
+~
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java($ ((,
+
+%23int"__id*
+""≈¬
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java( ((-
+%24void"ij.CompositeImage#setMode(I)V*
+
+imp2ij.ImagePlus*
+
+
+%23int2
+setMode(I)*
+23*‹
+25b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java' '(Á‰
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java' '((
+%22boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*	
+color2equals(Ljava/lang/Object;)*
+24
+23*÷
+27b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java$ $(©¶
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java$ $(
+%19void"ij.ImagePlus#hide()V*
+
+impij.ImagePlus2hide()’“
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java%# %(3
+%20ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+imp2ij.ImagePlus2getWindow()·
+ﬁ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java% %(4
+%21void"8ij.WindowManager#setCurrentWindow(Lij/gui/ImageWindow;)V*"
+ij.WindowManager*
+
+%20ij.gui.ImageWindow*
+22*£
+28b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java! !(™ß
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java! !(
+%18void"ij.ImagePlus#show()V*
+
+imp2ij.ImagePlus2show()*
+25
+27
+23*Õ
+29b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java   (‹
+Ÿ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java   (2
+%17void"5ij.gui.ImageWindow#setNextLocation(Ljava/awt/Point;)V*"
+ij.gui.ImageWindow*
+
+locjava.awt.Point*
+28*Ú
+30b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (0ù
+ö
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (0
+locjava.awt.Point"__id*
+
+%12java.awt.Pointæª
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java ($
+
+%15int"ij.ImagePlus#getCurrentSlice()I*
+
+impij.ImagePlus2getCurrentSlice()ˇ
+¸
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (&
+%16ij.ImagePlus"Hij.plugin.CompositeConverter#makeComposite(Lij/ImagePlus;)Lij/ImagePlus;* "
+ij.plugin.CompositeConverter*
+
+impij.ImagePlusö
+ó
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java ('
+imp2ij.ImagePlus"__id*
+
+%16ij.ImagePlus*
+28
+29*ä
+31b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java+ (/ô
+ñ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java+ (/
+%12java.awt.Point"__id*
+
+%14
+<nulltype>*
+30*Ì
+32b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (‹Ÿ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (*
+%13java.awt.Point"0java.awt.Component#getLocation()Ljava/awt/Point;*
+
+winij.gui.ImageWindow2getLocation()ù
+ö
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (*
+%12java.awt.Point"__id*
+
+%13java.awt.Point*
+30*ı
+10b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java: :(¥±
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java: :(
+%46void"ij.CompositeImage#reset()V*
+
+ciij.CompositeImage2reset()ŒÀ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java; ;(
+%47void"'ij.CompositeImage#resetDisplayRanges()V*
+
+ciij.CompositeImage2resetDisplayRanges()*
+9*Ò
+33b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (‘—
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java ($
+%11ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+impij.ImagePlus2getWindow()•
+¢
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (%
+winij.gui.ImageWindow"__id*
+
+%11ij.gui.ImageWindow*
+31
+32*î
+11b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java7 7(”–
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java7 7(&
+
+%42int"*ij.gui.GenericDialog#getNextChoiceIndex()I*
+
+gdij.gui.GenericDialog2getNextChoiceIndex()îë
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java8 8()
+%43ij.CompositeImage"ij.CompositeImage’
+“
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java8 8(7
+%44"*ij.CompositeImage#<init>(Lij/ImagePlus;I)V*
+
+%43ij.CompositeImage*
+
+impij.ImagePlus*
+""¢
+ü
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java8 8(8
+ciij.CompositeImage"__id*
+
+%43ij.CompositeImage∂≥
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java9 9(
+
+%45int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()*
+9
+10*’
+34b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java
+ (∑¥
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java
+ (	
+%7int"ij.ImagePlus#getNChannels()I*
+
+impij.ImagePlus2getNChannels()≥∞
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java
+ (	
+%8int"ij.ImagePlus#getNSlices()I*
+
+impij.ImagePlus2getNSlices()≥∞
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java
+ (	
+%9int"ij.ImagePlus#getNFrames()I*
+
+impij.ImagePlus2getNFrames()∂≥
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (
+
+%10int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()*
+16
+18
+33*÷
+12b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java6 6( "l
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java6 6( 
+""*÷
+35b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (
+"l
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (
+
+""*§
+13b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java3( 3(8öó
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java3 3('
+%37ij.gui.GenericDialog"ij.gui.GenericDialog”
+–
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java3 3(9
+%38"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%37ij.gui.GenericDialog*
+Make Composite®
+•
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java3 3(:
+gdij.gui.GenericDialog"__id*
+
+%37ij.gui.GenericDialog˛˚
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java4 4(-
+%39void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Display Mode:*
+
+modesjava.lang.String[]*
+
+modejava.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)ƒ¡
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java5 5(
+%40void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()…∆
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java6 6(
+%41boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+11
+12*˛
+36b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (
+}
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (	
+%4int"__id*
+""∆√
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (
+
+%5void"ij.CompositeImage#setMode(I)V*
+
+ciij.CompositeImage*
+	
+%4int2
+setMode(I)√¿
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (
+
+%6void""ij.CompositeImage#updateAndDraw()V*
+
+ciij.CompositeImage2updateAndDraw()*
+35*«
+14b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java2 2(±
+Æ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java2 2(
+%36java.lang.String"
+__arrayGet*
+
+modesjava.lang.String[]*2¢
+ü
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java2 2(
+modejava.lang.String"__id*
+
+%36java.lang.String*
+13*Ã
+37b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java' (*ù
+ö
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (+
+ciij.CompositeImage"__id*
+
+impij.ImagePlus∂≥
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (	
+%2int"ij.CompositeImage#getMode()I*
+
+ciij.CompositeImage2	getMode()
+}
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (!	
+%3int"__id*
+""*
+35
+36*Ú
+38b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (¶
+£
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (
+%0ij.ImagePlus"ij.IJ#getImage()Lij/ImagePlus;*	"
+ij.IJò
+ï
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java ( 
+impij.ImagePlus"__id*
+
+%0ij.ImagePlusπ∂
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java (
+%1boolean"ij.ImagePlus#isComposite()Z*
+
+impij.ImagePlus2isComposite()*
+37
+34*ì
+
+16b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java/ /( ñì
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java/ /(7
+%31java.lang.String[]"java.lang.String[]™
+ß
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java/ /(7
+%32"
+__arraySet*
+
+%31java.lang.String[]*2 *
+	Composite®
+•
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java/ /(7
+%33"
+__arraySet*
+
+%31java.lang.String[]*2*	
+Color¨
+©
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java/ /(7
+%34"
+__arraySet*
+
+%31java.lang.String[]*2*
+	Grayscaleß
+§
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java/ /(8
+modesjava.lang.String[]"__id*
+
+%31java.lang.String[]Ø
+¨
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java0 0(
+%35java.lang.String"
+__arrayGet*
+
+modesjava.lang.String[]*2 ¢
+ü
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java0 0(
+modejava.lang.String"__id*
+
+%35java.lang.String*
+13
+14*ç
+18b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java. .(ô
+ñ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java. .('
+%30boolean"ij.IJ#macroRunning()Z*	"
+ij.IJ*
+16
+1*Ä
+0 "y
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaG G(
+implicit return*˛
+1b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaF F(è
+å
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaF F(w
+%57void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*lj
+hTo create a composite, the current image must be\n a stack with at least 2 channels or be in RGB format.*
+0*ú
+2b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaD D(≠™
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaD D(
+%56void"ij.ImagePlus#show()V*
+
+ciij.CompositeImage2show()*
+0*Ö
+3b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaC C(ñ
+ì
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaC C(
+%55void"ij.IJ#wait(I)V*	"
+ij.IJ*2˙*
+2*Ü
+4b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaB B(	î
+ë
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaB B(
+%54boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+2
+3*–
+5b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaA A(·
+ﬁ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.javaA A()
+%53void"5ij.gui.ImageWindow#setNextLocation(Ljava/awt/Point;)V*"
+ij.gui.ImageWindow*
+
+locationjava.awt.Point*
+4*¿
+6b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java> >(5¢
+ü
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java> >(5
+locationjava.awt.Point"__id*
+
+%49java.awt.Point©¶
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java? ?(
+%52void"ij.ImagePlus#hide()V*
+
+impij.ImagePlus2hide()*
+4
+5*à
+7b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java>0 >(4ô
+ñ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java>0 >(4
+%49java.awt.Point"__id*
+
+%51
+<nulltype>*
+6*Î
+8b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java> >(!‹Ÿ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java> >(/
+%50java.awt.Point"0java.awt.Component#getLocation()Ljava/awt/Point;*
+
+winij.gui.ImageWindow2getLocation()ù
+ö
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java> >(/
+%49java.awt.Point"__id*
+
+%50java.awt.Point*
+6*Ó
+9b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java= =(‘—
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java= =($
+%48ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+impij.ImagePlus2getWindow()•
+¢
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java= =(%
+winij.gui.ImageWindow"__id*
+
+%48ij.gui.ImageWindow*
+7
+8*Ü
+20b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java- -(ñ
+ì
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java- -(
+%29void"ij.IJ#wait(I)V*	"
+ij.IJ*2Ù*
+0*™
+21b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java, ,(#∂
+≥
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java, ,(1
+%28boolean"#ij.macro.Interpreter#isBatchMode()Z*"
+ij.macro.Interpreter*
+20
+0*à
+22b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java, ,(	î
+ë
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java, ,(
+%27boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+21
+0*€
+23b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java) )(ºπ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java) )(
+%25void"ij.ImagePlus#setSlice(I)V*
+
+imp2ij.ImagePlus*
+""2setSlice(I)´®
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CompositeConverter.java* *(
+%26void"ij.ImagePlus#close()V*
+
+impij.ImagePlus2close()*
+22:
+argjava.lang.StringB 
+ij.plugin.CompositeConverter

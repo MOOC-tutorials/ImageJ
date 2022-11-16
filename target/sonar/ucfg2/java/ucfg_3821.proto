@@ -1,0 +1,196 @@
+
+/ij.WindowManager#getActiveImage()Lij/ImagePlus;V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javad d(("13*ç
+13V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javae e(§
+°
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javae e(
+%0ij.gui.ImageWindow"__id*'*%
+ij.WindowManager"
+currentWindow*
+11
+12*ï
+1V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javap
+ p(∆
+√
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javap
+ p(-
+%18ij.ImagePlus":ij.macro.Interpreter#getLastBatchModeImage()Lij/ImagePlus;*"
+ij.macro.Interpreter"o
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javap p(.
+
+%18ij.ImagePlus*»	
+2V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javam" m(+ü
+ú
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javam" m(+
+%13java.util.Vector"__id*#*!
+ij.WindowManager"
+	imageListü
+ú
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javam0 m(9
+%14java.util.Vector"__id*#*!
+ij.WindowManager"
+	imageList§°
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javam0 m(@
+
+%15int"java.util.Vector#size()I*
+
+%14java.util.Vector2size()£
+†
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javam" m(C
+%16java.lang.Object"
+__arrayGet*
+
+%13java.util.Vector*
+""ó
+î
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javam m(D
+winij.gui.ImageWindow"__id*
+
+%16java.lang.ObjectŒÀ
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javan
+ n(
+%17ij.ImagePlus"/ij.gui.ImageWindow#getImagePlus()Lij/ImagePlus;*
+
+winij.gui.ImageWindow2getImagePlus()"o
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javan n(
+
+%17ij.ImagePlus*Ã
+3V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javal l("o
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javal l(
+
+impij.ImagePlus*π
+4V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaj j(-√
+¿
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaj j(/
+%12ij.ImagePlus";ij.WindowManager#getFocusManagerActiveImage()Lij/ImagePlus;*"
+ij.WindowManagerç
+ä
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaj j(0
+impij.ImagePlus"__id*
+
+%12ij.ImagePlus*
+2
+3*¨
+5V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javai i(ü
+ú
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javai i(
+%10java.util.Vector"__id*#*!
+ij.WindowManager"
+	imageList§°
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javai i(
+
+%11int"java.util.Vector#size()I*
+
+%10java.util.Vector2size()*
+4
+1*À
+6V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javah h(K"n
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javah h(K
+
+%6ij.ImagePlus*Ï
+7V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javahF h(Jâ
+Ü
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javahF h(J
+%6ij.ImagePlus"__id*
+
+%8
+<nulltype>*
+6*‹
+8V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javah* h(5ü
+ú
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javah* h(5
+%9java.awt.Window"__id*%*#
+ij.WindowManager"
+frontWindow…∆
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javah h(E
+%7ij.ImagePlus"/ij.gui.ImageWindow#getImagePlus()Lij/ImagePlus;*
+
+%9java.awt.Window2getImagePlus()ã
+à
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javah h(E
+%6ij.ImagePlus"__id*
+
+%7ij.ImagePlus*
+6*Ö
+9V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javah
+ h(ü
+ú
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javah
+ h(
+%5java.awt.Window"__id*%*#
+ij.WindowManager"
+frontWindow*
+7
+8*Ü
+10V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javag! g(,ü
+ú
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javag! g(,
+%4java.awt.Window"__id*%*#
+ij.WindowManager"
+frontWindow*
+5
+9*á
+11V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javag g(ü
+ú
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javag g(
+%3java.awt.Window"__id*%*#
+ij.WindowManager"
+frontWindow*
+5
+10*¬
+12V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaf
+ f(§
+°
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaf
+ f(
+%1ij.gui.ImageWindow"__id*'*%
+ij.WindowManager"
+currentWindowÃ…
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaf
+ f(&
+%2ij.ImagePlus"/ij.gui.ImageWindow#getImagePlus()Lij/ImagePlus;*
+
+%1ij.gui.ImageWindow2getImagePlus()"n
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaf f('
+
+%2ij.ImagePlusB"
+ij.WindowManager

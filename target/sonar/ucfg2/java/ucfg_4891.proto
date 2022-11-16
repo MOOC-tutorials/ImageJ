@@ -1,0 +1,58 @@
+
+Wij.io.DragAndDropHandler#isSupportedTransferFlavor(Ljava/awt/datatransfer/DataFlavor;)Z^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/DragAndDropHandler.javaZ Z()"5*Ö
+2^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/DragAndDropHandler.java]9 ](?ú÷
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/DragAndDropHandler.java]9 ](M
+%4java.lang.String"@java.awt.datatransfer.DataFlavor#getMimeType()Ljava/lang/String;*,
+*
+flavor java.awt.datatransfer.DataFlavor2getMimeType()îë
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/DragAndDropHandler.java]9 ](f
+%5boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+%4java.lang.String*
+
+text/plain2startsWith(Ljava/lang/String;)*
+1*Ü
+3^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/DragAndDropHandler.java] ](ú÷
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/DragAndDropHandler.java] ](
+%2java.lang.String"@java.awt.datatransfer.DataFlavor#getMimeType()Ljava/lang/String;*,
+*
+flavor java.awt.datatransfer.DataFlavor2getMimeType()ñî
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/DragAndDropHandler.java] ](5
+%3boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+%2java.lang.String*
+text/uri-list2startsWith(Ljava/lang/String;)*
+2
+1*ü
+4^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/DragAndDropHandler.java\ \(Ž‹
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/DragAndDropHandler.java\ \($
+%1java.lang.Class"Jjava.awt.datatransfer.DataFlavor#getRepresentationClass()Ljava/lang/Class;*,
+*
+flavor java.awt.datatransfer.DataFlavor2getRepresentationClass()*
+3
+1*è
+5^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/DragAndDropHandler.java[	 [(ú÷
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/DragAndDropHandler.java[	 [(*
+%0boolean"<java.awt.datatransfer.DataFlavor#isFlavorJavaFileListType()Z*,
+*
+flavor java.awt.datatransfer.DataFlavor2isFlavorJavaFileListType()*
+4
+1*Í
+1^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/DragAndDropHandler.java[ ](i"h
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/DragAndDropHandler.java[ ](i
+"":*
+flavor java.awt.datatransfer.DataFlavorB
+ij.io.DragAndDropHandler

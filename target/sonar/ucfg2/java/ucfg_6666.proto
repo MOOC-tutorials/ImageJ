@@ -1,0 +1,555 @@
+
+$ij.plugin.ZProjector#doProjection()V\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∞ ∞("40*®
+24\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∆) ∆(,ü
+ú
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∆) ∆(,
+%13ij.ImagePlus"__id*!*
+ij.plugin.ZProjector"
+imp™ß
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∆) ∆(7
+
+%14int"ij.ImagePlus#getWidth()I*
+
+%13ij.ImagePlus2
+getWidth()ü
+ú
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∆8 ∆(;
+%15ij.ImagePlus"__id*!*
+ij.plugin.ZProjector"
+imp¨©
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∆8 ∆(G
+
+%16int"ij.ImagePlus#getHeight()I*
+
+%15ij.ImagePlus2getHeight()ûõ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∆ ∆(( 
+%17ij.process.FloatProcessor"ij.process.FloatProcessorœ
+Ã
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∆ ∆(H
+%18"%ij.process.FloatProcessor#<init>(II)V*"
+ 
+%17ij.process.FloatProcessor*
+
+
+%14int*
+
+
+%16int¨
+©
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∆ ∆(I
+fpij.process.FloatProcessor"__id*"
+ 
+%17ij.process.FloatProcessorü
+ú
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java« «(
+%19ij.ImagePlus"__id*!*
+ij.plugin.ZProjector"
+imp¬ø
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java« «(#
+%20ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+%19ij.ImagePlus2
+getStack()ó
+î
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java« «($
+stackij.ImageStack"__id*
+
+%20ij.ImageStack¥
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java» »(2'
+%21 ij.plugin.ZProjector$RayFunction"cij.plugin.ZProjector#getRayFunction(ILij/process/FloatProcessor;)Lij/plugin/ZProjector$RayFunction;*
+ij.plugin.ZProjector*
+""*!
+
+fpij.process.FloatProcessorø
+º
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java» »(3+
+rayFunc ij.plugin.ZProjector$RayFunction"__id*)
+'
+%21 ij.plugin.ZProjector$RayFunction*
+22
+23*‘
+25\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java¡ ¡(!ﬂ‹
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java¡ ¡(#
+%12ij.ImagePlus"7ij.plugin.ZProjector#doMedianProjection()Lij/ImagePlus;*
+ij.plugin.ZProjector2doMedianProjection()•
+¢
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java¡ ¡(#%
+ij.plugin.ZProjector"
+	projImage"__id*
+
+%12ij.ImagePlus"f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java¬ ¬(
+
+""*Ë
+26\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java¿ ¿(z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java¿ ¿(
+
+%11int"__id*
+""*
+24
+25*â
+31\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∫ ∫('û
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∫( ∫(+
+%9ij.ImagePlus"__id*!*
+ij.plugin.ZProjector"
+impÛ
+
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∫ ∫(,
+%10ij.ImagePlus"Kij.plugin.ZProjector#doAverageFloatProjection(Lij/ImagePlus;)Lij/ImagePlus;*
+ij.plugin.ZProjector*
+
+%9ij.ImagePlus•
+¢
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∫ ∫(,%
+ij.plugin.ZProjector"
+	projImage"__id*
+
+%10ij.ImagePlus"f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaª ª(
+
+""*Á
+32\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaπ π(%y
+w
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaπ' π(1	
+%8int"__id*
+""*
+26
+31*æ
+33\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaπ π(	û
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaπ π(	
+%6ij.ImagePlus"__id*!*
+ij.plugin.ZProjector"
+impÆ´
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaπ π(	
+%7int"ij.ImagePlus#getBitDepth()I*
+
+%6ij.ImagePlus2getBitDepth()*
+26
+32*Ç
+11\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java„ „(ÿ’
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java„ „(%
+%38java.lang.Object",ij.ImageStack#getPixels(I)Ljava/lang/Object;*
+
+stackij.ImageStack*
+""2getPixels(I)µ
+≤
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java„ „(6
+%39void"Yij.plugin.ZProjector#projectSlice(Ljava/lang/Object;Lij/plugin/ZProjector$RayFunction;I)V*
+ij.plugin.ZProjector*
+
+%38java.lang.Object*-
++
+rayFunc ij.plugin.ZProjector$RayFunction*
+""*
+9
+11
+12*ê
+34\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∂ ∂(√¿
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∂ ∂(
+
+%5void"'ij.plugin.ZProjector#doRGBProjection()V*
+ij.plugin.ZProjector2doRGBProjection()"f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java∑ ∑(
+
+""*Œ
+12\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java‡ ‡(	•
+¢
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java‡& ‡(+
+%30java.lang.String"__id*#*!
+ij.plugin.ZProjector"
+color±
+Æ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java‡ ‡(+
+%31java.lang.String"__concat*
+ZProjection *
+
+%30java.lang.Stringß
+§
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java‡ ‡(1
+%32java.lang.String"__concat*
+
+%31java.lang.String*
+: ß
+§
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java‡ ‡(5
+%33java.lang.String"__concat*
+
+%32java.lang.String*
+""¶
+£
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java‡ ‡(;
+%34java.lang.String"__concat*
+
+%33java.lang.String*
+/ß
+§
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java‡ ‡(G
+%35java.lang.String"__concat*
+
+%34java.lang.String*
+""ª
+∏
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java‡ ‡(H
+%36void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%35java.lang.String¢
+ü
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java· ·(:
+%37void"ij.IJ#showProgress(II)V*	"
+ij.IJ*
+""*
+""*
+11*æ
+35\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaµ µ(	û
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaµ µ(	
+%3ij.ImagePlus"__id*!*
+ij.plugin.ZProjector"
+impÆ´
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaµ µ(	
+%4int"ij.ImagePlus#getBitDepth()I*
+
+%3ij.ImagePlus2getBitDepth()*
+33
+34*„
+37\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java≥ ≥(!y
+w
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java≥" ≥(/	
+%2int"__id*
+""*
+35*Á
+38\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java≥ ≥(y
+w
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java≥ ≥(	
+%1int"__id*
+""*
+35
+37*•
+16\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÿ ÿ(ÿ
+’
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÿ ÿ(5
+%29void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+	Z Project*
+Non-RGB stack required"f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaŸ Ÿ(
+""* 
+39\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java≤ ≤(
+"f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java≤ ≤(
+
+""*‰
+18\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java÷ ÷(ÓÎ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java÷ ÷(  
+%28ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stackij.ImageStack*22getProcessor(I)*
+16
+9
+11
+12*z
+0 "s
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java¯ ¯(
+implicit return*∆
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java˜ ˜(›
+⁄
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java˜ ˜(:
+%59void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+	Z Project*
+Error computing projection.*
+0*ë
+2\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaˆ ˆ(•
+¢
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaˆ ˆ(
+%58ij.ImagePlus"__id*'*%
+ij.plugin.ZProjector"
+	projImage*
+0
+1*≈
+3\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÚ Ú(
+›⁄
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÚ Ú(
+%55void"/ij.plugin.ZProjector$RayFunction#postProcess()V*-
++
+rayFunc ij.plugin.ZProjector$RayFunction2postProcess()ü
+ú
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÛ Û("
+%56ij.ImagePlus"__id*!*
+ij.plugin.ZProjector"
+imp≤
+Ø
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÛ Û(.
+%57ij.ImagePlus"^ij.plugin.ZProjector#makeOutputImage(Lij/ImagePlus;Lij/process/FloatProcessor;I)Lij/ImagePlus;*
+ij.plugin.ZProjector*
+
+%56ij.ImagePlus*!
+
+fpij.process.FloatProcessor*
+""•
+¢
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÛ Û(.%
+ij.plugin.ZProjector"
+	projImage"__id*
+
+%57ij.ImagePlus*
+2*•
+
+4\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÓ Ó(
+›⁄
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÓ Ó(
+%50void"/ij.plugin.ZProjector$RayFunction#postProcess()V*-
++
+rayFunc ij.plugin.ZProjector$RayFunction2postProcess()–Õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÔ Ô(
+%51void"+ij.process.FloatProcessor#resetMinAndMax()V*!
+
+fpij.process.FloatProcessor2resetMinAndMax()’“
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java ((
+%52java.lang.String"2ij.plugin.ZProjector#makeTitle()Ljava/lang/String;*
+ij.plugin.ZProjector2makeTitle()ÑÅ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java (
+%53ij.ImagePlus"ij.ImagePlusÇ
+ˇ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java (-
+%54"Cij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%53ij.ImagePlus*
+
+%52java.lang.String*!
+
+fpij.process.FloatProcessor•
+¢
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java (-%
+ij.plugin.ZProjector"
+	projImage"__id*
+
+%53ij.ImagePlus*
+2*Â
+5\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÌ Ì(z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÌ Ì(
+
+%49int"__id*
+""*
+3
+4*≈
+6\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÎ Î(–Õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÎ Î(
+%45void"+ij.process.FloatProcessor#resetMinAndMax()V*!
+
+fpij.process.FloatProcessor2resetMinAndMax()’“
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÏ Ï((
+%46java.lang.String"2ij.plugin.ZProjector#makeTitle()Ljava/lang/String;*
+ij.plugin.ZProjector2makeTitle()ÑÅ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÏ Ï(
+%47ij.ImagePlus"ij.ImagePlusÇ
+ˇ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÏ Ï(-
+%48"Cij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%47ij.ImagePlus*
+
+%46java.lang.String*!
+
+fpij.process.FloatProcessor•
+¢
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÏ Ï(-%
+ij.plugin.ZProjector"
+	projImage"__id*
+
+%47ij.ImagePlus*
+2*∑
+7\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÍ Í(ŒÀ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÍ Í(#
+%44void"&ij.process.ImageProcessor#subtract(D)V*!
+
+fpij.process.FloatProcessor*
+""2subtract(D)*
+6*Ω
+8\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÈ È(
+ü
+ú
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÈ È(
+
+%41ij.ImagePlus"__id*!*
+ij.plugin.ZProjector"
+imp‡›
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÈ È(
+%42ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+%41ij.ImagePlus2getCalibration()Ã…
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaÈ È(+
+%43boolean"'ij.measure.Calibration#isSigned16Bit()Z*
+
+%42ij.measure.Calibration2isSigned16Bit()*
+6
+7*Â
+9\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaË Ë(z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaË Ë(
+
+%40int"__id*
+""*
+5
+8*ç
+40\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java± ±(	û
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java± ±(	
+%0ij.ImagePlus"__id*!*
+ij.plugin.ZProjector"
+imp*
+38
+39*‰
+20\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java’ ’(ÓÎ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java’ ’(  
+%27ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stackij.ImageStack*22getProcessor(I)*
+18
+9
+11
+12*‰
+22\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java” ”(ÓÎ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java‘ ‘( 
+%26ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stackij.ImageStack*22getProcessor(I)*
+9
+20
+11
+12*§
+23\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java   (´
+®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java   (3
+%22java.lang.String"__concat*
+\nProjecting stack from: *
+""™
+ß
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java  À(
+%23java.lang.String"__concat*
+
+%22java.lang.String*	
+ to: ß
+§
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java  À(
+%24java.lang.String"__concat*
+
+%23java.lang.String*
+""¥
+±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java  À(
+%25void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%24java.lang.String*
+22B
+ij.plugin.ZProjector

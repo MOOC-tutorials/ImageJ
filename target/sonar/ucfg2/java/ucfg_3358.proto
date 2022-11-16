@@ -1,0 +1,284 @@
+
+:ij.macro.Functions#setTableLocAndSize()Lij/macro/Variable;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java†8 †8($"17*Ê
+13Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ8% Æ8((~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ8% Æ8(*
+
+%11int"__id*
+
+
+%12int*
+11*ı
+14Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¨8 ¨8(—Œ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¨8 ¨8("
+%8java.awt.Point"0java.awt.Component#getLocation()Ljava/awt/Point;*
+
+framejava.awt.Frame2getLocation()î
+ë
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¨8 ¨8(#
+locjava.awt.Point"__id*
+
+%8java.awt.Point—Œ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java≠8 ≠8(#
+%9java.awt.Dimension"0java.awt.Component#getSize()Ljava/awt/Dimension;*
+
+framejava.awt.Frame2	getSize()ù
+ö
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java≠8 ≠8($
+sizejava.awt.Dimension"__id*
+
+%9java.awt.Dimension©
+¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ8 Æ8($
+%10boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+""*
+13
+12*Ï
+15Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java™8 ™8(Á
+‰
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java™8 ™8(-
+%7java.awt.Frame"=ij.WindowManager#getFrame(Ljava/lang/String;)Ljava/awt/Frame;*"
+ij.WindowManager*
+
+titlejava.lang.Stringñ
+ì
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java™8 ™8(.
+framejava.awt.Frame"__id*
+
+%7java.awt.Frame*
+14
+1*è
+16Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaß8 ß8($Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaß8 ß8(+
+%5ij.measure.ResultsTable"Oij.macro.Functions#getResultsTable(Ljava/lang/String;)Lij/measure/ResultsTable;*
+ij.macro.Functions*
+
+titlejava.lang.String•
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaß8 ß8(,
+rtij.measure.ResultsTable"__id*
+
+%5ij.measure.ResultsTable⁄◊
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java®8 ®8(
+%6java.lang.String"4ij.measure.ResultsTable#getTitle()Ljava/lang/String;*
+
+rtij.measure.ResultsTable2
+getTitle()ö
+ó
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java®8 ®8(
+titlejava.lang.String"__id*
+
+%6java.lang.String*
+15*¨	
+17Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java°8 °8(∑¥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java°8 °8(
+%0double"!ij.macro.Functions#getFirstArg()D*
+ij.macro.Functions2getFirstArg()µ≤
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¢8 ¢8(
+%1double" ij.macro.Functions#getNextArg()D*
+ij.macro.Functions2getNextArg()µ≤
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£8 £8(
+%2double" ij.macro.Functions#getNextArg()D*
+ij.macro.Functions2getNextArg()µ≤
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java§8 §8(
+%3double" ij.macro.Functions#getNextArg()D*
+ij.macro.Functions2getNextArg()¿
+Ω
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java•8 •8(
+%4java.lang.String"/ij.macro.Functions#getTitle()Ljava/lang/String;*
+ij.macro.Functionsö
+ó
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java•8 •8(
+titlejava.lang.String"__id*
+
+%4java.lang.String*
+15
+16*≈
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java±8	 ±8("d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java±8 ±8(
+""*µ
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ8 Ø8(iŒÀ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ8 Ø8(i
+%27void"java.awt.Window#setSize(II)V*
+
+framejava.awt.Frame*
+
+
+%20int*
+
+
+%24int2setSize(II)*
+1*Ï
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ8b Ø8(hÅ
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ8b Ø8(h
+
+%24int"__id*
+
+%26doubleÅ
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ8] Ø8(h
+
+%24int"__id*
+
+%26double*
+2*‰
+4Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ8Q Ø8(U~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ8Q Ø8(\
+
+%24int"__id*
+
+
+%25int*
+2*ì
+5Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ8< Ø8(B©
+¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ8< Ø8(P
+%23boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+""*
+3
+4*Ï
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ85 Ø8(:Å
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ85 Ø8(:
+
+%20int"__id*
+
+%22doubleÅ
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ80 Ø8(:
+
+%20int"__id*
+
+%22double*
+5*‰
+7Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ8% Ø8()~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ8% Ø8(/
+
+%20int"__id*
+
+
+%21int*
+5*Ï
+8Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ8 Æ8(P÷”
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ8 Æ8(P
+%18void" java.awt.Window#setLocation(II)V*
+
+framejava.awt.Frame*
+
+
+%11int*
+
+
+%15int2setLocation(II)©
+¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ8 Ø8($
+%19boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+""*
+6
+7*Ï
+9Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ8N Æ8(OÅ
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ8N Æ8(O
+
+%15int"__id*
+
+%17doubleÅ
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ8I Æ8(O
+
+%15int"__id*
+
+%17double*
+8*Â
+10Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ8C Æ8(F~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ8C Æ8(H
+
+%15int"__id*
+
+
+%16int*
+8*ï
+11Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ83 Æ8(9©
+¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ83 Æ8(B
+%14boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+""*
+9
+10*Ó
+12Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ80 Æ8(1Å
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ80 Æ8(1
+
+%11int"__id*
+
+%13doubleÅ
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ8+ Æ8(1
+
+%11int"__id*
+
+%13double*
+11B
+ij.macro.Functions

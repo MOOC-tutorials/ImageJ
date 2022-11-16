@@ -1,0 +1,51 @@
+
+Bij.gui.PlotCanvas#getRangeArrowIndex(Ljava/awt/event/MouseEvent;)IY
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotCanvas.javaó ó("3*±
+2Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotCanvas.java÷ ÷(¶³
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotCanvas.java÷ ÷(	
+%2int"!java.awt.event.MouseEvent#getX()I* 
+
+ejava.awt.event.MouseEvent2getX()¶³
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotCanvas.javaø ø(	
+%3int"!java.awt.event.MouseEvent#getY()I* 
+
+ejava.awt.event.MouseEvent2getY()ÙÖ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotCanvas.javaù ù(H	
+%4int")ij.gui.PlotWindow#getRangeArrowIndex(II)I*
+
+winij.gui.ImageWindow*
+""*
+""2getRangeArrowIndex(II)*
+1*ë
+3Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotCanvas.javaô ô(˜
+•
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotCanvas.javaô ô(
+%0ij.ImagePlus"__id**
+ij.gui.PlotCanvas"
+impÉÆ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotCanvas.javaô ô()
+%1ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+%0ij.ImagePlus2getWindow()›
+˜
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotCanvas.javaô ô(*
+winij.gui.ImageWindow"__id*
+
+%1ij.gui.ImageWindow*
+2
+1*Ã
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotCanvas.javaû û("c
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotCanvas.javaû û(
+"":
+ejava.awt.event.MouseEventB
+ij.gui.PlotCanvas

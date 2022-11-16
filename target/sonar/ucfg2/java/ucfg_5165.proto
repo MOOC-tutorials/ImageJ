@@ -1,0 +1,443 @@
+
+@ij.plugin.filter.Filler#setup(Ljava/lang/String;Lij/ImagePlus;)I]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java ("33*†
+24]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java ((š
+—
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java ((
+%8java.lang.String"__id*
+
+%9java.lang.String*
+22*ÿ
+25]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (
+Œ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (
+%7boolean"ij.IJ#isMacOSX()Z*	"
+ij.IJ*
+24
+23*¿
+26]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.javaL (O 
+
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.javaL (O
+%5
+ij.gui.Roi"__id*$*"
+ij.plugin.filter.Filler"
+roi¬©
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.javaB ([
+%6double"ij.gui.TextRoi#getAngle()D*
+
+%5
+ij.gui.Roi2
+getAngle()*
+25
+21*Ð
+27]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java+ (.àÝ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java+ (=
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+fill2equals(Ljava/lang/Object;)*
+26
+21*Ð
+28]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (àÝ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java ('
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+draw2equals(Ljava/lang/Object;)*
+26
+27*
+30]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java ( 
+
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (
+%2
+ij.gui.Roi"__id*$*"
+ij.plugin.filter.Filler"
+roi*
+28
+21*”
+31]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java ( 
+
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (
+%1
+ij.gui.Roi"__id*$*"
+ij.plugin.filter.Filler"
+roi*
+28
+30
+21*Ç
+32]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java	 (¸µ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java	 (
+%0
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi() 
+
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java ("
+ij.plugin.filter.Filler"
+roi"__id*
+
+%0
+ij.gui.Roi*
+31*½
+33]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (§
+¤
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java ("
+ij.plugin.filter.Filler"
+arg"__id*
+
+argjava.lang.String£
+ 
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java ("
+ij.plugin.filter.Filler"
+imp"__id*
+
+impij.ImagePlus*
+31
+32*Ó
+11]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java* *(âß
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java* *(
+%30boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*	
+label2equals(Ljava/lang/Object;)*	
+7
+8
+9*Œ
+12]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java) )(½
+º
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java) )(/
+
+%29int"#ij.IJ#setupDialog(Lij/ImagePlus;I)I*	"
+ij.IJ*
+
+impij.ImagePlus*
+"""g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java) )(0
+""*Ñ
+13]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java( ((áÞ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java( ((
+%28boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+draw2equals(Ljava/lang/Object;)*
+11
+12*‰
+14]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java' '({
+y
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java'/ '(?
+
+%26int"__id*
+""½
+º
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java' '(@
+
+%27int"#ij.IJ#setupDialog(Lij/ImagePlus;I)I*	"
+ij.IJ*
+
+impij.ImagePlus*
+"""g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java' '(A
+""*Ì
+15]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java% %("g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java% %(
+""*¾
+16]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java$ $($ÎË
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java$ $(&
+%25boolean"*ij.plugin.filter.Filler#isLineSelection()Z*
+ij.plugin.filter.Filler2isLineSelection()*
+14
+15*¢
+18]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java! !(Ö
+Ó
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java! !(1
+%23void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*	
+Clear*
+Area selection required{
+y
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java" "(
+
+%24int"__id*
+"""g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java" "(
+""*º
+19]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java   (¡
+ž
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java   (
+%20
+ij.gui.Roi"__id*$*"
+ij.plugin.filter.Filler"
+roi¥¢
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java   ("
+
+%21int"ij.gui.Roi#getType()I*
+
+%20
+ij.gui.Roi2	getType(){
+y
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java $  (-
+
+%22int"__id*
+""*
+15
+16
+18*ˆ
+1]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java5
+ 5({
+y
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java5. 5(>
+
+%41int"__id*
+""½
+º
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java5
+ 5(?
+
+%42int"#ij.IJ#setupDialog(Lij/ImagePlus;I)I*	"
+ij.IJ*
+
+impij.ImagePlus*
+"""g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java5 5(@
+""* 
+2]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java2 2(Õ
+Ò
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java2 2(0
+%39void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+Fill*
+Area selection required{
+y
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java3 3(
+
+%40int"__id*
+"""g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java3 3(
+""*Î
+3]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java14 1(7áÞ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java14 1(F
+%38boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+fill2equals(Ljava/lang/Object;)*
+2
+1*³
+4]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java1 1(¡
+ž
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java1 1(
+%35
+ij.gui.Roi"__id*$*"
+ij.plugin.filter.Filler"
+roi¥¢
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java1 1(%
+
+%36int"ij.gui.Roi#getType()I*
+
+%35
+ij.gui.Roi2	getType(){
+y
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java1' 1(0
+
+%37int"__id*
+""*
+3
+1*Ž
+5]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java1 1(¡
+ž
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java1 1(
+%34
+ij.gui.Roi"__id*$*"
+ij.plugin.filter.Filler"
+roi*
+4
+1*‹
+6]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java0 0(½
+º
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java0 0(/
+
+%33int"#ij.IJ#setupDialog(Lij/ImagePlus;I)I*	"
+ij.IJ*
+
+impij.ImagePlus*
+"""g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java0 0(0
+""*Ñ
+7]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java/ /(äá
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java/ /("
+%32boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*	
+outside2equals(Ljava/lang/Object;)*
+5
+6*Ë
+8]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java. .("g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java. .(
+""*È
+9]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java, ,({
+y
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java, ,()
+
+%31int"__id*
+"""g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java, ,(*
+""*•
+20]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java   (¡
+ž
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java   (
+%19
+ij.gui.Roi"__id*$*"
+ij.plugin.filter.Filler"
+roi*
+15
+16
+19*õ
+21]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (¦
+£
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (
+%15void""ij.IJ#register(Ljava/lang/Class;)V*	"
+ij.IJ*
+""{
+y
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (!
+
+%16int"__id*
+""{
+y
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java" (.
+
+%17int"__id*
+""âß
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (
+%18boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*	
+clear2equals(Ljava/lang/Object;)*
+13
+20*¬
+22]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (2™
+–
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (2
+sjava.lang.String"__id*
+
+%8java.lang.StringÂ
+¿
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (/
+%11java.lang.String"__concat*" 
+Draw rotated text by pressing *
+
+sjava.lang.StringÅ
+Â
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (Q
+%12java.lang.String"__concat*
+
+%11java.lang.String*#!
+ (Image>Overlay>Add Selection).·
+´
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (R
+%13void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%12java.lang.String{
+y
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (
+
+%14int"__id*
+"""g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java (
+""*‡
+23]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java) (1›
+˜
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Filler.java) (1
+%8java.lang.String"__id*
+
+%10java.lang.String*
+22:
+argjava.lang.String:
+impij.ImagePlusB
+ij.plugin.filter.Filler

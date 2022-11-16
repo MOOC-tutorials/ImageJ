@@ -1,0 +1,245 @@
+
+Eij.process.ColorSpaceConverter#RGBToLab(Lij/ImagePlus;)Lij/ImagePlus;f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java≤ ≤("5*¯
+3f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java¿ ¿(ÓÎ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java¿ ¿(2
+%17double[]",ij.process.ColorSpaceConverter#RGBtoLAB(I)[D*-
++
+	converterij.process.ColorSpaceConverter*
+""2RGBtoLAB(I)Ÿ÷
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java¡ ¡(
+%18void"#ij.process.FloatProcessor#setf(IF)V* 
+
+Lij.process.FloatProcessor*
+""*
+""2setf(IF)Ÿ÷
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java¬ ¬(
+%19void"#ij.process.FloatProcessor#setf(IF)V* 
+
+aij.process.FloatProcessor*
+""*
+""2setf(IF)Ÿ÷
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java√ √(
+%20void"#ij.process.FloatProcessor#setf(IF)V* 
+
+bij.process.FloatProcessor*
+""*
+""2setf(IF)*
+3
+1*´&
+5f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java≥& ≥()ÎË
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java≥& ≥(8
+%0ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+imgij.ImagePlus2getProcessor()µ
+≤
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java≥ ≥(9
+cpij.process.ColorProcessor"__id*!
+
+%0ij.process.ImageProcessor±Æ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java¥& ¥(9$
+%1ij.process.ColorSpaceConverter"ij.process.ColorSpaceConverter√
+¿
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java¥" ¥(;
+%2"(ij.process.ColorSpaceConverter#<init>()V*&
+$
+%1ij.process.ColorSpaceConverter∆
+√
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java¥ ¥(<+
+	converterij.process.ColorSpaceConverter"__id*&
+$
+%1ij.process.ColorSpaceConverterÏÈ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.javaµ µ(&
+%3java.lang.Object"7ij.process.ColorProcessor#getPixels()Ljava/lang/Object;*!
+
+cpij.process.ColorProcessor2getPixels()Ã…
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java∂
+ ∂(	
+%4int"%ij.process.ImageProcessor#getWidth()I*!
+
+cpij.process.ColorProcessor2
+getWidth()ŒÀ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java∑
+ ∑(	
+%5int"&ij.process.ImageProcessor#getHeight()I*!
+
+cpij.process.ColorProcessor2getHeight()èå
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java∏ ∏(#
+%6ij.ImageStack"ij.ImageStack≥
+∞
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java∏ ∏((
+%7"ij.ImageStack#<init>(II)V*
+
+%6ij.ImageStack*
+""*
+""†
+ù
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java∏ ∏()
+stackij.ImageStack"__id*
+
+%6ij.ImageStackß§
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.javaπ π('
+%8ij.process.FloatProcessor"ij.process.FloatProcessorÀ
+»
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.javaπ π(,
+%9"%ij.process.FloatProcessor#<init>(II)V*!
+
+%8ij.process.FloatProcessor*
+""*
+""¥
+±
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.javaπ π(-
+Lij.process.FloatProcessor"__id*!
+
+%8ij.process.FloatProcessor®•
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java∫ ∫(' 
+%10ij.process.FloatProcessor"ij.process.FloatProcessorÕ
+ 
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java∫ ∫(,
+%11"%ij.process.FloatProcessor#<init>(II)V*"
+ 
+%10ij.process.FloatProcessor*
+""*
+""µ
+≤
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java∫ ∫(-
+aij.process.FloatProcessor"__id*"
+ 
+%10ij.process.FloatProcessor®•
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.javaª ª(' 
+%12ij.process.FloatProcessor"ij.process.FloatProcessorÕ
+ 
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.javaª ª(,
+%13"%ij.process.FloatProcessor#<init>(II)V*"
+ 
+%12ij.process.FloatProcessor*
+""*
+""µ
+≤
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.javaª ª(-
+bij.process.FloatProcessor"__id*"
+ 
+%12ij.process.FloatProcessorΩ∫
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.javaº º(
+%14void"Fij.ImageStack#addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+stackij.ImageStack*
+L** 
+
+Lij.process.FloatProcessor27addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)Ω∫
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.javaΩ Ω(
+%15void"Fij.ImageStack#addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+stackij.ImageStack*
+a** 
+
+aij.process.FloatProcessor27addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)Ω∫
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.javaæ æ(
+%16void"Fij.ImageStack#addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+stackij.ImageStack*
+b** 
+
+bij.process.FloatProcessor27addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)*
+3
+1*≤
+1f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java≈! ≈('“œ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java≈( ≈(6
+%21java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+imgij.ImagePlus2
+getTitle()≥
+∞
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java≈! ≈(6
+%22java.lang.String"__concat*
+Lab_*
+
+%21java.lang.Stringéã
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java≈ ≈( 
+%23ij.ImagePlus"ij.ImagePlus˜
+Ù
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java≈ ≈(=
+%24"7ij.ImagePlus#<init>(Ljava/lang/String;Lij/ImageStack;)V*
+
+%23ij.ImagePlus*
+
+%22java.lang.String*
+
+stackij.ImageStackû
+õ
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java≈ ≈(>
+img2ij.ImagePlus"__id*
+
+%23ij.ImagePlusÖ
+Ç
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java∆0 ∆(<
+
+%25int"__id*
+""òï
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java∆ ∆(*
+%26ij.CompositeImage"ij.CompositeImage‡
+›
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java∆ ∆(=
+%27"*ij.CompositeImage#<init>(Lij/ImagePlus;I)V*
+
+%26ij.CompositeImage*
+
+img2ij.ImagePlus*
+
+
+%25int®
+•
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java∆ ∆(>
+img3ij.CompositeImage"__id*
+
+%26ij.CompositeImage‘—
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java« «(
+%28void"'ij.CompositeImage#resetDisplayRanges()V*
+
+img3ij.CompositeImage2resetDisplayRanges()"Ö
+f
+Z/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorSpaceConverter.java» »(
+
+img3ij.CompositeImage:
+imgij.ImagePlusB" 
+ij.process.ColorSpaceConverter

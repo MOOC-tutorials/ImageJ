@@ -1,0 +1,15 @@
+ij.IJ#handleException(Ljava/lang/Throwable;)V
+ij.macro.Interpreter#getInstance()Lij/macro/Interpreter;
+java.io.PrintWriter#<init>(Ljava/io/Writer;)V
+ij.text.TextWindow#instance-init#
+java.io.CharArrayWriter#<init>()V
+java.io.CharArrayWriter#instance-init#
+ij.text.TextWindow#<init>(Ljava/lang/String;Ljava/lang/String;II)V
+java.lang.Thread#getName()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.io.PrintWriter#instance-init#
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+java.lang.String#endsWith(Ljava/lang/String;)Z
+ij.IJ#getInstance()Lij/ImageJ;
+ij.IJ#log(Ljava/lang/String;)V
+java.lang.Thread#currentThread()Ljava/lang/Thread;

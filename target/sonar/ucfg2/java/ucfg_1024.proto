@@ -1,0 +1,246 @@
+
+3ij.plugin.filter.Calibrator#doCurveFitting([D[DI)[Dc
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaï
+ ï("13"12*Ú
+13c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javañ ñ(
+ş
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaò ó(=
+%0java.lang.String"__concat*97
+5To create a calibration curve, the left column must\n*:8
+6contain a list of measured mean pixel values and the\nä
+á
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaò ô(A
+%1java.lang.String"__concat*
+
+%0java.lang.String*><
+:right column must contain the same number of calibration\nà
+İ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaò õ(=
+%2java.lang.String"__concat*
+
+%1java.lang.String*:8
+6standard values. Use the Measure command to add mean\nØ
+Õ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaò ö(5
+%3java.lang.String"__concat*
+
+%2java.lang.String*20
+.pixel value measurements to the left column.\n­
+ª
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaò ÷(
+
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+ \n»
+¸
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaò ø(
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+    Left column: ¬
+©
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaò ø(!
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+""³
+°
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaò ø(-
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+	 values\n¼
+¹
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaò ù(
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+    Right column: ¬
+©
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaò ù("
+%9java.lang.String"__concat*
+
+%8java.lang.String*
+""´
+±
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaò ù(.
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+	 values\nŞ
+Û
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javañ ú(
+%11void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+	Calibrate*
+
+%10java.lang.String"m
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaû û(
+""*Ÿ
+
+5c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaŒ Œ(ÌÉ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaŒ Œ(
+
+%24int"&ij.measure.CurveFitter#getNumParams()I*
+
+cfij.measure.CurveFitter2getNumParams()ÌÉ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java (
+%25double[]"$ij.measure.CurveFitter#getParams()[D*
+
+cfij.measure.CurveFitter2getParams()ÍÊ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java ('
+%26double"%ij.measure.CurveFitter#getRSquared()D*
+
+cfij.measure.CurveFitter2getRSquared()Ä
+Á
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java (*
+%27java.lang.String"ij.IJ#d2s(DI)Ljava/lang/String;*	"
+ij.IJ*
+
+%26double*2¹
+¶
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java (*.
+ij.plugin.filter.Calibrator"
+fitGoodness"__id*
+
+%27java.lang.String¾
+»
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java (.
+ij.plugin.filter.Calibrator"
+curveFitter"__id*
+
+cfij.measure.CurveFitter*
+1*
+6c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java‹ ‹(ğí
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java‹! ‹(5
+%22java.lang.String":ij.measure.CurveFitter#getResultString()Ljava/lang/String;*
+
+cfij.measure.CurveFitter2getResultString()»
+¸
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java‹ ‹(6
+%23void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%22java.lang.String*
+5*ˆ
+8c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaˆ ˆ(ğí
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaˆ ˆ(*
+%21java.lang.String":ij.measure.CurveFitter#getStatusString()Ljava/lang/String;*
+
+cfij.measure.CurveFitter2getStatusString()»
+¸
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaˆ ˆ(*0
+ij.plugin.filter.Calibrator"
+curveFitError"__id*
+
+%21java.lang.String"m
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java‰ ‰(
+""*ç
+
+9c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaƒ ƒ(³
+°
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaƒ ƒ(!
+%15double[]"ij.util.Tools#getMinMax([D)[D*"
+ij.util.Tools*
+""Ÿœ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java… …("
+%16ij.measure.CurveFitter"ij.measure.CurveFitterÆ
+Ã
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java… …((
+%17"$ij.measure.CurveFitter#<init>([D[D)V*
+
+%16ij.measure.CurveFitter*
+""*
+""­
+ª
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java… …()
+cfij.measure.CurveFitter"__id*
+
+%16ij.measure.CurveFitterÓĞ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java† †(!
+%18void"!ij.measure.CurveFitter#doFit(IZ)V*
+
+cfij.measure.CurveFitter*
+""*
+""2	doFit(IZ)ÆÃ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java‡ ‡(
+
+%19int"#ij.measure.CurveFitter#getStatus()I*
+
+cfij.measure.CurveFitter2getStatus()
+
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java‡ ‡(8
+
+%20int"__id*
+""*	
+5
+6
+8*Ô
+12c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaı
+ ı(­
+ª
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaÿ ÿ(	
+%12ij.ImagePlus"__id*(*&
+ij.plugin.filter.Calibrator"
+imp¯¬
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaÿ ÿ(
+
+%13int"ij.ImagePlus#getType()I*
+
+%12ij.ImagePlus2	getType()
+
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaÿ ÿ(%
+
+%14int"__id*
+""*
+9*×
+1c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java“	 “("m
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java“ “(
+"":
+"":
+"":
+""B
+ij.plugin.filter.Calibrator

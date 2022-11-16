@@ -1,0 +1,99 @@
+
+<ij.io.Opener#updateUrl(Ljava/lang/String;)Ljava/lang/String;T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javað ð("5"6*Œ
+2T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaö	 ö(ÌÉ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaö	 ö(7
+%3java.lang.String"\java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;*
+
+urljava.lang.String*
+imagej.nih.gov/ij*
+
+imagej.net29replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)’
+
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaö ö(7
+urljava.lang.String"__id*
+
+%3java.lang.StringÎË
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java÷	 ÷(9
+%4java.lang.String"\java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;*
+
+urljava.lang.String*
+rsb.info.nih.gov/ij*
+
+imagej.net29replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)’
+
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java÷ ÷(9
+urljava.lang.String"__id*
+
+%4java.lang.StringÌÉ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaø	 ø(7
+%5java.lang.String"\java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;*
+
+urljava.lang.String*
+rsbweb.nih.gov/ij*
+
+imagej.net29replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)’
+
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaø ø(7
+urljava.lang.String"__id*
+
+%5java.lang.String*
+1*²
+3T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaô	 ô(¼¹
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaô	 ô('
+%2java.lang.String"\java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;*
+
+urljava.lang.String*	
+http:*
+
+https:29replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)’
+
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaô ô('
+urljava.lang.String"__id*
+
+%2java.lang.String*
+1*ê
+4T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaó ó(†
+ƒ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaó ó(
+%1boolean"ij.IJ#isJava18()Z*	"
+ij.IJ*
+2
+3*Ì
+5T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaò
+ ò("q
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaò ò(
+
+urljava.lang.String*Î
+6T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javañ ñ(êç
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javañ ñ(+
+%0boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+urljava.lang.String*	
+nih.gov2"contains(Ljava/lang/CharSequence;)*
+4
+5*Ì
+1T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaú	 ú("q
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaú ú(
+
+urljava.lang.String:
+urljava.lang.StringB"
+ij.io.Opener

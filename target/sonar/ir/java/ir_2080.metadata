@@ -1,0 +1,10 @@
+ij.macro.Interpreter#getNumericStringFunction(Ljava/lang/String;)D
+java.lang.String#length()I
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+java.lang.String#charAt(I)C
+java.lang.String#endsWith(Ljava/lang/String;)Z
+ij.macro.Functions#getArg()D
+java.lang.String#lastIndexOf(Ljava/lang/String;)I
+ij.macro.Interpreter#getParens()V
+java.lang.String#startsWith(Ljava/lang/String;)Z

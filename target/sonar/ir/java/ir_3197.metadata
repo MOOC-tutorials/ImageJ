@@ -1,0 +1,11 @@
+ij.macro.Functions#debug()Ljava/lang/String;
+java.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+ij.IJ#protectStatusBar(Z)V
+ij.macro.Interpreter#nextToken()I
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.plugin.frame.Editor#getInstance()Lij/plugin/frame/Editor;
+java.lang.IllegalArgumentException#<init>()V
+java.lang.String#indexOf(Ljava/lang/String;)I
+ij.IJ#setKeyUp(I)V
+java.lang.IllegalArgumentException#instance-init#
+ij.macro.Interpreter#getParens()V

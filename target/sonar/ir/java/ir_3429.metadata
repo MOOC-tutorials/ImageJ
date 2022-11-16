@@ -1,0 +1,14 @@
+ij.ImagePlus#show(Ljava/lang/String;)V
+ij.gui.PlotWindow#<init>(Lij/ImagePlus;Lij/gui/Plot;)V
+ij.gui.PlotWindow#instance-init#
+ij.IJ#wait(I)V
+ij.IJ#isMacro()Z
+ij.IJ#showStatus(Ljava/lang/String;)V
+ij.WindowManager#setTempCurrentImage(Lij/ImagePlus;)V
+ij.macro.Interpreter#isBatchMode()Z
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.macro.Interpreter#addBatchModeImage(Lij/ImagePlus;)V
+ij.gui.StackWindow#<init>(Lij/ImagePlus;)V
+ij.gui.StackWindow#instance-init#
+ij.gui.ImageWindow#instance-init#
+ij.gui.ImageWindow#<init>(Lij/ImagePlus;)V

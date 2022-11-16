@@ -1,0 +1,60 @@
+
+Xij.util.ThreadUtil#start([Ljava/util/concurrent/Callable;)[Ljava/util/concurrent/Future;X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/ThreadUtil.javaq q("5*µ
+3X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/ThreadUtil.javat t(
+Â
+¿
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/ThreadUtil.javat t("-
+%1'java.util.concurrent.ThreadPoolExecutor"__id*.*,
+ij.util.ThreadUtil"
+threadPoolExecutorÆ
+Ã
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/ThreadUtil.javat* t(6#
+%2java.util.concurrent.Callable"
+__arrayGet*.
+,
+	callablesjava.util.concurrent.Callable[]*
+""ôñ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/ThreadUtil.javat t(7!
+%3java.util.concurrent.Future"qjava.util.concurrent.AbstractExecutorService#submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;*/
+-
+%1'java.util.concurrent.ThreadPoolExecutor*%
+#
+%2java.util.concurrent.Callable2'submit(Ljava/util/concurrent/Callable;)È
+Å
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/ThreadUtil.javat t(7
+%4"
+__arraySet**
+(
+futuresjava.util.concurrent.Future[]*
+""*#
+!
+%3java.util.concurrent.Future*
+3
+1*À
+5X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/ThreadUtil.javar  r()¡ž
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/ThreadUtil.javar r(1#
+%0java.util.concurrent.Future[]"java.util.concurrent.Future[]´
+±
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/ThreadUtil.javar r(2(
+futuresjava.util.concurrent.Future[]"__id*%
+#
+%0java.util.concurrent.Future[]*
+3
+1*æ
+1X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/ThreadUtil.javau	 u("†
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/ThreadUtil.javau u(*
+(
+futuresjava.util.concurrent.Future[]:,
+	callablesjava.util.concurrent.Callable[]B"
+ij.util.ThreadUtil

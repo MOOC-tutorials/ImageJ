@@ -1,0 +1,87 @@
+
+‚ij.plugin.SubHyperstackMaker#makeSubhyperstack(Lij/ImagePlus;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lij/ImagePlus;b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubHyperstackMaker.java8 8(*"1*–
+1b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubHyperstackMaker.java9 9(&¹¶
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubHyperstackMaker.java90 9(D	
+%0int"ij.ImagePlus#getNChannels()I*
+
+inputij.ImagePlus2getNChannels()¢
+Ÿ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubHyperstackMaker.java9 9(E
+%1java.util.ArrayList"Pij.plugin.SubHyperstackMaker#parseList(Ljava/lang/String;I)Ljava/util/ArrayList;* "
+ij.plugin.SubHyperstackMaker*
+
+cStringjava.lang.String*
+	
+%0int¨
+¥
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubHyperstackMaker.java9 9(F
+cListjava.util.ArrayList"__id*
+
+%1java.util.ArrayListµ²
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubHyperstackMaker.java:0 :(B	
+%2int"ij.ImagePlus#getNSlices()I*
+
+inputij.ImagePlus2getNSlices()¢
+Ÿ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubHyperstackMaker.java: :(C
+%3java.util.ArrayList"Pij.plugin.SubHyperstackMaker#parseList(Ljava/lang/String;I)Ljava/util/ArrayList;* "
+ij.plugin.SubHyperstackMaker*
+
+zStringjava.lang.String*
+	
+%2int¨
+¥
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubHyperstackMaker.java: :(D
+zListjava.util.ArrayList"__id*
+
+%3java.util.ArrayListµ²
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubHyperstackMaker.java;0 ;(B	
+%4int"ij.ImagePlus#getNFrames()I*
+
+inputij.ImagePlus2getNFrames()¢
+Ÿ
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubHyperstackMaker.java; ;(C
+%5java.util.ArrayList"Pij.plugin.SubHyperstackMaker#parseList(Ljava/lang/String;I)Ljava/util/ArrayList;* "
+ij.plugin.SubHyperstackMaker*
+
+tStringjava.lang.String*
+	
+%4int¨
+¥
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubHyperstackMaker.java; ;(D
+tListjava.util.ArrayList"__id*
+
+%5java.util.ArrayList”
+‘
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubHyperstackMaker.java<	 <(6
+%6ij.ImagePlus"|ij.plugin.SubHyperstackMaker#makeSubhyperstack(Lij/ImagePlus;Ljava/util/List;Ljava/util/List;Ljava/util/List;)Lij/ImagePlus;* "
+ij.plugin.SubHyperstackMaker*
+
+inputij.ImagePlus*
+
+cListjava.util.ArrayList*
+
+zListjava.util.ArrayList*
+
+tListjava.util.ArrayList"z
+b
+X/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubHyperstackMaker.java< <(7
+
+%6ij.ImagePlus:
+inputij.ImagePlus:
+cStringjava.lang.String:
+zStringjava.lang.String:
+tStringjava.lang.StringB "
+ij.plugin.SubHyperstackMaker

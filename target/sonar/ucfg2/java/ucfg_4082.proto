@@ -1,0 +1,112 @@
+
+4ij.gui.PointRoi#getMask()Lij/process/ImageProcessor;W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaï ï("8*’
+3W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java÷ ÷(ž
+›
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java÷ ÷(1
+
+%6long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""ž
+›
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java÷8 ÷(S
+
+%7long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""éæ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.java÷ ÷(Y
+
+%8void"(ij.process.ImageProcessor#putPixel(III)V*#
+!
+maskij.process.ImageProcessor*
+
+
+%6long*
+
+
+%7long*2ÿ2putPixel(III)*
+3
+1*°
+5W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaó ó( –“
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaó ó(
+%2ij.process.ByteProcessor"ij.process.ByteProcessorº
+·
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaó	 ó()
+%3"$ij.process.ByteProcessor#<init>(II)V* 
+
+%2ij.process.ByteProcessor*
+""*
+""§
+¤
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaó ó()!
+maskij.process.ImageProcessor"__id* 
+
+%2ij.process.ByteProcessor£ 
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaô ô(
+%4double"ij.gui.Roi#getXBase()D*
+ij.gui.PointRoi2
+getXBase()£ 
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaõ õ(
+%5double"ij.gui.Roi#getYBase()D*
+ij.gui.PointRoi2
+getYBase()*
+3
+1*Ü
+6W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaò
+ ò("~
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaò ò(#
+!
+maskij.process.ImageProcessor*Æ
+7W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javañ ñ(ßÜ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javañ ñ($
+%1java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*#
+!
+maskij.process.ImageProcessor2getPixels()*
+5
+6*º
+8W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javað ð("¨
+¥
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javað ð("
+%0ij.process.ImageProcessor"__id*#*!
+ij.gui.PointRoi"
+
+cachedMask¨
+¥
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javað ð(#!
+maskij.process.ImageProcessor"__id*!
+
+%0ij.process.ImageProcessor*
+5
+7*‰
+1W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaø ø(ª
+§
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaø ø(!
+ij.gui.PointRoi"
+
+cachedMask"__id*#
+!
+maskij.process.ImageProcessor"~
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PointRoi.javaù ù(#
+!
+maskij.process.ImageProcessorB
+ij.gui.PointRoi

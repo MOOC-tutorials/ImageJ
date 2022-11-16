@@ -1,0 +1,8 @@
+ij.plugin.RoiScaler#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.Undo#setup(ILij/ImagePlus;)V
+ij.plugin.RoiScaler#scale(Lij/gui/Roi;DDZ)Lij/gui/Roi;
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+ij.IJ#isMacro()Z
+ij.IJ#macroRunning()Z
+ij.gui.Roi#setPreviousRoi(Lij/gui/Roi;)V

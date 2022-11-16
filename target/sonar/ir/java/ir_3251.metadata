@@ -1,0 +1,5 @@
+ij.macro.Functions#waitUntilActivated(Ljava/lang/String;)V
+ij.IJ#wait(I)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.System#currentTimeMillis()J
+ij.WindowManager#getFrontWindow()Ljava/awt/Frame;

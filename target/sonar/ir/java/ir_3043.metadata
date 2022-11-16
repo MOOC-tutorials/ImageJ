@@ -1,0 +1,10 @@
+ij.macro.Functions#showMessage(Z)V
+ij.IJ#showMessageWithCancel(Ljava/lang/String;Ljava/lang/String;)Z
+ij.macro.Interpreter#getLeftParen()V
+ij.macro.Interpreter#getComma()V
+ij.macro.Interpreter#getRightParen()V
+ij.macro.Interpreter#nextToken()I
+java.lang.RuntimeException#<init>(Ljava/lang/String;)V
+ij.IJ#showMessage(Ljava/lang/String;Ljava/lang/String;)V
+ij.macro.Functions#getString()Ljava/lang/String;
+java.lang.RuntimeException#instance-init#

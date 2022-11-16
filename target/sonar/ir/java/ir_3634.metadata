@@ -1,0 +1,13 @@
+ij.plugin.Colors#showDialog()V
+ij.gui.Toolbar#getForegroundColor()Ljava/awt/Color;
+ij.gui.Roi#getColor()Ljava/awt/Color;
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.plugin.Colors#getColorName(Ljava/awt/Color;Ljava/lang/String;)Ljava/lang/String;
+ij.gui.Roi#setColor(Ljava/awt/Color;)V
+ij.gui.Toolbar#getBackgroundColor()Ljava/awt/Color;
+ij.gui.GenericDialog#<init>(Ljava/lang/String;)V
+ij.gui.Toolbar#getInstance()Lij/gui/Toolbar;
+ij.gui.Toolbar#setBackgroundColor(Ljava/awt/Color;)V
+ij.plugin.Colors#getColor(Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;
+ij.gui.GenericDialog#instance-init#
+ij.gui.Toolbar#setForegroundColor(Ljava/awt/Color;)V

@@ -1,0 +1,411 @@
+
+(ij.gui.PlotContentsDialog#addFitCurve()Va
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaΩ Ω("11*≤
+3a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaŸ Ÿ(¡æ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java⁄ ⁄("
+%44double"ij.measure.CurveFitter#f(D)D*
+
+cfij.measure.CurveFitter*
+""2f(D)*
+3
+1*˝
+7a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java   (…
+∆
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java   (
+%26void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*"
+ 
+statusStringjava.lang.String©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaÀ' À(+
+%27ij.gui.Plot"__id*'*%
+ij.gui.PlotContentsDialog"
+plotÀ»
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaÀ' À(6
+%28java.lang.String"(ij.gui.Plot#getTitle()Ljava/lang/String;*
+
+%27ij.gui.Plot2
+getTitle()≤
+Ø
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaÀ À(6
+%29java.lang.String"__concat*
+
+Fit for *
+
+%28java.lang.String¨
+©
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaÀ À(;
+%30java.lang.String"__concat*
+
+%29java.lang.String*
+: ∂
+≥
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaÀ< À(I
+%31java.awt.Choice"__id*0*.
+ij.gui.PlotContentsDialog"
+fitDataChoice·ﬁ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaÀ< À([
+%32java.lang.String"3java.awt.Choice#getSelectedItem()Ljava/lang/String;*
+
+%31java.awt.Choice2getSelectedItem()ø
+º
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaÀ À([
+%33java.lang.String"__concat*
+
+%30java.lang.String*
+
+%32java.lang.StringÓÎ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaÀ\ À(p
+%34java.lang.String":ij.measure.CurveFitter#getResultString()Ljava/lang/String;*
+
+cfij.measure.CurveFitter2getResultString()ø
+º
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaÀ À(p
+%35java.lang.String"__concat*
+
+%33java.lang.String*
+
+%34java.lang.String¡
+æ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaÀ À(p8
+ij.gui.PlotContentsDialog"
+curveFitterStatusString"__id*
+
+%35java.lang.String©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaÕ Õ(
+%36ij.gui.Plot"__id*'*%
+ij.gui.PlotContentsDialog"
+plotµ≤
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaÕ Õ((
+%37double[]"ij.gui.Plot#getLimits()[D*
+
+%36ij.gui.Plot2getLimits()±
+Æ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaŒ Œ(0
+%38double[]"ij.util.Tools#getMinMax([F)[D*"
+ij.util.Tools*
+""≤
+Ø
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaœ œ(5
+%39double"java.lang.Math#min(DD)D*"
+java.lang.Math*
+""*
+""≤
+Ø
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java– –(5
+%40double"java.lang.Math#max(DD)D*"
+java.lang.Math*
+""*
+""©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java— —(;
+%41double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java“ “(;
+%42double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""≤
+Ø
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java” ”(E
+%43double"java.lang.Math#max(DD)D*"
+java.lang.Math*
+""*
+""*
+3
+1*ˆ
+8a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java… …(Ÿ÷
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java…3 …(J
+%23double",ij.measure.CurveFitter#getSumResidualsSqr()D*
+
+cfij.measure.CurveFitter2getSumResidualsSqr()µ
+≤
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java… …(K
+%24java.lang.String"__concat*
+, sum residuals ^2 = *
+
+%23double»
+≈
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java… …(K
+%25java.lang.String"__concat*"
+ 
+statusStringjava.lang.String*
+
+%24java.lang.String©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java… …(K 
+statusStringjava.lang.String"__id*
+
+%25java.lang.String*
+7*Ú 
+9a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java¡ ¡(µ
+≤
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java¡ ¡(
+%4java.awt.Choice"__id*0*.
+ij.gui.PlotContentsDialog"
+fitDataChoice√¿
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java¡ ¡(2	
+%5int"#java.awt.Choice#getSelectedIndex()I*
+
+%4java.awt.Choice2getSelectedIndex()®
+•
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java¬ ¬(
+%6ij.gui.Plot"__id*'*%
+ij.gui.PlotContentsDialog"
+plot”–
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java¬ ¬(6
+%7	float[][]"%ij.gui.Plot#getDataObjectArrays(I)[[F*
+
+%6ij.gui.Plot*
+""2getDataObjectArrays(I)π
+∂
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java√ √($
+%8java.awt.Choice"__id*4*2
+ij.gui.PlotContentsDialog"
+fitFunctionChoiceﬂ‹
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java√ √(6
+%9java.lang.String"3java.awt.Choice#getSelectedItem()Ljava/lang/String;*
+
+%8java.awt.Choice2getSelectedItem()£
+†
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java√ √(7
+fitNamejava.lang.String"__id*
+
+%9java.lang.Stringè
+å
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaƒ ƒ(,
+%10java.lang.String[]"__id*
+""ô
+ñ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaƒ ƒ(6
+
+%11int"Jij.gui.PlotContentsDialog#getIndex([Ljava/lang/String;Ljava/lang/String;)I*"
+ij.gui.PlotContentsDialog*
+
+%10java.lang.String[]*
+
+fitNamejava.lang.String∞
+≠
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java≈# ≈(:
+%12double[]"ij.util.Tools#toDouble([F)[D*"
+ij.util.Tools*
+""∞
+≠
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java≈< ≈(S
+%13double[]"ij.util.Tools#toDouble([F)[D*"
+ij.util.Tools*
+""ùö
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java≈ ≈("
+%14ij.measure.CurveFitter"ij.measure.CurveFitter⁄
+◊
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java≈ ≈(T
+%15"$ij.measure.CurveFitter#<init>([D[D)V*
+
+%14ij.measure.CurveFitter*
+
+%12double[]*
+
+%13double[]´
+®
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java≈ ≈(U
+cfij.measure.CurveFitter"__id*
+
+%14ij.measure.CurveFitter«ƒ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java∆ ∆(
+%16void" ij.measure.CurveFitter#doFit(I)V*
+
+cfij.measure.CurveFitter*
+""2doFit(I)è
+å
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java«  «(7
+%17java.lang.String[]"__id*
+""ƒ¡
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java«8 «(F
+
+%18int"#ij.measure.CurveFitter#getStatus()I*
+
+cfij.measure.CurveFitter2getStatus()∂
+≥
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java«  «(G
+%19java.lang.String"
+__arrayGet*
+
+%17java.lang.String[]*
+
+
+%18intØ
+¨
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java« «(G
+%20java.lang.String"__concat*	
+Fit: *
+
+%19java.lang.String©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java« «(H 
+statusStringjava.lang.String"__id*
+
+%20java.lang.Stringƒ¡
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java» »(
+
+%21int"#ij.measure.CurveFitter#getStatus()I*
+
+cfij.measure.CurveFitter2getStatus()
+}
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java» »()
+
+%22int"__id*
+""*
+7
+8*‘
+10a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java¿ ¿(®
+•
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java¿ ¿(
+%2ij.gui.Plot"__id*'*%
+ij.gui.PlotContentsDialog"
+plot∫∑
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java¿ ¿(
+
+%3void"ij.gui.Plot#setLimits([D)V*
+
+%2ij.gui.Plot*
+""2setLimits([D)*
+9*ﬁ
+11a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaæ æ(®
+•
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaæ æ(
+%0ij.gui.Plot"__id*'*%
+ij.gui.PlotContentsDialog"
+plot¿Ω
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaæ æ(
+
+%1void"!ij.gui.Plot#restorePlotObjects()V*
+
+%0ij.gui.Plot2restorePlotObjects()*
+9
+10*
+0 "x
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java‡ ‡(
+implicit return*í
+1a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java‹ ‹(©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java‹ ‹(
+%45ij.gui.Plot"__id*'*%
+ij.gui.PlotContentsDialog"
+plot
+}
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java‹ ‹(&
+
+%46int"__id*
+""ÿ’
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java‹ ‹('
+%47void"ij.gui.Plot#addPoints([F[FI)V*
+
+%45ij.gui.Plot*
+""*
+""*
+
+
+%46int2addPoints([F[FI)©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java› ›(
+%48ij.gui.Plot"__id*'*%
+ij.gui.PlotContentsDialog"
+plotøº
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.java› ›(/
+
+%49int" ij.gui.Plot#getNumPlotObjects()I*
+
+%48ij.gui.Plot2getNumPlotObjects()∂
+≥
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaﬁ ﬁ(
+%50java.awt.TextField"__id*-*+
+ij.gui.PlotContentsDialog"
+
+labelField≥
+∞
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaﬁ ﬁ($
+%51java.lang.String"__concat*	
+Fit: *
+
+fitNamejava.lang.String˘ˆ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaﬁ ﬁ(%
+%52void"/java.awt.TextField#setText(Ljava/lang/String;)V*
+
+%50java.awt.TextField*
+
+%51java.lang.String2setText(Ljava/lang/String;)√
+¿
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotContentsDialog.javaﬂ ﬂ(
+%53void"/ij.gui.PlotContentsDialog#setPlotObjectStyle()V*
+ij.gui.PlotContentsDialog*
+0B
+ij.gui.PlotContentsDialog

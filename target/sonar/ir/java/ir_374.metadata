@@ -1,0 +1,8 @@
+ij.plugin.PNG_Writer#writeImage(Lij/ImagePlus;Ljava/lang/String;I)V
+ij.plugin.PNG_Writer#writeFourChannelsWithAlpha(Lij/ImagePlus;Ljava/lang/String;)V
+java.io.File#<init>(Ljava/lang/String;)V
+ij.process.ImageConverter#instance-init#
+javax.imageio.ImageIO#write(Ljava/awt/image/RenderedImage;Ljava/lang/String;Ljava/io/File;)Z
+java.io.File#instance-init#
+ij.process.ImageConverter#<init>(Lij/ImagePlus;)V
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z

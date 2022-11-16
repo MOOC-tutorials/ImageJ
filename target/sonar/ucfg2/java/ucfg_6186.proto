@@ -1,0 +1,417 @@
+
+Pij.plugin.filter.Printer#print(Ljava/awt/Graphics;Ljava/awt/print/PageFormat;I)I^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaS S("startingBlock*À
+35^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaT T(){
+y
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaT T()	
+%0int"__id*
+"""h
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaT T(*
+""*¸
+25^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaa a(≈¬
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaa a(
+
+%13int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()«ƒ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javab b(
+
+%14int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()*
+23*ó
+26^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.java` `(
+˘ˆ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.java` `( 
+%12ij.process.ImageProcessor"Aij.process.ImageProcessor#rotateLeft()Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor2rotateLeft()Æ
+´
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.java` `(
+ipij.process.ImageProcessor"__id*"
+ 
+%12ij.process.ImageProcessor*
+25*è
+27^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.java^ ^(
+ÌÍ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.java^ ^( 
+%11ij.process.ImageProcessor";ij.process.ImageProcessor#crop()Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor2crop()Æ
+´
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.java^ ^(
+ipij.process.ImageProcessor"__id*"
+ 
+%11ij.process.ImageProcessor*
+25
+26*‹
+28^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.java] ](ÔÏ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.java] ](
+%10void"/ij.process.ImageProcessor#setRoi(Lij/gui/Roi;)V*!
+
+ipij.process.ImageProcessor*
+
+roi
+ij.gui.Roi2setRoi(Lij/gui/Roi;)*
+27*¿
+18^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaw w('‘
+—
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaw w(@
+%25double"2ij.plugin.filter.ImageProperties#getUnitsPerCm(I)D*$""
+ ij.plugin.filter.ImageProperties*
+""*
+5*ò
+29^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.java\% \((ß§
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.java\% \(1
+%9boolean"ij.gui.Roi#isArea()Z*
+
+roi
+ij.gui.Roi2isArea()*
+27
+28*˙	
+19^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javat t(•
+¢
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javat t(
+%20ij.ImagePlus"__id*%*#
+ij.plugin.filter.Printer"
+imp‚ﬂ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javat t()
+%21ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+%20ij.ImagePlus2getCalibration()©
+¶
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javat t(*
+calij.measure.Calibration"__id*
+
+%21ij.measure.Calibration‹Ÿ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javau0 u(=
+%22java.lang.String"2ij.measure.Calibration#getUnit()Ljava/lang/String;*
+
+calij.measure.Calibration2	getUnit()Ù
+Ò
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javau u(>
+
+%23int"Bij.plugin.filter.ImageProperties#getUnitIndex(Ljava/lang/String;)I*$""
+ ij.plugin.filter.ImageProperties*
+
+%22java.lang.String|
+z
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javav v(,
+
+%24int"__id*
+""*
+5
+18*—
+1`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaó	 ó(~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaó	 ó(
+
+%40int"__id*
+"""j
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaó ó(
+""*«
+2`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaì ì(~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaì" ì(,
+
+%31int"__id*
+""äá
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaì ì(
+%32java.awt.Font"java.awt.Font’
+“
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaì ì(7
+%33"+java.awt.Font#<init>(Ljava/lang/String;II)V*
+
+%32java.awt.Font*
+
+SanSerif*
+
+
+%31int*
+""ÎË
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaì ì(8
+%34void"+java.awt.Graphics#setFont(Ljava/awt/Font;)V*
+
+gjava.awt.Graphics*
+
+%32java.awt.Font2setFont(Ljava/awt/Font;)ä
+á
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaî î(
+%35java.awt.Color"__id*
+""Ì
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaî î(
+%36void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%35java.awt.Color2setColor(Ljava/awt/Color;)ß
+§
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaï ï(
+%37ij.ImagePlus"__id*%*#
+ij.plugin.filter.Printer"
+impÃ…
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaï ï(
+%38java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+%37ij.ImagePlus2
+getTitle()éã
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaï ï(8
+%39void"3java.awt.Graphics#drawString(Ljava/lang/String;II)V*
+
+gjava.awt.Graphics*
+
+%38java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)*
+1*ã
+startingBlock^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaS S(;®
+•
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaR R(
+
+%41"
+__annotate*
+java.lang.Override*
+
+gjava.awt.Graphicsí
+è
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaS S(
+gjava.awt.Graphics"__annotation*
+
+%41±
+Æ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaR R(
+
+%42"
+__annotate*
+java.lang.Override*!
+
+pfjava.awt.print.PageFormatõ
+ò
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaS) S(+
+pfjava.awt.print.PageFormat"__annotation*
+
+%42*
+35
+34*œ
+4`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaë ë(ﬂ‹
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaë ë(6
+%30void"!java.awt.Graphics#drawRect(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawRect(IIII)*
+2
+1*Ù
+5`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaå å(Å˛
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaå è(
+%29boolean"Tjava.awt.Graphics#drawImage(Ljava/awt/Image;IIIIIIIILjava/awt/image/ImageObserver;)Z*
+
+gjava.awt.Graphics*
+
+imgjava.awt.Image*
+""*
+""*
+""*
+""*2 *2 *
+""*
+""*
+""2AdrawImage(Ljava/awt/Image;IIIIIIIILjava/awt/image/ImageObserver;)*	
+2
+4
+1*¯
+9`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaÖ) Ö(/ã
+à
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaÖ) Ö(/
+%26double"__id*
+
+%28double*
+5*Ö
+31^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.java[ [(‰·
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.java[ [()
+%8ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+imp2ij.ImagePlus2getProcessor()≠
+™
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.java[ [(*
+ipij.process.ImageProcessor"__id*!
+
+%8ij.process.ImageProcessor*
+27
+29*˜
+32^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaX X(Ø¨
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaX X(
+
+%6void"ij.ImagePlus#deleteRoi()V*
+
+imp2ij.ImagePlus2deleteRoi()¿Ω
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaY
+ Y(
+%7ij.ImagePlus"$ij.ImagePlus#flatten()Lij/ImagePlus;*
+
+imp2ij.ImagePlus2	flatten()ï
+í
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaY Y(
+imp2ij.ImagePlus"__id*
+
+%7ij.ImagePlus*
+31*˘
+10`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaÖ" Ö((ã
+à
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaÖ" Ö((
+%26double"__id*
+
+%27double*
+5*≠
+33^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaW" W(&ºπ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaW" W(7
+%5boolean"ij.ImagePlus#getHideOverlay()Z*
+
+imp2ij.ImagePlus2getHideOverlay()*
+31
+32*Ô
+34^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaU U(§
+°
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaU U(
+%1ij.ImagePlus"__id*%*#
+ij.plugin.filter.Printer"
+imp∏µ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaU U(
+%2
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+%1ij.ImagePlus2getRoi()ê
+ç
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaU U(
+roi
+ij.gui.Roi"__id*
+
+%2
+ij.gui.Roi§
+°
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaV V(
+%3ij.ImagePlus"__id*%*#
+ij.plugin.filter.Printer"
+impï
+í
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaV V(
+imp2ij.ImagePlus"__id*
+
+%3ij.ImagePlus «
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javaW W(
+%4ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+imp2ij.ImagePlus2getOverlay()*
+31
+33*ﬁ
+
+23^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javae e(“œ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javah h(%
+%15double"*java.awt.print.PageFormat#getImageableX()D*!
+
+pfjava.awt.print.PageFormat2getImageableX()“œ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javai i(%
+%16double"*java.awt.print.PageFormat#getImageableY()D*!
+
+pfjava.awt.print.PageFormat2getImageableY()Â‚
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javal l(
+%17java.awt.Image"7ij.process.ImageProcessor#createImage()Ljava/awt/Image;*!
+
+ipij.process.ImageProcessor2createImage()ô
+ñ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javal l(
+imgjava.awt.Image"__id*
+
+%17java.awt.Image⁄◊
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javam m(+
+%18double".java.awt.print.PageFormat#getImageableWidth()D*!
+
+pfjava.awt.print.PageFormat2getImageableWidth()‹Ÿ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Printer.javan n(-
+%19double"/java.awt.print.PageFormat#getImageableHeight()D*!
+
+pfjava.awt.print.PageFormat2getImageableHeight()*
+5
+19
+9
+10:
+gjava.awt.Graphics:
+pfjava.awt.print.PageFormat:
+""B
+ij.plugin.filter.Printer

@@ -1,0 +1,60 @@
+
+=ij.ImagePlus#getBufferedImage()Ljava/awt/image/BufferedImage;T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÖ Ö(&"3*ý
+2T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ Ø(&¶³
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ Ø((
+%1java.awt.Image"'ij.ImagePlus#getImage()Ljava/awt/Image;*
+ij.ImagePlus2
+getImage()•’
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ Ø(
+%2ij.process.ColorProcessor"ij.process.ColorProcessorÏ
+Ì
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ Ø()
+%3"3ij.process.ColorProcessor#<init>(Ljava/awt/Image;)V*!
+
+%2ij.process.ColorProcessor*
+
+%1java.awt.Image€ý
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ
+ Ø(="
+%4java.awt.image.BufferedImage"Jij.process.ImageProcessor#getBufferedImage()Ljava/awt/image/BufferedImage;*!
+
+%2ij.process.ColorProcessor2getBufferedImage()"|
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ Ø(>$
+"
+%4java.awt.image.BufferedImage*Š
+3T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java× ×(¦£
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java× ×(
+%0boolean"ij.ImagePlus#isComposite()Z*
+ij.ImagePlus2isComposite()*
+2
+1*÷
+1T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÚ
+ Ú(š
+—
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÚ
+ Ú(
+%5ij.process.ImageProcessor"__id**
+ij.ImagePlus"
+ip€ý
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÚ
+ Ú("
+%6java.awt.image.BufferedImage"Jij.process.ImageProcessor#getBufferedImage()Ljava/awt/image/BufferedImage;*!
+
+%5ij.process.ImageProcessor2getBufferedImage()"|
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÚ Ú( $
+"
+%6java.awt.image.BufferedImageB
+ij.ImagePlus

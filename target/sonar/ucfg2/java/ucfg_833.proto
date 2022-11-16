@@ -1,0 +1,401 @@
+
+%ij.gui.GenericDialog#getNextNumber()D\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java· ·("21*¶
+13\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaı ı(π∂
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaı ı(
+%15double"java.lang.Double#doubleValue()D*
+
+djava.lang.Double2doubleValue()*
+2
+1*°
+14\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÛ Û(ñì
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÛ Û(
+%14java.lang.Double"Cij.gui.GenericDialog#getValue(Ljava/lang/String;)Ljava/lang/Double;*
+ij.gui.GenericDialog*
+
+theTextjava.lang.String2getValue(Ljava/lang/String;)ô
+ñ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÛ Û( 
+djava.lang.Double"__id*
+
+%14java.lang.Double*
+13
+12*Ï
+17\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÎ  Î(+™
+ß
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÎ  Î(+
+%8java.util.Vector"__id*)*'
+ij.gui.GenericDialog"
+defaultText⁄◊
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÎ  Î(>
+%9java.lang.Object"/java.util.Vector#elementAt(I)Ljava/lang/Object;*
+
+%8java.util.Vector*
+""2elementAt(I)£
+†
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÎ Î(? 
+originalTextjava.lang.String"__id*
+
+%9java.lang.Object≠
+™
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÏ" Ï(/
+%10java.util.Vector"__id*+*)
+ij.gui.GenericDialog"
+defaultValues‹Ÿ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÏ" Ï(B
+%11java.lang.Object"/java.util.Vector#elementAt(I)Ljava/lang/Object;*
+
+%10java.util.Vector*
+""2elementAt(I)ª∏
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÏ Ï(R
+%12double"java.lang.Double#doubleValue()D*
+
+%11java.lang.Object2doubleValue()˛˚
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÔ Ô("
+%13boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+theTextjava.lang.String*"
+ 
+originalTextjava.lang.String2equals(Ljava/lang/Object;)*
+
+2
+14
+1*˝	
+18\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaË Ë(®
+•
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaË Ë(
+%4java.util.Hashtable"__id*$*"
+ij.gui.GenericDialog"
+labelsº
+π
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaË Ë()
+%5java.lang.Object"__mapGet*
+
+%4java.util.Hashtable*
+
+tfjava.awt.TextFieldú
+ô
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaË Ë()
+labeljava.lang.String"__id*
+
+%5java.lang.Object´
+®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÈ È((
+%6java.lang.String"__id***(
+ij.gui.GenericDialog"
+macroOptions∫
+∑
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÈ È(9
+%7java.lang.String"[ij.Macro#getValue(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*"
+
+ij.Macro*
+
+%6java.lang.String*
+
+labeljava.lang.String*
+
+theTextjava.lang.Stringû
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÈ È(9
+theTextjava.lang.String"__id*
+
+%7java.lang.String*
+17*ô	
+19\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java‰ ‰('™
+ß
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java‰ ‰('
+%1java.util.Vector"__id*)*'
+ij.gui.GenericDialog"
+numberField⁄◊
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java‰ ‰(:
+%2java.lang.Object"/java.util.Vector#elementAt(I)Ljava/lang/Object;*
+
+%1java.util.Vector*
+""2elementAt(I)õ
+ò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java‰ ‰(;
+tfjava.awt.TextField"__id*
+
+%2java.lang.Object‘—
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÂ Â(
+%3java.lang.String"2java.awt.TextComponent#getText()Ljava/lang/String;*
+
+tfjava.awt.TextField2	getText()û
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÂ Â( 
+theTextjava.lang.String"__id*
+
+%3java.lang.Stringä
+á
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÊ Ê(
+labeljava.lang.String"__id*
+""*
+17
+18*…
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaã	 ã	(	"f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaå	 å	(
+""*È
+2\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaâ	 â	(Ù
+Ò
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaâ	 â	(!
+%38java.lang.String"?ij.gui.GenericDialog#trim(Ljava/lang/String;)Ljava/lang/String;*
+ij.gui.GenericDialog*
+
+theTextjava.lang.Stringâ
+Ü
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaâ	 â	("
+%39void"Hij.gui.GenericDialog#recordOption(Ljava/lang/Object;Ljava/lang/String;)V*
+ij.gui.GenericDialog*
+
+tfjava.awt.TextField*
+
+%38java.lang.String*
+1*√
+5\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÄ	 Ä	(”
+–
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÄ	 Å	( 
+%25java.lang.String"__concat*1/
+-Numeric value expected in run() function\n \n*
+	 Dialog box title: \"ŒÀ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÅ	! Å	(+
+%26java.lang.String",java.awt.Dialog#getTitle()Ljava/lang/String;*
+ij.gui.GenericDialog2
+getTitle()∫
+∑
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÄ	 Å	(+
+%27java.lang.String"__concat*
+
+%25java.lang.String*
+
+%26java.lang.String©
+¶
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÄ	 Å	(2
+%28java.lang.String"__concat*
+
+%27java.lang.String*
+\"\nÆ
+´
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÄ	 Ç	(
+%29java.lang.String"__concat*
+
+%28java.lang.String*
+		 Key: \"à
+Ö
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÇ	& Ç	(/
+%30java.util.Locale"__id*
+""óî
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÇ	 Ç	(0
+%31java.lang.String"Bjava.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;*
+
+labeljava.lang.String*
+
+%30java.util.Locale2toLowerCase(Ljava/util/Locale;)∫
+∑
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÄ	 Ç	(0
+%32java.lang.String"__concat*
+
+%29java.lang.String*
+
+%31java.lang.String©
+¶
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÄ	 Ç	(7
+%33java.lang.String"__concat*
+
+%32java.lang.String*
+\"\n¡
+æ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÄ	 É	(&
+%34java.lang.String"__concat*
+
+%33java.lang.String* 
+	 Value or variable name: \"æ
+ª
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÄ	 É	(.
+%35java.lang.String"__concat*
+
+%34java.lang.String*
+
+theTextjava.lang.Stringß
+§
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÄ	 É	(3
+%36java.lang.String"__concat*
+
+%35java.lang.String*
+\"Ÿ
+÷
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÄ	 É	(4
+%37void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+Macro Error*
+
+%36java.lang.String*
+2
+1*à
+6\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java¸ ¸(´
+®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˝ ˝( 
+%23java.lang.String"__concat*
+\"*
+
+theTextjava.lang.Stringº
+π
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˝ ˝(:
+%24java.lang.String"__concat*
+
+%23java.lang.String*
+\" is an invalid number¨
+©
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˝ ˝(:(
+ij.gui.GenericDialog"
+errorMessage"__id*
+
+%24java.lang.String*	
+2
+5
+1*ö
+7\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˙ ˙(@´
+®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˚ ˚(
+%22boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+""*	
+2
+6
+1*Ô
+8\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˙6 ˙(<}
+{
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˙6 ˙(@
+%21double"__id*
+""á
+Ñ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˙6 ˙(@
+%19double"__id*
+
+%21double*
+7*˛
+9\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˙ ˙(ãà
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˙ ˙(5
+%20double"6ij.macro.Interpreter#getVariable2(Ljava/lang/String;)D* 
+
+interpij.macro.Interpreter*
+
+theTextjava.lang.String2 getVariable2(Ljava/lang/String;)á
+Ñ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˙ ˙(5
+%19double"__id*
+
+%20double*
+7* 
+20\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java„ „("f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java„ „(
+""*ô
+21\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java‚ ‚(™
+ß
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java‚ ‚(
+%0java.util.Vector"__id*)*'
+ij.gui.GenericDialog"
+numberField*
+19
+20*Ë
+10\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˘ ˘($“
+œ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˘ ˘(2
+%18ij.macro.Interpreter"8ij.macro.Interpreter#getInstance()Lij/macro/Interpreter;*"
+ij.macro.Interpreter¶
+£
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java˘ ˘(3
+interpij.macro.Interpreter"__id*
+
+%18ij.macro.Interpreter*
+8
+9*Î
+11\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java¯+ ¯(2ﬁ€
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java¯+ ¯(?
+%17java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*
+
+theTextjava.lang.String*22substring(I)ü
+ú
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java¯! ¯(?
+theTextjava.lang.String"__id*
+
+%17java.lang.String*
+10*ÿ
+12\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java¯ ¯(ÈÊ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java¯ ¯(
+%16boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+theTextjava.lang.String*
+&2startsWith(Ljava/lang/String;)*
+10
+11B
+ij.gui.GenericDialog

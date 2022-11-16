@@ -1,0 +1,8 @@
+ij.plugin.RoiRotator#run(Ljava/lang/String;)V
+ij.plugin.RoiRotator#rotate(Lij/gui/Roi;DDD)Lij/gui/Roi;
+ij.IJ#getImage()Lij/ImagePlus;
+ij.Undo#setup(ILij/ImagePlus;)V
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+java.lang.Double#isNaN(D)Z
+ij.IJ#macroRunning()Z
+ij.gui.Roi#setPreviousRoi(Lij/gui/Roi;)V

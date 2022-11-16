@@ -1,0 +1,6 @@
+ij.IJ#run(Lij/ImagePlus;Ljava/lang/String;Ljava/lang/String;)V
+ij.WindowManager#setTempCurrentImage(Lij/ImagePlus;)V
+ij.WindowManager#getTempCurrentImage()Lij/ImagePlus;
+ij.IJ#init()V
+ij.IJ#run(Ljava/lang/String;Ljava/lang/String;)V
+ij.Menus#getCommands()Ljava/util/Hashtable;

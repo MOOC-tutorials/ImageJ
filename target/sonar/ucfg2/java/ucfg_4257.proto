@@ -1,0 +1,346 @@
+
+$ij.plugin.frame.Recorder#isSaveAs()Z`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaù ù("29*¶
+24`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaı ı(²
+¯
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaı ı(
+%6java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameëè
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaı ı()
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%6java.lang.String*
+Text Image...2equals(Ljava/lang/Object;)*+
+2
+14
+4
+16
+6
+18
+8
+20
+10
+22
+12
+1*
+14`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java‚ ‚(³
+°
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java‚ ‚(
+%16java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameæã
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java‚ ‚("
+%17boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%16java.lang.String*
+
+PGM...2equals(Ljava/lang/Object;)*
+2
+4
+6
+8
+10
+12
+1*´
+26`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaü ü(²
+¯
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaü ü(
+%4java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameåâ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaü ü(#
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%4java.lang.String*	
+Jpeg...2equals(Ljava/lang/Object;)*/
+24
+14
+16
+18
+1
+2
+4
+6
+8
+20
+10
+22
+12*¢
+16`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java (³
+°
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java (
+%14java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameæã
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java ("
+%15boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%14java.lang.String*
+
+PNG...2equals(Ljava/lang/Object;)*
+2
+14
+4
+6
+8
+10
+12
+1*·
+28`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaû û(²
+¯
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaû û(
+%2java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameäá
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaû û("
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%2java.lang.String*
+
+Gif...2equals(Ljava/lang/Object;)*3
+24
+14
+26
+16
+18
+1
+2
+4
+6
+8
+20
+10
+22
+12*¦
+18`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java€ €(³
+°
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java€ €(
+%12java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameæã
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java€ €("
+%13boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%12java.lang.String*
+
+BMP...2equals(Ljava/lang/Object;)*
+2
+14
+4
+16
+6
+8
+10
+12
+1*¼
+29`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaú	 ú(²
+¯
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaú	 ú(
+%0java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameåâ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaú	 ú(&
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.String*	
+Tiff...2equals(Ljava/lang/Object;)*7
+24
+14
+26
+16
+28
+18
+1
+2
+4
+6
+8
+20
+10
+22
+12*Ñ
+1`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaú ‰(!"j
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaú ‰(!
+""*‡
+2`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java‰ ‰(³
+°
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java‰ ‰(
+%28java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameäá
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java‰ ‰( 
+%29boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%28java.lang.String*
+Save2equals(Ljava/lang/Object;)*
+1*
+4`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaˆ ˆ(³
+°
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaˆ ˆ(
+%26java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameèå
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaˆ ˆ($
+%27boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%26java.lang.String*
+
+Text... 2equals(Ljava/lang/Object;)*
+2
+1*š
+6`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java† †(³
+°
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java† †(
+%24java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameñî
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java† †(-
+%25boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%24java.lang.String*
+XY Coordinates...2equals(Ljava/lang/Object;)*	
+2
+4
+1*˜
+8`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java… …(³
+°
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java… …(
+%22java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameìé
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java… …((
+%23boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%22java.lang.String*
+Selection...2equals(Ljava/lang/Object;)*
+2
+4
+6
+1*¯
+20`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaÿ ÿ(³
+°
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaÿ ÿ(
+%10java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameëè
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaÿ ÿ('
+%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%10java.lang.String*
+Raw Data...2equals(Ljava/lang/Object;)*#
+2
+14
+4
+16
+6
+18
+8
+10
+12
+1*–
+10`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java„ „(³
+°
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java„ „(
+%20java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameæã
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.java„ „("
+%21boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%20java.lang.String*
+
+LUT...2equals(Ljava/lang/Object;)*
+2
+4
+6
+8
+1*«
+22`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaş ş(²
+¯
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaş ş(
+%8java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameäá
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaş ş("
+%9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%8java.lang.String*
+
+ZIP...2equals(Ljava/lang/Object;)*'
+2
+14
+4
+16
+6
+18
+8
+20
+10
+12
+1*›
+12`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaƒ ƒ(³
+°
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaƒ ƒ(
+%18java.lang.String"__id*-*+
+ij.plugin.frame.Recorder"
+commandNameçä
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Recorder.javaƒ ƒ(#
+%19boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%18java.lang.String*	
+FITS...2equals(Ljava/lang/Object;)*
+2
+4
+6
+8
+10
+1B"
+ij.plugin.frame.Recorder

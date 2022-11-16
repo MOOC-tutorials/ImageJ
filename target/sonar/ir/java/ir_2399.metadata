@@ -1,0 +1,15 @@
+ij.plugin.BatchProcessor#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.IJ#getDirectory(Ljava/lang/String;)Ljava/lang/String;
+ij.IJ#openAsString(Ljava/lang/String;)Ljava/lang/String;
+ij.IJ#saveString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.io.File#instance-init#
+ij.IJ#showStatus(Ljava/lang/String;)V
+java.io.File#<init>(Ljava/lang/String;)V
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.IJ#resetEscape()V
+ij.IJ#getInstance()Lij/ImageJ;
+ij.Prefs#set(Ljava/lang/String;Ljava/lang/String;)V
+ij.IJ#showProgress(II)V
+java.lang.String#startsWith(Ljava/lang/String;)Z

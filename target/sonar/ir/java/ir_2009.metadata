@@ -1,0 +1,6 @@
+ij.plugin.CommandFinder#previewLUT()V
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.IJ#createImage(Ljava/lang/String;Ljava/lang/String;III)Lij/ImagePlus;
+ij.plugin.LutLoader#getLut(Ljava/lang/String;)Ljava/awt/image/IndexColorModel;
+java.lang.String#indexOf(Ljava/lang/String;)I
+ij.IJ#showStatus(Ljava/lang/String;)V

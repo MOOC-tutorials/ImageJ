@@ -1,0 +1,169 @@
+
+Dij.macro.Functions#getSplineAnchors(Lij/gui/Roi;)Lij/macro/Variable;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java˜> ˜>(""13*¯
+
+13Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java™> ™>(/èå
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java™> ™>(1
+%0ij.macro.Variable"=ij.macro.Functions#getFirstArrayVariable()Lij/macro/Variable;*
+ij.macro.Functions2getFirstArrayVariable()£
+ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java™> ™>(2!
+xCoordinatesij.macro.Variable"__id*
+
+%0ij.macro.Variableæã
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaš> š>(0
+%1ij.macro.Variable"<ij.macro.Functions#getLastArrayVariable()Lij/macro/Variable;*
+ij.macro.Functions2getLastArrayVariable()£
+ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaš> š>(1!
+yCoordinatesij.macro.Variable"__id*
+
+%1ij.macro.Variableˆ
+…
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java›> ›>(
+xaij.macro.Variable[]"__id*
+""ˆ
+…
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java›> ›>(
+yaij.macro.Variable[]"__id*
+""Œ
+‰
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaœ> œ>(
+fpij.process.FloatPolygon"__id*
+""*
+11
+12*Ô
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java§> §>(‹ˆ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java§> §>(
+%9ij.macro.Variable"ij.macro.Variable§
+¤
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java§> §>('
+%10"ij.macro.Variable#<init>(D)V*
+
+%9ij.macro.Variable*
+""²
+¯
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java§> §>('
+%11"
+__arraySet*
+
+yaij.macro.Variable[]*
+""*
+
+%9ij.macro.Variable*
+3
+1*Õ
+7Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¥> ¥>(‹ˆ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¥> ¥>(
+%6ij.macro.Variable"ij.macro.Variable¦
+£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¥> ¥>('
+%7"ij.macro.Variable#<init>(D)V*
+
+%6ij.macro.Variable*
+""±
+®
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¥> ¥>('
+%8"
+__arraySet*
+
+xaij.macro.Variable[]*
+""*
+
+%6ij.macro.Variable*	
+3
+7
+1*Î
+9Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¢> ¢>(Œ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¢> ¢>( 
+%4ij.macro.Variable[]"ij.macro.Variable[]
+š
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¢> ¢>( 
+xaij.macro.Variable[]"__id*
+
+%4ij.macro.Variable[]Œ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£> £>( 
+%5ij.macro.Variable[]"ij.macro.Variable[]
+š
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£> £>( 
+yaij.macro.Variable[]"__id*
+
+%5ij.macro.Variable[]*	
+3
+7
+1*ð
+11Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java >  >(ÝÚ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java >  >(
+%3ij.process.FloatPolygon"5ij.gui.Roi#getFloatPolygon()Lij/process/FloatPolygon;*
+
+roi
+ij.gui.Roi2getFloatPolygon()¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java >  >(
+fpij.process.FloatPolygon"__id*
+
+%3ij.process.FloatPolygon*
+9
+1*‰
+12Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaž> ž>(öó
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaž> ž>(4
+%2ij.process.FloatPolygon"Eij.gui.PolygonRoi#getNonSplineFloatPolygon()Lij/process/FloatPolygon;*
+
+roi
+ij.gui.Roi2getNonSplineFloatPolygon()¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaž> ž>(4
+fpij.process.FloatPolygon"__id*
+
+%2ij.process.FloatPolygon*
+9
+1*Í
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java©> ©>(þ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java©> ©>(
+%12void"1ij.macro.Variable#setArray([Lij/macro/Variable;)V*#
+!
+xCoordinatesij.macro.Variable*
+
+xaij.macro.Variable[]2setArray([Lij/macro/Variable;)þ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaª> ª>(
+%13void"1ij.macro.Variable#setArray([Lij/macro/Variable;)V*#
+!
+yCoordinatesij.macro.Variable*
+
+yaij.macro.Variable[]2setArray([Lij/macro/Variable;)"d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java«> «>(
+"":
+roi
+ij.gui.RoiB
+ij.macro.Functions

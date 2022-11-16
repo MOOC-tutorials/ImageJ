@@ -1,0 +1,96 @@
+
+Vij.plugin.Straightener#straightenComposite(Lij/ImagePlus;I)Lij/process/ImageProcessor;^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaÕ Õ(#"1*î
+1^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaÖ Ö(ÅÂ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaÖ Ö(
+%0java.awt.Image"'ij.ImagePlus#getImage()Ljava/awt/Image;*
+
+impij.ImagePlus2
+getImage()˜
+•
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaÖ Ö(
+imgjava.awt.Image"__id*
+
+%0java.awt.ImageŸœ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java×- ×(;
+%1ij.process.ColorProcessor"ij.process.ColorProcessorÚ
+×
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java×) ×(@
+%2"3ij.process.ColorProcessor#<init>(Ljava/awt/Image;)V*!
+
+%1ij.process.ColorProcessor*
+
+imgjava.awt.Image…‚
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java× ×( 
+%3ij.ImagePlus"ij.ImagePlusñ
+î
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java× ×(A
+%4"Cij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%3ij.ImagePlus*
+temp*!
+
+%1ij.process.ColorProcessor•
+’
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java× ×(B
+imp2ij.ImagePlus"__id*
+
+%3ij.ImagePlus¹¶
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaØ Ø(
+%5
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()ÕÒ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaØ Ø(
+
+%6void""ij.ImagePlus#setRoi(Lij/gui/Roi;)V*
+
+imp2ij.ImagePlus*
+
+%5
+ij.gui.Roi2setRoi(Lij/gui/Roi;)²¯
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaÙ Ù(1
+%7ij.process.ImageProcessor"Pij.plugin.Straightener#straightenRGB(Lij/ImagePlus;I)Lij/process/ImageProcessor;*
+ij.plugin.Straightener*
+
+imp2ij.ImagePlus*
+""2straightenRGB(Lij/ImagePlus;I)®
+«
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaÙ Ù(2 
+ip2ij.process.ImageProcessor"__id*!
+
+%7ij.process.ImageProcessorº·
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaÚ Ú( 
+%8
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+imp2ij.ImagePlus2getRoi()ÔÑ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaÚ Ú(!
+
+%9void""ij.ImagePlus#setRoi(Lij/gui/Roi;)V*
+
+impij.ImagePlus*
+
+%8
+ij.gui.Roi2setRoi(Lij/gui/Roi;)"„
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaÛ Û("
+ 
+ip2ij.process.ImageProcessor:
+impij.ImagePlus:
+""B
+ij.plugin.Straightener

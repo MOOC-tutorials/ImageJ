@@ -1,0 +1,428 @@
+
++ij.plugin.Animator#run(Ljava/lang/String;)VX
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java ("32*ã
+24X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java! !(ô
+ñ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java! !(
+%16ij.ImagePlus"__id**
+ij.plugin.Animator"
+impô
+ñ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java! !(
+%17ij.ImagePlus"__id**
+ij.plugin.Animator"
+imp¥±
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java! !(&
+
+%18int"ij.ImagePlus#getCurrentSlice()I*
+
+%17ij.ImagePlus2getCurrentSlice()±Æ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java! !()
+%19void"ij.ImagePlus#setSlice(I)V*
+
+%16ij.ImagePlus*
+""2setSlice(I)*
+19
+20*«
+25X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java   (
+‹Ÿ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java   (
+%15boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+next2equals(Ljava/lang/Object;)*
+24
+23* 
+26X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java7 (:ﬂ‹
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java7 (L
+%14boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*	
+options2equals(Ljava/lang/Object;)*
+25
+18*Ô
+28X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (ô
+ñ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (
+%12ij.ImagePlus"__id**
+ij.plugin.Animator"
+imp «
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (#
+%13ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+%12ij.ImagePlus2getWindow()õ
+ò
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java ($
+winij.gui.ImageWindow"__id*
+
+%13ij.gui.ImageWindow*
+26
+18*º	
+29X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (É
+Ä
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (
+
+%6void"ij.IJ#beep()V*	"
+ij.IJò
+ï
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java3 (6
+%7ij.ImagePlus"__id**
+ij.plugin.Animator"
+imp¬ø
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java3 (A
+%8java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+%7ij.ImagePlus2
+getTitle()≤
+Ø
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (A
+%9java.lang.String"__concat*
+Image is locked: \"*
+
+%8java.lang.String¢
+ü
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (F
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+\"∑
+¥
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (G
+%11void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%10java.lang.String"b
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaI (P
+""*Æ
+30X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (	ò
+ï
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (	
+%4ij.ImagePlus"__id**
+ij.plugin.Animator"
+imp®•
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (
+%5boolean"ij.ImagePlus#isLocked()Z*
+
+%4ij.ImagePlus2
+isLocked()*
+28
+29*
+31X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (´
+®
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (
+
+%3void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*
+Stack required."b
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java! ((
+""*Ï
+32X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (
+ú
+ô
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (
+%0ij.ImagePlus"ij.IJ#getImage()Lij/ImagePlus;*	"
+ij.IJò
+ï
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (
+ij.plugin.Animator"
+imp"__id*
+
+%0ij.ImagePlusò
+ï
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (
+%1ij.ImagePlus"__id**
+ij.plugin.Animator"
+imp¨©
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java (	
+%2int"ij.ImagePlus#getStackSize()I*
+
+%1ij.ImagePlus2getStackSize()*
+30
+31*¢
+10X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java@ @(ºπ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java@ @(
+%39void""ij.plugin.Animator#changeSlice(I)V*
+ij.plugin.Animator*22changeSlice(I)*
+8*…
+12X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java> >(	‹Ÿ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java> >(
+%38boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+next2equals(Ljava/lang/Object;)*
+
+7
+9
+10*˝
+13X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java: :(∏µ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java: :(
+%37void"#ij.plugin.Animator#stopAnimation()V*
+ij.plugin.Animator2stopAnimation()"b
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java; ;(
+
+""*«
+14X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java9 9(	‹Ÿ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java9 9(
+%36boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+stop2equals(Ljava/lang/Object;)*
+13
+12*ˇ
+15X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java2 2(∫∑
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java2 2(
+%35void"$ij.plugin.Animator#startAnimation()V*
+ij.plugin.Animator2startAnimation()"b
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java3 3(
+
+""*»
+16X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java1 1(	›⁄
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java1 1(
+%34boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*	
+start2equals(Ljava/lang/Object;)*
+14
+15*ı
+17X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java- -(∞≠
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java- -(
+%33void"ij.plugin.Animator#doOptions()V*
+ij.plugin.Animator2doOptions()"b
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java. .(
+
+""*¡
+
+18X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java' '(†
+ù
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java' '(
+ij.plugin.Animator"
+swin"__id*
+
+winij.gui.ImageWindowô
+ñ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java( ((
+%27ij.ImagePlus"__id**
+ij.plugin.Animator"
+impæª
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java( ((#
+%28ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+%27ij.ImagePlus2
+getStack()ô
+ñ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java)
+ )(
+%29ij.ImagePlus"__id**
+ij.plugin.Animator"
+imp¥±
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java)
+ )(
+
+%30int"ij.ImagePlus#getCurrentSlice()I*
+
+%29ij.ImagePlus2getCurrentSlice()°
+û
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java* *(
+%31void""ij.IJ#register(Ljava/lang/Class;)V*	"
+ij.IJ*
+""ﬂ‹
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java, ,(
+%32boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*	
+options2equals(Ljava/lang/Object;)*
+16
+17*¬
+19X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java% %(
+"b
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java% %(
+
+""*v
+0 "o
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaR R(
+implicit return*Ú
+1X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaO O(Æ´
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaO O(
+%45void"ij.plugin.Animator#setSlice()V*
+ij.plugin.Animator2
+setSlice()"b
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaP P(
+
+""*√
+2X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaN N(	€ÿ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaN N(
+%44boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+set2equals(Ljava/lang/Object;)*
+0
+1*¡
+3X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaK K(
+"b
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaK K(
+
+""*ù
+4X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaJ J(∏µ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaJ J(
+%43void"#ij.plugin.Animator#previousSlice()V*
+ij.plugin.Animator2previousSlice()*
+3*£
+5X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaH H(æª
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaH H(
+%42void""ij.plugin.Animator#changeSlice(I)V*
+ij.plugin.Animator*
+""2changeSlice(I)*
+3*À
+7X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaF F(	‡›
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaF F(
+%41boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+
+previous2equals(Ljava/lang/Object;)*	
+2
+4
+5*¡
+8X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaC C(
+"b
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaC C(
+
+""*ï
+9X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaB B(∞≠
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.javaB B(
+%40void"ij.plugin.Animator#nextSlice()V*
+ij.plugin.Animator2nextSlice()*
+8*¬
+20X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java$ $(ô
+ñ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java$ $(
+%25ij.ImagePlus"__id**
+ij.plugin.Animator"
+impøº
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java$ $(,
+%26void"$ij.ImagePlus#updateStatusbarValue()V*
+
+%25ij.ImagePlus2updateStatusbarValue()*
+19*ã
+22X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java# #(ô
+ñ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java# #(
+%21ij.ImagePlus"__id**
+ij.plugin.Animator"
+impô
+ñ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java# #(
+%22ij.ImagePlus"__id**
+ij.plugin.Animator"
+imp¥±
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java# #(&
+
+%23int"ij.ImagePlus#getCurrentSlice()I*
+
+%22ij.ImagePlus2getCurrentSlice()±Æ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java# #()
+%24void"ij.ImagePlus#setSlice(I)V*
+
+%21ij.ImagePlus*
+""2setSlice(I)*
+19
+20*œ
+23X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java" "(‡›
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Animator.java" "("
+%20boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+
+previous2equals(Ljava/lang/Object;)*
+19
+20
+22:
+argjava.lang.StringB
+ij.plugin.Animator

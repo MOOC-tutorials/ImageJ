@@ -1,0 +1,17 @@
+ij.plugin.frame.ContrastAdjuster#apply(Lij/ImagePlus;Lij/process/ImageProcessor;)V
+ij.plugin.frame.Recorder#scriptMode()Z
+java.awt.Frame#instance-init#
+ij.gui.YesNoCancelDialog#<init>(Ljava/awt/Frame;Ljava/lang/String;Ljava/lang/String;)V
+java.awt.Frame#<init>()V
+ij.IJ#isMacro()Z
+ij.ImagePlus#getDefault16bitRange()I
+ij.plugin.frame.Recorder#record(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ij.plugin.frame.Recorder#record(Ljava/lang/String;Ljava/lang/String;)V
+ij.IJ#showMessageWithCancel(Ljava/lang/String;Ljava/lang/String;)Z
+java.lang.Math#pow(DD)D
+ij.IJ#beep()V
+ij.gui.YesNoCancelDialog#instance-init#
+ij.plugin.frame.ContrastAdjuster#applyRGBStack(Lij/ImagePlus;)V
+ij.IJ#log(Ljava/lang/String;)V
+ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V
+ij.IJ#error(Ljava/lang/String;)V

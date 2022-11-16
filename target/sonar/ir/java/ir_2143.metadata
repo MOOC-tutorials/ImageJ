@@ -1,0 +1,15 @@
+ij.plugin.RoiScaler#scale(Lij/gui/Roi;DDZ)Lij/gui/Roi;
+ij.IJ#createImage(Ljava/lang/String;Ljava/lang/String;III)Lij/ImagePlus;
+ij.gui.PointRoi#instance-init#
+ij.plugin.RoiScaler#scaleShape(Lij/gui/ShapeRoi;DDZ)Lij/gui/Roi;
+ij.plugin.RoiScaler#scaleImage(Lij/gui/ImageRoi;DDZ)Lij/gui/Roi;
+ij.plugin.RoiScaler#scaleText(Lij/gui/TextRoi;DDZ)Lij/gui/Roi;
+ij.process.ImageStatistics#getStatistics(Lij/process/ImageProcessor;ILij/measure/Calibration;)Lij/process/ImageStatistics;
+java.lang.Math#round(D)J
+ij.gui.Line#instance-init#
+ij.process.FloatPolygon#<init>()V
+ij.gui.PointRoi#<init>([F[FI)V
+ij.gui.Line#<init>(DDDD)V
+ij.gui.PolygonRoi#instance-init#
+ij.process.FloatPolygon#instance-init#
+ij.gui.PolygonRoi#<init>([F[FII)V

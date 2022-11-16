@@ -1,0 +1,223 @@
+
+Hij.plugin.Selection#trimPolygon(Lij/gui/PolygonRoi;D)Lij/gui/PolygonRoi;[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaæ æ("14*Ó
+2[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaﬂ ﬂ(∫∑
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaﬂ ﬂ((
+%19float"ij.gui.Roi#getStrokeWidth()F*
+
+roiij.gui.PolygonRoi2getStrokeWidth()…∆
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaﬂ ﬂ()
+%20void"ij.gui.Roi#setStrokeWidth(F)V*
+
+pij.gui.PolygonRoi*
+
+%19float2setStrokeWidth(F)*
+1*É
+14[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaø ø(√¿
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaø ø(!
+%0int[]"%ij.gui.PolygonRoi#getXCoordinates()[I*
+
+roiij.gui.PolygonRoi2getXCoordinates()√¿
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¿ ¿(!
+%1int[]"%ij.gui.PolygonRoi#getYCoordinates()[I*
+
+roiij.gui.PolygonRoi2getYCoordinates()¿Ω
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¡
+ ¡(	
+%2int"$ij.gui.PolygonRoi#getNCoordinates()I*
+
+roiij.gui.PolygonRoi2getNCoordinates()∆√
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¬ ¬(
+%3int[]"!ij.plugin.Selection#smooth([II)[I*
+ij.plugin.Selection*
+""*
+""2smooth([II)∆√
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java√ √(
+%4int[]"!ij.plugin.Selection#smooth([II)[I*
+ij.plugin.Selection*
+""*
+""2smooth([II)‡›
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaƒ ƒ(+
+%5float[]")ij.plugin.Selection#getCurvature([I[II)[F*
+ij.plugin.Selection*
+""*
+""*
+""2getCurvature([I[II)œÃ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java≈ ≈(
+%6java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roiij.gui.PolygonRoi2getBounds()õ
+ò
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java≈ ≈( 
+rjava.awt.Rectangle"__id*
+
+%6java.awt.Rectangleºπ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java∆ ∆($
+%7double"ij.plugin.Selection#rodbard(D)D*
+ij.plugin.Selection*
+""2
+rodbard(D)£
+†
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java» »(N
+%8double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""*
+9
+12*µ
+3[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java›  ›(!çä
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java› ›(
+%16ij.gui.PolygonRoi"ij.gui.PolygonRoi∆
+√
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java› ›(/
+%17"!ij.gui.PolygonRoi#<init>([I[III)V*
+
+%16ij.gui.PolygonRoi*
+""*
+""*
+""*
+""ö
+ó
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java› ›(0
+pij.gui.PolygonRoi"__id*
+
+%16ij.gui.PolygonRoi‘—
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaﬁ ﬁ(
+%18java.awt.BasicStroke",ij.gui.Roi#getStroke()Ljava/awt/BasicStroke;*
+
+roiij.gui.PolygonRoi2getStroke()*
+2
+1*‡
+6[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java◊ ◊(By
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÿ ÿ(
+
+%15int"__id*
+""*
+3*·
+7[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java◊6 ◊(9y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java◊6 ◊(A
+
+%14int"__id*
+""
+}
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java◊6 ◊(A
+
+%12int"__id*
+
+
+%14int*
+6*·
+8[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java◊) ◊(,y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java◊) ◊(5
+
+%13int"__id*
+""
+}
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java◊) ◊(5
+
+%12int"__id*
+
+
+%13int*
+6*ê
+9[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java◊ ◊(™ß
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java◊ ◊(
+
+%10int"ij.gui.Roi#getType()I*
+
+roiij.gui.PolygonRoi2	getType()y
+w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java◊ ◊((
+
+%11int"__id*
+""*
+7
+8*ê
+12[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÕ Õ(£
+†
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaŒ Œ(9
+%9double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""*
+9
+12*“
+1[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java‡ ‡(“œ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java‡ ‡('
+%21java.awt.Color"+ij.gui.Roi#getStrokeColor()Ljava/awt/Color;*
+
+roiij.gui.PolygonRoi2getStrokeColor()Ì
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java‡ ‡((
+%22void",ij.gui.Roi#setStrokeColor(Ljava/awt/Color;)V*
+
+pij.gui.PolygonRoi*
+
+%21java.awt.Color2 setStrokeColor(Ljava/awt/Color;)»≈
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java· ·(
+%23java.lang.String"&ij.gui.Roi#getName()Ljava/lang/String;*
+
+roiij.gui.PolygonRoi2	getName()ËÂ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java· ·(
+%24void"'ij.gui.Roi#setName(Ljava/lang/String;)V*
+
+pij.gui.PolygonRoi*
+
+%23java.lang.String2setName(Ljava/lang/String;)ù
+ö
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java‚ ‚(
+%25ij.ImagePlus"__id* *
+ij.plugin.Selection"
+impÿ’
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java‚ ‚(
+%26void""ij.ImagePlus#setRoi(Lij/gui/Roi;)V*
+
+%25ij.ImagePlus*
+
+pij.gui.PolygonRoi2setRoi(Lij/gui/Roi;)"w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java„ „(
+
+pij.gui.PolygonRoi:
+roiij.gui.PolygonRoi:
+""B
+ij.plugin.Selection

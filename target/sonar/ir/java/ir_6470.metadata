@@ -1,0 +1,13 @@
+ij.plugin.ZProjector#doProjection()V
+ij.plugin.ZProjector#makeOutputImage(Lij/ImagePlus;Lij/process/FloatProcessor;I)Lij/ImagePlus;
+ij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V
+ij.process.FloatProcessor#instance-init#
+ij.process.FloatProcessor#<init>(II)V
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+ij.plugin.ZProjector#projectSlice(Ljava/lang/Object;Lij/plugin/ZProjector$RayFunction;I)V
+ij.plugin.ZProjector#getRayFunction(ILij/process/FloatProcessor;)Lij/plugin/ZProjector$RayFunction;
+ij.IJ#log(Ljava/lang/String;)V
+ij.ImagePlus#instance-init#
+ij.IJ#showProgress(II)V
+ij.plugin.ZProjector#doAverageFloatProjection(Lij/ImagePlus;)Lij/ImagePlus;
+ij.IJ#showStatus(Ljava/lang/String;)V

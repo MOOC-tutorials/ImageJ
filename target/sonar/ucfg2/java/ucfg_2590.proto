@@ -1,0 +1,164 @@
+
++ij.gui.Roi#getGroupColor(I)Ljava/awt/Color;R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaŒ Œ(#"7*‰
+2R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÿ ÿ( î
+ë
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÿ ÿ( 
+%10ij.process.LUT"__id**
+
+ij.gui.Roi"
+
+glasbeyLut∫∑
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÿ ÿ(.
+
+%11int")java.awt.image.IndexColorModel#getRGB(I)I*
+
+%10ij.process.LUT*
+""2	getRGB(I)}{
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÿ ÿ(
+%12java.awt.Color"java.awt.Color†
+ù
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÿ ÿ(/
+%13"java.awt.Color#<init>(I)V*
+
+%12java.awt.Color*
+
+
+%11intè
+å
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÿ ÿ(/
+colorjava.awt.Color"__id*
+
+%12java.awt.Color*
+1*ı
+3R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java◊ ◊(ì
+ê
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java◊ ◊(
+%9ij.process.LUT"__id**
+
+ij.gui.Roi"
+
+glasbeyLut*
+2
+1*¥
+4R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java’ ’(™
+ß
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java’ ’("
+%7java.lang.String"__concat*
+LUT not found: *
+
+pathjava.lang.String®
+•
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java’ ’(#
+
+%8void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%7java.lang.String*
+3*ã
+
+5R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java“ “(∏
+µ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java“ “(#
+%2java.lang.String"2ij.IJ#getDir(Ljava/lang/String;)Ljava/lang/String;*	"
+ij.IJ*
+luts§
+°
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java“ “(1
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+Glasbey.lutë
+é
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java“ “(2
+pathjava.lang.String"__id*
+
+%3java.lang.String£
+†
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java”# ”(2
+%4java.lang.String"__concat*
+
+noerror:*
+
+pathjava.lang.String·
+ﬁ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java” ”(3
+%5ij.process.LUT"?ij.plugin.LutLoader#openLut(Ljava/lang/String;)Lij/process/LUT;*"
+ij.plugin.LutLoader*
+
+%4java.lang.Stringì
+ê
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java” ”(3
+
+ij.gui.Roi"
+
+glasbeyLut"__id*
+
+%5ij.process.LUTì
+ê
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java‘ ‘(
+%6ij.process.LUT"__id**
+
+ij.gui.Roi"
+
+glasbeyLut*
+3
+4*ı
+6R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java— —(ì
+ê
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java— —(
+%1ij.process.LUT"__id**
+
+ij.gui.Roi"
+
+glasbeyLut*
+3
+5*Ñ
+7R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaœ œ(ë
+é
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaœ œ(
+%0java.awt.Color"__id**
+
+ij.gui.Roi"
+
+ROIColoré
+ã
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaœ œ(
+colorjava.awt.Color"__id*
+
+%0java.awt.Color*
+6
+1*»
+1R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java⁄	 ⁄("o
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java⁄ ⁄(
+
+colorjava.awt.Color:
+""B"
+
+ij.gui.Roi

@@ -1,0 +1,370 @@
+
+6ij.plugin.ContrastEnhancer#showDialog(Lij/ImagePlus;)Z`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java+	 +("52*¡
+24`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaK K( «
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaK K( 
+%29double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()*
+16
+19
+22*¸
+47`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java. .(«ƒ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java. .(F
+%5java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*
+
+optionsjava.lang.String*
+normalize_all*
+process_all20replaceAll(Ljava/lang/String;Ljava/lang/String;)√
+¿
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java. .(G
+
+%6void"(ij.Macro#setOptions(Ljava/lang/String;)V*"
+
+ij.Macro*
+
+%5java.lang.String*
+44*“
+25`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaJ
+ J("j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaJ J(
+""*Û
+48`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java- -(Ä˝
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java- -(8
+%4boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+optionsjava.lang.String*
+normalize_all2"contains(Ljava/lang/CharSequence;)*
+47
+44*ÿ
+26`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaG G(
+å
+â
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaG G(
+%24java.lang.String"__id*
+""…
+∆
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaG G(<
+%25java.lang.String"__concat*
+
+%24java.lang.String*$"
+ /docs/menus/process.html#enhance˚¯
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaG G(=
+%26void"1ij.gui.GenericDialog#addHelp(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%25java.lang.String2addHelp(Ljava/lang/String;)¬ø
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaH H(
+%27void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()«ƒ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaI I(
+%28boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+24
+25*ï
+49`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java, ,(8¢
+ü
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java, ,(8
+optionsjava.lang.String"__id*
+
+%1java.lang.String*
+48
+44*˙
+27`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaE E(ãà
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaE E(;
+%23void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Use stack histogram*
+""2 addCheckbox(Ljava/lang/String;Z)*
+26*‘
+28`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaD D(¢
+ü
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaD D(+
+%20java.lang.String"__concat*
+Process_all *
+""∞
+≠
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaD D(5
+%21java.lang.String"__concat*
+
+%20java.lang.String*	
+ slicesçä
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaD D(D
+%22void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+
+%21java.lang.String*
+""2 addCheckbox(Ljava/lang/String;Z)*
+27*Ü
+50`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java,3 ,(7ó
+î
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java,3 ,(7
+%1java.lang.String"__id*
+
+%3
+<nulltype>*
+49*√
+51`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java,  ,(%¥
+±
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java,  ,(2
+%2java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macroù
+ö
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java,  ,(2
+%1java.lang.String"__id*
+
+%2java.lang.String*
+49*Ñ
+52`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java, ,(ë
+é
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java, ,(
+%0boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+50
+51*Å
+30`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaA A(äá
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaA A(0
+%19void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Equalize histogram*
+""2 addCheckbox(Ljava/lang/String;Z)*
+26
+27
+28*¢
+31`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java> >(S°
+û
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java> >(S
+labeljava.lang.String"__id*
+
+%15java.lang.Stringèå
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java? ?(%
+%18void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+
+labeljava.lang.String*
+""2 addCheckbox(Ljava/lang/String;Z)*
+30*é
+32`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java>5 >(Rü
+ú
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java>5 >(R
+%15java.lang.String"__id*
+
+%17java.lang.String*
+31*˚
+11`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaX6 X(;ç
+ä
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaX6 X(;
+%36boolean"__id*
+
+%38boolean*
+1*é
+33`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java> >(4ü
+ú
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java> >(4
+%15java.lang.String"__id*
+
+%16java.lang.String*
+31*À
+12`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaX" X($Õ 
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaX" X(5
+%37boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()ç
+ä
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaX" X(5
+%36boolean"__id*
+
+%37boolean*
+1*¯
+36`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java< <(Å˛
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java< <()
+%14void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+	Normalize*
+""2 addCheckbox(Ljava/lang/String;Z)*
+30
+32
+33*Ä
+14`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaW1 W(6ç
+ä
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaW1 W(6
+%33boolean"__id*
+
+%35boolean*
+11
+12*–
+15`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaW W(Õ 
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaW W(0
+%34boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()ç
+ä
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaW W(0
+%33boolean"__id*
+
+%34boolean*
+11
+12*·
+38`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java8 8(<òï
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java9 9(&
+%11ij.gui.GenericDialog"ij.gui.GenericDialog”
+–
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java9 9(:
+%12"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%11ij.gui.GenericDialog*
+Enhance Contrast¶
+£
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java9 9(;
+gdij.gui.GenericDialog"__id*
+
+%11ij.gui.GenericDialogÃ…
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java: :(?
+%13void"Nij.gui.GenericDialog#addNumericField(Ljava/lang/String;DIILjava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Saturated pixels:*
+""*2*2*
+%28addNumericField(Ljava/lang/String;DIILjava/lang/String;)*
+36
+30
+32
+33*¿
+16`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaV V(Õ 
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaV V( 
+%32boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+14
+15*º
+19`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaQ Q(Õ 
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaQ Q($
+%31boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+16*—
+1`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaa	 a("j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaa a(
+""*ô
+41`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java8! 8($™ß
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java8! 8(-
+%10boolean"ij.gui.Roi#isArea()Z*
+
+roi
+ij.gui.Roi2isArea()*
+38*√
+42`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java7 7(ª∏
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java7 7(
+%9
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()í
+è
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java7 7(
+roi
+ij.gui.Roi"__id*
+
+%9
+ij.gui.Roi*
+38
+41*‹
+44`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java4 4(≥∞
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java4 4("	
+%7int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()∑¥
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.java5 5('
+%8boolean"ij.ImagePlus#isComposite()Z*
+
+impij.ImagePlus2isComposite()*
+42*¿
+22`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaM M(Õ 
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ContrastEnhancer.javaM M("
+%30boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+16
+19:
+impij.ImagePlusB
+ij.plugin.ContrastEnhancer

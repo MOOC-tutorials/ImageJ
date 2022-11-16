@@ -1,0 +1,7 @@
+ij.ImagePlus#cropAndSave([Lij/gui/Roi;Ljava/lang/String;Ljava/lang/String;)V
+ij.IJ#saveAs(Lij/ImagePlus;Ljava/lang/String;Ljava/lang/String;)V
+ij.IJ#pad(II)Ljava/lang/String;
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+ij.ImageStack#create([Lij/ImagePlus;)Lij/ImageStack;
+ij.ImagePlus#instance-init#
+ij.ImagePlus#<init>(Ljava/lang/String;Lij/ImageStack;)V

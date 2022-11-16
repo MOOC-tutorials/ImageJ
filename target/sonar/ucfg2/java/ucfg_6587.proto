@@ -1,0 +1,1437 @@
+
+&ij.plugin.RGBStackMerge#mergeStacks()V]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java" "("128*†
+68_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÉ É(≤
+Ø
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÉ É(3
+%84void"ij.IJ#run(Ljava/lang/String;)V*	"
+ij.IJ*
+Channels Tool...*
+67*ú
+25_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∏
+ ∏(!å
+â
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∏
+ ∏(:
+%108ij.ImagePlus"Oij.plugin.RGBStackMerge#mergeUsingRGBProjection([Lij/ImagePlus;Z)Lij/ImagePlus;*
+ij.plugin.RGBStackMerge*
+
+imagesij.ImagePlus[]*
+""ò
+ï
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∏ ∏(:
+imp2ij.ImagePlus"__id*
+
+%108ij.ImagePlus*
+15
+8
+11*Ö
+69_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÅ Å(}
+{
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÅ Å(
+
+%80int"__id*
+""≈¬
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÅ Å(
+%81void"ij.CompositeImage#setMode(I)V*
+
+ciij.CompositeImage*
+
+
+%80int2
+setMode(I)∏µ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÇ Ç(
+%82void"ij.ImagePlus#updateAndDraw()V*
+
+imgij.ImagePlus2updateAndDraw()ë
+é
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÉ É(
+%83boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+68
+67*¬
+70]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java) (,ò
+ï
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java (-
+ciij.CompositeImage"__id*
+
+imgij.ImagePlus¥±
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÄ	 Ä(
+
+%78int"ij.CompositeImage#getMode()I*
+
+ciij.CompositeImage2	getMode()}
+{
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÄ Ä(#
+
+%79int"__id*
+""*
+69
+64
+65*©
+71]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java~ ~(µ≤
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java~ ~(
+%77boolean"ij.ImagePlus#isComposite()Z*
+
+imgij.ImagePlus2isComposite()*
+70
+64
+65*ß
+72]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java} }(
+∑¥
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java} }(
+%76boolean"ij.ImagePlus#isHyperStack()Z*
+
+imgij.ImagePlus2isHyperStack()*
+58
+71*Ê
+73]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaz z(	óî
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaz z(C
+%75void"2ij.plugin.RGBStackMerge#error(Ljava/lang/String;)V*
+ij.plugin.RGBStackMerge*:8
+6The source stacks must have the same number of images.2error(Ljava/lang/String;)"g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java{ {(
+""*‹
+30_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java≥ ≥(™
+ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java≥ ≥(
+%106ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""µ≤
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java≥ ≥(
+%107int"ij.ImagePlus#getBitDepth()I*
+
+%106ij.ImagePlus2getBitDepth()*
+25
+19
+21
+33*£
+74]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javay y(
+≥∞
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javay y(
+
+%74int"ij.ImagePlus#getStackSize()I*
+
+imgij.ImagePlus2getStackSize()*
+72
+73*≤
+76]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaw w(ß
+§
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaw w(
+%73ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""î
+ë
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaw w(
+imgij.ImagePlus"__id*
+
+%73ij.ImagePlus*
+51
+74
+76*®
+33_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∞ ∞(™
+ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∞ ∞(
+%105ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""*
+25
+19
+30
+21
+33*·
+79]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaq q(íè
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaq q(=
+%72void"2ij.plugin.RGBStackMerge#error(Ljava/lang/String;)V*
+ij.plugin.RGBStackMerge*53
+1There must be at least one source image or stack.2error(Ljava/lang/String;)"g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javar r(
+
+""*Á
+100]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaD D(9ˆÛ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaD D(9
+%39void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+C5 (cyan):*
+
+titlesjava.lang.String[]*
+
+%36java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)*
+98
+99*π
+101]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaD0 D(5¨
+©
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaD0 D(8
+%38java.lang.String"
+__arrayGet*
+
+namesjava.lang.String[]*2ú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaD0 D(8
+%36java.lang.String"__id*
+
+%38java.lang.String*
+100*µ
+102]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaD+ D(/®
+•
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaD+ D(/
+%37java.lang.String"__id*%*#
+ij.plugin.RGBStackMerge"
+noneú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaD+ D(/
+%36java.lang.String"__id*
+
+%37java.lang.String*
+100*È
+103]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaC C(9ˆÛ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaC C(9
+%35void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+C4 (gray):*
+
+titlesjava.lang.String[]*
+
+%32java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)*
+
+101
+102*π
+104]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaC0 C(5¨
+©
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaC0 C(8
+%34java.lang.String"
+__arrayGet*
+
+namesjava.lang.String[]*2ú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaC0 C(8
+%32java.lang.String"__id*
+
+%34java.lang.String*
+103*µ
+105]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaC+ C(/®
+•
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaC+ C(/
+%33java.lang.String"__id*%*#
+ij.plugin.RGBStackMerge"
+noneú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaC+ C(/
+%32java.lang.String"__id*
+
+%33java.lang.String*
+103*È
+106]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaB B(9ˆÛ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaB B(9
+%31void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+C3 (blue):*
+
+titlesjava.lang.String[]*
+
+%28java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)*
+
+104
+105*π
+107]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaB0 B(5¨
+©
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaB0 B(8
+%30java.lang.String"
+__arrayGet*
+
+namesjava.lang.String[]*2ú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaB0 B(8
+%28java.lang.String"__id*
+
+%30java.lang.String*
+106*µ
+108]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaB+ B(/®
+•
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaB+ B(/
+%29java.lang.String"__id*%*#
+ij.plugin.RGBStackMerge"
+noneú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaB+ B(/
+%28java.lang.String"__id*
+
+%29java.lang.String*
+106*Í
+109]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaA A(:˜Ù
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaA A(:
+%27void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+C2 (green):*
+
+titlesjava.lang.String[]*
+
+%24java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)*
+
+107
+108*ù
+82]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javag g(ß
+§
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javag g(
+%60ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""´®
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javag g(!
+
+%61int"ij.ImagePlus#getWidth()I*
+
+%60ij.ImagePlus2
+getWidth()ß
+§
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javah h(
+%62ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""≠™
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javah h(#
+
+%63int"ij.ImagePlus#getHeight()I*
+
+%62ij.ImagePlus2getHeight()ß
+§
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javai i(
+%64ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""≥∞
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javai i()
+
+%65int"ij.ImagePlus#getStackSize()I*
+
+%64ij.ImagePlus2getStackSize()ß
+§
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaj j(
+%66ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""±Æ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaj j('
+
+%67int"ij.ImagePlus#getBitDepth()I*
+
+%66ij.ImagePlus2getBitDepth()ß
+§
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javak k(
+%68ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""Ø¨
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javak k($
+
+%69int"ij.ImagePlus#getNSlices()I*
+
+%68ij.ImagePlus2getNSlices()ß
+§
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javal l(
+%70ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""Ø¨
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javal l($
+
+%71int"ij.ImagePlus#getNFrames()I*
+
+%70ij.ImagePlus2getNFrames()*
+79
+83
+51
+76*
+83]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javae e(
+¡
+æ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javae e(7
+%58ij.ImagePlus"*ij.WindowManager#getImage(I)Lij/ImagePlus;*"
+ij.WindowManager*
+""∞
+≠
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javae e(7
+%59"
+__arraySet*
+
+imagesij.ImagePlus[]*
+""*
+
+%58ij.ImagePlus*
+79
+82
+83
+51
+76*ü
+86]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java[% [(0âÜ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java[ [(1
+%57ij.ImagePlus[]"ij.ImagePlus[]õ
+ò
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java[ [(2
+imagesij.ImagePlus[]"__id*
+
+%57ij.ImagePlus[]*
+79
+83
+51
+76*™
+42_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java• •(¨
+©
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java• •(
+%104ij.ImageStack"
+__arrayGet*
+
+stacksij.ImageStack[]*
+""*
+25
+19
+42
+21
+33*–
+88]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaR R( «
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaR R('
+%54boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean() «
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaS	 S(
+%55boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean() «
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaT T("
+%56boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+86*Ü
+44_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java¢ ¢(à
+Ö
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java¢ ¢(
+imp2ij.ImagePlus"__id*
+""*
+25
+19
+42
+21
+33*ß
+46_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java° °(8µ
+≤
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java° °(8
+%103"
+__arraySet*
+
+stacksij.ImageStack[]*
+""*
+
+%99ij.ImageStack*
+49
+44*Ñ
+47_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java°4 °(8ñ
+ì
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java°4 °(8
+%99ij.ImageStack"__id*
+
+%101
+<nulltype>*
+46*˛
+48_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java° °(%™
+ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java° °((
+%102ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""«ƒ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java° °(3
+%100ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+%102ij.ImagePlus2
+getStack()ô
+ñ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java° °(3
+%99ij.ImageStack"__id*
+
+%100ij.ImageStack*
+46*õ
+49_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java° °(	©
+¶
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java° °(
+%98ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""*
+47
+48*π
+110]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaA1 A(6¨
+©
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaA1 A(9
+%26java.lang.String"
+__arrayGet*
+
+namesjava.lang.String[]*2ú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaA1 A(9
+%24java.lang.String"__id*
+
+%26java.lang.String*
+109*µ
+111]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaA, A(0®
+•
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaA, A(0
+%25java.lang.String"__id*%*#
+ij.plugin.RGBStackMerge"
+noneú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaA, A(0
+%24java.lang.String"__id*
+
+%25java.lang.String*
+109*Ë
+112]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java@ @(8ıÚ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java@ @(8
+%23void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+	C1 (red):*
+
+titlesjava.lang.String[]*
+
+%20java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)*
+
+110
+111*∑
+113]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java@/ @(4™
+ß
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java@/ @(7
+%22java.lang.String"
+__arrayGet*
+
+namesjava.lang.String[]*2 ú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java@/ @(7
+%20java.lang.String"__id*
+
+%22java.lang.String*
+112*µ
+114]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java@* @(.®
+•
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java@* @(.
+%21java.lang.String"__id*%*#
+ij.plugin.RGBStackMerge"
+noneú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java@* @(.
+%20java.lang.String"__id*
+
+%21java.lang.String*
+112*ˇ
+115]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java?' ?(7ïí
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java? ?(&
+%18ij.gui.GenericDialog"ij.gui.GenericDialogŒ
+À
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java? ?(8
+%19"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%18ij.gui.GenericDialog*
+Merge Channels£
+†
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java? ?(9
+gdij.gui.GenericDialog"__id*
+
+%18ij.gui.GenericDialog*
+
+113
+114*†
+116]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java7) 7(.¥±
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java8 8(.
+%13java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*
+
+optionsjava.lang.String*
+red=*
+c1=20replaceAll(Ljava/lang/String;Ljava/lang/String;)†
+ù
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java8 8(.
+optionsjava.lang.String"__id*
+
+%13java.lang.String∂≥
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java9 9(0
+%14java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*
+
+optionsjava.lang.String*
+
+green=*
+c2=20replaceAll(Ljava/lang/String;Ljava/lang/String;)†
+ù
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java9 9(0
+optionsjava.lang.String"__id*
+
+%14java.lang.Stringµ≤
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java: :(/
+%15java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*
+
+optionsjava.lang.String*	
+blue=*
+c3=20replaceAll(Ljava/lang/String;Ljava/lang/String;)†
+ù
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java: :(/
+optionsjava.lang.String"__id*
+
+%15java.lang.Stringµ≤
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java; ;(/
+%16java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*
+
+optionsjava.lang.String*	
+gray=*
+c4=20replaceAll(Ljava/lang/String;Ljava/lang/String;)†
+ù
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java; ;(/
+optionsjava.lang.String"__id*
+
+%16java.lang.String∆
+√
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java< <(
+%17void"(ij.Macro#setOptions(Ljava/lang/String;)V*"
+
+ij.Macro*
+
+optionsjava.lang.String*
+115*æ
+90]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaP P(ŒÀ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaP P(%
+
+%53int"*ij.gui.GenericDialog#getNextChoiceIndex()I*
+
+gdij.gui.GenericDialog2getNextChoiceIndex()*
+90
+88*ı
+
+119]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java. .(ß
+§
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java. .(
+%8java.lang.String"__id*%*#
+ij.plugin.RGBStackMerge"
+none∂
+≥
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java. .(
+%9"
+__arraySet*
+
+titlesjava.lang.String[]*
+""*
+
+%8java.lang.Stringã
+à
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java/ /(*
+%10java.lang.String[]"Oij.plugin.RGBStackMerge#getInitialNames([Ljava/lang/String;)[Ljava/lang/String;*
+ij.plugin.RGBStackMerge*
+
+titlesjava.lang.String[]¢
+ü
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java/ /(+
+namesjava.lang.String[]"__id*
+
+%10java.lang.String[]≤
+Ø
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java4 4(%
+%11java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macro†
+ù
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java4 4(&
+optionsjava.lang.String"__id*
+
+%11java.lang.Stringî
+ë
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java5 5(#
+%12boolean"ij.IJ#macroRunning()Z*	"
+ij.IJ*
+
+115
+116*Ã
+93]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaM M(
+"g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaM M(
+
+""*ë
+94]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaF F(;¯ı
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaF F(;
+%47void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+C7 (yellow):*
+
+titlesjava.lang.String[]*
+
+%44java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)ÖÇ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaH H(5
+%48void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Create composite*
+""2 addCheckbox(Ljava/lang/String;Z)áÑ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaI I(,
+%49void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Keep source images*
+""2 addCheckbox(Ljava/lang/String;Z)áÑ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaJ J(2
+%50void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Ignore source LUTs*
+""2 addCheckbox(Ljava/lang/String;Z)øº
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaK K(
+%51void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()ƒ¡
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaL L(
+%52boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+90
+93
+88*∑
+95]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaF2 F(7¨
+©
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaF2 F(:
+%46java.lang.String"
+__arrayGet*
+
+namesjava.lang.String[]*2ú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaF2 F(:
+%44java.lang.String"__id*
+
+%46java.lang.String*
+94*°
+51_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaü' ü(2çä
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaü ü(3
+%97ij.ImageStack[]"ij.ImageStack[]ü
+ú
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaü ü(4
+stacksij.ImageStack[]"__id*
+
+%97ij.ImageStack[]*
+49
+44*≥
+96]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaF- F(1®
+•
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaF- F(1
+%45java.lang.String"__id*%*#
+ij.plugin.RGBStackMerge"
+noneú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaF- F(1
+%44java.lang.String"__id*
+
+%45java.lang.String*
+94*È
+97]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaE E(<˘ˆ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaE E(<
+%43void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+C6 (magenta):*
+
+titlesjava.lang.String[]*
+
+%40java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)*
+95
+96*Â
+53_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaö ö(	íè
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaö ö(<
+%96void"2ij.plugin.RGBStackMerge#error(Ljava/lang/String;)V*
+ij.plugin.RGBStackMerge*31
+/The source images must have the same bit depth.2error(Ljava/lang/String;)"i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaõ õ(
+""*∑
+98]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaE3 E(8¨
+©
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaE3 E(;
+%42java.lang.String"
+__arrayGet*
+
+namesjava.lang.String[]*2ú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaE3 E(;
+%40java.lang.String"__id*
+
+%42java.lang.String*
+97*£
+10_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÀ À(!≥∞
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÀ À(.
+%123int"ij.ImagePlus#getNFrames()I*
+
+imp2ij.ImagePlus2getNFrames()*
+8
+9*©
+54_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaô ô(≥∞
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaô ô(+
+
+%95int"ij.ImagePlus#getBitDepth()I*
+
+imgij.ImagePlus2getBitDepth()*
+51
+53
+76*≥
+99]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaE. E(2®
+•
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaE. E(2
+%41java.lang.String"__id*%*#
+ij.plugin.RGBStackMerge"
+noneú
+ô
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaE. E(2
+%40java.lang.String"__id*
+
+%41java.lang.String*
+97*§
+11_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÀ À(≥∞
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÀ À(
+%122int"ij.ImagePlus#getNSlices()I*
+
+imp2ij.ImagePlus2getNSlices()*
+8
+10*ˆ
+56_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javañ ñ(	£†
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javañ ñ(M
+%94void"2ij.plugin.RGBStackMerge#error(Ljava/lang/String;)V*
+ij.plugin.RGBStackMerge*DB
+@The source images or stacks must have the same width and height.2error(Ljava/lang/String;)"i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaó ó(
+""*’
+57_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaï  ï(&©
+¶
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaï  ï()
+%92ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""Ø¨
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaï  ï(5
+
+%93int"ij.ImagePlus#getHeight()I*
+
+%92ij.ImagePlus2getHeight()*
+51
+54
+76
+56*î
+14_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∆ ∆(™
+ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∆ ∆(!
+%119ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""Â‚
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∆ ∆(2
+%120ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+%119ij.ImagePlus2getCalibration()éã
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∆ ∆(3
+%121void"6ij.ImagePlus#setCalibration(Lij/measure/Calibration;)V*
+
+imp2ij.ImagePlus* 
+
+%120ij.measure.Calibration2(setCalibration(Lij/measure/Calibration;)*
+8
+11*ü
+58_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaï ï(
+≠™
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaï ï(
+
+%91int"ij.ImagePlus#getWidth()I*
+
+imgij.ImagePlus2
+getWidth()*
+57
+56*£
+15_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java≈ ≈(™
+ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java≈ ≈(
+%118ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""*
+14
+15
+8
+11*Ù
+18_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java¿ ¿(˛
+˚
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java¿ ¿(1
+%116ij.ImagePlus"Hij.plugin.CompositeConverter#makeComposite(Lij/ImagePlus;)Lij/ImagePlus;* "
+ij.plugin.CompositeConverter*
+
+imp2ij.ImagePlusò
+ï
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java¿ ¿(1
+imp2ij.ImagePlus"__id*
+
+%116ij.ImagePlus„‡
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java¡ ¡(
+%117void"*ij.ImagePlus#setTitle(Ljava/lang/String;)V*
+
+imp2ij.ImagePlus*
+	Composite2setTitle(Ljava/lang/String;)*
+15
+8
+11*À
+19_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaΩ Ω(®
+•
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaΩ: Ω(C
+%110ij.ImageStack"
+__arrayGet*
+
+stacksij.ImageStack[]*2 ™
+ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaΩE Ω(N
+%111ij.ImageStack"
+__arrayGet*
+
+stacksij.ImageStack[]*2™
+ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaΩP Ω(Y
+%112ij.ImageStack"
+__arrayGet*
+
+stacksij.ImageStack[]*2™ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaΩ Ω(`
+%113ij.ImageStack"eij.plugin.RGBStackMerge#mergeStacks(IIILij/ImageStack;Lij/ImageStack;Lij/ImageStack;Z)Lij/ImageStack;*
+ij.plugin.RGBStackMerge*
+""*
+""*
+""*
+
+%110ij.ImageStack*
+
+%111ij.ImageStack*
+
+%112ij.ImageStack*
+""2>mergeStacks(IIILij/ImageStack;Lij/ImageStack;Lij/ImageStack;Z)ô
+ñ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaΩ Ω(a
+rgbij.ImageStack"__id*
+
+%113ij.ImageStackàÖ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaæ æ(
+%114ij.ImagePlus"ij.ImagePlusﬁ
+€
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaæ
+ æ(#
+%115"7ij.ImagePlus#<init>(Ljava/lang/String;Lij/ImageStack;)V*
+
+%114ij.ImagePlus*
+RGB*
+
+rgbij.ImageStackò
+ï
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaæ æ(#
+imp2ij.ImagePlus"__id*
+
+%114ij.ImagePlus*
+15
+18
+8
+11*©
+121]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java, ,(*∂
+≥
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java, ,(*
+%7"
+__arraySet*
+
+titlesjava.lang.String[]*
+""*
+
+%4java.lang.String*
+
+124
+119*}
+0 "v
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java€ €(
+implicit return*à
+122]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java,( ,(*ö
+ó
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java,( ,(*
+%4java.lang.String"__id*
+
+%6java.lang.String*
+121*º
+1_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaŸ Ÿ(©¶
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaŸ Ÿ( 
+%132int"ij.ImagePlus#getID()I*
+
+imp2ij.ImagePlus2getID()§
+°
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaŸ Ÿ(!
+%133void"ij.IJ#selectWindow(I)V*	"
+ij.IJ*
+
+%132int*
+0*”
+123]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java, ,(»≈
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java, ,('
+%5java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+impij.ImagePlus2
+getTitle()ö
+ó
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java, ,('
+%4java.lang.String"__id*
+
+%5java.lang.String*
+121*¬
+2_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÿ ÿ(”–
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÿ ÿ(
+%131ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+imp2ij.ImagePlus2getWindow()*
+0
+1*…
+124]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java+ +( ¿
+Ω
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java+ +(3
+%3ij.ImagePlus"*ij.WindowManager#getImage(I)Lij/ImagePlus;*"
+ij.WindowManager*
+""ì
+ê
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java+ +(4
+impij.ImagePlus"__id*
+
+%3ij.ImagePlus*
+
+123
+122*Û
+4_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java‘ ‘(™
+ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java‘ ‘(
+%128ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""™
+ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java’ ’(
+%129ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""™ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java’ ’(
+%130void"ij.ImagePlus#close()V*
+
+%129ij.ImagePlus2close()*
+2
+5*®
+126]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java) )($êç
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java) )(.
+%2java.lang.String[]"java.lang.String[]¢
+ü
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java) )(/
+titlesjava.lang.String[]"__id*
+
+%2java.lang.String[]*
+
+124
+119*ú
+5_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java” ”(™
+ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java” ”(
+%127ij.ImagePlus"
+__arrayGet*
+
+imagesij.ImagePlus[]*
+""*	
+2
+4
+5*√
+127]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java% %(Û
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java% %(
+
+%1void"2ij.plugin.RGBStackMerge#error(Ljava/lang/String;)V*
+ij.plugin.RGBStackMerge*
+No images are open.2error(Ljava/lang/String;)"g
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java& &(
+
+""*ò
+128]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java# #(•
+¢
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java# #()
+%0int[]"ij.WindowManager#getIDList()[I*"
+ij.WindowManager*
+
+126
+127*ö
+8_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java– –(®•
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java– –(
+%126void"ij.ImagePlus#show()V*
+
+imp2ij.ImagePlus2show()*	
+2
+5
+0*™
+9_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÃ Ã(√¿
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÃ Ã(
+%124ij.ImagePlus"$ij.ImagePlus#flatten()Lij/ImagePlus;*
+
+imp2ij.ImagePlus2	flatten()ò
+ï
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÃ Ã(
+imp2ij.ImagePlus"__id*
+
+%124ij.ImagePlus›⁄
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÕ Õ(
+%125void"*ij.ImagePlus#setTitle(Ljava/lang/String;)V*
+
+imp2ij.ImagePlus*
+RGB2setTitle(Ljava/lang/String;)*
+8*Á
+60_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaê ê(
+îë
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaê ê(?
+%90void"2ij.plugin.RGBStackMerge#error(Ljava/lang/String;)V*
+ij.plugin.RGBStackMerge*53
+1Source hyperstacks must have the same dimensions.2error(Ljava/lang/String;)"i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaë ë(
+""*£
+61_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaè$ è('±Æ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaè$ è(4
+
+%89int"ij.ImagePlus#getNFrames()I*
+
+imgij.ImagePlus2getNFrames()*
+58
+60*£
+62_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaè è(±Æ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaè è(
+
+%88int"ij.ImagePlus#getNSlices()I*
+
+imgij.ImagePlus2getNSlices()*
+60
+61*È
+63_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaå å(
+ñì
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaå å(A
+%87void"2ij.plugin.RGBStackMerge#error(Ljava/lang/String;)V*
+ij.plugin.RGBStackMerge*75
+3Source hyperstacks cannot have more than 1 channel.2error(Ljava/lang/String;)"i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaç ç(
+""*–
+20_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaª ª("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaª ª(
+""*ß
+64_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaã ã(µ≤
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaã ã(
+
+%86int"ij.ImagePlus#getNChannels()I*
+
+imgij.ImagePlus2getNChannels()*
+62
+63*Ω
+21_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∫
+ ∫(©¶
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∫
+ ∫((
+%109ij.ImagePlus"Hij.plugin.RGBStackMerge#mergeHyperstacks([Lij/ImagePlus;Z)Lij/ImagePlus;*
+ij.plugin.RGBStackMerge*
+
+imagesij.ImagePlus[]*
+""2"mergeHyperstacks([Lij/ImagePlus;Z)ò
+ï
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∫ ∫((
+imp2ij.ImagePlus"__id*
+
+%109ij.ImagePlus*
+15
+8
+20
+11*◊
+65_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaà à(
+ÑÅ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaà à(/
+%85void"2ij.plugin.RGBStackMerge#error(Ljava/lang/String;)V*
+ij.plugin.RGBStackMerge*%#
+!Source hyperstacks cannot be RGB.2error(Ljava/lang/String;)"i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaâ â(
+""*–
+67_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÑ Ñ("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaÑ Ñ(
+""B
+ij.plugin.RGBStackMerge

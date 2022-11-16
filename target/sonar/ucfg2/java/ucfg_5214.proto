@@ -1,0 +1,188 @@
+
+eij.plugin.tool.OverlayBrushTool$Options#dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)Zg
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÊ Ê(""15"8*‡
+13g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÈ È("q
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÈ È(
+""*‚
+14g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaË Ë(!»
+≈
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaË Ë(3
+%2ij.ImagePlus"0ij.WindowManager#getCurrentImage()Lij/ImagePlus;*"
+ij.WindowManagerù
+ö
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaË Ë(4
+impij.ImagePlus"__id*
+
+%2ij.ImagePlus*
+13
+12*œ
+15g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÁ Á(⁄◊
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÁ Á(
+%0java.lang.String".java.awt.AWTEvent#toString()Ljava/lang/String;*
+
+ejava.awt.AWTEvent2
+toString()˘ˆ
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÁ Á(/
+%1boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+%0java.lang.String*
+Undo2"contains(Ljava/lang/CharSequence;)*
+14
+8*ö
+5g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÙ Ù(—Œ
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÙ Ù()
+%12double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()“œ
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaı ı(
+%13boolean"%ij.gui.GenericDialog#invalidNumber()Z*
+
+gdij.gui.GenericDialog2invalidNumber()*
+1*Ñ
+6g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÛ Û(ø
+º
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÛ Û(&
+%10java.lang.String"__id*2*0!
+ij.plugin.tool.OverlayBrushTool"
+	WIDTH_KEYŒ
+À
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÛ Û(*
+%11double""ij.Prefs#get(Ljava/lang/String;D)D*"
+
+ij.Prefs*
+
+%10java.lang.String*2*
+5*õ
+8g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÒ Ò(–Õ
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÒ Ò($
+%8double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()—Œ
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÚ Ú(
+%9boolean"%ij.gui.GenericDialog#invalidNumber()Z*
+
+gdij.gui.GenericDialog2invalidNumber()*
+5
+6*ﬂ
+9g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÔ Ô("q
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÔ Ô(
+""*ü
+10g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÏ Ï(¥±
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÏ Ï("	
+%5int"ij.gui.Overlay#size()I*
+
+overlayij.gui.Overlay2size()√¿
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÏ Ï(%
+
+%6void"ij.gui.Overlay#remove(I)V*
+
+overlayij.gui.Overlay*
+""2	remove(I)≠™
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÌ Ì(
+
+%7void"ij.ImagePlus#draw()V*
+
+impij.ImagePlus2draw()*
+9*≠
+11g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÎ Î( ¥±
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÎ Î('	
+%4int"ij.gui.Overlay#size()I*
+
+overlayij.gui.Overlay2size()*
+9
+10*Û
+12g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÍ Í(“œ
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÍ Í(&
+%3ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+impij.ImagePlus2getOverlay()•
+¢
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.javaÍ Í('
+overlayij.gui.Overlay"__id*
+
+%3ij.gui.Overlay*
+9
+11*™
+1g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.java˜ ˜(ÏÈ
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.java˜ ˜((
+%14java.lang.String"6ij.gui.GenericDialog#getNextChoice()Ljava/lang/String;*
+
+gdij.gui.GenericDialog2getNextChoice()¨
+©
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.java˜ ˜()
+	colorNamejava.lang.String"__id*
+
+%14java.lang.Stringè
+å
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.java¯ ¯(/
+%15java.awt.Color"Kij.plugin.Colors#decode(Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;*"
+ij.plugin.Colors*
+
+	colorNamejava.lang.String*
+""§
+°
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.java¯ ¯(0
+colorjava.awt.Color"__id*
+
+%15java.awt.Colorﬁ
+€
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.java˘ ˘($
+%16void"4ij.gui.Toolbar#setForegroundColor(Ljava/awt/Color;)V*"
+ij.gui.Toolbar*
+
+colorjava.awt.Colorø
+º
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.java˙ ˙(
+%17java.lang.String"__id*2*0!
+ij.plugin.tool.OverlayBrushTool"
+	WIDTH_KEYŒ
+À
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.java˙ ˙(
+%18void""ij.Prefs#set(Ljava/lang/String;D)V*"
+
+ij.Prefs*
+
+%17java.lang.String*
+"""q
+g
+[/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/OverlayBrushTool.java˚ ˚(
+"":
+gdij.gui.GenericDialog:
+ejava.awt.AWTEventB+)
+'ij.plugin.tool.OverlayBrushTool$Options

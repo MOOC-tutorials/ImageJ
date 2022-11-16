@@ -1,0 +1,116 @@
+
+'ij.gui.Arrow#getShape()Ljava/awt/Shape;T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaØ Ø("4*É
+3T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaŞ Ş(	èå
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaŞ Ş(
+%11void"-java.awt.geom.Area#add(Ljava/awt/geom/Area;)V*
+
+a1java.awt.geom.Area*
+
+a2java.awt.geom.Area2add(Ljava/awt/geom/Area;)*
+1*¼
+4T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÙ Ù(©
+¦
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÙ Ù(
+%0java.awt.Shape"&ij.gui.Arrow#getPath()Ljava/awt/Shape;*
+ij.gui.Arrow
+
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÙ Ù(
+arrowjava.awt.Shape"__id*
+
+%0java.awt.Shape¨¥
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÚ. Ú(>
+%1float"ij.gui.Roi#getStrokeWidth()F*
+ij.gui.Arrow2getStrokeWidth()q
+o
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÚ@ Ú(T	
+%2int"__id*
+""q
+o
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÚV Ú(l	
+%3int"__id*
+""‹ˆ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÚ Ú(&
+%4java.awt.BasicStroke"java.awt.BasicStrokeÉ
+Æ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÚ Ú(m
+%5"!java.awt.BasicStroke#<init>(FII)V*
+
+%4java.awt.BasicStroke*
+
+%1float*
+	
+%2int*
+	
+%3int
+š
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÚ Ú(n
+strokejava.awt.BasicStroke"__id*
+
+%4java.awt.BasicStrokeš
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÛ Û(7
+%6java.awt.Shape"Ijava.awt.BasicStroke#createStrokedShape(Ljava/awt/Shape;)Ljava/awt/Shape;* 
+
+strokejava.awt.BasicStroke*
+
+arrowjava.awt.Shape2$createStrokedShape(Ljava/awt/Shape;)—
+”
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÛ Û(8
+outlineShapejava.awt.Shape"__id*
+
+%6java.awt.Shape‡„
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÜ Ü(
+%7java.awt.geom.Area"java.awt.geom.AreaÄ
+Á
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÜ Ü(
+%8",java.awt.geom.Area#<init>(Ljava/awt/Shape;)V*
+
+%7java.awt.geom.Area*
+
+arrowjava.awt.Shape•
+’
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÜ Ü(
+a1java.awt.geom.Area"__id*
+
+%7java.awt.geom.Area‡„
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaİ İ(
+%9java.awt.geom.Area"java.awt.geom.AreaÌ
+É
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaİ İ("
+%10",java.awt.geom.Area#<init>(Ljava/awt/Shape;)V*
+
+%9java.awt.geom.Area* 
+
+outlineShapejava.awt.Shape•
+’
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaİ İ(#
+a2java.awt.geom.Area"__id*
+
+%9java.awt.geom.Area*
+3*Í
+1T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaŞ) Ş(*"r
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaß ß(
+
+a1java.awt.geom.AreaB
+ij.gui.Arrow

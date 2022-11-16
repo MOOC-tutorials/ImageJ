@@ -1,0 +1,11 @@
+ij.Menus#addPluginItem(Ljava/awt/Menu;Ljava/lang/String;)V
+java.lang.String#length()I
+java.lang.Integer#valueOf(I)Ljava/lang/Integer;
+java.lang.String#lastIndexOf(I)I
+java.lang.String#endsWith(Ljava/lang/String;)Z
+ij.Menus#convertShortcutToCode(Ljava/lang/String;)I
+ij.Menus#addItem(Ljava/awt/Menu;Ljava/lang/String;IZ)V
+java.lang.String#charAt(I)C
+java.lang.String#substring(II)Ljava/lang/String;
+java.lang.String#startsWith(Ljava/lang/String;)Z
+ij.Menus#addSeparator(Ljava/awt/Menu;)V

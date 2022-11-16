@@ -1,0 +1,16 @@
+ij.plugin.Orthogonal_Views#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.process.ColorProcessor#<init>(Ljava/awt/Image;)V
+ij.plugin.Orthogonal_Views#getStack()Lij/ImageStack;
+ij.IJ#wait(I)V
+ij.WindowManager#getImage(I)Lij/ImagePlus;
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+java.awt.Point#instance-init#
+ij.IJ#isMacro()Z
+ij.plugin.Orthogonal_Views#addListeners(Lij/gui/ImageCanvas;)V
+ij.process.ColorProcessor#instance-init#
+ij.plugin.Orthogonal_Views#calibrate()V
+java.awt.Point#<init>(II)V
+ij.IJ#error(Ljava/lang/String;)V
+java.lang.Thread#instance-init#
+java.lang.Thread#<init>(Ljava/lang/Runnable;Ljava/lang/String;)V

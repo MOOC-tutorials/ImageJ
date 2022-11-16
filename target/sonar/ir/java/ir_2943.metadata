@@ -1,0 +1,11 @@
+ij.plugin.Hotkeys#installHotkey(Ljava/lang/String;)V
+ij.Menus#installPlugin(Ljava/lang/String;CLjava/lang/String;Ljava/lang/String;Lij/ImageJ;)I
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.gui.GenericDialog#<init>(Ljava/lang/String;)V
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+ij.IJ#showMessage(Ljava/lang/String;Ljava/lang/String;)V
+ij.IJ#getInstance()Lij/ImageJ;
+ij.Menus#getCommands()Ljava/util/Hashtable;
+ij.gui.GenericDialog#instance-init#
+ij.IJ#error(Ljava/lang/String;)V
+ij.IJ#showMessage(Ljava/lang/String;)V

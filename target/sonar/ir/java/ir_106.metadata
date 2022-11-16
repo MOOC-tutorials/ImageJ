@@ -1,0 +1,10 @@
+ij.plugin.LutLoader#getLut(Ljava/lang/String;)Ljava/awt/image/IndexColorModel;
+ij.plugin.LutLoader#<init>()V
+ij.plugin.LutLoader#instance-init#
+java.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ij.IJ#getDir(Ljava/lang/String;)Ljava/lang/String;
+java.awt.image.IndexColorModel#<init>(II[B[B[B)V
+ij.plugin.LutLoader#openLut(Ljava/lang/String;)Lij/process/LUT;
+java.lang.String#toLowerCase()Ljava/lang/String;
+ij.plugin.LutLoader#getBuiltInLut(Ljava/lang/String;)Lij/io/FileInfo;
+java.awt.image.IndexColorModel#instance-init#

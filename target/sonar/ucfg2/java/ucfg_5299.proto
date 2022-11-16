@@ -1,0 +1,89 @@
+
+(ij.plugin.frame.Editor#getCurrentLine()I^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÕ Õ("13*ò	
+13^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaŒ Œ(¶
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaŒ Œ(
+%0java.awt.TextArea"__id*"* 
+ij.plugin.frame.Editor"
+ta…∆
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaŒ Œ(!	
+%1int"*java.awt.TextComponent#getCaretPosition()I*
+
+%0java.awt.TextArea2getCaretPosition()¶
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java– –(
+%2java.awt.TextArea"__id*"* 
+ij.plugin.frame.Editor"
+ta’“
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java– –(
+%3java.lang.String"2java.awt.TextComponent#getText()Ljava/lang/String;*
+
+%2java.awt.TextArea2	getText()ù
+ö
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java– –(
+textjava.lang.String"__id*
+
+%3java.lang.Stringë
+é
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java— —(
+%4boolean"ij.IJ#isWindows()Z*	"
+ij.IJ*
+11
+12*Ó
+11^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java” ”(∞≠
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java” ”('	
+%6int"java.lang.String#length()I*
+
+textjava.lang.String2length()Å
+
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java” ”()
+charschar[]"__id*
+""æª
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java‘
+ ‘(
+%7char[]" java.lang.String#toCharArray()[C*
+
+textjava.lang.String2toCharArray()ä
+á
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java‘ ‘(
+charschar[]"__id*
+
+%7char[]*
+1*Ω
+12^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java“
+ “(∞≠
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java“
+ “('
+%5java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*
+
+textjava.lang.String*
+\r\n*
+\n20replaceAll(Ljava/lang/String;Ljava/lang/String;)ù
+ö
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java“ “('
+textjava.lang.String"__id*
+
+%5java.lang.String*
+11*Õ
+1^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÂ	 Â("h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÂ Â(
+""B
+ij.plugin.frame.Editor

@@ -1,0 +1,579 @@
+
+Rij.plugin.SpecifyROI#dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)Z\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaó ó(!"58*Ü
+47\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java´ ´(÷”
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java´ ´(
+%17java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*
+
+ejava.awt.AWTEvent2getSource()z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java´/ ´(5
+
+%18int"__id*
+""∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java´  ´(6
+%19java.lang.Object"
+__arrayGet* 
+
+
+checkboxesjava.util.Vector*
+
+
+%18int*
+35
+30
+43
+21
+22*ì
+48\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java® ®(Á‰
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java® ®(*
+%15java.util.Vector"9ij.gui.GenericDialog#getNumericFields()Ljava/util/Vector;*
+
+gdij.gui.GenericDialog2getNumericFields()°
+û
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java® ®(+
+	numFieldsjava.util.Vector"__id*
+
+%15java.util.Vector·ﬁ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java© ©((
+%16java.util.Vector"6ij.gui.GenericDialog#getCheckboxes()Ljava/util/Vector;*
+
+gdij.gui.GenericDialog2getCheckboxes()¢
+ü
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java© ©()
+
+checkboxesjava.util.Vector"__id*
+
+%16java.util.Vector*
+35
+47
+30
+43
+21
+22*Ñ
+26\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java» »(	…∆
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java   (
+%38double""ij.measure.Calibration#getRawX(D)D*
+
+calij.measure.Calibration*
+""2
+getRawX(D)…∆
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaÀ À(
+%39double""ij.measure.Calibration#getRawY(D)D*
+
+calij.measure.Calibration*
+""2
+getRawY(D)*
+21
+22* 
+49\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java¶
+ ¶("f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java¶ ¶(
+""*¯
+27\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java√ √(	√¿
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java≈ ≈(
+%36double"ij.measure.Calibration#getX(D)D*
+
+calij.measure.Calibration*
+""2getX(D)√¿
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java∆ ∆(
+%37double"ij.measure.Calibration#getY(D)D*
+
+calij.measure.Calibration*
+""2getY(D)*
+21
+22*Ç
+29\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java¿) ¿(*÷”
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java¿) ¿(6
+%33java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*
+
+ejava.awt.AWTEvent2getSource()z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java¿G ¿(S
+
+%34int"__id*
+""∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java¿8 ¿(T
+%35java.lang.Object"
+__arrayGet* 
+
+
+checkboxesjava.util.Vector*
+
+
+%34int*
+26
+27
+21
+22*∂
+52\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java• •(«ƒ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java• •(
+%14boolean"%ij.gui.GenericDialog#invalidNumber()Z*
+
+gdij.gui.GenericDialog2invalidNumber()*
+48
+49*¡
+30\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java¿ ¿(ŒÀ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java¿ ¿(%
+%32boolean"(ij.measure.Calibration#scaledOrOffset()Z*
+
+calij.measure.Calibration2scaledOrOffset()*
+29
+21
+22*¥
+53\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java§ §(…∆
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java§ §($
+%13boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+52*†
+54\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java†	 †(»≈
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java†	 †(
+%9boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()…∆
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java° °(
+%10boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()…∆
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java¢ ¢( 
+%11boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()ŒÀ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java£ £(
+%12boolean"(ij.measure.Calibration#scaledOrOffset()Z*
+
+calij.measure.Calibration2scaledOrOffset()*
+52
+53*±
+10\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java÷ ÷(z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java÷ ÷(#
+
+%54int"__id*
+""µ
+≤
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java÷ ÷($
+%55java.lang.Object"
+__arrayGet*
+
+	numFieldsjava.util.Vector*
+
+
+%54int∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java÷/ ÷(C
+%56java.lang.String"ij.IJ#d2s(DI)Ljava/lang/String;*	"
+ij.IJ*
+""*
+""ÚÔ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java÷ ÷(D
+%57void"/java.awt.TextField#setText(Ljava/lang/String;)V*
+
+%55java.lang.Object*
+
+%56java.lang.String2setText(Ljava/lang/String;)z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java◊ ◊(#
+
+%58int"__id*
+""µ
+≤
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java◊ ◊($
+%59java.lang.Object"
+__arrayGet*
+
+	numFieldsjava.util.Vector*
+
+
+%58int∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java◊/ ◊(C
+%60java.lang.String"ij.IJ#d2s(DI)Ljava/lang/String;*	"
+ij.IJ*
+""*
+""ÚÔ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java◊ ◊(D
+%61void"/java.awt.TextField#setText(Ljava/lang/String;)V*
+
+%59java.lang.Object*
+
+%60java.lang.String2setText(Ljava/lang/String;)*	
+2
+6
+1*∞
+55\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaü ü(≈¬
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaü ü($
+%8double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()*
+54*˝
+33\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaª ª(÷”
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaª ª(
+%29java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*
+
+ejava.awt.AWTEvent2getSource()z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaª+ ª(1
+
+%30int"__id*
+""µ
+≤
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaª ª(2
+%31java.lang.Object"
+__arrayGet*
+
+	numFieldsjava.util.Vector*
+
+
+%30int*
+30
+21
+22*∑
+56\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaô ô(û
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaô ô(
+%2ij.ImagePlus"__id*!*
+ij.plugin.SpecifyROI"
+impﬁ€
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaô ô((
+%3ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+%2ij.ImagePlus2getCalibration()¶
+£
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaô ô()
+calij.measure.Calibration"__id*
+
+%3ij.measure.Calibration≈¬
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaö
+ ö(
+%4double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()≈¬
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaõ õ(
+%5double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()≈¬
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaú	 ú(
+%6double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()≈¬
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaù	 ù(
+%7double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()*
+54
+55*Ù
+12\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java‘E ‘(FÄ
+~
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java‘E ‘(F
+
+%51int"__id*
+
+
+%53int*
+2
+6
+10
+1*Å
+35\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java∏ ∏(÷”
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java∏ ∏(
+%26java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*
+
+ejava.awt.AWTEvent2getSource()z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java∏$ ∏()
+
+%27int"__id*
+""µ
+≤
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java∏ ∏(*
+%28java.lang.Object"
+__arrayGet*
+
+	numFieldsjava.util.Vector*
+
+
+%27int*
+30
+21
+33
+22*˘
+57\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaò ò(é
+ã
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaò ò( 
+
+%1void"ij.IJ#wait(I)V*	"
+ij.IJ*22*
+56*Ù
+13\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java‘A ‘(BÄ
+~
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java‘A ‘(B
+
+%51int"__id*
+
+
+%52int*
+2
+6
+10
+1*˝
+58\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaò ò(é
+ã
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaò ò(
+%0boolean"ij.IJ#isMacOSX()Z*	"
+ij.IJ*
+57
+56*Œ
+17\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java” ”(z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java” ”($
+
+%47int"__id*
+""µ
+≤
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java” ”(%
+%48java.lang.Object"
+__arrayGet*
+
+	numFieldsjava.util.Vector*
+
+
+%47int∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java”0 ”(F
+%49java.lang.String"ij.IJ#d2s(DI)Ljava/lang/String;*	"
+ij.IJ*
+""*
+""ÚÔ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java” ”(G
+%50void"/java.awt.TextField#setText(Ljava/lang/String;)V*
+
+%48java.lang.Object*
+
+%49java.lang.String2setText(Ljava/lang/String;)*
+13
+12*“
+19\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java— —(z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java— —(#
+
+%43int"__id*
+""µ
+≤
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java— —($
+%44java.lang.Object"
+__arrayGet*
+
+	numFieldsjava.util.Vector*
+
+
+%43int∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java—/ —(D
+%45java.lang.String"ij.IJ#d2s(DI)Ljava/lang/String;*	"
+ij.IJ*
+""*
+""ÚÔ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java— —(E
+%46void"/java.awt.TextField#setText(Ljava/lang/String;)V*
+
+%44java.lang.Object*
+
+%45java.lang.String2setText(Ljava/lang/String;)*
+13
+17
+12*…
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaﬁ	 ﬁ("f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaﬁ ﬁ(
+""*ù
+2\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java› ›(
+¥±
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java› ›(
+%64void"ij.plugin.SpecifyROI#drawRoi()V*
+ij.plugin.SpecifyROI2	drawRoi()*
+1*√
+6\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java€ €(ü
+ú
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java€ €(
+%62ij.ImagePlus"__id*!*
+ij.plugin.SpecifyROI"
+impµ≤
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java€ €(
+%63void"ij.ImagePlus#setSlice(I)V*
+
+%62ij.ImagePlus*
+""2setSlice(I)*
+2
+1*˛
+40\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java≤& ≤()á
+Ñ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java≤% ≤()
+%23double"__id*
+
+%25double*
+35
+30
+21
+22*˛
+41\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java≤ ≤("á
+Ñ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java≤ ≤("
+%23double"__id*
+
+%24double*
+35
+30
+21
+22*ä
+43\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java± ±(÷”
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java± ±(
+%20java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*
+
+ejava.awt.AWTEvent2getSource()z
+x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java±/ ±(7
+
+%21int"__id*
+""∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.java±  ±(8
+%22java.lang.Object"
+__arrayGet* 
+
+
+checkboxesjava.util.Vector*
+
+
+%21int*
+35
+40
+41
+30
+21
+22*˜
+21\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaœ8 œ(9Ä
+~
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaœ8 œ(9
+
+%40int"__id*
+
+
+%42int*
+13
+17
+19
+12*˜
+22\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaœ4 œ(5Ä
+~
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SpecifyROI.javaœ4 œ(5
+
+%40int"__id*
+
+
+%41int*
+13
+17
+19
+12:
+gdij.gui.GenericDialog:
+ejava.awt.AWTEventB
+ij.plugin.SpecifyROI

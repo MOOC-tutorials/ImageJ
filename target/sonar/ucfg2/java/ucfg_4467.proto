@@ -1,0 +1,184 @@
+
+:ij.plugin.RoiEnlarger#shrink255(Lij/gui/Roi;I)Lij/gui/Roi;]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java¸ ¸("6*ÿ
+2]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaè
+ è("t
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaè è(
+
+roi
+ij.gui.Roi*‡
+4]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaç ç(Ã…
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaç ç(&
+%15java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roi2
+ij.gui.Roi2getBounds()§
+°
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaç ç('
+bounds2java.awt.Rectangle"__id*
+
+%15java.awt.Rectangle*
+2
+1*ÿ
+5]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaå
+ å("t
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaå å(
+
+roi
+ij.gui.Roi*–
+6]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java˝ ˝( «
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java˝ ˝($
+%0java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roi
+ij.gui.Roi2getBounds()¢
+ü
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java˝ ˝(%
+boundsjava.awt.Rectangle"__id*
+
+%0java.awt.Rectangleúô
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaÄ Ä('
+%1ij.process.ByteProcessor"ij.process.ByteProcessor¿
+Ω
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaÄ Ä(6
+%2"$ij.process.ByteProcessor#<init>(II)V* 
+
+%1ij.process.ByteProcessor*
+""*
+""´
+®
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaÄ Ä(7
+ipij.process.ImageProcessor"__id* 
+
+%1ij.process.ByteProcessorΩ∫
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaÅ Å(
+
+%3void"ij.gui.Roi#setLocation(II)V*
+
+roi
+ij.gui.Roi*2*22setLocation(II)Õ 
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaÇ Ç(
+
+%4void"&ij.process.ImageProcessor#setColor(I)V*!
+
+ipij.process.ImageProcessor*2ˇ2setColor(I)ÈÊ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaÉ É(
+
+%5void"-ij.process.ImageProcessor#fill(Lij/gui/Roi;)V*!
+
+ipij.process.ImageProcessor*
+
+roi
+ij.gui.Roi2fill(Lij/gui/Roi;)¡æ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaÑ Ñ(%
+
+%6void"ij.gui.Roi#setLocation(II)V*
+
+roi
+ij.gui.Roi*
+""*
+""2setLocation(II)îë
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaá á(	
+%7ij.plugin.filter.EDM"ij.plugin.filter.EDM¶
+£
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaá á(
+%8"ij.plugin.filter.EDM#<init>()V*
+
+%7ij.plugin.filter.EDMçä
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaá á(
+
+%9void"8ij.plugin.filter.EDM#toEDM(Lij/process/ImageProcessor;)V*
+
+%7ij.plugin.filter.EDM*!
+
+ipij.process.ImageProcessor2"toEDM(Lij/process/ImageProcessor;){
+y
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaâ â(8
+
+%10int"__id*
+""Ì
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaâ â(9
+%11void",ij.process.ImageProcessor#setThreshold(DDI)V*!
+
+ipij.process.ImageProcessor*
+""*2ˇ*
+
+
+%10int2setThreshold(DDI)∑¥
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaä ä(&,
+%12%ij.plugin.filter.ThresholdToSelection"%ij.plugin.filter.ThresholdToSelection 
+«
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaä ä((
+%13"/ij.plugin.filter.ThresholdToSelection#<init>()V*.
+,
+%12%ij.plugin.filter.ThresholdToSelection∆√
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaä ä(5
+%14
+ij.gui.Roi"Vij.plugin.filter.ThresholdToSelection#convert(Lij/process/ImageProcessor;)Lij/gui/Roi;*.
+,
+%12%ij.plugin.filter.ThresholdToSelection*!
+
+ipij.process.ImageProcessor2$convert(Lij/process/ImageProcessor;)ë
+é
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaä ä(6
+roi2
+ij.gui.Roi"__id*
+
+%14
+ij.gui.Roi*
+4
+5*Ñ
+1]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaê ê(‚ﬂ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaê ê(
+%16void"(ij.gui.Roi#copyAttributes(Lij/gui/Roi;)V*
+
+roi2
+ij.gui.Roi*
+
+roi
+ij.gui.Roi2copyAttributes(Lij/gui/Roi;)√¿
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaë ë(>
+%17void"ij.gui.Roi#setLocation(II)V*
+
+roi2
+ij.gui.Roi*
+""*
+""2setLocation(II)"u
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaí í(
+
+roi2
+ij.gui.Roi:
+roi
+ij.gui.Roi:
+""B"
+ij.plugin.RoiEnlarger

@@ -1,0 +1,15 @@
+ij.plugin.ArrowToolOptions#arrowToolOptions()V
+ij.plugin.Colors#getColors([Ljava/lang/String;)[Ljava/lang/String;
+ij.IJ#setTool(Ljava/lang/String;)Z
+ij.gui.Toolbar#getForegroundColor()Ljava/awt/Color;
+ij.gui.Arrow#getDefaultHeadSize()D
+ij.gui.Arrow#getDefaultStyle()I
+ij.gui.Arrow#getDefaultOutline()Z
+ij.plugin.Colors#colorToString2(Ljava/awt/Color;)Ljava/lang/String;
+ij.gui.Arrow#getDefaultDoubleHeaded()Z
+ij.gui.Toolbar#getToolName()Ljava/lang/String;
+ij.Prefs#saveLocation(Ljava/lang/String;Ljava/awt/Point;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.gui.Arrow#getDefaultWidth()D
+ij.Prefs#getLocation(Ljava/lang/String;)Ljava/awt/Point;
+ij.gui.GUI#newNonBlockingDialog(Ljava/lang/String;)Lij/gui/GenericDialog;

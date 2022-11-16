@@ -1,0 +1,193 @@
+
+*ij.plugin.filter.FractalBoxCounter#plot()Dj
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.java½ ½("9"11*Ğ
+3j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÔ Ô(ÖÓ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÔ Ô( 
+%12double"ij.measure.CurveFitter#f([DD)D*
+
+cfij.measure.CurveFitter*
+""*
+""2f([DD)*
+3
+1*…
+9j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÂ# Â((¸
+µ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÂ# Â(8
+%1double[]"ij.util.Tools#toDouble([F)[D*"
+ij.util.Tools*
+""¸
+µ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÂ: Â(V
+%2double[]"ij.util.Tools#toDouble([F)[D*"
+ij.util.Tools*
+""¥¢
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÂ Â("
+%3ij.measure.CurveFitter"ij.measure.CurveFitterß
+Ü
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÂ Â(W
+%4"$ij.measure.CurveFitter#<init>([D[D)V*
+
+%3ij.measure.CurveFitter*
+
+%1double[]*
+
+%2double[]³
+°
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÂ Â(X
+cfij.measure.CurveFitter"__id*
+
+%3ij.measure.CurveFitterˆ
+…
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÃ Ã($	
+%5int"__id*
+""ÔÑ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÃ Ã(%
+
+%6void" ij.measure.CurveFitter#doFit(I)V*
+
+cfij.measure.CurveFitter*
+	
+%5int2doFit(I)ÒÏ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÄ Ä(
+%7double[]"$ij.measure.CurveFitter#getParams()[D*
+
+cfij.measure.CurveFitter2getParams()Á
+¾
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÆ Æ(!
+%8java.lang.String"ij.IJ#d2s(DI)Ljava/lang/String;*	"
+ij.IJ*
+""*2³
+°
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÆ Æ(!
+%9java.lang.String"__concat*
+D=*
+
+%8java.lang.Stringª
+§
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÆ Æ("
+labeljava.lang.String"__id*
+
+%9java.lang.Stringº
+·
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÉ É(%
+%10double[]"ij.util.Tools#getMinMax([F)[D*"
+ij.util.Tools*
+""º
+·
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaË Ë(#
+%11double[]"ij.util.Tools#getMinMax([F)[D*"
+ij.util.Tools*
+""*
+3
+1*­
+11j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÁ Á(±
+®
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÁ Á(*
+%0double"java.lang.Math#log(D)D*"
+java.lang.Math*
+""*
+9
+11*«
+1j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÕ Õ(º
+·
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÕ Õ(
+%13double[]"ij.util.Tools#getMinMax([F)[D*"
+ij.util.Tools*
+""»
+¸
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÖ	 Ö(
+%14double"java.lang.Math#min(DD)D*"
+java.lang.Math*
+""*
+""»
+¸
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.java×	 ×(
+%15double"java.lang.Math#max(DD)D*"
+java.lang.Math*
+""*
+""
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaØ Ø(
+%16ij.gui.Plot"ij.gui.Plotœ
+™
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaØ Ø(G
+%17"Oij.gui.Plot#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[F[F)V*
+
+%16ij.gui.Plot*
+Plot*
+log (box size)*
+log (count)*
+""*
+"" 
+
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaØ Ø(H
+plotij.gui.Plot"__id*
+
+%16ij.gui.Plotâß
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÙ Ù(%
+%18void"ij.gui.Plot#setLimits(DDDD)V*
+
+plotij.gui.Plot*
+""*
+""*
+""*
+""2setLimits(DDDD)‰
+†
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÚ& Ú(7
+
+%19int"__id*
+""âß
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÚ Ú(8
+%20void"ij.gui.Plot#addPoints([F[FI)V*
+
+plotij.gui.Plot*
+""*
+""*
+
+
+%19int2addPoints([F[FI)Š
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÛ Û( 
+%21void"+ij.gui.Plot#addLabel(DDLjava/lang/String;)V*
+
+plotij.gui.Plot*
+""*
+""*
+
+labeljava.lang.String2addLabel(DDLjava/lang/String;)ÏÌ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaÜ Ü(
+%22ij.gui.PlotWindow"%ij.gui.Plot#show()Lij/gui/PlotWindow;*
+
+plotij.gui.Plot2show()"t
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FractalBoxCounter.javaİ İ(
+""B&$
+"ij.plugin.filter.FractalBoxCounter

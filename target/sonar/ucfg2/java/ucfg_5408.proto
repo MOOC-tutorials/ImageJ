@@ -1,0 +1,289 @@
+
+8ij.plugin.RoiRotator#rotate(Lij/gui/Roi;DDD)Lij/gui/Roi;Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaJ J("22*≤
+13Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javad d(}
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javad d(
+%14ij.gui.Line"ij.gui.Line∑
+¥
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javad
+ d(V
+%15"ij.gui.Line#<init>(DDDD)V*
+
+%14ij.gui.Line*
+""*
+""*
+""*
+""è
+å
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javad d(V
+roi2
+ij.gui.Roi"__id*
+
+%14ij.gui.Line*
+1*Á
+14Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javab b(Ä
+~
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javab b(
+roi2
+ij.gui.Roi"__id*
+""x
+v
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javac c(
+
+%13int"__id*
+""*
+13
+12*â
+16Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.java[ [(¢
+ü
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.java] ]()
+%9double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""≠
+™
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.java^ ^( 
+%10double"java.lang.Math#atan2(DD)D*"
+java.lang.Math*
+""*
+""¢
+ü
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.java_. _(?
+%11double"java.lang.Math#cos(D)D*"
+java.lang.Math*
+""¢
+ü
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.java`. `(?
+%12double"java.lang.Math#sin(D)D*"
+java.lang.Math*
+""*
+14
+16*ò	
+19Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaQ Q(è
+å
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaQ Q(
+lineij.gui.Line"__id*
+
+roi
+ij.gui.Roióî
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaV V(
+%5ij.process.FloatPolygon"ij.process.FloatPolygon©
+¶
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaV
+ V(
+%6"!ij.process.FloatPolygon#<init>()V*
+
+%5ij.process.FloatPolygonß
+§
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaV V(
+polyij.process.FloatPolygon"__id*
+
+%5ij.process.FloatPolygon”–
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaW W(
+
+%7void"%ij.process.FloatPolygon#addPoint(DD)V*!
+
+polyij.process.FloatPolygon*
+""*
+""2addPoint(DD)”–
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaX X(
+
+%8void"%ij.process.FloatPolygon#addPoint(DD)V*!
+
+polyij.process.FloatPolygon*
+""*
+""2addPoint(DD)*
+14
+16*µ
+1Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javap p(ﬂ‹
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javap p(
+%25void"(ij.gui.Roi#copyAttributes(Lij/gui/Roi;)V*
+
+roi2
+ij.gui.Roi*
+
+roi
+ij.gui.Roi2copyAttributes(Lij/gui/Roi;)"r
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaq q(
+
+roi2
+ij.gui.Roi*”
+2Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javan n(åâ
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javan n(
+%23ij.gui.PolygonRoi"ij.gui.PolygonRoi≈
+¬
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javan
+ n(G
+%24"!ij.gui.PolygonRoi#<init>([F[FII)V*
+
+%23ij.gui.PolygonRoi*
+""*
+""*
+""*
+""ï
+í
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javan n(G
+roi2
+ij.gui.Roi"__id*
+
+%23ij.gui.PolygonRoi*
+1*ﬁ
+4Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javal l(x
+v
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javal l(+
+
+%22int"__id*
+""*
+2*·
+5Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javal l(x
+v
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javal l(
+
+%21int"__id*
+""*
+2
+4*ﬁ
+8Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaj j(x
+v
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaj j(
+
+%20int"__id*
+""*
+5*ï
+20Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaN N(›⁄
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaN N(+
+%2ij.process.FloatPolygon"5ij.gui.Roi#getFloatPolygon()Lij/process/FloatPolygon;*
+
+roi
+ij.gui.Roi2getFloatPolygon()ß
+§
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaN N(,
+polyij.process.FloatPolygon"__id*
+
+%2ij.process.FloatPolygon°û
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaO O(	
+%3int"ij.gui.Roi#getType()I*
+
+roi
+ij.gui.Roi2	getType()w
+u
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaP P(	
+%4int"__id*
+""*
+14
+16
+19*—
+21Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaM
+ M(¸
+˘
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaM
+ M(>
+%1
+ij.gui.Roi"Bij.plugin.RoiRotator#rotateShape(Lij/gui/ShapeRoi;DDD)Lij/gui/Roi;*"
+ij.plugin.RoiRotator*
+
+roi
+ij.gui.Roi*
+""*
+""*
+"""p
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaM M(?
+
+%1
+ij.gui.Roi*ﬂ
+10Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javah h(x
+v
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javah h(
+
+%19int"__id*
+""*
+8*Ê
+22Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaK K(z
+x
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaK K(
+%0double"__id*
+""*
+20
+21*¡
+11Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaf f(àÖ
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaf f(
+%17ij.gui.PointRoi"ij.gui.PointRoi∏
+µ
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaf
+ f(?
+%18"ij.gui.PointRoi#<init>([F[FI)V*
+
+%17ij.gui.PointRoi*
+""*
+""*
+""ì
+ê
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaf f(?
+roi2
+ij.gui.Roi"__id*
+
+%17ij.gui.PointRoi*
+1*‰
+12Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javae e(x
+v
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javae e(
+
+%16int"__id*
+""*
+10
+11:
+roi
+ij.gui.Roi:
+"":
+"":
+""B"
+ij.plugin.RoiRotator

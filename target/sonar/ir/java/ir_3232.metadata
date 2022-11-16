@@ -1,0 +1,11 @@
+ij.macro.Functions#overlayDrawRectOrEllipse(Lij/ImagePlus;Z)D
+java.awt.geom.Ellipse2D$Float#<init>(FFFF)V
+java.awt.geom.Rectangle2D$Float#<init>(FFFF)V
+java.awt.geom.Ellipse2D$Float#instance-init#
+ij.gui.ShapeRoi#instance-init#
+java.lang.Math#round(D)J
+ij.macro.Functions#getLastArg()D
+ij.macro.Functions#getFirstArg()D
+ij.macro.Functions#getNextArg()D
+java.awt.geom.Rectangle2D$Float#instance-init#
+ij.gui.ShapeRoi#<init>(Ljava/awt/Shape;)V

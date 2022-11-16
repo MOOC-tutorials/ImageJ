@@ -1,0 +1,9 @@
+ij.macro.Functions#setMetadata()V
+ij.macro.Interpreter#isBatchMode()Z
+ij.macro.Functions#getLastString()Ljava/lang/String;
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.String#length()I
+ij.macro.Interpreter#getRightParen()V
+ij.macro.Interpreter#nextToken()I
+ij.macro.Functions#getFirstString()Ljava/lang/String;
+java.lang.String#startsWith(Ljava/lang/String;)Z

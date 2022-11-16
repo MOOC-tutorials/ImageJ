@@ -1,0 +1,359 @@
+
+ ij.plugin.frame.Fitter#doFit(I)Z\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaT T("32*‘
+24\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java_ _(K¢Ÿ
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java_ _(K
+
+%11int":ij.measure.CurveFitter#doCustomFit(Ljava/lang/String;[DZ)I*
+
+%8ij.measure.CurveFitter*
+
+eqnjava.lang.String*
+""*
+
+%10boolean2"doCustomFit(Ljava/lang/String;[DZ)*
+17
+22*û
+25\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java_ _(©
+¦
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java_ _(
+%8ij.measure.CurveFitter"__id*"* 
+ij.plugin.frame.Fitter"
+cfª
+§
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java_7 _(?
+%9java.awt.Checkbox"__id*(*&
+ij.plugin.frame.Fitter"
+
+settings·´
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java_7 _(J
+%10boolean"java.awt.Checkbox#getState()Z*
+
+%9java.awt.Checkbox2
+getState()*
+24*Ê
+26\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java^& ^(+"f
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java^ ^(,
+""*‰
+27\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java] ](+š
+—
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java] ](+
+eqnjava.lang.String"__id*
+
+%7java.lang.String*
+25
+26*Ç
+28\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java] ]((ÜÙ
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java] ](*
+%7java.lang.String"6ij.plugin.frame.Fitter#getEquation()Ljava/lang/String;*
+ij.plugin.frame.Fitter2getEquation()*
+27*ç
+29\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java\ \(y
+w
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.java\ \(%	
+%6int"__id*
+""*
+28
+19*²
+30\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaY Y(—”
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaY Y(
+%2ij.measure.CurveFitter"ij.measure.CurveFitter½
+º
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaY Y(
+%3"$ij.measure.CurveFitter#<init>([D[D)V*
+
+%2ij.measure.CurveFitter*
+""*
+""©
+¦
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaY Y( 
+ij.plugin.frame.Fitter"
+cf"__id*
+
+%2ij.measure.CurveFitter©
+¦
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaZ Z(
+%4ij.measure.CurveFitter"__id*"* 
+ij.plugin.frame.Fitter"
+cf•’
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaZ Z(6
+
+%5void"<ij.measure.CurveFitter#setStatusAndEsc(Ljava/lang/String;Z)V*
+
+%4ij.measure.CurveFitter*
+Optimization: Iteration *22$setStatusAndEsc(Ljava/lang/String;Z)*
+29*Ô
+31\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaV V(‡
+„
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaV V(
+
+%1void"ij.IJ#beep()V*	"
+ij.IJ"f
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaW W(
+""*©
+32\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaU U(º·
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaU U(
+%0boolean"!ij.plugin.frame.Fitter#getData()Z*
+ij.plugin.frame.Fitter2	getData()*
+30
+31*Ê
+10\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javak k("f
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javak k(
+""*Ý
+11\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaj j(D»
+¸
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaj j(D
+%27java.lang.String"__concat*
+Curve Fitting Error:\n*
+
+%26java.lang.String´
+±
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaj j(E
+%28void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%27java.lang.String*
+10*‚
+12\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaj j(ª
+§
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaj0 j(2
+%25ij.measure.CurveFitter"__id*"* 
+ij.plugin.frame.Fitter"
+cfêç
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaj0 j(D
+%26java.lang.String":ij.measure.CurveFitter#getStatusString()Ljava/lang/String;*
+
+%25ij.measure.CurveFitter2getStatusString()*
+11*¦
+13\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javai i(3»
+¸
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javai i(3
+%24void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%23java.lang.String*
+12*‚
+14\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javai i(ª
+§
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javai i( 
+%22ij.measure.CurveFitter"__id*"* 
+ij.plugin.frame.Fitter"
+cfêç
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javai i(2
+%23java.lang.String":ij.measure.CurveFitter#getStatusString()Ljava/lang/String;*
+
+%22ij.measure.CurveFitter2getStatusString()*
+13*ó
+15\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javah h(ˆ
+…
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javah h(
+%21void"ij.IJ#beep()V*	"
+ij.IJ*
+14*ç
+16\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javag" g(+z
+x
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javag" g(B
+
+%20int"__id*
+""*
+15
+9*Ø
+17\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javag g(ª
+§
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javag g(
+%18ij.measure.CurveFitter"__id*"* 
+ij.plugin.frame.Fitter"
+cfÀ½
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javag g(
+
+%19int"#ij.measure.CurveFitter#getStatus()I*
+
+%18ij.measure.CurveFitter2getStatus()*
+16*Â
+18\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaf f(6×Ô
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaf f(6
+%17void"!ij.measure.CurveFitter#doFit(IZ)V*
+
+%14ij.measure.CurveFitter*
+""*
+
+%16boolean2	doFit(IZ)*
+17*þ
+19\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaf f(ª
+§
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaf f(
+%14ij.measure.CurveFitter"__id*"* 
+ij.plugin.frame.Fitter"
+cf«
+¨
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaf" f(*
+%15java.awt.Checkbox"__id*(*&
+ij.plugin.frame.Fitter"
+
+settings¸µ
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaf" f(5
+%16boolean"java.awt.Checkbox#getState()Z*
+
+%15java.awt.Checkbox2
+getState()*
+18*­	
+1\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaw w(
+ª
+§
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaw w(
+%35ij.measure.CurveFitter"__id*"* 
+ij.plugin.frame.Fitter"
+cfêç
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaw w(#
+%36java.lang.String":ij.measure.CurveFitter#getResultString()Ljava/lang/String;*
+
+%35ij.measure.CurveFitter2getResultString()´
+±
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaw w($
+%37void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%36java.lang.Stringª
+§
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javax x(	
+%38ij.measure.CurveFitter"__id*"* 
+ij.plugin.frame.Fitter"
+cfã
+à
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javax x(
+
+%39void"6ij.plugin.frame.Fitter#plot(Lij/measure/CurveFitter;)V*"
+ij.plugin.frame.Fitter*
+
+%38ij.measure.CurveFitter"f
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaz z(
+""*É
+4\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javap p("f
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javap p(
+""*­
+5\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javao o(Ä
+Á
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javao o(?
+%33void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*" 
+Error: fit yields Not-a-Number*
+4*ñ
+6\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javan n(ˆ
+…
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javan n(
+%32void"ij.IJ#beep()V*	"
+ij.IJ*
+5* 
+8\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javam m(5´
+±
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javam m(5
+%31boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+
+%30double*
+6
+1*ë
+9\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javam m(ª
+§
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javam m(
+%29ij.measure.CurveFitter"__id*"* 
+ij.plugin.frame.Fitter"
+cfÕÒ
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javam m(4
+%30double",ij.measure.CurveFitter#getSumResidualsSqr()D*
+
+%29ij.measure.CurveFitter2getSumResidualsSqr()*
+8*Ê
+20\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javac c( "f
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javac c(!
+""*½
+21\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javab b(Ò
+Ï
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javab b(Q
+%13void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*75
+3Bad formula; should be:\n   y = function(x, a, ...)*
+20*ó
+22\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaa a(ˆ
+…
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Fitter.javaa a(
+%12void"ij.IJ#beep()V*	"
+ij.IJ*
+21:
+""B
+ij.plugin.frame.Fitter

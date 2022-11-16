@@ -1,0 +1,106 @@
+
+5ij.plugin.ScreenGrabber#captureScreen()Lij/ImagePlus;]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java- -("10*˝
+3]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java3 3(8ì
+ê
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java3 3(8
+impij.ImagePlus"__id*
+
+%5ij.ImagePlus*
+1*“
+4]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java3& 3(2ÑÅ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java3 3(%
+%5ij.ImagePlus"ij.ImagePlus·
+ﬁ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java3 3(8
+%6"8ij.ImagePlus#<init>(Ljava/lang/String;Ljava/awt/Image;)V*
+
+%5ij.ImagePlus*
+
+Screenshot*
+
+imgjava.awt.Image*
+3*í
+5]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java2 2(,•
+¢
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java2 2(,
+imgjava.awt.Image"__id*$
+"
+%4java.awt.image.BufferedImage*
+4
+1*…
+6]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java1 1(7ù
+ö
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java1 1(7
+rjava.awt.Rectangle"__id*
+
+%3java.awt.Rectangleøº
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java2 2(+"
+%4java.awt.image.BufferedImage"Vjava.awt.Robot#createScreenCapture(Ljava/awt/Rectangle;)Ljava/awt/image/BufferedImage;*
+
+robotjava.awt.Robot*
+
+rjava.awt.Rectangle2)createScreenCapture(Ljava/awt/Rectangle;)*
+5*œ
+7]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java1 1(6Â
+‚
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java1 1(6
+%3java.awt.Rectangle"Dij.gui.GUI#getScreenBounds(Ljava/awt/Component;)Ljava/awt/Rectangle;*"
+
+ij.gui.GUI*
+
+%2	ij.ImageJ*
+6*§
+8]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java0 0(ô
+ñ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java0 0(
+robotjava.awt.Robot"__id*
+
+%0java.awt.Robotû
+õ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java1% 1(5
+%2	ij.ImageJ"ij.IJ#getInstance()Lij/ImageJ;*	"
+ij.IJ*
+7*è
+9]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java0 0(àÖ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java0 0(
+%0java.awt.Robot"java.awt.Robotö
+ó
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java0 0(
+%1"java.awt.Robot#<init>()V*
+
+%0java.awt.Robot*
+8*
+10]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java. .(Ö
+Ç
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java. .(
+impij.ImagePlus"__id*
+""*
+9*⁄
+1]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java5	 5("v
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScreenGrabber.java5 5(
+
+impij.ImagePlusB
+ij.plugin.ScreenGrabber

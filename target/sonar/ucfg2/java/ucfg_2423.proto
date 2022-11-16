@@ -1,0 +1,186 @@
+
+)ij.process.AutoThresholder#MinErrorI([I)Ib
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java£ £("8*ž
+2b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaË Ë(¬
+©
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaË Ë(%
+%22double"java.lang.Math#floor(D)D*"
+java.lang.Math*
+""*
+6
+1*Ô
+4b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÅ Å(«
+¨
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÆ Æ(
+%20double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""±
+®
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÈ È(
+%21boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+""*	
+2
+6
+1*™
+5b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÀ À(Á
+¾
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÀ À(*
+%19void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ* 
+MinError(I): not converging."l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÁ Á(
+""*²
+6b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java± ±(	É
+Æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java± ±(
+%1double""ij.process.AutoThresholder#B([II)D*
+ij.process.AutoThresholder*
+""*
+""É
+Æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java± ±(-
+%2double""ij.process.AutoThresholder#A([II)D*
+ij.process.AutoThresholder*
+""*
+""É
+Æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java²	 ²(!
+%3double""ij.process.AutoThresholder#B([II)D*
+ij.process.AutoThresholder*
+""*
+""É
+Æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java²" ²(4
+%4double""ij.process.AutoThresholder#B([II)D*
+ij.process.AutoThresholder*
+""*
+""É
+Æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java²7 ²(O
+%5double""ij.process.AutoThresholder#A([II)D*
+ij.process.AutoThresholder*
+""*
+""É
+Æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java²P ²(b
+%6double""ij.process.AutoThresholder#A([II)D*
+ij.process.AutoThresholder*
+""*
+""É
+Æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java³ ³(
+%7double""ij.process.AutoThresholder#A([II)D*
+ij.process.AutoThresholder*
+""*
+""É
+Æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java³ ³(2
+%8double""ij.process.AutoThresholder#A([II)D*
+ij.process.AutoThresholder*
+""*
+""É
+Æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java´ ´( 
+%9double""ij.process.AutoThresholder#A([II)D*
+ij.process.AutoThresholder*
+""*
+""Ê
+Ç
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java´! ´(3
+%10double""ij.process.AutoThresholder#A([II)D*
+ij.process.AutoThresholder*
+""*
+""Ê
+Ç
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java´7 ´(O
+%11double""ij.process.AutoThresholder#A([II)D*
+ij.process.AutoThresholder*
+""*
+""Ê
+Ç
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaµ µ(
+%12double""ij.process.AutoThresholder#C([II)D*
+ij.process.AutoThresholder*
+""*
+""Ê
+Ç
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaµ µ(1
+%13double""ij.process.AutoThresholder#A([II)D*
+ij.process.AutoThresholder*
+""*
+""Ê
+Ç
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java¶ ¶(#
+%14double""ij.process.AutoThresholder#C([II)D*
+ij.process.AutoThresholder*
+""*
+""Ê
+Ç
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java¶$ ¶(6
+%15double""ij.process.AutoThresholder#C([II)D*
+ij.process.AutoThresholder*
+""*
+""Ê
+Ç
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java¶; ¶(S
+%16double""ij.process.AutoThresholder#A([II)D*
+ij.process.AutoThresholder*
+""*
+""Ê
+Ç
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java¶T ¶(f
+%17double""ij.process.AutoThresholder#A([II)D*
+ij.process.AutoThresholder*
+""*
+""¬
+©
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java»( »(O
+%18double"java.lang.Math#log10(D)D*"
+java.lang.Math*
+""*
+4
+5*¼
+8b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java« «(ÊÇ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java« «(	
+%0int"$ij.process.AutoThresholder#Mean([I)I*
+ij.process.AutoThresholder*
+""2Mean([I)*
+6
+1*Õ
+1b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÍ	 Í("l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÍ Í(
+"":
+""B
+ij.process.AutoThresholder

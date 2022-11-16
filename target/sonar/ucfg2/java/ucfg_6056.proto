@@ -1,0 +1,70 @@
+
+lij.gui.ProfilePlot#getStraightLineProfile(Lij/gui/Roi;Lij/measure/Calibration;Lij/process/ImageProcessor;)[DZ
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.java•
+ •( "6*∂
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.java´ ´(ﬁ€
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.java´ ´(*
+%2ij.process.FloatPolygon"5ij.gui.Line#getFloatPoints()Lij/process/FloatPolygon;*
+
+lineij.gui.Line2getFloatPoints()§
+°
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.java´ ´(+
+pij.process.FloatPolygon"__id*
+
+%2ij.process.FloatPolygon¢
+ü
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.javaÆ Æ(1
+%3double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""¢
+ü
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.java± ±(6
+%4double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""*
+1*≈
+5Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.java© ©( "d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.java© ©(!
+""*á
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.java¶ ¶(◊‘
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.java¶ ¶(,
+
+%0void",ij.process.ImageProcessor#setInterpolate(Z)V*!
+
+ipij.process.ImageProcessor*
+""2setInterpolate(Z)è
+å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.javaß ß(
+lineij.gui.Line"__id*
+
+roi
+ij.gui.RoiÆ´
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.java® ®(%
+%1double[]"ij.gui.Line#getPixels()[D*
+
+lineij.gui.Line2getPixels()*	
+2
+5
+1*≈
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.java¥
+ ¥("d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ProfilePlot.java¥ ¥(
+"":
+roi
+ij.gui.Roi:
+calij.measure.Calibration:
+ipij.process.ImageProcessorB
+ij.gui.ProfilePlot

@@ -1,0 +1,542 @@
+
+[ij.plugin.Scaler#createNewStack(Lij/ImagePlus;Lij/process/ImageProcessor;III)Lij/ImagePlus;V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javag g(!"30*»
+13X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaå å(ƒ¡
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaé é($
+%30ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+impij.ImagePlus2getOverlay()ó
+î
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaé é(%
+overlayij.gui.Overlay"__id*
+
+%30ij.gui.Overlay*
+7
+12*ß
+15X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaá á(›⁄
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaá á()
+%28ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+imp2ij.ImagePlus2getCalibration()£
+†
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaá á(*
+calij.measure.Calibration"__id*
+
+%28ij.measure.Calibration∫∑
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaà à(
+%29boolean" ij.measure.Calibration#scaled()Z*
+
+calij.measure.Calibration2scaled()*
+13*±
+16X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaÜ Ü( «
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaÜ Ü(!
+%27void"!ij.ImagePlus#setDisplayRange(DD)V*
+
+imp2ij.ImagePlus*
+""*
+""2setDisplayRange(DD)*
+15*´
+17X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaÑ Ñ(ù
+ö
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaÑ Ñ(
+%25java.lang.String"__id**
+ij.plugin.Scaler"
+title†ù
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaÑ Ñ(
+%26void"9ij.ImagePlus#setStack(Ljava/lang/String;Lij/ImageStack;)V*
+
+imp2ij.ImagePlus*
+
+%25java.lang.String*
+
+stack2ij.ImageStack2+setStack(Ljava/lang/String;Lij/ImageStack;)*
+15
+16*º
+28V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javal l(Fª∏
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javam m($
+%7ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+impij.ImagePlus2
+getStack()ë
+é
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javam m(%
+stack1ij.ImageStack"__id*
+
+%7ij.ImageStack~|
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javan n($
+%8ij.ImageStack"ij.ImageStack£
+†
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javan n(9
+%9"ij.ImageStack#<init>(II)V*
+
+%8ij.ImageStack*
+""*
+""ë
+é
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javan n(:
+stack2ij.ImageStack"__id*
+
+%8ij.ImageStackØ¨
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javao o(+
+%10boolean"ij.ImageStack#isVirtual()Z*
+
+stack1ij.ImageStack2isVirtual()ª∏
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javap p('
+%11double""ij.ImagePlus#getDisplayRangeMin()D*
+
+impij.ImagePlus2getDisplayRangeMin()ª∏
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaq q('
+%12double""ij.ImagePlus#getDisplayRangeMax()D*
+
+impij.ImagePlus2getDisplayRangeMax()ã
+à
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javar r( 
+ip1ij.process.ImageProcessor"__id*
+""ã
+à
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javar r( 
+ip2ij.process.ImageProcessor"__id*
+""*
+17
+23*ä
+29V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javal, l(-•¢
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javal6 l(E	
+%6int"ij.ImagePlus#getHeight()I*
+
+impij.ImagePlus2getHeight()*
+28*â
+19X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaÇ Ç(û
+õ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaÇ Ç(
+%24void"ij.IJ#showProgress(II)V*	"
+ij.IJ*
+""*
+""*
+17
+23*—
+1X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaß	 ß("r
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaß ß(
+
+imp2ij.ImagePlus*ü
+2X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java† †(Ø¨
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java† †('
+
+%49int"ij.ImagePlus#getStackSize()I*
+
+imp2ij.ImagePlus2getStackSize()äá
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java° °( 
+%50ij.plugin.Resizer"ij.plugin.Resizerù
+ö
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java° °("
+%51"ij.plugin.Resizer#<init>()V*
+
+%50ij.plugin.Resizerù
+ö
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java° °(#
+resizerij.plugin.Resizer"__id*
+
+%50ij.plugin.Resizerﬂ‹
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java¢ ¢(:
+%52void".ij.plugin.Resizer#setAverageWhenDownsizing(Z)V*
+
+resizerij.plugin.Resizer*
+""2setAverageWhenDownsizing(Z)éã
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java£
+ £(=
+%53ij.ImagePlus"8ij.plugin.Resizer#zScale(Lij/ImagePlus;II)Lij/ImagePlus;*
+
+resizerij.plugin.Resizer*
+
+imp2ij.ImagePlus*
+""*
+""2zScale(Lij/ImagePlus;II)ê
+ç
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java£ £(=
+imp2ij.ImagePlus"__id*
+
+%53ij.ImagePlus›⁄
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java§	 §(
+%54ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+imp2ij.ImagePlus2getCalibration()£
+†
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java§ §(
+calij.measure.Calibration"__id*
+
+%54ij.measure.CalibrationØ¨
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java• •(%
+
+%55int"ij.ImagePlus#getStackSize()I*
+
+imp2ij.ImagePlus2getStackSize()*
+1*Æ
+4X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaû û(∆√
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaû û(!
+%48void"$ij.ImagePlus#setOpenAsHyperStack(Z)V*
+
+imp2ij.ImagePlus*22setOpenAsHyperStack(Z)*
+2
+1*ù
+5X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaù ù(	≤Ø
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaù ù(
+%47boolean"ij.ImagePlus#isHyperStack()Z*
+
+impij.ImagePlus2isHyperStack()*	
+2
+4
+1*Î
+6X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaö ö(!©¶
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaö# ö(B
+
+%43int"ij.CompositeImage#getMode()I*
+
+impij.ImagePlus2	getMode()äá
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaö ö(
+%44ij.CompositeImage"ij.CompositeImage“
+œ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaö
+ ö(C
+%45"*ij.CompositeImage#<init>(Lij/ImagePlus;I)V*
+
+%44ij.CompositeImage*
+
+imp2ij.ImagePlus*
+
+
+%43intï
+í
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaö ö(C
+imp2ij.ImagePlus"__id*
+
+%44ij.CompositeImage‡›
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaõ õ('
+%46void"+ij.CompositeImage#copyLuts(Lij/ImagePlus;)V*
+
+imp2ij.ImagePlus*
+
+impij.ImagePlus2copyLuts(Lij/ImagePlus;)*
+5*π
+7X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javañ ñ(ï
+í
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javañ ñ(
+%39void"ij.IJ#showProgress(D)V*	"
+ij.IJ*
+""≥∞
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaó ó(!
+%40int[]"ij.ImagePlus#getDimensions()[I*
+
+impij.ImagePlus2getDimensions()–Õ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaò ò(,
+%41void" ij.ImagePlus#setDimensions(III)V*
+
+imp2ij.ImagePlus*
+""*
+""*
+""2setDimensions(III)∞≠
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaô ô(
+%42boolean"ij.ImagePlus#isComposite()Z*
+
+impij.ImagePlus2isComposite()*
+5
+6*£
+8X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaî î(÷”
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaî î(0
+%37ij.gui.Overlay"(ij.gui.Overlay#scale(DD)Lij/gui/Overlay;*
+
+overlayij.gui.Overlay*
+""*
+""2	scale(DD)Â‚
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaî î(1
+%38void"*ij.ImagePlus#setOverlay(Lij/gui/Overlay;)V*
+
+imp2ij.ImagePlus*
+
+%37ij.gui.Overlay2setOverlay(Lij/gui/Overlay;)*
+7*‰
+9X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaì ì(›⁄
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaì ì(&
+%35java.awt.Rectangle"6ij.process.ImageProcessor#getRoi()Ljava/awt/Rectangle;*!
+
+ipij.process.ImageProcessor2getRoi()ÖÇ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaì ì('
+%36ij.gui.Overlay"9ij.gui.Overlay#crop(Ljava/awt/Rectangle;)Lij/gui/Overlay;*
+
+overlayij.gui.Overlay*
+
+%35java.awt.Rectangle2crop(Ljava/awt/Rectangle;)ó
+î
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaì ì('
+overlayij.gui.Overlay"__id*
+
+%36ij.gui.Overlay*
+8*ÿ
+30V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javah h(´®
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javah h("	
+%0int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()£†
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javai i(	
+%1int"ij.ImagePlus#getWidth()I*
+
+impij.ImagePlus2
+getWidth()•¢
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javai i()	
+%2int"ij.ImagePlus#getHeight()I*
+
+impij.ImagePlus2getHeight()«ƒ
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaj j((
+%3ij.ImagePlus",ij.ImagePlus#createImagePlus()Lij/ImagePlus;*
+
+impij.ImagePlus2createImagePlus()ç
+ä
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaj j()
+imp2ij.ImagePlus"__id*
+
+%3ij.ImagePlus⁄◊
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javak k(
+%4java.awt.Rectangle"6ij.process.ImageProcessor#getRoi()Ljava/awt/Rectangle;*!
+
+ipij.process.ImageProcessor2getRoi()ñ
+ì
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javak k(
+rjava.awt.Rectangle"__id*
+
+%4java.awt.Rectangle£†
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javal l((	
+%5int"ij.ImagePlus#getWidth()I*
+
+impij.ImagePlus2
+getWidth()*
+28
+29*Æ
+20X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaÅ Å(
+«ƒ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaÅ Å(
+%23void"Fij.ImageStack#addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+stack2ij.ImageStack*
+
+labeljava.lang.String*"
+ 
+ip2ij.process.ImageProcessor27addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)*
+19*É
+21V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java~ ~(Â‚
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java~ ~(%
+%21void"4ij.process.ImageProcessor#setInterpolationMethod(I)V*"
+ 
+ip1ij.process.ImageProcessor*
+""2setInterpolationMethod(I)àÖ
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java	 (? 
+%22ij.process.ImageProcessor"@ij.process.ImageProcessor#resize(IIZ)Lij/process/ImageProcessor;*"
+ 
+ip1ij.process.ImageProcessor*
+""*
+""*
+""2resize(IIZ)ß
+§
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java (? 
+ip2ij.process.ImageProcessor"__id*"
+ 
+%22ij.process.ImageProcessor*
+19
+20*≠
+10X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaê ê( «
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaê ê( 
+%32ij.gui.Overlay"*ij.gui.Overlay#duplicate()Lij/gui/Overlay;*
+
+overlayij.gui.Overlay2duplicate()ó
+î
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaê ê( 
+overlayij.gui.Overlay"__id*
+
+%32ij.gui.Overlayﬁ€
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaë ë(% 
+%33ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()ﬁ€
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaë ë(.
+%34java.awt.Rectangle"6ij.process.ImageProcessor#getRoi()Ljava/awt/Rectangle;*"
+ 
+%33ij.process.ImageProcessor2getRoi()õ
+ò
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaë ë(/
+roijava.awt.Rectangle"__id*
+
+%34java.awt.Rectangle*
+8
+9*ˆ
+22V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java{ {(˛˚
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java{ {(
+%19void"7ij.process.ImageProcessor#setRoi(Ljava/awt/Rectangle;)V*"
+ 
+ip1ij.process.ImageProcessor*
+
+rjava.awt.Rectangle2setRoi(Ljava/awt/Rectangle;)Ê„
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java|
+ |( 
+%20ij.process.ImageProcessor";ij.process.ImageProcessor#crop()Lij/process/ImageProcessor;*"
+ 
+ip1ij.process.ImageProcessor2crop()ß
+§
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.java| |( 
+ip1ij.process.ImageProcessor"__id*"
+ 
+%20ij.process.ImageProcessor*
+21*†
+12X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaè è(∂≥
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaè è(,
+%31boolean"ij.ImagePlus#getHideOverlay()Z*
+
+impij.ImagePlus2getHideOverlay()*
+7
+10*ã
+23V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaw w(ì
+ê
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaw w(
+%13java.lang.String"__concat*	
+Scale: *
+""†
+ù
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaw w($
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+/°
+û
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaw w(.
+%15java.lang.String"__concat*
+
+%14java.lang.String*
+""µ
+≤
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javaw w(/
+%16void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%15java.lang.StringÎË
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javax	 x( 
+%17ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stack1ij.ImageStack*
+""2getProcessor(I)ß
+§
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javax x( 
+ip1ij.process.ImageProcessor"__id*"
+ 
+%17ij.process.ImageProcessor€ÿ
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javay y()
+%18java.lang.String"0ij.ImageStack#getSliceLabel(I)Ljava/lang/String;*
+
+stack1ij.ImageStack*
+""2getSliceLabel(I)ó
+î
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Scaler.javay y(*
+labeljava.lang.String"__id*
+
+%18java.lang.String*
+21
+22:
+impij.ImagePlus:
+ipij.process.ImageProcessor:
+"":
+"":
+""B
+ij.plugin.Scaler

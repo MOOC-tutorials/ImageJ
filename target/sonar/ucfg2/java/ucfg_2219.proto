@@ -1,0 +1,120 @@
+
+@ij.plugin.RoiScaler#scaleImage(Lij/gui/ImageRoi;DDZ)Lij/gui/Roi;[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaò ò("1*Î
+1[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaô ô(∆√
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaô ô(
+%0java.lang.Object")ij.gui.ImageRoi#clone()Ljava/lang/Object;*
+
+roiij.gui.ImageRoi2clone()ò
+ï
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaô ô(
+roiij.gui.ImageRoi"__id*
+
+%0java.lang.ObjectÊ„
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaö ö()
+%1ij.process.ImageProcessor"9ij.gui.ImageRoi#getProcessor()Lij/process/ImageProcessor;*
+
+roiij.gui.ImageRoi2getProcessor()´
+®
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaö ö(* 
+ip2ij.process.ImageProcessor"__id*!
+
+%1ij.process.ImageProcessor¬ø
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaú! ú(/	
+%2int"%ij.process.ImageProcessor#getWidth()I*"
+ 
+ip2ij.process.ImageProcessor2
+getWidth()¢
+ü
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaú ú(7
+
+%3long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""ƒ¡
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaù" ù(1	
+%4int"&ij.process.ImageProcessor#getHeight()I*"
+ 
+ip2ij.process.ImageProcessor2getHeight()¢
+ü
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaù ù(9
+
+%5long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""äá
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaû û(-
+%6ij.process.ImageProcessor"@ij.process.ImageProcessor#resize(IIZ)Lij/process/ImageProcessor;*"
+ 
+ip2ij.process.ImageProcessor*
+""*
+""*22resize(IIZ)´
+®
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaû û(- 
+ip2ij.process.ImageProcessor"__id*!
+
+%6ij.process.ImageProcessorëé
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaü ü(
+
+%7void":ij.gui.ImageRoi#setProcessor(Lij/process/ImageProcessor;)V*
+
+roiij.gui.ImageRoi*"
+ 
+ip2ij.process.ImageProcessor2)setProcessor(Lij/process/ImageProcessor;)Õ 
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java† †($
+%8java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roiij.gui.ImageRoi2getBounds()†
+ù
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java† †(%
+boundsjava.awt.Rectangle"__id*
+
+%8java.awt.Rectangle¢
+ü
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java° °(*
+
+%9long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""£
+†
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java¢ ¢(*
+%10long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""≈¬
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java£ £(
+%11void"ij.gui.Roi#setLocation(II)V*
+
+roiij.gui.ImageRoi*
+""*
+""2setLocation(II)ÈÊ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java§ §(
+%12void"(ij.gui.Roi#copyAttributes(Lij/gui/Roi;)V*
+
+roiij.gui.ImageRoi*
+
+roiij.gui.ImageRoi2copyAttributes(Lij/gui/Roi;)"w
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java• •(
+
+roiij.gui.ImageRoi:
+roiij.gui.ImageRoi:
+"":
+"":
+""B"
+ij.plugin.RoiScaler

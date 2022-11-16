@@ -1,0 +1,84 @@
+
+Aij.plugin.filter.Shadows#setup(Ljava/lang/String;Lij/ImagePlus;)I^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java ("5*–
+2^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java (É
+Æ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java (6
+
+%2void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*+)
+'Shadows Demo does not work with stacks.{
+y
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java
+ (	
+%3int"__id*
+"""h
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java (
+""*Ï
+3^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java+ (.áÞ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java+ (=
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*
+demo2equals(Ljava/lang/Object;)*
+2
+1*¡
+4^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java (³°
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java (%	
+%0int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+3
+1*¿
+5^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java (©
+¦
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java (#
+ij.plugin.filter.Shadows"
+arg"__id*
+
+argjava.lang.String¥
+¢
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java (#
+ij.plugin.filter.Shadows"
+imp"__id*
+
+impij.ImagePlus*
+4
+1*‡
+1^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java	 ({
+y
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java (%	
+%4int"__id*
+""{
+y
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java& (6	
+%5int"__id*
+""½
+º
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java	 (7	
+%6int"#ij.IJ#setupDialog(Lij/ImagePlus;I)I*	"
+ij.IJ*
+
+impij.ImagePlus*
+"""h
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Shadows.java (8
+"":
+argjava.lang.String:
+impij.ImagePlusB
+ij.plugin.filter.Shadows

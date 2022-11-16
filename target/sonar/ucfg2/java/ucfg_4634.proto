@@ -1,0 +1,152 @@
+
+_ij.measure.ResultsTable#getTableType(Ljava/lang/String;[Ljava/lang/String;ILjava/lang/String;)I_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaû	 û	( "15"16*‡
+13_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java
+ 
+(¯
+¬
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java
+ 
+(
+%2java.lang.String"
+__arrayGet*
+
+itemsjava.lang.String[]*
+""àİ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java
+ 
+(
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%2java.lang.String*
+NaN2equals(Ljava/lang/Object;)*
+13
+9
+12*Ï
+2_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaŒ
+
+ Œ
+("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaŒ
+ Œ
+(
+""*Ş
+15_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaı	 ı	(­
+ª
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaı	 ı	(
+%0java.lang.String"
+__arrayGet*
+
+linesjava.lang.String[]*2—”
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaı	 ı	(.
+%1java.lang.String[]"=java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;*
+
+%0java.lang.String*#
+!
+cellSeparatorjava.lang.String2split(Ljava/lang/String;)£
+ 
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaı	 ı	(/
+itemsjava.lang.String[]"__id*
+
+%1java.lang.String[]*
+13
+9*Ğ
+16_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaü	 ü	("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaü	 ü	(
+""*Ï
+5_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaŠ
+
+ Š
+("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaŠ
+ Š
+(
+""*Ï
+8_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaˆ
+
+ ˆ
+("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaˆ
+ ˆ
+(
+""*Ü
+9_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java†
+ †
+(çä
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java†
+ †
+(%
+%7boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+pathjava.lang.String*
+.csv2endsWith(Ljava/lang/String;)*
+2
+5
+8
+1*ª
+12_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java
+" 
+((¯
+¬
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java
+A 
+(I
+%4java.lang.String"
+__arrayGet*
+
+itemsjava.lang.String[]*
+""Ï
+Ì
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java
+/ 
+(J
+%5double".ij.util.Tools#parseDouble(Ljava/lang/String;)D*"
+ij.util.Tools*
+
+%4java.lang.Stringµ
+²
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java
+" 
+(K
+%6boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+
+%5double*
+13
+9*Ï
+1_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java
+	 
+(
+"i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java
+ 
+(
+"":
+pathjava.lang.String:
+linesjava.lang.String[]:
+"":!
+cellSeparatorjava.lang.StringB"
+ij.measure.ResultsTable

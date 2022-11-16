@@ -1,0 +1,105 @@
+
++ij.gui.Arrow#getShapeRoi()Lij/gui/ShapeRoi;T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.java‚ ‚("1*Î
+1T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.java„ „(©
+¶
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.java„ „(
+%0java.awt.Shape"&ij.gui.Arrow#getPath()Ljava/awt/Shape;*
+ij.gui.Arrowê
+ç
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.java„ „(
+arrowjava.awt.Shape"__id*
+
+%0java.awt.Shape®•
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.java‰' ‰(7
+%1float"ij.gui.Roi#getStrokeWidth()F*
+ij.gui.Arrow2getStrokeWidth()q
+o
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.java‰9 ‰(M	
+%2int"__id*
+""q
+o
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.java‰O ‰(e	
+%3int"__id*
+""ãà
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.java‰ ‰(&
+%4java.awt.BasicStroke"java.awt.BasicStroke…
+∆
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.java‰ ‰(f
+%5"!java.awt.BasicStroke#<init>(FII)V*
+
+%4java.awt.BasicStroke*
+
+%1float*
+	
+%2int*
+	
+%3intù
+ö
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.java‰ ‰(g
+strokejava.awt.BasicStroke"__id*
+
+%4java.awt.BasicStrokeÄ~
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÂ Â(
+%6ij.gui.ShapeRoi"ij.gui.ShapeRoiæ
+ª
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÂ Â(%
+%7")ij.gui.ShapeRoi#<init>(Ljava/awt/Shape;)V*
+
+%6ij.gui.ShapeRoi*
+
+arrowjava.awt.Shapeë
+é
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÂ Â(&
+sroiij.gui.ShapeRoi"__id*
+
+%6ij.gui.ShapeRoiùö
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÊ Ê(7
+%8java.awt.Shape"Ijava.awt.BasicStroke#createStrokedShape(Ljava/awt/Shape;)Ljava/awt/Shape;* 
+
+strokejava.awt.BasicStroke*
+
+arrowjava.awt.Shape2$createStrokedShape(Ljava/awt/Shape;)ó
+î
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÊ Ê(8
+outlineShapejava.awt.Shape"__id*
+
+%8java.awt.ShapeÄ~
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÁ Á(
+%9ij.gui.ShapeRoi"ij.gui.ShapeRoi∆
+√
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÁ
+ Á($
+%10")ij.gui.ShapeRoi#<init>(Ljava/awt/Shape;)V*
+
+%9ij.gui.ShapeRoi* 
+
+outlineShapejava.awt.ShapeÙÒ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaÁ Á(%
+%11ij.gui.ShapeRoi"6ij.gui.ShapeRoi#or(Lij/gui/ShapeRoi;)Lij/gui/ShapeRoi;*
+
+sroiij.gui.ShapeRoi*
+
+%9ij.gui.ShapeRoi2or(Lij/gui/ShapeRoi;)"q
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Arrow.javaË Ë(
+
+sroiij.gui.ShapeRoiB
+ij.gui.Arrow

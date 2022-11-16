@@ -1,0 +1,69 @@
+
+=ij.process.ImageProcessor#getStringWidth(Ljava/lang/String;)Ia
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaà à("1*‘
+1a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaé é($∞≠
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaé é('
+%0java.awt.Rectangle"Qij.process.ImageProcessor#getStringBounds(Ljava/lang/String;)Ljava/awt/Rectangle;*
+ij.process.ImageProcessor*
+
+sjava.lang.String2#getStringBounds(Ljava/lang/String;)´
+®
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaé é((!
+rectjava.awt.geom.Rectangle2D"__id*
+
+%0java.awt.Rectangle∏
+µ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaè è("
+%1java.awt.FontMetrics"__id*.*,
+ij.process.ImageProcessor"
+fontMetrics∂
+≥
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaè6 è(@
+%2java.awt.Graphics2D"__id*-*+
+ij.process.ImageProcessor"
+
+fmGraphics˚¯
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaè è(A
+%3java.awt.geom.Rectangle2D"fjava.awt.FontMetrics#getStringBounds(Ljava/lang/String;Ljava/awt/Graphics;)Ljava/awt/geom/Rectangle2D;*
+
+%1java.awt.FontMetrics*
+
+sjava.lang.String*
+
+%2java.awt.Graphics2D26getStringBounds(Ljava/lang/String;Ljava/awt/Graphics;)œÃ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaè è(L
+%4double"*java.awt.geom.RectangularShape#getWidth()D*!
+
+%3java.awt.geom.Rectangle2D2
+getWidth()…∆
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaèN è(Y
+%5double"&java.awt.geom.RectangularShape#getX()D*#
+!
+rectjava.awt.geom.Rectangle2D2getX()—Œ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaèZ è(i
+%6double"*java.awt.geom.RectangularShape#getWidth()D*#
+!
+rectjava.awt.geom.Rectangle2D2
+getWidth()π
+∂
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaè è(j
+%7double"java.lang.Math#max(DD)D*"
+java.lang.Math*
+
+%4double*
+"""k
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaè è(k
+"":
+sjava.lang.StringB
+ij.process.ImageProcessor

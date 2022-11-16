@@ -1,0 +1,74 @@
+
+'ij.Prefs#loadPrefs(Ljava/lang/String;)ZP
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaÖ Ö("6*±
+2P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaÛ
+ Û("Z
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaÛ Û(
+""*‚
+3P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaÚ Ú(¥¢
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaÚ Ú(
+
+%6void"java.io.InputStream#close()V*
+
+isjava.io.InputStream2close()*
+2*ü
+4P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaØ Ø(G›
+˜
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaØ Ø(G
+isjava.io.InputStream"__id*#
+!
+%2java.io.BufferedInputStream’
+
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaÙ Ù(
+
+%4java.util.Properties"__id**
+
+ij.Prefs"	
+ijPrefsìé
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaÙ Ù(
+
+%5void"1java.util.Properties#load(Ljava/io/InputStream;)V*
+
+%4java.util.Properties*
+
+isjava.io.InputStream2load(Ljava/io/InputStream;)*
+3*Ò
+5P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaØ Ø(F•’
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaØ Ø(+!
+%2java.io.BufferedInputStream"java.io.BufferedInputStreamİ
+Ú
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaØ Ø(F
+%3":java.io.BufferedInputStream#<init>(Ljava/io/InputStream;)V*#
+!
+%2java.io.BufferedInputStream*
+
+%0java.io.FileInputStream*
+4*º
+6P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaØ@ Ø(DŠ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaØ0 Ø(?
+%0java.io.FileInputStream"java.io.FileInputStreamÍ
+Ê
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Prefs.javaØ, Ø(E
+%1"3java.io.FileInputStream#<init>(Ljava/lang/String;)V*
+
+%0java.io.FileInputStream*
+
+pathjava.lang.String*
+5:
+pathjava.lang.StringB"
+
+ij.Prefs

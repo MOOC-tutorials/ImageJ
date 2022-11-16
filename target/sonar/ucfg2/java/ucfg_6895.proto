@@ -1,0 +1,161 @@
+
+6ij.gui.PolygonRoi#getMask()Lij/process/ImageProcessor;Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÍ	 Í	("11*Ë
+2Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaØ	 Ø	(åâ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaØ	 Ø	(!
+%12void"+ij.process.PolygonFiller#setPolygon([I[II)V* 
+
+pfij.process.PolygonFiller*
+""*
+""*
+""2setPolygon([I[II)*
+1*´
+3Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÖ	 Ö	(§¤
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÖ	$ Ö	(.
+%9double"ij.gui.Roi#getXBase()D*
+ij.gui.PolygonRoi2
+getXBase()¨¥
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÖ	2 Ö	(<
+%10double"ij.gui.Roi#getYBase()D*
+ij.gui.PolygonRoi2
+getYBase()ùö
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÖ	 Ö	(?
+%11void"-ij.process.PolygonFiller#setPolygon([F[FIDD)V* 
+
+pfij.process.PolygonFiller*
+""*
+""*
+""*
+""*
+""2setPolygon([F[FIDD)*
+1*²
+5Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÔ	 Ô	(§¤
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÔ	1 Ô	(;
+%6double"ij.gui.Roi#getXBase()D*
+ij.gui.PolygonRoi2
+getXBase()§¤
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÔ	? Ô	(I
+%7double"ij.gui.Roi#getYBase()D*
+ij.gui.PolygonRoi2
+getYBase()øõ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÔ	 Ô	(L
+
+%8void"-ij.process.PolygonFiller#setPolygon([F[FIDD)V* 
+
+pfij.process.PolygonFiller*
+""*
+""*
+""*
+""*
+""2setPolygon([F[FIDD)*
+1*Ú
+6Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÒ	 Ò	((˜•
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÒ	 Ò	(&
+%4ij.process.PolygonFiller"ij.process.PolygonFillerª
+§
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÒ	 Ò	((
+%5""ij.process.PolygonFiller#<init>()V* 
+
+%4ij.process.PolygonFiller¦
+£
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÒ	 Ò	()
+pfij.process.PolygonFiller"__id* 
+
+%4ij.process.PolygonFiller*	
+2
+3
+5*á
+7Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÑ	
+ Ñ	("€
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÑ	 Ñ	(#
+!
+maskij.process.ImageProcessor*¬
+8Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÐ	 Ð	(#ÃÀ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÐ	 Ð	(/	
+%3int"&ij.process.ImageProcessor#getHeight()I*#
+!
+maskij.process.ImageProcessor2getHeight()*
+6
+7*ª
+9Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÐ	 Ð	(	Á¾
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÐ	 Ð	(	
+%2int"%ij.process.ImageProcessor#getWidth()I*#
+!
+maskij.process.ImageProcessor2
+getWidth()*
+6
+8*Ë
+10Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÏ	 Ï	(áÞ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÏ	 Ï	($
+%1java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*#
+!
+maskij.process.ImageProcessor2getPixels()*
+6
+9*Ä
+11Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÎ	 Î	("¬
+©
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÎ	 Î	("
+%0ij.process.ImageProcessor"__id*%*#
+ij.gui.PolygonRoi"
+
+cachedMaskª
+§
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÎ	 Î	(#!
+maskij.process.ImageProcessor"__id*!
+
+%0ij.process.ImageProcessor*
+6
+10*Ã
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÙ		 Ù	(€ý
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÙ		 Ù	(" 
+%13ij.process.ImageProcessor"?ij.process.PolygonFiller#getMask(II)Lij/process/ImageProcessor;* 
+
+pfij.process.PolygonFiller*
+""*
+""2getMask(II)«
+¨
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÙ	 Ù	("!
+maskij.process.ImageProcessor"__id*"
+ 
+%13ij.process.ImageProcessor®
+«
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÚ	 Ú	(#
+ij.gui.PolygonRoi"
+
+cachedMask"__id*#
+!
+maskij.process.ImageProcessor"€
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÛ	 Û	(#
+!
+maskij.process.ImageProcessorB
+ij.gui.PolygonRoi

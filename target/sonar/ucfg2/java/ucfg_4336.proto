@@ -1,0 +1,262 @@
+
+8ij.gui.PlotWindow#getDataPopupMenu()Ljava/awt/PopupMenu;Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÙ Ù("1*Ò;
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÚ Ú(!Œ‰
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÚ Ú(
+%0java.awt.PopupMenu"java.awt.PopupMenuž
+›
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÚ Ú(!
+%1"java.awt.PopupMenu#<init>()V*
+
+%0java.awt.PopupMenu¨
+¥
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÚ Ú(!&
+ij.gui.PlotWindow"
+dataPopupMenu"__id*
+
+%0java.awt.PopupMenu¨
+¥
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÛ Û("
+%2java.awt.PopupMenu"__id*(*&
+ij.gui.PlotWindow"
+dataPopupMenuÈ
+Å
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÛ Û(#
+
+%3void"0ij.gui.GUI#scalePopupMenu(Ljava/awt/PopupMenu;)V*"
+
+ij.gui.GUI*
+
+%2java.awt.PopupMenu¥
+¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÜ Ü(
+%4java.awt.MenuItem[]"__id*$*"
+ij.gui.PlotWindow"
+	menuItems¨
+¥
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÜ! Ü(.
+%5java.awt.PopupMenu"__id*(*&
+ij.gui.PlotWindow"
+dataPopupMenuÍÊ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÜ Ü(?
+%6java.awt.MenuItem"Yij.gui.PlotWindow#addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)Ljava/awt/MenuItem;*
+ij.gui.PlotWindow*
+
+%5java.awt.PopupMenu*
+Save Data...24addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)°
+­
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÜ Ü(?
+%7"
+__arraySet*
+
+%4java.awt.MenuItem[]*
+""*
+
+%6java.awt.MenuItem¥
+¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÝ Ý(
+%8java.awt.MenuItem[]"__id*$*"
+ij.gui.PlotWindow"
+	menuItems¨
+¥
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÝ! Ý(.
+%9java.awt.PopupMenu"__id*(*&
+ij.gui.PlotWindow"
+dataPopupMenuÓÐ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÝ Ý(D
+%10java.awt.MenuItem"Yij.gui.PlotWindow#addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)Ljava/awt/MenuItem;*
+ij.gui.PlotWindow*
+
+%9java.awt.PopupMenu*
+Copy 1st Data Set24addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)²
+¯
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÝ Ý(D
+%11"
+__arraySet*
+
+%8java.awt.MenuItem[]*
+""*
+
+%10java.awt.MenuItem¦
+£
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÞ Þ(
+%12java.awt.MenuItem[]"__id*$*"
+ij.gui.PlotWindow"
+	menuItems©
+¦
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÞ% Þ(2
+%13java.awt.PopupMenu"__id*(*&
+ij.gui.PlotWindow"
+dataPopupMenuÐÍ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÞ Þ(D
+%14java.awt.MenuItem"Yij.gui.PlotWindow#addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)Ljava/awt/MenuItem;*
+ij.gui.PlotWindow*
+
+%13java.awt.PopupMenu*
+Copy All Data24addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)³
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÞ Þ(D
+%15"
+__arraySet*
+
+%12java.awt.MenuItem[]*
+""*
+
+%14java.awt.MenuItem¦
+£
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaß ß(
+%16java.awt.MenuItem[]"__id*$*"
+ij.gui.PlotWindow"
+	menuItems©
+¦
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaß( ß(5
+%17java.awt.PopupMenu"__id*(*&
+ij.gui.PlotWindow"
+dataPopupMenuÙÖ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaß ß(P
+%18java.awt.MenuItem"Yij.gui.PlotWindow#addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)Ljava/awt/MenuItem;*
+ij.gui.PlotWindow*
+
+%17java.awt.PopupMenu*
+List (Simple Headings)24addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)³
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaß ß(P
+%19"
+__arraySet*
+
+%16java.awt.MenuItem[]*
+""*
+
+%18java.awt.MenuItem©
+¦
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaà à(
+%20java.awt.PopupMenu"__id*(*&
+ij.gui.PlotWindow"
+dataPopupMenu·´
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaà à(
+%21void"java.awt.Menu#addSeparator()V*
+
+%20java.awt.PopupMenu2addSeparator()¦
+£
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaá á(
+%22java.awt.MenuItem[]"__id*$*"
+ij.gui.PlotWindow"
+	menuItems©
+¦
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaá+ á(8
+%23java.awt.PopupMenu"__id*(*&
+ij.gui.PlotWindow"
+dataPopupMenuÔÑ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaá á(N
+%24java.awt.MenuItem"Yij.gui.PlotWindow#addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)Ljava/awt/MenuItem;*
+ij.gui.PlotWindow*
+
+%23java.awt.PopupMenu*
+Add from Table...24addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)³
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaá á(N
+%25"
+__arraySet*
+
+%22java.awt.MenuItem[]*
+""*
+
+%24java.awt.MenuItem¦
+£
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaâ â(
+%26java.awt.MenuItem[]"__id*$*"
+ij.gui.PlotWindow"
+	menuItems©
+¦
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaâ* â(7
+%27java.awt.PopupMenu"__id*(*&
+ij.gui.PlotWindow"
+dataPopupMenuÓÐ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaâ â(L
+%28java.awt.MenuItem"Yij.gui.PlotWindow#addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)Ljava/awt/MenuItem;*
+ij.gui.PlotWindow*
+
+%27java.awt.PopupMenu*
+Add from Plot...24addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)³
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaâ â(L
+%29"
+__arraySet*
+
+%26java.awt.MenuItem[]*
+""*
+
+%28java.awt.MenuItem¦
+£
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaã ã(
+%30java.awt.MenuItem[]"__id*$*"
+ij.gui.PlotWindow"
+	menuItems©
+¦
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaã$ ã(1
+%31java.awt.PopupMenu"__id*(*&
+ij.gui.PlotWindow"
+dataPopupMenuÍÊ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaã ã(@
+%32java.awt.MenuItem"Yij.gui.PlotWindow#addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)Ljava/awt/MenuItem;*
+ij.gui.PlotWindow*
+
+%31java.awt.PopupMenu*
+
+Add Fit...24addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;)³
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaã ã(@
+%33"
+__arraySet*
+
+%30java.awt.MenuItem[]*
+""*
+
+%32java.awt.MenuItem©
+¦
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaä	 ä(
+%34java.awt.PopupMenu"__id*(*&
+ij.gui.PlotWindow"
+dataPopupMenu"x
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaä ä(
+
+%34java.awt.PopupMenuB
+ij.gui.PlotWindow

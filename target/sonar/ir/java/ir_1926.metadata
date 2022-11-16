@@ -1,0 +1,5 @@
+ij.IJ#selectWindow(Ljava/awt/Window;)V
+ij.IJ#wait(I)V
+ij.WindowManager#setWindow(Ljava/awt/Window;)V
+java.lang.System#currentTimeMillis()J
+ij.WindowManager#getActiveWindow()Ljava/awt/Window;

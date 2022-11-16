@@ -1,0 +1,112 @@
+
+\ij.plugin.Slicer#createOutputStack(Lij/ImagePlus;Lij/process/ImageProcessor;)Lij/ImageStack;X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java   ("6*¡
+2X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java“ “("b
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java“ “(
+""*™
+4X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java– –(¬
+ø
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java– –(6
+
+%7void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*%#
+!Reslice... (press 'Esc' to abort)*
+2
+1*ô
+5X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaœ œ(Æ´
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaœ œ((	
+%6int"ij.ImagePlus#getStackSize()I*
+
+imp2ij.ImagePlus2getStackSize()*	
+2
+4
+1*ô
+
+6X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaÀ À(´®
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaÀ À(#	
+%0int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()æª
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaÃ
+ Ã(	
+%1int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()¿Ω
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaÃ Ã(*	
+%2int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()u
+s
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaÕ Õ("	
+%3int"__id*
+""u
+s
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaÕ% Õ(D	
+%4int"__id*
+""¸
+˘
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaŒ Œ(M
+%5ij.ImagePlus"Bij.gui.NewImage#createImage(Ljava/lang/String;IIIII)Lij/ImagePlus;*"
+ij.gui.NewImage*
+temp*
+""*
+""*
+""*
+""*
+""è
+å
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaŒ Œ(N
+imp2ij.ImagePlus"__id*
+
+%5ij.ImagePlus*	
+2
+5
+1*∏
+1X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java‘ ‘(æª
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java‘ ‘('
+%8ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+imp2ij.ImagePlus2
+getStack()ì
+ê
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java‘ ‘((
+stack2ij.ImageStack"__id*
+
+%8ij.ImageStack¯ı
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java’ ’(+
+%9java.awt.image.ColorModel"Dij.process.ImageProcessor#getColorModel()Ljava/awt/image/ColorModel;*!
+
+ipij.process.ImageProcessor2getColorModel()èå
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java’ ’(,
+%10void"9ij.ImageStack#setColorModel(Ljava/awt/image/ColorModel;)V*
+
+stack2ij.ImageStack*!
+
+%9java.awt.image.ColorModel2*setColorModel(Ljava/awt/image/ColorModel;)"u
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java÷ ÷(
+
+stack2ij.ImageStack:
+impij.ImagePlus:
+ipij.process.ImageProcessorB
+ij.plugin.Slicer

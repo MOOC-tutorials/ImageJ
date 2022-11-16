@@ -1,0 +1,502 @@
+
+:ij.io.TiffDecoder#decodeNIHImageHeader(ILij/io/FileInfo;)VY
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÂ Â("50*‚
+47Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÛ Û(§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÛ Û(
+%10ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in¬ø
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÛ Û(
+%11void"!ij.io.RandomAccessStream#seek(I)V*!
+
+%10ij.io.RandomAccessStream*
+""2seek(I)§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÙ Ù(
+%12ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in√¿
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÙ Ù(
+%13short"%ij.io.RandomAccessStream#readShort()S*!
+
+%12ij.io.RandomAccessStream2readShort()*(
+35
+37
+38
+39
+40
+41
+42
+43
+44
+45*â
+50Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÊ Ê(£
+†
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÊ Ê(
+%0ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in“œ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÊ Ê((
+
+%1long".ij.io.RandomAccessStream#getLongFilePointer()J* 
+
+%0ij.io.RandomAccessStream2getLongFilePointer()£
+†
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaË Ë(
+%2ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in¿Ω
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaË Ë(
+
+%3void"!ij.io.RandomAccessStream#seek(I)V* 
+
+%2ij.io.RandomAccessStream*
+""2seek(I)£
+†
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÈ È(
+%4ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in¡æ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÈ È(
+%5short"%ij.io.RandomAccessStream#readShort()S* 
+
+%4ij.io.RandomAccessStream2readShort()£
+†
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÎ Î(
+%6ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in¿Ω
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÎ Î(
+
+%7void"!ij.io.RandomAccessStream#seek(I)V* 
+
+%6ij.io.RandomAccessStream*
+""2seek(I)£
+†
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÏ Ï(
+%8ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+inƒ¡
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÏ Ï( 
+%9double"&ij.io.RandomAccessStream#readDouble()D* 
+
+%8ij.io.RandomAccessStream2readDouble()*
+47*Ó
+10Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaü ü(âÜ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaü ü(
+%33java.lang.String"java.lang.String‘
+—
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaü ü(!
+%34"2java.lang.String#<init>(Ljava/lang/StringBuffer;)V*
+
+%33java.lang.String*
+
+sbjava.lang.StringBuffer§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaü ü(!#
+
+fiij.io.FileInfo"
+	valueUnit"__id*
+
+%33java.lang.String*
+8*˚
+34Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaà à(î
+ë
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaâ â(#
+
+fiij.io.FileInfo"
+	valueUnit"__id*	
+U. OD*
+8*Ω
+12Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaû û(§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaû û(
+%30ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in∑¥
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaû û(
+
+%31int" ij.io.RandomAccessStream#read()I*!
+
+%30ij.io.RandomAccessStream2read()Ì
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaû û(!
+%32java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*
+
+sbjava.lang.StringBuffer*
+
+
+%31int2	append(C)*
+10
+12*ã
+35Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÉ É(§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÉ É(
+%14ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in¬ø
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÉ É(
+%15void"!ij.io.RandomAccessStream#seek(I)V*!
+
+%14ij.io.RandomAccessStream*
+""2seek(I)§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÑ Ñ(
+%16ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in∑¥
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÑ Ñ(
+
+%17int" ij.io.RandomAccessStream#read()I*!
+
+%16ij.io.RandomAccessStream2read()§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÖ Ö(
+%18ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in∑¥
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÖ Ö(
+
+%19int" ij.io.RandomAccessStream#read()I*!
+
+%18ij.io.RandomAccessStream2read()§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÜ Ü(
+%20ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in√¿
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÜ Ü($
+%21short"%ij.io.RandomAccessStream#readShort()S*!
+
+%20ij.io.RandomAccessStream2readShort()*
+16
+18
+8
+34*Ù
+37Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaˇ ˇ("å
+â
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaˇ ˇ(
+
+fiij.io.FileInfo"
+unit"__id*
+mi*
+35*Ù
+38Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java˛ ˛("å
+â
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java˛ ˛(
+
+fiij.io.FileInfo"
+unit"__id*
+ft*
+35*¢
+
+16Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaô ô(§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaô ô(
+%24ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in¬ø
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaô ô(
+%25void"!ij.io.RandomAccessStream#seek(I)V*!
+
+%24ij.io.RandomAccessStream*
+""2seek(I)§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaö ö(
+%26ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in∑¥
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaö ö(
+
+%27int" ij.io.RandomAccessStream#read()I*!
+
+%26ij.io.RandomAccessStream2read()ïí
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaõ õ(%
+%28java.lang.StringBuffer"java.lang.StringBuffer®
+•
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaõ õ('
+%29" java.lang.StringBuffer#<init>()V*
+
+%28java.lang.StringBuffer£
+†
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaõ õ((
+sbjava.lang.StringBuffer"__id*
+
+%28java.lang.StringBuffer*
+9
+10
+12*ˆ
+39Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java˝ ˝($é
+ã
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java˝ ˝(
+
+fiij.io.FileInfo"
+unit"__id*
+inch*
+35*Ÿ
+18Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaó ó(§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaó ó(
+%22ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in∆√
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaó ó((
+%23double"&ij.io.RandomAccessStream#readDouble()D*!
+
+%22ij.io.RandomAccessStream2readDouble()*
+16
+18*w
+0 "p
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java≥ ≥(
+implicit return*œ
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java≤ ≤(§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java≤ ≤(
+%51ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in¬ø
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java≤ ≤(
+%52void"!ij.io.RandomAccessStream#seek(J)V*!
+
+%51ij.io.RandomAccessStream*
+""2seek(J)*
+0*º
+4Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java≠ ≠(§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java≠ ≠(
+%47ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in¬ø
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java≠ ≠(
+%48void"!ij.io.RandomAccessStream#seek(I)V*!
+
+%47ij.io.RandomAccessStream*
+""2seek(I)§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÆ Æ(
+%49ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in√¿
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaÆ Æ($
+%50float"%ij.io.RandomAccessStream#readFloat()F*!
+
+%49ij.io.RandomAccessStream2readFloat()*
+1*™	
+5Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.javaß ß(§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java® ®(
+%41ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in√¿
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java® ®(!
+%42float"%ij.io.RandomAccessStream#readFloat()F*!
+
+%41ij.io.RandomAccessStream2readFloat()§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java© ©(
+%43ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in√¿
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java© ©(
+%44short"%ij.io.RandomAccessStream#readShort()S*!
+
+%43ij.io.RandomAccessStream2readShort()§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java™ ™(
+%45ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in√¿
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java™ ™($
+%46float"%ij.io.RandomAccessStream#readFloat()F*!
+
+%45ij.io.RandomAccessStream2readFloat()*
+4*ﬂ
+6Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java¶2 ¶(4w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java¶? ¶(N
+
+%40int"__id*
+""*
+4
+5*ﬂ
+7Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java¶ ¶(w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java¶" ¶(0
+
+%39int"__id*
+""*
+5
+6*ø
+8Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java§ §(§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java§ §(
+%35ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in¬ø
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java§ §(
+%36void"!ij.io.RandomAccessStream#seek(I)V*!
+
+%35ij.io.RandomAccessStream*
+""2seek(I)§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java• •(
+%37ij.io.RandomAccessStream"__id**
+ij.io.TiffDecoder"
+in√¿
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java• •(
+%38short"%ij.io.RandomAccessStream#readShort()S*!
+
+%37ij.io.RandomAccessStream2readShort()*
+4
+7*ˆ
+9Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java° °(ê
+ç
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java° °(#
+
+fiij.io.FileInfo"
+	valueUnit"__id*
+ *
+8*Ù
+40Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java¸ ¸("å
+â
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java¸ ¸(
+
+fiij.io.FileInfo"
+unit"__id*
+km*
+35*˜
+41Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java˚ ˚($è
+å
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java˚ ˚(
+
+fiij.io.FileInfo"
+unit"__id*	
+meter*
+35*Ù
+42Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java˙ ˙(!å
+â
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java˙ ˙(
+
+fiij.io.FileInfo"
+unit"__id*
+cm*
+35*Ù
+43Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java˘ ˘(!å
+â
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java˘ ˘(
+
+fiij.io.FileInfo"
+unit"__id*
+mm*
+35*¸
+44Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java¯ ¯()î
+ë
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java¯ ¯(!
+
+fiij.io.FileInfo"
+unit"__id*
+
+micrometer*
+35*˚
+45Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java˜ ˜((ì
+ê
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/TiffDecoder.java˜ ˜( 
+
+fiij.io.FileInfo"
+unit"__id*
+	nanometer*
+35:
+"":
+fiij.io.FileInfoB
+ij.io.TiffDecoder

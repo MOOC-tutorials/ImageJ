@@ -1,0 +1,14 @@
+ij.gui.RoiDefaultsDialog#showDialog()V
+ij.gui.Roi#getColor()Ljava/awt/Color;
+ij.gui.Roi#getDefaultStrokeWidth()D
+ij.gui.Roi#getDefaultGroup()I
+ij.plugin.Colors#getColorName(Ljava/awt/Color;Ljava/lang/String;)Ljava/lang/String;
+ij.gui.Roi#setColor(Ljava/awt/Color;)V
+ij.gui.Roi#setDefaultStrokeWidth(D)V
+ij.gui.Roi#getGroupNames()Ljava/lang/String;
+ij.gui.Roi#setGroupNames(Ljava/lang/String;)V
+ij.gui.RoiDefaultsDialog#getGroupName(I)Ljava/lang/String;
+ij.gui.Roi#saveGroupNames()V
+ij.gui.GenericDialog#<init>(Ljava/lang/String;)V
+ij.gui.GenericDialog#instance-init#
+ij.gui.Roi#setDefaultGroup(I)V

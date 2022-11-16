@@ -1,0 +1,7 @@
+ij.plugin.Binner#shrink(Lij/process/ImageProcessor;I)Lij/process/ImageProcessor;
+ij.plugin.Binner#shrinkRGB(Lij/process/ColorProcessor;Lij/process/ColorProcessor;I)Lij/process/ImageProcessor;
+ij.plugin.Binner#getMedian(Lij/process/ImageProcessor;II)F
+ij.plugin.Binner#getAverage(Lij/process/ImageProcessor;II)F
+ij.plugin.Binner#getMin(Lij/process/ImageProcessor;II)F
+ij.plugin.Binner#getMax(Lij/process/ImageProcessor;II)F
+ij.plugin.Binner#getSum(Lij/process/ImageProcessor;II)F

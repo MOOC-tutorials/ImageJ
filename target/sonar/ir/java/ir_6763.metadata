@@ -1,0 +1,17 @@
+ij.plugin.frame.ThresholdPlot#setHistogram(Lij/ImagePlus;ZZ)Lij/process/ImageStatistics;
+java.awt.image.IndexColorModel#getReds([B)V
+java.awt.Color#<init>(III)V
+ij.process.StackStatistics#<init>(Lij/ImagePlus;)V
+ij.process.StackStatistics#instance-init#
+java.lang.Math#max(II)I
+ij.ImagePlus#instance-init#
+ij.IJ#d2s(DI)Ljava/lang/String;
+ij.IJ#showStatus(Ljava/lang/String;)V
+java.awt.Color#instance-init#
+ij.plugin.filter.Analyzer#getPrecision()I
+java.awt.image.IndexColorModel#getMapSize()I
+java.awt.image.IndexColorModel#getBlues([B)V
+java.awt.image.IndexColorModel#getGreens([B)V
+ij.plugin.ChannelSplitter#getChannel(Lij/ImagePlus;I)Lij/ImageStack;
+ij.IJ#log(Ljava/lang/String;)V
+ij.ImagePlus#<init>(Ljava/lang/String;Lij/ImageStack;)V

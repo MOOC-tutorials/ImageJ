@@ -1,0 +1,204 @@
+
+,ij.process.AutoThresholder#RenyiEntropy([I)Ib
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java¤ ¤("35"69"38"18"8"19"51"64"42"56"34*¿
+35b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java–5 –(9©
+¦
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java–5 –(T
+%7double"java.lang.Math#log(D)D*"
+java.lang.Math*
+""‹
+ˆ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java–5 –(T
+%6double"__id*
+
+%7double*
+35
+38
+18
+8
+19
+42
+34*Á
+69b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÑ
+ Ñ(©
+¦
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÑ
+ Ñ(
+%0double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""*+
+35
+69
+38
+18
+8
+19
+51
+64
+42
+56
+34*£
+38b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java“ “(ª
+§
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java“ “(4
+%5double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""*
+35
+38
+34*„
+18b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java°S °(VŒ
+‰
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java°S °(V
+%9double"__id*
+
+%11double*
+18
+8
+19*±
+19b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java°4 °(8ª
+§
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java°4 °(Q
+%10double"java.lang.Math#log(D)D*"
+java.lang.Math*
+""Œ
+‰
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java°4 °(Q
+%9double"__id*
+
+%10double*
+18
+8
+19*Õ
+1b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaæ
+ æ("l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaé é(
+""*–
+4b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÙ Ù(§
+¤
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÙ Ù(&
+
+%14int"java.lang.Math#abs(I)I*"
+java.lang.Math*
+""*
+1*–
+7b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÍ Í(§
+¤
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÍ Í(&
+
+%13int"java.lang.Math#abs(I)I*"
+java.lang.Math*
+""*
+1*™
+8b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÌ Ì(§
+¤
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÌ Ì(%
+
+%12int"java.lang.Math#abs(I)I*"
+java.lang.Math*
+""*
+4
+7*¹
+51b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaõ õ(©
+¦
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaõ- õ(Q
+%3double"java.lang.Math#log(D)D*"
+java.lang.Math*
+""*#
+35
+38
+18
+8
+19
+51
+42
+56
+34*§
+42b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaŽ Ž(ª
+§
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaŽ Ž(5
+%4double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""*
+35
+38
+42
+34*½
+64b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÚ
+ Ú(©
+¦
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaÚ
+ Ú(
+%1double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""*'
+35
+38
+18
+8
+19
+51
+64
+42
+56
+34*“
+34b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java–W –(Z‹
+ˆ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.java–W –(Z
+%6double"__id*
+
+%8double*
+35
+38
+18
+8
+19
+42
+34*¹
+56b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaí í(©
+¦
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/AutoThresholder.javaí/ í(S
+%2double"java.lang.Math#log(D)D*"
+java.lang.Math*
+""*#
+35
+38
+18
+8
+19
+51
+42
+56
+34:
+""B
+ij.process.AutoThresholder

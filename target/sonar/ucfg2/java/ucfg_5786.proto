@@ -1,0 +1,114 @@
+
+Mij.plugin.StackMaker#makeStack(Lij/process/ImageProcessor;III)Lij/ImageStack;Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.java= =("10*×
+2Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaI I(›˜
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaK K()
+%7ij.process.StackProcessor"ij.process.StackProcessor”
+‘
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaK K(3
+%8"Mij.process.StackProcessor#<init>(Lij/ImageStack;Lij/process/ImageProcessor;)V*!
+
+%7ij.process.StackProcessor*
+
+stackij.ImageStack*!
+
+ipij.process.ImageProcessor©
+¦
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaK K(4
+spij.process.StackProcessor"__id*!
+
+%7ij.process.StackProcessorøõ
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaL L(9
+%9ij.ImageStack"3ij.process.StackProcessor#crop(IIII)Lij/ImageStack;*!
+
+spij.process.StackProcessor*
+""*
+""*
+""*
+""2
+crop(IIII)”
+‘
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaL L(9
+stackij.ImageStack"__id*
+
+%9ij.ImageStack*
+1*ñ
+6Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaE E(åâ
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaE E(/
+
+%4void"'ij.process.ImageProcessor#setRoi(IIII)V*!
+
+ipij.process.ImageProcessor*
+""*
+""*
+""*
+""2setRoi(IIII)èå
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaF F("
+%5ij.process.ImageProcessor";ij.process.ImageProcessor#crop()Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor2crop()±®
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaF F(#
+
+%6void"Fij.ImageStack#addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+stackij.ImageStack*
+""*!
+
+%5ij.process.ImageProcessor27addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)*	
+2
+6
+1*º
+10Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.java> >(À½
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.java? ?(	
+%0int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()Â¿
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.java@ @(	
+%1int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()ƒ€
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaB B(#
+%2ij.ImageStack"ij.ImageStack§
+¤
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaB B(2
+%3"ij.ImageStack#<init>(II)V*
+
+%2ij.ImageStack*
+""*
+""”
+‘
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaB B(3
+stackij.ImageStack"__id*
+
+%2ij.ImageStack*	
+2
+6
+1*×
+1Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaN	 N("v
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/StackMaker.javaN N(
+
+stackij.ImageStack:
+ipij.process.ImageProcessor:
+"":
+"":
+""B
+ij.plugin.StackMaker

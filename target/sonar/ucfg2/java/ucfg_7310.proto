@@ -1,0 +1,101 @@
+
+0ij.io.RoiEncoder#saveAsByteArray(Lij/gui/Roi;)[BV
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaA A(%"9"10*‰
+2V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaI I(Å
+
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaI I(
+bytesbyte[]"__id*
+
+%6byte[]*
+1*≤
+4V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaI I(œÃ
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaI I(
+%6byte[]"-java.io.ByteArrayOutputStream#toByteArray()[B*&
+$
+outjava.io.ByteArrayOutputStream2toByteArray()*
+2*£
+5V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaH H(¿Ω
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaH H(
+
+%5void"&java.io.ByteArrayOutputStream#close()V*&
+$
+outjava.io.ByteArrayOutputStream2close()*
+4*’
+6V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaF F(,ò
+ï
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaF F(,
+encoderij.io.RoiEncoder"__id*
+
+%2ij.io.RoiEncoder◊‘
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaG G(
+
+%4void"%ij.io.RoiEncoder#write(Lij/gui/Roi;)V*
+
+encoderij.io.RoiEncoder*
+
+roi
+ij.gui.Roi2write(Lij/gui/Roi;)*
+5*Ò
+7V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaE E(?Æ
+´
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaE E(?$
+outjava.io.ByteArrayOutputStream"__id*%
+#
+%0java.io.ByteArrayOutputStreamÖÇ
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaF F(&
+%2ij.io.RoiEncoder"ij.io.RoiEncoder’
+“
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaF F(+
+%3"0ij.io.RoiEncoder#<init>(Ljava/io/OutputStream;)V*
+
+%2ij.io.RoiEncoder*&
+$
+outjava.io.ByteArrayOutputStream*
+6*æ
+8V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaE9 E(=üú
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaE# E(8#
+%0java.io.ByteArrayOutputStream"java.io.ByteArrayOutputStreamπ
+∂
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaE E(>
+%1"(java.io.ByteArrayOutputStream#<init>(I)V*%
+#
+%0java.io.ByteArrayOutputStream*2Ä *
+7*€
+9V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaC C(y
+w
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaC C(
+bytesbyte[]"__id*
+""*
+8*æ
+10V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaB B("`
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaB B(
+""*»
+1V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaM	 M("k
+V
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiEncoder.javaM M(
+
+bytesbyte[]:
+roi
+ij.gui.RoiB"
+ij.io.RoiEncoder

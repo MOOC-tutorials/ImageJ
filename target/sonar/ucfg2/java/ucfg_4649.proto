@@ -1,0 +1,159 @@
+
+0ij.measure.ResultsTable#selectRow(Lij/gui/Roi;)Z_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java˜ ˜( "16"17*ï
+13_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java (Ü
+Ù
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java (1
+%2java.awt.Frame"=ij.WindowManager#getFrame(Ljava/lang/String;)Ljava/awt/Frame;*"
+ij.WindowManager*	
+Results›
+˜
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java (2
+framejava.awt.Frame"__id*
+
+%2java.awt.Frame*
+9
+10
+12*Ğ
+14_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java
+ ("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java (
+""*£
+15_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaœ œ(±®
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaœ œ(!	
+%1int"java.lang.String#length()I*
+
+namejava.lang.String2length()*
+13
+14*×
+16_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java› ›(ÄÁ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java› ›(
+%0java.lang.String"&ij.gui.Roi#getName()Ljava/lang/String;*
+
+roi
+ij.gui.Roi2	getName()
+›
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java› ›(
+namejava.lang.String"__id*
+
+%0java.lang.String*
+14
+15*Ğ
+17_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaš
+ š("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaš š(
+""*…
+1_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java¬ ¬(ŞÛ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java¬ ¬($
+%8ij.text.TextPanel"4ij.text.TextWindow#getTextPanel()Lij/text/TextPanel;*
+
+framejava.awt.Frame2getTextPanel()ÒÏ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java¬ ¬(?
+
+%9void"#ij.text.TextPanel#setSelection(II)V*
+
+%8ij.text.TextPanel*
+""*
+""2setSelection(II)"i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java­ ­(
+""*Ï
+2_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java«
+ «("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java« «(
+""*¨
+3_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaª ª(¹¶
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.javaª ª(!	
+%7int"ij.measure.ResultsTable#size()I*
+
+rtij.measure.ResultsTable2size()*
+2
+1*Ï
+5_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java¨
+ ¨("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java¨ ¨(
+""*ó
+6_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java¦ ¦(Ñ
+Î
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java¦ ¦($
+%5double".ij.util.Tools#parseDouble(Ljava/lang/String;)D*"
+ij.util.Tools*
+
+namejava.lang.String­
+ª
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java§ §(
+%6boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+""*	
+2
+3
+5*Ï
+7_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java¥
+ ¥("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java¥ ¥(
+""*×
+8_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java¤ ¤(è
+å
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java¤ ¤(0
+%4ij.measure.ResultsTable"Dij.plugin.filter.Analyzer#getResultsTable()Lij/measure/ResultsTable;*"
+ij.plugin.filter.Analyzer*
+6
+7*Œ
+9_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java£! £(&ğí
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java£ £(9
+%3ij.measure.ResultsTable"=ij.text.TextWindow#getResultsTable()Lij/measure/ResultsTable;*
+
+framejava.awt.Frame2getResultsTable()ª
+§
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java£ £(:
+rtij.measure.ResultsTable"__id*
+
+%3ij.measure.ResultsTable*
+7
+8*Ğ
+10_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java¢
+ ¢("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java¢ ¢(
+""*Ğ
+12_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java 
+  ("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/ResultsTable.java   (
+"":
+roi
+ij.gui.RoiB"
+ij.measure.ResultsTable

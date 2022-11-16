@@ -1,0 +1,13 @@
+ij.macro.Functions#saveSettings()V
+ij.io.FileSaver#getJpegQuality()I
+ij.gui.Toolbar#getForegroundColor()Ljava/awt/Color;
+ij.gui.Roi#getColor()Ljava/awt/Color;
+ij.gui.Line#getWidth()I
+ij.plugin.filter.Analyzer#getPrecision()I
+ij.gui.Roi#getCurrentPasteMode()I
+ij.gui.PlotWindow#getDefaultFontSize()I
+ij.gui.Toolbar#getBackgroundColor()Ljava/awt/Color;
+ij.process.ColorProcessor#getWeightingFactors()[D
+ij.plugin.filter.Analyzer#getMeasurements()I
+ij.process.ImageConverter#getDoScaling()Z
+ij.macro.Interpreter#getParens()V

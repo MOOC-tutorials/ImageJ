@@ -1,0 +1,463 @@
+
+Pij.plugin.ImageCalculator#calculate(Lij/ImagePlus;Lij/ImagePlus;Z)Lij/ImagePlus;a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaê ê("40*»
+24a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaù$ ù((‘—
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaù$ ù(4
+%10ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+img1ij.ImagePlus2getWindow()*
+22
+23*÷
+27a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaú ú(«ƒ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaú ú("
+%9ij.ImagePlus"Qij.plugin.ImageCalculator#doOperation(Lij/ImagePlus;Lij/ImagePlus;)Lij/ImagePlus;*
+ij.plugin.ImageCalculator*
+
+img1ij.ImagePlus*
+
+img2ij.ImagePlus2)doOperation(Lij/ImagePlus;Lij/ImagePlus;)ò
+ï
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaú ú("
+img3ij.ImagePlus"__id*
+
+%9ij.ImagePlus*
+24
+22*‡
+28a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaö ö(—Œ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaö ö('
+%8ij.ImagePlus"Vij.plugin.ImageCalculator#doStackOperation(Lij/ImagePlus;Lij/ImagePlus;)Lij/ImagePlus;*
+ij.plugin.ImageCalculator*
+
+img1ij.ImagePlus*
+
+img2ij.ImagePlus2.doStackOperation(Lij/ImagePlus;Lij/ImagePlus;)ò
+ï
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaö ö('
+img3ij.ImagePlus"__id*
+
+%8ij.ImagePlus*
+24
+22*Ì
+32a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javañ ñ(∑¥
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javañ ñ(!	
+%6int"ij.ImagePlus#getStackSize()I*
+
+img1ij.ImagePlus2getStackSize()∑¥
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaó ó(!	
+%7int"ij.ImagePlus#getStackSize()I*
+
+img2ij.ImagePlus2getStackSize()*
+13
+27
+28
+20*—
+10a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java≤ ≤(µ
+≤
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java≤ ≤()
+%22java.lang.String"__concat*
+
+optionsjava.lang.String*	
+ create§
+°
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java≤ ≤()
+optionsjava.lang.String"__id*
+
+%22java.lang.String*	
+5
+6
+8*à
+11a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java± ±(µ
+≤
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java± ±(
+%20java.lang.String[]"__id*,**
+ij.plugin.ImageCalculator"
+	operators∞
+≠
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java± ±('
+%21java.lang.String"
+__arrayGet*
+
+%20java.lang.String[]*
+""§
+°
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java± ±((
+optionsjava.lang.String"__id*
+
+%21java.lang.String*
+5
+6
+8
+10*•
+35a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaî/ î(3µ≤
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaî/ î(A	
+%5int"ij.ImagePlus#getBitDepth()I*
+
+img2ij.ImagePlus2getBitDepth()*
+32*◊
+13a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaØ
+ Ø(»≈
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaØ
+ Ø(!
+%19ij.ImagePlus"Qij.plugin.ImageCalculator#doOperation(Lij/ImagePlus;Lij/ImagePlus;)Lij/ImagePlus;*
+ij.plugin.ImageCalculator*
+
+img1ij.ImagePlus*
+
+img2ij.ImagePlus2)doOperation(Lij/ImagePlus;Lij/ImagePlus;)ô
+ñ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaØ Ø(!
+img3ij.ImagePlus"__id*
+
+%19ij.ImagePlus*
+11
+1*©
+36a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaî î(µ≤
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaî î()	
+%4int"ij.ImagePlus#getBitDepth()I*
+
+img1ij.ImagePlus2getBitDepth()*
+35
+32*◊
+14a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java≠ ≠(»≈
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java≠ ≠("
+%18ij.ImagePlus"Qij.plugin.ImageCalculator#doOperation(Lij/ImagePlus;Lij/ImagePlus;)Lij/ImagePlus;*
+ij.plugin.ImageCalculator*
+
+img1ij.ImagePlus*
+
+img2ij.ImagePlus2)doOperation(Lij/ImagePlus;Lij/ImagePlus;)ô
+ñ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java≠ ≠("
+img3ij.ImagePlus"__id*
+
+%18ij.ImagePlus*
+11
+1*·
+15a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java™ ™(“œ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java™ ™('
+%17ij.ImagePlus"Vij.plugin.ImageCalculator#doStackOperation(Lij/ImagePlus;Lij/ImagePlus;)Lij/ImagePlus;*
+ij.plugin.ImageCalculator*
+
+img1ij.ImagePlus*
+
+img2ij.ImagePlus2.doStackOperation(Lij/ImagePlus;Lij/ImagePlus;)ô
+ñ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java™ ™('
+img3ij.ImagePlus"__id*
+
+%17ij.ImagePlus*
+11
+1*´
+39a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaí/ í(3Â‚
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaí/ í(D
+%2ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+img2ij.ImagePlus2getCalibration()œÃ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaí/ í(T
+%3boolean"'ij.measure.Calibration#isSigned16Bit()Z*
+
+%2ij.measure.Calibration2isSigned16Bit()*
+36
+32*Ú
+17a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java® ®(»≈
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java® ®(
+%15ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+img1ij.ImagePlus2
+getStack()∑¥
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java® ®(#
+%16boolean"ij.ImageStack#isVirtual()Z*
+
+%15ij.ImageStack2isVirtual()*
+15*Ú
+18a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java¶ ¶(
+}
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java¶ ¶(2
+
+%14int"__id*
+""*
+14
+17*‘
+19a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java• •("k
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java• •(
+""*„
+1a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaæ	 æ("{
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaæ æ(
+
+img3ij.ImagePlus*¡
+2a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaº º(”
+–
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaº º(
+%41void"8ij.plugin.frame.Recorder#setCommand(Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+""*
+1*˜
+3a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaª ª(ŒÀ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaª0 ª(?
+%38java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+img1ij.ImagePlus2
+getTitle()ŒÀ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaªA ª(P
+%39java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+img2ij.ImagePlus2
+getTitle()Á
+‰
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaª ª(Q
+%40void"jij.plugin.frame.Recorder#record(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+imageCalculator*
+
+optionsjava.lang.String*
+
+%38java.lang.String*
+
+%39java.lang.String*
+2*í
+4a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java∂ ∂(ŒÀ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java∂H ∂(W
+%26java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+img1ij.ImagePlus2
+getTitle() 
+«
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java∂% ∂(W
+%27java.lang.String"__concat*$"
+ imp1 = WindowManager.getImage(\"*
+
+%26java.lang.StringÆ
+´
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java∂% ∂(^
+%28java.lang.String"__concat*
+
+%27java.lang.String*
+\");á
+Ñ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java∂ ∂(_
+%29void"Jij.plugin.frame.Recorder#recordCall(Ljava/lang/String;Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+	ImagePlus*
+
+%28java.lang.StringŒÀ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java∑H ∑(W
+%30java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+img2ij.ImagePlus2
+getTitle() 
+«
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java∑% ∑(W
+%31java.lang.String"__concat*$"
+ imp2 = WindowManager.getImage(\"*
+
+%30java.lang.StringÆ
+´
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java∑% ∑(^
+%32java.lang.String"__concat*
+
+%31java.lang.String*
+\");á
+Ñ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java∑ ∑(_
+%33void"Jij.plugin.frame.Recorder#recordCall(Ljava/lang/String;Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+	ImagePlus*
+
+%32java.lang.String◊
+‘
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java∏% ∏(X
+%34java.lang.String"__concat*-+
+)imp3 = ImageCalculator.run(imp1, imp2, \"*
+
+optionsjava.lang.StringÆ
+´
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java∏% ∏(_
+%35java.lang.String"__concat*
+
+%34java.lang.String*
+\");á
+Ñ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java∏ ∏(`
+%36void"Jij.plugin.frame.Recorder#recordCall(Ljava/lang/String;Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+	ImagePlus*
+
+%35java.lang.String›
+⁄
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaπ π('
+%37void"8ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+imp3.show();*
+2*≠
+5a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaµ µ(º
+π
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaµ µ(
+%25boolean"&ij.plugin.frame.Recorder#scriptMode()Z*"
+ij.plugin.frame.Recorder*
+3
+4*…
+6a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java¥ ¥(¥
+±
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java¥ ¥(#
+%24java.lang.String"__concat*
+
+optionsjava.lang.String*
+
+ stack§
+°
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java¥ ¥(#
+optionsjava.lang.String"__id*
+
+%24java.lang.String*
+5*Õ
+8a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java≥ ≥(µ
+≤
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java≥ ≥((
+%23java.lang.String"__concat*
+
+optionsjava.lang.String*	
+ 32-bit§
+°
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java≥ ≥((
+optionsjava.lang.String"__id*
+
+%23java.lang.String*
+5
+6*º
+40a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaë ë(ä
+á
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaë ë(
+img3ij.ImagePlus"__id*
+""Â‚
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaí í(
+%0ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+img1ij.ImagePlus2getCalibration()œÃ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaí í(+
+%1boolean"'ij.measure.Calibration#isSigned16Bit()Z*
+
+%0ij.measure.Calibration2isSigned16Bit()*
+36
+39
+32*æ
+20a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java£ £(
+}
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java£% £(<
+
+%11int"__id*
+""»
+≈
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java£ £(=
+
+%12int"#ij.IJ#setupDialog(Lij/ImagePlus;I)I*	"
+ij.IJ*
+
+img1ij.ImagePlus*
+
+
+%11int
+}
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.java§ §( 
+
+%13int"__id*
+""*
+18
+19*‰
+22a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaü
+ ü("{
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaü ü(
+
+img3ij.ImagePlus*ä
+23a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaû û(ö
+ó
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageCalculator.javaû û(
+img3ij.ImagePlus"__id*
+
+img1ij.ImagePlus*
+22:
+img1ij.ImagePlus:
+img2ij.ImagePlus:
+""B
+ij.plugin.ImageCalculator

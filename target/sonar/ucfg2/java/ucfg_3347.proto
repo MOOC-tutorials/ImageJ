@@ -1,0 +1,151 @@
+
+=ij.macro.Functions#overlayDrawRectOrEllipse(Lij/ImagePlus;Z)DZ
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÁ6 Á6( "4*ú
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÒ6! Ò6("®•
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÒ6 Ò6( &
+%11java.awt.geom.Rectangle2D$Float"java.awt.geom.Rectangle2D$Floatﬂ
+‹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÒ6 Ò6(,
+%12"-java.awt.geom.Rectangle2D$Float#<init>(FFFF)V*(
+&
+%11java.awt.geom.Rectangle2D$Float*
+""*
+""*
+""*
+""®
+•
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÒ6 Ò6(,
+shapejava.awt.Shape"__id*(
+&
+%11java.awt.geom.Rectangle2D$Float*
+1*è
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÔ6 Ô6( £†
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÔ6 Ô6(#
+%9java.awt.geom.Ellipse2D$Float"java.awt.geom.Ellipse2D$Float⁄
+◊
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÔ6 Ô6(*
+%10"+java.awt.geom.Ellipse2D$Float#<init>(FFFF)V*%
+#
+%9java.awt.geom.Ellipse2D$Float*
+""*
+""*
+""*
+""•
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÔ6 Ô6(*
+shapejava.awt.Shape"__id*%
+#
+%9java.awt.geom.Ellipse2D$Float*
+1*˝
+4Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaË6 Ë6(¯ı
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaË6 Ë6(
+
+%0void"7ij.macro.Functions#addDrawingToOverlay(Lij/ImagePlus;)V*
+ij.macro.Functions*
+
+impij.ImagePlus2#addDrawingToOverlay(Lij/ImagePlus;)∑¥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÈ6 È6(+
+%1double"!ij.macro.Functions#getFirstArg()D*
+ij.macro.Functions2getFirstArg()©
+¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÈ6 È6(,
+
+%2long"java.lang.Math#round(D)J*"
+java.lang.Math*
+
+%1doubleµ≤
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÍ6 Í6(*
+%3double" ij.macro.Functions#getNextArg()D*
+ij.macro.Functions2getNextArg()©
+¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÍ6 Í6(+
+
+%4long"java.lang.Math#round(D)J*"
+java.lang.Math*
+
+%3doubleµ≤
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÎ6 Î6(*
+%5double" ij.macro.Functions#getNextArg()D*
+ij.macro.Functions2getNextArg()©
+¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÎ6 Î6(+
+
+%6long"java.lang.Math#round(D)J*"
+java.lang.Math*
+
+%5doubleµ≤
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÏ6 Ï6(*
+%7double" ij.macro.Functions#getLastArg()D*
+ij.macro.Functions2getLastArg()©
+¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÏ6 Ï6(+
+
+%8long"java.lang.Math#round(D)J*"
+java.lang.Math*
+
+%7doubleÜ
+É
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÌ6 Ì6(
+shapejava.awt.Shape"__id*
+""*
+2
+3*∫
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÚ6 Ú6(àÖ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÚ6 Ú6(
+%13ij.gui.ShapeRoi"ij.gui.ShapeRoi∆
+√
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÚ6 Ú6(
+%14")ij.gui.ShapeRoi#<init>(Ljava/awt/Shape;)V*
+
+%13ij.gui.ShapeRoi*
+
+shapejava.awt.Shapeí
+è
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÚ6 Ú6( 
+roi
+ij.gui.Roi"__id*
+
+%13ij.gui.ShapeRoiåâ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÛ6 Û6(
+%15void"6ij.macro.Functions#addRoi(Lij/ImagePlus;Lij/gui/Roi;)V*
+ij.macro.Functions*
+
+impij.ImagePlus*
+
+roi
+ij.gui.Roi2"addRoi(Lij/ImagePlus;Lij/gui/Roi;){
+y
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÙ6	 Ù6(
+%16double"__id*
+"""d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÙ6 Ù6(
+"":
+impij.ImagePlus:
+""B
+ij.macro.Functions

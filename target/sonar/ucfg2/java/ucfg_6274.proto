@@ -1,0 +1,197 @@
+
+7ij.plugin.filter.AVI_Writer#showDialog(Lij/ImagePlus;)Za
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javas s("12*î
+3c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javaÉ É(‘—
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javaÉ É(2
+
+%18int"*ij.gui.GenericDialog#getNextChoiceIndex()I*
+
+gdij.gui.GenericDialog2getNextChoiceIndex()Õ 
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javaÑ Ñ( 
+%19double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()*
+1*◊
+4c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javaÇ Ç("m
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javaÇ Ç(
+""*º
+5a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java| |(,òï
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java} }(,
+%9ij.gui.GenericDialog"ij.gui.GenericDialog—
+Œ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java} }(>
+%10"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%9ij.gui.GenericDialog*
+Save as AVI...¶
+£
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java} }(?
+gdij.gui.GenericDialog"__id*
+
+%9ij.gui.GenericDialogè
+å
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java~% ~(8
+%11java.lang.String[]"__id*
+""è
+å
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java~: ~(M
+%12java.lang.String[]"__id*
+""∞
+≠
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java~: ~(_
+%13java.lang.String"
+__arrayGet*
+
+%12java.lang.String[]*
+""˘ˆ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java~ ~(`
+%14void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Compression:*
+
+%11java.lang.String[]*
+
+%13java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)À»
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java (A
+%15void"Nij.gui.GenericDialog#addNumericField(Ljava/lang/String;DIILjava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Frame Rate:*
+""*
+""*2*
+fps28addNumericField(Ljava/lang/String;DIILjava/lang/String;)≈¬
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javaÄ Ä(
+%16void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog() «
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javaÅ Å(
+%17boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+3
+4*Ú
+6a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java|* |(+Ñ
+Å
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java|* |(+	
+%6int"__id*
+	
+%8int*
+5*Ú
+7a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java|( |()Ñ
+Å
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java|( |()	
+%6int"__id*
+	
+%7int*
+5*ÿ
+8a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java{ {(Á
+‰
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.java{ {("
+%5double"9ij.plugin.filter.AVI_Writer#getFrameRate(Lij/ImagePlus;)D*
+ij.plugin.filter.AVI_Writer*
+
+impij.ImagePlus*
+6
+7* 
+9a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javax x(ÍÁ
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javax x(O
+%3java.lang.String"\java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;*
+
+optionsjava.lang.String*
+compression=Uncompressed*
+compression=None29replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)£
+†
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javax x(O
+optionsjava.lang.String"__id*
+
+%3java.lang.String…
+∆
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javay y(
+
+%4void"(ij.Macro#setOptions(Ljava/lang/String;)V*"
+
+ij.Macro*
+
+optionsjava.lang.String*
+8*”
+10a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javaw w($æ
+ª
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javaw w(,
+%2java.lang.String"__concat*
+compression=JPEG *
+
+optionsjava.lang.String£
+†
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javaw w(,
+optionsjava.lang.String"__id*
+
+%2java.lang.String*
+9*Û
+11a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javav v(Ä˝
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javav v(+
+%1boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+optionsjava.lang.String*
+compression=2"contains(Ljava/lang/CharSequence;)*
+9
+10*Œ
+12a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javat t(µ
+≤
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javat t((
+%0java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macro£
+†
+a
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javat t()
+optionsjava.lang.String"__id*
+
+%0java.lang.String*
+8
+11*¡
+1c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javaÜ Ü(Á‰
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javaÜ Ü(
+%20ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()"m
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/AVI_Writer.javaá á(
+"":
+impij.ImagePlusB
+ij.plugin.filter.AVI_Writer

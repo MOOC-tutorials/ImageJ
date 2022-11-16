@@ -1,0 +1,106 @@
+
+Cij.Menus#getStrippedPlugins([Ljava/lang/String;)[Ljava/lang/String;P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÑ
+ Ñ("6*Ù
+3P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaØ Ø(¢
+Ÿ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaØ Ø(
+%5java.lang.String"
+__arrayGet*
+
+pluginsjava.lang.String[]*
+""£
+ 
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaØ2 Ø(=
+%6java.lang.String"
+__arrayGet* 
+
+plugins2java.lang.String[]*
+"" 
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaØ2 Ø(F	
+%7int"java.lang.String#length()I*
+
+%6java.lang.String2length()İÚ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaØ Ø(G
+%8java.lang.String"0java.lang.String#substring(II)Ljava/lang/String;*
+
+%5java.lang.String*
+""*
+	
+%7int2substring(II)«
+¨
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaØ Ø(G
+%9"
+__arraySet* 
+
+plugins2java.lang.String[]*
+""*
+
+%8java.lang.String*
+4
+1*
+4P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÕ Õ(¢
+Ÿ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÕ Õ(
+%1java.lang.String"
+__arrayGet*
+
+pluginsjava.lang.String[]*
+""«
+¨
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÕ Õ(
+%2"
+__arraySet* 
+
+plugins2java.lang.String[]*
+""*
+
+%1java.lang.String£
+ 
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÖ Ö(
+%3java.lang.String"
+__arrayGet* 
+
+plugins2java.lang.String[]*
+""³°
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÖ Ö(*	
+%4int" java.lang.String#lastIndexOf(I)I*
+
+%3java.lang.String*
+/2lastIndexOf(I)*	
+3
+4
+1*ı
+6P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÒ! Ò((ƒ€
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÒ Ò(0
+%0java.lang.String[]"java.lang.String[]—
+”
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÒ Ò(1
+plugins2java.lang.String[]"__id*
+
+%0java.lang.String[]*
+4
+1*Ë
+1P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÚ	 Ú("t
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaÚ Ú( 
+
+plugins2java.lang.String[]:
+pluginsjava.lang.String[]B
+
+ij.Menus

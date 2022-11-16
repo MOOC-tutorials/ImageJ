@@ -1,0 +1,119 @@
+
+Kij.plugin.ZProjector#doAverageFloatProjection(Lij/ImagePlus;)Lij/ImagePlus;\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaè è(+"13*ı
+13\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaê ê(¡æ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaê ê(#
+%0ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+impij.ImagePlus2
+getStack()ñ
+ì
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaê ê($
+stackij.ImageStack"__id*
+
+%0ij.ImageStack≠™
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaë
+ ë(	
+%1int"ij.ImageStack#getWidth()I*
+
+stackij.ImageStack2
+getWidth()Ø¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaí
+ í(	
+%2int"ij.ImageStack#getHeight()I*
+
+stackij.ImageStack2getHeight()´®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaì
+ ì(	
+%3int"ij.ImageStack#getSize()I*
+
+stackij.ImageStack2	getSize()‘—
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaî( î(3
+%4java.lang.String"2ij.plugin.ZProjector#makeTitle()Ljava/lang/String;*
+ij.plugin.ZProjector2makeTitle()å
+â
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaî î(M
+%5ij.ImagePlus"Hij.IJ#createImage(Ljava/lang/String;Ljava/lang/String;III)Lij/ImagePlus;*	"
+ij.IJ*
+
+%4java.lang.String*
+32-bit Black*
+""*
+""*2ô
+ñ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaî î(N
+
+projectionij.ImagePlus"__id*
+
+%5ij.ImagePlusËÂ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaï ï(/
+%6ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+
+projectionij.ImagePlus2getProcessor()´
+®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaï ï(0
+ipij.process.ImageProcessor"__id*!
+
+%6ij.process.ImageProcessor*	
+4
+7
+1*»
+4\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java° °(Ÿ÷
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java° °(%
+
+%9void"$ij.process.ImageProcessor#setf(IIF)V*!
+
+ipij.process.ImageProcessor*
+""*
+""*
+""2	setf(IIF)*	
+4
+7
+1*Á
+7\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaõ õ(ŒÀ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaõ õ(+
+%7double"ij.ImageStack#getVoxel(III)D*
+
+stackij.ImageStack*
+""*
+""*
+""2getVoxel(III)™
+ß
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.javaú
+ ú(
+%8boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+""*
+4
+7*≤
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java§ §(–Õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java§ §(
+%10void"+ij.process.ImageProcessor#resetMinAndMax()V*!
+
+ipij.process.ImageProcessor2resetMinAndMax()"|
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZProjector.java• •(
+
+
+projectionij.ImagePlus:
+impij.ImagePlusB
+ij.plugin.ZProjector

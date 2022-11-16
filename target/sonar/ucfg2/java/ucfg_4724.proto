@@ -1,0 +1,751 @@
+
+Cij.gui.ImageCanvas#handleRoiMouseDown(Ljava/awt/event/MouseEvent;)VZ
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaÛ
+ Û
+(""60*ø
+46Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaê
+ ê
+(ŞÛ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaê
+ ê
+(/
+%16ij.process.FloatPolygon"5ij.gui.Roi#getFloatPolygon()Lij/process/FloatPolygon;*
+
+roi
+ij.gui.Roi2getFloatPolygon()ª
+§
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaê
+ ê
+(0!
+pointsij.process.FloatPolygon"__id* 
+
+%16ij.process.FloatPolygon*
+42
+45*“
+24Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java (	¬©
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java (
+
+%43int"ij.gui.Roi#getPasteMode()I*
+
+roi
+ij.gui.Roi2getPasteMode()x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java ()
+
+%44int"__id*
+""*
+21
+22*ù
+47Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaé
+ é
+(Œ
+‰
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaé
+ é
+('
+%15boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+46
+42*µ
+25Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java9 (:›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaC (F
+%41ij.ImagePlus"__id**
+ij.gui.ImageCanvas"
+impª§
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaC (R
+
+%42int"ij.ImagePlus#getHeight()I*
+
+%41ij.ImagePlus2getHeight()*
+24
+21*«
+48Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaç
+ ç
+(·´
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaç
+ ç
+(#
+%12double"ij.gui.Roi#offScreenXD(I)D*
+
+roi
+ij.gui.Roi*
+""2offScreenXD(I)·´
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaè
+ è
+(#
+%13double"ij.gui.Roi#offScreenYD(I)D*
+
+roi
+ij.gui.Roi*
+""2offScreenYD(I)ÊÇ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaé
+ é
+(
+%14boolean"(java.awt.event.InputEvent#isShiftDown()Z* 
+
+ejava.awt.event.MouseEvent2isShiftDown()*
+47
+42*³
+26Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java (›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java' (*
+%39ij.ImagePlus"__id**
+ij.gui.ImageCanvas"
+imp¨¥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java' (5
+
+%40int"ij.ImagePlus#getWidth()I*
+
+%39ij.ImagePlus2
+getWidth()*
+25
+21*ò
+27Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java (ÈÅ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java ( 
+%36java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roi
+ij.gui.Roi2getBounds()›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java (!
+rjava.awt.Rectangle"__id*
+
+%36java.awt.Rectangle¢Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java (
+
+%37int"ij.gui.Roi#getType()I*
+
+roi
+ij.gui.Roi2	getType()x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java (
+
+%38int"__id*
+""*
+26
+21*
+28Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaŠ Š(ÕÒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaŠ Š()
+%35void""ij.gui.Roi#mouseDownInHandle(III)V*
+
+roi
+ij.gui.Roi*
+""*
+""*
+""2mouseDownInHandle(III)"d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java‹ ‹(
+""*™
+50Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaå
+ å
+($¨
+¥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaå
+ å
+(8
+%11boolean"#ij.gui.Toolbar#getMultiPointMode()Z*"
+ij.gui.Toolbar*
+48
+39
+30*ì
+52Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaå
+ å
+(
+x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaå
+ å
+(
+
+%10int"__id*
+""*
+48
+39
+50
+30*»
+30Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java‡ ‡(ËÈ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java‡ ‡( 
+%34void"Lij.gui.ImageCanvas#setRoiModState(Ljava/awt/event/MouseEvent;Lij/gui/Roi;I)V*
+ij.gui.ImageCanvas* 
+
+ejava.awt.event.MouseEvent*
+
+roi
+ij.gui.Roi*
+""28setRoiModState(Ljava/awt/event/MouseEvent;Lij/gui/Roi;I)*
+27
+28
+1*½
+31Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaı
+ ı
+(tä
+á
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaı
+ ı
+(u
+msgjava.lang.String"__id*db
+`Type shift-a (Edit>Selection>Select None) to delete\npoints. Use multi-point tool to add points.’
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaş
+ ş
+(&
+%27ij.gui.GenericDialog"ij.gui.GenericDialogÌ
+É
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaş
+ ş
+(9
+%28"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%27ij.gui.GenericDialog*
+Point Selection 
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaş
+ ş
+(:
+gdij.gui.GenericDialog"__id*
+
+%27ij.gui.GenericDialogûø
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaÿ
+ ÿ
+(
+%29void"4ij.gui.GenericDialog#addMessage(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+msgjava.lang.String2addMessage(Ljava/lang/String;)†
+ƒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java€ €($
+%30java.lang.String"__id*
+""õò
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java€ €(%
+%31void"1ij.gui.GenericDialog#addHelp(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%30java.lang.String2addHelp(Ljava/lang/String;)ÈÅ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java (
+%32void"(ij.gui.GenericDialog#hideCancelButton()V*
+
+gdij.gui.GenericDialog2hideCancelButton()¼¹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java‚ ‚(
+%33void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()"d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaƒ ƒ(
+""*â
+10Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java. (2x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java4 (@
+
+%58int"__id*
+""*
+8
+9*ã
+11Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java (x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java (*
+
+%57int"__id*
+""*
+8
+10*ş
+33Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaü
+m ü
+(o‘
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaü
+m ü
+(~
+%26boolean"ij.IJ#shiftKeyDown()Z*	"
+ij.IJ*
+30
+31*™
+35Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaü
+P ü
+(W¨
+¥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaü
+P ü
+(k
+%25boolean"#ij.gui.Toolbar#getMultiPointMode()Z*"
+ij.gui.Toolbar*
+30
+31
+33*æ
+13Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaN (Rx
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaT (a
+
+%56int"__id*
+""*
+
+5
+11
+1*ì
+36Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaü
+8 ü
+(<x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaü
+> ü
+(K
+
+%24int"__id*
+""*
+35
+30
+31
+33*ô
+58Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaã
+/ ã
+(0|
+z
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaã
+. ã
+(0	
+%7int"__id*
+	
+%9int*
+48
+39
+50
+52
+30*ü
+37Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaü
+# ü
+(%
+Œ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaü
+# ü
+(2
+%23boolean"ij.IJ#altKeyDown()Z*	"
+ij.IJ*
+36
+30*®
+59Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaã
+ ã
+(·´
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaã
+ ã
+(-	
+%8int"ij.gui.Roi#isHandle(II)I*
+
+roi
+ij.gui.Roi*
+""*
+""2isHandle(II)|
+z
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaã
+ ã
+(-	
+%7int"__id*
+	
+%8int*
+48
+39
+50
+52
+30*ê
+15Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java4 (8x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java: (J
+
+%55int"__id*
+""*
+13
+5
+11
+1*î
+16Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java (x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java! (0
+
+%54int"__id*
+""*
+13
+15
+5
+11
+1*¦
+39Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaû
+ û
+(!¹¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaû
+ û
+(4
+
+%22int"$ij.gui.PolygonRoi#getNCoordinates()I*
+
+roi
+ij.gui.Roi2getNCoordinates()*
+37
+30*Æ
+17Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java› ›("d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java› ›(
+""*˜
+18Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java˜ ˜(›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java˜ ˜(
+%50ij.ImagePlus"__id**
+ij.gui.ImageCanvas"
+imp«¨
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java˜ ˜(
+%51void"ij.ImagePlus#deleteRoi()V*
+
+%50ij.ImagePlus2deleteRoi()›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java™ ™(
+%52ij.ImagePlus"__id**
+ij.gui.ImageCanvas"
+impÅÂ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java™ ™(
+%53void"ij.ImagePlus#createNewRoi(II)V*
+
+%52ij.ImagePlus*
+""*
+""2createNewRoi(II)*
+17*°
+19Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java– –(ÇÄ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java– –( 
+%49void"ij.gui.Roi#handleMouseDown(II)V*
+
+roi
+ij.gui.Roi*
+""*
+""2handleMouseDown(II)*
+17*x
+0 "q
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java§ §(
+implicit return*Ê
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java¦ ¦(›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java¦ ¦(
+%66ij.ImagePlus"__id**
+ij.gui.ImageCanvas"
+impÅÂ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java¦ ¦(
+%67void"ij.ImagePlus#createNewRoi(II)V*
+
+%66ij.ImagePlus*
+""*
+""2createNewRoi(II)*
+0*‘
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java¢ ¢(›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java¢ ¢(
+%64ij.ImagePlus"__id**
+ij.gui.ImageCanvas"
+imp«¨
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java¢ ¢(
+%65void"ij.ImagePlus#deleteRoi()V*
+
+%64ij.ImagePlus2deleteRoi()"d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java£ £(
+""*ù
+4Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java¡, ¡(.
+Œ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java¡, ¡(;
+%63boolean"ij.IJ#altKeyDown()Z*	"
+ij.IJ*
+2
+1*ş
+5Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java¡ ¡(‘
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java¡ ¡(*
+%62boolean"ij.IJ#shiftKeyDown()Z*	"
+ij.IJ*	
+2
+4
+1*Å
+7Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java   ("d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java   (
+""*‹
+8Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaŸ Ÿ(	¤¡
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaŸ Ÿ(
+
+%60int"ij.gui.Roi#getState()I*
+
+roi
+ij.gui.Roi2
+getState()x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaŸ Ÿ(&
+
+%61int"__id*
+""*	
+5
+7
+1*ä
+9Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaD (Hx
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaJ (S
+
+%59int"__id*
+""*	
+5
+8
+1*İ
+60Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaÜ
+ Ü
+(·´
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaÜ
+ Ü
+(	
+%0int"!java.awt.event.MouseEvent#getX()I* 
+
+ejava.awt.event.MouseEvent2getX()·´
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaİ
+ İ
+(	
+%1int"!java.awt.event.MouseEvent#getY()I* 
+
+ejava.awt.event.MouseEvent2getY()¼¹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaŞ
+ Ş
+(	
+%2int"!ij.gui.ImageCanvas#offScreenX(I)I*
+ij.gui.ImageCanvas*
+""2offScreenX(I)¼¹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaß
+ ß
+(	
+%3int"!ij.gui.ImageCanvas#offScreenY(I)I*
+ij.gui.ImageCanvas*
+""2offScreenY(I)š
+—
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaà
+ à
+(
+%4ij.ImagePlus"__id**
+ij.gui.ImageCanvas"
+imp´±
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaà
+ à
+(
+%5
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+%4ij.ImagePlus2getRoi()Œ
+‰
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaà
+ à
+(
+roi
+ij.gui.Roi"__id*
+
+%5
+ij.gui.Roi›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaá
+ á
+( 	
+%6int"ij.gui.Toolbar#getToolId()I*"
+ij.gui.Toolbar*
+58
+59*Ó
+42Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaõ
+ õ
+(›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaõ
+  õ
+(#
+%18ij.ImagePlus"__id**
+ij.gui.ImageCanvas"
+impùö
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaõ
+ õ
+(.
+%19void"/ij.gui.PointRoi#addUserPoint(Lij/ImagePlus;DD)V*
+
+roi
+ij.gui.Roi*
+
+%18ij.ImagePlus*
+""*
+""2addUserPoint(Lij/ImagePlus;DD)›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaö
+ ö
+(
+%20ij.ImagePlus"__id**
+ij.gui.ImageCanvas"
+impÒÏ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaö
+ ö
+(
+%21void""ij.ImagePlus#setRoi(Lij/gui/Roi;)V*
+
+%20ij.ImagePlus*
+
+roi
+ij.gui.Roi2setRoi(Lij/gui/Roi;)"d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java÷
+ ÷
+(
+
+""*ä
+20Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java• •(x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java• •(!
+
+%48int"__id*
+""*
+18
+19*©
+21Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java” ”(
+¼¹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java” ”(
+%47boolean"ij.gui.Roi#contains(II)Z*
+
+roi
+ij.gui.Roi*
+""*
+""2contains(II)*
+16
+20*’
+22Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java‘ ‘(›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java‘ ‘(
+%45ij.ImagePlus"__id**
+ij.gui.ImageCanvas"
+imp«¨
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java‘ ‘(
+%46void"ij.ImagePlus#deleteRoi()V*
+
+%45ij.ImagePlus2deleteRoi()"d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.java’ ’(
+""*‹
+45Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaì
+ ì
+(¢
+Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ImageCanvas.javaî
+ î
+(/
+%17double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""*
+42:
+ejava.awt.event.MouseEventB
+ij.gui.ImageCanvas

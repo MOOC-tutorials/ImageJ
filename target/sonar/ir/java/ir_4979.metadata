@@ -1,0 +1,13 @@
+ij.io.SaveDialog#jSaveDispatchThread(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+java.io.File#<init>(Ljava/lang/String;)V
+javax.swing.JFileChooser#<init>()V
+javax.swing.JOptionPane#showConfirmDialog(Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;II)I
+ij.io.SaveDialog#noExtension(Ljava/lang/String;)Z
+ij.io.SaveDialog#setExtension(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.IJ#getInstance()Lij/ImageJ;
+java.io.File#instance-init#
+ij.Macro#abort()V
+javax.swing.JFileChooser#instance-init#
+ij.io.DragAndDropHandler#<init>(Ljavax/swing/JFileChooser;)V
+ij.io.DragAndDropHandler#instance-init#

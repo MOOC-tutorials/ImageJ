@@ -1,0 +1,15 @@
+ij.plugin.ImagesToStack#convertImagesToStack()V
+ij.Macro#getOptions()Ljava/lang/String;
+ij.WindowManager#getImage(I)Lij/ImagePlus;
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+ij.IJ#isMacro()Z
+ij.plugin.ImagesToStack#findMinMaxSize([Lij/ImagePlus;I)I
+ij.gui.GenericDialog#<init>(Ljava/lang/String;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.WindowManager#getIDList()[I
+ij.plugin.Colors#decode(Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;
+ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V
+ij.IJ#error(Ljava/lang/String;)V
+ij.gui.GenericDialog#instance-init#
+ij.IJ#macroRunning()Z
+ij.plugin.ImagesToStack#convert([Lij/ImagePlus;I)Lij/ImagePlus;

@@ -1,0 +1,227 @@
+
+ij.ImagePlus#okToDeleteRoi()ZT
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaä ä("10*π
+2T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javañ ñ("^
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javañ ñ(
+""*≈
+3T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaé é(q≤
+Ø
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaé é(q
+%16java.lang.String"__concat*
+
+%12java.lang.String*
+
+%13java.lang.Stringü
+ú
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaé é(v
+%17java.lang.String"__concat*
+
+%16java.lang.String*
+)?ì
+ê
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaé é(w
+msgjava.lang.String"__id*
+
+%17java.lang.Stringåâ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaè è(%
+%18ij.gui.GenericDialog"ij.gui.GenericDialog≈
+¬
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaè è(7
+%19"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%18ij.gui.GenericDialog*
+Delete Points?ö
+ó
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaè è(8
+gdij.gui.GenericDialog"__id*
+
+%18ij.gui.GenericDialogŒ
+À
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaê ê(H
+%20java.lang.String"__concat*
+
+msgjava.lang.String*53
+1\nRestore using Edit>Selection>Restore Selection.ıÚ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaê ê(I
+%21void"4ij.gui.GenericDialog#addMessage(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%20java.lang.String2addMessage(Ljava/lang/String;)
+}
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaë ë(#
+%22java.lang.String"__id*
+""ÔÏ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaë ë($
+%23void"1ij.gui.GenericDialog#addHelp(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%22java.lang.String2addHelp(Ljava/lang/String;)‰·
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaí í(
+%24void"4ij.gui.GenericDialog#setOKLabel(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Keep2setOKLabel(Ljava/lang/String;)ÓÎ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaì ì(
+%25void"8ij.gui.GenericDialog#setCancelLabel(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+Delete2"setCancelLabel(Ljava/lang/String;)∂≥
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaî î(
+%26void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()≥∞
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaï ï(
+%27boolean"ij.gui.GenericDialog#wasOKed()Z*
+
+gdij.gui.GenericDialog2	wasOKed()*
+2
+1*Ù
+4T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaén é(pì
+ê
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaén é(p
+%13java.lang.String"__id*
+
+%15java.lang.String*
+3*Ù
+5T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaéj é(mì
+ê
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaéj é(m
+%13java.lang.String"__id*
+
+%14java.lang.String*
+3*Ä
+6T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaå å(!å
+â
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaå å(!
+%5
+ij.gui.Roi"__id**
+ij.ImagePlus"
+roi±Æ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaå å(4	
+%6int"$ij.gui.PolygonRoi#getNCoordinates()I*
+
+%5
+ij.gui.Roi2getNCoordinates()å
+â
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaç ç( 
+%7
+ij.gui.Roi"__id**
+ij.ImagePlus"
+roi©¶
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaç ç(0	
+%8int"ij.gui.PointRoi#getNCounters()I*
+
+%7
+ij.gui.Roi2getNCounters()¨
+©
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaé é(=
+%9java.lang.String"__concat*'%
+#Delete this multi-point selection (*
+""•
+¢
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaé é(I
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+	 points, ü
+ú
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaé é(R
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+""•
+¢
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaé é(]
+%12java.lang.String"__concat*
+
+%11java.lang.String*
+
+ counter*
+4
+5*∞
+7T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaãP ã(Så
+â
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaãP ã(S
+%3
+ij.gui.Roi"__id**
+ij.ImagePlus"
+roiΩ∫
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaãE ã(k
+%4boolean"'ij.gui.PointRoi#promptBeforeDeleting()Z*
+
+%3
+ij.gui.Roi2promptBeforeDeleting()*
+6
+1*§
+8T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaã0 ã(9¿Ω
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaã0 ã(;
+%2ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+ij.ImagePlus2getWindow()*
+7
+1*
+9T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaã ã(å
+â
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaã ã(
+%1
+ij.gui.Roi"__id**
+ij.ImagePlus"
+roi*
+8
+1*Ò
+10T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaã ã(	å
+â
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaã ã(	
+%0
+ij.gui.Roi"__id**
+ij.ImagePlus"
+roi*
+9
+1*π
+1T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaò	 ò("^
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaò ò(
+""B
+ij.ImagePlus

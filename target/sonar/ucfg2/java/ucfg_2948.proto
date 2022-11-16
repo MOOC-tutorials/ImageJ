@@ -1,0 +1,65 @@
+
+/ij.plugin.ScaleBar#getVUnit()Ljava/lang/String;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÚ Ú("3*•
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÝ Ý(x
+v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÝ Ý(
+
+%4char"__id*
+""–
+“
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÝ Ý(
+%5java.lang.String"__concat*
+
+
+%4char*
+m›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÝ Ý(
+vUnitsjava.lang.String"__id*
+
+%5java.lang.String*
+1*Ä
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ Û(š
+—
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ Û(
+%0ij.ImagePlus"__id**
+ij.plugin.ScaleBar"
+impÜÙ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ Û(&
+%1ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+%0ij.ImagePlus2getCalibration()Ú×
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ Û(2
+%2java.lang.String"4ij.measure.Calibration#getYUnits()Ljava/lang/String;*
+
+%1ij.measure.Calibration2getYUnits()›
+˜
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÛ Û(3
+vUnitsjava.lang.String"__id*
+
+%2java.lang.Stringãà
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÜ Ü(
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+vUnitsjava.lang.String*	
+microns2equals(Ljava/lang/Object;)*
+2
+1*Û
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÞ	 Þ("z
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÞ Þ(
+
+vUnitsjava.lang.StringB
+ij.plugin.ScaleBar

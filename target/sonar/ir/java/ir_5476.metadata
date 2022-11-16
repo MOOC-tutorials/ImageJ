@@ -1,0 +1,11 @@
+ij.plugin.filter.GaussianBlur#showDialog(Lij/ImagePlus;Ljava/lang/String;Lij/plugin/filter/PlugInFilterRunner;)I
+java.lang.Math#abs(D)D
+java.lang.Object#getClass()Ljava/lang/Class;
+ij.IJ#setupDialog(Lij/ImagePlus;I)I
+ij.Macro#getOptions()Ljava/lang/String;
+ij.Macro#setOptions(Ljava/lang/String;)V
+ij.gui.GUI#newNonBlockingDialog(Ljava/lang/String;Lij/ImagePlus;)Lij/gui/GenericDialog;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#indexOf(Ljava/lang/String;)I
+ij.IJ#register(Ljava/lang/Class;)V

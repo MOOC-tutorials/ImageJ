@@ -1,0 +1,12 @@
+ij.plugin.Text#showDialog()V
+ij.plugin.Colors#getColors([Ljava/lang/String;)[Ljava/lang/String;
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.Prefs#saveLocation(Ljava/lang/String;Ljava/awt/Point;)V
+ij.gui.TextRoi#setDefaultFillColor(Ljava/awt/Color;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.gui.TextRoi#setDefaultAngle(D)V
+ij.IJ#getScreenSize()Ljava/awt/Dimension;
+ij.plugin.Colors#colorToString2(Ljava/awt/Color;)Ljava/lang/String;
+ij.Prefs#getLocation(Ljava/lang/String;)Ljava/awt/Point;
+ij.IJ#log(Ljava/lang/String;)V
+ij.gui.GUI#newNonBlockingDialog(Ljava/lang/String;)Lij/gui/GenericDialog;

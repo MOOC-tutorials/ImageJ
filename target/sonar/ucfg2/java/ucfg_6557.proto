@@ -1,0 +1,121 @@
+
+Rij.plugin.Straightener#straightenStack(Lij/ImagePlus;Lij/gui/Roi;I)Lij/ImageStack;\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaU U(""7*¡
+3\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java_ _(	µ²
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java_ _(
+
+%9void"Fij.ImageStack#addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+stack2ij.ImageStack*
+""*"
+ 
+ip2ij.process.ImageProcessor27addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)*
+5
+1*Ì
+4\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java^ ^(ÃÀ
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java^ ^(*	
+%5int"%ij.process.ImageProcessor#getWidth()I*"
+ 
+ip2ij.process.ImageProcessor2
+getWidth()ÅÂ
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java^, ^(;	
+%6int"&ij.process.ImageProcessor#getHeight()I*"
+ 
+ip2ij.process.ImageProcessor2getHeight()…‚
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java^ ^(
+%7ij.ImageStack"ij.ImageStack³
+°
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java^ ^(<
+%8"ij.ImageStack#<init>(II)V*
+
+%7ij.ImageStack*
+	
+%5int*
+	
+%6int—
+”
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java^ ^(<
+stack2ij.ImageStack"__id*
+
+%7ij.ImageStack*
+3*Ì
+5\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaZ Z(¡
+ž
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaZ Z(
+
+%2void"ij.IJ#showProgress(II)V*	"
+ij.IJ*
+""*
+""´±
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java[ [(
+
+%3void"ij.ImagePlus#setSlice(I)V*
+
+impij.ImagePlus*
+""2setSlice(I)ÖÓ
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java\ \(3
+%4ij.process.ImageProcessor"Yij.plugin.Straightener#straighten(Lij/ImagePlus;Lij/gui/Roi;I)Lij/process/ImageProcessor;*
+ij.plugin.Straightener*
+
+impij.ImagePlus*
+
+roi
+ij.gui.Roi*
+""2'straighten(Lij/ImagePlus;Lij/gui/Roi;I)¬
+©
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.java\ \(4 
+ip2ij.process.ImageProcessor"__id*!
+
+%4ij.process.ImageProcessor*
+3
+4*â
+7\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaV V(·´
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaV V(%	
+%0int"ij.ImagePlus#getCurrentSlice()I*
+
+impij.ImagePlus2getCurrentSlice()±®
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaW
+ W(	
+%1int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()ˆ
+…
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaX X(
+stack2ij.ImageStack"__id*
+""*
+5
+1*”
+1\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaa a(µ²
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javaa a(
+%10void"ij.ImagePlus#setSlice(I)V*
+
+impij.ImagePlus*
+""2setSlice(I)"y
+\
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Straightener.javab b(
+
+stack2ij.ImageStack:
+impij.ImagePlus:
+roi
+ij.gui.Roi:
+""B
+ij.plugin.Straightener

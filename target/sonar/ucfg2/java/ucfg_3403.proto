@@ -1,0 +1,141 @@
+
+Bij.macro.Functions#setForegroundOrBackground(Z)Lij/macro/Variable;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaã@ ã@(+"7*¸
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaó@ ó@(
+Ñ
+Î
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaó@ ó@($
+%14void"4ij.gui.Toolbar#setBackgroundColor(Ljava/awt/Color;)V*"
+ij.gui.Toolbar*
+
+colorjava.awt.Color*
+1*¸
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javañ@ ñ@(
+Ñ
+Î
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javañ@ ñ@($
+%13void"4ij.gui.Toolbar#setForegroundColor(Ljava/awt/Color;)V*"
+ij.gui.Toolbar*
+
+colorjava.awt.Color*
+1*·	
+5Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaë@ ë@(¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaë@ ë@(
+%8ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpÃÀ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaë@ ë@((
+%9double"%ij.macro.Interpreter#getExpression()D*
+
+%8ij.macro.Interpreter2getExpression()¶³
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaì@ ì@( 
+%10double" ij.macro.Functions#getNextArg()D*
+ij.macro.Functions2getNextArg()¶³
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaí@ í@(
+%11double" ij.macro.Functions#getLastArg()D*
+ij.macro.Functions2getLastArg()Ó
+Ð
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaî@ î@(+
+%12java.awt.Color"-ij.plugin.Colors#toColor(III)Ljava/awt/Color;*"
+ij.plugin.Colors*
+""*
+""*
+""—
+”
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaî@ î@(+
+colorjava.awt.Color"__id*
+
+%12java.awt.Color*
+2
+3*ì
+
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaç@ ç@(ÎË
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaç@ ç@(
+%3java.lang.String"0ij.macro.Functions#getString()Ljava/lang/String;*
+ij.macro.Functions2getString()˜
+•
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaç@ ç@(
+argjava.lang.String"__id*
+
+%3java.lang.String¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaè@ è@(	
+%4ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpÁ¾
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaè@ è@(
+
+%5void"%ij.macro.Interpreter#getRightParen()V*
+
+%4ij.macro.Interpreter2getRightParen()ƒ
+€
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaé@ é@()
+%6java.awt.Color"__id*
+""‹
+ˆ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaé@ é@(*
+%7java.awt.Color"Kij.plugin.Colors#decode(Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;*"
+ij.plugin.Colors*
+
+argjava.lang.String*
+
+%6java.awt.Color–
+“
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaé@ é@(*
+colorjava.awt.Color"__id*
+
+%7java.awt.Color*
+2
+3*•
+7Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaä@ ä@(¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaä@ ä@(
+%0ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp¿¼
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaä@ ä@(
+
+%1void"$ij.macro.Interpreter#getLeftParen()V*
+
+%0ij.macro.Interpreter2getLeftParen()†
+ƒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaå@ å@(
+colorjava.awt.Color"__id*
+""¸µ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaæ@ æ@(
+%2boolean"!ij.macro.Functions#isStringArg()Z*
+ij.macro.Functions2isStringArg()*
+5
+6*Å
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaô@	 ô@("d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaô@ ô@(
+"":
+""B
+ij.macro.Functions

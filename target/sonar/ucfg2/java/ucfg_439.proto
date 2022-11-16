@@ -1,0 +1,96 @@
+
+Nij.macro.Tokenizer#addSpacesToEmptyLines(Ljava/lang/String;)Ljava/lang/String;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.javaò ò(%"8*˘
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.javaü ü(èå
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.javaü ü(
+%6java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+ 2append(Ljava/lang/String;)*
+6
+1*£
+4Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.javaû û(!∂≥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.javaû û(.
+
+%5char"java.lang.String#charAt(I)C*
+
+pgmjava.lang.String*
+""2	charAt(I)*	
+3
+6
+1*î
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.javaú ú(∂≥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.javaú ú(
+
+%3char"java.lang.String#charAt(I)C*
+
+pgmjava.lang.String*
+""2	charAt(I)ÓÎ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.javaù ù(
+%4java.lang.StringBuilder":java.lang.StringBuilder#append(C)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+""2	append(C)*	
+4
+6
+1*É
+8Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.javaô ô((óî
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.javaô ô(&
+%0java.lang.StringBuilder"java.lang.StringBuilder©
+¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.javaô ô((
+%1"!java.lang.StringBuilder#<init>()V*
+
+%0java.lang.StringBuilder•
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.javaô ô()
+sbjava.lang.StringBuilder"__id*
+
+%0java.lang.StringBuilder´®
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.javaö ö(	
+%2int"java.lang.String#length()I*
+
+pgmjava.lang.String2length()*
+6
+1*‰
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java° °(∂≥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java° °(
+
+%7char"java.lang.String#charAt(I)C*
+
+pgmjava.lang.String*
+""2	charAt(I)ÙÒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java° °(
+%8java.lang.StringBuilder":java.lang.StringBuilder#append(C)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+
+
+%7char2	append(C)⁄◊
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java¢	 ¢(
+%9java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*
+
+sbjava.lang.StringBuilder2
+toString()"v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Tokenizer.java¢ ¢(
+
+%9java.lang.String:
+pgmjava.lang.StringB
+ij.macro.Tokenizer

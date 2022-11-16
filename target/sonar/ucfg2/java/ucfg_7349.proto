@@ -1,0 +1,253 @@
+
+[ij.plugin.filter.StackLabeler#dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)Ze
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaÇ Ç(!"21*ß
+13e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaó ó(Œ
+À
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaó ó(/
+%15java.lang.String"5ij.gui.TextRoi#getDefaultFontName()Ljava/lang/String;*"
+ij.gui.TextRoi±
+Æ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaó1 ó(N
+
+%16int"%ij.gui.TextRoi#getDefaultFontStyle()I*"
+ij.gui.TextRoièå
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaó ó(
+%17java.awt.Font"java.awt.FontÁ
+‰
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaó
+ ó(Y
+%18"+java.awt.Font#<init>(Ljava/lang/String;II)V*
+
+%17java.awt.Font*
+
+%15java.lang.String*
+
+
+%16int*
+""≥
+∞
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaó ó(Y)
+ij.plugin.filter.StackLabeler"
+font"__id*
+
+%17java.awt.Font*
+9*‹
+15e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaï! ï(&"o
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaï ï('
+""*Ã
+16e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaï ï(–Õ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaï ï(
+%14boolean"%ij.gui.GenericDialog#invalidNumber()Z*
+
+gdij.gui.GenericDialog2invalidNumber()*
+13
+15
+12*´
+18e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaí í(∑¥
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaí í(
+
+%13int"java.lang.String#length()I*
+
+strjava.lang.String2length()*
+16*‹
+19e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaè è(‰·
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaê ê(
+
+%12int"-java.lang.String#indexOf(Ljava/lang/String;)I*
+
+strjava.lang.String*
+.2indexOf(Ljava/lang/String;)*
+16
+18*Æ
+9e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaõ õ(±
+Æ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaõ õ(
+%22ij.ImagePlus"__id***(
+ij.plugin.filter.StackLabeler"
+impÎË
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaõ õ(( 
+%23ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+%22ij.ImagePlus2getProcessor()µ
+≤
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaõ õ()
+ipij.process.ImageProcessor"__id*"
+ 
+%23ij.process.ImageProcessor≥
+∞
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaú ú(
+%24java.awt.Font"__id*+*)
+ij.plugin.filter.StackLabeler"
+fontÅ˛
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaú ú(
+%25void"3ij.process.ImageProcessor#setFont(Ljava/awt/Font;)V*!
+
+ipij.process.ImageProcessor*
+
+%24java.awt.Font2setFont(Ljava/awt/Font;)éã
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaû û(@
+%26java.lang.String">ij.plugin.filter.StackLabeler#getString(IDI)Ljava/lang/String;*!
+ij.plugin.filter.StackLabeler*
+""*
+""*
+""2getString(IDI)óî
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaû û(A
+
+%27int"=ij.process.ImageProcessor#getStringWidth(Ljava/lang/String;)I*!
+
+ipij.process.ImageProcessor*
+
+%26java.lang.String2"getStringWidth(Ljava/lang/String;)*
+1*Ì
+21e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaÉ É(’“
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaÉ É("	
+%0int"*ij.gui.GenericDialog#getNextChoiceIndex()I*
+
+gdij.gui.GenericDialog2getNextChoiceIndex()ÈÊ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaÑ Ñ(.
+%1java.lang.String"6ij.gui.GenericDialog#getNextString()Ljava/lang/String;*
+
+gdij.gui.GenericDialog2getNextString()’
+“
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaÑ
+ Ñ(/
+%2double".ij.util.Tools#parseDouble(Ljava/lang/String;)D*"
+ij.util.Tools*
+
+%1java.lang.StringÈÊ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaÖ Ö("
+%3java.lang.String"6ij.gui.GenericDialog#getNextString()Ljava/lang/String;*
+
+gdij.gui.GenericDialog2getNextString()£
+†
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaÖ Ö(#
+strjava.lang.String"__id*
+
+%3java.lang.String÷
+”
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaÜ Ü($
+%4double".ij.util.Tools#parseDouble(Ljava/lang/String;)D*"
+ij.util.Tools*
+
+strjava.lang.StringŒÀ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaá á(
+%5double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()ŒÀ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaà à(
+%6double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()ŒÀ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaâ â($
+%7double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()ÈÊ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaä	 ä(
+%8java.lang.String"6ij.gui.GenericDialog#getNextString()Ljava/lang/String;*
+
+gdij.gui.GenericDialog2getNextString()µ
+≤
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaä ä()
+ij.plugin.filter.StackLabeler"
+text"__id*
+
+%8java.lang.String±Æ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaã ã(4
+%9double[]"Bij.plugin.filter.StackLabeler#getRange(Lij/gui/GenericDialog;II)[D*!
+ij.plugin.filter.StackLabeler*
+
+gdij.gui.GenericDialog*2*
+""2"getRange(Lij/gui/GenericDialog;II)“œ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaå å("
+%10boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()“œ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaç ç('
+%11boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+19*ù
+12e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaô ô(Ñ
+Å
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaô  ô(*
+
+%19int"__id*
+""èå
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaô ô(
+%20java.awt.Font"java.awt.Font€
+ÿ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaô
+ ô(5
+%21"+java.awt.Font#<init>(Ljava/lang/String;II)V*
+
+%20java.awt.Font*
+	SansSerif*
+
+
+%19int*
+""≥
+∞
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.javaô ô(5)
+ij.plugin.filter.StackLabeler"
+font"__id*
+
+%20java.awt.Font*
+9*°
+1e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java§ §(√
+¿
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java§ §(#
+%28void""ij.Prefs#set(Ljava/lang/String;I)V*"
+
+ij.Prefs*
+label.format*
+"""o
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java• •(
+"":
+gdij.gui.GenericDialog:
+ejava.awt.AWTEventB!
+ij.plugin.filter.StackLabeler

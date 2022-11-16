@@ -1,0 +1,121 @@
+
+Bij.plugin.RoiEnlarger#enlargeRectOrOval(Lij/gui/Roi;I)Lij/gui/Roi;]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java≠ ≠(%"7* 
+2]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaπ π(àÖ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaπ π(
+%5ij.gui.OvalRoi"ij.gui.OvalRoiæ
+ª
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaπ
+ π(F
+%6"ij.gui.OvalRoi#<init>(IIII)V*
+
+%5ij.gui.OvalRoi*
+""*
+""*
+""*
+""î
+ë
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaπ π(F
+roi2
+ij.gui.Roi"__id*
+
+%5ij.gui.OvalRoi*
+1*¥
+3]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java∑ ∑(}
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java∑ ∑(
+%3
+ij.gui.Roi"
+ij.gui.Roi∂
+≥
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java∑
+ ∑(B
+%4"ij.gui.Roi#<init>(IIII)V*
+
+%3
+ij.gui.Roi*
+""*
+""*
+""*
+""ê
+ç
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java∑ ∑(B
+roi2
+ij.gui.Roi"__id*
+
+%3
+ij.gui.Roi*
+1*î
+4]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaµ µ(Ñ
+Å
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaµ µ(
+roi2
+ij.gui.Roi"__id*
+""§°
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java∂ ∂(	
+%1int"ij.gui.Roi#getType()I*
+
+roi
+ij.gui.Roi2	getType()z
+x
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java∂ ∂("	
+%2int"__id*
+""*
+2
+3*ÿ
+5]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java¥
+ ¥("t
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java¥ ¥(
+
+roi
+ij.gui.Roi*‹
+7]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaÆ Æ( «
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaÆ Æ($
+%0java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roi
+ij.gui.Roi2getBounds()¢
+ü
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaÆ Æ(%
+boundsjava.awt.Rectangle"__id*
+
+%0java.awt.Rectangle*
+4
+5*Ω
+1]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java∫ ∫(·ﬁ
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.java∫ ∫(
+
+%7void"(ij.gui.Roi#copyAttributes(Lij/gui/Roi;)V*
+
+roi2
+ij.gui.Roi*
+
+roi
+ij.gui.Roi2copyAttributes(Lij/gui/Roi;)"u
+]
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiEnlarger.javaª ª(
+
+roi2
+ij.gui.Roi:
+roi
+ij.gui.Roi:
+""B"
+ij.plugin.RoiEnlarger

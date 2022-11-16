@@ -1,0 +1,80 @@
+
+8ij.macro.Functions#getWindowContents()Ljava/lang/String;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaî î("10*­
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaö ö(ÓÐ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaö
+ ö(%
+%4java.lang.String"4ij.plugin.frame.Recorder#getText()Ljava/lang/String;*
+
+framejava.awt.Frame2	getText()"v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaö ö(&
+
+%4java.lang.String*«
+5Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaô ô(ÑÎ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaô
+ ô(#
+%3java.lang.String"2ij.plugin.frame.Editor#getText()Ljava/lang/String;*
+
+framejava.awt.Frame2	getText()"v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaô ô($
+
+%3java.lang.String*ž
+8Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javañ ñ($ÙÖ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javañ ñ(4
+%1ij.text.TextPanel"4ij.text.TextWindow#getTextPanel()Lij/text/TextPanel;*
+
+framejava.awt.Frame2getTextPanel()™
+–
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javañ ñ(5
+tpij.text.TextPanel"__id*
+
+%1ij.text.TextPanelÌÉ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaò
+ ò(
+%2java.lang.String"-ij.text.TextPanel#getText()Ljava/lang/String;*
+
+tpij.text.TextPanel2	getText()"v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaò ò(
+
+%2java.lang.String*È
+10Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaï ï(¾
+»
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaï ï(.
+%0java.awt.Frame"1ij.WindowManager#getFrontWindow()Ljava/awt/Frame;*"
+ij.WindowManager–
+“
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaï ï(/
+framejava.awt.Frame"__id*
+
+%0java.awt.Frame*
+2
+5
+8
+1*®
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaø
+ ø(ÔÑ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaø
+ ø(
+%5java.lang.String"3ij.macro.Functions#getImageInfo()Ljava/lang/String;*
+ij.macro.Functions2getImageInfo()"v
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaø ø(
+
+%5java.lang.StringB
+ij.macro.Functions

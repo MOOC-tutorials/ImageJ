@@ -1,0 +1,13 @@
+ij.plugin.tool.PixelInspector#<init>(Lij/ImagePlus;Lij/plugin/tool/PixelInspectionTool;)V
+java.lang.Thread#setPriority(I)V
+ij.gui.GUI#centerOnImageJScreen(Ljava/awt/Window;)V
+ij.plugin.tool.PixelInspector#init()V
+java.lang.Thread#getPriority()I
+ij.IJ#getInstance()Lij/ImageJ;
+ij.IJ#noImage()V
+ij.WindowManager#addWindow(Ljava/awt/Frame;)V
+java.lang.Math#max(II)I
+ij.Prefs#getLocation(Ljava/lang/String;)Ljava/awt/Point;
+ij.plugin.tool.PixelInspector#addImageListeners()V
+java.lang.Thread#instance-init#
+java.lang.Thread#<init>(Ljava/lang/Runnable;Ljava/lang/String;)V

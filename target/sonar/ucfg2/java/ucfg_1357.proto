@@ -1,0 +1,104 @@
+
+2ij.OtherInstance#loadPrefs()Ljava/util/Properties;X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.javaﬂ ﬂ(&"7*ì
+3X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.javaÂ Â(Æ´
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.javaÂ Â(
+%10void"java.io.InputStream#close()V*
+
+injava.io.InputStream2close()*
+1*É
+4X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java„ „(G£
+†
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java„ „(G
+injava.io.InputStream"__id*#
+!
+%7java.io.BufferedInputStream¯ı
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java‰ ‰(
+
+%9void"1java.util.Properties#load(Ljava/io/InputStream;)V* 
+
+resultjava.util.Properties*
+
+injava.io.InputStream2load(Ljava/io/InputStream;)*
+3*Í
+5X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java„ „(Fùö
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java„ „(+!
+%7java.io.BufferedInputStream"java.io.BufferedInputStreamÂ
+‚
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java„ „(F
+%8":java.io.BufferedInputStream#<init>(Ljava/io/InputStream;)V*#
+!
+%7java.io.BufferedInputStream*
+
+%5java.io.FileInputStream*
+4* 
+6X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java„@ „(Dïí
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java„0 „(?
+%5java.io.FileInputStream"java.io.FileInputStreamÕ
+ 
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java„, „(E
+%6"/java.io.FileInputStream#<init>(Ljava/io/File;)V*
+
+%5java.io.FileInputStream*
+
+filejava.io.File*
+5*¯	
+7X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java‡ ‡(&èå
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java‡ ‡($
+%0java.util.Properties"java.util.Properties°
+û
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java‡ ‡(&
+%1"java.util.Properties#<init>()V*
+
+%0java.util.Properties°
+û
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java‡ ‡('
+resultjava.util.Properties"__id*
+
+%0java.util.Properties√
+¿
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java· ·(*
+%2java.lang.String"6ij.OtherInstance#getPrefsDirectory()Ljava/lang/String;*"
+ij.OtherInstance~|
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java· ·(
+%3java.io.File"java.io.File·
+ﬁ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java· ·(;
+%4":java.io.File#<init>(Ljava/lang/String;Ljava/lang/String;)V*
+
+%3java.io.File*
+
+%2java.lang.String*
+IJ_Prefs.txtè
+å
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.java· ·(<
+filejava.io.File"__id*
+
+%3java.io.File*
+6*€
+1X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.javaÁ	 Á("|
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/OtherInstance.javaÁ Á( 
+
+resultjava.util.PropertiesB"
+ij.OtherInstance

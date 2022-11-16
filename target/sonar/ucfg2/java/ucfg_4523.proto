@@ -1,0 +1,48 @@
+
+Lij.gui.ShapeRoi#getFloatPolygon(Ljava/lang/String;)Lij/process/FloatPolygon;W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java¥	 ¥	($"1*—
+1W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java¦	 ¦	(ÔÑ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java¦	 ¦	(!
+%0java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*
+
+optionsjava.lang.String2toLowerCase()™
+–
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java¦	 ¦	(!
+optionsjava.lang.String"__id*
+
+%0java.lang.StringàÝ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java§	 §	(8	
+%1int"-java.lang.String#indexOf(Ljava/lang/String;)I*
+
+optionsjava.lang.String*
+
+separate2indexOf(Ljava/lang/String;)ÝÚ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java¨	 ¨	(5	
+%2int"-java.lang.String#indexOf(Ljava/lang/String;)I*
+
+optionsjava.lang.String*	
+close2indexOf(Ljava/lang/String;)w
+u
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java©	 ©	(!
+%3double"__id*
+""Š
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java©		 ©	(_
+%4ij.process.FloatPolygon">ij.gui.ShapeRoi#getFloatPolygon(DZZZ)Lij/process/FloatPolygon;*
+ij.gui.ShapeRoi*
+
+%3double*
+""*
+""*22getFloatPolygon(DZZZ)"z
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java©	 ©	(`
+
+%4ij.process.FloatPolygon:
+optionsjava.lang.StringB
+ij.gui.ShapeRoi

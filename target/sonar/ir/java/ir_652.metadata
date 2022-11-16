@@ -1,0 +1,12 @@
+ij.ImageJ#actionPerformed(Ljava/awt/event/ActionEvent;)V
+ij.RecentOpener#instance-init#
+ij.Executer#instance-init#
+ij.Menus#getOpenRecentMenu()Ljava/awt/Menu;
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.Menus#getPopupMenu()Ljava/awt/PopupMenu;
+ij.Executer#<init>(Ljava/lang/String;Lij/ImagePlus;)V
+ij.IJ#setKeyDown(I)V
+java.lang.System#currentTimeMillis()J
+ij.IJ#log(Ljava/lang/String;)V
+ij.WindowManager#getFrontWindow()Ljava/awt/Frame;
+ij.RecentOpener#<init>(Ljava/lang/String;)V

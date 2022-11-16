@@ -1,0 +1,124 @@
+
+Gij.process.StackProcessor#getNeighborhood([IIIIIFFF)Lij/util/ArrayUtil;a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaÿ ÿ(%"19*œ
+6a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaÊ Ê(	¨
+©
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaÊ! Ê(&
+%11ij.ImageStack"__id*(*&
+ij.process.StackProcessor"
+stack“œ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaÊ! Ê(8
+%12double"ij.ImageStack#getVoxel(III)D*
+
+%11ij.ImageStack*
+""*
+""*
+""2getVoxel(III)⁄◊
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaÊ Ê(9
+%13boolean"ij.util.ArrayUtil#putValue(IF)Z*
+
+pixij.util.ArrayUtil*
+""*
+
+%12double2putValue(IF)*
+6
+1*˜
+19a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaŸ& Ÿ(+íè
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaŸ Ÿ(%
+%0ij.util.ArrayUtil"ij.util.ArrayUtil≠
+™
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaŸ Ÿ(,
+%1"ij.util.ArrayUtil#<init>(I)V*
+
+%0ij.util.ArrayUtil*
+""°
+û
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaŸ Ÿ(-
+pixij.util.ArrayUtil"__id*
+
+%0ij.util.ArrayUtil©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.java⁄ ⁄(&
+%2double"java.lang.Math#ceil(D)D*"
+java.lang.Math*
+""©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.java€ €(&
+%3double"java.lang.Math#ceil(D)D*"
+java.lang.Math*
+""©
+¶
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.java‹ ‹(&
+%4double"java.lang.Math#ceil(D)D*"
+java.lang.Math*
+""´
+®
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaﬂ ﬂ(
+%5ij.ImageStack"__id*(*&
+ij.process.StackProcessor"
+stackØ¨
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaﬂ ﬂ($	
+%6int"ij.ImageStack#getWidth()I*
+
+%5ij.ImageStack2
+getWidth()´
+®
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.java‡ ‡(
+%7ij.ImageStack"__id*(*&
+ij.process.StackProcessor"
+stack±Æ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.java‡ ‡(%	
+%8int"ij.ImageStack#getHeight()I*
+
+%7ij.ImageStack2getHeight()´
+®
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.java· ·(
+%9ij.ImageStack"__id*(*&
+ij.process.StackProcessor"
+stack®•
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.java· ·( 
+
+%10int"ij.ImageStack#size()I*
+
+%9ij.ImageStack2size()*
+6
+1*¨
+1a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaÌ Ì(¬ø
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaÌ Ì(
+%14void"ij.util.ArrayUtil#setSize(I)V*
+
+pixij.util.ArrayUtil*
+""2
+setSize(I)"
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaÓ Ó(
+
+pixij.util.ArrayUtil:
+"":
+"":
+"":
+"":
+"":
+"":
+"":
+""B
+ij.process.StackProcessor

@@ -1,0 +1,199 @@
+
+;ij.gui.GenericDialog#getNextRadioButton()Ljava/lang/String;\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÏ
+ Ï
+(!"9*ö
+2\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaİ
+ İ
+(
+Š
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaİ
+ İ
+(
+
+%9void"Hij.gui.GenericDialog#recordOption(Ljava/lang/Object;Ljava/lang/String;)V*
+ij.gui.GenericDialog*
+
+cgjava.awt.CheckboxGroup*
+
+itemjava.lang.String*
+1*ü	
+4\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÙ
+ Ù
+( ¨
+¥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÙ
+ Ù
+( 
+%5java.util.Hashtable"__id*$*"
+ij.gui.GenericDialog"
+labelsÀ
+½
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÙ
+ Ù
+(0
+%6java.lang.Object"__mapGet*
+
+%5java.util.Hashtable*
+
+cgjava.awt.CheckboxGroupœ
+™
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÙ
+ Ù
+(1
+labeljava.lang.String"__id*
+
+%6java.lang.Object«
+¨
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÚ
+ Ú
+(%
+%7java.lang.String"__id***(
+ij.gui.GenericDialog"
+macroOptions·
+´
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÚ
+
+ Ú
+(3
+%8java.lang.String"[ij.Macro#getValue(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*"
+
+ij.Macro*
+
+%7java.lang.String*
+
+labeljava.lang.String*
+
+itemjava.lang.String›
+˜
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÚ
+ Ú
+(3
+itemjava.lang.String"__id*
+
+%8java.lang.String*
+2
+1*ã
+6\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java×
+
+ ×
+(ÖÓ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java×
+
+ ×
+(
+%4java.lang.String".java.awt.Checkbox#getLabel()Ljava/lang/String;*
+
+checkboxjava.awt.Checkbox2
+getLabel()›
+˜
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.java×
+ ×
+(
+itemjava.lang.String"__id*
+
+%4java.lang.String*	
+2
+4
+1*È	
+7\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÒ
+% Ò
+(6°
+­
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÒ
+% Ò
+(6
+%1java.util.Vector"__id*/*-
+ij.gui.GenericDialog"
+radioButtonGroupsÚ×
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÒ
+% Ò
+(R
+%2java.lang.Object"/java.util.Vector#elementAt(I)Ljava/lang/Object;*
+
+%1java.util.Vector*
+""2elementAt(I)Ÿ
+œ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÒ
+ Ò
+(T
+cgjava.awt.CheckboxGroup"__id*
+
+%2java.lang.Objectòï
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÔ
+ Ô
+(.
+%3java.awt.Checkbox"?java.awt.CheckboxGroup#getSelectedCheckbox()Ljava/awt/Checkbox;*
+
+cgjava.awt.CheckboxGroup2getSelectedCheckbox()¡
+
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÔ
+ Ô
+(/
+checkboxjava.awt.Checkbox"__id*
+
+%3java.awt.Checkbox‹
+ˆ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÕ
+ Õ
+(
+itemjava.lang.String"__id*
+null*
+2
+4
+6
+1*É
+8\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÑ
+
+ Ñ
+("f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaÑ
+ Ñ
+(
+""*œ
+9\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaĞ
+ Ğ
+(°
+­
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaĞ
+ Ğ
+(
+%0java.util.Vector"__id*/*-
+ij.gui.GenericDialog"
+radioButtonGroups*
+7
+8*İ
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaŞ
+	 Ş
+("z
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GenericDialog.javaŞ
+ Ş
+(
+
+itemjava.lang.StringB
+ij.gui.GenericDialog

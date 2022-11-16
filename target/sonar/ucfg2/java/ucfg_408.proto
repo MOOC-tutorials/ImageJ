@@ -1,0 +1,487 @@
+
+>ij.plugin.ZAxisProfiler#getHyperstackProfile(Lij/gui/Roi;DD)[F_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaë ë(%"42*±
+15_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java∂% ∂(*∑¥
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java∂% ∂(6
+%39boolean"ij.ImageStack#isVirtual()Z*
+
+stackij.ImageStack2isVirtual()*
+2
+8
+9
+11
+1*ü
+38_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaö ö(≠
+™
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaö ö(
+%10java.lang.String"__id*(*&
+ij.plugin.ZAxisProfiler"	
+options*
+30
+33*à
+16_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaµ µ(•
+¢
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaµ µ(
+%37ij.ImagePlus"__id*$*"
+ij.plugin.ZAxisProfiler"
+imp≈¬
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaµ µ(#
+%38ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+%37ij.ImagePlus2
+getStack()ö
+ó
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaµ µ($
+stackij.ImageStack"__id*
+
+%38ij.ImageStack*
+2
+15
+8
+9
+11
+1*–
+17_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java≥ ≥("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java≥ ≥(
+""*é
+28_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java• •(%≠
+™
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java• •(%
+%24java.lang.String"__id*(*&
+ij.plugin.ZAxisProfiler"	
+optionsÌ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java• •(3
+%25boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+%24java.lang.String*
+z2"contains(Ljava/lang/CharSequence;)*
+23*∞
+18_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java≤ ≤(æ
+ª
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java≤ ≤(
+%36boolean")ij.plugin.filter.Analyzer#resetCounter()Z*"
+ij.plugin.filter.Analyzer*
+16
+17*Ó
+19_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaØ Ø(O}
+{
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java∞ ∞(
+
+%35int"__id*
+""*
+16
+18*œ
+1_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java…	 …("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java… …(
+""*ÿ
+2_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java» »(ÏÈ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java» »(
+%52void"1ij.measure.ResultsTable#show(Ljava/lang/String;)V*
+
+rtij.measure.ResultsTable*	
+Results2show(Ljava/lang/String;)*
+1*Ù	
+5_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java¬ ¬(Ì
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java¬ ¬(
+%49void"/ij.process.ImageProcessor#setRoi(Lij/gui/Roi;)V*!
+
+ipij.process.ImageProcessor*
+
+roi
+ij.gui.Roi2setRoi(Lij/gui/Roi;)Ô
+Ï
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java√ √(O!
+%50ij.process.ImageStatistics"zij.process.ImageStatistics#getStatistics(Lij/process/ImageProcessor;ILij/measure/Calibration;)Lij/process/ImageStatistics;*"
+ij.process.ImageStatistics*!
+
+ipij.process.ImageProcessor*
+""*
+
+calij.measure.Calibration¥
+±
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java√ √(P#
+statsij.process.ImageStatistics"__id*#
+!
+%50ij.process.ImageStatisticsﬂ‹
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaƒ ƒ(#
+%51void"Pij.plugin.filter.Analyzer#saveResults(Lij/process/ImageStatistics;Lij/gui/Roi;)V*'
+%
+analyzerij.plugin.filter.Analyzer*%
+#
+statsij.process.ImageStatistics*
+
+roi
+ij.gui.Roi25saveResults(Lij/process/ImageStatistics;Lij/gui/Roi;)*
+2
+8
+9
+11
+1*ﬁ
+6_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java¡ ¡(}
+{
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java¡. ¡(J
+
+%47int"__id*
+""Û
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java¡ ¡(K
+%48void",ij.process.ImageProcessor#setThreshold(DDI)V*!
+
+ipij.process.ImageProcessor*
+""*
+""*
+
+
+%47int2setThreshold(DDI)*
+5*ó
+7_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaø ø(Û
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaø ø(0 
+%45ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stackij.ImageStack*
+""2getProcessor(I)Ø
+¨
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaø ø(1
+ipij.process.ImageProcessor"__id*"
+ 
+%45ij.process.ImageProcessorÄ
+~
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java¿ ¿(0
+%46double"__id*
+""*
+5
+6*È
+8_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaæ æ(•
+¢
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaæ æ(
+%43ij.ImagePlus"__id*$*"
+ij.plugin.ZAxisProfiler"
+imp’“
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaæ æ(&
+
+%44int" ij.ImagePlus#getStackIndex(III)I*
+
+%43ij.ImagePlus*
+""*
+""*
+""2getStackIndex(III)*
+7*È
+9_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaº º(•
+¢
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaº º(
+%41ij.ImagePlus"__id*$*"
+ij.plugin.ZAxisProfiler"
+imp’“
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaº º(&
+
+%42int" ij.ImagePlus#getStackIndex(III)I*
+
+%41ij.ImagePlus*
+""*
+""*
+""2getStackIndex(III)*
+7*ü
+30_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java§ §(≠
+™
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java§ §(
+%23java.lang.String"__id*(*&
+ij.plugin.ZAxisProfiler"	
+options*
+28
+23*Ñ
+42_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaí í(§
+°
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaí í(
+%0ij.ImagePlus"__id*$*"
+ij.plugin.ZAxisProfiler"
+impØ¨
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaí í(	
+%1int"ij.ImagePlus#getNSlices()I*
+
+%0ij.ImagePlus2getNSlices()§
+°
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaì ì(
+%2ij.ImagePlus"__id*$*"
+ij.plugin.ZAxisProfiler"
+impØ¨
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaì ì(	
+%3int"ij.ImagePlus#getNFrames()I*
+
+%2ij.ImagePlus2getNFrames()§
+°
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaî
+ î(
+%4ij.ImagePlus"__id*$*"
+ij.plugin.ZAxisProfiler"
+imp£†
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaî
+ î(	
+%5int"ij.ImagePlus#getC()I*
+
+%4ij.ImagePlus2getC()§
+°
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaï
+ ï(
+%6ij.ImagePlus"__id*$*"
+ij.plugin.ZAxisProfiler"
+imp£†
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaï
+ ï(	
+%7int"ij.ImagePlus#getZ()I*
+
+%6ij.ImagePlus2getZ()§
+°
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javañ
+ ñ(
+%8ij.ImagePlus"__id*$*"
+ij.plugin.ZAxisProfiler"
+imp£†
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javañ
+ ñ(	
+%9int"ij.ImagePlus#getT()I*
+
+%8ij.ImagePlus2getT()*
+38*Í
+20_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaØ; Ø(G}
+{
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaØI Ø(N
+
+%34int"__id*
+""*
+19*Ü
+
+31_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java° °(‰·
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java° °(
+%18java.lang.String"6ij.gui.GenericDialog#getNextChoice()Ljava/lang/String;*
+
+gdij.gui.GenericDialog2getNextChoice()¨
+©
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java° °(%
+ij.plugin.ZAxisProfiler"
+choice"__id*
+
+%18java.lang.String¨
+©
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java¢ ¢(
+%19java.lang.String"__id*'*%
+ij.plugin.ZAxisProfiler"
+choiceØ
+¨
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java¢ ¢(&
+%20java.lang.String[]"__id*(*&
+ij.plugin.ZAxisProfiler"	
+choices™
+ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java¢ ¢()
+%21java.lang.String"
+__arrayGet*
+
+%20java.lang.String[]*2 ÙÒ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java¢ ¢(*
+%22boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%19java.lang.String*
+
+%21java.lang.String2equals(Ljava/lang/Object;)*
+30*–
+32_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java† †("i
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java† †(
+""*·
+33_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaõ õ(óî
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaú ú('
+%11ij.gui.GenericDialog"ij.gui.GenericDialog 
+«
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaú ú(3
+%12"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%11ij.gui.GenericDialog*
+
+Profiler•
+¢
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaú ú(4
+gdij.gui.GenericDialog"__id*
+
+%11ij.gui.GenericDialogØ
+¨
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaù ù("
+%13java.lang.String[]"__id*(*&
+ij.plugin.ZAxisProfiler"	
+choices¨
+©
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaù$ ù(*
+%14java.lang.String"__id*'*%
+ij.plugin.ZAxisProfiler"
+choiceÚÔ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaù ù(+
+%15void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*	
+Profile*
+
+%13java.lang.String[]*
+
+%14java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)¡æ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaû û(
+%16void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()∆√
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaü ü(
+%17boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+31
+32*ï
+11_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaπ π(•
+¢
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaπ π(
+%40void"ij.IJ#showProgress(II)V*	"
+ij.IJ*
+""*
+""*
+8
+9*Ö
+23_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java™ ™(!•
+¢
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java´ ´(
+%26ij.ImagePlus"__id*$*"
+ij.plugin.ZAxisProfiler"
+imp„‡
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java´ ´((
+%27ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+%26ij.ImagePlus2getCalibration()™
+ß
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java´ ´()
+calij.measure.Calibration"__id*
+
+%27ij.measure.Calibrationùö
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java¨ ¨($
+%28ij.measure.ResultsTable"ij.measure.ResultsTable∞
+≠
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java¨ ¨(&
+%29"!ij.measure.ResultsTable#<init>()V* 
+
+%28ij.measure.ResultsTable´
+®
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java¨ ¨('
+rtij.measure.ResultsTable"__id* 
+
+%28ij.measure.ResultsTable•
+¢
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java≠# ≠(&
+%30ij.ImagePlus"__id*$*"
+ij.plugin.ZAxisProfiler"
+imp°û
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java≠ ≠(" 
+%31ij.plugin.filter.Analyzer"ij.plugin.filter.Analyzerì
+ê
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java≠ ≠(+
+%32"Jij.plugin.filter.Analyzer#<init>(Lij/ImagePlus;Lij/measure/ResultsTable;)V*"
+ 
+%31ij.plugin.filter.Analyzer*
+
+%30ij.ImagePlus*
+
+rtij.measure.ResultsTableµ
+≤
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.java≠ ≠(,%
+analyzerij.plugin.filter.Analyzer"__id*"
+ 
+%31ij.plugin.filter.AnalyzerΩ
+∫
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ZAxisProfiler.javaÆ Æ(/
+
+%33int",ij.plugin.filter.Analyzer#getMeasurements()I*"
+ij.plugin.filter.Analyzer*
+19
+20:
+roi
+ij.gui.Roi:
+"":
+""B
+ij.plugin.ZAxisProfiler

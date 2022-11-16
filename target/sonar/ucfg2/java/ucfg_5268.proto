@@ -1,0 +1,1272 @@
+
+Dij.plugin.frame.Editor#create(Ljava/lang/String;Ljava/lang/String;)V^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaí í("35*›
+25^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¨ ¨(#ËÂ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¨ ¨(4
+%107boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+.bsh2endsWith(Ljava/lang/String;)*
+19
+21
+23*µé
+26^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaô ô(!àÖ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaô ô(
+%13java.awt.Menu"java.awt.Menuπ
+∂
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaô ô("
+%14")java.awt.Menu#<init>(Ljava/lang/String;)V*
+
+%13java.awt.Menu*
+
+Macros´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaô ô("(
+ij.plugin.frame.Editor"
+
+macrosMenu"__id*
+
+%13java.awt.Menu´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaö ö(
+%15java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaö= ö(J
+
+%16int"__id*
+""òï
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaö0 ö(<
+%17java.awt.MenuShortcut"java.awt.MenuShortcut∫
+∑
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaö, ö(K
+%18" java.awt.MenuShortcut#<init>(I)V*
+
+%17java.awt.MenuShortcut*
+
+
+%16intêç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaö ö(
+%19java.awt.MenuItem"java.awt.MenuItem˚
+¯
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaö ö(L
+%20"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%19java.awt.MenuItem*
+	Run Macro*
+
+%17java.awt.MenuShortcutÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaö ö(M
+%21java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%15java.awt.Menu*
+
+%19java.awt.MenuItem2add(Ljava/awt/MenuItem;)´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaõ õ(
+%22java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaõA õ(N
+
+%23int"__id*
+""òï
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaõ4 õ(@
+%24java.awt.MenuShortcut"java.awt.MenuShortcut∫
+∑
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaõ0 õ(O
+%25" java.awt.MenuShortcut#<init>(I)V*
+
+%24java.awt.MenuShortcut*
+
+
+%23intêç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaõ õ(
+%26java.awt.MenuItem"java.awt.MenuItemˇ
+¸
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaõ õ(P
+%27"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%26java.awt.MenuItem*
+Evaluate Line*
+
+%24java.awt.MenuShortcutÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaõ õ(Q
+%28java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%22java.awt.Menu*
+
+%26java.awt.MenuItem2add(Ljava/awt/MenuItem;)´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaú ú(
+%29java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenuêç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaú ú(
+%30java.awt.MenuItem"java.awt.MenuItem∆
+√
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaú ú(-
+%31"-java.awt.MenuItem#<init>(Ljava/lang/String;)V*
+
+%30java.awt.MenuItem*
+Abort MacroÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaú ú(.
+%32java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%29java.awt.Menu*
+
+%30java.awt.MenuItem2add(Ljava/awt/MenuItem;)´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaù ù(
+%33java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaùB ù(O
+
+%34int"__id*
+""òï
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaù5 ù(A
+%35java.awt.MenuShortcut"java.awt.MenuShortcut∫
+∑
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaù1 ù(P
+%36" java.awt.MenuShortcut#<init>(I)V*
+
+%35java.awt.MenuShortcut*
+
+
+%34intêç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaù ù(
+%37java.awt.MenuItem"java.awt.MenuItemÄ
+˝
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaù ù(Q
+%38"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%37java.awt.MenuItem*
+Install Macros*
+
+%35java.awt.MenuShortcutÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaù ù(R
+%39java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%33java.awt.Menu*
+
+%37java.awt.MenuItem2add(Ljava/awt/MenuItem;)´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaû û(
+%40java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaûF û(S
+
+%41int"__id*
+""òï
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaû9 û(E
+%42java.awt.MenuShortcut"java.awt.MenuShortcut¡
+æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaû5 û(Z
+%43"!java.awt.MenuShortcut#<init>(IZ)V*
+
+%42java.awt.MenuShortcut*
+
+
+%41int*2êç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaû û(
+%44java.awt.MenuItem"java.awt.MenuItemÑ
+Å
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaû û([
+%45"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%44java.awt.MenuItem*
+Macro Functions...*
+
+%42java.awt.MenuShortcutÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaû û(\
+%46java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%40java.awt.Menu*
+
+%44java.awt.MenuItem2add(Ljava/awt/MenuItem;)´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaü ü(
+%47java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaüF ü(S
+
+%48int"__id*
+""òï
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaü9 ü(E
+%49java.awt.MenuShortcut"java.awt.MenuShortcut¡
+æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaü5 ü(Z
+%50"!java.awt.MenuShortcut#<init>(IZ)V*
+
+%49java.awt.MenuShortcut*
+
+
+%48int*2êç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaü ü(
+%51java.awt.MenuItem"java.awt.MenuItemÑ
+Å
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaü ü([
+%52"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%51java.awt.MenuItem*
+Function Finder...*
+
+%49java.awt.MenuShortcutÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaü ü(\
+%53java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%47java.awt.Menu*
+
+%51java.awt.MenuItem2add(Ljava/awt/MenuItem;)´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java† †(
+%54java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenuêç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java† †(
+%55java.awt.MenuItem"java.awt.MenuItem—
+Œ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java† †(8
+%56"-java.awt.MenuItem#<init>(Ljava/lang/String;)V*
+
+%55java.awt.MenuItem*
+Enter Interactive ModeÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java† †(9
+%57java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%54java.awt.Menu*
+
+%55java.awt.MenuItem2add(Ljava/awt/MenuItem;)´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java° °(
+%58java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java°G °(T
+
+%59int"__id*
+""òï
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java°: °(F
+%60java.awt.MenuShortcut"java.awt.MenuShortcut¡
+æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java°6 °([
+%61"!java.awt.MenuShortcut#<init>(IZ)V*
+
+%60java.awt.MenuShortcut*
+
+
+%59int*2êç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java° °(
+%62java.awt.MenuItem"java.awt.MenuItemÜ
+É
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java° °(\
+%63"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%62java.awt.MenuItem*
+Assign to Repeat Cmd*
+
+%60java.awt.MenuShortcutÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java° °(]
+%64java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%58java.awt.Menu*
+
+%62java.awt.MenuItem2add(Ljava/awt/MenuItem;)´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¢ ¢(
+%65java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu∑¥
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¢ ¢(
+%66void"java.awt.Menu#addSeparator()V*
+
+%65java.awt.Menu2addSeparator()´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java£ £(
+%67java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenuêç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java£ £(
+%68java.awt.MenuItem"java.awt.MenuItem…
+∆
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java£ £(0
+%69"-java.awt.MenuItem#<init>(Ljava/lang/String;)V*
+
+%68java.awt.MenuItem*
+Evaluate MacroÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java£ £(1
+%70java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%67java.awt.Menu*
+
+%68java.awt.MenuItem2add(Ljava/awt/MenuItem;)´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java§ §(
+%71java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java§G §(T
+
+%72int"__id*
+""òï
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java§: §(F
+%73java.awt.MenuShortcut"java.awt.MenuShortcutø
+º
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java§6 §(\
+%74"!java.awt.MenuShortcut#<init>(IZ)V*
+
+%73java.awt.MenuShortcut*
+
+
+%72int*2 êç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java§ §(
+%75java.awt.MenuItem"java.awt.MenuItemÖ
+Ç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java§ §(]
+%76"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%75java.awt.MenuItem*
+Evaluate JavaScript*
+
+%73java.awt.MenuShortcutÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java§ §(^
+%77java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%71java.awt.Menu*
+
+%75java.awt.MenuItem2add(Ljava/awt/MenuItem;)´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java• •(
+%78java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java•F •(S
+
+%79int"__id*
+""òï
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java•9 •(E
+%80java.awt.MenuShortcut"java.awt.MenuShortcut¡
+æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java•5 •(Z
+%81"!java.awt.MenuShortcut#<init>(IZ)V*
+
+%80java.awt.MenuShortcut*
+
+
+%79int*2êç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java• •(
+%82java.awt.MenuItem"java.awt.MenuItemÑ
+Å
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java• •([
+%83"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%82java.awt.MenuItem*
+Evaluate BeanShell*
+
+%80java.awt.MenuShortcutÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java• •(\
+%84java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%78java.awt.Menu*
+
+%82java.awt.MenuItem2add(Ljava/awt/MenuItem;)´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¶ ¶(
+%85java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¶C ¶(P
+
+%86int"__id*
+""òï
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¶6 ¶(B
+%87java.awt.MenuShortcut"java.awt.MenuShortcutø
+º
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¶2 ¶(X
+%88"!java.awt.MenuShortcut#<init>(IZ)V*
+
+%87java.awt.MenuShortcut*
+
+
+%86int*2 êç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¶ ¶(
+%89java.awt.MenuItem"java.awt.MenuItemÅ
+˛
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¶ ¶(Y
+%90"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%89java.awt.MenuItem*
+Evaluate Python*
+
+%87java.awt.MenuShortcutÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¶ ¶(Z
+%91java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%85java.awt.Menu*
+
+%89java.awt.MenuItem2add(Ljava/awt/MenuItem;)´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaß ß(
+%92java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaßC ß(P
+
+%93int"__id*
+""òï
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaß6 ß(B
+%94java.awt.MenuShortcut"java.awt.MenuShortcut¡
+æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaß2 ß(W
+%95"!java.awt.MenuShortcut#<init>(IZ)V*
+
+%94java.awt.MenuShortcut*
+
+
+%93int*2êç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaß ß(
+%96java.awt.MenuItem"java.awt.MenuItemÅ
+˛
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaß ß(X
+%97"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%96java.awt.MenuItem*
+Show Log Window*
+
+%94java.awt.MenuShortcutÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaß ß(Y
+%98java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%92java.awt.Menu*
+
+%96java.awt.MenuItem2add(Ljava/awt/MenuItem;)´
+®
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java® ®(
+%99java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu∏µ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java® ®(
+%100void"java.awt.Menu#addSeparator()V*
+
+%99java.awt.Menu2addSeparator()¨
+©
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java™ ™(
+%101java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu°û
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java™ ™(%
+%102void"Ejava.awt.MenuItem#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+%101java.awt.Menu*
+ij.plugin.frame.Editor22addActionListener(Ljava/awt/event/ActionListener;)ß
+§
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java´ ´(
+%103java.awt.MenuBar"__id*"* 
+ij.plugin.frame.Editor"
+mb¨
+©
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java´
+ ´(
+%104java.awt.Menu"__id***(
+ij.plugin.frame.Editor"
+
+macrosMenu˚¯
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java´ ´(
+%105java.awt.Menu"4java.awt.MenuBar#add(Ljava/awt/Menu;)Ljava/awt/Menu;*
+
+%103java.awt.MenuBar*
+
+%104java.awt.Menu2add(Ljava/awt/Menu;)Á‰
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¨	 ¨(
+%106boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+.js2endsWith(Ljava/lang/String;)*
+25
+19
+21
+23*œ
+27^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaòa ò(eﬁ€
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaòa ò(r
+
+%12int"-java.lang.String#indexOf(Ljava/lang/String;)I*
+
+namejava.lang.String*
+.2indexOf(Ljava/lang/String;)*
+26
+20*◊
+28^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaòI ò(MÊ„
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaòI ò(]
+%11boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+.py2endsWith(Ljava/lang/String;)*
+26
+27*ÿ
+29^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaò0 ò(4Á‰
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaò0 ò(E
+%10boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+.bsh2endsWith(Ljava/lang/String;)*
+26
+28*÷
+30^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaò ò(Â‚
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaò ò(,
+%9boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+.js2endsWith(Ljava/lang/String;)*
+26
+29*◊
+32^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaó4 ó(8Ê„
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaó4 ó(I
+%8boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+.ijm2endsWith(Ljava/lang/String;)*
+26
+30*ı
+10^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≈# ≈('ıÚ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≈# ≈(9
+%171boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+namejava.lang.String*	
+Tool.2"contains(Ljava/lang/CharSequence;)ëé
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∆ ∆(,
+%172void":ij.plugin.frame.Editor#installMacros(Ljava/lang/String;Z)V*
+ij.plugin.frame.Editor*
+
+textjava.lang.String*
+""2"installMacros(Ljava/lang/String;Z)˝˙
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java« «(0
+%173boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+textjava.lang.String*
+//@AutoInstallAndHide2startsWith(Ljava/lang/String;)*
+8*·
+33^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaï ï(¶
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaï ï(
+%4java.awt.TextArea"__id*"* 
+ij.plugin.frame.Editor"
+ta–Õ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaï ï(
+
+%5void"+java.awt.TextComponent#setCaretPosition(I)V*
+
+%4java.awt.TextArea*2 2setCaretPosition(I)áÑ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javañ ñ(
+
+%6void":ij.plugin.frame.Editor#setWindowTitle(Ljava/lang/String;)V*
+ij.plugin.frame.Editor*
+
+namejava.lang.String2"setWindowTitle(Ljava/lang/String;)Ê„
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaó ó(0
+%7boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+.txt2endsWith(Ljava/lang/String;)*
+26
+30
+32*ÿ
+11^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaƒC ƒ(GËÂ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaƒC ƒ(X
+%170boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+.txt2endsWith(Ljava/lang/String;)*
+8
+10*˝
+34^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaî î(ê
+ç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaî î( 
+
+%3void"ij.IJ#wait(I)V*	"
+ij.IJ*2*
+33*Ÿ
+12^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaƒ, ƒ(0ËÂ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaƒ, ƒ(A
+%169boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+.ijm2endsWith(Ljava/lang/String;)*
+10
+11*û
+35^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaì ì(¶
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaì ì(
+%0java.awt.TextArea"__id*"* 
+ij.plugin.frame.Editor"
+taÒÓ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaì ì(
+
+%1void"-java.awt.TextArea#append(Ljava/lang/String;)V*
+
+%0java.awt.TextArea*
+
+textjava.lang.String2append(Ljava/lang/String;)ê
+ç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaî î(
+%2boolean"ij.IJ#isMacOSX()Z*	"
+ij.IJ*
+33
+34*Ê
+13^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaƒ ƒ(
+ˆÛ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaƒ ƒ('
+%168boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+textjava.lang.String*
+//@AutoInstall2startsWith(Ljava/lang/String;)*
+8
+12*œ
+15^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaø ø(¨
+©
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaø ø(
+%164java.awt.Choice"__id*(*&
+ij.plugin.frame.Editor"
+
+languageç
+ä
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaø ø(
+%165java.lang.String[]"__id*
+""Ø
+¨
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaø ø(!
+%166java.lang.String"
+__arrayGet*
+
+%165java.lang.String[]*
+""ÒÓ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaø ø("
+%167void"+java.awt.Choice#select(Ljava/lang/String;)V*
+
+%164java.awt.Choice*
+
+%166java.lang.String2select(Ljava/lang/String;)*
+13*≠
+16^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaæ æ(ç
+ä
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaæ æ( 
+%161java.lang.String[]"__id*
+""Ø
+¨
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaæ æ(#
+%162java.lang.String"
+__arrayGet*
+
+%161java.lang.String[]*
+""˙˜
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaæ æ($
+%163boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+
+%162java.lang.String2endsWith(Ljava/lang/String;)*
+15
+17*˛
+17^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaΩ Ω(ç
+ä
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaΩ Ω(
+%160java.lang.String[]"__id*
+""*
+13
+16*ù
+19^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaº º(¨
+©
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaº º(
+%159java.awt.Choice"__id*(*&
+ij.plugin.frame.Editor"
+
+language*
+13
+17*|
+0 "u
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÿ ÿ(
+implicit return*Ω
+1^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java’ ’(“
+œ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java’ ’(
+%185void"-ij.WindowManager#setWindow(Ljava/awt/Frame;)V*"
+ij.WindowManager*
+ij.plugin.frame.Editor*
+0*ë
+2^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java— —(Ω
+∫
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java— —(
+%179void".ij.plugin.frame.Editor#enterInteractiveMode()V*
+ij.plugin.frame.Editor®
+•
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java“ “(
+%180java.awt.TextArea"__id*"* 
+ij.plugin.frame.Editor"
+taŸ÷
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java“ “(
+%181java.lang.String"2java.awt.TextComponent#getText()Ljava/lang/String;*
+
+%180java.awt.TextArea2	getText()û
+õ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java“ “(
+txtjava.lang.String"__id*
+
+%181java.lang.String®
+•
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java” ”(
+%182java.awt.TextArea"__id*"* 
+ij.plugin.frame.Editor"
+ta±Æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java” ”(#
+%183int"java.lang.String#length()I*
+
+txtjava.lang.String2length()ﬂ‹
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java” ”($
+%184void"+java.awt.TextComponent#setCaretPosition(I)V*
+
+%182java.awt.TextArea*
+
+%183int2setCaretPosition(I)*
+1*Ú
+3^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java– –(
+ã
+à
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java– –("
+%177java.lang.String"__id*
+""ˆÛ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java– –(#
+%178boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+
+%177java.lang.String2equals(Ljava/lang/Object;)*
+2
+1*ü
+4^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÕ Õ(
+¥±
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÕ Õ(
+%176void"java.awt.Window#dispose()V*
+ij.plugin.frame.Editor2	dispose()*
+3*ú
+6^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÀ À(Æ´
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÀ À(	
+%175void"java.awt.Window#show()V*
+ij.plugin.frame.Editor2show()*
+3
+4*í
+8^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java   (°
+û
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java   (
+%174	ij.ImageJ"ij.IJ#getInstance()Lij/ImageJ;*	"
+ij.IJ*	
+3
+4
+6*Ç
+20^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaπ π(™
+ß
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaπ π(
+%150java.awt.Menu"__id*(*&
+ij.plugin.frame.Editor"
+
+fileMenuπ∂
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaπ π(
+%151void"java.awt.Menu#addSeparator()V*
+
+%150java.awt.Menu2addSeparator()™
+ß
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∫ ∫(
+%152java.awt.Menu"__id*(*&
+ij.plugin.frame.Editor"
+
+fileMenu}
+{
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∫A ∫(N
+%153int"__id*
+""ôñ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∫4 ∫(@
+%154java.awt.MenuShortcut"java.awt.MenuShortcutΩ
+∫
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∫0 ∫(O
+%155" java.awt.MenuShortcut#<init>(I)V*
+
+%154java.awt.MenuShortcut*
+
+%153intëé
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∫ ∫(
+%156java.awt.MenuItem"java.awt.MenuItemÑ
+Å
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∫ ∫(P
+%157"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%156java.awt.MenuItem*
+Compile and Run*
+
+%154java.awt.MenuShortcutâÜ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∫ ∫(Q
+%158java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%152java.awt.Menu*
+
+%156java.awt.MenuItem2add(Ljava/awt/MenuItem;)*
+19*ñA
+21^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≠ ≠(%âÜ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≠ ≠(
+%109java.awt.Menu"java.awt.Menu∫
+∑
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≠ ≠(&
+%110")java.awt.Menu#<init>(Ljava/lang/String;)V*
+
+%109java.awt.Menu*	
+Debugû
+õ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≠ ≠('
+	debugMenujava.awt.Menu"__id*
+
+%109java.awt.Menu}
+{
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÆ? Æ(L
+%111int"__id*
+""ôñ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÆ2 Æ(>
+%112java.awt.MenuShortcut"java.awt.MenuShortcutΩ
+∫
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÆ. Æ(M
+%113" java.awt.MenuShortcut#<init>(I)V*
+
+%112java.awt.MenuShortcut*
+
+%111intëé
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÆ Æ(
+%114java.awt.MenuItem"java.awt.MenuItemÄ
+˝
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÆ Æ(N
+%115"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%114java.awt.MenuItem*
+Debug Macro*
+
+%112java.awt.MenuShortcutéã
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaÆ Æ(O
+%116java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+	debugMenujava.awt.Menu*
+
+%114java.awt.MenuItem2add(Ljava/awt/MenuItem;)}
+{
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaØ8 Ø(E
+%117int"__id*
+""ôñ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaØ+ Ø(7
+%118java.awt.MenuShortcut"java.awt.MenuShortcutΩ
+∫
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaØ' Ø(F
+%119" java.awt.MenuShortcut#<init>(I)V*
+
+%118java.awt.MenuShortcut*
+
+%117intëé
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaØ Ø(
+%120java.awt.MenuItem"java.awt.MenuItem˘
+ˆ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaØ Ø(G
+%121"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%120java.awt.MenuItem*
+Step*
+
+%118java.awt.MenuShortcutéã
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaØ Ø(H
+%122java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+	debugMenujava.awt.Menu*
+
+%120java.awt.MenuItem2add(Ljava/awt/MenuItem;)}
+{
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∞9 ∞(F
+%123int"__id*
+""ôñ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∞, ∞(8
+%124java.awt.MenuShortcut"java.awt.MenuShortcutΩ
+∫
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∞( ∞(G
+%125" java.awt.MenuShortcut#<init>(I)V*
+
+%124java.awt.MenuShortcut*
+
+%123intëé
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∞ ∞(
+%126java.awt.MenuItem"java.awt.MenuItem˙
+˜
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∞ ∞(H
+%127"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%126java.awt.MenuItem*	
+Trace*
+
+%124java.awt.MenuShortcutéã
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∞ ∞(I
+%128java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+	debugMenujava.awt.Menu*
+
+%126java.awt.MenuItem2add(Ljava/awt/MenuItem;)}
+{
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java±> ±(K
+%129int"__id*
+""ôñ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java±1 ±(=
+%130java.awt.MenuShortcut"java.awt.MenuShortcutƒ
+¡
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java±- ±(Q
+%131"!java.awt.MenuShortcut#<init>(IZ)V*
+
+%130java.awt.MenuShortcut*
+
+%129int*2ëé
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java± ±(
+%132java.awt.MenuItem"java.awt.MenuItemˇ
+¸
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java± ±(R
+%133"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%132java.awt.MenuItem*
+
+Fast Trace*
+
+%130java.awt.MenuShortcutéã
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java± ±(S
+%134java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+	debugMenujava.awt.Menu*
+
+%132java.awt.MenuItem2add(Ljava/awt/MenuItem;)ëé
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≤ ≤(
+%135java.awt.MenuItem"java.awt.MenuItem¿
+Ω
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≤ ≤(%
+%136"-java.awt.MenuItem#<init>(Ljava/lang/String;)V*
+
+%135java.awt.MenuItem*
+Runéã
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≤ ≤(&
+%137java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+	debugMenujava.awt.Menu*
+
+%135java.awt.MenuItem2add(Ljava/awt/MenuItem;)}
+{
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≥J ≥(W
+%138int"__id*
+""ôñ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≥= ≥(I
+%139java.awt.MenuShortcut"java.awt.MenuShortcutƒ
+¡
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≥9 ≥(^
+%140"!java.awt.MenuShortcut#<init>(IZ)V*
+
+%139java.awt.MenuShortcut*
+
+%138int*2ëé
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≥ ≥(
+%141java.awt.MenuItem"java.awt.MenuItemã
+à
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≥ ≥(_
+%142"Djava.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V*
+
+%141java.awt.MenuItem*
+Run to Insertion Point*
+
+%139java.awt.MenuShortcutéã
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java≥ ≥(`
+%143java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+	debugMenujava.awt.Menu*
+
+%141java.awt.MenuItem2add(Ljava/awt/MenuItem;)ëé
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¥ ¥(
+%144java.awt.MenuItem"java.awt.MenuItem¬
+ø
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¥ ¥('
+%145"-java.awt.MenuItem#<init>(Ljava/lang/String;)V*
+
+%144java.awt.MenuItem*	
+Abortéã
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¥ ¥((
+%146java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+	debugMenujava.awt.Menu*
+
+%144java.awt.MenuItem2add(Ljava/awt/MenuItem;)¶£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.javaµ µ(%
+%147void"Ejava.awt.MenuItem#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+	debugMenujava.awt.Menu*
+ij.plugin.frame.Editor22addActionListener(Ljava/awt/event/ActionListener;)ß
+§
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∂ ∂(
+%148java.awt.MenuBar"__id*"* 
+ij.plugin.frame.Editor"
+mbÄ˝
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java∂ ∂(
+%149java.awt.Menu"4java.awt.MenuBar#add(Ljava/awt/Menu;)Ljava/awt/Menu;*
+
+%148java.awt.MenuBar*
+
+	debugMenujava.awt.Menu2add(Ljava/awt/Menu;)*
+19*ÿ
+23^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¨6 ¨(:Á‰
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Editor.java¨6 ¨(J
+%108boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+.py2endsWith(Ljava/lang/String;)*
+19
+21:
+namejava.lang.String:
+textjava.lang.StringB
+ij.plugin.frame.Editor

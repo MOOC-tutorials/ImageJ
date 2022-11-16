@@ -1,0 +1,9 @@
+ij.macro.Functions#getWindowType()Ljava/lang/String;
+java.lang.Object#getClass()Ljava/lang/Class;
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.Class#getName()Ljava/lang/String;
+java.lang.String#lastIndexOf(I)I
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#isEmpty()Z
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+ij.WindowManager#getActiveWindow()Ljava/awt/Window;

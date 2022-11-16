@@ -1,0 +1,13 @@
+ij.Menus#checkSubdirectory(Ljava/lang/String;Ljava/lang/String;Ljava/util/Vector;)V
+java.util.Vector#<init>()V
+java.util.Vector#instance-init#
+java.lang.String#length()I
+java.lang.String#endsWith(Ljava/lang/String;)Z
+ij.Menus#validMacroName(Ljava/lang/String;Z)Z
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#
+java.io.File#<init>(Ljava/lang/String;Ljava/lang/String;)V
+java.lang.String#substring(II)Ljava/lang/String;
+java.lang.String#indexOf(I)I
+java.lang.String#indexOf(Ljava/lang/String;)I
+ij.Menus#installSubdirectorMacros(Ljava/io/File;Ljava/lang/String;)V

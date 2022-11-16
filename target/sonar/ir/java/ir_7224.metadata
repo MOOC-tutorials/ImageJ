@@ -1,0 +1,12 @@
+ij.gui.ImageWindow#createSubtitle()Ljava/lang/String;
+java.lang.String#length()I
+ij.gui.ImageWindow#getImageSize(Lij/ImagePlus;)Ljava/lang/String;
+java.lang.String#replace(CC)Ljava/lang/String;
+java.lang.Character#isDigit(C)Z
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#charAt(I)C
+java.lang.String#substring(II)Ljava/lang/String;
+ij.IJ#d2s(DI)Ljava/lang/String;
+java.lang.String#indexOf(I)I
+ij.gui.ImageWindow#d2s(D)Ljava/lang/String;
+ij.util.Tools#getDecimalPlaces(DD)I

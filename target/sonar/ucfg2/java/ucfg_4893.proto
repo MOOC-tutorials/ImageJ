@@ -1,0 +1,88 @@
+
+&ij.plugin.GaussianBlur3D#showDialog()Z^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java ("3*Õ
+2^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java
+ ("h
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java (
+""*¥
+3^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java' (9ïí
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java (&
+%0ij.gui.GenericDialog"ij.gui.GenericDialogœ
+Ã
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java (:
+%1"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%0ij.gui.GenericDialog*
+3D Gaussian Blur£
+†
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java (;
+gdij.gui.GenericDialog"__id*
+
+%0ij.gui.GenericDialogçä
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java (+
+
+%2void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+
+X sigma:*
+""*22%addNumericField(Ljava/lang/String;DI)çä
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java (+
+
+%3void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+
+Y sigma:*
+""*22%addNumericField(Ljava/lang/String;DI)çä
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java (+
+
+%4void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+
+Z sigma:*
+""*22%addNumericField(Ljava/lang/String;DI)øº
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java (
+
+%5void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()ƒ¡
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java (
+%6boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+2
+1*´
+1^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java   («ƒ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java   (
+%7double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()«ƒ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java! !(
+%8double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()«ƒ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java" "(
+%9double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()"h
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GaussianBlur3D.java# #(
+""B
+ij.plugin.GaussianBlur3D

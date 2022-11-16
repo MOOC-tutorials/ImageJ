@@ -1,0 +1,5 @@
+ij.plugin.ThreadLister#listAllThreads(Ljava/io/PrintWriter;)V
+ij.plugin.ThreadLister#list_group(Ljava/io/PrintWriter;Ljava/lang/ThreadGroup;Ljava/lang/String;)V
+java.lang.ThreadGroup#getParent()Ljava/lang/ThreadGroup;
+java.lang.Thread#getThreadGroup()Ljava/lang/ThreadGroup;
+java.lang.Thread#currentThread()Ljava/lang/Thread;

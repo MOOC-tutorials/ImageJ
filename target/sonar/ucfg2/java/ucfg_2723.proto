@@ -1,0 +1,671 @@
+
+7ij.plugin.FFTMath#doMath(Lij/ImagePlus;Lij/ImagePlus;)VW
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaQ Q("32*∏
+24W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javae	 e(ı
+Ú
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javae	 e(Z
+%14void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+
+FFT Math*=;
+9Images must be a power of 2 size (256x256, 512x512, etc.)"a
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaf	 f(
+""*û
+25W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javad d(¥±
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javad d(
+%13boolean"ij.process.FHT#powerOf2Size()Z*
+
+h1ij.process.FHT2powerOf2Size()*
+24
+23*’
+26W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javab b(ÉÄ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javab b(
+%11ij.process.FHT"ij.process.FHT’
+“
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javab b(
+%12"3ij.process.FHT#<init>(Lij/process/ImageProcessor;)V*
+
+%11ij.process.FHT*"
+ 
+ip2ij.process.ImageProcessorë
+é
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javab b(
+h2ij.process.FHT"__id*
+
+%11ij.process.FHT*
+25*Û
+27W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java` `("ﬁ€
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java` `(1 
+%10ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+imp2ij.ImagePlus2getProcessor()®
+•
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java`	 `(2 
+ip2ij.process.ImageProcessor"__id*"
+ 
+%10ij.process.ImageProcessor*
+25
+26*—
+28W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java^ ^(Å
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java^ ^(
+%8ij.process.FHT"ij.process.FHT‘
+—
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java^ ^(
+%9"3ij.process.FHT#<init>(Lij/process/ImageProcessor;)V*
+
+%8ij.process.FHT*#
+!
+fht2ij.process.ImageProcessorê
+ç
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java^ ^(
+h2ij.process.FHT"__id*
+
+%8ij.process.FHT*
+25*Ç
+29W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java\ \(ˆÛ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java\ \(1
+%7java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+imp2ij.ImagePlus*
+FHT2getProperty(Ljava/lang/String;)ü
+ú
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java\ \(1!
+fht2ij.process.ImageProcessor"__id*
+
+%7java.lang.Object*
+27
+28*ê	
+30W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaX X(≥
+∞
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaX X('
+
+%3void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+Converting to float›⁄
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaY Y(1
+%4ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+imp1ij.ImagePlus2getProcessor()ß
+§
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaY	 Y(2 
+ip1ij.process.ImageProcessor"__id*!
+
+%4ij.process.ImageProcessorÅ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaZ Z(
+%5ij.process.FHT"ij.process.FHT”
+–
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaZ Z(
+%6"3ij.process.FHT#<init>(Lij/process/ImageProcessor;)V*
+
+%5ij.process.FHT*"
+ 
+ip1ij.process.ImageProcessorê
+ç
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaZ
+ Z(
+h1ij.process.FHT"__id*
+
+%5ij.process.FHT*
+29*—
+31W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaV V(Å
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaV V(
+%1ij.process.FHT"ij.process.FHT‘
+—
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaV V(
+%2"3ij.process.FHT#<init>(Lij/process/ImageProcessor;)V*
+
+%1ij.process.FHT*#
+!
+fht1ij.process.ImageProcessorê
+ç
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaV V(
+h1ij.process.FHT"__id*
+
+%1ij.process.FHT*
+29*§
+32W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaR R(
+}
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaR R(
+h1ij.process.FHT"__id*
+""
+}
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaR R(
+h2ij.process.FHT"__id*
+""ç
+ä
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaS S(!
+fht1ij.process.ImageProcessor"__id*
+""ç
+ä
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaS S(!
+fht2ij.process.ImageProcessor"__id*
+""ˆÛ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaT T(1
+%0java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+imp1ij.ImagePlus*
+FHT2getProperty(Ljava/lang/String;)ü
+ú
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaT T(1!
+fht1ij.process.ImageProcessor"__id*
+
+%0java.lang.Object*
+30
+31*˝
+10Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaâ â(¥
+±
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaâ â(%
+%34void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+Inverse transformøº
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaä ä(
+%35void""ij.process.FHT#inverseTransform()V*
+
+resultij.process.FHT2inverseTransform()±
+Æ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaã ã("
+%36void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+Swap quadrantsπ∂
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaå å(
+%37void"ij.process.FHT#swapQuadrants()V*
+
+resultij.process.FHT2swapQuadrants()∞
+≠
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaç ç(!
+%38void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+Display image∆√
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaé é(
+%39void"+ij.process.FloatProcessor#resetMinAndMax()V*
+
+resultij.process.FHT2resetMinAndMax()ü
+ú
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaè è(
+%40java.lang.String"__id* *
+ij.plugin.FFTMath"
+titleÄ~
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaè è(
+%41ij.ImagePlus"ij.ImagePlus¯
+ı
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaè
+ è(&
+%42"Cij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%41ij.ImagePlus*
+
+%40java.lang.String*
+
+resultij.process.FHTë
+é
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaè è(&
+imp3ij.ImagePlus"__id*
+
+%41ij.ImagePlus*
+8*Ï
+11Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaá á(Å
+
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaá á(
+imp3ij.ImagePlus"__id*
+""*
+9
+10*›
+12W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javax x(Ñ
+Å
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javax x(
+resultij.process.FHT"__id*
+""u
+s
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaz z(
+
+%31int"__id*
+""u
+s
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java~ ~(
+
+%32int"__id*
+""w
+u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaÇ Ç(
+
+%33int"__id*
+""*
+13
+14
+15
+11*µ
+13Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaÇ Ö(
+∏
+µ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaÉ É(*
+%29void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+Fourier domain divide¯ı
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaÑ Ñ(
+%30ij.process.FHT"7ij.process.FHT#divide(Lij/process/FHT;)Lij/process/FHT;*
+
+h1ij.process.FHT*
+
+h2ij.process.FHT2divide(Lij/process/FHT;)ó
+î
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaÑ Ñ(
+resultij.process.FHT"__id*
+
+%30ij.process.FHT*
+11*∏
+14X
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java~ Å(
+∏
+µ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java (,
+%27void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+Fourier domain multiply¸˘
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaÄ Ä(
+%28ij.process.FHT"9ij.process.FHT#multiply(Lij/process/FHT;)Lij/process/FHT;*
+
+h1ij.process.FHT*
+
+h2ij.process.FHT2multiply(Lij/process/FHT;)ó
+î
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaÄ Ä(
+resultij.process.FHT"__id*
+
+%28ij.process.FHT*
+11*»
+15W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaz }(
+ª
+∏
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java{ {(/
+%25void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+Complex conjugate multiplyåâ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java| |(%
+%26ij.process.FHT"Bij.process.FHT#conjugateMultiply(Lij/process/FHT;)Lij/process/FHT;*
+
+h1ij.process.FHT*
+
+h2ij.process.FHT2#conjugateMultiply(Lij/process/FHT;)ï
+í
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java| |(%
+resultij.process.FHT"__id*
+
+%26ij.process.FHT*
+11*≈
+16W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javat t(±
+Æ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javat t(&
+%23void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+Transform image2´®
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javau u(
+%24void"ij.process.FHT#transform()V*
+
+h2ij.process.FHT2transform()*
+12*Ω
+17W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javar r(Â‚
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javar r( 
+%20ij.process.ImageProcessor"@ij.process.FloatProcessor#duplicate()Lij/process/ImageProcessor;*
+
+h1ij.process.FHT2duplicate()ÉÄ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javar r(
+%21ij.process.FHT"ij.process.FHT’
+“
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javar	 r( 
+%22"3ij.process.FHT#<init>(Lij/process/ImageProcessor;)V*
+
+%21ij.process.FHT*"
+ 
+%20ij.process.ImageProcessorë
+é
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javar r( 
+h2ij.process.FHT"__id*
+
+%21ij.process.FHT*
+12*w
+0 "p
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java° °(
+implicit return*ï
+
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaú ú(áÑ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaú ú(
+%57void"6ij.ImagePlus#setCalibration(Lij/measure/Calibration;)V*
+
+imp3ij.ImagePlus* 
+
+cal3ij.measure.Calibration2(setCalibration(Lij/measure/Calibration;)ﬁ€
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaù	 ù(
+%58ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+imp3ij.ImagePlus2getCalibration()•
+¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaù ù(
+cal3ij.measure.Calibration"__id*
+
+%58ij.measure.Calibrationﬂ‹
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaû û("
+%59void"3ij.measure.Calibration#disableDensityCalibration()V* 
+
+cal3ij.measure.Calibration2disableDensityCalibration()°û
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaü ü(
+%60void"ij.ImagePlus#show()V*
+
+imp3ij.ImagePlus2show()ñ
+ì
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.java† †(
+%61void"ij.IJ#showProgress(D)V*	"
+ij.IJ*
+""*
+0*Ú
+2Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaõ
+ õ(å
+â
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaõ õ(
+cal3ij.measure.Calibration"__id*
+""*
+1*«
+3Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaö) ö(-•
+¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaö) ö(-
+%53ij.measure.Calibration"__id* 
+
+cal1ij.measure.Calibration•
+¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaö5 ö(9
+%53ij.measure.Calibration"__id* 
+
+cal2ij.measure.Calibrationéã
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaö) ö(:
+%56boolean"8ij.measure.Calibration#equals(Lij/measure/Calibration;)Z* 
+
+cal1ij.measure.Calibration* 
+
+cal2ij.measure.Calibration2 equals(Lij/measure/Calibration;)*
+2
+1*Õ
+4Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaö ö(•
+¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaö ö(
+%53ij.measure.Calibration"__id* 
+
+cal2ij.measure.Calibrationºπ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaö ö($
+%55boolean" ij.measure.Calibration#scaled()Z* 
+
+cal2ij.measure.Calibration2scaled()*
+3
+1*ı
+5Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaô ô(1•
+¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaô ô(1
+cal3ij.measure.Calibration"__id*
+
+%53ij.measure.Calibration•
+¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaö ö(
+
+%53ij.measure.Calibration"__id* 
+
+cal1ij.measure.Calibrationºπ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaö ö(
+%54boolean" ij.measure.Calibration#scaled()Z* 
+
+cal1ij.measure.Calibration2scaled()*
+4
+1*ã
+6Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaô, ô(0•
+¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaô, ô(0
+%53ij.measure.Calibration"__id* 
+
+cal2ij.measure.Calibration*
+5*ã
+7Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaô% ô()•
+¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaô% ô()
+%53ij.measure.Calibration"__id* 
+
+cal1ij.measure.Calibration*
+5*∑
+8Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaó ó(ﬁ€
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaó ó(*
+%50ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+imp1ij.ImagePlus2getCalibration()•
+¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaó ó(+
+cal1ij.measure.Calibration"__id*
+
+%50ij.measure.Calibrationﬁ€
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaò ò(*
+%51ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+imp2ij.ImagePlus2getCalibration()•
+¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaò ò(+
+cal2ij.measure.Calibration"__id*
+
+%51ij.measure.Calibrationºπ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaô ô("
+%52boolean" ij.measure.Calibration#scaled()Z* 
+
+cal1ij.measure.Calibration2scaled()*
+6
+7*é
+9Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaë ë(±
+Æ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaë ë("
+%43void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+Power spectrumÓÎ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaí í(0 
+%44ij.process.ImageProcessor"<ij.process.FHT#getPowerSpectrum()Lij/process/ImageProcessor;*
+
+resultij.process.FHT2getPowerSpectrum()©
+¶
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaí í(1
+psij.process.ImageProcessor"__id*"
+ 
+%44ij.process.ImageProcessorü
+ú
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaì ì(
+%45java.lang.String"__id* *
+ij.plugin.FFTMath"
+title¸˘
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaì ì(2 
+%46ij.process.ImageProcessor"Eij.process.ImageProcessor#convertToFloat()Lij/process/ImageProcessor;*!
+
+psij.process.ImageProcessor2convertToFloat()Ä~
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaì ì(
+%47ij.ImagePlus"ij.ImagePlusÄ
+˝
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaì
+ ì(3
+%48"Cij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%47ij.ImagePlus*
+
+%45java.lang.String*"
+ 
+%46ij.process.ImageProcessorë
+é
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaì ì(3
+imp3ij.ImagePlus"__id*
+
+%47ij.ImagePlusúô
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaï ï("
+%49void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+
+imp3ij.ImagePlus*
+FHT*
+
+resultij.process.FHT21setProperty(Ljava/lang/String;Ljava/lang/Object;)*
+8*Õ
+20W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javam m(±
+Æ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javam m($
+%18void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+Transform image1´®
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javan n(
+%19void"ij.process.FHT#transform()V*
+
+h1ij.process.FHT2transform()*
+16
+17
+12*õ
+22W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javai	 i(ÿ
+’
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javai	 i(=
+%17void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+
+FFT Math* 
+Images must be the same size"a
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javaj	 j(
+""*≈
+23W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javah h(¶£
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javah h(
+
+%15int"ij.ImagePlus#getWidth()I*
+
+imp1ij.ImagePlus2
+getWidth()¶£
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/FFTMath.javah h(,
+
+%16int"ij.ImagePlus#getWidth()I*
+
+imp2ij.ImagePlus2
+getWidth()*
+16
+17
+20
+22
+12:
+imp1ij.ImagePlus:
+imp2ij.ImagePlusB
+ij.plugin.FFTMath

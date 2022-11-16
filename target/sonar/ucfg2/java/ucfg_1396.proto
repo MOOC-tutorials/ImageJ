@@ -1,0 +1,70 @@
+
+Bij.io.ImageReader#readPixels(Ljava/lang/String;)Ljava/lang/Object;Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaË Ë("11*Ç
+2Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÌ Ì(ú
+ô
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÌ Ì(
+isjava.io.InputStream"__id*
+
+%4java.io.InputStream*
+1*∑
+5Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÌ Ì(—Œ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÌ Ì(
+%4java.io.InputStream".java.net.URL#openStream()Ljava/io/InputStream;*
+
+theURLjava.net.URL2openStream()*
+2*¯
+7Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÎ Î(í
+è
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÎ Î(
+theURLjava.net.URL"__id*
+
+%0java.net.URL*
+5*ß
+10Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÎ Î(}
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÎ Î(
+%0java.net.URL"java.net.URLø
+º
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÎ Î(
+%1"(java.net.URL#<init>(Ljava/lang/String;)V*
+
+%0java.net.URL*
+
+urljava.lang.String*
+7*ˆ
+11Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÈ È(Ñ
+Å
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÈ È(
+theURLjava.net.URL"__id*
+""á
+Ñ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÍ Í(
+isjava.io.InputStream"__id*
+""*
+10*Ï
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÔ	 Ô(îë
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÔ	 Ô(
+%7java.lang.Object"Eij.io.ImageReader#readPixels(Ljava/io/InputStream;)Ljava/lang/Object;*
+ij.io.ImageReader*
+
+isjava.io.InputStream2!readPixels(Ljava/io/InputStream;)"u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/ImageReader.javaÔ Ô(
+
+%7java.lang.Object:
+urljava.lang.StringB
+ij.io.ImageReader

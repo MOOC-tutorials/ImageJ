@@ -1,0 +1,345 @@
+
+=ij.process.StackStatistics#doCalculations(Lij/ImagePlus;IDD)V`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java	 ("57*ﬁ
+57`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java (Â‚
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java (-
+%0ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()Ø
+¨
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java (.
+ipij.process.ImageProcessor"__id*!
+
+%0ij.process.ImageProcessorΩ
+∫
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java   (8	
+%1int",ij.plugin.filter.Analyzer#getMeasurements()I*"
+ij.plugin.filter.Analyzer}
+{
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java 9  (>	
+%2int"__id*
+""
+}
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java! !((
+%3float"__id*
+""
+}
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java" "('
+%4float"__id*
+""„‡
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java# #(.
+%5ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()™
+ß
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java# #(/
+calij.measure.Calibration"__id*
+
+%5ij.measure.Calibration*
+54
+56*ï
+47`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaS S(»
+≈
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaS S(2
+%24void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*" 
+Calculating stack histogram...¶
+£
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaT T(!
+%25void"ij.IJ#showProgress(II)V*	"
+ij.IJ*
+""*
+""ÙÒ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaU U(! 
+%26ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stackij.ImageStack*
+""2getProcessor(I)∞
+≠
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaU U(!
+ipij.process.ImageProcessor"__id*"
+ 
+%26ij.process.ImageProcessor*
+47
+6
+41
+23*˚
+49`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaM M(8Å
+
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaP P("
+%22double"__id*
+""Å
+
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaQ Q(#
+%23double"__id*
+""*
+47
+6
+23*·
+17b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaÄ Ä(ÈÊ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaÄ Ä(1
+%31float",ij.process.ImageProcessor#getPixelValue(II)F*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixelValue(II)*
+17
+6
+23*–
+6b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaè è((ÙÒ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaí í(2
+%32void"0ij.process.ImageStatistics#calculateStdDev(DDD)V*
+ij.process.StackStatistics*
+""*
+""*
+""2calculateStdDev(DDD)◊‘
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaì ì(*
+%33double"&ij.measure.Calibration#getRawValue(D)D*
+
+calij.measure.Calibration*
+""2getRawValue(D)◊‘
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaî î(+
+%34double"&ij.measure.Calibration#getRawValue(D)D*
+
+calij.measure.Calibration*
+""2getRawValue(D)∂≥
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javañ ñ($
+
+%35int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()*
+1*·
+41`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java\
+ \(Á‰
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java\
+ \(
+%27float",ij.process.ImageProcessor#getPixelValue(II)F*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixelValue(II)*
+47
+6
+41
+23*Ô
+54`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java( ((∆√
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java+ +()
+%12ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+impij.ImagePlus2
+getStack()õ
+ò
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java+ +(*
+stackij.ImageStack"__id*
+
+%12ij.ImageStack™ß
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java, ,(
+
+%13int"ij.ImageStack#size()I*
+
+stackij.ImageStack2size()ºπ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java- -(
+%14
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()ÒÓ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java- -(
+%15void"/ij.process.ImageProcessor#setRoi(Lij/gui/Roi;)V*!
+
+ipij.process.ImageProcessor*
+
+%14
+ij.gui.Roi2setRoi(Lij/gui/Roi;)”–
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java. .('
+%16byte[]"*ij.process.ImageProcessor#getMaskArray()[B*!
+
+ipij.process.ImageProcessor2getMaskArray()å
+â
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java. .((
+maskbyte[]"__id*
+
+%16byte[]‰·
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java/ /(-
+%17ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()…∆
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java/ /(9
+%18float[]"$ij.measure.Calibration#getCTable()[F*
+
+%17ij.measure.Calibration2getCTable()«ƒ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java8 8(
+
+%19int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()…∆
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java9 9(
+
+%20int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()Â‚
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java: :(#
+%21java.awt.Rectangle"6ij.process.ImageProcessor#getRoi()Ljava/awt/Rectangle;*!
+
+ipij.process.ImageProcessor2getRoi()£
+†
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java: :($
+roijava.awt.Rectangle"__id*
+
+%21java.awt.Rectangle*
+49*Ÿ
+55`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java% %(◊‘
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java% %(2
+%8double",ij.process.ImageProcessor#getMinThreshold()D*!
+
+ipij.process.ImageProcessor2getMinThreshold()ÿ’
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java% %(3
+%9double"$ij.measure.Calibration#getCValue(D)D*
+
+calij.measure.Calibration*
+
+%8double2getCValue(D)ÿ’
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java& &(2
+%10double",ij.process.ImageProcessor#getMaxThreshold()D*!
+
+ipij.process.ImageProcessor2getMaxThreshold()⁄◊
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java& &(3
+%11double"$ij.measure.Calibration#getCValue(D)D*
+
+calij.measure.Calibration*
+
+%10double2getCValue(D)*
+54*Ä
+0 "y
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaû û(
+implicit return*Õ
+56`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java$ $(◊‘
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java$ $(.
+%6double",ij.process.ImageProcessor#getMinThreshold()D*!
+
+ipij.process.ImageProcessor2getMinThreshold()Ä
+~
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.java$0 $(K
+%7double"__id*
+""*
+54
+55*‰	
+1b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaô ô(ôñ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaô ô(
+%36double"=ij.process.StackStatistics#getMode(Lij/measure/Calibration;)D*
+ij.process.StackStatistics*
+
+calij.measure.Calibration2!getMode(Lij/measure/Calibration;) 
+«
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaö ö(
+%37void",ij.process.StackStatistics#copyHistogram(I)V*
+ij.process.StackStatistics*
+""Ω∫
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaõ õ(N
+%38double"Cij.process.StackStatistics#getMedian([JIILij/measure/Calibration;)D*
+ij.process.StackStatistics*
+""*
+""*
+""*
+
+calij.measure.Calibration2'getMedian([JIILij/measure/Calibration;)™
+ß
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaú ú(
+%39void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ* ü
+ú
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaù ù(
+%40void"ij.IJ#showProgress(D)V*	"
+ij.IJ*
+""*
+0*≥
+23`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javax x(¶
+£
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javax x(1
+%28void"ij.IJ#showProgress(II)V*	"
+ij.IJ*
+""*
+""ÙÒ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javay y(* 
+%29ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stackij.ImageStack*
+""2getProcessor(I)∞
+≠
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javay y(*
+ipij.process.ImageProcessor"__id*"
+ 
+%29ij.process.ImageProcessorÍÁ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackStatistics.javaz z(*
+%30void"2ij.process.ImageProcessor#setCalibrationTable([F)V*!
+
+ipij.process.ImageProcessor*
+""2setCalibrationTable([F)*
+6
+17
+23:
+impij.ImagePlus:
+"":
+"":
+""B
+ij.process.StackStatistics

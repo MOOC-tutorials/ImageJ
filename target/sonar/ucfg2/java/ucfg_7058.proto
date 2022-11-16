@@ -1,0 +1,142 @@
+
+.ij.plugin.GifDecoder#read(Ljava/lang/String;)I\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.java× ×("14*é
+13\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaÚ Ú(›
+˜
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaÚ Ú(
+namejava.lang.String"__id*
+
+%0java.lang.StringİÚ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaÛ Û(	
+%1int"-java.lang.String#indexOf(Ljava/lang/String;)I*
+
+namejava.lang.String*
+://2indexOf(Ljava/lang/String;)*
+7
+11*³
+14\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaÚ
+ Ú(ÈÅ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaÚ
+ Ú(
+%0java.lang.String")java.lang.String#trim()Ljava/lang/String;*
+
+namejava.lang.String2trim()*
+13*¦
+4\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaá á(­
+ª
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaá á("
+%11java.io.BufferedInputStream"__id* *
+ij.plugin.GifDecoder"
+inŠ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaá á(
+
+%12int"9ij.plugin.GifDecoder#read(Ljava/io/BufferedInputStream;)I*
+ij.plugin.GifDecoder*$
+"
+%11java.io.BufferedInputStream2#read(Ljava/io/BufferedInputStream;)*
+1*•
+5\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaß ß(;¬
+©
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaß ß(;
+ij.plugin.GifDecoder"
+in"__id*#
+!
+%9java.io.BufferedInputStream*
+4*÷
+6\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaß	 ß(;¡
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaß ß( !
+%9java.io.BufferedInputStream"java.io.BufferedInputStreamê
+ç
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaß	 ß(;
+%10":java.io.BufferedInputStream#<init>(Ljava/io/InputStream;)V*#
+!
+%9java.io.BufferedInputStream*
+
+%7java.io.FileInputStream*
+5*Ş
+7\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaß5 ß(9™–
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaß% ß(4
+%7java.io.FileInputStream"java.io.FileInputStreamÙ
+Ö
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaß! ß(:
+%8"3java.io.FileInputStream#<init>(Ljava/lang/String;)V*
+
+%7java.io.FileInputStream*
+
+namejava.lang.String*
+6*•
+8\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaİ İ(2¬
+©
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaİ İ(2
+ij.plugin.GifDecoder"
+in"__id*#
+!
+%5java.io.BufferedInputStream*
+4*ò
+9\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaİ	 İ(2¡
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaİ İ( !
+%5java.io.BufferedInputStream"java.io.BufferedInputStreamå
+â
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaİ	 İ(2
+%6":java.io.BufferedInputStream#<init>(Ljava/io/InputStream;)V*#
+!
+%5java.io.BufferedInputStream*
+
+%4java.io.InputStream*
+8*Ğ
+10\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaÜ Ü(’
+
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaÜ Ü(
+urljava.net.URL"__id*
+
+%2java.net.URLÑÎ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaİ! İ(1
+%4java.io.InputStream".java.net.URL#openStream()Ljava/io/InputStream;*
+
+urljava.net.URL2openStream()*
+9*´
+11\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaÜ Ü(ƒ€
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaÜ Ü(
+%2java.net.URL"java.net.URLÃ
+À
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaÜ Ü(
+%3"(java.net.URL#<init>(Ljava/lang/String;)V*
+
+%2java.net.URL*
+
+namejava.lang.String*
+10*É
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaæ	 æ("f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/GIF_Reader.javaæ æ(
+"":
+namejava.lang.StringB
+ij.plugin.GifDecoder

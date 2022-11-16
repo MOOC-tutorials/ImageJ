@@ -1,0 +1,105 @@
+
+6ij.plugin.RGBStackMerge#getPixels(Lij/ImageStack;II)[B_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaß ß("5"6*¨
+
+2_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaØ Ø(ÚÔ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaØ Ø(1
+%2ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stackij.ImageStack*
+""2getProcessor(I)Æ
+´
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaØ Ø(2
+ipij.process.ImageProcessor"__id*!
+
+%2ij.process.ImageProcessorâÜ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∞	 ∞(.
+%3ij.process.ImageProcessor"Eij.process.ImageProcessor#convertToByte(Z)Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor*
+""2convertToByte(Z)Æ
+´
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java∞ ∞(.
+ipij.process.ImageProcessor"__id*!
+
+%3ij.process.ImageProcessorÂ‚
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java± ±(!
+%4java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*!
+
+ipij.process.ImageProcessor2getPixels()"{
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java± ±("
+
+%4java.lang.Object*Â
+3_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java≠ ≠("
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java≠ ≠(
+
+pixelsjava.lang.Object*Ô
+5_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java™ ™(⁄◊
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java™ ™((
+%1java.lang.Object",ij.ImageStack#getPixels(I)Ljava/lang/Object;*
+
+stackij.ImageStack*
+""2getPixels(I)†
+ù
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java™ ™()
+pixelsjava.lang.Object"__id*
+
+%1java.lang.Object*	
+2
+3
+1*˙
+6_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java©
+ ©(†
+ù
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java©
+ ©(
+%0byte[]"__id*&*$
+ij.plugin.RGBStackMerge"
+blank"q
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java© ©(
+
+%0byte[]*◊
+1_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java¥' ¥(,ÚÔ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java¥' ¥(@
+%5ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stackij.ImageStack*
+""2getProcessor(I)Æ
+´
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.java¥ ¥(A
+cpij.process.ColorProcessor"__id*!
+
+%5ij.process.ImageProcessor◊‘
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaµ
+ µ(2
+%6byte[]")ij.process.ColorProcessor#getChannel(I)[B*!
+
+cpij.process.ColorProcessor*
+""2getChannel(I)"q
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackMerge.javaµ µ(3
+
+%6byte[]:
+stackij.ImageStack:
+"":
+""B
+ij.plugin.RGBStackMerge

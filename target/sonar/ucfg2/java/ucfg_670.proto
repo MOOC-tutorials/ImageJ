@@ -1,0 +1,165 @@
+
++ij.ImageJ#deleteOverlayRoi(Lij/ImagePlus;)ZQ
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java√ √(!"14"15*«
+13Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java… …(œÃ
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java… …( 
+%1ij.gui.Overlay"3ij.gui.ImageCanvas#getShowAllList()Lij/gui/Overlay;*
+
+icij.gui.ImageCanvas2getShowAllList()è
+å
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java… …( 
+overlayij.gui.Overlay"__id*
+
+%1ij.gui.Overlay*
+
+8
+9
+11*¡
+14Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java∆ ∆(~
+|
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java∆ ∆(
+overlayij.gui.Overlay"__id*
+""¬ø
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java« «("
+%0ij.gui.ImageCanvas",ij.ImagePlus#getCanvas()Lij/gui/ImageCanvas;*
+
+impij.ImagePlus2getCanvas()í
+è
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java« «(#
+icij.gui.ImageCanvas"__id*
+
+%0ij.gui.ImageCanvas*
+13
+8
+9
+11*≥
+3Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java◊ ◊("[
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java◊ ◊(
+""*¥
+15Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java≈
+ ≈("[
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java≈ ≈(
+""*–
+4Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java÷ ÷(ÚÔ
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java÷ ÷(#
+%9boolean"3ij.gui.ImageCanvas#roiManagerSelect(Lij/gui/Roi;Z)Z*
+
+icij.gui.ImageCanvas*
+
+roi
+ij.gui.Roi*22roiManagerSelect(Lij/gui/Roi;Z)*
+3*å
+5Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java“ “(≠™
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java“ “(
+
+%6void"ij.gui.Overlay#remove(I)V*
+
+overlayij.gui.Overlay*
+""2	remove(I)°û
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java” ”(
+
+%7void"ij.ImagePlus#deleteRoi()V*
+
+impij.ImagePlus2deleteRoi()¬ø
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java‘	 ‘(
+%8ij.gui.ImageCanvas",ij.ImagePlus#getCanvas()Lij/gui/ImageCanvas;*
+
+impij.ImagePlus2getCanvas()í
+è
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java‘ ‘(
+icij.gui.ImageCanvas"__id*
+
+%8ij.gui.ImageCanvas*
+3
+4*†
+6Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java– –(∏µ
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java– –(
+%5
+ij.gui.Roi"!ij.gui.Overlay#get(I)Lij/gui/Roi;*
+
+overlayij.gui.Overlay*
+""2get(I)Ñ
+Å
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java– –(
+roi2
+ij.gui.Roi"__id*
+
+%5
+ij.gui.Roi*
+5
+7*ˇ
+7Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.javaœ œ(ûõ
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.javaœ œ( 	
+%4int"ij.gui.Overlay#size()I*
+
+overlayij.gui.Overlay2size()*
+6
+1*ê
+8Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.javaŒ Œ(¨©
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.javaŒ Œ(
+%3
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()É
+Ä
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.javaŒ Œ(
+roi
+ij.gui.Roi"__id*
+
+%3
+ij.gui.Roi*
+7*≥
+9Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.javaÕ
+ Õ("[
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.javaÕ Õ(
+""*∞
+11Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.javaÀ À(ºπ
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.javaÀ À(
+%2ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+impij.ImagePlus2getOverlay()è
+å
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.javaÀ À(
+overlayij.gui.Overlay"__id*
+
+%2ij.gui.Overlay*
+8
+9*≥
+1Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java⁄	 ⁄("[
+Q
+E/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImageJ.java⁄ ⁄(
+"":
+impij.ImagePlusB
+	ij.ImageJ

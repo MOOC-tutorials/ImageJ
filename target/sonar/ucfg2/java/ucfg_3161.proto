@@ -1,0 +1,107 @@
+
+/ij.macro.Functions#setPlotColor(Lij/gui/Plot;)DZ
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaé é("3*Ÿ
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaî î(	¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaî î(	
+%5ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp·´
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaî î(
+
+%6void" ij.macro.Interpreter#getComma()V*
+
+%5ij.macro.Interpreter2
+getComma()¼
+¹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaï ï(
+%7java.awt.Color"-ij.macro.Functions#getColor()Ljava/awt/Color;*
+ij.macro.Functions—
+”
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaï ï(
+color2java.awt.Color"__id*
+
+%7java.awt.Color*
+1*–
+
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaê ê(¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaê ê(
+%0ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp¿¼
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaê ê(
+
+%1void"$ij.macro.Interpreter#getLeftParen()V*
+
+%0ij.macro.Interpreter2getLeftParen()¼
+¹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaë ë(
+%2java.awt.Color"-ij.macro.Functions#getColor()Ljava/awt/Color;*
+ij.macro.Functions–
+“
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaë ë(
+colorjava.awt.Color"__id*
+
+%2java.awt.Color‡
+„
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaì ì(
+color2java.awt.Color"__id*
+""¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaí í(
+%3ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp¸µ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaí í(	
+%4int"!ij.macro.Interpreter#nextToken()I*
+
+%3ij.macro.Interpreter2nextToken()*
+2
+1*Ð
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javañ ñ(ž›
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javañ ñ(
+
+%8void"7ij.gui.Plot#setColor(Ljava/awt/Color;Ljava/awt/Color;)V*
+
+plotij.gui.Plot*
+
+colorjava.awt.Color*
+
+color2java.awt.Color2*setColor(Ljava/awt/Color;Ljava/awt/Color;)¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaò ò(
+%9ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpÂ¿
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaò ò(
+%10void"%ij.macro.Interpreter#getRightParen()V*
+
+%9ij.macro.Interpreter2getRightParen(){
+y
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaó	 ó(
+%11double"__id*
+"""d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaó ó(
+"":
+plotij.gui.PlotB
+ij.macro.Functions

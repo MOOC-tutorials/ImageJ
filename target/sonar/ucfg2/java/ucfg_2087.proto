@@ -1,0 +1,141 @@
+
+?ij.macro.Interpreter#eval(Ljava/lang/String;)Ljava/lang/String;Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javas s("8*â
+2\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaÇ
+ Ç(´
+®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaÇ
+ Ç(
+%9java.lang.String"__id***(
+ij.macro.Interpreter"
+errorMessage"x
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaÇ Ç(
+
+%9java.lang.String*–
+3Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.java{ {(ï
+í
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.java| |(&
+ij.macro.Interpreter"
+
+evalOutput"__id*
+""ËÂ
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.java (
+
+
+%7void"-ij.macro.Interpreter#run(Lij/macro/Program;)V*
+ij.macro.Interpreter*
+
+pgmij.macro.Program2run(Lij/macro/Program;)µ
+≤
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaÄ Ä($
+ij.macro.Interpreter"
+
+instance"__id*&
+$
+saveInstanceij.macro.Interpreter´
+®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaÅ Å(
+%8java.lang.String"__id***(
+ij.macro.Interpreter"
+errorMessage*
+2
+1*·
+4Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaz z(˙˜
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaz z(
+
+%6void"6ij.macro.Interpreter#saveGlobals2(Lij/macro/Program;)V*
+ij.macro.Interpreter*
+
+pgmij.macro.Program2 saveGlobals2(Lij/macro/Program;)*
+3*Á
+6Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaw w(!çä
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaw w(
+%3ij.macro.Tokenizer"ij.macro.Tokenizerü
+ú
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaw w(!
+%4"ij.macro.Tokenizer#<init>()V*
+
+%3ij.macro.Tokenizerú
+ô
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaw w("
+tokij.macro.Tokenizer"__id*
+
+%3ij.macro.Tokenizerëé
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javax x("
+%5ij.macro.Program"Aij.macro.Tokenizer#tokenize(Ljava/lang/String;)Lij/macro/Program;*
+
+tokij.macro.Tokenizer*
+
+codejava.lang.String2tokenize(Ljava/lang/String;)ò
+ï
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javax x(#
+pgmij.macro.Program"__id*
+
+%5ij.macro.Program*
+3
+4*ñ
+7Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javav v(Ø
+¨
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javav v(
+
+%2void"(ij.macro.Interpreter#reuseSymbolTable()V*
+ij.macro.Interpreter*
+6*‚
+8Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javat t(%©
+¶
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javat t(%
+%0ij.macro.Interpreter"__id*&*$
+ij.macro.Interpreter"
+
+instance©
+¶
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javat t(&$
+saveInstanceij.macro.Interpreter"__id*
+
+%0ij.macro.Interpreter†
+ù
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javau u(	
+%1ij.macro.Program"__id*!*
+ij.macro.Interpreter"
+pgm*
+6
+7*â
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaÑ
+ Ñ(™
+ß
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaÑ
+ Ñ(
+%10java.lang.String"__id*(*&
+ij.macro.Interpreter"
+
+evalOutput"y
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Interpreter.javaÑ Ñ(
+
+%10java.lang.String:
+codejava.lang.StringB
+ij.macro.Interpreter

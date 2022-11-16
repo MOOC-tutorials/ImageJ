@@ -1,0 +1,137 @@
+
+9ij.plugin.Clipboard#flatten(Lij/ImagePlus;)Lij/ImagePlus;Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaC C("7*›
+2Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaL	 L(ª∏
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaL	 L(
+%10ij.ImagePlus"$ij.ImagePlus#flatten()Lij/ImagePlus;*
+
+impij.ImagePlus2	flatten()ê
+ç
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaL L(
+impij.ImagePlus"__id*
+
+%10ij.ImagePlus—Œ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaM M(
+%11void""ij.ImagePlus#setRoi(Lij/gui/Roi;)V*
+
+impij.ImagePlus*
+
+roi
+ij.gui.Roi2setRoi(Lij/gui/Roi;)“œ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaN N(
+%12void""ij.ImagePlus#setRoi(Lij/gui/Roi;)V*
+
+imp2ij.ImagePlus*
+
+roi
+ij.gui.Roi2setRoi(Lij/gui/Roi;)*
+1*õ	
+3Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaH H(©¶
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaH H(
+
+%5void"ij.ImagePlus#deleteRoi()V*
+
+impij.ImagePlus2deleteRoi()¥±
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaI I(%	
+%6int"ij.ImagePlus#getCurrentSlice()I*
+
+impij.ImagePlus2getCurrentSlice()êç
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaJ J(
+%7ij.plugin.Duplicator"ij.plugin.Duplicator¢
+ü
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaJ
+ J(
+%8"ij.plugin.Duplicator#<init>()V*
+
+%7ij.plugin.DuplicatoràÖ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaJ
+ J(1
+%9ij.ImagePlus"8ij.plugin.Duplicator#run(Lij/ImagePlus;II)Lij/ImagePlus;*
+
+%7ij.plugin.Duplicator*
+
+impij.ImagePlus*
+""*
+""2run(Lij/ImagePlus;II)è
+å
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaJ J(1
+impij.ImagePlus"__id*
+
+%9ij.ImagePlus*
+2*
+4Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaE E(ë
+é
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaE E(
+imp2ij.ImagePlus"__id*
+
+impij.ImagePlus¥±
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaF F(
+%3
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()ã
+à
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaF F(
+roi
+ij.gui.Roi"__id*
+
+%3
+ij.gui.RoiÆ´
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaG G(	
+%4int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+2
+3*õ
+5Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaD: D(=≤Ø
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaD: D(L
+%2boolean"ij.ImagePlus#isHyperStack()Z*
+
+impij.ImagePlus2isHyperStack()*
+4
+1*ü
+6Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaD! D($∂≥
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaD! D(5
+%1boolean"ij.ImagePlus#getHideOverlay()Z*
+
+impij.ImagePlus2getHideOverlay()*
+5
+1*≠
+7Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaD D(	ƒ¡
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaD D(
+%0ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+impij.ImagePlus2getOverlay()*
+6
+1*“
+1Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaP	 P("r
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Clipboard.javaP P(
+
+impij.ImagePlus:
+impij.ImagePlusB
+ij.plugin.Clipboard

@@ -1,0 +1,16 @@
+ij.macro.Functions#doFunction(I)V
+ij.macro.Functions#doCommand()V
+ij.macro.Functions#setLineWidth(I)V
+ij.Undo#setup(ILij/ImagePlus;)V
+ij.IJ#wait(I)V
+ij.IJ#resetThreshold()V
+ij.macro.Functions#showStatus()V
+ij.macro.Functions#selectWindow()V
+ij.IJ#resetMinAndMax()V
+ij.IJ#setPasteMode(Ljava/lang/String;)V
+ij.macro.Interpreter#getParens()V
+ij.macro.Functions#makePolygon()V
+ij.macro.Functions#getDimensions()V
+ij.IJ#beep()V
+ij.macro.Functions#getArg()D
+ij.IJ#save(Ljava/lang/String;)V

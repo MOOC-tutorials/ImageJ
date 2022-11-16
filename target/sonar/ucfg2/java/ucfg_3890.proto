@@ -1,0 +1,115 @@
+
+Fij.Menus#getConfigurationFile(Ljava/lang/String;)Ljava/io/InputStream;P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java™ ™(!"13*³
+13P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java›! ›($‰†
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java› ›( 
+%0java.util.zip.ZipFile"java.util.zip.ZipFileÈ
+Å
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java› ›(%
+%1"1java.util.zip.ZipFile#<init>(Ljava/lang/String;)V*
+
+%0java.util.zip.ZipFile*
+
+jarjava.lang.String*
+12*Æ
+3P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java   (*"o
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java   (*
+
+%7java.io.InputStream*“
+4P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java   (¶³
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java   ()
+%7java.io.InputStream"Sjava.util.zip.ZipFile#getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;*"
+ 
+jarFilejava.util.zip.ZipFile*!
+
+entryjava.util.zip.ZipEntry2(getInputStream(Ljava/util/zip/ZipEntry;)*
+3*Á
+6P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaŸ' Ÿ(7àİ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaŸ Ÿ(8
+%6boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+%5java.lang.String*
+plugins.config2endsWith(Ljava/lang/String;)*
+4
+10*Å
+7P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java (5–
+“
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java (6
+entryjava.util.zip.ZipEntry"__id*
+
+%4java.lang.ObjectÏÌ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaŸ Ÿ(
+%5java.lang.String"2java.util.zip.ZipEntry#getName()Ljava/lang/String;*!
+
+entryjava.util.zip.ZipEntry2	getName()*
+6*´
+8P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java  ('×Ô
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java  (5
+%4java.lang.Object"5java.util.Enumeration#nextElement()Ljava/lang/Object;*"
+ 
+entriesjava.util.Enumeration2nextElement()*
+7*¦
+10P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java
+ (ÅÂ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java
+ (#
+%3boolean"(java.util.Enumeration#hasMoreElements()Z*"
+ 
+entriesjava.util.Enumeration2hasMoreElements()*
+8
+1*û
+11P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaœ œ(+œ
+™
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaœ œ(+ 
+entriesjava.util.Enumeration"__id*
+
+%2java.util.Enumeration*
+10*×
+12P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java› ›(&œ
+™
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java› ›(& 
+jarFilejava.util.zip.ZipFile"__id*
+
+%0java.util.zip.ZipFileÙÖ
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaœ œ(*
+%2java.util.Enumeration"6java.util.zip.ZipFile#entries()Ljava/util/Enumeration;*"
+ 
+jarFilejava.util.zip.ZipFile2	entries()*
+11*Ú
+1P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¦	 ¦(
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¦	 ¦($
+%11java.io.InputStream"Hij.Menus#autoGenerateConfigFile(Ljava/lang/String;)Ljava/io/InputStream;*
+
+ij.Menus*
+
+jarjava.lang.String2*autoGenerateConfigFile(Ljava/lang/String;)"p
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¦ ¦(%
+
+%11java.io.InputStream:
+jarjava.lang.StringB
+
+ij.Menus

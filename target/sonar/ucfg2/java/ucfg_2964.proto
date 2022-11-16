@@ -1,0 +1,448 @@
+
+Wij.plugin.ScaleBar#drawOverlayOnProcessor(Lij/gui/Overlay;Lij/process/ImageProcessor;)VZ
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java© ©("22*“
+13Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java¬ ¬(ëé
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java¬ ¬(/
+
+%27int"9ij.process.ImageProcessor#getBestIndex(Ljava/awt/Color;)I*(
+&
+	processorij.process.ImageProcessor*
+
+strokeColorjava.awt.Color2getBestIndex(Ljava/awt/Color;)¬ø
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java√! √(.
+
+%28int")java.awt.image.IndexColorModel#getRed(I)I*
+
+lutij.process.LUT*
+""2	getRed(I)∆√
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java√0 √(?
+
+%29int"+java.awt.image.IndexColorModel#getGreen(I)I*
+
+lutij.process.LUT*
+""2getGreen(I)ƒ¡
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java√A √(O
+
+%30int"*java.awt.image.IndexColorModel#getBlue(I)I*
+
+lutij.process.LUT*
+""2
+getBlue(I)ÜÉ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java√ √( 
+%31java.awt.Color"java.awt.Color∆
+√
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java√ √(P
+%32"java.awt.Color#<init>(III)V*
+
+%31java.awt.Color*
+
+
+%28int*
+
+
+%29int*
+
+
+%30intÍÁ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java√ √(Q
+%33void",ij.gui.Roi#setStrokeColor(Ljava/awt/Color;)V*
+
+roi
+ij.gui.Roi*
+
+%31java.awt.Color2 setStrokeColor(Ljava/awt/Color;) «
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaƒ ƒ(
+%34java.awt.Color"+ij.gui.Roi#getStrokeColor()Ljava/awt/Color;*
+
+roi
+ij.gui.Roi2getStrokeColor()Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaƒ$ ƒ(/
+%35java.awt.Color"__id*
+""ÈÊ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaƒ ƒ(0
+%36boolean"*java.awt.Color#equals(Ljava/lang/Object;)Z*
+
+%34java.awt.Color*
+
+%35java.awt.Color2equals(Ljava/lang/Object;)*
+11
+12*◊
+14Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java¿ ¿( «
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java¿ ¿(+
+%26java.awt.Color"+ij.gui.Roi#getStrokeColor()Ljava/awt/Color;*
+
+roi
+ij.gui.Roi2getStrokeColor()ù
+ö
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java¿ ¿(,
+strokeColorjava.awt.Color"__id*
+
+%26java.awt.Color*
+13
+11*â
+15Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaæ0 æ(3ÜÉ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaæE æ(J
+%23java.awt.Color"java.awt.ColorÆ
+´
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaæA æ(S
+%24"java.awt.Color#<init>(III)V*
+
+%23java.awt.Color*2*2*2Ê„
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaæ0 æ(T
+%25void"*ij.gui.Roi#setFillColor(Ljava/awt/Color;)V*
+
+roi
+ij.gui.Roi*
+
+%23java.awt.Color2setFillColor(Ljava/awt/Color;)*
+14*»
+16Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java∏ ∏(èå
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java∏ ∏(-
+
+%13int"9ij.process.ImageProcessor#getBestIndex(Ljava/awt/Color;)I*(
+&
+	processorij.process.ImageProcessor*
+
+	fillColorjava.awt.Color2getBestIndex(Ljava/awt/Color;)¬ø
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaπ π(,
+
+%14int")java.awt.image.IndexColorModel#getRed(I)I*
+
+lutij.process.LUT*
+""2	getRed(I)∆√
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaπ. π(=
+
+%15int"+java.awt.image.IndexColorModel#getGreen(I)I*
+
+lutij.process.LUT*
+""2getGreen(I)ƒ¡
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaπ? π(M
+
+%16int"*java.awt.image.IndexColorModel#getBlue(I)I*
+
+lutij.process.LUT*
+""2
+getBlue(I)ÜÉ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaπ π(
+%17java.awt.Color"java.awt.Color∆
+√
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaπ π(N
+%18"java.awt.Color#<init>(III)V*
+
+%17java.awt.Color*
+
+
+%14int*
+
+
+%15int*
+
+
+%16intÊ„
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaπ π(O
+%19void"*ij.gui.Roi#setFillColor(Ljava/awt/Color;)V*
+
+roi
+ij.gui.Roi*
+
+%17java.awt.Color2setFillColor(Ljava/awt/Color;)∆√
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaæ æ(
+%20java.awt.Color")ij.gui.Roi#getFillColor()Ljava/awt/Color;*
+
+roi
+ij.gui.Roi2getFillColor()Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaæ" æ(-
+%21java.awt.Color"__id*
+""ÈÊ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaæ æ(.
+%22boolean"*java.awt.Color#equals(Ljava/lang/Object;)Z*
+
+%20java.awt.Color*
+
+%21java.awt.Color2equals(Ljava/lang/Object;)*
+14
+15*—
+17Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java∂ ∂(∆√
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java∂ ∂('
+%12java.awt.Color")ij.gui.Roi#getFillColor()Ljava/awt/Color;*
+
+roi
+ij.gui.Roi2getFillColor()õ
+ò
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java∂ ∂((
+	fillColorjava.awt.Color"__id*
+
+%12java.awt.Color*
+14
+16*Ã
+19Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java≤( ≤(+ö
+ó
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java≤( ≤(+
+%3ij.ImagePlus"__id**
+ij.plugin.ScaleBar"
+imp¶£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java≤( ≤(6	
+%4int"ij.ImagePlus#getWidth()I*
+
+%3ij.ImagePlus2
+getWidth()ö
+ó
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java≤8 ≤(;
+%5ij.ImagePlus"__id**
+ij.plugin.ScaleBar"
+imp®•
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java≤8 ≤(G	
+%6int"ij.ImagePlus#getHeight()I*
+
+%5ij.ImagePlus2getHeight()ôñ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java≤ ≤('
+%7ij.process.ByteProcessor"ij.process.ByteProcessor«
+ƒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java≤ ≤(H
+%8"$ij.process.ByteProcessor#<init>(II)V* 
+
+%7ij.process.ByteProcessor*
+	
+%4int*
+	
+%6int®
+•
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java≤ ≤(I
+ipij.process.ImageProcessor"__id* 
+
+%7ij.process.ByteProcessor‚ﬂ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java≥ ≥(8
+%9float[]"1ij.process.ImageProcessor#getCalibrationTable()[F*(
+&
+	processorij.process.ImageProcessor2getCalibrationTable()ÌÍ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java≥ ≥(9
+%10void"2ij.process.ImageProcessor#setCalibrationTable([F)V*!
+
+ipij.process.ImageProcessor*
+
+%9float[]2setCalibrationTable([F)◊‘
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java¥ ¥(
+%11ij.process.LUT"2ij.process.ImageProcessor#getLut()Lij/process/LUT;*!
+
+ipij.process.ImageProcessor2getLut()ï
+í
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java¥ ¥(
+lutij.process.LUT"__id*
+
+%11ij.process.LUT*
+11*x
+0 "q
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java“ “(
+implicit return*Œ
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaœ œ(Á‰
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaœ œ( 
+%49void"(ij.process.ImageProcessor#putPixel(III)V*(
+&
+	processorij.process.ImageProcessor*
+""*
+""*
+""2putPixel(III)*
+7*ì
+4Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaŒ
+ Œ(¨
+©
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaŒ
+ Œ(!
+
+%48int""java.lang.Float#floatToIntBits(F)I*"
+java.lang.Float*
+""*
+3*ñ
+5Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÃ Ã(«ƒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÃ Ã((
+%44double"#ij.process.ImageProcessor#getMax()D*(
+&
+	processorij.process.ImageProcessor2getMax()«ƒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÃ+ Ã(=
+%45double"#ij.process.ImageProcessor#getMin()D*(
+&
+	processorij.process.ImageProcessor2getMin()«ƒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÃP Ã(b
+%46double"#ij.process.ImageProcessor#getMin()D*(
+&
+	processorij.process.ImageProcessor2getMin()ŒÀ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaÕ	 Õ( 
+
+%47int"(ij.process.ImageProcessor#getBitDepth()I*(
+&
+	processorij.process.ImageProcessor2getBitDepth()*
+3
+4*µ
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java   (À»
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java   (
+
+%43int""ij.process.ImageProcessor#get(II)I*!
+
+ipij.process.ImageProcessor*
+""*
+""2get(II)*
+5
+7*´
+7Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java… …(¡æ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java… …($
+
+%42int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()*
+6
+9*≠
+9Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java» »(√¿
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java» »($
+
+%41int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()*
+7
+0*‘
+20Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java¨ ¨(ãà
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java¨ ¨(!
+
+%2void"8ij.process.ImageProcessor#drawOverlay(Lij/gui/Overlay;)V*(
+&
+	processorij.process.ImageProcessor*
+
+overlayij.gui.Overlay2drawOverlay(Lij/gui/Overlay;)"d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java≠ ≠(
+
+""*∫
+21Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java™& ™(/Õ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java™& ™(=	
+%1int"(ij.process.ImageProcessor#getBitDepth()I*(
+&
+	processorij.process.ImageProcessor2getBitDepth()*
+19
+20*Ì
+10Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java« «(ÖÇ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java« «(
+%40void"8ij.process.ImageProcessor#drawOverlay(Lij/gui/Overlay;)V*!
+
+ipij.process.ImageProcessor*
+
+overlayij.gui.Overlay2drawOverlay(Lij/gui/Overlay;)*
+9*∫
+22Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java™ ™(Õ 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.java™ ™(	
+%0int"(ij.process.ImageProcessor#getBitDepth()I*(
+&
+	processorij.process.ImageProcessor2getBitDepth()*
+20
+21*ë
+11Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaµ µ(
+}
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaµ µ(
+roi
+ij.gui.Roi"__id*
+""£
+†
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaµ µ(
+roi
+ij.gui.Roi"
+__arrayGet*
+
+overlayij.gui.Overlay*
+""*
+17
+10*ç
+12Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaƒ2 ƒ(5ÜÉ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaƒI ƒ(N
+%37java.awt.Color"java.awt.ColorÆ
+´
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaƒE ƒ(W
+%38"java.awt.Color#<init>(III)V*
+
+%37java.awt.Color*2*2*2ÍÁ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ScaleBar.javaƒ2 ƒ(X
+%39void",ij.gui.Roi#setStrokeColor(Ljava/awt/Color;)V*
+
+roi
+ij.gui.Roi*
+
+%37java.awt.Color2 setStrokeColor(Ljava/awt/Color;)*
+11:
+overlayij.gui.Overlay:&
+	processorij.process.ImageProcessorB
+ij.plugin.ScaleBar

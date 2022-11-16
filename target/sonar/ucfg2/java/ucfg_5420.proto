@@ -1,0 +1,59 @@
+
+Nij.plugin.CalibrationBar#getFontMetrics(Ljava/awt/Font;)Ljava/awt/FontMetrics;`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java¢ ¢(#"1*Æ
+1`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java£& £('}
+{
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java£, £(F	
+%0int"__id*
+""§¤
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java£ £(%"
+%1java.awt.image.BufferedImage"java.awt.image.BufferedImageÕ
+Ò
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java£ £(G
+%2")java.awt.image.BufferedImage#<init>(III)V*$
+"
+%1java.awt.image.BufferedImage*2*2*
+	
+%0intµ
+²
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java£ £(H"
+bijava.awt.image.BufferedImage"__id*$
+"
+%1java.awt.image.BufferedImageòï
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java¤ ¤(+
+%3java.awt.Graphics"=java.awt.image.BufferedImage#getGraphics()Ljava/awt/Graphics;*$
+"
+bijava.awt.image.BufferedImage2getGraphics()ž
+›
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java¤ ¤(,
+gjava.awt.Graphics"__id*
+
+%3java.awt.Graphicsëè
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java¥ ¥(
+
+%4void"+java.awt.Graphics#setFont(Ljava/awt/Font;)V*
+
+gjava.awt.Graphics*
+
+fontjava.awt.Font2setFont(Ljava/awt/Font;)ž›
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java¦	 ¦(
+%5java.awt.FontMetrics"Gjava.awt.Graphics#getFontMetrics(Ljava/awt/Font;)Ljava/awt/FontMetrics;*
+
+gjava.awt.Graphics*
+
+fontjava.awt.Font2getFontMetrics(Ljava/awt/Font;)"€
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java¦ ¦( 
+
+%5java.awt.FontMetrics:
+fontjava.awt.FontB
+ij.plugin.CalibrationBar

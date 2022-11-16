@@ -1,0 +1,6 @@
+ij.plugin.EventListener#run(Ljava/lang/String;)V
+ij.ImagePlus#addImageListener(Lij/ImageListener;)V
+ij.Executer#addCommandListener(Lij/CommandListener;)V
+ij.IJ#addEventListener(Lij/IJEventListener;)V
+ij.IJ#log(Ljava/lang/String;)V
+ij.gui.Roi#addRoiListener(Lij/gui/RoiListener;)V

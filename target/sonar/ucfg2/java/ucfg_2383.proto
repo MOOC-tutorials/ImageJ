@@ -1,0 +1,190 @@
+
+Fij.gui.NewImage#createFloatImage(Ljava/lang/String;IIII)Lij/ImagePlus;W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÂ Â()"25* 
+2W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaâ â(ÝÚ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaâ â( 
+%16ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()ÜÙ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaâ â(,
+%17void"+ij.process.ImageProcessor#setMinAndMax(DD)V*"
+ 
+%16ij.process.ImageProcessor*
+""*
+""2setMinAndMax(DD)*
+1*À
+24W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÅ Å("a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÅ Å(
+""*Û
+3W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaá á(
+u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaá á(
+
+%15int"__id*
+""*
+2
+1*·
+25W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÃ Ã(¡
+ž
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÃ Ã(	
+%0int"ij.gui.NewImage#getFill(I)I*"
+ij.gui.NewImage*
+""ª
+§
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÄ Ä(#	
+%1int"ij.gui.NewImage#getSize(II)I*"
+ij.gui.NewImage*
+""*
+""*
+24
+9*á
+4W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaß ß(~
+|
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaß ß(
+impij.ImagePlus"__id*
+""*
+3*ƒ
+5W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÞ Þ(u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÞ- Þ(3
+
+%13int"__id*
+""¥
+¢
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÞ Þ(=
+%14boolean"Jij.gui.NewImage#createStack(Lij/ImagePlus;Lij/process/ImageProcessor;III)Z*"
+ij.gui.NewImage*
+
+impij.ImagePlus*!
+
+ipij.process.ImageProcessor*
+""*
+
+
+%13int*
+""*
+3
+4*÷
+6W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÜ  Ü(%~|
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÜ Ü(
+%11ij.ImagePlus"ij.ImagePlusÿ
+ü
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÜ Ü(*
+%12"Cij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%11ij.ImagePlus*
+
+titlejava.lang.String*!
+
+ipij.process.ImageProcessorŽ
+‹
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÜ Ü(+
+impij.ImagePlus"__id*
+
+%11ij.ImagePlus*
+3
+5*¥
+7W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÛ Û(Á¾
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÛ Û(
+%10void"&ij.process.ImageProcessor#invertLut()V*!
+
+ipij.process.ImageProcessor2invertLut()*
+6*Ú
+8W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÚ	 Ú(t
+r
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÚ Ú(	
+%9int"__id*
+""*
+6
+7*í
+9W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÆ Æ(!˜•
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÇ Ç((
+%3ij.process.FloatProcessor"ij.process.FloatProcessoré
+æ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÇ Ç(E
+%4"Bij.process.FloatProcessor#<init>(II[FLjava/awt/image/ColorModel;)V*!
+
+%3ij.process.FloatProcessor*
+""*
+""*
+""*
+""¦
+£
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÇ Ç(F
+ipij.process.ImageProcessor"__id*!
+
+%3ij.process.FloatProcessort
+r
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÉ É(	
+%5int"__id*
+""t
+r
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÉ É(#	
+%6int"__id*
+""t
+r
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaË Ë(	
+%7int"__id*
+""t
+r
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÖ Ö(	
+%8int"__id*
+""*
+8
+10*Ã
+10W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaÖ Ø(
+Þ
+Û
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.java× ×(
+
+%2void"<ij.gui.NewImage#fillNoiseFloat(Lij/process/ImageProcessor;)V*"
+ij.gui.NewImage*!
+
+ipij.process.ImageProcessor*
+8*Î
+1W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaã	 ã("p
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/NewImage.javaã ã(
+
+impij.ImagePlus:
+titlejava.lang.String:
+"":
+"":
+"":
+""B"
+ij.gui.NewImage

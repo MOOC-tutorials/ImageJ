@@ -1,0 +1,1797 @@
+
+Uij.plugin.filter.ParticleAnalyzer#analyze(Lij/ImagePlus;Lij/process/ImageProcessor;)Zi
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaœ œ("142*–
+68i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaæ æ(√
+¿
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaæ æ((
+%115int"'ij.plugin.filter.Analyzer#getCounter()I*"
+ij.plugin.filter.Analyzeré
+ã
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java¿ ¿(
+pixelsbyte[]"__id*
+""*
+66
+67*‰
+69i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaº º("s
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaº º(
+""*≈
+70i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaª ª(…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaª ª(
+%114boolean")ij.plugin.filter.Analyzer#resetCounter()Z*"
+ij.plugin.filter.Analyzer*
+68
+69*ä
+71i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java∫" ∫($ƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java∫" ∫($
+%112ij.measure.ResultsTable"__id*-*+#
+!ij.plugin.filter.ParticleAnalyzer"
+rt«ƒ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java∫" ∫(+
+%113int"ij.measure.ResultsTable#size()I*!
+
+%112ij.measure.ResultsTable2size()*
+68
+70*Î
+73i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaπ π(ƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaπ- π(/
+%109ij.measure.ResultsTable"__id*-*+#
+!ij.plugin.filter.ParticleAnalyzer"
+rt¨©
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaπ π(!
+%110ij.plugin.filter.Analyzer"ij.plugin.filter.Analyzer™
+ß
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaπ π(0
+%111"Kij.plugin.filter.Analyzer#<init>(Lij/ImagePlus;ILij/measure/ResultsTable;)V*#
+!
+%110ij.plugin.filter.Analyzer*
+
+impij.ImagePlus*
+""*!
+
+%109ij.measure.ResultsTableÃ
+…
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaπ π(01#
+!ij.plugin.filter.ParticleAnalyzer"
+
+analyzer"__id*#
+!
+%110ij.plugin.filter.Analyzer*
+68
+71*≥
+74i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java∑	 ∑(Ù
+Ò
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java∑	 ∑(#
+%108ij.measure.ResultsTable"Dij.plugin.filter.Analyzer#getResultsTable()Lij/measure/ResultsTable;*"
+ij.plugin.filter.Analyzerƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java∑ ∑(#+#
+!ij.plugin.filter.ParticleAnalyzer"
+rt"__id*!
+
+%108ij.measure.ResultsTable*
+73*∞
+75i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java≤ ≤(∫
+∑
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java≤ ≤(
+%105void"ij.IJ#run(Ljava/lang/String;)V*	"
+ij.IJ*
+Clear ResultsΩ∫
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java≥ ≥( 
+%106void"ij.text.TextWindow#close()V*
+
+tablejava.awt.Frame2close()Ù
+Ò
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java¥
+ ¥($
+%107ij.measure.ResultsTable"Dij.plugin.filter.Analyzer#getResultsTable()Lij/measure/ResultsTable;*"
+ij.plugin.filter.Analyzerƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java¥ ¥($+#
+!ij.plugin.filter.ParticleAnalyzer"
+rt"__id*!
+
+%107ij.measure.ResultsTable*
+73*™
+77i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java∞	 ∞(®•
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java∞ ∞(
+%103ij.measure.ResultsTable"ij.measure.ResultsTableº
+π
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java∞	 ∞(
+%104"!ij.measure.ResultsTable#<init>()V*!
+
+%103ij.measure.ResultsTableƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java∞ ∞(+#
+!ij.plugin.filter.ParticleAnalyzer"
+rt"__id*!
+
+%103ij.measure.ResultsTable*
+73
+75*é
+79i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÆ Æ(Ë
+Â
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÆ Æ(2
+%102java.awt.Frame"=ij.WindowManager#getFrame(Ljava/lang/String;)Ljava/awt/Frame;*"
+ij.WindowManager*	
+Resultsß
+§
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÆ Æ(3
+tablejava.awt.Frame"__id*
+
+%102java.awt.Frame*
+74
+77*Ö
+100i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaê ê(à
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaê ê(
+
+%58int"__id*
+""*
+97
+98*π
+101i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaç ç(	…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaç ç(	 
+%55ij.process.ImageProcessor"__id*1*/#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIP‰·
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaç ç(!
+%56void"*ij.process.ImageProcessor#setLineWidth(I)V*"
+ 
+%55ij.process.ImageProcessor*
+""2setLineWidth(I)à
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaé é(
+
+%57int"__id*
+""*	
+100
+89*ø
+102i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaå å($©¶
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaå å(
+%53ij.process.ByteProcessor"ij.process.ByteProcessorŒ
+À
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaå å(-
+%54"$ij.process.ByteProcessor#<init>(II)V*!
+
+%53ij.process.ByteProcessor*
+""*
+""»
+≈
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaå å(-/#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIP"__id*!
+
+%53ij.process.ByteProcessor*
+101*ƒ
+103i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaä  ä(%´®
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaä ä( 
+%51ij.process.ShortProcessor"ij.process.ShortProcessor–
+Õ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaä ä(.
+%52"%ij.process.ShortProcessor#<init>(II)V*"
+ 
+%51ij.process.ShortProcessor*
+""*
+""…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaä ä(./#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIP"__id*"
+ 
+%51ij.process.ShortProcessor*
+101*á
+104i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaâ â(à
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaâ â(
+
+%50int"__id*
+""*
+
+102
+103*ä
+105i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaà à(#ìê
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaà à(
+%48ij.ImageStack"ij.ImageStack∏
+µ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaà à(,
+%49"ij.ImageStack#<init>(II)V*
+
+%48ij.ImageStack*
+""*
+""ø
+º
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaà à(,1#
+!ij.plugin.filter.ParticleAnalyzer"
+
+outlines"__id*
+
+%48ij.ImageStack*
+104*Ã
+80i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java¨ ¨(â
+Ü
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java¨ ¨(
+%100int"__id*
+""ƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java≠ ≠(
+%101ij.measure.ResultsTable"__id*-*+#
+!ij.plugin.filter.ParticleAnalyzer"
+rt*
+79
+73*ø
+81i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java´ ´(«
+ƒ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java´ ´(,
+
+%99int",ij.plugin.filter.Analyzer#getMeasurements()I*"
+ij.plugin.filter.Analyzer*
+80*«
+82i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java® ®(SÀ
+»
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java® ®(S4#
+!ij.plugin.filter.ParticleAnalyzer"
+calibration"__id*
+
+%95ij.measure.Calibration*
+80
+81*ú
+83i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java®? ®(BÌÍ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java®? ®(S
+%97ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()¥
+±
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java®? ®(S
+%95ij.measure.Calibration"__id*
+
+%97ij.measure.Calibration*
+82*‡
+84i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java®" ®(-¡
+æ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java®" ®(-
+%98ij.ImagePlus"__id*6*4#
+!ij.plugin.filter.ParticleAnalyzer"
+redirectImpÌÍ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java®" ®(>
+%96ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+%98ij.ImagePlus2getCalibration()¥
+±
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java®" ®(>
+%95ij.measure.Calibration"__id*
+
+%96ij.measure.Calibration*
+82*Ω
+85i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java® ®(¡
+æ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java® ®(
+%94ij.ImagePlus"__id*6*4#
+!ij.plugin.filter.ParticleAnalyzer"
+redirectImp*
+83
+84*Ó
+86i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java£ £(
+…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java£ £(
+ 
+%86ij.process.ImageProcessor"__id*1*/#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIPì
+ê
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java£ £(
+%87java.awt.Color"__id*
+""ãà
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java£ £( 
+%88void"5ij.process.ImageProcessor#setColor(Ljava/awt/Color;)V*"
+ 
+%86ij.process.ImageProcessor*
+
+%87java.awt.Color2setColor(Ljava/awt/Color;)…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java§ §(
+ 
+%89ij.process.ImageProcessor"__id*1*/#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIP «
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java§ §(
+%90void"!ij.process.ImageProcessor#fill()V*"
+ 
+%89ij.process.ImageProcessor2fill()…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java• •(
+ 
+%91ij.process.ImageProcessor"__id*1*/#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIPì
+ê
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java• •(
+%92java.awt.Color"__id*
+""ãà
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java• •( 
+%93void"5ij.process.ImageProcessor#setColor(Ljava/awt/Color;)V*"
+ 
+%91ij.process.ImageProcessor*
+
+%92java.awt.Color2setColor(Ljava/awt/Color;)*
+85*Ó
+87i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaü ü(
+…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaü ü(
+ 
+%78ij.process.ImageProcessor"__id*1*/#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIPì
+ê
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaü ü(
+%79java.awt.Color"__id*
+""ãà
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaü ü( 
+%80void"5ij.process.ImageProcessor#setColor(Ljava/awt/Color;)V*"
+ 
+%78ij.process.ImageProcessor*
+
+%79java.awt.Color2setColor(Ljava/awt/Color;)…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java† †(
+ 
+%81ij.process.ImageProcessor"__id*1*/#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIP «
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java† †(
+%82void"!ij.process.ImageProcessor#fill()V*"
+ 
+%81ij.process.ImageProcessor2fill()…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java° °(
+ 
+%83ij.process.ImageProcessor"__id*1*/#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIPì
+ê
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java° °(
+%84java.awt.Color"__id*
+""ãà
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java° °( 
+%85void"5ij.process.ImageProcessor#setColor(Ljava/awt/Color;)V*"
+ 
+%83ij.process.ImageProcessor*
+
+%84java.awt.Color2setColor(Ljava/awt/Color;)*
+85*’
+89i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaú ú(ø
+º
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaú ú(
+%74ij.ImageStack"__id*3*1#
+!ij.plugin.filter.ParticleAnalyzer"
+
+outlines…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaú ú(! 
+%75ij.process.ImageProcessor"__id*1*/#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIP¿Ω
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaú ú("
+%76void"Fij.ImageStack#addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%74ij.ImageStack*
+""*"
+ 
+%75ij.process.ImageProcessor27addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)à
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaû û(
+
+%77int"__id*
+""*
+86
+87*ã
+110i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÖ; Ö(Eà
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÖG Ö(T
+
+%47int"__id*
+""*
+104
+105
+85*ê
+112i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÖ Ö('à
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÖ) Ö(9
+
+%46int"__id*
+""*
+104
+105
+85
+110*ï
+113i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÖ Ö(à
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÖ Ö(
+
+%45int"__id*
+""*
+112
+104
+105
+85
+110*Ç
+115i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÉ É(à
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÉ  É('
+
+%44int"__id*
+""*
+113*§
+116i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÅ
+ Å(–Õ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÅ
+ Å(
+
+%42int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()“œ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÇ Ç(
+
+%43int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()*
+
+113
+115*Â
+117i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÄ
+ Ä("s
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÄ Ä(
+""*≤
+90i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaö ö(…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaö ö( 
+%72ij.process.ImageProcessor"__id*1*/#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIPÓÎ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaö ö($
+%73void"0ij.process.ImageProcessor#setAntialiasedText(Z)V*"
+ 
+%72ij.process.ImageProcessor*22setAntialiasedText(Z)*
+89*ˇ
+118i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaˇ ˇ(Ä˝
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaˇ ˇ("
+%41boolean"`ij.plugin.filter.ParticleAnalyzer#setThresholdLevels(Lij/ImagePlus;Lij/process/ImageProcessor;)Z*%#
+!ij.plugin.filter.ParticleAnalyzer*
+
+impij.ImagePlus*!
+
+ipij.process.ImageProcessor2=setThresholdLevels(Lij/ImagePlus;Lij/process/ImageProcessor;)*
+
+116
+117*á
+119i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˚ ˚(∆
+√
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˚ ˚(4#
+!ij.plugin.filter.ParticleAnalyzer"
+redirectImp"__id*
+
+originalij.ImagePlusÙÒ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java¸ ¸(( 
+%40ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+originalij.ImagePlus2getProcessor()Õ
+ 
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java¸ ¸((3#
+!ij.plugin.filter.ParticleAnalyzer"
+
+redirectIP"__id*"
+ 
+%40ij.process.ImageProcessor*
+118*—
+92i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaò ò(
+…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaò ò(
+ 
+%67ij.process.ImageProcessor"__id*1*/#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIPà
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaò) ò(3
+
+%68int"__id*
+""ìê
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaò ò(
+%69java.awt.Font"java.awt.Fontﬂ
+‹
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaò ò(>
+%70"+java.awt.Font#<init>(Ljava/lang/String;II)V*
+
+%69java.awt.Font*
+	SansSerif*
+
+
+%68int*
+""ÜÉ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaò ò(?
+%71void"3ij.process.ImageProcessor#setFont(Ljava/awt/Font;)V*"
+ 
+%67ij.process.ImageProcessor*
+
+%69java.awt.Font2setFont(Ljava/awt/Font;)*
+90
+89*”
+93i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javañ ñ(…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javañ ñ( 
+%64ij.process.ImageProcessor"__id*1*/#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIP—
+Œ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javañ ñ(#%
+%65java.awt.image.IndexColorModel"__id*4*2#
+!ij.plugin.filter.ParticleAnalyzer"
+	customLutª∏
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javañ ñ($
+%66void"Eij.process.ImageProcessor#setColorModel(Ljava/awt/image/ColorModel;)V*"
+ 
+%64ij.process.ImageProcessor*'
+%
+%65java.awt.image.IndexColorModel2*setColorModel(Ljava/awt/image/ColorModel;)*
+92*ﬂ
+94i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaï ï(Á‰
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaï ï(
+%63void"2ij.plugin.filter.ParticleAnalyzer#makeCustomLut()V*%#
+!ij.plugin.filter.ParticleAnalyzer2makeCustomLut()*
+93*Õ
+95i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaî	 î(—
+Œ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaî	 î(%
+%62java.awt.image.IndexColorModel"__id*4*2#
+!ij.plugin.filter.ParticleAnalyzer"
+	customLut*
+93
+94*à
+97i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaí í(à
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaí í( 
+
+%61int"__id*
+""*
+92
+95
+89*ò
+98i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaë ë(
+…
+∆
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaë ë(
+ 
+%59ij.process.ImageProcessor"__id*1*/#
+!ij.plugin.filter.ParticleAnalyzer"
+drawIP‘—
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaë ë(
+%60void"&ij.process.ImageProcessor#invertLut()V*"
+ 
+%59ij.process.ImageProcessor2invertLut()*
+89*Ô
+10i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÖ Ö(ÚÔ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÖ Ö(
+%183void"7ij.plugin.filter.ParticleAnalyzer#updateSliceSummary()V*%#
+!ij.plugin.filter.ParticleAnalyzer2updateSliceSummary()*	
+4
+5
+8*‡
+11i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÅ Å(ª∏
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÅ Å(
+%180void"ij.ImagePlus#deleteRoi()V*
+
+impij.ImagePlus2deleteRoi()“œ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÇ Ç(
+%181void"%ij.process.ImageProcessor#resetRoi()V*!
+
+ipij.process.ImageProcessor2
+resetRoi()Ã…
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÉ É(
+%182void""ij.process.ImageProcessor#reset()V*!
+
+ipij.process.ImageProcessor2reset()*
+4
+5
+8
+10*ô
+12i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÄ Ä(ƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÄ Ä(
+%178ij.measure.ResultsTable"__id*-*+#
+!ij.plugin.filter.ParticleAnalyzer"
+rt⁄◊
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÄ Ä(
+%179void"(ij.measure.ResultsTable#updateResults()V*!
+
+%178ij.measure.ResultsTable2updateResults()*
+11*ä
+13i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaˇ) ˇ(+ƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaˇ) ˇ(+
+%176ij.measure.ResultsTable"__id*-*+#
+!ij.plugin.filter.ParticleAnalyzer"
+rt«ƒ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaˇ) ˇ(2
+%177int"ij.measure.ResultsTable#size()I*!
+
+%176ij.measure.ResultsTable2size()*
+11
+12*£
+16i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˛ ˛(ß
+§
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˛ ˛(
+%175void"ij.IJ#showProgress(D)V*	"
+ij.IJ*
+""*
+13
+11*ù
+19i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˘ ˘(	ù
+ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˘ ˘(
+%174void"ij.Macro#abort()V*"
+
+ij.Macro*
+13
+16
+11*˘
+120i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˙@ ˙(Hæª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˙@ ˙(T
+
+%38int"ij.ImagePlus#getHeight()I*
+
+originalij.ImagePlus2getHeight()π∂
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˙V ˙(e
+
+%39int"ij.ImagePlus#getHeight()I*
+
+impij.ImagePlus2getHeight()*
+
+118
+119*ı
+121i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˙ ˙(!ºπ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˙ ˙(,
+
+%36int"ij.ImagePlus#getWidth()I*
+
+originalij.ImagePlus2
+getWidth()∑¥
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˙. ˙(<
+
+%37int"ij.ImagePlus#getWidth()I*
+
+impij.ImagePlus2
+getWidth()*
+
+118
+120*Ω
+122i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˘# ˘(&íè
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˘# ˘(C
+%35java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+impij.ImagePlus*
+OriginalImage2getProperty(Ljava/lang/String;)©
+¶
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˘ ˘(D
+originalij.ImagePlus"__id*
+
+%35java.lang.Object*
+
+118
+121*„
+1i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaå	 å("s
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaå å(
+""*ø
+123i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java¯ ¯(µ≤
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java¯ ¯(
+
+%33int"ij.ImagePlus#getType()I*
+
+impij.ImagePlus2	getType()à
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java¯ ¯(/
+
+%34int"__id*
+""*
+
+118
+122*⁄
+2i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaã ã(‰·
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaã ã(
+%190void"0ij.plugin.filter.ParticleAnalyzer#showResults()V*%#
+!ij.plugin.filter.ParticleAnalyzer2showResults()*
+1*˝
+124i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˜ ˜(¡
+æ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˜ ˜(
+%31ij.ImagePlus"__id*6*4#
+!ij.plugin.filter.ParticleAnalyzer"
+redirectImpÔÏ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˜ ˜(+ 
+%32ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+%31ij.ImagePlus2getProcessor()Õ
+ 
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java˜ ˜(+3#
+!ij.plugin.filter.ParticleAnalyzer"
+
+redirectIP"__id*"
+ 
+%32ij.process.ImageProcessor*
+118*‚
+
+125i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÙ Ù(*¡
+æ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÙ Ù(*
+%27ij.ImagePlus"__id*6*4#
+!ij.plugin.filter.ParticleAnalyzer"
+redirectImpœÃ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÙ Ù(5
+%28ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+%27ij.ImagePlus2
+getStack()¨
+©
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÙ Ù(6
+redirectStackij.ImageStack"__id*
+
+%28ij.ImageStack≈¬
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaı, ı(A
+
+%29int"ij.ImagePlus#getCurrentSlice()I*
+
+impij.ImagePlus2getCurrentSlice()ãà
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaı ı(B 
+%30ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;* 
+
+redirectStackij.ImageStack*
+
+
+%29int2getProcessor(I)Õ
+ 
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaı ı(B3#
+!ij.plugin.filter.ParticleAnalyzer"
+
+redirectIP"__id*"
+ 
+%30ij.process.ImageProcessor*
+118*â
+4i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaàJ à(Zê
+ç
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaàJ à(Z
+%187int"__id*
+
+%189int*
+2
+1*æ
+126i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÛ Û(øº
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÛ Û(+
+
+%26int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+
+124
+125*â
+5i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaà: à(Gê
+ç
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaà: à(G
+%187int"__id*
+
+%188int*
+2
+1*Ç
+127i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÚ Ú(¡
+æ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÚ Ú(
+%24ij.ImagePlus"__id*6*4#
+!ij.plugin.filter.ParticleAnalyzer"
+redirectImpøº
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÚ Ú()
+
+%25int"ij.ImagePlus#getStackSize()I*
+
+%24ij.ImagePlus2getStackSize()*
+
+124
+126*Â
+128i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÒ! Ò(&"s
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÒ Ò('
+""*‚
+7i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaá á(œ
+Ã
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaá á("
+%185ij.plugin.frame.RoiManager"__id*5*3#
+!ij.plugin.filter.ParticleAnalyzer"
+
+roiManageróî
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaá á($
+%186void"8ij.plugin.frame.RoiManager#setEditMode(Lij/ImagePlus;Z)V*$
+"
+%185ij.plugin.frame.RoiManager*
+
+impij.ImagePlus*22setEditMode(Lij/ImagePlus;Z)*
+4
+5*ä
+129i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java (É
+Ä
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java (/
+%22ij.ImagePlus"Hij.plugin.filter.Analyzer#getRedirectImage(Lij/ImagePlus;)Lij/ImagePlus;*"
+ij.plugin.filter.Analyzer*
+
+impij.ImagePlus¡
+æ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java (/4#
+!ij.plugin.filter.ParticleAnalyzer"
+redirectImp"__id*
+
+%22ij.ImagePlus¡
+æ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÒ Ò(
+%23ij.ImagePlus"__id*6*4#
+!ij.plugin.filter.ParticleAnalyzer"
+redirectImp*
+
+127
+128*À
+8i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÜ Ü( œ
+Ã
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÜ Ü( "
+%184ij.plugin.frame.RoiManager"__id*5*3#
+!ij.plugin.filter.ParticleAnalyzer"
+
+roiManager*	
+4
+5
+7*•
+23i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaı ı(æ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaı ı( 
+%171java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+ræ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaı$ ı(%
+%172java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+rß
+§
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaı ı(-
+%173void"ij.IJ#showProgress(D)V*	"
+ij.IJ*
+""*
+19
+42*∂
+28i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÒ( Ò(+æª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÒ( Ò(9
+%170int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()*
+40*Ó
+130i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÍ Í(Mà
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÎ Î()
+
+%18int"__id*
+""≤
+Ø
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÏ Ï(4#
+!ij.plugin.filter.ParticleAnalyzer"
+outputImage"__id*
+""—Œ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÌ Ì(
+%19void"%ij.process.ImageProcessor#snapshot()V*!
+
+ipij.process.ImageProcessor2
+snapshot()çä
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÓ Ó(
+%20void"?ij.process.ImageProcessor#setProgressBar(Lij/gui/ProgressBar;)V*!
+
+ipij.process.ImageProcessor*
+""2$setProgressBar(Lij/gui/ProgressBar;)À
+»
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÔ Ô( 
+%21boolean",ij.plugin.filter.Analyzer#isRedirectImage()Z*"
+ij.plugin.filter.Analyzer*
+
+123
+129*Ç
+131i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÍ5 Í(<à
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÍ= Í(I
+
+%17int"__id*
+""*
+130*á
+132i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÍ Í(à
+Ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÍ Í(+
+
+%16int"__id*
+""*
+
+130
+131*Ÿ
+133i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÊ Ê($”
+–
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÊ Ê($
+%15ij.measure.ResultsTable"__id*=*;#
+!ij.plugin.filter.ParticleAnalyzer"
+staticSummaryTableÕ
+ 
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÊ Ê($5#
+!ij.plugin.filter.ParticleAnalyzer"
+summaryTable"__id* 
+
+%15ij.measure.ResultsTableπ
+∂
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÁ Á(;#
+!ij.plugin.filter.ParticleAnalyzer"
+staticSummaryTable"__id*
+""*
+132*“
+134i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÂ Â(”
+–
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÂ Â(
+%14ij.measure.ResultsTable"__id*=*;#
+!ij.plugin.filter.ParticleAnalyzer"
+staticSummaryTable*
+
+132
+133*œ
+135i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java· ·(”
+–
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java· ·(
+%13ij.measure.ResultsTable"__id*=*;#
+!ij.plugin.filter.ParticleAnalyzer"
+staticResultsTable√
+¿
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java· ·(+#
+!ij.plugin.filter.ParticleAnalyzer"
+rt"__id* 
+
+%13ij.measure.ResultsTableπ
+∂
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java‚ ‚(;#
+!ij.plugin.filter.ParticleAnalyzer"
+staticResultsTable"__id*
+""*
+134*ò
+136i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaﬂ ﬂ(√¿
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaﬂ ﬂ(!
+%11boolean"ij.ImagePlus#isHyperStack()Z*
+
+impij.ImagePlus2isHyperStack()”
+–
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java‡ ‡(
+%12ij.measure.ResultsTable"__id*=*;#
+!ij.plugin.filter.ParticleAnalyzer"
+staticResultsTable*
+
+134
+135*Ÿ
+137i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java€ €(‘
+—
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java‹ ‹( !
+%10ij.plugin.frame.RoiManager"__id*;*9#
+!ij.plugin.filter.ParticleAnalyzer"
+staticRoiManagerŒ
+À
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java‹ ‹( 3#
+!ij.plugin.filter.ParticleAnalyzer"
+
+roiManager"__id*#
+!
+%10ij.plugin.frame.RoiManager∑
+¥
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java› ›(9#
+!ij.plugin.filter.ParticleAnalyzer"
+staticRoiManager"__id*
+""*
+136*Ê
+138i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÿ ÿ(á
+Ñ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÿ ÿ( 	
+%7int"__id*
+""á
+Ñ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaŸ Ÿ((	
+%8int"__id*
+""”
+–
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java⁄ ⁄( 
+%9ij.plugin.frame.RoiManager"__id*;*9#
+!ij.plugin.filter.ParticleAnalyzer"
+staticRoiManager*
+
+136
+137*à
+31i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java (åâ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java (#
+%169void"_ij.plugin.filter.ParticleAnalyzer#analyzeParticle(IILij/ImagePlus;Lij/process/ImageProcessor;)V*%#
+!ij.plugin.filter.ParticleAnalyzer*
+""*
+""*
+
+impij.ImagePlus*!
+
+ipij.process.ImageProcessor2<analyzeParticle(IILij/ImagePlus;Lij/process/ImageProcessor;)*
+28
+40*Ì
+35i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÓ Ó(ÒÓ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÓ Ó(#
+%168float",ij.process.ImageProcessor#getPixelValue(II)F*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixelValue(II)*
+40
+31*·
+36i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÏ Ï(Â‚
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÏ Ï(
+%167int"'ij.process.ImageProcessor#getPixel(II)I*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixel(II)*
+40
+31*Ö
+37i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÎ Î(â
+Ü
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÎ Î(
+%166int"__id*
+""*
+35
+36*≥
+140i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java— —(á
+Ñ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java— —(%	
+%1int"__id*
+""á
+Ñ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java“" “(8	
+%2int"__id*
+""á
+Ñ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java” ”()	
+%3int"__id*
+""á
+Ñ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java‘ ‘('	
+%4int"__id*
+""á
+Ñ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java’ ’($	
+%5int"__id*
+""á
+Ñ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java÷ ÷(	
+%6int"__id*
+""*
+138*≥
+141i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java–! –($π
+∂
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java– –($,#
+!ij.plugin.filter.ParticleAnalyzer"
+imp"__id*
+
+impij.ImagePlus*
+140*∑
+142i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java– –(
+∏
+µ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java– –(
+%0ij.ImagePlus"__id*.*,#
+!ij.plugin.filter.ParticleAnalyzer"
+imp*
+
+140
+141*ã
+40i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaË Ë(æ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaË Ë(
+%164java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+ræ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaË Ë(
+%165java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+r*
+37
+19
+40
+42
+31
+23*∂
+41i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÁ Á(æ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaË Ë(
+%163java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+r*
+40*É
+42i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÊ Ê(æ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÊ Ê(
+%161java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+ræ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÊ Ê(
+%162java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+r*
+13
+16
+41
+11*∂
+43i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java„ „(7æ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÊ Ê(
+%160java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+r*
+42*î
+44i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java„) „(,â
+Ü
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java„) „(7
+%159int"__id*
+""ê
+ç
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java„) „(7
+%157int"__id*
+
+%159int*
+43*î
+45i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java„ „( â
+Ü
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java„ „((
+%158int"__id*
+""ê
+ç
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java„ „((
+%157int"__id*
+
+%158int*
+43*¶
+46i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java„ „(™
+ß
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java„ „(
+%156boolean"ij.gui.Wand#allPoints()Z*"
+ij.gui.Wand*
+44
+45*Ñ
+47i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaﬂ ﬂ(ÉÄ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaﬂ ﬂ(&!
+%152ij.process.ImageProcessor"@ij.process.ImageProcessor#duplicate()Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor2duplicate()ª
+∏
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaﬂ ﬂ(' 
+ipfij.process.ImageProcessor"__id*#
+!
+%152ij.process.ImageProcessor›⁄
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java‡ ‡(
+%153void"&ij.process.ImageProcessor#setValue(D)V*"
+ 
+ipfij.process.ImageProcessor*
+""2setValue(D)¶£
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java· ·(
+%154ij.process.FloodFiller"ij.process.FloodFiller˘
+ˆ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java· ·(
+%155";ij.process.FloodFiller#<init>(Lij/process/ImageProcessor;)V* 
+
+%154ij.process.FloodFiller*"
+ 
+ipfij.process.ImageProcessor√
+¿
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java· ·(+#
+!ij.plugin.filter.ParticleAnalyzer"
+ff"__id* 
+
+%154ij.process.FloodFiller*
+46*‰	
+48i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java⁄ ⁄(oêç
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java‹ ‹(
+%148ij.gui.Wand"ij.gui.Wand‚
+ﬂ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java‹	 ‹(
+%149"0ij.gui.Wand#<init>(Lij/process/ImageProcessor;)V*
+
+%148ij.gui.Wand*!
+
+ipij.process.ImageProcessor∫
+∑
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java‹ ‹(-#
+!ij.plugin.filter.ParticleAnalyzer"
+wand"__id*
+
+%148ij.gui.Wand™ß
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java› ›( 
+%150ij.process.PolygonFiller"ij.process.PolygonFilleræ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java› ›(
+%151""ij.process.PolygonFiller#<init>()V*"
+ 
+%150ij.process.PolygonFiller≈
+¬
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java› ›(+#
+!ij.plugin.filter.ParticleAnalyzer"
+pf"__id*"
+ 
+%150ij.process.PolygonFiller*
+46
+47*Å
+49i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java⁄Y ⁄(eâ
+Ü
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java⁄f ⁄(k
+%147int"__id*
+""*
+48*Ö
+51i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java⁄2 ⁄(>â
+Ü
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java⁄? ⁄(P
+%146int"__id*
+""*
+48
+49*â
+52i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java⁄ ⁄(â
+Ü
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java⁄  ⁄()
+%145int"__id*
+""*
+48
+49
+51*Å
+53i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaŸ Ÿ(â
+Ü
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaŸ Ÿ(
+%144int"__id*
+""*
+52*Ö
+54i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÿ ÿ(â
+Ü
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÿ ÿ(
+%143int"__id*
+""*
+52
+53*˛
+56i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java— —(æ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java” ”(
+%140java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+r∂
+≥
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java” ”($
+%141int"java.lang.Math#max(II)I*"
+java.lang.Math*
+""*2‹Ÿ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java’ ’(#
+%142ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+impij.ImagePlus2getWindow()≠
+™
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java’ ’($
+winij.gui.ImageWindow"__id*
+
+%142ij.gui.ImageWindow*
+54*‰
+57i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaœ- œ(2"s
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaœ& œ(3
+""*Ò
+58i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaœ œ(æ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaœ œ(
+%137java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+r»
+≈
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaœ œ(#!
+%138ij.process.ImageProcessor"__id*/*-#
+!ij.plugin.filter.ParticleAnalyzer"
+maskÈÊ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaœ œ($
+%139boolean"~ij.plugin.filter.ParticleAnalyzer#eraseOutsideRoi(Lij/process/ImageProcessor;Ljava/awt/Rectangle;Lij/process/ImageProcessor;)Z*%#
+!ij.plugin.filter.ParticleAnalyzer*!
+
+ipij.process.ImageProcessor*
+
+%137java.awt.Rectangle*#
+!
+%138ij.process.ImageProcessor2[eraseOutsideRoi(Lij/process/ImageProcessor;Ljava/awt/Rectangle;Lij/process/ImageProcessor;)*
+57
+56*ƒ
+59i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaŒ* Œ(.»
+≈
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaŒ* Œ(.!
+%136ij.process.ImageProcessor"__id*/*-#
+!ij.plugin.filter.ParticleAnalyzer"
+mask*
+58
+56*∫
+60i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaŒ Œ(æ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaŒ Œ(
+%135java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+r*
+58
+59*¿
+61i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÕ Õ(æ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÕ Õ(
+%128java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+ræ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÕ Õ(
+%129java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+ræ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÕ Õ(
+%130java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+ræ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÕ# Õ($
+%131java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+ræ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÕ- Õ(.
+%132java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+ræ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaÕ1 Õ(2
+%133java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+ræ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaŒ Œ(
+%134java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+r*
+58
+60*ï
+62i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java   (æ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java   (
+%124java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+rÃ
+…
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java   ($
+%125ij.measure.Calibration"__id*6*4#
+!ij.plugin.filter.ParticleAnalyzer"
+calibrationæ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java 0  (1
+%126java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+rÃ
+…
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java 9  (D
+%127ij.measure.Calibration"__id*6*4#
+!ij.plugin.filter.ParticleAnalyzer"
+calibration*
+61*’
+63i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java» »( â
+Ü
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java»3 »(7
+%121int"__id*
+""Ã
+…
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java»9 »(D
+%122ij.measure.Calibration"__id*6*4#
+!ij.plugin.filter.ParticleAnalyzer"
+calibrationÇ
+ˇ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java» »(E"
+%123ij.process.ImageStatistics"zij.process.ImageStatistics#getStatistics(Lij/process/ImageProcessor;ILij/measure/Calibration;)Lij/process/ImageStatistics;*"
+ij.process.ImageStatistics*!
+
+ipij.process.ImageProcessor*
+
+%121int* 
+
+%122ij.measure.Calibration*
+61*ƒ
+64i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java« «(»
+≈
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java« «(!
+%120ij.process.ImageProcessor"__id*/*-#
+!ij.plugin.filter.ParticleAnalyzer"
+mask*
+62
+63*˘
+65i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaƒ ƒ(	ÔÏ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaƒ ƒ(
+%118java.awt.Rectangle"6ij.process.ImageProcessor#getRoi()Ljava/awt/Rectangle;*!
+
+ipij.process.ImageProcessor2getRoi()æ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.javaƒ ƒ(*#
+!ij.plugin.filter.ParticleAnalyzer"
+r"__id*
+
+%118java.awt.Rectangleˇ¸
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java≈
+ ≈(!
+%119ij.process.ImageProcessor">ij.process.ImageProcessor#getMask()Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor2	getMask()»
+≈
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java≈ ≈(-#
+!ij.plugin.filter.ParticleAnalyzer"
+mask"__id*#
+!
+%119ij.process.ImageProcessor*
+61
+64*∫
+66i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java√ √(æ
+ª
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java√ √(
+%117java.awt.Rectangle"__id*,**#
+!ij.plugin.filter.ParticleAnalyzer"
+r*
+61
+65*é
+67i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java¬ ¬(ÒÓ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java¬ ¬("
+%116java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*!
+
+ipij.process.ImageProcessor2getPixels()¢
+ü
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ParticleAnalyzer.java¬ ¬("
+pixelsbyte[]"__id*
+
+%116java.lang.Object*
+66:
+impij.ImagePlus:
+ipij.process.ImageProcessorB%#
+!ij.plugin.filter.ParticleAnalyzer

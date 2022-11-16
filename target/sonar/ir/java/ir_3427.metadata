@@ -1,0 +1,4 @@
+ij.ImagePlus#close()V
+ij.WindowManager#setTempCurrentImage(Lij/ImagePlus;)V
+ij.macro.Interpreter#removeBatchModeImage(Lij/ImagePlus;)V
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;

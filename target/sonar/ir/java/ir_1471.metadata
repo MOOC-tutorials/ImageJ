@@ -1,0 +1,10 @@
+ij.plugin.ControlPanel#loadProperties()V
+java.lang.String#length()I
+java.lang.Character#isDigit(C)Z
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.Prefs#getControlPanelProperties()Ljava/util/Properties;
+ij.Prefs#get(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#charAt(I)C
+java.lang.String#substring(II)Ljava/lang/String;
+ij.IJ#log(Ljava/lang/String;)V
+java.lang.String#startsWith(Ljava/lang/String;)Z

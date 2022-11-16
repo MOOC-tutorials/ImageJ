@@ -1,0 +1,459 @@
+
+5ij.plugin.Concatenator#createHypervol()Lij/ImagePlus;^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaè è(!"20*¢
+13^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaØ Ø(±Æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaØ Ø(
+
+%23int"ij.ImagePlus#getType()I*
+
+
+currentImpij.ImagePlus2	getType()*
+11
+12*§
+15^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java¨ ¨(%∑¥
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java¨ ¨(2
+
+%22int"ij.ImagePlus#getNSlices()I*
+
+
+currentImpij.ImagePlus2getNSlices()*
+13*Ü
+16^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaü ü(ËÂ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaü ü(&
+%9ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+
+currentImpij.ImagePlus2getCalibration()®
+•
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaü ü(&
+calij.measure.Calibration"__id*
+
+%9ij.measure.Calibration≥∞
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java† †("
+
+%10int"ij.ImagePlus#getWidth()I*
+
+
+currentImpij.ImagePlus2
+getWidth()µ≤
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java° °($
+
+%11int"ij.ImagePlus#getHeight()I*
+
+
+currentImpij.ImagePlus2getHeight()∑¥
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java¢ ¢((
+
+%12int"ij.ImagePlus#getNSlices()I*
+
+
+currentImpij.ImagePlus2getNSlices()±Æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java£ £($
+
+%13int"ij.ImagePlus#getType()I*
+
+
+currentImpij.ImagePlus2	getType()ÎË
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java§ §(. 
+%14ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+
+currentImpij.ImagePlus2getProcessor()Ä˝
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java§ §(> 
+%15java.awt.image.ColorModel"Dij.process.ImageProcessor#getColorModel()Ljava/awt/image/ColorModel;*"
+ 
+%14ij.process.ImageProcessor2getColorModel()Æ
+´
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java§ §(?
+cmjava.awt.image.ColorModel"__id*"
+ 
+%15java.awt.image.ColorModelàÖ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java• •("
+%16ij.ImageStack"ij.ImageStackÎ
+Ë
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java• •(;
+%17"4ij.ImageStack#<init>(IILjava/awt/image/ColorModel;)V*
+
+%16ij.ImageStack*
+""*
+""*!
+
+cmjava.awt.image.ColorModel†
+ù
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java• •(;
+concat_Stackij.ImageStack"__id*
+
+%16ij.ImageStackÎË
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java¶ ¶($ 
+%18ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+
+currentImpij.ImagePlus2getProcessor()≈¬
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java¶ ¶(-
+%19double"#ij.process.ImageProcessor#getMin()D*"
+ 
+%18ij.process.ImageProcessor2getMin()ÎË
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaß ß($ 
+%20ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+
+currentImpij.ImagePlus2getProcessor()≈¬
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaß ß(-
+%21double"#ij.process.ImageProcessor#getMax()D*"
+ 
+%20ij.process.ImageProcessor2getMax()*
+15*‹
+17^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaú ú(ß
+§
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaú ú(
+%7ij.ImagePlus[]"__id*&*$
+ij.plugin.Concatenator"
+images£
+†
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaú ú(
+%8ij.ImagePlus"
+__arrayGet*
+
+%7ij.ImagePlus[]*
+""õ
+ò
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaú ú(
+
+currentImpij.ImagePlus"__id*
+
+%8ij.ImagePlus*
+15
+16*æ
+18^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaõ õ(ß
+§
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaõ õ(
+%5ij.ImagePlus[]"__id*&*$
+ij.plugin.Concatenator"
+images£
+†
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaõ õ(
+%6ij.ImagePlus"
+__arrayGet*
+
+%5ij.ImagePlus[]*
+""*
+17
+19*ó
+19^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaö ö(ß
+§
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaö ö(
+%4ij.ImagePlus[]"__id*&*$
+ij.plugin.Concatenator"
+images*
+3
+18*‹
+1^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaÃ	 Ã("w
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaÃ Ã(
+
+impij.ImagePlus*√
+2^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java… …(¥±
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java…# …(5
+
+%49int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()”–
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java… …(@
+%50void" ij.ImagePlus#setDimensions(III)V*
+
+impij.ImagePlus*2*
+""*
+""2setDimensions(III)À»
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java   ( 
+%51void"$ij.ImagePlus#setOpenAsHyperStack(Z)V*
+
+impij.ImagePlus*22setOpenAsHyperStack(Z)*
+1*≠
+3^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java¬  ¬((¨
+©
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java¬  ¬((
+%38java.lang.String"__id*(*&
+ij.plugin.Concatenator"
+
+newtitleÜÉ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java¬ ¬(
+%39ij.ImagePlus"ij.ImagePlusˆ
+Û
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java¬ ¬(7
+%40"7ij.ImagePlus#<init>(Ljava/lang/String;Lij/ImageStack;)V*
+
+%39ij.ImagePlus*
+
+%38java.lang.String*
+
+concat_Stackij.ImageStackï
+í
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java¬ ¬(8
+impij.ImagePlus"__id*
+
+%39ij.ImagePlusäá
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java√ √(
+%41void"6ij.ImagePlus#setCalibration(Lij/measure/Calibration;)V*
+
+impij.ImagePlus*
+
+calij.measure.Calibration2(setCalibration(Lij/measure/Calibration;)Õ
+ 
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaƒ& ƒ(<
+%42java.lang.Integer"/java.lang.Integer#valueOf(I)Ljava/lang/Integer;*"
+java.lang.Integer*
+""≠™
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaƒ ƒ(=
+%43void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+
+impij.ImagePlus*
+Number of Stacks*
+
+%42java.lang.Integer21setProperty(Ljava/lang/String;Ljava/lang/Object;)ª∏
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java≈ ≈(3
+%44void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+
+impij.ImagePlus*
+Stacks Properties*'
+%
+propertyArrjava.util.Properties[]21setProperty(Ljava/lang/String;Ljava/lang/Object;)±
+Æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∆" ∆(-
+%45java.lang.String[]"__id*+*)
+ij.plugin.Concatenator"
+imageTitles™ß
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∆ ∆(.
+%46void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+
+impij.ImagePlus*
+Image Titles*
+
+%45java.lang.String[]21setProperty(Ljava/lang/String;Ljava/lang/Object;)‰·
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java« «( 
+%47ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()„‡
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java« «(+
+%48void"+ij.process.ImageProcessor#setMinAndMax(DD)V*"
+ 
+%47ij.process.ImageProcessor*
+""*
+""2setMinAndMax(DD)*
+2
+1*ò
+6^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∫ ∫(¨©
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaª ª(
+%37void"ij.ImagePlus#hide()V*
+
+
+currentImpij.ImagePlus2hide()*
+19*Ì
+
+9^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∂ ∂(Eé
+ã
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∂ ∂(E
+%31void"?ij.plugin.Concatenator#concat(Lij/ImageStack;Lij/ImageStack;Z)V*
+ij.plugin.Concatenator*
+
+concat_Stackij.ImageStack*
+
+%30ij.ImageStack*
+""„‡
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∑ ∑(3
+%32java.util.Properties"2ij.ImagePlus#getProperties()Ljava/util/Properties;*
+
+
+currentImpij.ImagePlus2getProperties()∆
+√
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∑ ∑(3
+%33"
+__arraySet*'
+%
+propertyArrjava.util.Properties[]*
+""*
+
+%32java.util.Properties±
+Æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∏ ∏(
+%34java.lang.String[]"__id*+*)
+ij.plugin.Concatenator"
+imageTitles—Œ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∏ ∏(.
+%35java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+
+currentImpij.ImagePlus2
+getTitle()∂
+≥
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∏ ∏(.
+%36"
+__arraySet*
+
+%34java.lang.String[]*
+""*
+
+%35java.lang.String*
+6
+19*•
+20^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaê ê(ß
+§
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaí, í(2
+%0ij.ImagePlus[]"__id*&*$
+ij.plugin.Concatenator"
+imagesôñ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaí í(:
+%1java.util.Properties[]"java.util.Properties[]∞
+≠
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaí í(;%
+propertyArrjava.util.Properties[]"__id*
+
+%1java.util.Properties[]ç
+ä
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaì ì(
+
+currentImpij.ImagePlus"__id*
+""ê
+ç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaî î(!
+concat_Stackij.ImageStack"__id*
+""ê
+ç
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaó ó(
+calij.measure.Calibration"__id*
+""ß
+§
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaô ô(
+%2ij.ImagePlus[]"__id*&*$
+ij.plugin.Concatenator"
+imagesﬂ
+‹
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaô ô(
+
+%3void":ij.plugin.Concatenator#findMaxDimensions([Lij/ImagePlus;)V*
+ij.plugin.Concatenator*
+
+%2ij.ImagePlus[]*
+19*≈
+11^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaµ µ(ãà
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.javaµ µ(,
+%29boolean"5ij.plugin.Concatenator#isDuplicated(Lij/ImagePlus;I)Z*
+ij.plugin.Concatenator*
+
+
+currentImpij.ImagePlus*
+""2isDuplicated(Lij/ImagePlus;I)À»
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∂ ∂(.
+%30ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+
+currentImpij.ImagePlus2
+getStack()*
+9*˝
+12^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∞ ∞(±
+Æ
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∞ ∞(%
+%24java.lang.String[]"__id*+*)
+ij.plugin.Concatenator"
+imageTitles≠
+™
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∞ ∞((
+%25java.lang.String"
+__arrayGet*
+
+%24java.lang.String[]*
+""∞
+≠
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∞ ∞((
+%26java.lang.String"__concat*
+	Omitting *
+
+%25java.lang.String¿
+Ω
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∞ ∞(F
+%27java.lang.String"__concat*
+
+%26java.lang.String*
+ - image type not matched∂
+≥
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Concatenator.java∞ ∞(G
+%28void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%27java.lang.String*
+19B
+ij.plugin.Concatenator

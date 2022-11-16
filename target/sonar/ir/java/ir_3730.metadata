@@ -1,0 +1,10 @@
+ij.Menus#addItem(Ljava/awt/Menu;Ljava/lang/String;IZ)V
+java.awt.MenuShortcut#<init>(IZ)V
+java.awt.MenuItem#<init>(Ljava/lang/String;Ljava/awt/MenuShortcut;)V
+ij.Menus#addOrdered(Ljava/awt/Menu;Ljava/awt/MenuItem;)V
+java.lang.Integer#valueOf(I)Ljava/lang/Integer;
+ij.Menus#addItemSorted(Ljava/awt/Menu;Ljava/awt/MenuItem;I)V
+java.awt.MenuShortcut#<init>(I)V
+java.awt.MenuItem#<init>(Ljava/lang/String;)V
+java.awt.MenuItem#instance-init#
+java.awt.MenuShortcut#instance-init#

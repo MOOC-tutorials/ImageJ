@@ -1,0 +1,16 @@
+ij.Menus#getMenu(Ljava/lang/String;Z)Ljava/awt/Menu;
+ij.Menus#getMenu(Ljava/lang/String;)Ljava/awt/Menu;
+java.awt.MenuBar#<init>()V
+java.lang.String#substring(II)Ljava/lang/String;
+java.awt.Menu#<init>(Ljava/lang/String;)V
+java.awt.Menu#instance-init#
+java.lang.String#length()I
+java.lang.String#substring(I)Ljava/lang/String;
+ij.Menus#addItemSorted(Ljava/awt/Menu;Ljava/awt/MenuItem;I)V
+java.lang.String#lastIndexOf(I)I
+ij.Menus#addSubMenu(Ljava/awt/Menu;Ljava/lang/String;)Ljava/awt/Menu;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#endsWith(Ljava/lang/String;)Z
+ij.Menus#addPluginSeparatorIfNeeded(Ljava/awt/Menu;)I
+java.awt.MenuBar#instance-init#
+java.lang.String#startsWith(Ljava/lang/String;)Z

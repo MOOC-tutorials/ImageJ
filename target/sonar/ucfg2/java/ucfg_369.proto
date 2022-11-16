@@ -1,0 +1,125 @@
+
+Lij.plugin.ListVirtualStack#convertToRealStack(Lij/ImagePlus;)Lij/ImageStack;`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaQ Q("6*´
+3`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaY Y(
+÷ô
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaY Y()
+%12java.lang.String"=ij.plugin.ListVirtualStack#getSliceLabel(I)Ljava/lang/String;*
+ij.plugin.ListVirtualStack*
+""2getSliceLabel(I)ÍÊ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaY Y(/
+%13void"Fij.ImageStack#addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+stack2ij.ImageStack*
+
+%12java.lang.String*"
+ 
+ip2ij.process.ImageProcessor27addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)*
+5*Œ
+4`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaU U(¥
+¢
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaU U(
+
+%6void"ij.IJ#showProgress(II)V*	"
+ij.IJ*
+""*
+""ž
+›
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaV V(
+%7java.lang.String"__concat*
+	Opening: *
+""¨
+¥
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaV V("
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+/©
+¦
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaV V($
+%9java.lang.String"__concat*
+
+%8java.lang.String*
+""¾
+»
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaV V(%
+%10void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%9java.lang.String‡„
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaW W(, 
+%11ij.process.ImageProcessor"Eij.plugin.ListVirtualStack#getProcessor(I)Lij/process/ImageProcessor;*
+ij.plugin.ListVirtualStack*
+""2getProcessor(I)±
+®
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaW W(- 
+ip2ij.process.ImageProcessor"__id*"
+ 
+%11ij.process.ImageProcessor*
+3
+5*²
+5`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaT T(Â¿
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaT T(!	
+%5int"%ij.plugin.ListVirtualStack#getSize()I*
+ij.plugin.ListVirtualStack2	getSize()*
+4
+1*²
+
+6`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaR% R(/åâ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaR> R(P
+%0ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()€ý
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaR> R(`
+%1java.awt.image.ColorModel"Dij.process.ImageProcessor#getColorModel()Ljava/awt/image/ColorModel;*!
+
+%0ij.process.ImageProcessor2getColorModel()‰†
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaR R($
+%2ij.ImageStack"ij.ImageStackë
+è
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaR R(a
+%3"4ij.ImageStack#<init>(IILjava/awt/image/ColorModel;)V*
+
+%2ij.ImageStack*
+""*
+""*!
+
+%1java.awt.image.ColorModel›
+˜
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaR R(b
+stack2ij.ImageStack"__id*
+
+%2ij.ImageStackÂ¿
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.javaS
+ S(	
+%4int"%ij.plugin.ListVirtualStack#getSize()I*
+ij.plugin.ListVirtualStack2	getSize()*
+5*ä
+1`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.java[	 [("}
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ListVirtualStack.java[ [(
+
+stack2ij.ImageStack:
+impij.ImagePlusB
+ij.plugin.ListVirtualStack

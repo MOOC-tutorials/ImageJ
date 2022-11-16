@@ -1,0 +1,66 @@
+
+Eij.plugin.frame.RoiManager#getHex(Ljava/awt/Color;)Ljava/lang/String;b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÖ Ö("3"4*ñ
+2b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÙ Ù( ßÜ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÙ Ù(-
+%4java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*
+
+hexjava.lang.String*22substring(I) 
+
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÙ Ù(-
+hexjava.lang.String"__id*
+
+%4java.lang.String*
+1*Ö
+3b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaØ Ø(±®
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaØ# Ø(1	
+%1int"java.awt.Color#getRGB()I*
+
+colorjava.awt.Color2getRGB()×
+Ô
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaØ Ø(2
+%2java.lang.String"2java.lang.Integer#toHexString(I)Ljava/lang/String;*"
+java.lang.Integer*
+	
+%1int 
+
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaØ Ø(3
+hexjava.lang.String"__id*
+
+%2java.lang.String³°
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÙ Ù(	
+%3int"java.lang.String#length()I*
+
+hexjava.lang.String2length()*
+2
+1*Û
+4b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java× ×(&Ë
+È
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java× ×(8
+%0java.awt.Color"4ij.gui.ImageCanvas#getShowAllColor()Ljava/awt/Color;*"
+ij.gui.ImageCanvas
+›
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java× ×(8
+colorjava.awt.Color"__id*
+
+%0java.awt.Color*
+3*è
+1b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÚ	 Ú("
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÚ Ú(
+
+hexjava.lang.String:
+colorjava.awt.ColorB
+ij.plugin.frame.RoiManager

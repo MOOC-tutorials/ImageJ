@@ -1,0 +1,119 @@
+
+5ij.Menus#addPluginSeparatorIfNeeded(Ljava/awt/Menu;)IP
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java´ ´(&"7*Ã
+2P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java» »(¨¥
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java» »(*	
+%5int"java.awt.Menu#getItemCount()I*
+
+menujava.awt.Menu2getItemCount()Ã
+À
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java» »(+
+%6java.lang.Integer"/java.lang.Integer#valueOf(I)Ljava/lang/Integer;*"
+java.lang.Integer*
+	
+%5int
+‹
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java» »(+
+ijava.lang.Integer"__id*
+
+%6java.lang.Integer™
+–
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¼ ¼(
+%7java.util.Properties"__id* *
+
+ij.Menus"
+menuSeparatorsÈ
+Å
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¼ ¼(
+%8java.lang.Object"__mapSet*
+
+%7java.util.Properties*
+
+menujava.awt.Menu*
+
+ijava.lang.Integer*
+1*
+3P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaº º(±
+®
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaº º(
+
+%4void"'ij.Menus#addSeparator(Ljava/awt/Menu;)V*"
+
+ij.Menus*
+
+menujava.awt.Menu*
+2*ˆ
+4P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¹ ¹(¨¥
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¹ ¹(	
+%3int"java.awt.Menu#getItemCount()I*
+
+menujava.awt.Menu2getItemCount()*
+2
+3*º
+5P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java· ·(%™
+–
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java· ·(%
+%1java.util.Properties"__id* *
+
+ij.Menus"
+menuSeparators®
+«
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java· ·(/
+%2java.lang.Object"__mapGet*
+
+%1java.util.Properties*
+
+menujava.awt.Menu
+Š
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java· ·(0
+ijava.lang.Integer"__id*
+
+%2java.lang.Object*
+4
+1*±
+6P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¶
+ ¶("Z
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¶ ¶(
+""*ù
+7P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaµ µ(™
+–
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.javaµ µ(
+%0java.util.Properties"__id* *
+
+ij.Menus"
+menuSeparators*
+5
+6*Ù
+1P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¾	 ¾(
+¥¢
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¾	 ¾(	
+%9int"java.lang.Integer#intValue()I*
+
+ijava.lang.Integer2
+intValue()"Z
+P
+D/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/Menus.java¾ ¾(
+"":
+menujava.awt.MenuB"
+
+ij.Menus

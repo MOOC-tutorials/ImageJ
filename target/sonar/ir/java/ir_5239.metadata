@@ -1,0 +1,9 @@
+ij.plugin.CalibrationBar#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.IJ#wait(I)V
+ij.IJ#createImage(Ljava/lang/String;Ljava/lang/String;III)Lij/ImagePlus;
+ij.plugin.CalibrationBar#showDialog()Z
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.plugin.CalibrationBar#updateColorBar()V
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+ij.IJ#isMacro()Z

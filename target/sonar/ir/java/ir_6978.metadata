@@ -1,0 +1,11 @@
+ij.gui.Toolbar#addMacroTool(Ljava/lang/String;Lij/plugin/MacroInstaller;I)V
+ij.gui.Toolbar#installBuiltinTool(Ljava/lang/String;)Z
+java.lang.String#length()I
+ij.plugin.tool.MacroToolRunner#<init>(Lij/plugin/MacroInstaller;)V
+ij.plugin.tool.MacroToolRunner#instance-init#
+ij.gui.Toolbar#resetTools()V
+java.lang.String#endsWith(Ljava/lang/String;)Z
+java.lang.String#substring(II)Ljava/lang/String;
+ij.Menus#getCommands()Ljava/util/Hashtable;
+ij.IJ#run(Ljava/lang/String;)V
+java.lang.String#startsWith(Ljava/lang/String;)Z

@@ -1,0 +1,139 @@
+
+Bij.plugin.Selection#setProperties(Ljava/lang/String;Lij/gui/Roi;)Z[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java˜	 ˜("8"11*È
+2[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÜ Ü(À»
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÜ
+ Ü(
+%10java.lang.String"+ij.gui.Roi#getDebugInfo()Ljava/lang/String;*
+
+roi
+ij.gui.Roi2getDebugInfo()≥
+∞
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÜ Ü(
+%11void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%10java.lang.String*
+1*Ÿ
+3[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÉ' É(,íè
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÉ É(&
+%7ij.gui.RoiProperties"ij.gui.RoiPropertiesÙ
+Ò
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÉ É(2
+%8"<ij.gui.RoiProperties#<init>(Ljava/lang/String;Lij/gui/Roi;)V*
+
+%7ij.gui.RoiProperties*
+
+titlejava.lang.String*
+
+roi
+ij.gui.Roi†
+ù
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÉ É(3
+rpij.gui.RoiProperties"__id*
+
+%7ij.gui.RoiPropertiesøº
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÑ Ñ(
+%9boolean""ij.gui.RoiProperties#showDialog()Z*
+
+rpij.gui.RoiProperties2showDialog()*
+2
+1*ã
+4[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÄ Ä(¡
+æ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÄ Ä(1
+
+%6void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*&$
+"This command requires a selection."e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaÅ Å(
+""*«
+6[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java˛
+ ˛("e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java˛ ˛(
+""*ô
+7[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java˝ ˝(»≈
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java˝ ˝(
+%4java.lang.String"+java.awt.Frame#getTitle()Ljava/lang/String;*
+
+fjava.awt.Frame2
+getTitle()‡›
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java˝ ˝(2	
+%5int"-java.lang.String#indexOf(Ljava/lang/String;)I*
+
+%4java.lang.String*
+	3D Viewer2indexOf(Ljava/lang/String;)*	
+3
+4
+6*√
+8[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¸ ¸(ø
+º
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¸ ¸(*
+%3java.awt.Frame"1ij.WindowManager#getFrontWindow()Ljava/awt/Frame;*"
+ij.WindowManagerì
+ê
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¸ ¸(+
+fjava.awt.Frame"__id*
+
+%3java.awt.Frame*	
+3
+4
+7*˛
+9[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java˘ ˘(¥±
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java˘ ˘("
+
+%2void" ij.gui.PointRoi#displayCounts()V*
+
+roi
+ij.gui.Roi2displayCounts()"e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java˙ ˙(
+""*˚
+10[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¯B ¯(Dè
+å
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¯B ¯(Q
+%1boolean"ij.IJ#altKeyDown()Z*	"
+ij.IJ*
+8
+9*ï
+11[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¯# ¯(*®
+•
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.java¯# ¯(>
+%0boolean"#ij.gui.Toolbar#getMultiPointMode()Z*"
+ij.gui.Toolbar*
+8
+10*«
+1[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaá	 á("e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Selection.javaá á(
+"":
+titlejava.lang.String:
+roi
+ij.gui.RoiB
+ij.plugin.Selection

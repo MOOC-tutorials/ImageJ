@@ -1,0 +1,274 @@
+
+Aij.plugin.filter.Rotator#setup(Ljava/lang/String;Lij/ImagePlus;)I^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java ("25*Ö
+13^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java*+ *(/ò
+ï
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java*+ *(/
+%9java.awt.Rectangle"__id*
+
+%11
+<nulltype>*
+12*Ò
+24^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java (±Æ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java (	
+%0int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()π∂
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java   (
+%1
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()ê
+ç
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java   (
+roi
+ij.gui.Roi"__id*
+
+%1
+ij.gui.Roi*
+21
+23*‹
+14^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java* *(Ã…
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java* *(*
+%10java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roi
+ij.gui.Roi2getBounds()†
+ù
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java* *(*
+%9java.awt.Rectangle"__id*
+
+%10java.awt.Rectangle*
+12*ï
+25^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java (•
+¢
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java (#
+ij.plugin.filter.Rotator"
+imp"__id*
+
+impij.ImagePlus*
+24
+1*ü
+16^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java( ((Æ´
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java( ((
+
+%8void"ij.ImagePlus#deleteRoi()V*
+
+impij.ImagePlus2deleteRoi()*
+13
+14*À
+17^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java' '({
+y
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java' '(	
+%7int"__id*
+"""h
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java' '(
+""*°
+18^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java% %(Oƒ
+¡
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java% %(P
+msgjava.lang.String"__id*@>
+<This image has an overlay so the\nselection will be removed.È
+Ê
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java&	 &(1
+%6boolean"Bij.IJ#showMessageWithCancel(Ljava/lang/String;Ljava/lang/String;)Z*	"
+ij.IJ*	
+Rotator*
+
+msgjava.lang.String*
+16
+17*ß
+19^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java$% $(*≤
+Ø
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java$% $(7
+%5java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macro*
+13
+14
+18*Õ
+1^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java4	 4("h
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java4 4(
+""*√
+2^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java2 2(äá
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java2 2(
+%21ij.gui.Overlay"ij.gui.Overlayù
+ö
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java2 2(
+%22"ij.gui.Overlay#<init>()V*
+
+%21ij.gui.Overlay´
+®
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java2 2('
+ij.plugin.filter.Rotator"	
+overlay"__id*
+
+%21ij.gui.Overlay*
+1*÷
+3^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java0 0(∫
+∑
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java0 0(
+%19void"$ij.Undo#saveOverlay(Lij/ImagePlus;)V*"	
+ij.Undo*
+
+impij.ImagePlus´
+®
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java1 1(
+%20ij.gui.Overlay"__id*)*'
+ij.plugin.filter.Rotator"	
+overlay*
+2
+1*™
+4^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java- -(|
+z
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java- -(
+
+%16int"__id*
+""√
+¿
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java- -(#
+%17void"ij.Undo#setup(ILij/ImagePlus;)V*"	
+ij.Undo*
+
+
+%16int*
+
+impij.ImagePlus|
+z
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java. .(!
+
+%18int"__id*
+""*
+3*§
+5^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java+ +(_∏µ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java, ,(
+
+%14int"ij.ImagePlus#getDisplayMode()I*
+
+impij.ImagePlus2getDisplayMode()|
+z
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java, ,()
+
+%15int"__id*
+""*
+3
+4*ô
+6^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java+E +(FÆ´
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java+O +(^
+
+%13int"ij.ImagePlus#getHeight()I*
+
+impij.ImagePlus2getHeight()*
+5*ö
+8^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java+, +(-¨©
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java+5 +(C
+
+%12int"ij.ImagePlus#getWidth()I*
+
+impij.ImagePlus2
+getWidth()*
+5
+6*ü
+20^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java$ $(™
+ß
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java$ $(
+%4ij.gui.Overlay"__id*)*'
+ij.plugin.filter.Rotator"	
+overlay*
+13
+14
+19*Î
+21^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java# #(…∆
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java# #(
+%3ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+impij.ImagePlus2getOverlay()™
+ß
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java# #('
+ij.plugin.filter.Rotator"	
+overlay"__id*
+
+%3ij.gui.Overlay*
+13
+14
+20*Ò
+22^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java"
+ "(Ñ
+Å
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java" "(
+roi
+ij.gui.Roi"__id*
+""*
+21*ê
+12^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java* *(0û
+õ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java* *(0
+rjava.awt.Rectangle"__id*
+
+%9java.awt.Rectangle*	
+5
+6
+8*ò
+23^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java! !(ß§
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java! !( 
+%2boolean"ij.gui.Roi#isLine()Z*
+
+roi
+ij.gui.Roi2isLine()*
+21
+22:
+argjava.lang.String:
+impij.ImagePlusB
+ij.plugin.filter.Rotator

@@ -1,0 +1,534 @@
+
+6ij.plugin.filter.Calibrator#calibrate(Lij/ImagePlus;)Vc
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaâ â("65*¯
+46c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java§ §(˛˚
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java§ §(/
+%20double[]"3ij.plugin.filter.Calibrator#doCurveFitting([D[DI)[D*
+ij.plugin.filter.Calibrator*
+""*
+""*
+""2doCurveFitting([D[DI)*
+28
+43
+45*≠
+24c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java∆ ∆(∑¥
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java∆ ∆("
+
+%32int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()*
+22
+23*Å
+25c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java≈ ≈(èå
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java≈ ≈(
+%31void"6ij.ImagePlus#setCalibration(Lij/measure/Calibration;)V*
+
+impij.ImagePlus*
+
+calij.measure.Calibration2(setCalibration(Lij/measure/Calibration;)*
+24*ê
+26c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaƒ ƒ(
+öó
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaƒ ƒ(
+%30boolean"8ij.measure.Calibration#equals(Lij/measure/Calibration;)Z*
+
+calij.measure.Calibration*#
+!
+calOrigij.measure.Calibration2 equals(Lij/measure/Calibration;)*
+24
+25*«
+49c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java£ £(Õ 
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java£ £(
+%19boolean"$ij.measure.Calibration#calibrated()Z*
+
+calij.measure.Calibration2calibrated()*
+46
+28
+43*¥
+27c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java√ √(≤
+Ø
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java√ √(
+%28java.lang.String"__id*)*'
+ij.plugin.filter.Calibrator"
+unitçä
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java√ √(
+%29void"8ij.measure.Calibration#setValueUnit(Ljava/lang/String;)V*
+
+calij.measure.Calibration*
+
+%28java.lang.String2 setValueUnit(Ljava/lang/String;)*
+26*⁄
+28c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java¡ ¡(≤
+Ø
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java¡( ¡(,
+%25java.lang.String"__id*)*'
+ij.plugin.filter.Calibrator"
+unit´®
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java¡ ¡(7
+%26void";ij.measure.Calibration#setFunction(I[DLjava/lang/String;Z)V*
+
+calij.measure.Calibration*
+""*
+""*
+
+%25java.lang.String*
+""2#setFunction(I[DLjava/lang/String;Z)Å
+
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java¬ ¬( 
+
+%27int"__id*
+""*
+26
+27*û
+29c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaæ æ(¨
+©
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaø ø('
+ij.plugin.filter.Calibrator"
+unit"__id*
+Uncalibrated OD*
+28*ÿ
+50c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java¢ ¢("m
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java¢ ¢(
+""*Ó
+51c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java° °(¯
+ı
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java° °(
+%18boolean">ij.plugin.filter.Calibrator#validateXValues(Lij/ImagePlus;[D)Z*
+ij.plugin.filter.Calibrator*
+
+impij.ImagePlus*
+""*
+49
+50*ê
+52c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaü ü(ûõ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaü ü(-
+%17void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+
+impij.ImagePlus*
+	WasSigned*
+	WasSigned21setProperty(Ljava/lang/String;Ljava/lang/Object;)*
+51*÷
+30c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaª ª(˚
+¯
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaª ª(O
+%24void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+	Calibrate*64
+2Uncalibrated OD is not supported on 16-bit images."m
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaº º(
+""*®
+10c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java– –(¥
+±
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java– –(&
+%45void"'ij.WindowManager#repaintImageWindows()V*"
+ij.WindowManager*
+5
+6*¢
+33c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java∑ ∑(∞
+≠
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java∏ ∏('
+ij.plugin.filter.Calibrator"
+unit"__id*
+Inverted Gray Value*
+28*˛
+57c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaú ú(!àÖ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaú ú(:
+%16java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+impij.ImagePlus*
+	WasSigned2getProperty(Ljava/lang/String;)*
+51
+52*¯
+13c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaÀ À(ƒ¡
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaÀ À(
+%43void"!ij.ImagePlus#resetDisplayRange()V*
+
+impij.ImagePlus2resetDisplayRange()ºπ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaÃ Ã(
+%44void"ij.ImagePlus#updateAndDraw()V*
+
+impij.ImagePlus2updateAndDraw()*
+9
+10*’	
+58c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaô ô(≥
+∞
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaö ö(
+%11java.lang.String"__id***(
+ij.plugin.filter.Calibrator"
+xTextçä
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaö ö(
+%12double[]"9ij.plugin.filter.Calibrator#getData(Ljava/lang/String;)[D*
+ij.plugin.filter.Calibrator*
+
+%11java.lang.String2getData(Ljava/lang/String;)≥
+∞
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaõ õ(
+%13java.lang.String"__id***(
+ij.plugin.filter.Calibrator"
+yTextçä
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaõ õ(
+%14double[]"9ij.plugin.filter.Calibrator#getData(Ljava/lang/String;)[D*
+ij.plugin.filter.Calibrator*
+
+%13java.lang.String2getData(Ljava/lang/String;)”–
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaú ú(
+%15boolean"'ij.measure.Calibration#isSigned16Bit()Z*
+
+calij.measure.Calibration2isSigned16Bit()*
+57
+52*¡
+14c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java -  (0»≈
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java -  (E
+%42double""ij.ImagePlus#getDisplayRangeMax()D*
+
+impij.ImagePlus2getDisplayRangeMax()*
+13
+9
+10*Â
+15c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java… …(ÈÊ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java… …(- 
+%39ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()˝˙
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java… …(8!
+%40ij.process.ImageStatistics"@ij.process.ImageProcessor#getStats()Lij/process/ImageStatistics;*"
+ 
+%39ij.process.ImageProcessor2
+getStats()∏
+µ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java… …(9#
+statsij.process.ImageStatistics"__id*#
+!
+%40ij.process.ImageStatistics»≈
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java   (
+%41double""ij.ImagePlus#getDisplayRangeMin()D*
+
+impij.ImagePlus2getDisplayRangeMin()*
+13
+14*•
+17c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java»\ »(_¨
+©
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java»\ »(v
+
+%38int"$ij.ImagePlus#getDefault16bitRange()I*"
+ij.ImagePlus*
+15
+9
+10*∂
+19c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java»3 »(6π∂
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java»3 »(E
+
+%37int"ij.ImagePlus#getNChannels()I*
+
+impij.ImagePlus2getNChannels()*
+15
+17
+9
+10*Å
+0 "z
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java€ €(
+implicit return*–
+1c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaŸ Ÿ(Æ
+´
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaŸ Ÿ(
+%33ij.measure.Calibration"__id*
+
+calij.measure.Calibrationπ
+∂
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaŸ Ÿ(#
+%52java.lang.String"__id*0*.
+ij.plugin.filter.Calibrator"
+fitGoodnessÛ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaŸ Ÿ($
+%53void"Uij.plugin.filter.Calibrator#showPlot([D[DLij/measure/Calibration;Ljava/lang/String;)V*
+ij.plugin.filter.Calibrator*
+""*
+""*
+
+calij.measure.Calibration*
+
+%52java.lang.String28showPlot([D[DLij/measure/Calibration;Ljava/lang/String;)*
+0*•
+2c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java◊ ◊(
+ø
+º
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java◊ ◊(
+%50ij.measure.CurveFitter"__id*0*.
+ij.plugin.filter.Calibrator"
+curveFitterÛ
+
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java◊ ◊()
+%51void"7ij.plugin.frame.Fitter#plot(Lij/measure/CurveFitter;Z)V*"
+ij.plugin.frame.Fitter*
+
+%50ij.measure.CurveFitter*
+""*
+0*≤
+3c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java÷ ÷(ø
+º
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java÷ ÷(
+%49ij.measure.CurveFitter"__id*0*.
+ij.plugin.filter.Calibrator"
+curveFitter*
+2
+1*Ù
+5c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java’ ’(Å
+
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java’ ’( 
+
+%48int"__id*
+""*
+3
+0*Æ
+6c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java‘ ‘(æ
+ª
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java‘ ‘(*
+%47void"+ij.io.FileOpener#setShowConflictMessage(Z)V*"
+ij.io.FileOpener*2*
+5*Ø
+9c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java“ “(ºπ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java“ “(
+%46void"ij.ImagePlus#repaintWindow()V*
+
+impij.ImagePlus2repaintWindow()*
+5
+6*º
+61c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaî î(·
+ﬁ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaî î(5
+%10void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+	Calibrate*
+Please select a function"m
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaï ï(
+""*ä
+62c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaì: ì(?≤
+Ø
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaì: ì(?
+%8java.lang.String"__id***(
+ij.plugin.filter.Calibrator"
+xTextﬂ‹
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaì: ì(J
+%9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%8java.lang.String* 2equals(Ljava/lang/Object;)*
+28
+61*ä
+63c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaì' ì(,≤
+Ø
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaì' ì(,
+%6java.lang.String"__id***(
+ij.plugin.filter.Calibrator"
+yTextﬂ‹
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaì' ì(7
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%6java.lang.String* 2equals(Ljava/lang/Object;)*
+28
+62*ˆ
+64c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaì ì(Ä
+~
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaì ì($	
+%5int"__id*
+""*
+28
+63*Û
+43c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java´ ´(Å
+
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java´ ´(7
+
+%23int"__id*
+""*
+28*ô
+65c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaä ä(Ê„
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaä ä((
+%0ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()≠
+™
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaä ä()
+calij.measure.Calibration"__id*
+
+%0ij.measure.CalibrationÊ„
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaã ã("
+%1ij.measure.Calibration"5ij.measure.Calibration#copy()Lij/measure/Calibration;*
+
+calij.measure.Calibration2copy()±
+Æ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaã ã(#!
+calOrigij.measure.Calibration"__id*
+
+%1ij.measure.CalibrationÄ
+~
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaå å(!	
+%2int"__id*
+""Æ´
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaç ç("	
+%3int"ij.ImagePlus#getType()I*
+
+impij.ImagePlus2	getType()Ä
+~
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaç$ ç(4	
+%4int"__id*
+""¶
+£
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.javaë ë(.
+ij.plugin.filter.Calibrator"
+curveFitter"__id*
+""*
+58
+28
+29
+30
+64
+33*ò
+21c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java« «(,õò
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java« «(,
+%35void"<ij.ImagePlus#setGlobalCalibration(Lij/measure/Calibration;)V*
+
+impij.ImagePlus*
+
+%33ij.measure.Calibration2.setGlobalCalibration(Lij/measure/Calibration;)Å
+
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java» »( 
+
+%36int"__id*
+""*
+19
+9
+10*î
+22c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java«' «(+¢
+ü
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java«' «(+
+%33ij.measure.Calibration"__id*
+
+%34
+<nulltype>*
+21*÷
+45c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java¶ ¶(
+ª
+∏
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java¶ ¶(
+%21java.lang.String"__id*2*0
+ij.plugin.filter.Calibrator"
+curveFitErrorΩ
+∫
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java¶ ¶(
+%22void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%21java.lang.String"m
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java® ®(
+""*†
+23c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java«# «(&Æ
+´
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Calibrator.java«# «(&
+%33ij.measure.Calibration"__id*
+
+calij.measure.Calibration*
+21:
+impij.ImagePlusB
+ij.plugin.filter.Calibrator

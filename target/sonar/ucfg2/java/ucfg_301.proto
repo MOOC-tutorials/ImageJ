@@ -1,0 +1,195 @@
+
+[ij.plugin.filter.EDM#makeFloatEDM(Lij/process/ImageProcessor;IZ)Lij/process/FloatProcessor;\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaé é(&"35*Î
+35\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaè è(¬ø
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaè è(!	
+%0int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()ƒ¡
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaê ê(#	
+%1int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()ùö
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaë  ë(.
+%2ij.process.FloatProcessor"ij.process.FloatProcessor¡
+æ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaë ë(=
+%3"%ij.process.FloatProcessor#<init>(II)V*!
+
+%2ij.process.FloatProcessor*
+""*
+""´
+®
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaë ë(>
+fpij.process.FloatProcessor"__id*!
+
+%2ij.process.FloatProcessor‚ﬂ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaí! í(/
+%4java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*!
+
+ipij.process.ImageProcessor2getPixels()î
+ë
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaí í(0
+bPixelsbyte[]"__id*
+
+%4java.lang.Object‚ﬂ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaì# ì(1
+%5java.lang.Object"7ij.process.FloatProcessor#getPixels()Ljava/lang/Object;*!
+
+fpij.process.FloatProcessor2getPixels()*
+33
+34*ß
+16\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaß ß(∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaß ß(-
+%13void"$ij.plugin.filter.EDM#addProgress(D)V*
+ij.plugin.filter.EDM*
+""*
+
+6
+19
+1*È
+27\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaõ$ õ(%y
+w
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaú ú(%	
+%9int"__id*
+""*
+
+6
+19
+1* 
+17\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java¶C ¶(G"f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java¶< ¶(H
+""*ˆ
+18\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java¶ ¶(ƒ
+¡
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java¶ ¶(*
+%11java.lang.Thread"2java.lang.Thread#currentThread()Ljava/lang/Thread;*"
+java.lang.Thread¿Ω
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java¶ ¶(:
+%12boolean"!java.lang.Thread#isInterrupted()Z*
+
+%11java.lang.Thread2isInterrupted()*
+16
+17*˜
+19\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java§ §(Ç
+ˇ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java§ §([
+%10void"+ij.plugin.filter.EDM#edmLine([B[F[[IIIIII)V*
+ij.plugin.filter.EDM*
+
+bPixelsbyte[]*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+6
+18
+19
+1*§
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java∏ ∏(
+ºπ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java∏ ∏(
+%18void"!ij.process.FloatProcessor#sqrt()V*!
+
+fpij.process.FloatProcessor2sqrt()"Å
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javaπ π(!
+
+fpij.process.FloatProcessor*¢
+3\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java¥ ¥(∂
+≥
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java¥ ¥(-
+%17void"$ij.plugin.filter.EDM#addProgress(D)V*
+ij.plugin.filter.EDM*
+""*
+6
+1*…
+4\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java≥C ≥(G"f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java≥< ≥(H
+""*Û
+5\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java≥ ≥(ƒ
+¡
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java≥ ≥(*
+%15java.lang.Thread"2java.lang.Thread#currentThread()Ljava/lang/Thread;*"
+java.lang.Thread¿Ω
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java≥ ≥(:
+%16boolean"!java.lang.Thread#isInterrupted()Z*
+
+%15java.lang.Thread2isInterrupted()*
+3
+4*Ò
+6\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java± ±(Ç
+ˇ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.java± ±([
+%14void"+ij.plugin.filter.EDM#edmLine([B[F[[IIIIII)V*
+ij.plugin.filter.EDM*
+
+bPixelsbyte[]*
+""*
+""*
+""*
+""*
+""*
+""*
+""*	
+5
+6
+1*Ï
+33\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javañP ñ(QÅ
+
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javañP ñ(Q
+%6double"__id*
+	
+%8int*
+27*
+34\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javañ9 ñ(<Ö
+Ç
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/EDM.javañ9 ñ(M
+%6double"__id*
+
+%7double*
+27:
+ipij.process.ImageProcessor:
+"":
+""B
+ij.plugin.filter.EDM

@@ -1,0 +1,121 @@
+
+Gij.macro.Functions#setSplineAnchors(Lij/ImagePlus;Z)Lij/macro/Variable;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java®> ®>(""10*Ì
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾> ¾>(w
+u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾>+ ¾>(=	
+%7int"__id*
+""‹ˆ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾> ¾>(
+%8ij.gui.PolygonRoi"ij.gui.PolygonRoiÈ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾>	 ¾>(>
+%9"!ij.gui.PolygonRoi#<init>([F[FII)V*
+
+%8ij.gui.PolygonRoi*
+""*
+""*
+""*
+	
+%7int“
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾> ¾>(>
+roi
+ij.gui.Roi"__id*
+
+%8ij.gui.PolygonRoi*
+1*Ì
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼> ¼>(w
+u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼>+ ¼>(>	
+%4int"__id*
+""‹ˆ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼> ¼>(
+%5ij.gui.PolygonRoi"ij.gui.PolygonRoiÈ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼>	 ¼>(?
+%6"!ij.gui.PolygonRoi#<init>([F[FII)V*
+
+%5ij.gui.PolygonRoi*
+""*
+""*
+""*
+	
+%4int“
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼> ¼>(?
+roi
+ij.gui.Roi"__id*
+
+%5ij.gui.PolygonRoi*
+1*è
+4Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaº> º>(
+}
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaº> º>(
+roi
+ij.gui.Roi"__id*
+""*
+2
+3*ˆ
+9Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java³> ³>(	¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java³> ³>(	
+%2ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpùö
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java³> ³>(1
+
+%3void"/ij.macro.Interpreter#error(Ljava/lang/String;)V*
+
+%2ij.macro.Interpreter*" 
+Arrays are not the same length2error(Ljava/lang/String;)*
+4*è
+10Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¯> ¯>(¾»
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¯> ¯>(
+%0double[]"$ij.macro.Functions#getFirstArray()[D*
+ij.macro.Functions2getFirstArray()¼¹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java±> ±>(
+%1double[]"#ij.macro.Functions#getLastArray()[D*
+ij.macro.Functions2getLastArray()*
+4
+9*Ë
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¿> ¿>(®«
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¿> ¿>(
+%10void"ij.gui.PolygonRoi#fitSpline()V*
+
+roi
+ij.gui.Roi2fitSpline()ÒÏ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÀ> À>(
+%11void""ij.ImagePlus#setRoi(Lij/gui/Roi;)V*
+
+impij.ImagePlus*
+
+roi
+ij.gui.Roi2setRoi(Lij/gui/Roi;)"d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÁ> Á>(
+"":
+impij.ImagePlus:
+""B
+ij.macro.Functions

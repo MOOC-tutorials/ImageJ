@@ -1,0 +1,366 @@
+
+ij.plugin.Grid#showDialog()ZV
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaî î("16*‘
+13V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaù ù(’“
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaü ü(
+%9java.lang.String"3ij.measure.Calibration#getUnits()Ljava/lang/String;*
+
+calij.measure.Calibration2
+getUnits()ò
+ï
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaü ü(
+ij.plugin.Grid"
+units"__id*
+
+%9java.lang.String*
+9*©
+14V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaò ò(í
+è
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaò ò(
+%2ij.ImagePlus"__id**
+ij.plugin.Grid"
+imp¢ü
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaò ò(	
+%3int"ij.ImagePlus#getWidth()I*
+
+%2ij.ImagePlus2
+getWidth()í
+è
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaô ô(
+%4ij.ImagePlus"__id**
+ij.plugin.Grid"
+imp§°
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaô ô(	
+%5int"ij.ImagePlus#getHeight()I*
+
+%4ij.ImagePlus2getHeight()í
+è
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaö ö(
+%6ij.ImagePlus"__id**
+ij.plugin.Grid"
+impÿ’
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaö ö((
+%7ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+%6ij.ImagePlus2getCalibration()†
+ù
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaö ö()
+calij.measure.Calibration"__id*
+
+%7ij.measure.Calibration∑¥
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaú ú(
+%8boolean" ij.measure.Calibration#scaled()Z*
+
+calij.measure.Calibration2scaled()*
+13
+12*ˇ
+15V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaó ó(ö
+ó
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaó ó(
+
+%1void"ij.plugin.Grid#getSettings()V*
+ij.plugin.Grid*
+14*ì
+16V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaï ï(™
+ß
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaï ï(
+%0java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macro*
+14
+15*Ω
+1V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java¬
+ ¬("`
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java¬ ¬(
+""*Ω
+2V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java¿
+ ¿("`
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java¿ ¿(
+""*Ø
+3V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaø ø(Ã…
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaø ø(
+%40void"*ij.plugin.Grid#drawGrid(Ljava/awt/Shape;)V*
+ij.plugin.Grid*
+""2drawGrid(Ljava/awt/Shape;)*
+2*Ù
+4V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaª ª(Å
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaª ª(
+%34java.lang.String"__id*
+""ËÂ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaª ª(
+%35void"*ij.gui.Overlay#remove(Ljava/lang/String;)V*
+
+overlayij.gui.Overlay*
+
+%34java.lang.String2remove(Ljava/lang/String;)ô
+ñ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaº º(
+%36
+ij.gui.Roi"__id*#*!
+ij.plugin.Grid"
+gridOnEntry–Õ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaº º(
+%37void"!ij.gui.Overlay#add(Lij/gui/Roi;)V*
+
+overlayij.gui.Overlay*
+
+%36
+ij.gui.Roi2add(Lij/gui/Roi;)ì
+ê
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaΩ Ω(
+%38ij.ImagePlus"__id**
+ij.plugin.Grid"
+impùö
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaΩ Ω(
+%39void"ij.ImagePlus#draw()V*
+
+%38ij.ImagePlus2draw()*
+2*ˇ
+5V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java∫ ∫(#ô
+ñ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java∫ ∫(#
+%33
+ij.gui.Roi"__id*#*!
+ij.plugin.Grid"
+gridOnEntry*
+3
+4*÷
+6V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaπ π(ì
+ê
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaπ π(
+%31ij.ImagePlus"__id**
+ij.plugin.Grid"
+imp¬ø
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaπ π(%
+%32ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+%31ij.ImagePlus2getOverlay()ï
+í
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaπ π(&
+overlayij.gui.Overlay"__id*
+
+%32ij.gui.Overlay*
+3
+5*í
+7V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java∂ ∂(±Æ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java∂ ∂(
+%28boolean"Lij.plugin.Grid#dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)Z*
+ij.plugin.Grid*
+
+gdij.gui.GenericDialog*
+""2<dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)∏µ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java∑ ∑(
+%29void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()Ω∫
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java∏ ∏(
+%30boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+6
+1*»	
+8V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java≤ ≤(€ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java≤ ≤( 
+%25java.util.Vector"6ij.gui.GenericDialog#getCheckboxes()Ljava/util/Vector;*
+
+gdij.gui.GenericDialog2getCheckboxes()ì
+ê
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java≤ ≤(!
+vjava.util.Vector"__id*
+
+%25java.util.Vector“œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java≥ ≥(,
+%26java.lang.Object"/java.util.Vector#elementAt(I)Ljava/lang/Object;*
+
+vjava.util.Vector*22elementAt(I)¢
+ü
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java≥ ≥(,$
+ij.plugin.Grid"
+centerCheckbox"__id*
+
+%26java.lang.Object“œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java¥ ¥(,
+%27java.lang.Object"/java.util.Vector#elementAt(I)Ljava/lang/Object;*
+
+vjava.util.Vector*22elementAt(I)¢
+ü
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java¥ ¥(,$
+ij.plugin.Grid"
+randomCheckbox"__id*
+
+%27java.lang.Object*
+7*¿
+9V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java©' ©(0éã
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java© ©(&
+%10ij.gui.GenericDialog"ij.gui.GenericDialog¿
+Ω
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java© ©(1
+%11"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%10ij.gui.GenericDialog*	
+Grid...ú
+ô
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java© ©(2
+gdij.gui.GenericDialog"__id*
+
+%10ij.gui.GenericDialogõ
+ò
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java™ ™("
+%12java.lang.String[]"__id**
+ij.plugin.Grid"
+typesò
+ï
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java™$ ™((
+%13java.lang.String"__id**
+ij.plugin.Grid"
+typeÏÈ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java™ ™()
+%14void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+Grid type:*
+
+%12java.lang.String[]*
+
+%13java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)ô
+ñ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java´A ´(F
+%15java.lang.String"__id**
+ij.plugin.Grid"
+units°
+û
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java´A ´(K
+%16java.lang.String"__concat*
+
+%15java.lang.String*
+^2÷”
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java´ ´(L
+%17void"Nij.gui.GenericDialog#addNumericField(Ljava/lang/String;DIILjava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Area per point:*
+""*
+""*2*
+
+%16java.lang.String28addNumericField(Ljava/lang/String;DIILjava/lang/String;)ú
+ô
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java¨ ¨(
+%18java.lang.String[]"__id**
+ij.plugin.Grid"
+colorsô
+ñ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java¨! ¨(&
+%19java.lang.String"__id**
+ij.plugin.Grid"
+colorËÂ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java¨ ¨('
+%20void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+Color:*
+
+%18java.lang.String[]*
+
+%19java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)ÚÔ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java≠ ≠(
+%21void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Bold*
+""2 addCheckbox(Ljava/lang/String;Z)Çˇ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaÆ Æ(2
+%22void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Center grid on image*
+""2 addCheckbox(Ljava/lang/String;Z)˚¯
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.javaØ Ø(/
+%23void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Random offset*
+""2 addCheckbox(Ljava/lang/String;Z)àÖ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java∞ ∞(
+%24void"@ij.gui.GenericDialog#addDialogListener(Lij/gui/DialogListener;)V*
+
+gdij.gui.GenericDialog*
+ij.plugin.Grid2*addDialogListener(Lij/gui/DialogListener;)*
+7
+8*Ó
+12V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java¢ ¢(ä
+á
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Grid.java§ §(
+ij.plugin.Grid"
+units"__id*
+
+pixels*
+9B
+ij.plugin.Grid

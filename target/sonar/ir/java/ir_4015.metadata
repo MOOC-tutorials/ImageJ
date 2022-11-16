@@ -1,0 +1,10 @@
+ij.plugin.AppearanceOptions#dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)Z
+ij.IJ#isLinux()Z
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.IJ#wait(I)V
+ij.IJ#getInstance()Lij/ImageJ;
+ij.plugin.frame.ContrastAdjuster#set16bitRange(I)I
+ij.ImagePlus#getDefault16bitRange()I
+java.awt.Window#setAlwaysOnTop(Z)V
+ij.IJ#isMacOSX()Z
+ij.Prefs#setGuiScale(D)V

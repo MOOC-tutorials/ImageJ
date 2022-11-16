@@ -1,0 +1,722 @@
+
+Hij.plugin.Orthogonal_Views#updateViews(Ljava/awt/Point;Lij/ImageStack;)Vb
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaı ı("35*”
+24b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÑ Ñ(∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÑ Ñ(
+%21ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+xz_imageõ
+ò
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÑ Ñ(%
+%22java.lang.String"__concat*
+XZ *
+""∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÑ' Ñ(* 
+%23ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp1“œ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÑ Ñ(+
+%24void"Iij.ImagePlus#setProcessor(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%21ij.ImagePlus*
+
+%22java.lang.String*"
+ 
+%23ij.process.ImageProcessor2;setProcessor(Ljava/lang/String;Lij/process/ImageProcessor;)*
+21
+22*ì
+25b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÉ É(∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÉ É( 
+%19ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp1Á‰
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÉ É('
+%20void"+ij.process.ImageProcessor#setMinAndMax(DD)V*"
+ 
+%19ij.process.ImageProcessor*
+""*
+""2setMinAndMax(DD)*
+24*ô
+27b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÅ Å(∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÅ Å(
+%16ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+xz_imageõ
+ò
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÅ Å("
+%17java.lang.String"__concat*
+XZ *
+""”–
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÅ Å()
+%18void"Iij.ImagePlus#setProcessor(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%16ij.ImagePlus*
+
+%17java.lang.String*#
+!
+sfp1ij.process.ImageProcessor2;setProcessor(Ljava/lang/String;Lij/process/ImageProcessor;)*
+21
+22*Ÿ
+28b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÄ Ä(ËÂ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÄ Ä((
+%15void"+ij.process.ImageProcessor#setMinAndMax(DD)V*#
+!
+sfp1ij.process.ImageProcessor*
+""*
+""2setMinAndMax(DD)*
+27*é	
+29b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˛ ˛(∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˛ ˛( 
+%11ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp1ﬂ‹
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˛ ˛(
+%12void",ij.process.ImageProcessor#setInterpolate(Z)V*"
+ 
+%11ij.process.ImageProcessor*22setInterpolate(Z)∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaˇ ˇ( 
+%13ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp1äá
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaˇ ˇ(2 
+%14ij.process.ImageProcessor"?ij.process.ImageProcessor#resize(II)Lij/process/ImageProcessor;*"
+ 
+%13ij.process.ImageProcessor*
+""*
+""2
+resize(II)¥
+±
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaˇ ˇ(3!
+sfp1ij.process.ImageProcessor"__id*"
+ 
+%14ij.process.ImageProcessor*
+27
+28*˛
+30b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˝ ˝(%∑
+¥
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˝' ˝(*
+%9ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp1À»
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˝' ˝(6
+
+%10int"&ij.process.ImageProcessor#getHeight()I*!
+
+%9ij.process.ImageProcessor2getHeight()*
+24
+25
+29*˜
+31b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˝ ˝(∑
+¥
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˝ ˝(
+%7ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp1»≈
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˝ ˝(	
+%8int"%ij.process.ImageProcessor#getWidth()I*!
+
+%7ij.process.ImageProcessor2
+getWidth()*
+29
+30*®
+10b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaö ö(∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaö ö(
+%46ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+yz_imageØ
+¨
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaö ö("
+%47java.lang.String"__concat*
+
+titlejava.lang.String*
+""”–
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaö ö()
+%48void"Iij.ImagePlus#setProcessor(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%46ij.ImagePlus*
+
+%47java.lang.String*#
+!
+sfp2ij.process.ImageProcessor2;setProcessor(Ljava/lang/String;Lij/process/ImageProcessor;)*
+6*‰
+
+33b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˜ ˜(ª∏
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˜ ˜(
+
+%1void"Iij.plugin.Orthogonal_Views#updateXZView(Ljava/awt/Point;Lij/ImageStack;)V*
+ij.plugin.Orthogonal_Views*
+
+pjava.awt.Point*
+
+isij.ImageStack2-updateXZView(Ljava/awt/Point;Lij/ImageStack;)∑
+¥
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˙ ˙(
+%2ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp1»≈
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˙ ˙(	
+%3int"%ij.process.ImageProcessor#getWidth()I*!
+
+%2ij.process.ImageProcessor2
+getWidth()∑
+¥
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˚  ˚(#
+%4ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp1 «
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˚  ˚(/	
+%5int"&ij.process.ImageProcessor#getHeight()I*!
+
+%4ij.process.ImageProcessor2getHeight()©
+¶
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java˚ ˚(3
+
+%6long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""*
+31*Ÿ
+11b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaô ô(ËÂ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaô ô((
+%45void"+ij.process.ImageProcessor#setMinAndMax(DD)V*#
+!
+sfp2ij.process.ImageProcessor*
+""*
+""2setMinAndMax(DD)*
+10*÷
+34b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaˆ ˆ("l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaˆ ˆ(
+""*é	
+12b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaó ó(∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaó ó( 
+%41ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp2ﬂ‹
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaó ó(
+%42void",ij.process.ImageProcessor#setInterpolate(Z)V*"
+ 
+%41ij.process.ImageProcessor*22setInterpolate(Z)∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaò ò( 
+%43ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp2äá
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaò ò(2 
+%44ij.process.ImageProcessor"?ij.process.ImageProcessor#resize(II)Lij/process/ImageProcessor;*"
+ 
+%43ij.process.ImageProcessor*
+""*
+""2
+resize(II)¥
+±
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaò ò(3!
+sfp2ij.process.ImageProcessor"__id*"
+ 
+%44ij.process.ImageProcessor*
+10
+11*¨
+35b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaˆ ˆ(	∑
+¥
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaˆ ˆ(	
+%0ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp1*
+33
+34*˛
+13b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javañ ñ(%∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javañ' ñ(* 
+%39ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp2Ã…
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javañ' ñ(6
+
+%40int"&ij.process.ImageProcessor#getHeight()I*"
+ 
+%39ij.process.ImageProcessor2getHeight()*
+
+7
+8
+12*˙
+14b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javañ ñ(∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javañ ñ( 
+%37ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp2 «
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javañ ñ(
+
+%38int"%ij.process.ImageProcessor#getWidth()I*"
+ 
+%37ij.process.ImageProcessor2
+getWidth()*
+13
+12*Ç
+15b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaî î(ë
+é
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaî î(
+titlejava.lang.String"__id*
+ZY *
+14*≠
+17b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaë ë(∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaë ë( 
+%32ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp2 «
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaë ë(
+
+%33int"%ij.process.ImageProcessor#getWidth()I*"
+ 
+%32ij.process.ImageProcessor2
+getWidth()∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaí í(  
+%34ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp2Ã…
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaí í(,
+
+%35int"&ij.process.ImageProcessor#getHeight()I*"
+ 
+%34ij.process.ImageProcessor2getHeight()™
+ß
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaí í(0
+%36long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""*
+15*ê
+18b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaé é(∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaé é( 
+%30ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp2Ã…
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaé é(
+
+%31int"&ij.process.ImageProcessor#getHeight()I*"
+ 
+%30ij.process.ImageProcessor2getHeight()ë
+é
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaè è(
+titlejava.lang.String"__id*
+YZ *
+14
+17*Ä
+0 "y
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java∫ ∫(
+implicit return*œ
+1b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java∂ ∂(∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java∂ ∂(
+%84ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+xz_image‘—
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java∂ ∂((
+%85ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+%84ij.ImagePlus2getWindow()‡›
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java∂ ∂(4
+%86ij.gui.ImageCanvas"2ij.gui.ImageWindow#getCanvas()Lij/gui/ImageCanvas;*
+
+%85ij.gui.ImageWindow2getCanvas()§
+°
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java∂ ∂(5
+icij.gui.ImageCanvas"__id*
+
+%86ij.gui.ImageCanvasÃ…
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java∑ ∑(
+%87void"#ij.gui.ImageCanvas#setCustomRoi(Z)V*
+
+icij.gui.ImageCanvas*22setCustomRoi(Z)*
+0*º
+2b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÆ Æ(∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÆ Æ(
+%74ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+xz_image©¶
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaÆ Æ(
+%75void"ij.ImagePlus#show()V*
+
+%74ij.ImagePlus2show()∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaØ Ø(
+%76ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+xz_image‘—
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaØ Ø((
+%77ij.gui.ImageCanvas",ij.ImagePlus#getCanvas()Lij/gui/ImageCanvas;*
+
+%76ij.ImagePlus2getCanvas()§
+°
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaØ Ø()
+icij.gui.ImageCanvas"__id*
+
+%77ij.gui.ImageCanvas†ù
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java∞ ∞(
+%78void"@java.awt.Component#addKeyListener(Ljava/awt/event/KeyListener;)V*
+
+icij.gui.ImageCanvas*
+ij.plugin.Orthogonal_Views2,addKeyListener(Ljava/awt/event/KeyListener;)®•
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java± ±(
+%79void"Djava.awt.Component#addMouseListener(Ljava/awt/event/MouseListener;)V*
+
+icij.gui.ImageCanvas*
+ij.plugin.Orthogonal_Views20addMouseListener(Ljava/awt/event/MouseListener;)¿Ω
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java≤ ≤("
+%80void"Pjava.awt.Component#addMouseMotionListener(Ljava/awt/event/MouseMotionListener;)V*
+
+icij.gui.ImageCanvas*
+ij.plugin.Orthogonal_Views2<addMouseMotionListener(Ljava/awt/event/MouseMotionListener;)Ã…
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java≥ ≥(
+%81void"#ij.gui.ImageCanvas#setCustomRoi(Z)V*
+
+icij.gui.ImageCanvas*22setCustomRoi(Z)∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java¥
+ ¥(
+%82ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+xz_image™ß
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java¥
+ ¥(
+
+%83int"ij.ImagePlus#getID()I*
+
+%82ij.ImagePlus2getID()*
+0*˘
+3b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java≠ ≠(∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java≠ ≠(
+%72ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+xz_image‘—
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java≠ ≠(
+%73ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+%72ij.ImagePlus2getWindow()*
+2
+1*œ
+4b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java™ ™(∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java™ ™(
+%68ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+yz_image‘—
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java™ ™((
+%69ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+%68ij.ImagePlus2getWindow()‡›
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java™ ™(4
+%70ij.gui.ImageCanvas"2ij.gui.ImageWindow#getCanvas()Lij/gui/ImageCanvas;*
+
+%69ij.gui.ImageWindow2getCanvas()§
+°
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java™ ™(5
+icij.gui.ImageCanvas"__id*
+
+%70ij.gui.ImageCanvasÃ…
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java´ ´(
+%71void"#ij.gui.ImageCanvas#setCustomRoi(Z)V*
+
+icij.gui.ImageCanvas*22setCustomRoi(Z)*
+3*º
+5b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java¢ ¢(∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java¢ ¢(
+%58ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+yz_image©¶
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java¢ ¢(
+%59void"ij.ImagePlus#show()V*
+
+%58ij.ImagePlus2show()∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java£ £(
+%60ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+yz_image‘—
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java£ £((
+%61ij.gui.ImageCanvas",ij.ImagePlus#getCanvas()Lij/gui/ImageCanvas;*
+
+%60ij.ImagePlus2getCanvas()§
+°
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java£ £()
+icij.gui.ImageCanvas"__id*
+
+%61ij.gui.ImageCanvas†ù
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java§ §(
+%62void"@java.awt.Component#addKeyListener(Ljava/awt/event/KeyListener;)V*
+
+icij.gui.ImageCanvas*
+ij.plugin.Orthogonal_Views2,addKeyListener(Ljava/awt/event/KeyListener;)®•
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java• •(
+%63void"Djava.awt.Component#addMouseListener(Ljava/awt/event/MouseListener;)V*
+
+icij.gui.ImageCanvas*
+ij.plugin.Orthogonal_Views20addMouseListener(Ljava/awt/event/MouseListener;)¿Ω
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java¶ ¶("
+%64void"Pjava.awt.Component#addMouseMotionListener(Ljava/awt/event/MouseMotionListener;)V*
+
+icij.gui.ImageCanvas*
+ij.plugin.Orthogonal_Views2<addMouseMotionListener(Ljava/awt/event/MouseMotionListener;)Ã…
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaß ß(
+%65void"#ij.gui.ImageCanvas#setCustomRoi(Z)V*
+
+icij.gui.ImageCanvas*22setCustomRoi(Z)∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java®
+ ®(
+%66ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+yz_image™ß
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java®
+ ®(
+
+%67int"ij.ImagePlus#getID()I*
+
+%66ij.ImagePlus2getID()*
+3*π
+6b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java† †(Ω
+∫
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java† †(
+%55void"'ij.plugin.Orthogonal_Views#calibrate()V*
+ij.plugin.Orthogonal_Views∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java° °(
+%56ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+yz_image‘—
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.java° °(
+%57ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+%56ij.ImagePlus2getWindow()*
+4
+5*·
+7b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaù ù(∞
+≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaù ù(
+%51ij.ImagePlus"__id*,**
+ij.plugin.Orthogonal_Views"
+
+yz_imageØ
+¨
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaù ù("
+%52java.lang.String"__concat*
+
+titlejava.lang.String*
+""∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaù$ ù(' 
+%53ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp2“œ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaù ù((
+%54void"Iij.ImagePlus#setProcessor(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%51ij.ImagePlus*
+
+%52java.lang.String*"
+ 
+%53ij.process.ImageProcessor2;setProcessor(Ljava/lang/String;Lij/process/ImageProcessor;)*
+6*ë
+8b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaú ú(∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaú ú( 
+%49ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp2Á‰
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaú ú('
+%50void"+ij.process.ImageProcessor#setMinAndMax(DD)V*"
+ 
+%49ij.process.ImageProcessor*
+""*
+""2setMinAndMax(DD)*
+7*£
+20b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaå å(∏
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaå å( 
+%27ij.process.ImageProcessor"__id*'*%
+ij.plugin.Orthogonal_Views"
+fp2 «
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaå å()
+
+%28int"%ij.process.ImageProcessor#getWidth()I*"
+ 
+%27ij.process.ImageProcessor2
+getWidth()™
+ß
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaå å(-
+%29long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""*
+18*≠
+21b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaä ä(ºπ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaä ä(
+%26void"Iij.plugin.Orthogonal_Views#updateZYView(Ljava/awt/Point;Lij/ImageStack;)V*
+ij.plugin.Orthogonal_Views*
+
+pjava.awt.Point*
+
+isij.ImageStack2-updateZYView(Ljava/awt/Point;Lij/ImageStack;)*
+20*≠
+22b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaà à(ºπ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Orthogonal_Views.javaà à(
+%25void"Iij.plugin.Orthogonal_Views#updateYZView(Ljava/awt/Point;Lij/ImageStack;)V*
+ij.plugin.Orthogonal_Views*
+
+pjava.awt.Point*
+
+isij.ImageStack2-updateYZView(Ljava/awt/Point;Lij/ImageStack;)*
+20:
+pjava.awt.Point:
+isij.ImageStackB
+ij.plugin.Orthogonal_Views

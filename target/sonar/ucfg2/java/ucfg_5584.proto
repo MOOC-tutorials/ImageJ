@@ -1,0 +1,667 @@
+
+-ij.gui.TextRoi#drawText(Ljava/awt/Graphics;)VV
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaí í("34*‚
+24V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java¢ ¢(z
+x
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java¢ ¢(
+
+%29int"__id*
+
+
+%30int*
+20
+21*∫
+25V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaô ô(:û
+õ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaö ö(&
+%22long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""û
+õ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaõ õ((
+%23long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""≈¬
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaú ú(
+%24java.awt.Font"-ij.gui.TextRoi#getScaledFont()Ljava/awt/Font;*
+ij.gui.TextRoi2getScaledFont()ê
+ç
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaú ú(
+fontjava.awt.Font"__id*
+
+%24java.awt.Fontïí
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaù ù(.
+%25java.awt.FontMetrics"Gjava.awt.Graphics#getFontMetrics(Ljava/awt/Font;)Ljava/awt/FontMetrics;*
+
+gjava.awt.Graphics*
+
+fontjava.awt.Font2getFontMetrics(Ljava/awt/Font;)°
+û
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaù ù(/
+metricsjava.awt.FontMetrics"__id*
+
+%25java.awt.FontMetrics∫∑
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaû û(&
+
+%26int"!java.awt.FontMetrics#getHeight()I*!
+
+metricsjava.awt.FontMetrics2getHeight()ºπ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaü ü($
+
+%27int""java.awt.FontMetrics#getDescent()I*!
+
+metricsjava.awt.FontMetrics2getDescent()‚ﬂ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java† †(
+%28void"+java.awt.Graphics#setFont(Ljava/awt/Font;)V*
+
+gjava.awt.Graphics*
+
+fontjava.awt.Font2setFont(Ljava/awt/Font;)ó
+î
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java° °(!
+g2djava.awt.Graphics2D"__id*
+
+gjava.awt.Graphics*
+24
+23*·
+26V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaô. ô(2}
+{
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaô. ô(9
+%18double"__id*
+
+
+%20int*
+25*í
+27V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaô  ô(&™
+ß
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaô  ô(&'
+%21 java.awt.geom.Rectangle2D$Double"__id**
+ij.gui.TextRoi"
+boundsÄ
+~
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaô  ô(-
+%18double"__id*
+
+%19double*
+25*ì
+28V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaò ò(7™
+ß
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaô ô('
+%17 java.awt.geom.Rectangle2D$Double"__id**
+ij.gui.TextRoi"
+bounds*
+26
+27*·
+29V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaò, ò(0}
+{
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaò, ò(6
+%13double"__id*
+
+
+%15int*
+28*í
+30V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaò ò(%™
+ß
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaò ò(%'
+%16 java.awt.geom.Rectangle2D$Double"__id**
+ij.gui.TextRoi"
+boundsÄ
+~
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaò ò(+
+%13double"__id*
+
+%14double*
+28*◊
+31V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaì ì(6‰·
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaì ì(6
+
+%4void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%1java.awt.Color2setColor(Ljava/awt/Color;)™ß
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaî î(,
+%5boolean"ij.gui.Roi#getAntiAlias()Z*
+ij.gui.TextRoi2getAntiAlias()ﬁ
+€
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaî î(-
+
+%6void"7ij.util.Java2#setAntialiasedText(Ljava/awt/Graphics;Z)V*"
+ij.util.Java2*
+
+gjava.awt.Graphics*
+
+%5boolean±Æ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaï ï(!
+%7double"ij.gui.Roi#getMagnification()D*
+ij.gui.TextRoi2getMagnification()°û
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javañ ñ(%
+%8double"ij.gui.Roi#getXBase()D*
+ij.gui.TextRoi2
+getXBase()•
+¢
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javañ ñ(&
+
+%9long"java.lang.Math#round(D)J*"
+java.lang.Math*
+
+%8double¢ü
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaó ó(%
+%10double"ij.gui.Roi#getYBase()D*
+ij.gui.TextRoi2
+getYBase()ß
+§
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaó ó(&
+%11long"java.lang.Math#round(D)J*"
+java.lang.Math*
+
+%10double™
+ß
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaò ò('
+%12 java.awt.geom.Rectangle2D$Double"__id**
+ij.gui.TextRoi"
+bounds*
+29
+30*å
+32V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaì- ì(5ï
+í
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaì- ì(5
+%3java.awt.Color"__id**
+
+ij.gui.Roi"
+
+ROIColorè
+å
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaì- ì(5
+%1java.awt.Color"__id*
+
+%3java.awt.Color*
+31*À
+10V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaØ Ø(∆√
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaØ Ø(
+%49java.awt.Color",java.awt.Graphics#getColor()Ljava/awt/Color;*
+
+gjava.awt.Graphics2
+getColor()è
+å
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaØ Ø(
+cjava.awt.Color"__id*
+
+%49java.awt.Colorõ
+ò
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java∞ ∞(
+%50java.awt.Color"__id*!*
+ij.gui.TextRoi"
+	fillColor®•
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java∞ ∞(#
+
+%51int"java.awt.Color#getAlpha()I*
+
+%50java.awt.Color2
+getAlpha()õ
+ò
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java± ±(
+%52java.awt.Color"__id*!*
+ij.gui.TextRoi"
+	fillColorÊ„
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java± ±(
+%53void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%52java.awt.Color2setColor(Ljava/awt/Color;)’“
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java≤ ≤(
+%54void"!java.awt.Graphics#fillRect(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2fillRect(IIII)‰·
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java≥ ≥(
+%55void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+cjava.awt.Color2setColor(Ljava/awt/Color;)*
+9*ì
+33V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaì! ì(,ú
+ô
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaì! ì(,
+%2java.awt.Color"__id*#*!
+ij.gui.TextRoi"
+strokeColorè
+å
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaì! ì(,
+%1java.awt.Color"__id*
+
+%2java.awt.Color*
+31*É
+11V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java≠
+ ≠(õ
+ò
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÆ Æ(
+%48java.awt.Color"__id*!*
+ij.gui.TextRoi"
+	fillColor*
+9
+10*Ö
+34V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaì ì(ú
+ô
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaì ì(
+%0java.awt.Color"__id*#*!
+ij.gui.TextRoi"
+strokeColor*
+32
+33*ˇ
+12V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java® ®(ÚÔ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java® ®($
+%45java.awt.geom.AffineTransform"Ajava.awt.Graphics2D#getTransform()Ljava/awt/geom/AffineTransform;*
+
+g2djava.awt.Graphics2D2getTransform()Æ
+´
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java® ®(#
+atjava.awt.geom.AffineTransform"__id*&
+$
+%45java.awt.geom.AffineTransform§
+°
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java™ ™('
+%46double"java.lang.Math#toRadians(D)D*"
+java.lang.Math*
+""Õ 
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java´ ´(
+%47void" java.awt.Graphics2D#rotate(DDD)V*
+
+g2djava.awt.Graphics2D*
+""*
+""*
+""2rotate(DDD)*
+11*˜
+13V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java• •(Aé
+ã
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java¶ ¶(#
+atjava.awt.geom.AffineTransform"__id*
+""*
+11
+12*ï
+14V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java•% •(5≤Ø
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java•% •(7
+%44double"ij.gui.Roi#getMagnification()D*
+ij.gui.TextRoi2getMagnification()}
+{
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java•% •(?
+
+%41int"__id*
+
+%43double}
+{
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java• •(@
+
+%41int"__id*
+
+%43double*
+13*ﬁ
+15V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java• •(z
+x
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java• •(
+
+%41int"__id*
+
+
+%42int*
+13*ô
+17V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java§$ §(4≤Ø
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java§$ §(6
+%40double"ij.gui.Roi#getMagnification()D*
+ij.gui.TextRoi2getMagnification()}
+{
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java§$ §(=
+
+%37int"__id*
+
+%39double}
+{
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java§ §(>
+
+%37int"__id*
+
+%39double*
+14
+15*‚
+18V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java§ §(z
+x
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java§ §(
+
+%37int"__id*
+
+
+%38int*
+14
+15*t
+0 "m
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java» »(
+implicit return*É
+1V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java« «(†ù
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java« «(
+%77void"Bjava.awt.Graphics2D#setTransform(Ljava/awt/geom/AffineTransform;)V*
+
+g2djava.awt.Graphics2D*%
+#
+atjava.awt.geom.AffineTransform2-setTransform(Ljava/awt/geom/AffineTransform;)*
+0*À
+4V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java∂ ∂(t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java∑	 ∑(
+
+%74int"__id*
+""t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java∫	 ∫(
+
+%75int"__id*
+""t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaæ	 æ(
+
+%76int"__id*
+""*
+5
+6
+7
+9*˜	
+5V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaæ ¡(ù
+ö
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaø ø(%
+%68java.lang.String[]"__id**
+ij.gui.TextRoi"	
+theText•
+¢
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaø ø((
+%69java.lang.String"
+__arrayGet*
+
+%68java.lang.String[]*
+""˝˙
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaø
+ ø()
+
+%70int"5java.awt.FontMetrics#stringWidth(Ljava/lang/String;)I*!
+
+metricsjava.awt.FontMetrics*
+
+%69java.lang.String2stringWidth(Ljava/lang/String;)ù
+ö
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java¿ ¿(
+%71java.lang.String[]"__id**
+ij.gui.TextRoi"	
+theText•
+¢
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java¿ ¿(
+%72java.lang.String"
+__arrayGet*
+
+%71java.lang.String[]*
+""ÑÅ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java¿ ¿(>
+%73void"3java.awt.Graphics#drawString(Ljava/lang/String;II)V*
+
+gjava.awt.Graphics*
+
+%72java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)*
+9*˜	
+6V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java∫ Ω(ù
+ö
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaª" ª()
+%62java.lang.String[]"__id**
+ij.gui.TextRoi"	
+theText•
+¢
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaª" ª(,
+%63java.lang.String"
+__arrayGet*
+
+%62java.lang.String[]*
+""˝˙
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaª ª(-
+
+%64int"5java.awt.FontMetrics#stringWidth(Ljava/lang/String;)I*!
+
+metricsjava.awt.FontMetrics*
+
+%63java.lang.String2stringWidth(Ljava/lang/String;)ù
+ö
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaº º(
+%65java.lang.String[]"__id**
+ij.gui.TextRoi"	
+theText•
+¢
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaº º(
+%66java.lang.String"
+__arrayGet*
+
+%65java.lang.String[]*
+""ÑÅ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaº º(B
+%67void"3java.awt.Graphics#drawString(Ljava/lang/String;II)V*
+
+gjava.awt.Graphics*
+
+%66java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)*
+9*Ø
+7V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java∑ π(ù
+ö
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java∏ ∏(
+%59java.lang.String[]"__id**
+ij.gui.TextRoi"	
+theText•
+¢
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java∏ ∏(
+%60java.lang.String"
+__arrayGet*
+
+%59java.lang.String[]*
+""ÑÅ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java∏ ∏(8
+%61void"3java.awt.Graphics#drawString(Ljava/lang/String;II)V*
+
+gjava.awt.Graphics*
+
+%60java.lang.String*
+""*
+""2 drawString(Ljava/lang/String;II)*
+9*Æ
+8V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaµ µ(ù
+ö
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaµ µ(
+%57java.lang.String[]"__id**
+ij.gui.TextRoi"	
+theText•
+¢
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaµ µ("
+%58java.lang.String"
+__arrayGet*
+
+%57java.lang.String[]*
+""*	
+4
+0
+1*‹
+9V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaµ	 µ(
+t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaµ µ(
+
+%56int"__id*
+""*	
+8
+0
+1*º
+20V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java£ £("¢ü
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java£# £(-
+%36double"ij.gui.Roi#getYBase()D*
+ij.gui.TextRoi2
+getYBase()≤Ø
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java£ £(.
+
+%35int"ij.gui.Roi#screenYD(D)I*
+ij.gui.TextRoi*
+
+%36double2screenYD(D)z
+x
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java£ £(.
+
+%33int"__id*
+
+
+%35int*
+17
+18*‚
+21V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java£ £(z
+x
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java£ £(
+
+%33int"__id*
+
+
+%34int*
+17
+18*º
+23V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java¢ ¢("¢ü
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java¢# ¢(-
+%32double"ij.gui.Roi#getXBase()D*
+ij.gui.TextRoi2
+getXBase()≤Ø
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java¢ ¢(.
+
+%31int"ij.gui.Roi#screenXD(D)I*
+ij.gui.TextRoi*
+
+%32double2screenXD(D)z
+x
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java¢ ¢(.
+
+%29int"__id*
+
+
+%31int*
+20
+21:
+gjava.awt.GraphicsB
+ij.gui.TextRoi

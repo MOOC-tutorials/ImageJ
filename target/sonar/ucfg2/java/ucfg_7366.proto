@@ -1,0 +1,121 @@
+
+Yij.plugin.RGBStackConverter#dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)Zc
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaç ç(!"15*ç
+14c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaé é(ï
+í
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaé é(!
+
+%1void"ij.IJ#wait(I)V*	"
+ij.IJ*2d*
+
+3
+7
+12*ÿ
+3c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaë	 ë(–Õ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaë	 ë(
+%10boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()ï
+í
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaí í(
+%11boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+1*ë
+15c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaé é(ï
+í
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaé é(
+%0boolean"ij.IJ#isMacOSX()Z*	"
+ij.IJ*
+14
+3
+7
+12*ˆ
+5c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaê8 ê(9Ü
+É
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaê8 ê(9	
+%7int"__id*
+	
+%9int*
+3*ˆ
+6c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaê0 ê(7Ü
+É
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaê0 ê(7	
+%7int"__id*
+	
+%8int*
+3*¬
+7c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaê ê(œÃ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaê ê(/
+%6boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+5
+6*˙
+10c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaè8 è(9Ü
+É
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaè8 è(9	
+%3int"__id*
+	
+%5int*
+3
+7*˙
+11c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaè0 è(7Ü
+É
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaè0 è(7	
+%3int"__id*
+	
+%4int*
+3
+7*≈
+12c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaè è(œÃ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaè è(/
+%2boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+10
+11*µ
+1c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaì
+ ì(Ê„
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaì
+ ì(
+%12java.awt.Component"5ij.gui.GenericDialog#getMessage()Ljava/awt/Component;*
+
+gdij.gui.GenericDialog2getMessage()¯ı
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaì# ì(5
+%13java.lang.String"@ij.plugin.RGBStackConverter#getNewDimensions()Ljava/lang/String;*
+ij.plugin.RGBStackConverter2getNewDimensions()˜Ù
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaì ì(6
+%14void"+java.awt.Label#setText(Ljava/lang/String;)V*
+
+%12java.awt.Component*
+
+%13java.lang.String2setText(Ljava/lang/String;)"m
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RGBStackConverter.javaî î(
+"":
+gdij.gui.GenericDialog:
+ejava.awt.AWTEventB
+ij.plugin.RGBStackConverter

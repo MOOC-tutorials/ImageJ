@@ -1,0 +1,294 @@
+
+Jij.gui.TextRoi#getAddSelectionScript(Ljava/lang/String;)Ljava/lang/String;V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java· ·(%"10*•
+2V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÓ Ó(¶£
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÓ Ó(%
+%26double"ij.gui.TextRoi#getAngle()D*
+ij.gui.TextRoi2
+getAngle()¢
+ü
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÓ Ó(%
+%27java.lang.String"__concat*
+roi.setAngle(*
+
+%26double£
+†
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÓ Ó(,
+%28java.lang.String"__concat*
+
+%27java.lang.String*
+);\nµ
+≤
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÓ Ó(,
+%29java.lang.String"__concat*
+
+codejava.lang.String*
+
+%28java.lang.Stringñ
+ì
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÓ Ó(,
+codejava.lang.String"__id*
+
+%29java.lang.String*
+1*å
+3V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÌ Ì(¶£
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÌ Ì(
+%25double"ij.gui.TextRoi#getAngle()D*
+ij.gui.TextRoi2
+getAngle()*
+2
+1*¬
+4V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÎ Î(∆
+√
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÎ Î(4
+%24java.lang.String"__concat*
+
+codejava.lang.String**(
+&roi.setJustification(TextRoi.RIGHT);\nñ
+ì
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÎ Î(4
+codejava.lang.String"__id*
+
+%24java.lang.String*
+3*Ÿ
+5V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÍ Í(t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÍ Í(
+
+%23int"__id*
+""*
+3
+4*√
+6V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÈ È(«
+ƒ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÈ È(5
+%22java.lang.String"__concat*
+
+codejava.lang.String*+)
+'roi.setJustification(TextRoi.CENTER);\nñ
+ì
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÈ È(5
+codejava.lang.String"__id*
+
+%22java.lang.String*
+3*Ÿ
+7V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaË Ë(t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaË Ë(
+
+%21int"__id*
+""*
+5
+6*è
+8V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÊ Ê(≥∞
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÊ Ê(
+
+%19int""ij.gui.TextRoi#getJustification()I*
+ij.gui.TextRoi2getJustification()t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÁ Á(
+
+%20int"__id*
+""*
+3
+7*æ	
+9V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÂ Â(¡æ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÂ6 Â(D
+%14java.awt.Color")ij.gui.Roi#getFillColor()Ljava/awt/Color;*
+ij.gui.TextRoi2getFillColor()‚
+ﬂ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÂ) Â(E
+%15java.lang.String"?ij.gui.TextRoi#getColorArgs(Ljava/awt/Color;)Ljava/lang/String;*
+ij.gui.TextRoi*
+
+%14java.awt.Color∫
+∑
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÂ Â(E
+%16java.lang.String"__concat*
+roi.setFillColor(new Color(*
+
+%15java.lang.String§
+°
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÂ Â(M
+%17java.lang.String"__concat*
+
+%16java.lang.String*	
+));\nµ
+≤
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÂ Â(M
+%18java.lang.String"__concat*
+
+codejava.lang.String*
+
+%17java.lang.Stringñ
+ì
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÂ Â(M
+codejava.lang.String"__id*
+
+%18java.lang.String*
+8*Ò
+10V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java‚ ‚(ù
+ö
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java‚
+ ‚(%
+%0java.lang.String"__concat*
+roi = new TextRoi(*
+""ü
+ú
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java‚
+ ‚(*
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+, ü
+ú
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java‚
+ ‚(1
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+""°
+û
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java‚
+ ‚(8
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+, \"∞
+≠
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java‚9 ‚(?
+%4java.lang.String"'ij.gui.TextRoi#text()Ljava/lang/String;*
+ij.gui.TextRoi±
+Æ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java‚
+ ‚(?
+%5java.lang.String"__concat*
+
+%3java.lang.String*
+
+%4java.lang.String©
+¶
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java‚
+ ‚(N
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+\", font);\n≥
+∞
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java‚ ‚(N
+%7java.lang.String"__concat*
+
+codejava.lang.String*
+
+%6java.lang.Stringï
+í
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java‚ ‚(N
+codejava.lang.String"__id*
+
+%7java.lang.Stringƒ¡
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java„7 „(G
+%8java.awt.Color"+ij.gui.Roi#getStrokeColor()Ljava/awt/Color;*
+ij.gui.TextRoi2getStrokeColor()‡
+›
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java„* „(H
+%9java.lang.String"?ij.gui.TextRoi#getColorArgs(Ljava/awt/Color;)Ljava/lang/String;*
+ij.gui.TextRoi*
+
+%8java.awt.Colorª
+∏
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java„
+ „(H
+%10java.lang.String"__concat*!
+roi.setStrokeColor(new Color(*
+
+%9java.lang.String§
+°
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java„
+ „(P
+%11java.lang.String"__concat*
+
+%10java.lang.String*	
+));\nµ
+≤
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java„ „(P
+%12java.lang.String"__concat*
+
+codejava.lang.String*
+
+%11java.lang.Stringñ
+ì
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java„ „(P
+codejava.lang.String"__id*
+
+%12java.lang.String¡æ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java‰ ‰(
+%13java.awt.Color")ij.gui.Roi#getFillColor()Ljava/awt/Color;*
+ij.gui.TextRoi2getFillColor()*
+8
+9*†
+1V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÔ Ô(≥
+∞
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÔ Ô(
+%30java.lang.String"__concat*
+
+codejava.lang.String*
+overlay.add(roi);\nñ
+ì
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.javaÔ Ô(
+codejava.lang.String"__id*
+
+%30java.lang.String"t
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/TextRoi.java (
+
+codejava.lang.String:
+codejava.lang.StringB
+ij.gui.TextRoi

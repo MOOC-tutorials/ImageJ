@@ -1,0 +1,236 @@
+
+xij.plugin.filter.BackgroundSubtracter#showDialog(Lij/ImagePlus;Ljava/lang/String;Lij/plugin/filter/PlugInFilterRunner;)Ik
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaR R("12*¬
+2k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaq q(! 
+«
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaw w(7
+%24void""ij.Prefs#set(Ljava/lang/String;Z)V*"
+
+ij.Prefs*
+bs.background*
+""*
+1*Ö
+4k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javao o(ä
+á
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javao o(
+
+%23int"__id*
+""*
+2
+1*®
+6k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javam m(
+ÌÍ
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javam m(#
+%20java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*)'
+%ij.plugin.filter.BackgroundSubtracter2
+getClass()∆
+√
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javam m($
+%21void""ij.IJ#register(Ljava/lang/Class;)V*	"
+ij.IJ*
+
+%20java.lang.ClassÒÓ
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javan n( 
+%22ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()*	
+2
+4
+1*Ù
+7k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javal% l()ä
+á
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javal% l()
+
+%19int"__id*
+"""u
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javal l(*
+""*ˇ
+8k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javac c(
+§°
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javac c(N
+
+%9void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*&$
+"Create background (don't subtract)*
+""2 addCheckbox(Ljava/lang/String;Z)ïí
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javad d(;
+%10void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Sliding paraboloid*
+""2 addCheckbox(Ljava/lang/String;Z)îë
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javae e(9
+%11void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Disable smoothing*
+""2 addCheckbox(Ljava/lang/String;Z)’“
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaf f("
+%12void"Oij.gui.GenericDialog#addPreviewCheckbox(Lij/plugin/filter/PlugInFilterRunner;)V*
+
+gdij.gui.GenericDialog*,
+*
+pfr#ij.plugin.filter.PlugInFilterRunner29addPreviewCheckbox(Lij/plugin/filter/PlugInFilterRunner;)¥±
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javag g("
+%13void"@ij.gui.GenericDialog#addDialogListener(Lij/gui/DialogListener;)V*
+
+gdij.gui.GenericDialog*)'
+%ij.plugin.filter.BackgroundSubtracter2*addDialogListener(Lij/gui/DialogListener;)ó
+î
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javai i(
+%14java.lang.String"__id*
+""◊
+‘
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javai i(9
+%15java.lang.String"__concat*
+
+%14java.lang.String*'%
+#/docs/menus/process.html#backgroundÜÉ
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javai i(:
+%16void"1ij.gui.GenericDialog#addHelp(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%15java.lang.String2addHelp(Ljava/lang/String;)Õ 
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaj j(
+%17void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()“œ
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javal l(
+%18boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+6
+7*â
+9k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javab b(ëé
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javab b(D
+
+%8void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Separate colors*
+""2 addCheckbox(Ljava/lang/String;Z)*
+8*Ø
+
+10k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java_- _(4¢ü
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java_ _(,
+%4ij.gui.GenericDialog"ij.gui.GenericDialogÂ
+‚
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java_ _(5
+%5"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%4ij.gui.GenericDialog*
+
+commandjava.lang.String∞
+≠
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java_ _(6
+gdij.gui.GenericDialog"__id*
+
+%4ij.gui.GenericDialogﬁ€
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.java` `(J
+
+%6void"Nij.gui.GenericDialog#addNumericField(Ljava/lang/String;DIILjava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Rolling ball radius:*
+""*2*2*
+
+pixels28addNumericField(Ljava/lang/String;DIILjava/lang/String;)íè
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaa a(;
+
+%7void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Light background*
+""2 addCheckbox(Ljava/lang/String;Z)*
+8
+9*è
+11k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaW W(ƒ¡
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaW W(A
+%2java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*
+
+optionsjava.lang.String*	
+white*	
+light20replaceAll(Ljava/lang/String;Ljava/lang/String;)Œ
+À
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaW W(B
+
+%3void"(ij.Macro#setOptions(Ljava/lang/String;)V*"
+
+ij.Macro*
+
+%2java.lang.String*
+10*‡
+12k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaS S(Ì
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaS S("
+%0ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()ø
+º
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaU U(+
+%1java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macro≠
+™
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaU U(,
+optionsjava.lang.String"__id*
+
+%1java.lang.String*
+10
+11*µ
+1k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javay y(À
+»
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javay y()
+
+%25int"#ij.IJ#setupDialog(Lij/ImagePlus;I)I*	"
+ij.IJ*
+
+impij.ImagePlus*
+"""u
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javay y(*
+"":
+impij.ImagePlus:
+commandjava.lang.String:*
+pfr#ij.plugin.filter.PlugInFilterRunnerB)'
+%ij.plugin.filter.BackgroundSubtracter

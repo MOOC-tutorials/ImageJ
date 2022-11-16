@@ -1,0 +1,66 @@
+
+Nij.plugin.frame.RoiManager#promptForName(Ljava/lang/String;)Ljava/lang/String;b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÂ Â("3*Õ
+2b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÇ
+ Ç("l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÇ Ç(
+""*á
+
+3b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÃ' Ã(4™–
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÃ Ã(&
+%0ij.gui.GenericDialog"ij.gui.GenericDialogÎ
+Ë
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÃ Ã(5
+%1"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%0ij.gui.GenericDialog*
+ROI Manager§
+¤
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÃ Ã(6
+gdij.gui.GenericDialog"__id*
+
+%0ij.gui.GenericDialogÇÄ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÄ Ä(+
+
+%2void"Kij.gui.GenericDialog#addStringField(Ljava/lang/String;Ljava/lang/String;I)V*
+
+gdij.gui.GenericDialog*
+
+Rename As:*
+
+namejava.lang.String*225addStringField(Ljava/lang/String;Ljava/lang/String;I)ÃÀ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÅ Å(
+
+%3void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()ÈÅ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÆ Æ(
+%4boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+2
+1*Ð
+1b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÉ
+ É(æã
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÉ
+ É(
+%5java.lang.String"6ij.gui.GenericDialog#getNextString()Ljava/lang/String;*
+
+gdij.gui.GenericDialog2getNextString()"~
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÉ É(
+
+%5java.lang.String:
+namejava.lang.StringB
+ij.plugin.frame.RoiManager

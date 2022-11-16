@@ -1,0 +1,1396 @@
+
+ij.gui.Toolbar#addPopupMenus()VV
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¦ ¦("19*à!
+13V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÆ# Æ(/˜•
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÆ Æ(" 
+%70java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItemÖ
+Ó
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÆ Æ(A
+%71"6java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;Z)V*"
+ 
+%70java.awt.CheckboxMenuItem*
+
+Point Tool*
+""¦
+£
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÆ Æ(A
+ij.gui.Toolbar"
+	pointItem"__id*"
+ 
+%70java.awt.CheckboxMenuItem¦
+£
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÇ Ç( 
+%72java.awt.CheckboxMenuItem"__id*!*
+ij.gui.Toolbar"
+	pointItem›˜
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÇ Ç(!
+%73void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*"
+ 
+%72java.awt.CheckboxMenuItem*
+ij.gui.Toolbar2.addItemListener(Ljava/awt/event/ItemListener;) 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÈ È(
+%74java.awt.PopupMenu"__id*"* 
+ij.gui.Toolbar"
+
+pointPopup¦
+£
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÈ È( 
+%75java.awt.CheckboxMenuItem"__id*!*
+ij.gui.Toolbar"
+	pointItem‹ˆ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÈ È(
+%76java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%74java.awt.PopupMenu*"
+ 
+%75java.awt.CheckboxMenuItem2add(Ljava/awt/MenuItem;)˜•
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÉ É(' 
+%77java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItemÜ
+Ù
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÉ É(K
+%78"6java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;Z)V*"
+ 
+%77java.awt.CheckboxMenuItem*
+Multi-point Tool*
+""«
+¨
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÉ É(K$
+ij.gui.Toolbar"
+multiPointItem"__id*"
+ 
+%77java.awt.CheckboxMenuItem«
+¨
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÊ Ê( 
+%79java.awt.CheckboxMenuItem"__id*&*$
+ij.gui.Toolbar"
+multiPointItem›˜
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÊ Ê(&
+%80void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*"
+ 
+%79java.awt.CheckboxMenuItem*
+ij.gui.Toolbar2.addItemListener(Ljava/awt/event/ItemListener;) 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaË Ë(
+%81java.awt.PopupMenu"__id*"* 
+ij.gui.Toolbar"
+
+pointPopup«
+¨
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaË Ë( 
+%82java.awt.CheckboxMenuItem"__id*&*$
+ij.gui.Toolbar"
+multiPointItem‹ˆ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaË Ë( 
+%83java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%81java.awt.PopupMenu*"
+ 
+%82java.awt.CheckboxMenuItem2add(Ljava/awt/MenuItem;) 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÌ Ì(
+%84java.awt.PopupMenu"__id*"* 
+ij.gui.Toolbar"
+
+pointPopupãà
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÌ Ì(
+%85void"-java.awt.Component#add(Ljava/awt/PopupMenu;)V*
+ij.gui.Toolbar*
+
+%84java.awt.PopupMenu2add(Ljava/awt/PopupMenu;)Š‡
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÎ Î(
+%86java.awt.PopupMenu"java.awt.PopupMenu
+š
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÎ Î(
+%87"java.awt.PopupMenu#<init>()V*
+
+%86java.awt.PopupMenuŸ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÎ Î(
+ij.gui.Toolbar"
+	linePopup"__id*
+
+%86java.awt.PopupMenu
+‹
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÏ Ï(
+
+%88int"ij.Menus#getFontSize()I*"
+
+ij.Menus*
+11
+12*–
+14V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÅ Å( 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÅ Å(
+%67java.awt.PopupMenu"__id*"* 
+ij.gui.Toolbar"
+
+pointPopup¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÅ Å(%
+%68java.awt.Font"!ij.Menus#getFont()Ljava/awt/Font;*"
+
+ij.Menuséæ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÅ Å(&
+%69void"0java.awt.MenuComponent#setFont(Ljava/awt/Font;)V*
+
+%67java.awt.PopupMenu*
+
+%68java.awt.Font2setFont(Ljava/awt/Font;)*
+13*…1
+15V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¸" ¸(3t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¸? ¸(G
+
+%38int"__id*
+""˜•
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¸ ¸(! 
+%39java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItemÛ
+Ø
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¸ ¸(H
+%40"6java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;Z)V*"
+ 
+%39java.awt.CheckboxMenuItem*
+Oval selections*
+""¥
+¢
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¸ ¸(H
+ij.gui.Toolbar"
+
+ovalItem"__id*"
+ 
+%39java.awt.CheckboxMenuItem¥
+¢
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¹ ¹(
+ 
+%41java.awt.CheckboxMenuItem"__id* *
+ij.gui.Toolbar"
+
+ovalItem›˜
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¹ ¹( 
+%42void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*"
+ 
+%41java.awt.CheckboxMenuItem*
+ij.gui.Toolbar2.addItemListener(Ljava/awt/event/ItemListener;)Ÿ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaº º(
+%43java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	ovalPopup¥
+¢
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaº º( 
+%44java.awt.CheckboxMenuItem"__id* *
+ij.gui.Toolbar"
+
+ovalItem‹ˆ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaº º(
+%45java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%43java.awt.PopupMenu*"
+ 
+%44java.awt.CheckboxMenuItem2add(Ljava/awt/MenuItem;)t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java»H »(S
+
+%46int"__id*
+""˜•
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java» »($ 
+%47java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItemá
+Ş
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java» »(T
+%48"6java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;Z)V*"
+ 
+%47java.awt.CheckboxMenuItem*
+Elliptical selections*
+""¨
+¥
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java» »(T!
+ij.gui.Toolbar"
+ellipseItem"__id*"
+ 
+%47java.awt.CheckboxMenuItem¨
+¥
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¼ ¼( 
+%49java.awt.CheckboxMenuItem"__id*#*!
+ij.gui.Toolbar"
+ellipseItem›˜
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¼ ¼(#
+%50void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*"
+ 
+%49java.awt.CheckboxMenuItem*
+ij.gui.Toolbar2.addItemListener(Ljava/awt/event/ItemListener;)Ÿ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java½ ½(
+%51java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	ovalPopup¨
+¥
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java½ ½( 
+%52java.awt.CheckboxMenuItem"__id*#*!
+ij.gui.Toolbar"
+ellipseItem‹ˆ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java½ ½(
+%53java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%51java.awt.PopupMenu*"
+ 
+%52java.awt.CheckboxMenuItem2add(Ljava/awt/MenuItem;)t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¾E ¾(N
+
+%54int"__id*
+""˜•
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¾ ¾(" 
+%55java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItemà
+İ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¾ ¾(O
+%56"6java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;Z)V*"
+ 
+%55java.awt.CheckboxMenuItem*
+Selection Brush Tool*
+""¦
+£
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¾ ¾(O
+ij.gui.Toolbar"
+	brushItem"__id*"
+ 
+%55java.awt.CheckboxMenuItem¦
+£
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¿ ¿( 
+%57java.awt.CheckboxMenuItem"__id*!*
+ij.gui.Toolbar"
+	brushItem›˜
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¿ ¿(!
+%58void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*"
+ 
+%57java.awt.CheckboxMenuItem*
+ij.gui.Toolbar2.addItemListener(Ljava/awt/event/ItemListener;)Ÿ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÀ À(
+%59java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	ovalPopup¦
+£
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÀ À( 
+%60java.awt.CheckboxMenuItem"__id*!*
+ij.gui.Toolbar"
+	brushItem‹ˆ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÀ À(
+%61java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%59java.awt.PopupMenu*"
+ 
+%60java.awt.CheckboxMenuItem2add(Ljava/awt/MenuItem;)Ÿ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÁ Á(
+%62java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	ovalPopupãà
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÁ Á(
+%63void"-java.awt.Component#add(Ljava/awt/PopupMenu;)V*
+ij.gui.Toolbar*
+
+%62java.awt.PopupMenu2add(Ljava/awt/PopupMenu;)Š‡
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÃ Ã(
+%64java.awt.PopupMenu"java.awt.PopupMenu
+š
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÃ Ã(
+%65"java.awt.PopupMenu#<init>()V*
+
+%64java.awt.PopupMenu 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÃ Ã( 
+ij.gui.Toolbar"
+
+pointPopup"__id*
+
+%64java.awt.PopupMenu
+‹
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÄ Ä(
+
+%66int"ij.Menus#getFontSize()I*"
+
+ij.Menus*
+13
+14*•
+16V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java· ·(Ÿ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java· ·(
+%35java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	ovalPopup¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java· ·($
+%36java.awt.Font"!ij.Menus#getFont()Ljava/awt/Font;*"
+
+ij.Menuséæ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java· ·(%
+%37void"0java.awt.MenuComponent#setFont(Ljava/awt/Font;)V*
+
+%35java.awt.PopupMenu*
+
+%36java.awt.Font2setFont(Ljava/awt/Font;)*
+15*ˆ1
+17V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaª" ª(-s
+q
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaª9 ª(A	
+%6int"__id*
+""—”
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaª ª(!
+%7java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItemÓ
+Ğ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaª ª(B
+%8"6java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;Z)V*!
+
+%7java.awt.CheckboxMenuItem*
+	Rectangle*
+""¤
+¡
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaª ª(B
+ij.gui.Toolbar"
+
+rectItem"__id*!
+
+%7java.awt.CheckboxMenuItem¤
+¡
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java« «(
+
+%9java.awt.CheckboxMenuItem"__id* *
+ij.gui.Toolbar"
+
+rectItemš—
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java« «( 
+%10void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*!
+
+%9java.awt.CheckboxMenuItem*
+ij.gui.Toolbar2.addItemListener(Ljava/awt/event/ItemListener;)Ÿ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¬ ¬(
+%11java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	rectPopup¥
+¢
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¬ ¬( 
+%12java.awt.CheckboxMenuItem"__id* *
+ij.gui.Toolbar"
+
+rectItem‹ˆ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¬ ¬(
+%13java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%11java.awt.PopupMenu*"
+ 
+%12java.awt.CheckboxMenuItem2add(Ljava/awt/MenuItem;)t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java­F ­(V
+
+%14int"__id*
+""˜•
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java­ ­(& 
+%15java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItemİ
+Ú
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java­ ­(W
+%16"6java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;Z)V*"
+ 
+%15java.awt.CheckboxMenuItem*
+Rounded Rectangle*
+""ª
+§
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java­ ­(W#
+ij.gui.Toolbar"
+roundRectItem"__id*"
+ 
+%15java.awt.CheckboxMenuItemª
+§
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java® ®( 
+%17java.awt.CheckboxMenuItem"__id*%*#
+ij.gui.Toolbar"
+roundRectItem›˜
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java® ®(%
+%18void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*"
+ 
+%17java.awt.CheckboxMenuItem*
+ij.gui.Toolbar2.addItemListener(Ljava/awt/event/ItemListener;)Ÿ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¯ ¯(
+%19java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	rectPopupª
+§
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¯ ¯( 
+%20java.awt.CheckboxMenuItem"__id*%*#
+ij.gui.Toolbar"
+roundRectItem‹ˆ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¯ ¯(
+%21java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%19java.awt.PopupMenu*"
+ 
+%20java.awt.CheckboxMenuItem2add(Ljava/awt/MenuItem;)t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java°H °(X
+
+%22int"__id*
+""˜•
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java° °(( 
+%23java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItemİ
+Ú
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java° °(Y
+%24"6java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;Z)V*"
+ 
+%23java.awt.CheckboxMenuItem*
+Rotated Rectangle*
+""¬
+©
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java° °(Y%
+ij.gui.Toolbar"
+rotatedRectItem"__id*"
+ 
+%23java.awt.CheckboxMenuItem¬
+©
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java± ±( 
+%25java.awt.CheckboxMenuItem"__id*'*%
+ij.gui.Toolbar"
+rotatedRectItem›˜
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java± ±('
+%26void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*"
+ 
+%25java.awt.CheckboxMenuItem*
+ij.gui.Toolbar2.addItemListener(Ljava/awt/event/ItemListener;)Ÿ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java² ²(
+%27java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	rectPopup¬
+©
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java² ²( 
+%28java.awt.CheckboxMenuItem"__id*'*%
+ij.gui.Toolbar"
+rotatedRectItem‹ˆ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java² ²( 
+%29java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%27java.awt.PopupMenu*"
+ 
+%28java.awt.CheckboxMenuItem2add(Ljava/awt/MenuItem;)Ÿ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java³ ³(
+%30java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	rectPopupãà
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java³ ³(
+%31void"-java.awt.Component#add(Ljava/awt/PopupMenu;)V*
+ij.gui.Toolbar*
+
+%30java.awt.PopupMenu2add(Ljava/awt/PopupMenu;)Š‡
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaµ µ(
+%32java.awt.PopupMenu"java.awt.PopupMenu
+š
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaµ µ(
+%33"java.awt.PopupMenu#<init>()V*
+
+%32java.awt.PopupMenuŸ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaµ µ(
+ij.gui.Toolbar"
+	ovalPopup"__id*
+
+%32java.awt.PopupMenu
+‹
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¶ ¶(
+
+%34int"ij.Menus#getFontSize()I*"
+
+ij.Menus*
+15
+16*
+18V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java© ©(
+›
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java© ©(
+%3java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	rectPopup¡
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java© ©($
+%4java.awt.Font"!ij.Menus#getFont()Ljava/awt/Font;*"
+
+ij.Menusæã
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java© ©(%
+
+%5void"0java.awt.MenuComponent#setFont(Ljava/awt/Font;)V*
+
+%3java.awt.PopupMenu*
+
+%4java.awt.Font2setFont(Ljava/awt/Font;)*
+17*Á
+19V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java§ §(‰†
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java§ §(
+%0java.awt.PopupMenu"java.awt.PopupMenu›
+˜
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java§ §(
+%1"java.awt.PopupMenu#<init>()V*
+
+%0java.awt.PopupMenu
+›
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java§ §(
+ij.gui.Toolbar"
+	rectPopup"__id*
+
+%0java.awt.PopupMenu
+Š
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java¨ ¨(	
+%2int"ij.Menus#getFontSize()I*"
+
+ij.Menus*
+17
+18*t
+0 "m
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java‚ ‚(
+implicit return*í
+1V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java (¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java (
+%190java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+switchPopupåâ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java (
+%191void"-java.awt.Component#add(Ljava/awt/PopupMenu;)V*
+ij.gui.Toolbar*
+
+%190java.awt.PopupMenu2add(Ljava/awt/PopupMenu;)*
+0*š
+2V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java€ €(¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java€ €(
+%187java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+switchPopup£
+ 
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java€ €(&
+%188java.awt.Font"!ij.Menus#getFont()Ljava/awt/Font;*"
+
+ij.Menusìé
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java€ €('
+%189void"0java.awt.MenuComponent#setFont(Ljava/awt/Font;)V*
+
+%187java.awt.PopupMenu*
+
+%188java.awt.Font2setFont(Ljava/awt/Font;)*
+1*Â1
+3V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaï ï(¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaï ï(
+%156java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopupñ
+î
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaï ï()
+%157void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%156java.awt.PopupMenu*
+White/Black¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javağ ğ(
+%158java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopupñ
+î
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javağ ğ()
+%159void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%158java.awt.PopupMenu*
+Black/White¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javañ ñ(
+%160java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopupé
+æ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javañ ñ(!
+%161void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%160java.awt.PopupMenu*
+Red¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaò ò(
+%162java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopupë
+è
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaò ò(#
+%163void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%162java.awt.PopupMenu*	
+Green¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaó ó(
+%164java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopupê
+ç
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaó ó("
+%165void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%164java.awt.PopupMenu*
+Blue¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaô ô(
+%166java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopupì
+é
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaô ô($
+%167void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%166java.awt.PopupMenu*
+
+Yellow¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaõ õ(
+%168java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopupê
+ç
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaõ õ("
+%169void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%168java.awt.PopupMenu*
+Cyan¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaö ö(
+%170java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopupí
+ê
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaö ö(%
+%171void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%170java.awt.PopupMenu*	
+Magenta¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java÷ ÷(
+%172java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopup¶³
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java÷ ÷(
+%173void"java.awt.Menu#addSeparator()V*
+
+%172java.awt.PopupMenu2addSeparator()¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaø ø(
+%174java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopupó
+ğ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaø ø(+
+%175void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%174java.awt.PopupMenu*
+Foreground...¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaù ù(
+%176java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopupó
+ğ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaù ù(+
+%177void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%176java.awt.PopupMenu*
+Background...¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaú ú(
+%178java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopupï
+ì
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaú ú('
+%179void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%178java.awt.PopupMenu*
+	Colors...¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaû û(
+%180java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopupõ
+ò
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaû û(-
+%181void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%180java.awt.PopupMenu*
+Color Picker...¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaü ü(
+%182java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopupåâ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaü ü(
+%183void"-java.awt.Component#add(Ljava/awt/PopupMenu;)V*
+ij.gui.Toolbar*
+
+%182java.awt.PopupMenu2add(Ljava/awt/PopupMenu;)‹ˆ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaş ş(
+%184java.awt.PopupMenu"java.awt.PopupMenuŸ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaş ş(
+%185"java.awt.PopupMenu#<init>()V*
+
+%184java.awt.PopupMenu¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaş ş(!
+ij.gui.Toolbar"
+switchPopup"__id*
+
+%184java.awt.PopupMenu
+Œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÿ ÿ(
+%186int"ij.Menus#getFontSize()I*"
+
+ij.Menus*
+2
+1*š
+4V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaî î(¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaî î(
+%153java.awt.PopupMenu"__id*#*!
+ij.gui.Toolbar"
+pickerPopup£
+ 
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaî î(&
+%154java.awt.Font"!ij.Menus#getFont()Ljava/awt/Font;*"
+
+ij.Menusìé
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaî î('
+%155void"0java.awt.MenuComponent#setFont(Ljava/awt/Font;)V*
+
+%153java.awt.PopupMenu*
+
+%154java.awt.Font2setFont(Ljava/awt/Font;)*
+3*‚"
+5V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaâ â( 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaâ â(
+%132java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	zoomPopupğ
+í
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaâ â(&
+%133void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%132java.awt.PopupMenu*
+
+Reset Zoom 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaã ã(
+%134java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	zoomPopupí
+ê
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaã ã(#
+%135void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%134java.awt.PopupMenu*	
+Zoom In 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaä ä(
+%136java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	zoomPopupî
+ë
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaä ä($
+%137void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%136java.awt.PopupMenu*
+
+Zoom Out 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaå å(
+%138java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	zoomPopupï
+ì
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaå å(%
+%139void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%138java.awt.PopupMenu*
+	View 100% 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaæ æ(
+%140java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	zoomPopup÷
+ô
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaæ æ(-
+%141void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%140java.awt.PopupMenu*
+Zoom To Selection 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaç ç(
+%142java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	zoomPopupò
+ï
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaç ç((
+%143void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%142java.awt.PopupMenu*
+Scale to Fit 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaè è(
+%144java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	zoomPopupì
+é
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaè è("
+%145void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%144java.awt.PopupMenu*
+
+Set... 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaé é(
+%146java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	zoomPopupî
+ë
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaé é($
+%147void"Cij.gui.Toolbar#addMenuItem(Ljava/awt/PopupMenu;Ljava/lang/String;)V*
+ij.gui.Toolbar*
+
+%146java.awt.PopupMenu*
+
+Maximize 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaê ê(
+%148java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	zoomPopupåâ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaê ê(
+%149void"-java.awt.Component#add(Ljava/awt/PopupMenu;)V*
+ij.gui.Toolbar*
+
+%148java.awt.PopupMenu2add(Ljava/awt/PopupMenu;)‹ˆ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaì ì(
+%150java.awt.PopupMenu"java.awt.PopupMenuŸ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaì ì(
+%151"java.awt.PopupMenu#<init>()V*
+
+%150java.awt.PopupMenu¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaì ì(!
+ij.gui.Toolbar"
+pickerPopup"__id*
+
+%150java.awt.PopupMenu
+Œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaí í(
+%152int"ij.Menus#getFontSize()I*"
+
+ij.Menus*
+3
+4*˜
+6V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaá á( 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaá á(
+%129java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	zoomPopup£
+ 
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaá á($
+%130java.awt.Font"!ij.Menus#getFont()Ljava/awt/Font;*"
+
+ij.Menusìé
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaá á(%
+%131void"0java.awt.MenuComponent#setFont(Ljava/awt/Font;)V*
+
+%129java.awt.PopupMenu*
+
+%130java.awt.Font2setFont(Ljava/awt/Font;)*
+5*œ
+7V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÚ Ú(L™–
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÚ Ú("!
+%117java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItemØ
+Õ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÚ Ú(L
+%118"6java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;Z)V*#
+!
+%117java.awt.CheckboxMenuItem*
+
+Arrow tool*
+""§
+¤
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÚ Ú(L
+ij.gui.Toolbar"
+	arrowItem"__id*#
+!
+%117java.awt.CheckboxMenuItem§
+¤
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÛ Û(!
+%119java.awt.CheckboxMenuItem"__id*!*
+ij.gui.Toolbar"
+	arrowItemš
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÛ Û(!
+%120void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*#
+!
+%119java.awt.CheckboxMenuItem*
+ij.gui.Toolbar2.addItemListener(Ljava/awt/event/ItemListener;) 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÜ Ü(
+%121java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	linePopup§
+¤
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÜ Ü(!
+%122java.awt.CheckboxMenuItem"__id*!*
+ij.gui.Toolbar"
+	arrowItem‹
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÜ Ü(
+%123java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%121java.awt.PopupMenu*#
+!
+%122java.awt.CheckboxMenuItem2add(Ljava/awt/MenuItem;) 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaİ İ(
+%124java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	linePopupåâ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaİ İ(
+%125void"-java.awt.Component#add(Ljava/awt/PopupMenu;)V*
+ij.gui.Toolbar*
+
+%124java.awt.PopupMenu2add(Ljava/awt/PopupMenu;)‹ˆ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaß ß(
+%126java.awt.PopupMenu"java.awt.PopupMenuŸ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaß ß(
+%127"java.awt.PopupMenu#<init>()V*
+
+%126java.awt.PopupMenu 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaß ß(
+ij.gui.Toolbar"
+	zoomPopup"__id*
+
+%126java.awt.PopupMenu
+Œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaà à(
+%128int"ij.Menus#getFontSize()I*"
+
+ij.Menus*
+5
+6*Å)
+9V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÑ Ñ(V˜•
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÑ Ñ() 
+%93java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItemÙ
+Ö
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÑ Ñ(V
+%94"6java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;Z)V*"
+ 
+%93java.awt.CheckboxMenuItem*
+Straight Line*
+""­
+ª
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÑ Ñ(V&
+ij.gui.Toolbar"
+straightLineItem"__id*"
+ 
+%93java.awt.CheckboxMenuItem­
+ª
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÒ Ò( 
+%95java.awt.CheckboxMenuItem"__id*(*&
+ij.gui.Toolbar"
+straightLineItem›˜
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÒ Ò((
+%96void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*"
+ 
+%95java.awt.CheckboxMenuItem*
+ij.gui.Toolbar2.addItemListener(Ljava/awt/event/ItemListener;)Ÿ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÓ Ó(
+%97java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	linePopup­
+ª
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÓ Ó(  
+%98java.awt.CheckboxMenuItem"__id*(*&
+ij.gui.Toolbar"
+straightLineItem‹ˆ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÓ Ó(!
+%99java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%97java.awt.PopupMenu*"
+ 
+%98java.awt.CheckboxMenuItem2add(Ljava/awt/MenuItem;)u
+s
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÔB Ô(J
+%100int"__id*
+""™–
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÔ Ô(%!
+%101java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItemÜ
+Ù
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÔ Ô(K
+%102"6java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;Z)V*#
+!
+%101java.awt.CheckboxMenuItem*
+Segmented Line*
+""ª
+§
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÔ Ô(K"
+ij.gui.Toolbar"
+polyLineItem"__id*#
+!
+%101java.awt.CheckboxMenuItemª
+§
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÕ Õ(!
+%103java.awt.CheckboxMenuItem"__id*$*"
+ij.gui.Toolbar"
+polyLineItemš
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÕ Õ($
+%104void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*#
+!
+%103java.awt.CheckboxMenuItem*
+ij.gui.Toolbar2.addItemListener(Ljava/awt/event/ItemListener;) 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÖ Ö(
+%105java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	linePopupª
+§
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÖ Ö(!
+%106java.awt.CheckboxMenuItem"__id*$*"
+ij.gui.Toolbar"
+polyLineItem‹
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÖ Ö(
+%107java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%105java.awt.PopupMenu*#
+!
+%106java.awt.CheckboxMenuItem2add(Ljava/awt/MenuItem;)u
+s
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java×A ×(I
+%108int"__id*
+""™–
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java× ×(%!
+%109java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItemÛ
+Ø
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java× ×(J
+%110"6java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;Z)V*#
+!
+%109java.awt.CheckboxMenuItem*
+Freehand Line*
+""ª
+§
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.java× ×(J"
+ij.gui.Toolbar"
+freeLineItem"__id*#
+!
+%109java.awt.CheckboxMenuItemª
+§
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaØ Ø(!
+%111java.awt.CheckboxMenuItem"__id*$*"
+ij.gui.Toolbar"
+freeLineItemš
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaØ Ø($
+%112void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*#
+!
+%111java.awt.CheckboxMenuItem*
+ij.gui.Toolbar2.addItemListener(Ljava/awt/event/ItemListener;) 
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÙ Ù(
+%113java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	linePopupª
+§
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÙ Ù(!
+%114java.awt.CheckboxMenuItem"__id*$*"
+ij.gui.Toolbar"
+freeLineItem‹
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÙ Ù(
+%115java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*
+
+%113java.awt.PopupMenu*#
+!
+%114java.awt.CheckboxMenuItem2add(Ljava/awt/MenuItem;)u
+s
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÚ; Ú(?
+%116int"__id*
+""*
+7*×
+11V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÑ* Ñ(9t
+r
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaÑE Ñ(I
+
+%92int"__id*
+""*
+9*•
+12V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaĞ Ğ(Ÿ
+œ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaĞ Ğ(
+%89java.awt.PopupMenu"__id*!*
+ij.gui.Toolbar"
+	linePopup¢
+Ÿ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaĞ Ğ($
+%90java.awt.Font"!ij.Menus#getFont()Ljava/awt/Font;*"
+
+ij.Menuséæ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Toolbar.javaĞ Ğ(%
+%91void"0java.awt.MenuComponent#setFont(Ljava/awt/Font;)V*
+
+%89java.awt.PopupMenu*
+
+%90java.awt.Font2setFont(Ljava/awt/Font;)*
+11B
+ij.gui.Toolbar

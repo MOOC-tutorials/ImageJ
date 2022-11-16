@@ -1,0 +1,151 @@
+
+7ij.util.DicomTools#sort(Lij/ImageStack;)Lij/ImageStack;X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java ("11"12*˜
+2X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java ("í
+è
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java ("
+%9ij.ImageStack"__id*
+
+stackij.ImageStack*
+1*¯
+3X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (ì
+ê
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (
+%9ij.ImageStack"__id*
+
+stack2ij.ImageStack*
+1*î
+5X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (ñ
+ì
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (%
+%8ij.ImageStack"Oij.util.DicomTools#sortStack(Lij/ImageStack;[Ljava/lang/String;)Lij/ImageStack;*"
+ij.util.DicomTools*
+
+stackij.ImageStack*
+
+stringsjava.lang.String[]ì
+ê
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (%
+stack2ij.ImageStack"__id*
+
+%8ij.ImageStack*
+2
+3*˚
+6X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java ( ¶
+£
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java5 (@
+%5java.lang.String[]"__id*'*%
+ij.util.DicomTools"
+sliceLabelsu
+s
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.javaB (L	
+%6int"__id*
+""›⁄
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (M
+%7ij.ImageStack"Qij.VirtualStack#sortDicom([Ljava/lang/String;[Ljava/lang/String;I)Lij/ImageStack;*
+
+stackij.ImageStack*
+
+stringsjava.lang.String[]*
+
+%5java.lang.String[]*
+	
+%6int22sortDicom([Ljava/lang/String;[Ljava/lang/String;I)ì
+ê
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (M
+stack2ij.ImageStack"__id*
+
+%7ij.ImageStack*
+2
+3*ˆ
+7X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (’
+“
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (
+
+%3void"/ij.util.StringSorter#sort([Ljava/lang/String;)V*"
+ij.util.StringSorter*
+
+stringsjava.lang.String[]Ñ
+Å
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (
+stack2ij.ImageStack"__id*
+""Ø¨
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (
+%4boolean"ij.ImageStack#isVirtual()Z*
+
+stackij.ImageStack2isVirtual()*
+5
+6*”
+8X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (!"t
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java ("
+
+stackij.ImageStack*ö
+9X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (#ë
+é
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (7
+%2java.lang.String[]"Wij.util.DicomTools#getSortStrings(Lij/ImageStack;Ljava/lang/String;)[Ljava/lang/String;*"
+ij.util.DicomTools*
+
+stackij.ImageStack*
+	0020,0013û
+õ
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (8
+stringsjava.lang.String[]"__id*
+
+%2java.lang.String[]*
+7
+8*‘
+10X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (#"t
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java ($
+
+stackij.ImageStack*ã
+11X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (°û
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (	
+%1int"ij.ImageStack#size()I*
+
+stackij.ImageStack2size()*
+9
+10*û
+12X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (∑
+¥
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (;
+
+%0void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*!
+Sorting by DICOM image number*
+11*–
+1X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (#"q
+X
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/util/DicomTools.java (#
+
+%9ij.ImageStack:
+stackij.ImageStackB"
+ij.util.DicomTools

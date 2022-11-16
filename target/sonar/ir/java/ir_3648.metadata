@@ -1,0 +1,7 @@
+ij.plugin.Colors#itemStateChanged(Ljava/awt/event/ItemEvent;)V
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.gui.Roi#setColor(Ljava/awt/Color;)V
+ij.gui.Toolbar#getInstance()Lij/gui/Toolbar;
+ij.plugin.Colors#getColor(Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;
+ij.gui.Toolbar#setBackgroundColor(Ljava/awt/Color;)V
+ij.gui.Toolbar#setForegroundColor(Ljava/awt/Color;)V

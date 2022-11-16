@@ -1,0 +1,159 @@
+
+Aij.gui.ShapeRoi#makeShapeFromArray([F)Ljava/awt/geom/GeneralPath;W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaã ã(&"13"12*À
+13W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaä ä("a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaä ä(
+""*Æ
+2W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaì ì(t
+r
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaî	 î( 	
+%9int"__id*
+""u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javañ	 ñ( 
+
+%10int"__id*
+""u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaô	 ô( 
+
+%11int"__id*
+""u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java÷	 ÷(!
+
+%12int"__id*
+""u
+s
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaú	 ú(
+
+%13int"__id*
+""*
+4
+5
+6
+7
+8
+10
+1*¢
+4W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaú ü(º·
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaû û(!
+
+%8void"!java.awt.geom.Path2D#closePath()V* 
+
+sjava.awt.geom.GeneralPath2closePath()*
+10
+1*à
+5W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java÷ ù(øõ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaø ø(M
+
+%7void"+java.awt.geom.Path2D$Float#curveTo(FFFFFF)V* 
+
+sjava.awt.geom.GeneralPath*
+""*
+""*
+""*
+""*
+""*
+""2curveTo(FFFFFF)*
+10
+1*Ê
+6W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaô ö(âß
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaõ õ(;
+
+%6void"(java.awt.geom.Path2D$Float#quadTo(FFFF)V* 
+
+sjava.awt.geom.GeneralPath*
+""*
+""*
+""*
+""2quadTo(FFFF)*
+10
+1*¶
+7W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javañ ó(ÎË
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaò ò(,
+
+%5void"&java.awt.geom.Path2D$Float#lineTo(FF)V* 
+
+sjava.awt.geom.GeneralPath*
+""*
+""2
+lineTo(FF)*
+10
+1*¶
+8W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaî ð(ÎË
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaï ï(,
+
+%4void"&java.awt.geom.Path2D$Float#moveTo(FF)V* 
+
+sjava.awt.geom.GeneralPath*
+""*
+""2
+moveTo(FF)*
+10
+1* 
+10W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaê ê(¸
+µ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaê ê((	
+%3int""ij.gui.ShapeRoi#getSegment([F[FI)I*"
+ij.gui.ShapeRoi*
+""*
+""*
+""*
+2
+1*Ú
+12W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaå" å(-t
+r
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaå" å(;	
+%0int"__id*
+""˜•
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaå å(!
+%1java.awt.geom.GeneralPath"java.awt.geom.GeneralPath¸
+µ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaå å(<
+%2"$java.awt.geom.GeneralPath#<init>(I)V*!
+
+%1java.awt.geom.GeneralPath*
+	
+%0int¥
+¢
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaå å(=
+sjava.awt.geom.GeneralPath"__id*!
+
+%1java.awt.geom.GeneralPath*
+10
+1*Ù
+1W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java€	 €(
+"{
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java€ €( 
+
+sjava.awt.geom.GeneralPath:
+""B"
+ij.gui.ShapeRoi

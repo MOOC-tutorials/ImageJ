@@ -1,0 +1,64 @@
+
+Rij.io.Opener#openJpegOrGifUsingURL(Ljava/lang/String;Ljava/net/URL;)Lij/ImagePlus;T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java… …( "3"4*¹
+2T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‰! ‰(&zx
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‰ ‰( 
+%2ij.ImagePlus"ij.ImagePluså
+â
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‰ ‰(,
+%3"8ij.ImagePlus#<init>(Ljava/lang/String;Ljava/awt/Image;)V*
+
+%2ij.ImagePlus*
+
+titlejava.lang.String*
+
+imgjava.awt.ImageŠ
+‡
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‰ ‰(-
+impij.ImagePlus"__id*
+
+%2ij.ImagePlus"m
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaŠ Š(
+
+impij.ImagePlus*²
+3T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‡ ‡(¿
+¼
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‡ ‡()
+%0java.awt.Toolkit"6java.awt.Toolkit#getDefaultToolkit()Ljava/awt/Toolkit;*"
+java.awt.Toolkitûø
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‡ ‡(:
+%1java.awt.Image"<java.awt.Toolkit#createImage(Ljava/net/URL;)Ljava/awt/Image;*
+
+%0java.awt.Toolkit*
+
+urljava.net.URL2createImage(Ljava/net/URL;)Ž
+‹
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‡ ‡(;
+imgjava.awt.Image"__id*
+
+%1java.awt.Image*
+2
+1*¹
+4T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java† †("^
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java† †(
+""*¹
+1T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaŒ
+ Œ("^
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaŒ Œ(
+"":
+titlejava.lang.String:
+urljava.net.URLB
+ij.io.Opener

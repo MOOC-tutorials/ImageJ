@@ -1,0 +1,126 @@
+
+$ij.gui.Roi#clone()Ljava/lang/Object;R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaº º(!"13*„
+13R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¼ ¼(£
+ 
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¼ ¼(
+%0java.lang.Object"*java.lang.Object#clone()Ljava/lang/Object;*
+""*
+12*À
+2R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÅ
+ Å("g
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÅ Å(
+
+r
+ij.gui.Roi*ó
+3R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÄ Ä(1”
+‘
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÄ Ä(1
+
+r
+ij.gui.Roi"
+bounds"__id*
+
+%9java.lang.Object*
+2*ß
+4R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÄ Ä(¡
+ž
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÄ# Ä()&
+%8 java.awt.geom.Rectangle2D$Double"__id**
+
+ij.gui.Roi"
+boundsÜÙ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÄ# Ä(1
+%9java.lang.Object"8java.awt.geom.RectangularShape#clone()Ljava/lang/Object;*(
+&
+%8 java.awt.geom.Rectangle2D$Double2clone()*
+3*ƒ
+5R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÁ Á(¡
+ž
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÃ Ã(&
+%7 java.awt.geom.Rectangle2D$Double"__id**
+
+ij.gui.Roi"
+bounds*
+2
+4*ù
+6R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÁ Á(š—
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÁ Á(	
+%6int"ij.gui.Roi#getImageID()I*
+
+ij.gui.Roi2getImageID()*
+5*¹
+7R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÀ À(!Ú×
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÀ À(!
+
+%5void"*ij.gui.Roi#setFillColor(Ljava/awt/Color;)V*
+
+r
+ij.gui.Roi*
+
+%4java.awt.Color2setFillColor(Ljava/awt/Color;)*
+6*—
+8R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÀ À(¸µ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÀ À( 
+%4java.awt.Color")ij.gui.Roi#getFillColor()Ljava/awt/Color;*
+
+ij.gui.Roi2getFillColor()*
+7*Å
+9R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¿ ¿(æã
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¿ ¿(
+
+%3void"-ij.gui.Roi#setStroke(Ljava/awt/BasicStroke;)V*
+
+r
+ij.gui.Roi*
+
+%2java.awt.BasicStroke2!setStroke(Ljava/awt/BasicStroke;)*
+8*ž
+10R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¿ ¿(¾»
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¿ ¿(
+%2java.awt.BasicStroke",ij.gui.Roi#getStroke()Ljava/awt/BasicStroke;*
+
+ij.gui.Roi2getStroke()*
+9*­
+12R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¼ ¼(ˆ
+…
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¼ ¼(
+r
+ij.gui.Roi"__id*
+
+%0java.lang.Object¾»
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java½ ½(
+
+%1void"$ij.gui.Roi#setImage(Lij/ImagePlus;)V*
+
+r
+ij.gui.Roi*
+""2setImage(Lij/ImagePlus;)*
+8
+10B
+
+ij.gui.Roi

@@ -1,0 +1,16 @@
+ij.plugin.frame.MemoryMonitor#<init>()V
+java.lang.Thread#setPriority(I)V
+ij.IJ#wait(I)V
+ij.Prefs#getGuiScale()D
+ij.WindowManager#toFront(Ljava/awt/Frame;)V
+java.awt.BorderLayout#<init>()V
+ij.gui.GUI#centerOnImageJScreen(Ljava/awt/Window;)V
+java.awt.Font#<init>(Ljava/lang/String;II)V
+ij.IJ#getInstance()Lij/ImageJ;
+ij.WindowManager#addWindow(Ljava/awt/Frame;)V
+java.awt.Font#instance-init#
+java.awt.BorderLayout#instance-init#
+ij.Prefs#getLocation(Ljava/lang/String;)Ljava/awt/Point;
+ij.plugin.frame.MemoryMonitor$PlotCanvas#instance-init#
+ij.plugin.frame.MemoryMonitor$PlotCanvas#<init>(Lij/plugin/frame/MemoryMonitor;)V
+java.lang.Thread#currentThread()Ljava/lang/Thread;

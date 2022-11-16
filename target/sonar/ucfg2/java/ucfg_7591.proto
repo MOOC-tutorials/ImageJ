@@ -1,0 +1,439 @@
+
+Xij.plugin.PointToolOptions#dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)Z`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java^ ^(!"45*ø
+25b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaç ç(«
+ƒ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaç ç(
+%21void")ij.plugin.PointToolOptions#setCounter(I)V*"
+ij.plugin.PointToolOptions*
+""*
+20
+23
+1*π
+26b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaå å(Ω
+∫
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaå å(*
+
+%20int"(ij.plugin.PointToolOptions#getCounter()I*"
+ij.plugin.PointToolOptions*
+25
+20
+23
+1*»
+27b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaã ã(”–
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaã ã((
+
+%19int"*ij.gui.GenericDialog#getNextChoiceIndex()I*
+
+gdij.gui.GenericDialog2getNextChoiceIndex()*
+25
+26*À
+30b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaÖ Ö(œÃ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaÜ Ü(-
+%18boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+27
+20
+23
+1*æ
+32`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java (œÃ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaÄ Ä(.
+%17boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+30*”
+11b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java® ®( «
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java® ®(
+%34
+ij.gui.Roi"!ij.gui.Overlay#get(I)Lij/gui/Roi;*
+
+overlayij.gui.Overlay*
+""2get(I)ì
+ê
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java® ®(
+r
+ij.gui.Roi"__id*
+
+%34
+ij.gui.Roi*
+8
+9*ß
+12b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaß ß(∞≠
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaß ß(#
+
+%33int"ij.gui.Overlay#size()I*
+
+overlayij.gui.Overlay2size()*
+
+2
+11
+1*ò
+14b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java• •(6°
+û
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java• •(6
+overlayij.gui.Overlay"__id*
+
+%30ij.gui.Overlay*
+
+2
+12
+1*¨
+37`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javav v(Õ 
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javav v(/
+%13boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()Õ 
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaw w(1
+%14boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()Õ 
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javax x(0
+%15boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()Õ 
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javay y(0
+%16boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+32*ä
+15b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java•1 •(5ô
+ñ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java•1 •(5
+%30ij.gui.Overlay"__id*
+
+%32
+<nulltype>*
+14*ﬂ
+16b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java•  •(#ŒÀ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java•  •(0
+%31ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+impij.ImagePlus2getOverlay()ù
+ö
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java•  •(0
+%30ij.gui.Overlay"__id*
+
+%31ij.gui.Overlay*
+14*¶
+39`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javar r(≥
+∞
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javar r(%
+%12void""ij.gui.PointRoi#setDefaultSize(I)V*"
+ij.gui.PointRoi*
+""*
+37
+32*’
+17b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java§
+ §(ƒ
+¡
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java§
+ §()
+%29ij.ImagePlus"0ij.WindowManager#getCurrentImage()Lij/ImagePlus;*"
+ij.WindowManagerô
+ñ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java§ §()
+impij.ImagePlus"__id*
+
+%29ij.ImagePlus*
+15
+16*®
+19b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaü ü(À»
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaü ü(+
+%27void"!ij.gui.PointRoi#setShowLabels(Z)V*
+
+roiij.gui.PointRoi*
+""2setShowLabels(Z)«ƒ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java†
+ †(
+%28ij.ImagePlus"#ij.gui.Roi#getImage()Lij/ImagePlus;*
+
+roiij.gui.PointRoi2
+getImage()ô
+ñ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java† †(
+impij.ImagePlus"__id*
+
+%28ij.ImagePlus*
+
+2
+17
+1*’
+1b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java¥	 ¥("l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java¥ ¥(
+""*ò
+2b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java≤ ≤(©¶
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java≤ ≤(
+%38void"ij.ImagePlus#draw()V*
+
+impij.ImagePlus2draw()*
+1*ª
+6b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java´ ´(
+À»
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java´ ´(.
+%37void"!ij.gui.PointRoi#setShowLabels(Z)V*
+
+roiij.gui.PointRoi*
+""2setShowLabels(Z)*
+12*í
+7b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java© ©(?ü
+ú
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java© ©(?
+roiij.gui.PointRoi"__id*
+
+%35ij.gui.PointRoi*
+6
+12*â
+8b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java©; ©(?ö
+ó
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java©; ©(?
+%35ij.gui.PointRoi"__id*
+
+%36
+<nulltype>*
+7*¢
+9b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java©9 ©(:ò
+ï
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java©9 ©(:
+%35ij.gui.PointRoi"__id*
+
+r
+ij.gui.Roiò
+ï
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java©/ ©(:
+%35ij.gui.PointRoi"__id*
+
+r
+ij.gui.Roi*
+7*Ù
+40`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javap p(—Œ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javap p()
+
+%10int"*ij.gui.GenericDialog#getNextChoiceIndex()I*
+
+gdij.gui.GenericDialog2getNextChoiceIndex()©
+¶
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaq q(*
+
+%11int"!ij.gui.PointRoi#getDefaultSize()I*"
+ij.gui.PointRoi*
+37
+39
+32*¢
+41`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javam m(≥∞
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javam m(
+
+%9void"java.awt.Component#repaint()V*
+
+tbij.gui.Toolbar2	repaint()*
+40*ê
+42`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaj j(¡
+æ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaj j(
+
+%7void"&ij.gui.Roi#setColor(Ljava/awt/Color;)V*"
+
+ij.gui.Roi*
+
+scjava.awt.ColorΩ
+∫
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javal l(%
+%8ij.gui.Toolbar",ij.gui.Toolbar#getInstance()Lij/gui/Toolbar;*"
+ij.gui.Toolbarô
+ñ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javal l(&
+tbij.gui.Toolbar"__id*
+
+%8ij.gui.Toolbar*
+40
+41*Ñ
+20b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaõ õ(ä
+á
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaõ õ(
+impij.ImagePlus"__id*
+""⁄
+◊
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaù ù(
+%26ij.gui.PointRoi"9ij.plugin.PointToolOptions#getPointRoi()Lij/gui/PointRoi;*"
+ij.plugin.PointToolOptionsü
+ú
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaù ù( 
+roiij.gui.PointRoi"__id*
+
+%26ij.gui.PointRoi*
+2
+17
+19
+1*Å
+
+43`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javag g(‰·
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javag g(,
+%3java.lang.String"6ij.gui.GenericDialog#getNextChoice()Ljava/lang/String;*
+
+gdij.gui.GenericDialog2getNextChoice()©
+¶
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javag g(-"
+selectionColorjava.lang.String"__id*
+
+%3java.lang.Stringâ
+Ü
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javah- h(9
+%4java.awt.Color"__id*
+""û
+õ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javah h(:
+%5java.awt.Color"Mij.plugin.Colors#getColor(Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;*"
+ij.plugin.Colors*$
+"
+selectionColorjava.lang.String*
+
+%4java.awt.Colorô
+ñ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javah h(;
+scjava.awt.Color"__id*
+
+%5java.awt.Color≤
+Ø
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javai
+ i(
+%6java.awt.Color"%ij.gui.Roi#getColor()Ljava/awt/Color;*"
+
+ij.gui.Roi*
+40
+42*°
+44`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javac c(≤
+Ø
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javac c(%
+
+%2void""ij.gui.PointRoi#setDefaultType(I)V*"
+ij.gui.PointRoi*
+""*
+43*¯
+22b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaî î(…∆
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaî î(
+%23void" ij.gui.PointRoi#setPointType(I)V*
+
+roiij.gui.PointRoi*
+""2setPointType(I)ˆÛ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaï ï(
+%24void",ij.gui.Roi#setStrokeColor(Ljava/awt/Color;)V*
+
+roiij.gui.PointRoi*
+
+scjava.awt.Color2 setStrokeColor(Ljava/awt/Color;)øº
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javañ ñ(
+%25void"ij.gui.PointRoi#setSize(I)V*
+
+roiij.gui.PointRoi*
+""2
+setSize(I)*
+20
+1*Ó
+45`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.java_ _(–Õ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaa a()	
+%0int"*ij.gui.GenericDialog#getNextChoiceIndex()I*
+
+gdij.gui.GenericDialog2getNextChoiceIndex()®
+•
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javab b(*	
+%1int"!ij.gui.PointRoi#getDefaultType()I*"
+ij.gui.PointRoi*
+43
+44*Ù
+23b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaí í(⁄
+◊
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaí í(
+%22ij.gui.PointRoi"9ij.plugin.PointToolOptions#getPointRoi()Lij/gui/PointRoi;*"
+ij.plugin.PointToolOptionsü
+ú
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/PointToolOptions.javaí í( 
+roiij.gui.PointRoi"__id*
+
+%22ij.gui.PointRoi*
+20
+22
+1:
+gdij.gui.GenericDialog:
+ejava.awt.AWTEventB
+ij.plugin.PointToolOptions

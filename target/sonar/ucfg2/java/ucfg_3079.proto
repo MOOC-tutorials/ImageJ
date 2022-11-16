@@ -1,0 +1,387 @@
+
+-ij.macro.Functions#getColor()Ljava/awt/Color;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaã ã("30*Õ
+24Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaî î(‡›
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaî î( 
+%9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+colorjava.lang.String*	
+green2equals(Ljava/lang/Object;)*
+22
+23*‹
+25Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaì
+ ì(É
+Ä
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaì
+ ì(
+%8java.awt.Color"__id*
+"""t
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaì ì(
+
+%8java.awt.Color*À
+26Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaí í(ﬁ€
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaí í(
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+colorjava.lang.String*
+red2equals(Ljava/lang/Object;)*
+24
+25*‹
+27Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaë
+ ë(É
+Ä
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaë
+ ë(
+%6java.awt.Color"__id*
+"""t
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaë ë(
+
+%6java.awt.Color*Õ
+28Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaê ê(‡›
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaê ê( 
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+colorjava.lang.String*	
+white2equals(Ljava/lang/Object;)*
+26
+27*‹
+29Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaè
+ è(É
+Ä
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaè
+ è(
+%4java.awt.Color"__id*
+"""t
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaè è(
+
+%4java.awt.Color*ˆ	
+30Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaå å(ŒÀ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaå å(
+%0java.lang.String"0ij.macro.Functions#getString()Ljava/lang/String;*
+ij.macro.Functions2getString()ö
+ó
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaå å(
+colorjava.lang.String"__id*
+
+%0java.lang.StringÖ
+Ç
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaç ç(%
+%1java.util.Locale"__id*
+""ìê
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaç
+ ç(&
+%2java.lang.String"Bjava.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;*
+
+colorjava.lang.String*
+
+%1java.util.Locale2toLowerCase(Ljava/util/Locale;)ö
+ó
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaç ç(&
+colorjava.lang.String"__id*
+
+%2java.lang.String‡›
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaé é(
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+colorjava.lang.String*	
+black2equals(Ljava/lang/Object;)*
+28
+29*Õ
+10Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¢ ¢(‚ﬂ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¢ ¢(!
+%23boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+colorjava.lang.String*
+
+orange2equals(Ljava/lang/Object;)*
+8
+9*ﬁ
+11Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java°
+ °(Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java°
+ °(
+%22java.awt.Color"__id*
+"""u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java° °(
+
+%22java.awt.Color*–
+12Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java† †(„‡
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java† †("
+%21boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+colorjava.lang.String*	
+magenta2equals(Ljava/lang/Object;)*
+10
+11*ﬁ
+13Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaü
+ ü(Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaü
+ ü(
+%20java.awt.Color"__id*
+"""u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaü ü(
+
+%20java.awt.Color*“
+14Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaû û(Â‚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaû û($
+%19boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+colorjava.lang.String*
+	lightgray2equals(Ljava/lang/Object;)*
+13
+12*ﬁ
+15Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaù
+ ù(Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaù
+ ù(
+%18java.awt.Color"__id*
+"""u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaù ù(
+
+%18java.awt.Color*Õ
+16Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaú ú(‡›
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaú ú(
+%17boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+colorjava.lang.String*
+gray2equals(Ljava/lang/Object;)*
+14
+15*ﬁ
+17Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaõ
+ õ(Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaõ
+ õ(
+%16java.awt.Color"__id*
+"""u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaõ õ(
+
+%16java.awt.Color*—
+18Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaö ö(‰·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaö ö(#
+%15boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+colorjava.lang.String*
+
+darkgray2equals(Ljava/lang/Object;)*
+16
+17*ﬁ
+19Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaô
+ ô(Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaô
+ ô(
+%14java.awt.Color"__id*
+"""u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaô ô(
+
+%14java.awt.Color*≈
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¨	 ¨("d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¨ ¨(
+""*ó
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java´ ´(	¶
+£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java´ ´(	
+%32ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpáÑ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java´ ´(=
+%33void"/ij.macro.Interpreter#error(Ljava/lang/String;)V*
+
+%32ij.macro.Interpreter*.,
+*'red', 'green', or '#0000ff' etc. expected2error(Ljava/lang/String;)*
+1*Ô
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java©
+ ©(Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java© ©(*
+%30java.awt.Color"__id*
+""è
+å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java©
+ ©(+
+%31java.awt.Color"Kij.plugin.Colors#decode(Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;*"
+ij.plugin.Colors*
+
+colorjava.lang.String*
+
+%30java.awt.Color"u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java© ©(,
+
+%31java.awt.Color*œ
+4Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java® ®(Â‚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java® ®( 
+%29boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+colorjava.lang.String*
+#2startsWith(Ljava/lang/String;)*
+2
+3*›
+5Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaß
+ ß(Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaß
+ ß(
+%28java.awt.Color"__id*
+"""u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaß ß(
+
+%28java.awt.Color* 
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¶ ¶(‡›
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¶ ¶(
+%27boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+colorjava.lang.String*
+pink2equals(Ljava/lang/Object;)*
+4
+5*›
+7Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java•
+ •(Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java•
+ •(
+%26java.awt.Color"__id*
+"""u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java• •(
+
+%26java.awt.Color*Ã
+8Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java§ §(‚ﬂ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java§ §(!
+%25boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+colorjava.lang.String*
+
+yellow2equals(Ljava/lang/Object;)*
+6
+7*›
+9Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£
+ £(Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£
+ £(
+%24java.awt.Color"__id*
+"""u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£ £(
+
+%24java.awt.Color*Õ
+20Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaò ò(‡›
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaò ò(
+%13boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+colorjava.lang.String*
+cyan2equals(Ljava/lang/Object;)*
+18
+19*ﬁ
+21Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaó
+ ó(Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaó
+ ó(
+%12java.awt.Color"__id*
+"""u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaó ó(
+
+%12java.awt.Color*Õ
+22Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javañ ñ(‡›
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javañ ñ(
+%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+colorjava.lang.String*
+blue2equals(Ljava/lang/Object;)*
+20
+21*ﬁ
+23Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaï
+ ï(Ñ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaï
+ ï(
+%10java.awt.Color"__id*
+"""u
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaï ï(
+
+%10java.awt.ColorB
+ij.macro.Functions

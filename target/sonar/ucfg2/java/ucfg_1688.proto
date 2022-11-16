@@ -1,0 +1,287 @@
+
+%ij.gui.Plot#show()Lij/gui/PlotWindow;S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java⁄ ⁄("17*ã
+13S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java‡7 ‡(B¶
+£
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java‡7 ‡(P
+%5boolean"#ij.macro.Interpreter#isBatchMode()Z*"
+ij.macro.Interpreter*
+9
+12*˙
+14S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java‡ ‡(î
+ë
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java‡ ‡(,
+%4	ij.ImageJ"ij.IJ#getInstance()Lij/ImageJ;*	"
+ij.IJ*
+13
+12*Ô
+15S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java‡ ‡(	â
+Ü
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java‡ ‡(
+%3boolean"ij.IJ#macroRunning()Z*	"
+ij.IJ*
+13
+14*ç
+16S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java› ›(∑¥
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java› ›(
+%1ij.ImagePlus"(ij.gui.Plot#getImagePlus()Lij/ImagePlus;*
+ij.gui.Plot2getImagePlus()òï
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java› ›(
+
+%2void"ij.ImagePlus#show()V*
+
+%1ij.ImagePlus2show()"]
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaﬁ ﬁ(
+""*œ
+17S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java€ €(#≈¬
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java€ €(%
+%0ij.gui.PlotVirtualStack"/ij.gui.Plot#getStack()Lij/gui/PlotVirtualStack;*
+ij.gui.Plot2
+getStack()°
+û
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java€ €(& 
+stackij.gui.PlotVirtualStack"__id*
+
+%0ij.gui.PlotVirtualStack*
+15
+16* 
+1S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaˆ	 ˆ("p
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaˆ ˆ(
+
+pwij.gui.PlotWindow*§
+2S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaı ı(ç
+ä
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaı ı(
+%30ij.ImagePlus"__id**
+ij.gui.Plot"
+impõò
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaı ı(
+
+%31int"ij.ImagePlus#getID()I*
+
+%30ij.ImagePlus2getID()ñ
+ì
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaı ı(
+%32void"ij.IJ#selectWindow(I)V*	"
+ij.IJ*
+
+
+%31int*
+1*
+3S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÙ Ù(ç
+ä
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÙ Ù(
+%29ij.ImagePlus"__id**
+ij.gui.Plot"
+imp*
+2
+1*ø
+4S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÛ! Û(%ÖÇ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÛ Û( 
+%26ij.gui.PlotWindow"ij.gui.PlotWindow∂
+≥
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÛ Û(&
+%27"(ij.gui.PlotWindow#<init>(Lij/gui/Plot;)V*
+
+%26ij.gui.PlotWindow*
+ij.gui.Plotì
+ê
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÛ Û('
+pwij.gui.PlotWindow"__id*
+
+%26ij.gui.PlotWindowÖ
+Ç
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÙ Ù(
+%28boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+3
+1*ß
+5S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÒ Ò(«ƒ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÒ Ò(
+%25void")ij.gui.Plot#setImagePlus(Lij/ImagePlus;)V*
+ij.gui.Plot*
+""2setImagePlus(Lij/ImagePlus;)*
+4*Ì
+6S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÓ Ó(°û
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÓ Ó(
+%24void"ij.gui.Plot#updateImage()V*
+ij.gui.Plot2updateImage()"o
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÔ Ô(
+
+winjava.awt.Window*ì
+7S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÌ$ Ì('∞≠
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÌ$ Ì(3
+%23boolean"java.awt.Component#isVisible()Z*
+
+winjava.awt.Window2isVisible()*
+5
+6*Œ
+8S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÏ Ï(ç
+ä
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÏ Ï(
+%21ij.ImagePlus"__id**
+ij.gui.Plot"
+imp≈¬
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÏ Ï(
+%22ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+%21ij.ImagePlus2getWindow()ì
+ê
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÏ Ï( 
+winjava.awt.Window"__id*
+
+%22ij.gui.ImageWindow*
+5
+7*
+9S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÎ Î(	ç
+ä
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÎ Î(	
+%20ij.ImagePlus"__id**
+ij.gui.Plot"
+imp*
+4
+8*ö
+10S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaË Ë(ç
+ä
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaË! Ë($
+%18ij.ImagePlus"__id**
+ij.gui.Plot"
+impœ
+Ã
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaË Ë(%
+%19void"7ij.macro.Interpreter#addBatchModeImage(Lij/ImagePlus;)V*"
+ij.macro.Interpreter*
+
+%18ij.ImagePlus"]
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÈ È(
+""*Ô	
+11S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÂ Â(ç
+ä
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÂ Â(
+%12ij.ImagePlus"__id**
+ij.gui.Plot"
+imp£†
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÂ Â(+
+%13float[]"ij.gui.Plot#getXValues()[F*
+ij.gui.Plot2getXValues()èå
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÂ Â(,
+%14void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%12ij.ImagePlus*	
+XValues*
+
+%13float[]21setProperty(Ljava/lang/String;Ljava/lang/Object;)ç
+ä
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÊ Ê(
+%15ij.ImagePlus"__id**
+ij.gui.Plot"
+imp£†
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÊ Ê(+
+%16float[]"ij.gui.Plot#getYValues()[F*
+ij.gui.Plot2getYValues()èå
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÊ Ê(,
+%17void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%15ij.ImagePlus*	
+YValues*
+
+%16float[]21setProperty(Ljava/lang/String;Ljava/lang/Object;)*
+10*ú
+
+12S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java·	 ·(∑¥
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java·	 ·(
+%6ij.ImagePlus"(ij.gui.Plot#getImagePlus()Lij/ImagePlus;*
+ij.gui.Plot2getImagePlus()å
+â
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java· ·(
+ij.gui.Plot"
+imp"__id*
+
+%6ij.ImagePluså
+â
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java‚ ‚(
+%7ij.ImagePlus"__id**
+ij.gui.Plot"
+imp…∆
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java‚ ‚(
+
+%8void"$ij.ImagePlus#setPlot(Lij/gui/Plot;)V*
+
+%7ij.ImagePlus*
+ij.gui.Plot2setPlot(Lij/gui/Plot;)å
+â
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java„% „((
+%9ij.ImagePlus"__id**
+ij.gui.Plot"
+imp»
+≈
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java„ „()
+%10void"5ij.WindowManager#setTempCurrentImage(Lij/ImagePlus;)V*"
+ij.WindowManager*
+
+%9ij.ImagePlus∏
+µ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.java‰ ‰(
+%11ij.gui.PlotObject"3ij.gui.Plot#getMainCurveObject()Lij/gui/PlotObject;*
+ij.gui.Plot*
+10
+11B
+ij.gui.Plot

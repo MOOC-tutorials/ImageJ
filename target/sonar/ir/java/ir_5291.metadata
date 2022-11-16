@@ -1,0 +1,17 @@
+ij.plugin.Thresholder#applyThreshold(Lij/ImagePlus;Z)V
+ij.plugin.frame.Recorder#scriptMode()Z
+ij.gui.Toolbar#getForegroundColor()Ljava/awt/Color;
+ij.process.StackProcessor#instance-init#
+ij.process.StackProcessor#<init>(Lij/ImageStack;Lij/process/ImageProcessor;)V
+ij.Macro#getOptions()Ljava/lang/String;
+ij.IJ#isMacro()Z
+ij.plugin.frame.ThresholdAdjuster#isDarkBackground()Z
+ij.plugin.Thresholder#applyShortOrFloatThreshold(Lij/ImagePlus;)V
+ij.plugin.Thresholder#updateColorThresholdedImage(Lij/ImagePlus;)Lij/process/ImageProcessor;
+ij.gui.GenericDialog#<init>(Ljava/lang/String;)V
+ij.gui.Toolbar#getBackgroundColor()Ljava/awt/Color;
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+ij.plugin.frame.Recorder#record(Ljava/lang/String;II)V
+ij.IJ#log(Ljava/lang/String;)V
+ij.gui.GenericDialog#instance-init#
+ij.IJ#macroRunning()Z

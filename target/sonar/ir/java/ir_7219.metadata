@@ -1,0 +1,10 @@
+ij.gui.ImageWindow#setLocationAndSize(Z)V
+ij.gui.GUI#getMaxWindowBounds(Ljava/awt/Component;)Ljava/awt/Rectangle;
+ij.WindowManager#getWindowCount()I
+ij.gui.ImageCanvas#getLowerZoomLevel(D)D
+java.awt.Point#instance-init#
+java.lang.Math#max(II)I
+ij.Prefs#getLocation(Ljava/lang/String;)Ljava/awt/Point;
+java.awt.Point#<init>(II)V
+ij.gui.GUI#getMaxWindowBounds(Ljava/awt/Point;)Ljava/awt/Rectangle;
+java.lang.Math#min(II)I

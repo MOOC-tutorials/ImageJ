@@ -1,0 +1,128 @@
+
+5ij.gui.ShapeRoi#getShapeAsArray(Ljava/awt/Shape;FF)[FW
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaõ õ("6"7*
+2W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java‚ ‚(º·
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java‚ ‚(
+%11void""java.awt.geom.PathIterator#next()V*#
+!
+pItjava.awt.geom.PathIterator2next()*
+5*ë
+3W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaÿ ÿ(À
+½
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaÿ ÿ(,
+
+%9void"!ij.gui.ShapeRoi#addOffset([FIFF)V*"
+ij.gui.ShapeRoi*
+""*
+""*
+""*
+""ÄÁ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java€ €(#
+
+%10int"ij.util.FloatArray#add([FI)I*"
+ 
+
+shapeArrayij.util.FloatArray*
+""*
+""2add([FI)*
+2*
+4W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaû û(ØÕ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaû û(+	
+%6int".java.awt.geom.PathIterator#currentSegment([F)I*#
+!
+pItjava.awt.geom.PathIterator*
+""2currentSegment([F)·´
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaü ü(	
+%7int"ij.util.FloatArray#add(F)I*"
+ 
+
+shapeArrayij.util.FloatArray*
+""2add(F)¡
+
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaı ı(!	
+%8int"ij.gui.ShapeRoi#nCoords(I)I*"
+ij.gui.ShapeRoi*
+""*
+2
+3*§
+5W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaú
+ ú(À½
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaú
+ ú(
+%5boolean"$java.awt.geom.PathIterator#isDone()Z*#
+!
+pItjava.awt.geom.PathIterator2isDone()*
+4
+1*†
+6W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java÷ ÷( 
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java÷/ ÷(>#
+%0java.awt.geom.AffineTransform"java.awt.geom.AffineTransform²
+¯
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java÷+ ÷(@
+%1"'java.awt.geom.AffineTransform#<init>()V*%
+#
+%0java.awt.geom.AffineTransformÏÌ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java÷ ÷(A 
+%2java.awt.geom.PathIterator"[java.awt.Shape#getPathIterator(Ljava/awt/geom/AffineTransform;)Ljava/awt/geom/PathIterator;*
+
+shapejava.awt.Shape*%
+#
+%0java.awt.geom.AffineTransform20getPathIterator(Ljava/awt/geom/AffineTransform;)©
+¦
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java÷ ÷(B!
+pItjava.awt.geom.PathIterator"__id*"
+ 
+%2java.awt.geom.PathIteratorŠ‡
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaø ø((
+%3ij.util.FloatArray"ij.util.FloatArrayœ
+™
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaø ø(*
+%4"ij.util.FloatArray#<init>()V*
+
+%3ij.util.FloatArray 
+
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaø ø(+ 
+
+shapeArrayij.util.FloatArray"__id*
+
+%3ij.util.FloatArray*
+5*¿
+7W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaö ö("a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.javaö ö(
+""*ı
+1W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java„	 „(»¸
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java„	 „(
+%12float[]"ij.util.FloatArray#toArray()[F*"
+ 
+
+shapeArrayij.util.FloatArray2	toArray()"a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/ShapeRoi.java„ „(
+"":
+shapejava.awt.Shape:
+"":
+""B"
+ij.gui.ShapeRoi

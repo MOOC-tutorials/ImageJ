@@ -1,0 +1,83 @@
+
+6ij.plugin.BMP_Writer#convertImage(Ljava/awt/Image;II)ZZ
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.java ("10"11*Ê
+2\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaç( ç()~
+|
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaç( ç()	
+%7int"__id*
+	
+%9int*
+1*Ê
+3\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaç& ç('~
+|
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaç& ç('	
+%7int"__id*
+	
+%8int*
+1*Ü	
+10\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaÑ Ñ(û
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaÑ Ñ(
+%3ij.ImagePlus"__id*!*
+ij.plugin.BMP_Writer"
+imp‡›
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaÑ Ñ(-
+%4ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+%3ij.ImagePlus2getProcessor()ÑÅ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaÑ Ñ(A
+%5ij.process.ImageProcessor"Eij.process.ImageProcessor#convertToByte(Z)Lij/process/ImageProcessor;*!
+
+%4ij.process.ImageProcessor*22convertToByte(Z)‚ﬂ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaÑ Ñ(M
+%6java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*!
+
+%5ij.process.ImageProcessor2getPixels()©
+¶
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaÑ Ñ(M&
+ij.plugin.BMP_Writer"
+
+byteBitmap"__id*
+
+%6java.lang.Object*
+2
+3*”
+11\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaÇ Ç(û
+õ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaÇ Ç(
+%0ij.ImagePlus"__id*!*
+ij.plugin.BMP_Writer"
+imp‡›
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaÇ Ç(+
+%1ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+%0ij.ImagePlus2getProcessor()‚ﬂ
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaÇ Ç(7
+%2java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*!
+
+%1ij.process.ImageProcessor2getPixels()*
+2
+3*…
+1\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaç ç(*"f
+\
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/BMP_Writer.javaé é(
+"":
+parImagejava.awt.Image:
+"":
+""B
+ij.plugin.BMP_Writer

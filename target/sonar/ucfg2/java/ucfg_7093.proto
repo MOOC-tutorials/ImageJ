@@ -1,0 +1,385 @@
+
+ij.plugin.ImageInfo#showInfo()VY
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java# #("7*ó
+2Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java4 4(π
+∂
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java4 4(&
+%36java.lang.String"__concat*
+*Custom preferences*: *
+
+pathjava.lang.String§
+°
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java4 4(,
+%37java.lang.String"__concat*
+
+%36java.lang.String*
+\nµ
+≤
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java4 4(,
+%38java.lang.String"__concat*
+
+sjava.lang.String*
+
+%37java.lang.Stringñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java4 4(,
+sjava.lang.String"__id*
+
+%38java.lang.String*
+1*ª
+3Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java2	 2(∂
+≥
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java2	 2(#
+%35java.lang.String"/ij.Prefs#getCustomPrefsPath()Ljava/lang/String;*"
+
+ij.Prefsô
+ñ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java2 2(#
+pathjava.lang.String"__id*
+
+%35java.lang.String*
+2
+1*ñ
+4Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java1 1(∏
+µ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java1 1(%
+%32java.lang.String"__concat*
+*Custom properties*: *
+
+pathjava.lang.String§
+°
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java1 1(+
+%33java.lang.String"__concat*
+
+%32java.lang.String*
+\nµ
+≤
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java1 1(+
+%34java.lang.String"__concat*
+
+sjava.lang.String*
+
+%33java.lang.Stringñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java1 1(+
+sjava.lang.String"__id*
+
+%34java.lang.String*
+3*ﬂ,
+5Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java' '(≥
+∞
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java' '(
+%7java.lang.String"__concat*
+
+sjava.lang.String*
+No images are open\nï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java' '(
+sjava.lang.String"__id*
+
+%7java.lang.StringÆ
+´
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java( (('
+%8java.awt.Dimension")ij.IJ#getScreenSize()Ljava/awt/Dimension;*	"
+ij.IJû
+õ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java( (((
+screenjava.awt.Dimension"__id*
+
+%8java.awt.Dimension¡
+æ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java) )(*
+%9java.lang.String"2ij.IJ#getDir(Ljava/lang/String;)Ljava/lang/String;*	"
+ij.IJ*
+
+imagejÆ
+´
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java) )(*
+%10java.lang.String"__concat*
+ImageJ home: *
+
+%9java.lang.String§
+°
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java) )(/
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+\nµ
+≤
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java) )(/
+%12java.lang.String"__concat*
+
+sjava.lang.String*
+
+%11java.lang.Stringñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java) )(/
+sjava.lang.String"__id*
+
+%12java.lang.String‡
+›
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java* *(4
+%13java.lang.String"Bjava.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;*"
+java.lang.System*
+	java.home≠
+™
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java* *(4
+%14java.lang.String"__concat*
+Java home: *
+
+%13java.lang.String§
+°
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java* *(9
+%15java.lang.String"__concat*
+
+%14java.lang.String*
+\nµ
+≤
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java* *(9
+%16java.lang.String"__concat*
+
+sjava.lang.String*
+
+%15java.lang.Stringñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java* *(9
+sjava.lang.String"__id*
+
+%16java.lang.Stringã
+à
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java+ +((
+
+%17int"ij.IJ#javaVersion()I*	"
+ij.IJ£
+†
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java+ +((
+%18java.lang.String"__concat*
+Java version: *
+
+
+%17int§
+°
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java+ +(-
+%19java.lang.String"__concat*
+
+%18java.lang.String*
+\nµ
+≤
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java+ +(-
+%20java.lang.String"__concat*
+
+sjava.lang.String*
+
+%19java.lang.Stringñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java+ +(-
+sjava.lang.String"__id*
+
+%20java.lang.Stringú
+ô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java, ,(#
+%21java.lang.String"__concat*
+Screen size: *
+""£
+†
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java, ,('
+%22java.lang.String"__concat*
+
+%21java.lang.String*
+x§
+°
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java, ,(5
+%23java.lang.String"__concat*
+
+%22java.lang.String*
+""§
+°
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java, ,(:
+%24java.lang.String"__concat*
+
+%23java.lang.String*
+\nµ
+≤
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java, ,(:
+%25java.lang.String"__concat*
+
+sjava.lang.String*
+
+%24java.lang.Stringñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java, ,(:
+sjava.lang.String"__id*
+
+%25java.lang.Stringî
+ë
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java- -(/
+%26double"ij.Prefs#getGuiScale()D*"
+
+ij.Prefs∫
+∑
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java- -(2
+%27java.lang.String"ij.IJ#d2s(DI)Ljava/lang/String;*	"
+ij.IJ*
+
+%26double*2≠
+™
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java- -(2
+%28java.lang.String"__concat*
+GUI scale: *
+
+%27java.lang.String§
+°
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java- -(7
+%29java.lang.String"__concat*
+
+%28java.lang.String*
+\nµ
+≤
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java- -(7
+%30java.lang.String"__concat*
+
+sjava.lang.String*
+
+%29java.lang.Stringñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java- -(7
+sjava.lang.String"__id*
+
+%30java.lang.String∂
+≥
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java/ /(*
+%31java.lang.String"/ij.Prefs#getCustomPropsPath()Ljava/lang/String;*"
+
+ij.Prefsô
+ñ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java/ /(+
+pathjava.lang.String"__id*
+
+%31java.lang.String*
+3
+4*¥
+6Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java& &(ö
+ó
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java& &(
+%3	ij.ImageJ"ij.IJ#getInstance()Lij/ImageJ;*	"
+ij.IJª∏
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java& &("
+%4java.lang.String"%ij.ImageJ#getInfo()Ljava/lang/String;*
+
+%3	ij.ImageJ2	getInfo()•
+¢
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java& &(*
+%5java.lang.String"__concat*
+
+%4java.lang.String*	
+\n \n≥
+∞
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java& &(*
+%6java.lang.String"__concat*
+
+sjava.lang.String*
+
+%5java.lang.Stringï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java& &(*
+sjava.lang.String"__id*
+
+%6java.lang.String*
+5*Ÿ
+7Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java$ $(àÖ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java$ $(
+%0java.lang.String"java.lang.String∞
+≠
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java$ $(
+%1",java.lang.String#<init>(Ljava/lang/String;)V*
+
+%0java.lang.String* ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java$ $(
+sjava.lang.String"__id*
+
+%0java.lang.Stringö
+ó
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java% %(
+%2	ij.ImageJ"ij.IJ#getInstance()Lij/ImageJ;*	"
+ij.IJ*
+5
+6*w
+0 "p
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java: :(
+implicit return*Ì
+1Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java9 9(çä
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java9 9(
+%39ij.text.TextWindow"ij.text.TextWindow˜
+Ù
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/ImageInfo.java9 9(%
+%40"Bij.text.TextWindow#<init>(Ljava/lang/String;Ljava/lang/String;II)V*
+
+%39ij.text.TextWindow*
+Info*
+
+sjava.lang.String*2ÿ*2¨*
+0B
+ij.plugin.ImageInfo

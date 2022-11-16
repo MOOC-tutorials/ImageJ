@@ -1,0 +1,12 @@
+ij.macro.Functions#doImage()Lij/macro/Variable;
+ij.macro.Variable#instance-init#
+ij.macro.Variable#<init>(D)V
+ij.macro.Interpreter#getToken()V
+ij.macro.Variable#<init>(Ljava/lang/String;)V
+ij.macro.Interpreter#getRightParen()V
+ij.macro.Interpreter#nextToken()I
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.macro.Functions#getFirstArg()D
+ij.macro.Functions#getNextArg()D
+ij.macro.Functions#getNextString()Ljava/lang/String;
+ij.macro.Interpreter#getParens()V

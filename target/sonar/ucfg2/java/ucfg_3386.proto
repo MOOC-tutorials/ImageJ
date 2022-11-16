@@ -1,0 +1,546 @@
+
+ij.macro.Functions#toScaled()VZ
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java°; °;("29*‰
+24Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼;; ¼;(?©
+¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼;O ¼;(S
+%21ij.macro.Variable"
+__arrayGet*
+
+xij.macro.Variable[]*
+""µ²
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼;O ¼;(^
+%22double"ij.macro.Variable#getValue()D*
+
+%21ij.macro.Variable2
+getValue()´±
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼;; ¼;(d
+%18double"ij.gui.Plot#descaleX(I)D*
+
+plotij.gui.Plot*
+""2descaleX(I)…
+‚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼;; ¼;(d
+%16double"__id*
+
+%18double*
+23*Ÿ
+25Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼; ¼;("©
+¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼;( ¼;(,
+%19ij.macro.Variable"
+__arrayGet*
+
+xij.macro.Variable[]*
+""µ²
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼;( ¼;(7
+%20double"ij.macro.Variable#getValue()D*
+
+%19ij.macro.Variable2
+getValue()ÊÇ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼; ¼;(8
+%17double"ij.measure.Calibration#getX(D)D*
+
+calij.measure.Calibration*
+
+%20double2getX(D)…
+‚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼; ¼;(8
+%16double"__id*
+
+%17double*
+23*–
+26Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼; ¼;(©
+¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼; ¼;(
+%15ij.macro.Variable"
+__arrayGet*
+
+xij.macro.Variable[]*
+""*
+24
+25*©
+28Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java·; ·;(ÑÎ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java·; ·;(
+%9ij.macro.Variable[]"1ij.macro.Functions#getArray()[Lij/macro/Variable;*
+ij.macro.Functions2
+getArray()œ
+™
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java·; ·;(
+xij.macro.Variable[]"__id*
+
+%9ij.macro.Variable[]¦
+£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¸; ¸;(	
+%10ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp¹¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¸; ¸;(
+%11void" ij.macro.Interpreter#getComma()V*
+
+%10ij.macro.Interpreter2
+getComma()ÒÏ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¹; ¹;(
+%12ij.macro.Variable[]"1ij.macro.Functions#getArray()[Lij/macro/Variable;*
+ij.macro.Functions2
+getArray()
+š
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¹; ¹;(
+yij.macro.Variable[]"__id*
+
+%12ij.macro.Variable[]¦
+£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaº; º;(	
+%13ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpÃÀ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaº; º;(
+%14void"%ij.macro.Interpreter#getRightParen()V*
+
+%13ij.macro.Interpreter2getRightParen()*
+26
+19
+0*‹
+29Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java±; ±;(ÄÁ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java±; ±;(
+%0ij.ImagePlus"+ij.macro.Functions#getImage()Lij/ImagePlus;*
+ij.macro.Functions2
+getImage()
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java±; ±;(
+impij.ImagePlus"__id*
+
+%0ij.ImagePlusÄÁ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java²; ²;(
+%1ij.ImagePlus"+ij.macro.Functions#getImage()Lij/ImagePlus;*
+ij.macro.Functions2
+getImage()…
+‚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java²;, ²;(=
+%2java.lang.String"__id*
+""ˆ…
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java²; ²;(>
+%3java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+%1ij.ImagePlus*
+
+%2java.lang.String2getProperty(Ljava/lang/String;)”
+‘
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java²; ²;(@
+plotij.gui.Plot"__id*
+
+%3java.lang.Object©¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java³; ³;(	
+%4int"ij.ImagePlus#getHeight()I*
+
+impij.ImagePlus2getHeight()ÝÚ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java´; ´;((
+%5ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()¤
+¡
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java´; ´;()
+calij.measure.Calibration"__id*
+
+%5ij.measure.Calibration¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaµ; µ;(
+%6ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp¿¼
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaµ; µ;(
+
+%7void"$ij.macro.Interpreter#getLeftParen()V*
+
+%6ij.macro.Interpreter2getLeftParen()¶³
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¶; ¶;(
+%8boolean" ij.macro.Functions#isArrayArg()Z*
+ij.macro.Functions2isArrayArg()*
+14
+28*Ž
+10Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÍ; Í;(	¦
+£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÍ; Í;(	
+%44ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpÃÀ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÍ; Í;(
+%45void"%ij.macro.Interpreter#getRightParen()V*
+
+%44ij.macro.Interpreter2getRightParen()´±
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÎ; Î;(
+%46double"ij.macro.Variable#getValue()D*
+
+xvij.macro.Variable2
+getValue()*
+9
+1*À
+11Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÊ; Ê;(
+¦
+£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÊ; Ê;(
+
+%41ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp¹¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÊ; Ê;(
+%42void" ij.macro.Interpreter#getComma()V*
+
+%41ij.macro.Interpreter2
+getComma()ÕÒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaË;	 Ë;(
+%43ij.macro.Variable"3ij.macro.Functions#getVariable()Lij/macro/Variable;*
+ij.macro.Functions2getVariable()š
+—
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaË; Ë;(
+zvij.macro.Variable"__id*
+
+%43ij.macro.Variable*
+10*Ð
+12Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÈ; È;(¦
+£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÈ; È;(
+%39ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpº·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÈ; È;()
+
+%40int"!ij.macro.Interpreter#nextToken()I*
+
+%39ij.macro.Interpreter2nextToken()*
+10
+11*À
+13Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÅ; Å;(
+¦
+£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÅ; Å;(
+
+%36ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp¹¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÅ; Å;(
+%37void" ij.macro.Interpreter#getComma()V*
+
+%36ij.macro.Interpreter2
+getComma()ÕÒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ;	 Æ;(
+%38ij.macro.Variable"3ij.macro.Functions#getVariable()Lij/macro/Variable;*
+ij.macro.Functions2getVariable()š
+—
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÆ; Æ;(
+yvij.macro.Variable"__id*
+
+%38ij.macro.Variable*
+12*×
+14Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÀ; À;(ÕÒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÀ; À;(
+%33ij.macro.Variable"3ij.macro.Functions#getVariable()Lij/macro/Variable;*
+ij.macro.Functions2getVariable()š
+—
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÀ; À;(
+xvij.macro.Variable"__id*
+
+%33ij.macro.Variable†
+ƒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÁ; Á;(
+yvij.macro.Variable"__id*
+""†
+ƒ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÂ; Â;(
+zvij.macro.Variable"__id*
+""¦
+£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÃ; Ã;(
+%34ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpº·
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÃ; Ã;('
+
+%35int"!ij.macro.Interpreter#nextToken()I*
+
+%34ij.macro.Interpreter2nextToken()*
+13
+12*²
+16Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾; ¾;(lÆÃ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾; ¾;(l
+%32void"ij.macro.Variable#setValue(D)V*
+
+%24ij.macro.Variable*
+
+%25double2setValue(D)*
+19
+0*‰
+17Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾;B ¾;(F©
+¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾;V ¾;(Z
+%30ij.macro.Variable"
+__arrayGet*
+
+yij.macro.Variable[]*
+""µ²
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾;V ¾;(e
+%31double"ij.macro.Variable#getValue()D*
+
+%30ij.macro.Variable2
+getValue()´±
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾;B ¾;(k
+%27double"ij.gui.Plot#descaleY(I)D*
+
+plotij.gui.Plot*
+""2descaleY(I)…
+‚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾;B ¾;(k
+%25double"__id*
+
+%27double*
+16*©
+18Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾; ¾;("©
+¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾;( ¾;(,
+%28ij.macro.Variable"
+__arrayGet*
+
+yij.macro.Variable[]*
+""µ²
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾;( ¾;(7
+%29double"ij.macro.Variable#getValue()D*
+
+%28ij.macro.Variable2
+getValue()ÔÑ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾; ¾;(?
+%26double" ij.measure.Calibration#getY(DI)D*
+
+calij.measure.Calibration*
+
+%29double*
+""2getY(DI)…
+‚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾; ¾;(?
+%25double"__id*
+
+%26double*
+16*–
+19Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾; ¾;(©
+¦
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¾; ¾;(
+%24ij.macro.Variable"
+__arrayGet*
+
+yij.macro.Variable[]*
+""*
+17
+18*x
+0 "q
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaØ; Ø;(
+implicit return*£
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÖ; Ö;(¼¹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÖ; Ö;(#
+%59void"ij.macro.Variable#setValue(D)V*
+
+xvij.macro.Variable*
+""2setValue(D)*
+0*°
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÔ; Ô;(´±
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÔ; Ô;('
+%56double"ij.macro.Variable#getValue()D*
+
+zvij.macro.Variable2
+getValue()ÊÇ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÔ; Ô;((
+%57double"ij.measure.Calibration#getZ(D)D*
+
+calij.measure.Calibration*
+
+%56double2getZ(D)ÅÂ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÔ; Ô;()
+%58void"ij.macro.Variable#setValue(D)V*
+
+zvij.macro.Variable*
+
+%57double2setValue(D)*
+0*¯
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÒ; Ò;(PÅÂ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÒ; Ò;(P
+%55void"ij.macro.Variable#setValue(D)V*
+
+yvij.macro.Variable*
+
+%52double2setValue(D)*
+2
+0*£
+4Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÒ;4 Ò;(8´±
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÒ;4 Ò;(O
+%54double"ij.gui.Plot#descaleY(I)D*
+
+plotij.gui.Plot*
+""2descaleY(I)…
+‚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÒ;4 Ò;(O
+%52double"__id*
+
+%54double*
+3*º
+5Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÒ; Ò;("ËÈ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÒ; Ò;(1
+%53double" ij.measure.Calibration#getY(DI)D*
+
+calij.measure.Calibration*
+""*
+""2getY(DI)…
+‚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÒ; Ò;(1
+%52double"__id*
+
+%53double*
+3*¯
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÑ; Ñ;(IÅÂ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÑ; Ñ;(I
+%51void"ij.macro.Variable#setValue(D)V*
+
+xvij.macro.Variable*
+
+%48double2setValue(D)*
+4
+5*£
+7Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÑ;- Ñ;(1´±
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÑ;- Ñ;(H
+%50double"ij.gui.Plot#descaleX(I)D*
+
+plotij.gui.Plot*
+""2descaleX(I)…
+‚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÑ;- Ñ;(H
+%48double"__id*
+
+%50double*
+6*°
+8Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÑ; Ñ;("Á¾
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÑ; Ñ;(*
+%49double"ij.measure.Calibration#getX(D)D*
+
+calij.measure.Calibration*
+""2getX(D)…
+‚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÑ; Ñ;(*
+%48double"__id*
+
+%49double*
+6*ž
+9Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÐ; Ð;(´±
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÐ; Ð;(
+%47double"ij.macro.Variable#getValue()D*
+
+yvij.macro.Variable2
+getValue()*
+7
+8*¶
+23Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼; ¼;(eÆÃ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¼; ¼;(e
+%23void"ij.macro.Variable#setValue(D)V*
+
+%15ij.macro.Variable*
+
+%16double2setValue(D)*
+26
+19
+0B
+ij.macro.Functions

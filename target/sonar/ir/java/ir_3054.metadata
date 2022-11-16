@@ -1,0 +1,17 @@
+ij.macro.Functions#doPlot()D
+ij.macro.Interpreter#getLeftParen()V
+ij.macro.Interpreter#getExpression()D
+ij.macro.Functions#getLastArg()D
+ij.macro.Functions#getNextArg()D
+ij.macro.Functions#getFirstString()Ljava/lang/String;
+ij.macro.Interpreter#getParens()V
+ij.macro.Interpreter#getToken()V
+ij.macro.Functions#getLastString()Ljava/lang/String;
+ij.macro.Interpreter#getComma()V
+ij.macro.Interpreter#getRightParen()V
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.macro.Functions#getFirstArg()D
+ij.macro.Functions#getArg()D
+ij.macro.Interpreter#putTokenBack()V
+ij.macro.Interpreter#nextNextToken()I
+java.lang.String#startsWith(Ljava/lang/String;)Z

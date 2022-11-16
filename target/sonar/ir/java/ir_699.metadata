@@ -1,0 +1,13 @@
+ij.io.OpenDialog#open(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ij.IJ#isWindows()Z
+java.awt.FileDialog#instance-init#
+java.lang.System#setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.awt.Frame#instance-init#
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+ij.IJ#getInstance()Lij/ImageJ;
+java.awt.Frame#<init>()V
+java.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ij.Macro#abort()V
+ij.IJ#isMacOSX()Z
+java.awt.FileDialog#<init>(Ljava/awt/Frame;Ljava/lang/String;)V
+ij.IJ#isJava18()Z

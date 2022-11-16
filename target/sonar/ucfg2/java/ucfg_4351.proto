@@ -1,0 +1,75 @@
+
+7ij.gui.PlotWindow#getValuesAsString()Ljava/lang/String;Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.java® ®(!"5*É
+3Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.java¨ ¨(ÔÏ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.java¨ ¨(!
+%4java.lang.String";ij.measure.ResultsTable#getRowAsString(I)Ljava/lang/String;*
+
+rtij.measure.ResultsTable*
+""2getRowAsString(I)ùö
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.java¨ ¨("
+%5java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+sbjava.lang.StringBuffer*
+
+%4java.lang.String2append(Ljava/lang/String;)ãà
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.java≠ ≠(
+%6java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+sbjava.lang.StringBuffer*
+\n2append(Ljava/lang/String;)*
+4*ú
+4Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.java´ ´(≥∞
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.java´ ´(	
+%3int"ij.measure.ResultsTable#size()I*
+
+rtij.measure.ResultsTable2size()*
+3
+1*◊
+5Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.java© ©(#Â‚
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.java© ©(%
+%0ij.measure.ResultsTable"<ij.gui.PlotWindow#getResultsTable()Lij/measure/ResultsTable;*
+ij.gui.PlotWindow2getResultsTable()§
+°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.java© ©(&
+rtij.measure.ResultsTable"__id*
+
+%0ij.measure.ResultsTableîë
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.java™ ™($
+%1java.lang.StringBuffer"java.lang.StringBuffer¶
+£
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.java™ ™(&
+%2" java.lang.StringBuffer#<init>()V*
+
+%1java.lang.StringBuffer¢
+ü
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.java™ ™('
+sbjava.lang.StringBuffer"__id*
+
+%1java.lang.StringBuffer*
+4*Ø
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaØ	 Ø(◊‘
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaØ	 Ø(
+%7java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*
+
+sbjava.lang.StringBuffer2
+toString()"u
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaØ Ø(
+
+%7java.lang.StringB
+ij.gui.PlotWindow

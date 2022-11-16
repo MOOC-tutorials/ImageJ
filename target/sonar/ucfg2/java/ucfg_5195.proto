@@ -1,0 +1,89 @@
+
+Nij.plugin.JpegWriter#save(Lij/ImagePlus;Ljava/lang/String;I)Ljava/lang/String;Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java" "("4"5"7*≈
+2Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java(
+ (("d
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java( ((
+""*Ç
+4Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java&
+ &(¸
+˘
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java&
+ &()
+%2java.lang.String"Lij.io.SaveDialog#getPath(Lij/ImagePlus;Ljava/lang/String;)Ljava/lang/String;*"
+ij.io.SaveDialog*
+
+impij.ImagePlus*
+.jpgô
+ñ
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java& &()
+pathjava.lang.String"__id*
+
+%2java.lang.String*
+2
+1*ô
+5Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java% %(¨©
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java% %(!	
+%1int"java.lang.String#length()I*
+
+pathjava.lang.String2length()*	
+2
+4
+1*õ
+7Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java$	 $(û
+õ
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java$	 $(
+%0ij.ImagePlus"ij.IJ#getImage()Lij/ImagePlus;*	"
+ij.IJê
+ç
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java$ $(
+impij.ImagePlus"__id*
+
+%0ij.ImagePlus*
+4
+5*â
+1Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java) )("ëé
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java) )( 
+%3ij.plugin.JpegWriter"ij.plugin.JpegWriter£
+†
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java) )("
+%4"ij.plugin.JpegWriter#<init>()V*
+
+%3ij.plugin.JpegWriter’“
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java) )(B
+%5java.lang.String"Tij.plugin.JpegWriter#saveAsJpeg(Lij/ImagePlus;Ljava/lang/String;I)Ljava/lang/String;*
+
+%3ij.plugin.JpegWriter*
+
+impij.ImagePlus*
+
+pathjava.lang.String*
+""2-saveAsJpeg(Lij/ImagePlus;Ljava/lang/String;I)ö
+ó
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java) )(C
+errorjava.lang.String"__id*
+
+%5java.lang.String"y
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/JpegWriter.java* *(
+
+errorjava.lang.String:
+impij.ImagePlus:
+pathjava.lang.String:
+""B"
+ij.plugin.JpegWriter

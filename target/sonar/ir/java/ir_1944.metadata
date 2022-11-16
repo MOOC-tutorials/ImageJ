@@ -1,0 +1,16 @@
+ij.IJ#getDirectory(Ljava/lang/String;)Ljava/lang/String;
+ij.Prefs#getPrefsDir()Ljava/lang/String;
+ij.io.DirectoryChooser#instance-init#
+ij.io.OpenDialog#getDefaultDirectory()Ljava/lang/String;
+ij.io.OpenDialog#getLastDirectory()Ljava/lang/String;
+ij.IJ#addSeparator(Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.Menus#getMacrosPath()Ljava/lang/String;
+java.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;
+ij.Menus#getPlugInsPath()Ljava/lang/String;
+ij.Prefs#getImageJDir()Ljava/lang/String;
+ij.IJ#isMacintosh()Z
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.Macro#abort()V
+ij.io.DirectoryChooser#<init>(Ljava/lang/String;)V

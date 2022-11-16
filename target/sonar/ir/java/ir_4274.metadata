@@ -1,0 +1,6 @@
+ij.io.FileSaver#appendEscapedLine(Ljava/lang/StringBuffer;Ljava/lang/String;)V
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+java.lang.String#length()I
+java.lang.String#charAt(I)C
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+ij.util.Tools#int2hex(II)Ljava/lang/String;

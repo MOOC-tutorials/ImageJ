@@ -1,0 +1,559 @@
+
+9ij.ImagePlus#setStack(Ljava/lang/String;Lij/ImageStack;)VT
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¨ ¨("70*˘
+46T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java√ √(gí
+è
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaƒ	 ƒ(
+%19ij.ImageStack"__id**
+ij.ImagePlus"
+stack*
+44
+45*ï
+68T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≤ ≤(Æ´
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≤ ≤(
+%5boolean"ij.ImageStack#isVirtual()Z*
+
+newStackij.ImageStack2isVirtual()*
+63
+67*¶
+24T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÿ ÿ(ª∏
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÿ ÿ(
+%35boolean"%ij.ImagePlus#isDisplayedHyperStack()Z*
+ij.ImagePlus2isDisplayedHyperStack()*
+20
+21
+23*†
+47T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java√O √(UΩ∫
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java√W √(e
+
+%18int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()*
+46*Î
+69T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java±& ±(6ß§
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java± ±(%(
+%3"java.lang.IllegalArgumentException""java.lang.IllegalArgumentExceptionﬂ
+‹
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java±	 ±(7
+%4">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V**
+(
+%3"java.lang.IllegalArgumentException*
+Stack is empty*
+0*Ç
+25T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java◊ ◊(ï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java◊ ◊(
+%34ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win*
+24
+14
+8
+9*¢
+48T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java√9 √(>ª∏
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java√@ √(M
+
+%17int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()*
+46
+47* 
+27V
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java÷å ÷(èó
+î
+V
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java÷å ÷(è
+%32ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win¡æ
+U
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java÷~ ÷(¢
+%33boolean"%ij.gui.StackWindow#validDimensions()Z*
+
+%32ij.gui.ImageWindow2validDimensions()*
+25
+14
+8
+9*Ü
+29T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java÷^ ÷(aï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java÷^ ÷(a
+%31ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win*
+25
+14
+27
+8
+9*Ÿ
+70T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≠ ≠(¢ü
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≠ ≠(	
+%0int"ij.ImagePlus#getBitDepth()I*
+ij.ImagePlus2getBitDepth()§°
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÆ Æ((	
+%1int"ij.ImagePlus#getStackSize()I*
+ij.ImagePlus2getStackSize()¶£
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaØ Ø('	
+%2int"ij.ImageStack#getSize()I*
+
+newStackij.ImageStack2	getSize()*
+68
+69*˘
+51T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¬ ¬(!ÎË
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¬ ¬(< 
+%16ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+newStackij.ImageStack*
+""2getProcessor(I)§
+°
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¬ ¬(=
+ipij.process.ImageProcessor"__id*"
+ 
+%16ij.process.ImageProcessor*
+46
+48*ô
+52T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¡ ¡(+∂≥
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¡ ¡(9
+%15void" ij.ImagePlus#setCurrentSlice(I)V*
+ij.ImagePlus*
+""2setCurrentSlice(I)*
+51*õ
+54T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaø ø((¥±
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaø ø(+
+%14void" ij.ImagePlus#setCurrentSlice(I)V*
+ij.ImagePlus*22setCurrentSlice(I)*
+51
+52*∞
+32T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java÷ ÷(4ª∏
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java÷ ÷(6
+%30boolean"%ij.ImagePlus#isDisplayedHyperStack()Z*
+ij.ImagePlus2isDisplayedHyperStack()*
+25
+14
+27
+29
+8
+9*∫
+33T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java‘ ‘(
+"^
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java‘ ‘(
+
+""*ã
+34T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java” ”("®•
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java” ”(0
+%29void"ij.ImagePlus#setSlice(I)V*
+ij.ImagePlus*
+""2setSlice(I)*
+33*Ç
+12T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java· ·(àÖ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java· ·(
+%47ij.gui.StackWindow"ij.gui.StackWindowª
+∏
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java·	 ·(
+%48"*ij.gui.StackWindow#<init>(Lij/ImagePlus;)V*
+
+%47ij.gui.StackWindow*
+ij.ImagePlusï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java· ·(
+ij.ImagePlus"
+win"__id*
+
+%47ij.gui.StackWindowºπ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java‚ ‚(
+%49void"ij.ImagePlus#setPosition(III)V*
+ij.ImagePlus*2*2*22setPosition(III)*
+0
+1*ü
+13T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java‡ ‡(ºπ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java‡ ‡(
+%46void"$ij.ImagePlus#setOpenAsHyperStack(Z)V*
+ij.ImagePlus*22setOpenAsHyperStack(Z)*
+12*Ä
+36T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java— —(ï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java“ “(	
+%28ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win*
+32
+33
+34*¢
+14T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaﬂ ﬂ(ª∏
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaﬂ ﬂ(
+%45boolean"%ij.ImagePlus#isDisplayedHyperStack()Z*
+ij.ImagePlus2isDisplayedHyperStack()*
+13
+12*ö
+37T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaœ œ(∑¥
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaœ œ(/
+%27void"'ij.CompositeImage#resetDisplayRanges()V*
+ij.ImagePlus2resetDisplayRanges()*
+36*ä
+38T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaŒ Œ( £†
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaŒ" Œ(/
+
+%26int"ij.ImagePlus#getBitDepth()I*
+ij.ImagePlus2getBitDepth()*
+36
+37*‡
+39T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÃ Ã(%•¢
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÃ Ã('
+
+%23int"ij.ImagePlus#getStackSize()I*
+ij.ImagePlus2getStackSize()°û
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÃ) Ã(5
+
+%24int"ij.ImagePlus#getNSlices()I*
+ij.ImagePlus2getNSlices()≠™
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÕ Õ()
+%25void""ij.CompositeImage#completeReset()V*
+ij.ImagePlus2completeReset()*
+36
+38*°
+17T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java› ›(ºπ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java› ›(
+%44void"ij.ImagePlus#setPosition(III)V*
+ij.ImagePlus*2*2*22setPosition(III)*
+0
+1*ì
+18T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java‹ ‹(&∞≠
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java‹ ‹((
+%43void"!ij.ImagePlus#waitTillActivated()V*
+ij.ImagePlus2waitTillActivated()*
+17*ˇ
+19T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java€	 €(BàÖ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java€ €(
+%40ij.gui.StackWindow"ij.gui.StackWindowÏ
+È
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java€	 €(B
+%41">ij.gui.StackWindow#<init>(Lij/ImagePlus;Lij/gui/ImageCanvas;)V*
+
+%40ij.gui.StackWindow*
+ij.ImagePlus*
+
+%37ij.gui.ImageCanvasï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java€ €(B
+ij.ImagePlus"
+win"__id*
+
+%40ij.gui.StackWindowÜ
+É
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java‹ ‹(
+%42boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+17
+18*r
+0 "k
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java (
+implicit return*â
+1T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÔ Ô(®•
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÔ Ô(
+%60void"ij.ImagePlus#setSlice(I)V*
+ij.ImagePlus*
+""2setSlice(I)*
+0*å
+3T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÏ Ï(®•
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÏ Ï(
+%59void"ij.ImagePlus#repaintWindow()V*
+ij.ImagePlus2repaintWindow()*
+0
+1*©
+4T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÈ È(ùö
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÈ È("
+%57void"ij.CompositeImage#reset()V*
+ij.ImagePlus2reset()®•
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÍ Í(
+%58void"ij.ImagePlus#updateAndDraw()V*
+ij.ImagePlus2updateAndDraw()*
+3*ã
+5T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaË Ë(ß§
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaË Ë(
+%56boolean"ij.ImagePlus#isComposite()Z*
+ij.ImagePlus2isComposite()*
+3
+4*æ
+6T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÁ Á(ï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÁ Á(
+%54ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win≈¬
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÁ Á(,
+%55void")ij.gui.StackWindow#updateSliceSelector()V*
+
+%54ij.gui.ImageWindow2updateSliceSelector()*
+5*˘
+7T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÊ Ê(ï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÊ Ê(
+%53ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win*
+5
+6*˘
+8T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÊ Ê(
+ï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaÊ Ê(
+
+%52ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win*
+5
+7*ﬂ
+9T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java‰ ‰(ï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java‰ ‰(
+%50ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win„‡
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java‰ ‰(
+%51void"/ij.gui.ImageWindow#updateImage(Lij/ImagePlus;)V*
+
+%50ij.gui.ImageWindow*
+ij.ImagePlus2updateImage(Lij/ImagePlus;)*
+0
+1*Ω
+61T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaπ& π()ï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaπ& π()
+%12ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win∫∑
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaπ π(;
+
+%13int"$ij.gui.StackWindow#getNScrollbars()I*
+
+%12ij.gui.ImageWindow2getNScrollbars()*
+51
+52
+54*Ñ
+62T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∏ ∏(ï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∏ ∏(
+%11ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win*
+61
+51
+52
+54*Ñ
+63T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∑ ∑(!ï
+í
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∏	 ∏(
+%10ij.gui.ImageWindow"__id**
+ij.ImagePlus"
+win*
+62
+51
+52
+54*Û
+64T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaµ' µ(?ß§
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaµ µ(&(
+%8"java.lang.IllegalArgumentException""java.lang.IllegalArgumentExceptionÁ
+‰
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaµ
+ µ(@
+%9">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V**
+(
+%8"java.lang.IllegalArgumentException*
+Stack pixel array null*
+0*æ
+20T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java€6 €(?¡æ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java€6 €(A
+%39ij.gui.ImageCanvas",ij.ImagePlus#getCanvas()Lij/gui/ImageCanvas;*
+ij.ImagePlus2getCanvas()ó
+î
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java€6 €(A
+%37ij.gui.ImageCanvas"__id*
+
+%39ij.gui.ImageCanvas*
+19*ä
+43T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java… …(£†
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java…! …(.
+
+%22int"ij.ImagePlus#getBitDepth()I*
+ij.ImagePlus2getBitDepth()*
+36
+39*à
+65T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¥) ¥(/°
+û
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¥) ¥(2
+%7java.lang.Object"
+__arrayGet*
+
+arraysjava.lang.Object[]*2 *
+63
+64*Ú
+21T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java€1 €(5è
+å
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java€1 €(5
+%37ij.gui.ImageCanvas"__id*
+
+%38
+<nulltype>*
+19*Ç
+44T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∆ ∆(ó
+î
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∆ ∆(
+ij.ImagePlus"
+stack"__id*
+
+newStackij.ImageStack˝˙
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java» »('
+%21void"Yij.ImagePlus#setProcessor2(Ljava/lang/String;Lij/process/ImageProcessor;Lij/ImageStack;)V*
+ij.ImagePlus*
+
+titlejava.lang.String*!
+
+ipij.process.ImageProcessor*
+
+newStackij.ImageStack2KsetProcessor2(Ljava/lang/String;Lij/process/ImageProcessor;Lij/ImageStack;)*
+36
+39
+43*î
+45T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≈	 ≈(±Æ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≈	 ≈(
+
+%20int"ij.ImageStack#viewers(I)I*
+
+newStackij.ImageStack*
+""2
+viewers(I)*
+44*⁄
+67T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≥ ≥(”–
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≥ ≥(-
+%6java.lang.Object[]"0ij.ImageStack#getImageArray()[Ljava/lang/Object;*
+
+newStackij.ImageStack2getImageArray()ô
+ñ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≥ ≥(.
+arraysjava.lang.Object[]"__id*
+
+%6java.lang.Object[]*
+63
+64
+65*£
+23T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaŸ Ÿ(ºπ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaŸ Ÿ(
+%36void"$ij.ImagePlus#setOpenAsHyperStack(Z)V*
+ij.ImagePlus*22setOpenAsHyperStack(Z)*
+20
+21:
+titlejava.lang.String:
+newStackij.ImageStackB
+ij.ImagePlus

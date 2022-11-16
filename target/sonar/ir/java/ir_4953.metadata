@@ -1,0 +1,11 @@
+ij.io.Opener#createInputStream(Lij/io/FileInfo;)Ljava/io/InputStream;
+java.io.FileInputStream#<init>(Ljava/io/File;)V
+java.io.File#<init>(Ljava/lang/String;)V
+java.net.URL#<init>(Ljava/lang/String;)V
+ij.io.RandomAccessStream#<init>(Ljava/io/InputStream;)V
+java.net.URL#openStream()Ljava/io/InputStream;
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.io.RandomAccessStream#instance-init#
+java.io.File#instance-init#
+java.net.URL#instance-init#
+java.io.FileInputStream#instance-init#

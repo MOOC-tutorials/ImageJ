@@ -1,0 +1,14 @@
+ij.plugin.PNG_Writer#writeImageWithTransparency(Lij/ImagePlus;Ljava/lang/String;I)V
+java.awt.image.IndexColorModel#getReds([B)V
+java.awt.image.BufferedImage#instance-init#
+javax.imageio.ImageIO#write(Ljava/awt/image/RenderedImage;Ljava/lang/String;Ljava/io/File;)Z
+java.awt.image.BufferedImage#<init>(Ljava/awt/image/ColorModel;Ljava/awt/image/WritableRaster;ZLjava/util/Hashtable;)V
+java.awt.image.IndexColorModel#<init>(II[B[B[BI)V
+java.io.File#instance-init#
+java.awt.image.IndexColorModel#instance-init#
+java.io.File#<init>(Ljava/lang/String;)V
+java.awt.image.IndexColorModel#getMapSize()I
+java.awt.image.IndexColorModel#getBlues([B)V
+java.awt.image.DataBufferByte#getData()[B
+java.awt.image.IndexColorModel#getGreens([B)V
+java.lang.System#arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V

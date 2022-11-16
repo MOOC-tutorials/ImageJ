@@ -1,0 +1,179 @@
+
+Hij.plugin.filter.Analyzer#getRedirectImage(Lij/ImagePlus;)Lij/ImagePlus;a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÕ Õ()"8*Ë
+
+2a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaá á(·
+´
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaá- á(:
+%12java.lang.String"__id*0*.
+ij.plugin.filter.Analyzer"
+redirectTitle¼
+¹
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaá á(:
+%13java.lang.String"__concat*
+Redirect image (\"*
+
+%12java.lang.String°
+­
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaá á(C
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+
+\") \nÔ
+Ñ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaá â(2
+%15java.lang.String"__concat*
+
+%14java.lang.String*.,
+*is not the same size as the current image.Û
+Ø
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaá â(3
+%16void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+
+Analyzer*
+
+%15java.lang.String”
+‘
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaã ã(
+%17void"ij.Macro#abort()V*"
+
+ij.Macro"k
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaä ä(
+""*Ø
+3a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaà* à(.²¯
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaà* à(:
+
+%10int"ij.ImagePlus#getHeight()I*
+
+rimpij.ImagePlus2getHeight()²¯
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaà< à(L
+
+%11int"ij.ImagePlus#getHeight()I*
+
+cimpij.ImagePlus2getHeight()*
+2
+1*Ò
+4a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaà à(
+¯¬
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaà à(	
+%8int"ij.ImagePlus#getWidth()I*
+
+rimpij.ImagePlus2
+getWidth()¯¬
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaà à(&	
+%9int"ij.ImagePlus#getWidth()I*
+
+cimpij.ImagePlus2
+getWidth()*
+2
+3* 
+
+5a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÚ Ú(¶
+³
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÚ- Ú(:
+%2java.lang.String"__id*0*.
+ij.plugin.filter.Analyzer"
+redirectTitleº
+·
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÚ Ú(:
+%3java.lang.String"__concat*
+Redirect image (\"*
+
+%2java.lang.String­
+ª
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÚ Ú(B
+%4java.lang.String"__concat*
+
+%3java.lang.String*	
+\")\n²
+¯
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÚ Û(
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+
+not found.Ù
+Ö
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÚ Û(
+
+%6void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+
+Analyzer*
+
+%5java.lang.String“
+
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÝ Ý(
+
+%7void"ij.Macro#abort()V*"
+
+ij.Macro"k
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÞ Þ(
+""*¾
+7a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaØ
+ Ø(²
+¯
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaØ
+ Ø(
+%1ij.ImagePlus"__id*0*.
+ij.plugin.filter.Analyzer"
+redirectImage˜
+•
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaØ Ø(
+rimpij.ImagePlus"__id*
+
+%1ij.ImagePlus*
+4
+5*Ó
+8a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÖ Ö( Ä
+Á
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÖ Ö(9
+%0ij.ImagePlus"*ij.WindowManager#getImage(I)Lij/ImagePlus;*"
+ij.WindowManager*
+""˜
+•
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaÖ Ö(:
+rimpij.ImagePlus"__id*
+
+%0ij.ImagePlus*	
+4
+5
+7*ã
+1a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaæ	 æ("{
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Analyzer.javaæ æ(
+
+rimpij.ImagePlus:
+cimpij.ImagePlusB"
+ij.plugin.filter.Analyzer

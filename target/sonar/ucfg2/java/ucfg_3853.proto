@@ -1,0 +1,110 @@
+
+?ij.WindowManager#getWindow(Ljava/lang/String;)Ljava/awt/Window;X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaä ä(""8*‘
+3X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaè è("u
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaè è(
+
+winjava.lang.Object*˘
+4X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaç ç([õ
+ò
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaç ç([
+winTitlejava.lang.String"__id*
+
+%4java.lang.StringÛ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaé é(
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+titlejava.lang.String*
+
+winTitlejava.lang.String2equals(Ljava/lang/Object;)*
+3
+8*«
+5X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaçK ç(N «
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaçB ç(Z
+%6java.lang.String",java.awt.Dialog#getTitle()Ljava/lang/String;*
+
+winjava.lang.Object2
+getTitle()ï
+í
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaçB ç(Z
+%4java.lang.String"__id*
+
+%6java.lang.String*
+4*∆
+6X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaç2 ç(5…∆
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaç* ç(A
+%5java.lang.String"+java.awt.Frame#getTitle()Ljava/lang/String;*
+
+winjava.lang.Object2
+getTitle()ï
+í
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaç* ç(A
+%4java.lang.String"__id*
+
+%5java.lang.String*
+4* 
+7X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaå å(£
+†
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaå å(
+%2java.util.Vector"__id*&*$
+ij.WindowManager"
+nonImageList£
+†
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaå å(#
+%3java.lang.Object"
+__arrayGet*
+
+%2java.util.Vector*
+""ñ
+ì
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaå å($
+winjava.lang.Object"__id*
+
+%3java.lang.Object*
+5
+6*≤
+8X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaã ã(£
+†
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaã ã(
+%0java.util.Vector"__id*&*$
+ij.WindowManager"
+nonImageList§°
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaã ã(%	
+%1int"java.util.Vector#size()I*
+
+%0java.util.Vector2size()*
+7
+1*ø
+1X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaë	 ë(Î
+Ë
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaë	 ë(
+%8java.awt.Frame"Cij.WindowManager#getImageWindow(Ljava/lang/String;)Ljava/awt/Frame;*"
+ij.WindowManager*
+
+titlejava.lang.String"r
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/WindowManager.javaë ë(
+
+%8java.awt.Frame:
+titlejava.lang.StringB"
+ij.WindowManager

@@ -1,0 +1,12 @@
+ij.IJ#log(Ljava/lang/String;)V
+java.lang.String#length()I
+ij.text.TextWindow#<init>(Ljava/lang/String;Ljava/lang/String;II)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.awt.Font#<init>(Ljava/lang/String;II)V
+java.lang.String#endsWith(Ljava/lang/String;)Z
+java.awt.Font#instance-init#
+java.lang.String#substring(II)Ljava/lang/String;
+ij.text.TextWindow#instance-init#
+ij.IJ#handleLogCommand(Ljava/lang/String;)V
+java.lang.String#startsWith(Ljava/lang/String;)Z
+ij.io.LogStream#redirectSystem(Z)V

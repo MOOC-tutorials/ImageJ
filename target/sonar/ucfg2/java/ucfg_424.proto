@@ -1,0 +1,143 @@
+
+Kij.plugin.filter.ImageMath#setBackgroundToNaN(Lij/process/ImageProcessor;)Vb
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java∫ ∫("18"10"11*∑
+13b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaø ø(;¢
+ü
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaø ø(;
+titlejava.lang.String"__id*
+
+%4java.lang.String’
+“
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java¿ ¿(N
+%10java.lang.String"__concat*,*
+(Thresholded 32-bit float image required:*
+
+titlejava.lang.String·
+ﬁ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java¿ ¿(O
+%11void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+NaN Backround*
+
+%10java.lang.String"l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java¬ ¬(
+""*ê
+14b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaø8 ø(:ü
+ú
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaø8 ø(:
+%4java.lang.String"__id*
+
+%6java.lang.String*
+13*Í
+15b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaø ø(#™
+ß
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaø$ ø('
+%7ij.ImagePlus"__id*'*%
+ij.plugin.filter.ImageMath"
+impÃ…
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaø$ ø(2
+%8java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+%7ij.ImagePlus2
+getTitle()≠
+™
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaø ø(2
+%9java.lang.String"__concat*
+\n\"*
+
+%8java.lang.String´
+®
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaø ø(7
+%5java.lang.String"__concat*
+
+%9java.lang.String*
+\"ü
+ú
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaø ø(7
+%4java.lang.String"__id*
+
+%5java.lang.String*
+13*ü
+16b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaø ø(™
+ß
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaø ø(
+%3ij.ImagePlus"__id*'*%
+ij.plugin.filter.ImageMath"
+imp*
+14
+15*¥
+18b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaº º(Ÿ÷
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaº º(
+%0double",ij.process.ImageProcessor#getMinThreshold()D*!
+
+ipij.process.ImageProcessor2getMinThreshold()Ÿ÷
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaΩ Ω(
+%1double",ij.process.ImageProcessor#getMaxThreshold()D*!
+
+ipij.process.ImageProcessor2getMaxThreshold()É
+Ä
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaæ æ()
+%2double"__id*
+""*
+16
+10
+11*Û
+10b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java«" «($ÈÊ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java«" «(0
+%12java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*!
+
+ipij.process.ImageProcessor2getPixels()…∆
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java» »(!
+
+%13int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()À»
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java… …(#
+
+%14int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()*
+1*÷
+11b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java∆ ∆(
+"l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java∆ ∆(
+
+""*Æ
+1b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java“ “(÷”
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java“ “(
+%15void"+ij.process.ImageProcessor#resetMinAndMax()V*!
+
+ipij.process.ImageProcessor2resetMinAndMax()"l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java” ”(	
+"":
+ipij.process.ImageProcessorB
+ij.plugin.filter.ImageMath

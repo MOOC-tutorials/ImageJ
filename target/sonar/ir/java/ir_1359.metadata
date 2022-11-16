@@ -1,0 +1,8 @@
+ij.io.ImageReader#readCompressedRGB48(Ljava/io/InputStream;)Ljava/lang/Object;
+ij.io.ImageReader#uncompress([B)[B
+java.io.DataInputStream#<init>(Ljava/io/InputStream;)V
+ij.io.ImageReader#showProgress(II)V
+java.io.DataInputStream#instance-init#
+java.io.DataInputStream#readFully([B)V
+java.io.IOException#instance-init#
+java.io.IOException#<init>(Ljava/lang/String;)V

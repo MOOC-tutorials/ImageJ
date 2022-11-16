@@ -1,0 +1,230 @@
+
+%ij.plugin.frame.RoiManager#delete(Z)Zb
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaƒ	 ƒ("32*à
+25b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÕ Õ(ì
+ê
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaŒ Œ(
+%3boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+19
+23*ó
+26b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÃ
+ Ã(&¶
+£
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÃ Ã(&
+msgjava.lang.String"__id*
+Replace items on the list?*
+25*Ó
+16b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java◊ ◊(≤
+Ø
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java◊ ◊(
+%9java.util.ArrayList"__id*(*&
+ij.plugin.frame.RoiManager"
+roisü
+ú
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java◊ ◊(
+%10void"__arrayClear*
+
+%9java.util.ArrayList¡
+æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÿ ÿ(#
+%11javax.swing.DefaultListModel"__id*-*+
+ij.plugin.frame.RoiManager"
+	listModel„‡
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÿ ÿ( 
+%12void"1javax.swing.DefaultListModel#removeAllElements()V*%
+#
+%11javax.swing.DefaultListModel2removeAllElements()*
+3*û
+27b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java   (/©
+¶
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java   (0
+msgjava.lang.String"__id*!
+Delete all items on the list?*
+25
+26* 
+19b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java‘ ‘(”–
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java‘ ‘(
+%8int[]",ij.plugin.frame.RoiManager#getAllIndexes()[I*
+ij.plugin.frame.RoiManager2getAllIndexes()*
+
+3
+16
+7*’
+1b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÔ	 Ô("l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÔ Ô(
+""*Â
+2b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÓ Ó(ˆ
+Û
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÓ Ó(*
+%22void"Fij.plugin.frame.Recorder#record(Ljava/lang/String;Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+
+roiManager*
+
+Delete*
+1*À
+3b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÈ È(ƒ
+¡
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÈ È(1
+%19ij.ImagePlus"0ij.WindowManager#getCurrentImage()Lij/ImagePlus;*"
+ij.WindowManager“œ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÏ Ï(
+%20void"+ij.plugin.frame.RoiManager#updateShowAll()V*
+ij.plugin.frame.RoiManager2updateShowAll()Ω
+∫
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÌ Ì(
+%21boolean"$ij.plugin.frame.RoiManager#record()Z*
+ij.plugin.frame.RoiManager*
+2
+1*∫
+5b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÂ Â(»
+≈
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÂ Â(
+%18void"*ij.plugin.frame.RoiManager#deleteOnEDT(I)V*
+ij.plugin.frame.RoiManager*
+""*
+3
+7*ò
+6b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java‚ ‚(≥
+∞
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java‚ ‚(
+%14java.util.ArrayList"__id*(*&
+ij.plugin.frame.RoiManager"
+roisµ
+≤
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java‚ ‚(
+%15java.lang.Object"__arrayRemove*
+
+%14java.util.ArrayList*
+""¡
+æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java„ „(#
+%16javax.swing.DefaultListModel"__id*-*+
+ij.plugin.frame.RoiManager"
+	listModelÙÒ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java„ „(
+%17java.lang.Object"8javax.swing.DefaultListModel#remove(I)Ljava/lang/Object;*%
+#
+%16javax.swing.DefaultListModel*
+""2	remove(I)*
+3
+7*´
+7b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java·	 ·(π
+∂
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java·	 ·(&
+%13boolean"'java.awt.EventQueue#isDispatchThread()Z*"
+java.awt.EventQueue*
+5
+6*ÿ
+30b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java» »("›⁄
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java» »($
+%2int[]"1ij.plugin.frame.RoiManager#getSelectedIndexes()[I*
+ij.plugin.frame.RoiManager2getSelectedIndexes()*
+3
+27
+16
+7*÷
+20b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java“  “(%"l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java“ “(&
+""*‡
+31b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java«
+ «(áÑ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java«
+ «(,
+%1boolean"5ij.plugin.frame.RoiManager#error(Ljava/lang/String;)Z*
+ij.plugin.frame.RoiManager*
+The ROI Manager is empty.2error(Ljava/lang/String;)"l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java« «(-
+""*¬
+21b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java“	 “(
+Õ 
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java“	 “(
+%7boolean"&ij.gui.YesNoCancelDialog#yesPressed()Z*
+
+dij.gui.YesNoCancelDialog2yesPressed()*
+19
+20*ª
+32b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java≈ ≈(∆√
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java≈ ≈(	
+%0int"&ij.plugin.frame.RoiManager#getCount()I*
+ij.plugin.frame.RoiManager2
+getCount()*
+30
+31*÷
+22b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java— —("l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java— —($
+""*”
+23b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaœ0 œ(4°û
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaœ œ(/
+%4ij.gui.YesNoCancelDialog"ij.gui.YesNoCancelDialog≥
+∞
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaœ œ(I
+%5"Vij.gui.YesNoCancelDialog#<init>(Ljava/awt/Frame;Ljava/lang/String;Ljava/lang/String;)V* 
+
+%4ij.gui.YesNoCancelDialog*
+ij.plugin.frame.RoiManager*
+ROI Manager*
+
+msgjava.lang.StringÆ
+´
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaœ œ(J
+dij.gui.YesNoCancelDialog"__id* 
+
+%4ij.gui.YesNoCancelDialog”–
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java– –(
+%6boolean")ij.gui.YesNoCancelDialog#cancelPressed()Z*
+
+dij.gui.YesNoCancelDialog2cancelPressed()*
+21
+22:
+""B
+ij.plugin.frame.RoiManager

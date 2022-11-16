@@ -1,0 +1,17 @@
+ij.macro.Functions#doList()Ljava/lang/String;
+ij.macro.Functions#getLastArrayVariable()Lij/macro/Variable;
+ij.macro.Variable#instance-init#
+ij.macro.Interpreter#getLeftParen()V
+ij.macro.Functions#getFirstArrayVariable()Lij/macro/Variable;
+ij.macro.Functions#getFirstString()Ljava/lang/String;
+ij.macro.Functions#getPropertiesAsString(Ljava/util/Properties;)Ljava/lang/String;
+ij.macro.Interpreter#getParens()V
+ij.macro.Interpreter#getToken()V
+java.util.Properties#instance-init#
+ij.macro.Functions#getLastString()Ljava/lang/String;
+ij.macro.Interpreter#getComma()V
+ij.macro.Interpreter#getRightParen()V
+ij.macro.Functions#setPropertiesFromString(Ljava/util/Properties;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.util.Properties#<init>()V
+ij.macro.Variable#<init>()V

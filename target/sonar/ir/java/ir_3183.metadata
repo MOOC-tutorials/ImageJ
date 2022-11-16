@@ -1,0 +1,13 @@
+ij.macro.Functions#waitForUser()V
+ij.gui.WaitForUserDialog#<init>(Ljava/lang/String;Ljava/lang/String;)V
+ij.IJ#wait(I)V
+ij.macro.Functions#getLastString()Ljava/lang/String;
+ij.macro.Interpreter#getRightParen()V
+ij.macro.Interpreter#setInstance(Lij/macro/Interpreter;)V
+ij.macro.Interpreter#nextToken()I
+java.lang.RuntimeException#<init>(Ljava/lang/String;)V
+ij.macro.Interpreter#getInstance()Lij/macro/Interpreter;
+ij.macro.Functions#getFirstString()Ljava/lang/String;
+ij.gui.WaitForUserDialog#instance-init#
+ij.IJ#escapePressed()Z
+java.lang.RuntimeException#instance-init#

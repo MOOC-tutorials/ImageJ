@@ -1,0 +1,5 @@
+ij.macro.Interpreter#doArrayAssignment()V
+ij.macro.Interpreter#getToken()V
+ij.macro.Interpreter#nextToken()I
+ij.macro.Interpreter#lookupVariable()Lij/macro/Variable;
+ij.macro.Interpreter#lookupLocalVariable(I)Lij/macro/Variable;

@@ -1,0 +1,220 @@
+
+,ij.gui.Roi#getProperties()Ljava/lang/String;R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaÕ Õ("14*∂
+13R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaœ
+ œ("\
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaœ œ(
+""*˘
+14R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaŒ Œ(î
+ë
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaŒ Œ(
+%0java.util.Properties"__id**
+
+ij.gui.Roi"
+props*
+13
+12*æ
+3R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaŸ Ÿ(¢
+ü
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaŸ Ÿ(
+%15java.lang.String"
+__arrayGet*
+
+keysjava.lang.String[]*
+""òï
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaŸ Ÿ(
+%16java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+sbjava.lang.StringBuffer*
+
+%15java.lang.String2append(Ljava/lang/String;)ÖÇ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java⁄ ⁄(
+%17java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+sbjava.lang.StringBuffer*
+: 2append(Ljava/lang/String;)ï
+í
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java€ €(
+%18java.util.Properties"__id**
+
+ij.gui.Roi"
+props¢
+ü
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java€ €(
+%19java.lang.String"
+__arrayGet*
+
+keysjava.lang.String[]*
+""¥
+±
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java€ €(
+%20java.lang.Object"__mapGet*
+
+%18java.util.Properties*
+
+%19java.lang.Stringòï
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java€ €( 
+%21java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/Object;)Ljava/lang/StringBuffer;*
+
+sbjava.lang.StringBuffer*
+
+%20java.lang.Object2append(Ljava/lang/Object;)ÖÇ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java‹ ‹(
+%22java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+sbjava.lang.StringBuffer*
+\n2append(Ljava/lang/String;)*
+3
+1*˚
+5R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java÷ ÷(≈
+¬
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java÷ ÷(
+%12void"+java.util.Arrays#sort([Ljava/lang/Object;)V*"
+java.util.Arrays*
+
+keysjava.lang.String[]éã
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java◊ ◊($
+%13java.lang.StringBuffer"java.lang.StringBuffer°
+û
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java◊ ◊(&
+%14" java.lang.StringBuffer#<init>()V*
+
+%13java.lang.StringBufferú
+ô
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java◊ ◊('
+sbjava.lang.StringBuffer"__id*
+
+%13java.lang.StringBuffer*
+3
+1*‡
+7R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java’ ’(–Õ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java’ ’(#
+%10java.lang.Object"/java.util.Vector#elementAt(I)Ljava/lang/Object;*
+
+vjava.util.Vector*
+""2elementAt(I)´
+®
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java’ ’(#
+%11"
+__arraySet*
+
+keysjava.lang.String[]*
+""*
+
+%10java.lang.Object*
+5
+7*ü
+9R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java” ”(ùö
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java” ”(%	
+%8int"java.util.Vector#size()I*
+
+vjava.util.Vector2size()ÖÇ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java” ”(&
+%9java.lang.String[]"java.lang.String[]ï
+í
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java” ”('
+keysjava.lang.String[]"__id*
+
+%9java.lang.String[]*
+5
+7*†
+10R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java“ “(‘—
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java“ “( 
+%6java.lang.Object"5java.util.Enumeration#nextElement()Ljava/lang/Object;*
+
+enjava.util.Enumeration2nextElement()ËÂ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java“ “(!
+
+%7void"0java.util.Vector#addElement(Ljava/lang/Object;)V*
+
+vjava.util.Vector*
+
+%6java.lang.Object2addElement(Ljava/lang/Object;)*
+11*¶
+11R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java—$ —(&¬ø
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java—$ —(8
+%5boolean"(java.util.Enumeration#hasMoreElements()Z*
+
+enjava.util.Enumeration2hasMoreElements()*
+9
+10*å
+12R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java– –(Ä~
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java– –(
+%1java.util.Vector"java.util.Vectorì
+ê
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java– –(
+%2"java.util.Vector#<init>()V*
+
+%1java.util.Vectoré
+ã
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java– –(
+vjava.util.Vector"__id*
+
+%1java.util.Vectorî
+ë
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java— —(
+%3java.util.Properties"__id**
+
+ij.gui.Roi"
+propsŒÀ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java— —("
+%4java.util.Enumeration"2java.util.Properties#keys()Ljava/util/Enumeration;*
+
+%3java.util.Properties2keys()ô
+ñ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java— —("
+enjava.util.Enumeration"__id*
+
+%4java.util.Enumeration*
+11*ú
+1R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaﬁ	 ﬁ(—Œ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaﬁ	 ﬁ(
+%23java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*
+
+sbjava.lang.StringBuffer2
+toString()"o
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaﬁ ﬁ(
+
+%23java.lang.StringB
+
+ij.gui.Roi

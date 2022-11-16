@@ -1,0 +1,289 @@
+
+>ij.macro.Functions#getResultsTable(Z)Lij/measure/ResultsTable;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java‘
+ ‘
+(%"21*ê
+13Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java›
+ ›
+(|
+z
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java›
+ ›
+(	
+%6int"__id*
+	
+%8int*
+
+2
+10
+1*ý
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java§
+ §
+(	¦
+£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java§
+ §
+(	
+%15ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpíê
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java§
+ §
+(#
+%16void"/ij.macro.Interpreter#error(Ljava/lang/String;)V*
+
+%15ij.macro.Interpreter*
+No results found2error(Ljava/lang/String;)*
+1*¡
+14Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java›
+ ›
+(´±
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java›
+ ›
+(	
+%7int"ij.measure.ResultsTable#size()I*
+
+rtij.measure.ResultsTable2size()|
+z
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java›
+ ›
+(	
+%6int"__id*
+	
+%7int*
+
+2
+10
+1*‡
+15Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java™
+  ™
+(%ÙÖ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java™
+ ™
+(5
+%4ij.text.TextPanel"4ij.text.TextWindow#getTextPanel()Lij/text/TextPanel;*
+
+framejava.awt.Frame2getTextPanel()™
+–
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java™
+ ™
+(6
+tpij.text.TextPanel"__id*
+
+%4ij.text.TextPanelú÷
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaš
+	 š
+(%
+%5ij.measure.ResultsTable"Dij.text.TextPanel#getOrCreateResultsTable()Lij/measure/ResultsTable;*
+
+tpij.text.TextPanel2getOrCreateResultsTable()¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaš
+ š
+(%
+rtij.measure.ResultsTable"__id*
+
+%5ij.measure.ResultsTable*
+13
+14*ç
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£
+ £
+(~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£
+ £
+(
+
+%12int"__id*
+
+
+%14int*
+2
+1*ã
+18Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java—
+ —
+(×
+Ô
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java—
+ —
+(-
+%3java.awt.Frame"=ij.WindowManager#getFrame(Ljava/lang/String;)Ljava/awt/Frame;*"
+ij.WindowManager*	
+Results–
+“
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java—
+ —
+(-
+framejava.awt.Frame"__id*
+
+%3java.awt.Frame*
+2
+15
+10
+1*Ÿ
+7Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£
+ £
+(µ²
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£
+ £
+(
+
+%13int"ij.measure.ResultsTable#size()I*
+
+rtij.measure.ResultsTable2size()~
+|
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£
+ £
+(
+
+%12int"__id*
+
+
+%13int*
+2
+1*‡
+8Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¡
+  ¡
+(#ÙÖ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¡
+ ¡
+(3
+%10ij.text.TextPanel"4ij.text.TextWindow#getTextPanel()Lij/text/TextPanel;*
+
+winjava.awt.Window2getTextPanel()š
+—
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¡
+ ¡
+(4
+tpij.text.TextPanel"__id*
+
+%10ij.text.TextPanelûø
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¢
+	 ¢
+(%
+%11ij.measure.ResultsTable"Dij.text.TextPanel#getOrCreateResultsTable()Lij/measure/ResultsTable;*
+
+tpij.text.TextPanel2getOrCreateResultsTable()¦
+£
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¢
+ ¢
+(%
+rtij.measure.ResultsTable"__id* 
+
+%11ij.measure.ResultsTable*
+6
+7*Î
+20Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java•
+ •
+(¾
+»
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java•
+ •
+(/
+%2java.awt.Frame"1ij.WindowManager#getFrontWindow()Ljava/awt/Frame;*"
+ij.WindowManager–
+“
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java•
+ •
+(0
+framejava.awt.Frame"__id*
+
+%2java.awt.Frame*
+2
+15
+18
+10
+1*µ
+21Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java’
+ ’
+(ã
+à
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java’
+ ’
+(.
+%0ij.measure.ResultsTable"Dij.plugin.filter.Analyzer#getResultsTable()Lij/measure/ResultsTable;*"
+ij.plugin.filter.Analyzer¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java’
+ ’
+(/
+rtij.measure.ResultsTable"__id*
+
+%0ij.measure.ResultsTable´±
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java“
+ “
+(	
+%1int"ij.measure.ResultsTable#size()I*
+
+rtij.measure.ResultsTable2size()*
+2
+20
+10
+1*Ç
+10Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaŸ
+ Ÿ
+(À
+½
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaŸ
+ Ÿ
+(.
+%9java.awt.Window"2ij.WindowManager#getActiveTable()Ljava/awt/Window;*"
+ij.WindowManager–
+“
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaŸ
+ Ÿ
+(/
+winjava.awt.Window"__id*
+
+%9java.awt.Window*	
+2
+8
+1*Þ
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¨
+	 ¨
+("}
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¨
+ ¨
+(
+
+rtij.measure.ResultsTable:
+""B
+ij.macro.Functions

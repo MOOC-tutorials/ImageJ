@@ -1,0 +1,11 @@
+ij.macro.Interpreter#doReturn()V
+ij.macro.Interpreter#getArrayElement(Lij/macro/Variable;)Lij/macro/Variable;
+ij.macro.ReturnException#<init>()V
+ij.macro.Interpreter#getToken()V
+ij.macro.Interpreter#getExpression()D
+ij.macro.ReturnException#instance-init#
+ij.macro.Interpreter#nextToken()I
+ij.macro.Interpreter#lookupVariable()Lij/macro/Variable;
+ij.macro.Interpreter#lookupLocalVariable(I)Lij/macro/Variable;
+ij.macro.Interpreter#putTokenBack()V
+ij.macro.Interpreter#getString()Ljava/lang/String;

@@ -1,0 +1,72 @@
+
+Oij.plugin.Slicer#getIrregularProfile(Lij/gui/Roi;Lij/process/ImageProcessor;)[FX
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java“	 “("6"18"7"9"1*Û
+6X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¯ ¯(íê
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¯ ¯(>
+%4double"3ij.process.ImageProcessor#getInterpolatedValue(DD)D*!
+
+ipij.process.ImageProcessor*
+""*
+""2getInterpolatedValue(DD)*
+6
+7
+9
+1*Õ
+18X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java• •(æã
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java• •(
+
+%0void"0ij.plugin.Slicer#doIrregularSetup(Lij/gui/Roi;)V*
+ij.plugin.Slicer*
+
+roi
+ij.gui.Roi2doIrregularSetup(Lij/gui/Roi;)*
+6
+7
+9
+1*Œ
+7X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¬( ¬(*ðí
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¬ ¬(K	
+%2int"6ij.process.ColorProcessor#getInterpolatedRGBPixel(DD)I*!
+
+ipij.process.ImageProcessor*
+""*
+""2getInterpolatedRGBPixel(DD)«
+¨
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java­ ­(?
+%3float""java.lang.Float#intBitsToFloat(I)F*"
+java.lang.Float*
+""*
+6
+7
+9
+1*Û
+9X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaª ª(íê
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaª ª(>
+%1double"3ij.process.ImageProcessor#getInterpolatedPixel(DD)D*!
+
+ipij.process.ImageProcessor*
+""*
+""2getInterpolatedPixel(DD)*
+6
+7
+9
+1*Á
+1X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¸
+ ¸("b
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¸ ¸(
+"":
+roi
+ij.gui.Roi:
+ipij.process.ImageProcessorB
+ij.plugin.Slicer

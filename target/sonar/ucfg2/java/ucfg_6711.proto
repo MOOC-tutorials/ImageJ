@@ -1,0 +1,51 @@
+
+Iij.process.ColorProcessor#getRGBSampleModel()Ljava/awt/image/SampleModel;_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorProcessor.javaR R("1*Ü
+1_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorProcessor.javaS S(²
+¯
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorProcessor.javaS S(
+%0java.awt.image.ColorModel"__id*%*#
+ij.process.ColorProcessor"
+cm¹¶
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorProcessor.javaS S(=#
+%1java.awt.image.WritableRaster"[java.awt.image.ColorModel#createCompatibleWritableRaster(II)Ljava/awt/image/WritableRaster;*!
+
+%0java.awt.image.ColorModel*2*22"createCompatibleWritableRaster(II)¶
+³
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorProcessor.javaS S(>#
+wrjava.awt.image.WritableRaster"__id*%
+#
+%1java.awt.image.WritableRasterƒ€
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorProcessor.javaT T(/ 
+%2java.awt.image.SampleModel"Bjava.awt.image.Raster#getSampleModel()Ljava/awt/image/SampleModel;*%
+#
+wrjava.awt.image.WritableRaster2getSampleModel()¹
+¶
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorProcessor.javaT T(0)
+sampleModeljava.awt.image.SampleModel"__id*"
+ 
+%2java.awt.image.SampleModel¼¹
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorProcessor.javaU U(F 
+%3java.awt.image.SampleModel"Vjava.awt.image.SampleModel#createCompatibleSampleModel(II)Ljava/awt/image/SampleModel;*+
+)
+sampleModeljava.awt.image.SampleModel*
+""*
+""2createCompatibleSampleModel(II)¹
+¶
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorProcessor.javaU U(F)
+sampleModeljava.awt.image.SampleModel"__id*"
+ 
+%3java.awt.image.SampleModel"Ž
+_
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ColorProcessor.javaV V(+
+)
+sampleModeljava.awt.image.SampleModelB
+ij.process.ColorProcessor

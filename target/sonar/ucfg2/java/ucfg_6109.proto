@@ -1,0 +1,388 @@
+
+!ij.plugin.Projector#showDialog()ZY
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javah h("13*ﬂ
+13Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javai i(ö
+ó
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javai i(
+%0ij.ImagePlus"__id* *
+ij.plugin.Projector"
+imp›⁄
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javai i((
+%1ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+%0ij.ImagePlus2getProcessor()®
+•
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javai i()
+ipij.process.ImageProcessor"__id*!
+
+%1ij.process.ImageProcessor–Õ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaj j(%
+%2double",ij.process.ImageProcessor#getMinThreshold()D*!
+
+ipij.process.ImageProcessor2getMinThreshold()y
+w
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javak k((
+%3double"__id*
+""*
+11
+12*∞
+2[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaó ó(»≈
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaó ó('
+%52boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+1*Û
+3[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaå å(≈¬
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaç ç(&
+%43double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()≈¬
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaé é('
+%44double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()≈¬
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaè è(%
+%45double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()≈¬
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaê ê(.
+%46double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()≈¬
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaë ë(.
+%47double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()≈¬
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaí í($
+%48double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()≈¬
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaì ì(-
+%49double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()≈¬
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaî î(,
+%50double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()»≈
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaï ï($
+%51boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+2
+1*À
+5[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaá á(Ã…
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaà à(,
+
+%40int"*ij.gui.GenericDialog#getNextChoiceIndex()I*
+
+gdij.gui.GenericDialog2getNextChoiceIndex()Ã…
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaâ â(*
+
+%41int"*ij.gui.GenericDialog#getNextChoiceIndex()I*
+
+gdij.gui.GenericDialog2getNextChoiceIndex()≈¬
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaä ä(%
+%42double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()*
+3*«
+6[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaá
+ á("e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaá á(
+""*µ
+7[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaÑ Ñ(á
+Ñ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaÑ Ñ(
+%35java.lang.String"__id*
+""¬
+ø
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaÑ Ñ(4
+%36java.lang.String"__concat*
+
+%35java.lang.String*" 
+/docs/menus/image.html#projectˆÛ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaÑ Ñ(5
+%37void"1ij.gui.GenericDialog#addHelp(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%36java.lang.String2addHelp(Ljava/lang/String;)Ω∫
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaÖ Ö(
+%38void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()¬ø
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaÜ Ü(
+%39boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+5
+6*Í
+8[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaÅ Å(Çˇ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaÅ Å(3
+%34void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+All time points*
+""2 addCheckbox(Ljava/lang/String;Z)*
+7*é,
+9Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javap p(@ëé
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaq q(&
+%11ij.gui.GenericDialog"ij.gui.GenericDialog…
+∆
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaq q(7
+%12"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%11ij.gui.GenericDialog*
+3D Projectionü
+ú
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaq q(8
+gdij.gui.GenericDialog"__id*
+
+%11ij.gui.GenericDialogá
+Ñ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javar% r(/
+%13java.lang.String[]"__id*
+""á
+Ñ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javar1 r(;
+%14java.lang.String[]"__id*
+""®
+•
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javar1 r(M
+%15java.lang.String"
+__arrayGet*
+
+%14java.lang.String[]*
+""˜Ù
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javar r(N
+%16void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Projection method:*
+
+%13java.lang.String[]*
+
+%15java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)á
+Ñ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javas$ s(,
+%17java.lang.String[]"__id*
+""á
+Ñ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javas. s(6
+%18java.lang.String[]"__id*
+""®
+•
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javas. s(F
+%19java.lang.String"
+__arrayGet*
+
+%18java.lang.String[]*
+""ˆÛ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javas s(G
+%20void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Axis of rotation:*
+
+%17java.lang.String[]*
+
+%19java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Ÿ÷
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javau' u(5
+%21java.lang.String"3ij.measure.Calibration#getUnits()Ljava/lang/String;*
+
+calij.measure.Calibration2
+getUnits()±
+Æ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javau u(5
+%22java.lang.String"__concat*
+Slice spacing (*
+
+%21java.lang.String§
+°
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javau u(:
+%23java.lang.String"__concat*
+
+%22java.lang.String*
+):ñì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javau u(L
+%24void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+
+%23java.lang.String*
+""*22%addNumericField(Ljava/lang/String;DI)ùö
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaw w(D
+%25void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*" 
+Initial angle (0-359 degrees):*
+""*2 2%addNumericField(Ljava/lang/String;DI)ûõ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javax x(F
+%26void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*#!
+Total rotation (0-359 degrees):*
+""*2 2%addNumericField(Ljava/lang/String;DI)òï
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javay y(>
+%27void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+Rotation angle increment:*
+""*2 2%addNumericField(Ljava/lang/String;DI)òï
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaz z(G
+%28void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+Lower transparency bound:*
+""*2 2%addNumericField(Ljava/lang/String;DI)òï
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.java{ {(G
+%29void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+Upper transparency bound:*
+""*2 2%addNumericField(Ljava/lang/String;DI)êç
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.java| |(5
+%30void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+Opacity (0-100%):*
+""*2 2%addNumericField(Ljava/lang/String;DI)ùö
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.java} }(K
+%31void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*" 
+Surface depth-cueing (0-100%):*
+""*2 2%addNumericField(Ljava/lang/String;DI)ûõ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.java~ ~(K
+%32void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*#!
+Interior depth-cueing (0-100%):*
+""*2 2%addNumericField(Ljava/lang/String;DI)¸˘
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.java (,
+%33void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Interpolate*
+""2 addCheckbox(Ljava/lang/String;Z)*
+7
+8*Æ
+10Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javap- p(0ö
+ó
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javap- p(0
+%9ij.ImagePlus"__id* *
+ij.plugin.Projector"
+imp™ß
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javap- p(=
+
+%10int"ij.ImagePlus#getNFrames()I*
+
+%9ij.ImagePlus2getNFrames()*
+9*⁄
+11Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javao o(ö
+ó
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javao o(
+%5ij.ImagePlus"__id* *
+ij.plugin.Projector"
+imp€ÿ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javao o((
+%6ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+%5ij.ImagePlus2getCalibration()£
+†
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javao o()
+calij.measure.Calibration"__id*
+
+%6ij.measure.Calibrationö
+ó
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javap p(
+%7ij.ImagePlus"__id* *
+ij.plugin.Projector"
+imp±Æ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javap p()
+%8boolean"ij.ImagePlus#isHyperStack()Z*
+
+%7ij.ImagePlus2isHyperStack()*
+9
+10*∏
+12Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javal l(!–Õ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javam m(0
+%4double",ij.process.ImageProcessor#getMaxThreshold()D*!
+
+ipij.process.ImageProcessor2getMaxThreshold()*
+11*«
+1[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.javaô ô(""e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Projector.java£ £(
+""B
+ij.plugin.Projector

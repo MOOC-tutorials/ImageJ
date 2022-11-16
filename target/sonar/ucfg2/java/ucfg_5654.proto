@@ -1,0 +1,650 @@
+
+Nij.plugin.filter.GaussianBlur#blur1Direction(Lij/process/FloatProcessor;DDZI)Ve
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaŞ Ş("69*‚
+46e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javağJ ğ(PŠ
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javağJ ğ(P
+
+%22int"__id*
+
+
+%23int*
+40
+41*€
+68e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaç( ç(-ˆ
+…
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaç( ç(-	
+%4int"__id*
+	
+%5int*
+64
+65*—	
+69e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaá% á(&ëè
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaã( ã(6
+%0java.lang.Object"7ij.process.FloatProcessor#getPixels()Ljava/lang/Object;*!
+
+ipij.process.FloatProcessor2getPixels()ËÈ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaä ä('	
+%1int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.FloatProcessor2
+getWidth()ÍÊ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaå å()	
+%2int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.FloatProcessor2getHeight()éæ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaæ æ()
+%3java.awt.Rectangle"6ij.process.ImageProcessor#getRoi()Ljava/awt/Rectangle;*!
+
+ipij.process.FloatProcessor2getRoi()§
+¤
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaæ æ(*
+roijava.awt.Rectangle"__id*
+
+%3java.awt.Rectangle*
+68
+67*‚
+25e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java†; †(DŠ
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java†; †(L
+
+%42int"__id*
+
+
+%44int*
+22
+23*‚
+26e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java†7 †(8Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java†7 †(8
+
+%42int"__id*
+
+
+%43int*
+22
+23*Š
+49e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javağ+ ğ(0Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javağ+ ğ(0
+
+%19int"__id*
+
+
+%21int*
+46
+40
+41
+45*‚
+27e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java ƒ(Š‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java„& „(Y
+%41	float[][]"8ij.plugin.filter.GaussianBlur#makeGaussianKernel(DDI)[[F*!
+ij.plugin.filter.GaussianBlur*
+""*
+""*
+""2makeGaussianKernel(DDI)*
+25
+26*ş
+28e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaƒ ƒ(Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaƒ ƒ(
+
+%38int"__id*
+
+
+%40int*
+27*ş
+29e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java‚ ‚(Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java‚ ‚(G
+
+%38int"__id*
+
+
+%39int*
+27*Š
+50e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javağ$ ğ(*Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javağ$ ğ(*
+
+%19int"__id*
+
+
+%20int*
+46
+40
+41
+45*‚
+52e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaî= î(@Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaî= î(L
+
+%16int"__id*
+
+
+%18int*
+49
+50*‚
+53e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaî* î(-Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaî* î(:
+
+%16int"__id*
+
+
+%17int*
+49
+50*ˆ
+31e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java€ €(
+
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java€ €(
+%35double"__id*
+
+%37double*
+28
+29*ı
+10e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java“( “(-Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java“( “(-
+
+%61int"__id*
+
+
+%63int*
+9*¹
+32e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaÿ ÿ(®
+«
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaÿ ÿ(J
+%36double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""
+
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaÿ ÿ(J
+%35double"__id*
+
+%36double*
+28
+29*ı
+11e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java“! “(%Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java“! “(%
+
+%61int"__id*
+
+
+%62int*
+9*‚
+34e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaù ù(Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaù ù(
+
+%31int"__id*
+
+
+%33int*
+31
+32*Ğ
+12e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java (Yœ
+™
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java‘# ‘(5
+
+%59int"ij.Prefs#getThreads()I*"
+
+ij.Prefs¹
+¶
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java‘ ‘(G
+
+%60int"java.lang.Math#min(II)I*"
+java.lang.Math*
+
+
+%59int*
+""*
+10
+11*ó
+35e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaø ø(¯
+¬
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaø ø(D
+%34double"java.lang.Math#floor(D)D*"
+java.lang.Math*
+""¼
+¹
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaø ø(M
+
+%32int"java.lang.Math#min(II)I*"
+java.lang.Math*
+
+%34double*
+""Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaø ø(M
+
+%31int"__id*
+
+
+%32int*
+31
+32*‰
+13e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaT (X•
+’
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaT (X
+%55float[]"__id*
+
+%57
+<nulltype>*
+12*‚
+58e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaê4 ê(7Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaê4 ê(9
+
+%13int"__id*
+
+
+%15int*
+52
+53*ï
+14e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java6 (Gˆ
+…
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java6 (G
+%58float[]"__id*
+""Û
+Ø
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java6 (Q
+%56float[]"4ij.plugin.filter.GaussianBlur#makeUpscaleKernel(I)[F*!"
+ij.plugin.filter.GaussianBlur*
+""’
+
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java6 (Q
+%55float[]"__id*
+
+%56float[]*
+12*‚
+37e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaó; ó(>Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaó; ó(K
+
+%28int"__id*
+
+
+%30int*
+35
+34*‚
+59e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaê, ê(/Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaê, ê(1
+
+%13int"__id*
+
+
+%14int*
+52
+53*‚
+38e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaó) ó(,Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaó) ó(8
+
+%28int"__id*
+
+
+%29int*
+35
+34*
+16e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaX (\•
+’
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaX (\
+%51float[]"__id*
+
+%53
+<nulltype>*
+13
+14*õ
+17e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java8 (Kˆ
+…
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java8 (K
+%54float[]"__id*
+""İ
+Ú
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java8 (U
+%52float[]"6ij.plugin.filter.GaussianBlur#makeDownscaleKernel(I)[F*!"
+ij.plugin.filter.GaussianBlur*
+""’
+
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java8 (U
+%51float[]"__id*
+
+%52float[]*
+13
+14*‚
+19e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaŠ Š(Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaŠ Š(
+
+%48int"__id*
+
+
+%50int*
+16
+17*ƒ
+0 "|
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java¿ ¿(
+implicit return*€
+2e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaº º(¹
+¶
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaº º(*$
+%77java.util.concurrent.Future[]"_ij.util.ThreadUtil#startAndJoin([Ljava/util/concurrent/Callable;)[Ljava/util/concurrent/Future;*"
+ij.util.ThreadUtil*.
+,
+	callablesjava.util.concurrent.Callable[]Ò
+Ï
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java¼ ¼(
+%78void".ij.plugin.filter.GaussianBlur#showProgress(D)V*!
+ij.plugin.filter.GaussianBlur*
+""*
+0*Ç
+4e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java› ›(O³°
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java ('&
+%74ij.plugin.filter.GaussianBlur$1"ij.plugin.filter.GaussianBlur$1·
+´
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java ¸(
+%75"java.lang.Object#<init>()V*(
+&
+%74ij.plugin.filter.GaussianBlur$1ß
+Ü
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java ¸(
+%76"
+__arraySet*.
+,
+	callablesjava.util.concurrent.Callable[]*
+""*(
+&
+%74ij.plugin.filter.GaussianBlur$1*	
+2
+5
+6*‡
+5e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java›J ›(N•
+’
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java›J ›(N
+%71float[]"__id*
+
+%73
+<nulltype>*
+4*„
+6e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java›= ›(F’
+
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java›3 ›(G
+%71float[]"__id*
+
+%72float[]*
+4*€
+9e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java’  “(.³
+°
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java” ”(A
+
+%64int"java.lang.Math#min(II)I*"
+java.lang.Math*
+""*
+""³°
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java•% •(=&
+%65java.util.concurrent.Callable[]"java.util.concurrent.Callable[]È
+Å
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java• •(>,
+	callablesjava.util.concurrent.Callable[]"__id*(
+&
+%65java.util.concurrent.Callable[]ÇÄ
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java–+ –(80
+%66)java.util.concurrent.atomic.AtomicInteger")java.util.concurrent.atomic.AtomicIntegerã
+à
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java–' –(B
+%67"4java.util.concurrent.atomic.AtomicInteger#<init>(I)V*2
+0
+%66)java.util.concurrent.atomic.AtomicInteger*
+""Û
+Ø
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java– –(C5
+nextLine)java.util.concurrent.atomic.AtomicInteger"__id*2
+0
+%66)java.util.concurrent.atomic.AtomicInteger´
+±
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java—? —(Y
+%68long"%java.lang.System#currentTimeMillis()J*"
+java.lang.SystemÁ¾
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java—4 —(>-
+%69&java.util.concurrent.atomic.AtomicLong"&java.util.concurrent.atomic.AtomicLongä
+á
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java—0 —(Z
+%70"1java.util.concurrent.atomic.AtomicLong#<init>(J)V*/
+-
+%69&java.util.concurrent.atomic.AtomicLong*
+
+%68longá
+Ş
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java— —([>
+lastShowProgressTime&java.util.concurrent.atomic.AtomicLong"__id*/
+-
+%69&java.util.concurrent.atomic.AtomicLong*	
+2
+5
+6*‚
+61e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaé1 é(2Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaé1 é(2
+
+%10int"__id*
+
+
+%12int*
+58
+59*‚
+40e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaò2 ò(5Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaò2 ò(7
+
+%25int"__id*
+
+
+%27int*
+37
+38*‚
+62e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaé) é(.Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaé) é(.
+
+%10int"__id*
+
+
+%11int*
+58
+59*‚
+41e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaò* ò(-Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaò* ò(/
+
+%25int"__id*
+
+
+%26int*
+37
+38*€
+64e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaè. è(3ˆ
+…
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaè. è(3	
+%7int"__id*
+	
+%9int*
+61
+62*‚
+20e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java‰ ‰(Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java‰ ‰(P
+
+%48int"__id*
+
+
+%49int*
+16
+17*€
+65e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaè* è(+ˆ
+…
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaè* è(+	
+%7int"__id*
+	
+%8int*
+61
+62*‚
+22e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java‡A ‡(HŠ
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java‡A ‡(P
+
+%45int"__id*
+
+
+%47int*
+19
+20*‚
+45e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javağQ ğ(VŠ
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javağQ ğ(V
+
+%22int"__id*
+
+
+%24int*
+40
+41*€
+67e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaç0 ç(6ˆ
+…
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.javaç0 ç(6	
+%4int"__id*
+	
+%6int*
+64
+65*‚
+23e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java‡8 ‡(>Š
+‡
+e
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/GaussianBlur.java‡8 ‡(>
+
+%45int"__id*
+
+
+%46int*
+19
+20:
+ipij.process.FloatProcessor:
+"":
+"":
+"":
+""B!
+ij.plugin.filter.GaussianBlur

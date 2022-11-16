@@ -1,0 +1,285 @@
+
+Uij.plugin.SubstackMaker#stackRange(Lij/ImagePlus;IIILjava/lang/String;)Lij/ImagePlus;_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÃ Ã("17*Á
+2_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaå å(ÕÒ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaå å(%
+%25void"!ij.ImagePlus#setDisplayRange(DD)V*
+
+substackij.ImagePlus*
+""*
+""2setDisplayRange(DD)*
+1*‡
+
+3_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaá á(ÑÎ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaá á(,
+%21ij.ImagePlus",ij.ImagePlus#createImagePlus()Lij/ImagePlus;*
+
+impij.ImagePlus2createImagePlus()›
+˜
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaá á(-
+substackij.ImagePlus"__id*
+
+%21ij.ImagePlus­ª
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaâ â("
+%22void"9ij.ImagePlus#setStack(Ljava/lang/String;Lij/ImageStack;)V*
+
+substackij.ImagePlus*
+
+titlejava.lang.String*
+
+stack2ij.ImageStack2+setStack(Ljava/lang/String;Lij/ImageStack;)ãà
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaã ã(.
+%23ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaã ã(/
+%24void"6ij.ImagePlus#setCalibration(Lij/measure/Calibration;)V*
+
+substackij.ImagePlus*
+
+%23ij.measure.Calibration2(setCalibration(Lij/measure/Calibration;)*
+2
+1*½
+4_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaß ß(ÑÎ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaß ß(
+%20void")ij.gui.StackWindow#updateSliceSelector()V*
+
+swinij.gui.StackWindow2updateSliceSelector()*
+3*®
+16_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÊ- Ê(2¶³
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÊ- Ê(>
+%6boolean"ij.ImageStack#isVirtual()Z*
+
+stackij.ImageStack2isVirtual()*
+3
+5
+11
+12*ô
+5_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÚ Ú(æã
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÚ Ú(
+%18void"'ij.ImagePlus#setStack(Lij/ImageStack;)V*
+
+impij.ImagePlus*
+
+stackij.ImageStack2setStack(Lij/ImageStack;)ÑÎ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÜ Ü($
+%19ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+impij.ImagePlus2getWindow()¢
+Ÿ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÜ Ü(%
+winij.gui.ImageWindow"__id*
+
+%19ij.gui.ImageWindow£
+ 
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÝ Ý((
+swinij.gui.StackWindow"__id*
+
+winij.gui.ImageWindow*
+3
+4*«
+17_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÄ Ä(ÄÁ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÄ Ä(#
+%0ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+impij.ImagePlus2
+getStack()™
+–
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÄ Ä($
+stackij.ImageStack"__id*
+
+%0ij.ImageStack‹
+ˆ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÅ Å(
+stack2ij.ImageStack"__id*
+""¶³
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÆ Æ(*
+%1boolean"ij.ImageStack#isVirtual()Z*
+
+stackij.ImageStack2isVirtual()ÃÀ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÇ Ç('
+%2double""ij.ImagePlus#getDisplayRangeMin()D*
+
+impij.ImagePlus2getDisplayRangeMin()ÃÀ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÈ È('
+%3double""ij.ImagePlus#getDisplayRangeMax()D*
+
+impij.ImagePlus2getDisplayRangeMax()º·
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÉ É(
+%4
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()‘
+Ž
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÉ É(
+roi
+ij.gui.Roi"__id*
+
+%4
+ij.gui.Roi¨¥
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÊ Ê(%	
+%5int"ij.ImageStack#size()I*
+
+stackij.ImageStack2size()*
+3
+16
+5
+11
+12*¹
+8_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÕ Õ(	Â¿
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÕ Õ( 
+%17void"ij.ImageStack#deleteSlice(I)V*
+
+stackij.ImageStack*
+""2deleteSlice(I)*
+3
+5
+11
+12*¬
+9_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÓ Ó(	ãà
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÓ Ó(1
+%15java.lang.String"0ij.ImageStack#getSliceLabel(I)Ljava/lang/String;*
+
+stackij.ImageStack*
+""2getSliceLabel(I)ÌÉ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÓ Ó(7
+%16void"Fij.ImageStack#addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+stack2ij.ImageStack*
+
+%15java.lang.String*"
+ 
+ip2ij.process.ImageProcessor27addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)*
+3
+5
+8
+11
+12*ç
+10_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÒ Ò(ÇÄ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÒ Ò(*
+
+%11int"%ij.process.ImageProcessor#getWidth()I*"
+ 
+ip2ij.process.ImageProcessor2
+getWidth()ÉÆ
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÒ, Ò(;
+
+%12int"&ij.process.ImageProcessor#getHeight()I*"
+ 
+ip2ij.process.ImageProcessor2getHeight()‰†
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÒ Ò(
+%13ij.ImageStack"ij.ImageStackº
+·
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÒ Ò(<
+%14"ij.ImageStack#<init>(II)V*
+
+%13ij.ImageStack*
+
+
+%11int*
+
+
+%12int›
+˜
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÒ Ò(<
+stack2ij.ImageStack"__id*
+
+%13ij.ImageStack*
+9*­	
+11_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÍ Í(òï
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÎ Î(5
+%8ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+stackij.ImageStack*
+""2getProcessor(I)¯
+¬
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÎ Î(6 
+ip2ij.process.ImageProcessor"__id*!
+
+%8ij.process.ImageProcessorðí
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÏ Ï(
+
+%9void"/ij.process.ImageProcessor#setRoi(Lij/gui/Roi;)V*"
+ 
+ip2ij.process.ImageProcessor*
+
+roi
+ij.gui.Roi2setRoi(Lij/gui/Roi;)ïì
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÐ	 Ð( 
+%10ij.process.ImageProcessor";ij.process.ImageProcessor#crop()Lij/process/ImageProcessor;*"
+ 
+ip2ij.process.ImageProcessor2crop()°
+­
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÐ Ð( 
+ip2ij.process.ImageProcessor"__id*"
+ 
+%10ij.process.ImageProcessor*
+9
+10*’
+12_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÌ Ì(¤
+¡
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaÌ Ì(,
+
+%7void"ij.IJ#showProgress(II)V*	"
+ij.IJ*
+""*
+""*
+11*ã
+1_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaæ	 æ("}
+_
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/SubstackMaker.javaæ æ(
+
+substackij.ImagePlus:
+impij.ImagePlus:
+"":
+"":
+"":
+titlejava.lang.StringB
+ij.plugin.SubstackMaker

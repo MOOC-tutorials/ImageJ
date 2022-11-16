@@ -1,0 +1,189 @@
+
+Jij.IJ#createImage(Ljava/lang/String;Ljava/lang/String;IIIII)Lij/ImagePlus;M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¤ ¤(%"16*Á
+13M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java§  §($áÞ
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java§  §(5
+%3boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+typejava.lang.String*
+ramp2"contains(Ljava/lang/CharSequence;)*
+10
+11*«
+2M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java´ ´(Ñ
+Î
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java´ ´('
+%15void":ij.plugin.HyperStackMaker#labelHyperstack(Lij/ImagePlus;)V*"
+ij.plugin.HyperStackMaker*
+
+impij.ImagePlus*
+1*Æ
+14M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java§ §(âß
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java§ §(
+%2boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+typejava.lang.String*	
+white2"contains(Ljava/lang/CharSequence;)*
+13
+10
+11*ý
+3M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java² ²(º·
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java² ²(
+%13void"$ij.ImagePlus#setOpenAsHyperStack(Z)V*
+
+impij.ImagePlus*22setOpenAsHyperStack(Z)ãà
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java³ ³(
+%14boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+typejava.lang.String*	
+label2"contains(Ljava/lang/CharSequence;)*
+2
+1*…
+15M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¦ ¦(š
+—
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¦ ¦(
+%1java.lang.String"__concat*
+
+typejava.lang.String*
+rampŒ
+‰
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¦ ¦(
+typejava.lang.String"__id*
+
+%1java.lang.String*
+14*¦
+4M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java± ±(~|
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java± ±(
+%11ij.CompositeImage"ij.CompositeImageÀ
+½
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java±	 ±(&
+%12"*ij.CompositeImage#<init>(Lij/ImagePlus;I)V*
+
+%11ij.CompositeImage*
+
+impij.ImagePlus*
+""‰
+†
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java± ±(&
+impij.ImagePlus"__id*
+
+%11ij.CompositeImage*
+3*Â
+16M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¥ ¥(
+âß
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¥ ¥(
+%0boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+typejava.lang.String*	
+label2"contains(Ljava/lang/CharSequence;)*
+14
+15*þ
+5M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java° °(¡ž
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java° °(%
+
+%10int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()*
+3
+4*Ã
+8M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java® ®(
+æã
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java® ®( 
+%9boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+typejava.lang.String*
+	grayscale2"contains(Ljava/lang/CharSequence;)*
+3
+5*ˆ
+10M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java© ©(Œ
+‰
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java© ©(T
+%5ij.ImagePlus"Hij.IJ#createImage(Ljava/lang/String;Ljava/lang/String;III)Lij/ImagePlus;*	"
+ij.IJ*
+
+titlejava.lang.String*
+
+typejava.lang.String*
+""*
+""*
+""ƒ
+€
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java© ©(U
+impij.ImagePlus"__id*
+
+%5ij.ImagePlusÃÀ
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaª ª(-
+
+%6void" ij.ImagePlus#setDimensions(III)V*
+
+impij.ImagePlus*
+""*
+""*
+""2setDimensions(III)j
+h
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java« «(	
+%7int"__id*
+""æã
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¬ ¬( 
+%8boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
+
+typejava.lang.String*
+	composite2"contains(Ljava/lang/CharSequence;)*
+8*†
+11M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¨ ¨(›
+˜
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¨ ¨(
+%4java.lang.String"__concat*
+
+typejava.lang.String*	
+blackŒ
+‰
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.java¨ ¨(
+typejava.lang.String"__id*
+
+%4java.lang.String*
+10*º
+1M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaµ	 µ("f
+M
+A/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/IJ.javaµ µ(
+
+impij.ImagePlus:
+titlejava.lang.String:
+typejava.lang.String:
+"":
+"":
+"":
+"":
+""B	"
+ij.IJ

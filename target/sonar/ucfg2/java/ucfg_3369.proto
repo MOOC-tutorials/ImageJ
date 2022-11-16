@@ -1,0 +1,99 @@
+
+2ij.macro.Functions#deleteRows()Lij/macro/Variable;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaæ9 æ9("3*Ã
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java«9 «9(
+Â
+‚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java«9 «9(9
+
+%7void"5ij.gui.Overlay#updateTableOverlay(Lij/ImagePlus;III)V*"
+ij.gui.Overlay*
+
+impij.ImagePlus*
+""*
+""*
+""*
+1*»
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaø9 ø9(∑¥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaø9 ø9(
+%0double"!ij.macro.Functions#getFirstArg()D*
+ij.macro.Functions2getFirstArg()µ≤
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¿9 ¿9(
+%1double" ij.macro.Functions#getNextArg()D*
+ij.macro.Functions2getNextArg()¿
+Ω
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¡9 ¡9(
+%2java.lang.String"/ij.macro.Functions#getTitle()Ljava/lang/String;*
+ij.macro.Functionsö
+ó
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¡9 ¡9(
+titlejava.lang.String"__id*
+
+%2java.lang.StringÑ
+Å
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¬9 ¬9(*
+%3ij.measure.ResultsTable"Oij.macro.Functions#getResultsTable(Ljava/lang/String;)Lij/measure/ResultsTable;*
+ij.macro.Functions*
+
+titlejava.lang.String•
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¬9 ¬9(+
+rtij.measure.ResultsTable"__id*
+
+%3ij.measure.ResultsTable¥±
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java√9 √9(	
+%4int"ij.measure.ResultsTable#size()I*
+
+rtij.measure.ResultsTable2size()’“
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaƒ9 ƒ9(
+
+%5void"'ij.measure.ResultsTable#deleteRows(II)V*
+
+rtij.measure.ResultsTable*
+""*
+""2deleteRows(II)ª
+∏
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java≈9 ≈9(1
+%6ij.ImagePlus"0ij.WindowManager#getCurrentImage()Lij/ImagePlus;*"
+ij.WindowManagerê
+ç
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java≈9 ≈9(2
+impij.ImagePlus"__id*
+
+%6ij.ImagePlus*
+2
+1*ò
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java»9 »9(⁄◊
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java»9
+ »9(
+%8java.lang.String"4ij.measure.ResultsTable#getTitle()Ljava/lang/String;*
+
+rtij.measure.ResultsTable2
+getTitle()Û
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java»9 »9(
+
+%9void"1ij.measure.ResultsTable#show(Ljava/lang/String;)V*
+
+rtij.measure.ResultsTable*
+
+%8java.lang.String2show(Ljava/lang/String;)"d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java…9 …9(
+""B
+ij.macro.Functions

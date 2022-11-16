@@ -1,0 +1,409 @@
+
+*ij.CompositeImage#<init>(Lij/ImagePlus;I)VW
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java, ,("39*ﬁ
+25W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java> >(u
+s
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java>  >(,
+
+%17int"__id*
+""*
+19
+20*ñ
+29W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java; ;(®•
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java; ;("
+
+%16int"ij.ImageStack#getSize()I*
+
+stack2ij.ImageStack2	getSize()*
+25
+19
+20*√
+30W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java: :(«ƒ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java: :(
+%15ij.ImageStack"+ij.ImagePlus#getImageStack()Lij/ImageStack;*
+
+impij.ImagePlus2getImageStack()ì
+ê
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java: :(
+stack2ij.ImageStack"__id*
+
+%15ij.ImageStack*
+29*˜
+31W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java8 8(˚¯
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java8 8(
+%14ij.ImageStack"<ij.CompositeImage#getRGBStack(Lij/ImagePlus;)Lij/ImageStack;*
+ij.CompositeImage*
+
+impij.ImagePlus2getRGBStack(Lij/ImagePlus;)ì
+ê
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java8 8(
+stack2ij.ImageStack"__id*
+
+%14ij.ImageStack*
+29*Å
+32W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java7' 7(A´®
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java7 7(&)
+%12"java.lang.IllegalArgumentException""java.lang.IllegalArgumentExceptionÓ
+Î
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java7
+ 7(B
+%13">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V*+
+)
+%12"java.lang.IllegalArgumentException*
+RGB stacks not supported*
+0*‡
+10W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaR R(‰·
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaR R(
+%32void"+ij.ImagePlus#setFileInfo(Lij/io/FileInfo;)V*
+ij.CompositeImage*
+
+fiij.io.FileInfo2setFileInfo(Lij/io/FileInfo;)˜Ù
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaS S('
+%33java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+impij.ImagePlus*
+Info2getProperty(Ljava/lang/String;)ó
+î
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaS S((
+infojava.lang.Object"__id*
+
+%33java.lang.Object*
+8
+9*°
+33W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java6 6(
+∑¥
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java6 6(
+
+%11int"!ij.ImagePlus#getImageStackSize()I*
+
+impij.ImagePlus2getImageStackSize()*
+31
+32*†
+11W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaO O(ú
+ô
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaP P(
+%31byte[][]"__id*'*%
+
+fiij.io.FileInfo"
+channelLutsõ
+ò
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaP P($
+ij.CompositeImage"
+channelLuts"__id*
+
+%31byte[][]*
+10*õ
+34W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java3 3(É
+Ä
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java3 3(
+stack2ij.ImageStack"__id*
+""´®
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java4 4(#
+
+%10int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()*
+30
+33*û
+12W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaK K(
+√¿
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaK K(
+%26java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+impij.ImagePlus2
+getTitle()ûõ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaK K("
+%27void"9ij.ImagePlus#setStack(Ljava/lang/String;Lij/ImageStack;)V*
+ij.CompositeImage*
+
+%26java.lang.String*
+
+stack2ij.ImageStack2+setStack(Ljava/lang/String;Lij/ImageStack;)€ÿ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaL L(%
+%28ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()ÉÄ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaL L(&
+%29void"6ij.ImagePlus#setCalibration(Lij/measure/Calibration;)V*
+ij.CompositeImage*
+
+%28ij.measure.Calibration2(setCalibration(Lij/measure/Calibration;)’“
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaM M()
+%30ij.io.FileInfo"2ij.ImagePlus#getOriginalFileInfo()Lij/io/FileInfo;*
+
+impij.ImagePlus2getOriginalFileInfo()ë
+é
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaM M(*
+fiij.io.FileInfo"__id*
+
+%30ij.io.FileInfo*
+10
+11*À
+35W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java2 2(´
+®
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java2 2(1
+%4java.lang.String"__concat*
+CompositeImage: *
+
+impij.ImagePlusü
+ú
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java2 2(5
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+ †
+ù
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java2 2(:
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+""ü
+ú
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java2 2(>
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+ †
+ù
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java2 2(G
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+""≠
+™
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java2 2(H
+
+%9void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%8java.lang.String*
+34*¥
+13W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaJ J(ŒÀ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaJ J( 
+%25void" ij.ImagePlus#setDimensions(III)V*
+ij.CompositeImage*
+""*
+""*
+""2setDimensions(III)*
+12*√
+36W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java/ /(¨©
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java0 0(#	
+%2int"ij.ImagePlus#getNChannels()I*
+
+impij.ImagePlus2getNChannels()™ß
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java1 1(	
+%3int"ij.ImagePlus#getBitDepth()I*
+ij.CompositeImage2getBitDepth()*
+35
+34*≤
+14W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaH H(Ã…
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaH H(1
+%24void" ij.ImagePlus#setDimensions(III)V*
+ij.CompositeImage*
+""*
+""*22setDimensions(III)*
+12*Ÿ
+38W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java- -(t
+r
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java- -(&	
+%1int"__id*
+""*
+36*ø
+16W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaD D(©¶
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaE
+ E(
+
+%22int"ij.ImagePlus#getNSlices()I*
+
+impij.ImagePlus2getNSlices()©¶
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaF
+ F(
+
+%23int"ij.ImagePlus#getNFrames()I*
+
+impij.ImagePlus2getNFrames()*
+13
+14*›
+39W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java- -(
+t
+r
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java- -(	
+%0int"__id*
+""*
+36
+38*⁄
+18W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaB B(!u
+s
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaB" B(.
+
+%21int"__id*
+""*
+16*ﬁ
+19W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaB B(
+u
+s
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaB B(
+
+%20int"__id*
+""*
+16
+18*u
+0 "n
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaa a(
+implicit return*®
+1W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java` `(ƒ¡
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java` `(
+%44void"$ij.ImagePlus#setOpenAsHyperStack(Z)V*
+ij.CompositeImage*22setOpenAsHyperStack(Z)*
+0*ò
+2W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java] ](≥∞
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java]	 ](
+%40
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()œÃ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java] ](
+%41void""ij.ImagePlus#setRoi(Lij/gui/Roi;)V*
+ij.CompositeImage*
+
+%40
+ij.gui.Roi2setRoi(Lij/gui/Roi;)√¿
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java^ ^(
+%42ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+impij.ImagePlus2getOverlay()„‡
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.java^ ^(
+%43void"*ij.ImagePlus#setOverlay(Lij/gui/Overlay;)V*
+ij.CompositeImage*
+
+%42ij.gui.Overlay2setOverlay(Lij/gui/Overlay;)*
+0
+1*€
+6W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaX X(u
+s
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaX X(
+
+%39int"__id*
+""*
+2
+6*≤
+8W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaV V(ﬁ€
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaV V(*
+%36java.lang.String[]"6ij.ImagePlus#getPropertiesAsArray()[Ljava/lang/String;*
+
+impij.ImagePlus2getPropertiesAsArray()Û
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaV V(+
+%37void"0ij.ImagePlus#setProperties([Ljava/lang/String;)V*
+ij.CompositeImage*
+
+%36java.lang.String[]2"setProperties([Ljava/lang/String;)u
+s
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaW W(
+
+%38int"__id*
+""*
+2
+6*˜
+9W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaU U(˜Ù
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaU U(.
+%34java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+
+impij.ImagePlus*
+Info2getProperty(Ljava/lang/String;)ôñ
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaU U(/
+%35void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+ij.CompositeImage*
+Info*
+
+%34java.lang.Object21setProperty(Ljava/lang/String;Ljava/lang/Object;)*
+8*ã
+20W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaA& A(J´®
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaA A(%)
+%18"java.lang.IllegalArgumentException""java.lang.IllegalArgumentException¯
+ı
+W
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/CompositeImage.javaA	 A(K
+%19">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V*+
+)
+%18"java.lang.IllegalArgumentException*&$
+"stacksize not multiple of channels*
+0:
+impij.ImagePlus:
+""B
+ij.CompositeImage

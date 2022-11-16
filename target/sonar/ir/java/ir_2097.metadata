@@ -1,0 +1,10 @@
+ij.macro.Interpreter#finishUp()V
+ij.WindowManager#setTempCurrentImage(Lij/ImagePlus;)V
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+ij.process.ColorProcessor#setWeightingFactors(DDD)V
+ij.measure.ResultsTable#getResultsTable()Lij/measure/ResultsTable;
+ij.gui.ImageWindow#setImageJMenuBar(Lij/gui/ImageWindow;)V
+ij.IJ#showProgress(II)V
+ij.IJ#setKeyUp(I)V
+ij.IJ#isMacOSX()Z
+ij.WindowManager#getFrontWindow()Ljava/awt/Frame;

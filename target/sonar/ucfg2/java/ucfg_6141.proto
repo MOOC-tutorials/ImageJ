@@ -1,0 +1,630 @@
+
+,ij.plugin.Slicer#showDialog(Lij/ImagePlus;)ZX
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaÖ	 Ö("35*ã
+24X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javañ ñ(π∂
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javañ ñ(>
+%9java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*"
+ 
+macroOptionsjava.lang.String*
+
+slice=*	
+output=20replaceAll(Ljava/lang/String;Ljava/lang/String;)ü
+ú
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javañ ñ(> 
+macroOptionsjava.lang.String"__id*
+
+%9java.lang.String∆
+√
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaó ó(!
+%10void"(ij.Macro#setOptions(Ljava/lang/String;)V*"
+
+ij.Macro*"
+ 
+macroOptionsjava.lang.String*
+22*«
+25X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaï ï(æª
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaï ï(D
+%8java.lang.String"Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*"
+ 
+macroOptionsjava.lang.String*
+
+slice=*
+slice_count=20replaceAll(Ljava/lang/String;Ljava/lang/String;)ü
+ú
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaï ï(D 
+macroOptionsjava.lang.String"__id*
+
+%8java.lang.String*
+24*œ
+26X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaî î(‰·
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaî î(%	
+%7int"-java.lang.String#indexOf(Ljava/lang/String;)I*"
+ 
+macroOptionsjava.lang.String*
+
+input=2indexOf(Ljava/lang/String;)*
+24
+25*π
+27X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaë ë(¨
+©
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaë ë(*
+%6java.lang.String"'ij.Macro#getOptions()Ljava/lang/String;*"
+
+ij.Macroü
+ú
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaë ë(+ 
+macroOptionsjava.lang.String"__id*
+
+%6java.lang.String*
+26
+23*≈
+28X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaê ê(ﬁ€
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaê ê(
+
+%5void",ij.plugin.Slicer#saveLineInfo(Lij/gui/Roi;)V*
+ij.plugin.Slicer*
+
+roi
+ij.gui.Roi2saveLineInfo(Lij/gui/Roi;)*
+27*Å
+30X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaè è(!üú
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaè è(+	
+%3int"ij.gui.Roi#getType()I*
+
+roi
+ij.gui.Roi2	getType()u
+s
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaè- è(5	
+%4int"__id*
+""*
+27
+28*Ø
+31X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaå å(≥∞
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaé é(
+%2
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()ä
+á
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaé é(
+roi
+ij.gui.Roi"__id*
+
+%2
+ij.gui.Roi*
+27
+28
+30*¶
+10X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java∏ ∏(€ÿ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java∏ ∏("
+%55java.awt.Component"5ij.gui.GenericDialog#getMessage()Ljava/awt/Component;*
+
+gdij.gui.GenericDialog2getMessage()°
+û
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java∏ ∏("
+ij.plugin.Slicer"	
+message"__id*
+
+%55java.awt.ComponentÑ
+Å
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaπ π(
+%56java.lang.String"__id*
+""ø
+º
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaπ π(4
+%57java.lang.String"__concat*
+
+%56java.lang.String*" 
+/docs/menus/image.html#resliceÛ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaπ π(5
+%58void"1ij.gui.GenericDialog#addHelp(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%57java.lang.String2addHelp(Ljava/lang/String;)∫∑
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java∫ ∫(
+%59void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()øº
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaª ª(
+%60boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+8
+9*Ÿ
+33X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaâ â(◊‘
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaâ â(
+%1java.lang.String"3ij.measure.Calibration#getUnits()Ljava/lang/String;*
+
+calij.measure.Calibration2
+getUnits()ò
+ï
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaâ â( 
+unitsjava.lang.String"__id*
+
+%1java.lang.String*
+31*Û
+11X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java∑ ∑(¢
+ü
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java∑ ∑(
+%52java.util.Vector"__id*$*"
+ij.plugin.Slicer"
+
+checkboxes÷”
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java∑ ∑(%
+%53java.lang.Object"/java.util.Vector#elementAt(I)Ljava/lang/Object;*
+
+%52java.util.Vector*22elementAt(I)éã
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java∑ ∑(<
+%54void"Ajava.awt.Checkbox#addItemListener(Ljava/awt/event/ItemListener;)V*
+
+%53java.lang.Object*
+ij.plugin.Slicer2.addItemListener(Ljava/awt/event/ItemListener;)*
+10*Ì
+12X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaµ µ(›⁄
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaµ µ(!
+%51java.util.Vector"6ij.gui.GenericDialog#getCheckboxes()Ljava/util/Vector;*
+
+gdij.gui.GenericDialog2getCheckboxes()¢
+ü
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaµ µ(!"
+ij.plugin.Slicer"
+
+checkboxes"__id*
+
+%51java.util.Vector*
+10
+11*Á
+35X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaÜ Ü(€ÿ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaÜ Ü((
+%0ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()¢
+ü
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaÜ Ü()
+calij.measure.Calibration"__id*
+
+%0ij.measure.Calibration*
+33*ˆ
+14X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java≥ ≥(û
+õ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java≥ ≥(
+%48java.util.Vector"__id* *
+ij.plugin.Slicer"
+fieldsÿ’
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java≥ ≥(#
+%49java.lang.Object"/java.util.Vector#elementAt(I)Ljava/lang/Object;*
+
+%48java.util.Vector*
+""2elementAt(I)ìê
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java≥ ≥(:
+%50void"Fjava.awt.TextComponent#addTextListener(Ljava/awt/event/TextListener;)V*
+
+%49java.lang.Object*
+ij.plugin.Slicer2.addTextListener(Ljava/awt/event/TextListener;)*
+15*≤
+15X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java≤ ≤(û
+õ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java≤ ≤(
+%46java.util.Vector"__id* *
+ij.plugin.Slicer"
+fields¶£
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java≤ ≤( 
+
+%47int"java.util.Vector#size()I*
+
+%46java.util.Vector2size()*
+14
+12*ú)
+17X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¶ ¶(ˇ¸
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¶ ¶()
+%22void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Flip vertically*
+""2 addCheckbox(Ljava/lang/String;Z)Å˛
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaß ß(-
+%23void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Rotate 90 degrees*
+""2 addCheckbox(Ljava/lang/String;Z)ÉÄ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java® ®(6
+%24void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Avoid interpolation*
+""2 addCheckbox(Ljava/lang/String;Z)Ã…
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java© ©(
+%25void"$ij.gui.GenericDialog#setInsets(III)V*
+
+gdij.gui.GenericDialog*2 *2 *2 2setInsets(III)˘ˆ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java™ ™((
+%26void"4ij.gui.GenericDialog#addMessage(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+(use 1 pixel spacing)2addMessage(Ljava/lang/String;)Ã…
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java´ ´(
+%27void"$ij.gui.GenericDialog#setInsets(III)V*
+
+gdij.gui.GenericDialog*2*2 *2 2setInsets(III)«ƒ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¨ ¨(2
+%28java.lang.String")ij.plugin.Slicer#d2s(D)Ljava/lang/String;*
+ij.plugin.Slicer*
+""2d2s(D)≠
+™
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¨ ¨(2
+%29java.lang.String"__concat*
+Voxel size: *
+
+%28java.lang.String¢
+ü
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¨ ¨(6
+%30java.lang.String"__concat*
+
+%29java.lang.String*
+x«ƒ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¨7 ¨(K
+%31java.lang.String")ij.plugin.Slicer#d2s(D)Ljava/lang/String;*
+ij.plugin.Slicer*
+""2d2s(D)∂
+≥
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¨ ¨(K
+%32java.lang.String"__concat*
+
+%30java.lang.String*
+
+%31java.lang.String¢
+ü
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¨ ≠(
+%33java.lang.String"__concat*
+
+%32java.lang.String*
+x«ƒ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java≠ ≠(
+%34java.lang.String")ij.plugin.Slicer#d2s(D)Ljava/lang/String;*
+ij.plugin.Slicer*
+""2d2s(D)∂
+≥
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¨ ≠(
+%35java.lang.String"__concat*
+
+%33java.lang.String*
+
+%34java.lang.String¢
+ü
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¨ ≠(
+%36java.lang.String"__concat*
+
+%35java.lang.String*
+ ÷”
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java≠  ≠(-
+%37java.lang.String"2ij.measure.Calibration#getUnit()Ljava/lang/String;*
+
+calij.measure.Calibration2	getUnit()∂
+≥
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¨ ≠(-
+%38java.lang.String"__concat*
+
+%36java.lang.String*
+
+%37java.lang.String˘ˆ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¨ ≠(.
+%39void"4ij.gui.GenericDialog#addMessage(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%38java.lang.String2addMessage(Ljava/lang/String;)Ã…
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaÆ Æ(
+%40void"$ij.gui.GenericDialog#setInsets(III)V*
+
+gdij.gui.GenericDialog*2*2 *2 2setInsets(III)„‡
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaØ  Ø(R
+%41java.lang.String"/ij.plugin.Slicer#getSize(DDI)Ljava/lang/String;*
+ij.plugin.Slicer*
+""*
+""*
+""2getSize(DDI)Æ
+´
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaØ Ø(R
+%42java.lang.String"__concat*
+Output size: *
+
+%41java.lang.String•
+¢
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaØ Ø(Y
+%43java.lang.String"__concat*
+
+%42java.lang.String*
+				˘ˆ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaØ Ø(Z
+%44void"4ij.gui.GenericDialog#addMessage(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%43java.lang.String2addMessage(Ljava/lang/String;)„‡
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java∞ ∞( 
+%45java.util.Vector"9ij.gui.GenericDialog#getNumericFields()Ljava/util/Vector;*
+
+gdij.gui.GenericDialog2getNumericFields()û
+õ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java∞ ∞( 
+ij.plugin.Slicer"
+fields"__id*
+
+%45java.util.Vector*
+15
+12*ˇ
+18X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java• •(Ü
+É
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java• •(#
+%19java.lang.String[]"__id*
+""ü
+ú
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java•% •(,
+%20java.lang.String"__id*!*
+ij.plugin.Slicer"	
+startAtÌÍ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java• •(-
+%21void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+	Start at:*
+
+%19java.lang.String[]*
+
+%20java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)*
+17*Ò
+19X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java£ £(äá
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java£ £(6
+%18void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+Slice_count:*
+""*2 2%addNumericField(Ljava/lang/String;DI)*
+17*¡
+1X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaŒ	 Œ("b
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaŒ Œ(
+""*ß
+2X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java» »(ü
+ú
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java… …(
+%69java.lang.String"__id*!*
+ij.plugin.Slicer"	
+startAt†
+ù
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java… …( 
+ij.plugin.Slicer"
+
+startAtS"__id*
+
+%69java.lang.String*
+1*Ω
+3X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaƒ	 ƒ(≈¬
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaƒ	 ƒ(
+%66boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()≈¬
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java≈ ≈(
+%67boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()≈¬
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java∆ ∆(%
+%68boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+2
+1*‰
+4X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java√ √(›⁄
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java√ √(
+%65java.lang.String"6ij.gui.GenericDialog#getNextChoice()Ljava/lang/String;*
+
+gdij.gui.GenericDialog2getNextChoice()ü
+ú
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java√ √(
+ij.plugin.Slicer"	
+startAt"__id*
+
+%65java.lang.String*
+3*µ
+5X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¡ ¡(–Õ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¡ ¡(
+%64void""ij.ImagePlus#setRoi(Lij/gui/Roi;)V*
+
+impij.ImagePlus*
+
+roi
+ij.gui.Roi2setRoi(Lij/gui/Roi;)*
+3*¥
+7X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaø ø(¬ø
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaø ø()
+%62double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()ä
+á
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¿ ¿(
+%63boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+5*™
+8X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaΩ Ω(¬ø
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaΩ Ω(%
+%61double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()*
+4
+7*¡
+9X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaº
+ º("b
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaº º(
+""*Ò
+21X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¢ ¢(
+ä
+á
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java¢ ¢(
+%17boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+19*’	
+22X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaü' ü(0êç
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaü ü(&
+%12ij.gui.GenericDialog"ij.gui.GenericDialog¬
+ø
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaü ü(1
+%13"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%12ij.gui.GenericDialog*	
+Resliceû
+õ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaü ü(2
+gdij.gui.GenericDialog"__id*
+
+%12ij.gui.GenericDialog≥
+∞
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java† †(-
+%14java.lang.String"__concat*
+Output spacing (*
+
+unitsjava.lang.String£
+†
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java† †(2
+%15java.lang.String"__concat*
+
+%14java.lang.String*
+):ïí
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.java† †(E
+%16void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+
+%15java.lang.String*
+""*22%addNumericField(Ljava/lang/String;DI)*
+18
+21*©
+23X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaö ö(†
+ù
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaö ö(
+%11java.lang.String"__id*"* 
+ij.plugin.Slicer"
+
+startAtSü
+ú
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Slicer.javaö ö(
+ij.plugin.Slicer"	
+startAt"__id*
+
+%11java.lang.String*
+22:
+impij.ImagePlusB
+ij.plugin.Slicer

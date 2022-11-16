@@ -1,0 +1,79 @@
+
+Fij.plugin.filter.StackLabeler#setup(Ljava/lang/String;Lij/ImagePlus;)Ic
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java% %("7"1*¨
+2c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java* *(&¸µ
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java+, +(>	
+%6int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+1*ù
+3c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java* *(&€
+~
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java* *(&	
+%5int"__id*
+""†
+ƒ
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java* *(&	
+%3int"__id*
+	
+%5int*
+2*ö
+4c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java* *(†
+ƒ
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java* *(	
+%3int"__id*
+	
+%4int*
+2*ü
+5c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java) )(ÎË
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java) )(!
+%2ij.gui.Overlay")ij.ImagePlus#getOverlay()Lij/gui/Overlay;*
+
+impij.ImagePlus2getOverlay()¸
+µ
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java) )(!0
+ij.plugin.filter.StackLabeler"
+baseOverlay"__id*
+
+%2ij.gui.Overlay*
+3
+4*ò
+7c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java' '(ÈÅ
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java' '( 
+%0ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+impij.ImagePlus2
+getStack()·´
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java' '(,
+%1boolean"ij.ImageStack#isVirtual()Z*
+
+%0ij.ImageStack2isVirtual()*
+5*‰
+1c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java- -(¯
+¬
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java- -((
+ij.plugin.filter.StackLabeler"
+imp"__id*
+
+impij.ImagePlus"m
+c
+Y/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/StackLabeler.java. .(
+"":
+argjava.lang.String:
+impij.ImagePlusB!
+ij.plugin.filter.StackLabeler

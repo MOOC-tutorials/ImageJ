@@ -1,0 +1,329 @@
+
+Aij.plugin.frame.SyncWindows#buildWindowList()Ljava/awt/Component;c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaÜ Ü($"21*•
+13c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaù ù(µ
+≤
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaù ù(
+%6java.util.Vector"__id*-*+
+ij.plugin.frame.SyncWindows"
+
+vListMap—
+Œ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaù ù(4
+%7java.lang.Integer"/java.lang.Integer#valueOf(I)Ljava/lang/Integer;*"
+java.lang.Integer*
+""˚¯
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaù ù(5
+
+%8void"0java.util.Vector#addElement(Ljava/lang/Object;)V*
+
+%6java.util.Vector*
+
+%7java.lang.Integer2addElement(Ljava/lang/Object;)Ø
+¨
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaû û(	
+%9java.awt.List"__id***(
+ij.plugin.frame.SyncWindows"
+wListœÃ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaû û(
+%10java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+impij.ImagePlus2
+getTitle()ËÂ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaû û(
+%11void"&java.awt.List#add(Ljava/lang/String;)V*
+
+%9java.awt.List*
+
+%10java.lang.String2add(Ljava/lang/String;)≥
+∞
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaü	 ü(
+%12java.util.Vector"__id***(
+ij.plugin.frame.SyncWindows"
+vwins*
+15
+9
+12*€
+15c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaõ õ(!∆
+√
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaõ õ(7
+%5ij.ImagePlus"*ij.WindowManager#getImage(I)Lij/ImagePlus;*"
+ij.WindowManager*
+""ô
+ñ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaõ õ(8
+impij.ImagePlus"__id*
+
+%5ij.ImagePlus*
+13
+15
+9*ÿ
+17c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javañ ñ(!åâ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javañ ñ(
+%1java.awt.List"java.awt.ListÆ
+´
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javañ ñ((
+%2"java.awt.List#<init>(IZ)V*
+
+%1java.awt.List*
+""*2Ø
+¨
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javañ ñ(((
+ij.plugin.frame.SyncWindows"
+wList"__id*
+
+%1java.awt.Listíè
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaó ó(
+%3java.util.Vector"java.util.Vector§
+°
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaó ó(
+%4"java.util.Vector#<init>()V*
+
+%3java.util.Vectorµ
+≤
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaó ó(+
+ij.plugin.frame.SyncWindows"
+
+vListMap"__id*
+
+%3java.util.Vector*
+15
+9*ﬁ	
+1c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java≥ ≥(2èå
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java≥ ≥(
+%34java.awt.Label"java.awt.Labelœ
+Ã
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java≥ ≥(3
+%35"*java.awt.Label#<init>(Ljava/lang/String;)V*
+
+%34java.awt.Label*
+No windows to select.†
+ù
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java≥ ≥(4
+labeljava.awt.Label"__id*
+
+%34java.awt.Label†
+ù
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java¥ ¥((
+ij.plugin.frame.SyncWindows"
+wList"__id*
+""£
+†
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaµ µ(+
+ij.plugin.frame.SyncWindows"
+
+vListMap"__id*
+""†
+ù
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java∂ ∂((
+ij.plugin.frame.SyncWindows"
+vwins"__id*
+"""Ä
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java∑ ∑(
+
+labeljava.awt.Label*»
+
+2c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java≠ ≠(∞
+≠
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java≠ ≠(
+%29java.awt.List"__id***(
+ij.plugin.frame.SyncWindows"
+wListùö
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java≠ ≠(
+%30void"=java.awt.List#addItemListener(Ljava/awt/event/ItemListener;)V*
+
+%29java.awt.List*
+ij.plugin.frame.SyncWindows2.addItemListener(Ljava/awt/event/ItemListener;)∞
+≠
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaÆ Æ(
+%31java.awt.List"__id***(
+ij.plugin.frame.SyncWindows"
+wList•¢
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaÆ Æ( 
+%32void"Ajava.awt.List#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+%31java.awt.List*
+ij.plugin.frame.SyncWindows22addActionListener(Ljava/awt/event/ActionListener;)∞
+≠
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java∞ ∞(
+%33java.awt.List"__id***(
+ij.plugin.frame.SyncWindows"
+wList"}
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java∞ ∞(
+
+%33java.awt.List*¯
+4c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaß ß(≥
+∞
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaß ß(
+%27java.util.Vector"__id***(
+ij.plugin.frame.SyncWindows"
+vwins“œ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaß ß(
+%28void"$java.util.Vector#removeElementAt(I)V*
+
+%27java.util.Vector*
+""2removeElementAt(I)*
+6*ƒ
+5c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java¶
+ ¶(∂
+≥
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java¶
+ ¶(
+%23java.util.Vector"__id*-*+
+ij.plugin.frame.SyncWindows"
+
+vListMap≥
+∞
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java¶ ¶(!
+%24java.util.Vector"__id***(
+ij.plugin.frame.SyncWindows"
+vwins„‡
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java¶ ¶(.
+%25java.lang.Object"/java.util.Vector#elementAt(I)Ljava/lang/Object;*
+
+%24java.util.Vector*
+""2elementAt(I)¸˘
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java¶
+ ¶(/
+%26boolean".java.util.Vector#contains(Ljava/lang/Object;)Z*
+
+%23java.util.Vector*
+
+%25java.lang.Object2contains(Ljava/lang/Object;)*
+4
+6*⁄
+6c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java• •(≥
+∞
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java• •(
+%21java.util.Vector"__id***(
+ij.plugin.frame.SyncWindows"
+vwins±Æ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java• •( 
+
+%22int"java.util.Vector#size()I*
+
+%21java.util.Vector2size()*
+2
+5*⁄
+8c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java§ §(≥
+∞
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java§ §(
+%19java.util.Vector"__id***(
+ij.plugin.frame.SyncWindows"
+vwins±Æ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java§ §($
+
+%20int"java.util.Vector#size()I*
+
+%19java.util.Vector2size()*
+2
+6*¶
+9c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java§ §(≥
+∞
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java§ §(
+%18java.util.Vector"__id***(
+ij.plugin.frame.SyncWindows"
+vwins*
+2
+8*†
+21c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaá á(´
+®
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaã ã(,
+%0int[]"ij.WindowManager#getIDList()[I*"
+ij.WindowManager*
+17
+1*‚
+11c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java† †(
+∞
+≠
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java† †(
+
+%16java.awt.List"__id***(
+ij.plugin.frame.SyncWindows"
+wList∫∑
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.java† †(
+%17void"java.awt.List#select(I)V*
+
+%16java.awt.List*
+""2	select(I)*
+15
+9*Å
+12c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaü ü(≥
+∞
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaü ü(
+%13java.util.Vector"__id***(
+ij.plugin.frame.SyncWindows"
+vwins“
+œ
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaü) ü(E
+%14java.lang.Integer"/java.lang.Integer#valueOf(I)Ljava/lang/Integer;*"
+java.lang.Integer*
+""˝˙
+c
+W/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/SyncWindows.javaü ü(F
+%15boolean".java.util.Vector#contains(Ljava/lang/Object;)Z*
+
+%13java.util.Vector*
+
+%14java.lang.Integer2contains(Ljava/lang/Object;)*
+15
+9
+11B
+ij.plugin.frame.SyncWindows

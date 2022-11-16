@@ -1,0 +1,111 @@
+
+Cij.gui.GUI#showCompositeAdvisory(Lij/ImagePlus;Ljava/lang/String;)ZR
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java† †(/"2"5*µ
+2R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java¢ ¢("\
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java¢ ¢(
+""*Í
+3R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java°W °(Yà
+Ö
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java°W °(h
+%3boolean"ij.IJ#macroRunning()Z*	"
+ij.IJ*
+2
+1*â
+4R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java°> °(Aß§
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java°> °(P	
+%2int"ij.ImagePlus#getNChannels()I*
+
+impij.ImagePlus2getNChannels()*
+2
+3*Ç
+5R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java° °(Ø¨
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java° °(,	
+%0int" ij.ImagePlus#getCompositeMode()I*
+
+impij.ImagePlus2getCompositeMode()o
+m
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java°. °(:	
+%1int"__id*
+""*
+2
+4*°
+1R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java£ £(óî
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java£ £('	
+%4int"ij.ImagePlus#getC()I*
+
+impij.ImagePlus2getC()î
+ë
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java£ £('
+%5java.lang.String"__concat*
+
+Channel *
+	
+%4int 
+«
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java£ £([
+%6java.lang.String"__concat*
+
+%5java.lang.String*53
+1 of this color composite image will be processed.ê
+ç
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java£ £(\
+msgjava.lang.String"__id*
+
+%6java.lang.StringâÜ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java§ §(&
+%7ij.gui.GenericDialog"ij.gui.GenericDialog 
+«
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java§ §(-
+%8"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%7ij.gui.GenericDialog*
+
+titlejava.lang.Stringó
+î
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java§ §(.
+gdij.gui.GenericDialog"__id*
+
+%7ij.gui.GenericDialogÚÔ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java• •(
+
+%9void"4ij.gui.GenericDialog#addMessage(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+msgjava.lang.String2addMessage(Ljava/lang/String;)¥±
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.java¶ ¶(
+%10void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()π∂
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaß
+ ß(
+%11boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()"\
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/GUI.javaß ß(
+"":
+impij.ImagePlus:
+titlejava.lang.StringB"
+
+ij.gui.GUI

@@ -1,0 +1,190 @@
+
+@ij.plugin.RoiScaler#scaleShape(Lij/gui/ShapeRoi;DDZ)Lij/gui/Roi;Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javax x("13*ú
+13Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javay y(À»
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javay y(
+%0java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roiij.gui.ShapeRoi2getBounds()ô
+ñ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javay y( 
+rjava.awt.Rectangle"__id*
+
+%0java.awt.Rectangle∆√
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaz z(
+%1java.awt.Shape"*ij.gui.ShapeRoi#getShape()Ljava/awt/Shape;*
+
+roiij.gui.ShapeRoi2
+getShape()ï
+í
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaz z(
+shapejava.awt.Shape"__id*
+
+%1java.awt.Shape¢ü
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java{ {(*#
+%2java.awt.geom.AffineTransform"java.awt.geom.AffineTransform¥
+±
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java{ {(,
+%3"'java.awt.geom.AffineTransform#<init>()V*%
+#
+%2java.awt.geom.AffineTransform∞
+≠
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java{ {(-#
+atjava.awt.geom.AffineTransform"__id*%
+#
+%2java.awt.geom.AffineTransform÷”
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java| |(
+
+%4void"(java.awt.geom.AffineTransform#scale(DD)V*%
+#
+atjava.awt.geom.AffineTransform*
+""*
+""2	scale(DD)*
+11
+12*•
+2[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaâ â(Ω∫
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaâ â($
+%18void"ij.gui.Roi#setStrokeWidth(D)V*
+
+roi2
+ij.gui.Roi*
+""2setStrokeWidth(D)*
+1*ã
+3[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÜ Ü(Â‚
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÜ Ü(
+%16void"(ij.gui.Roi#copyAttributes(Lij/gui/Roi;)V*
+
+roi2
+ij.gui.Roi*
+
+roiij.gui.ShapeRoi2copyAttributes(Lij/gui/Roi;)∏µ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaá á(%
+%17float"ij.gui.Roi#getStrokeWidth()F*
+
+roiij.gui.ShapeRoi2getStrokeWidth()*
+2
+1*©
+4[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÉ É(E¡æ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÑ Ñ(!
+%15void"ij.gui.Roi#setLocation(II)V*
+
+roi2
+ij.gui.Roi*
+""*
+""2setLocation(II)*
+3*Î
+5[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÉA É(BÉ
+Ä
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÉA É(D
+%12double"__id*
+
+
+%14int*
+4*Ó
+6[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÉ É(Ü
+É
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÉ É(@
+%12double"__id*
+
+%13double*
+4*Ï
+8[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÇ? Ç(@Å
+
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÇ? Ç(B
+%9double"__id*
+
+
+%11int*
+5
+6*
+9[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÇ Ç(Ö
+Ç
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÇ Ç(>
+%9double"__id*
+
+%10double*
+5
+6*®
+11Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java (∏µ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java (1
+%6java.awt.Shape"Vjava.awt.geom.AffineTransform#createTransformedShape(Ljava/awt/Shape;)Ljava/awt/Shape;*%
+#
+atjava.awt.geom.AffineTransform*
+
+shapejava.awt.Shape2(createTransformedShape(Ljava/awt/Shape;)ñ
+ì
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java (2
+shape2java.awt.Shape"__id*
+
+%6java.awt.ShapeàÖ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÄ Ä(
+%7ij.gui.ShapeRoi"ij.gui.ShapeRoi∆
+√
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÄ Ä(!
+%8")ij.gui.ShapeRoi#<init>(Ljava/awt/Shape;)V*
+
+%7ij.gui.ShapeRoi*
+
+shape2java.awt.Shapeì
+ê
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaÄ Ä("
+roi2
+ij.gui.Roi"__id*
+
+%7ij.gui.ShapeRoi*	
+3
+8
+9*∆
+12Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java~ ~(ﬁ€
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.java~ ~(
+
+%5void",java.awt.geom.AffineTransform#translate(DD)V*%
+#
+atjava.awt.geom.AffineTransform*
+""*
+""2translate(DD)*
+11*’
+1[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaä	 ä("s
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaä ä(
+
+roi2
+ij.gui.Roi:
+roiij.gui.ShapeRoi:
+"":
+"":
+""B"
+ij.plugin.RoiScaler

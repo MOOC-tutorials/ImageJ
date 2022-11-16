@@ -1,0 +1,143 @@
+
+2ij.io.Opener#openFFT(Lij/ImagePlus;)Lij/ImagePlus;T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaï ï("1*Û#
+1T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javağ ğ(ÙÖ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javağ ğ((
+%0ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()£
+ 
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javağ ğ()
+ipij.process.ImageProcessor"__id*!
+
+%0ij.process.ImageProcessor~|
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javañ ñ(
+%1ij.process.FHT"ij.process.FHTÖ
+Ó
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javañ ñ(
+%2"4ij.process.FHT#<init>(Lij/process/ImageProcessor;Z)V*
+
+%1ij.process.FHT*!
+
+ipij.process.ImageProcessor*2
+‹
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javañ ñ(
+fhtij.process.FHT"__id*
+
+%1ij.process.FHTåâ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaò ò(,
+%3ij.process.ImageProcessor"<ij.process.FHT#getPowerSpectrum()Lij/process/ImageProcessor;*
+
+fhtij.process.FHT2getPowerSpectrum()£
+ 
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaò ò(-
+psij.process.ImageProcessor"__id*!
+
+%3ij.process.ImageProcessor¿¼
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaó! ó(/
+%4java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+impij.ImagePlus2
+getTitle()zx
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaó ó( 
+%5ij.ImagePlus"ij.ImagePlus÷
+ô
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaó ó(4
+%6"Cij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%5ij.ImagePlus*
+
+%4java.lang.String*!
+
+psij.process.ImageProcessor‹
+ˆ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaó ó(5
+imp2ij.ImagePlus"__id*
+
+%5ij.ImagePlus“
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaô ô(
+
+%7void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+
+imp2ij.ImagePlus*
+FHT*
+
+fhtij.process.FHT21setProperty(Ljava/lang/String;Ljava/lang/Object;)ÍÊ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaõ õ(0
+%8java.lang.String"0ij.ImagePlus#getInfoProperty()Ljava/lang/String;*
+
+impij.ImagePlus2getInfoProperty()•’
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaõ õ(1
+
+%9void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+
+imp2ij.ImagePlus*
+Info*
+
+%8java.lang.String21setProperty(Ljava/lang/String;Ljava/lang/Object;)éæ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaö ö(;
+%10double"4ij.ImagePlus#getNumericProperty(Ljava/lang/String;)D*
+
+imp2ij.ImagePlus*	
+width2&getNumericProperty(Ljava/lang/String;)êç
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java÷ ÷(=
+%11double"4ij.ImagePlus#getNumericProperty(Ljava/lang/String;)D*
+
+imp2ij.ImagePlus*
+
+height2&getNumericProperty(Ljava/lang/String;)ìé
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaø ø(A
+%12double"4ij.ImagePlus#getNumericProperty(Ljava/lang/String;)D*
+
+imp2ij.ImagePlus*
+
+bitdepth2&getNumericProperty(Ljava/lang/String;)õò
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaù ù(- 
+%13java.awt.image.ColorModel"Dij.process.ImageProcessor#getColorModel()Ljava/awt/image/ColorModel;*!
+
+ipij.process.ImageProcessor2getColorModel()²
+¯
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaù ù(--
+
+fhtij.process.FHT"
+originalColorModel"__id*"
+ 
+%13java.awt.image.ColorModelØÕ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaú ú(*
+%14ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()ş
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaú ú(+
+%15void"6ij.ImagePlus#setCalibration(Lij/measure/Calibration;)V*
+
+imp2ij.ImagePlus*
+
+%14ij.measure.Calibration2(setCalibration(Lij/measure/Calibration;)"n
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaû û(
+
+imp2ij.ImagePlus:
+impij.ImagePlusB
+ij.io.Opener

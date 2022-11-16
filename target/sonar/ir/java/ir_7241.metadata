@@ -1,0 +1,9 @@
+ij.gui.ImageWindow#windowActivated(Ljava/awt/event/WindowEvent;)V
+ij.plugin.PointToolOptions#update()V
+ij.plugin.frame.Channels#updateChannels()V
+ij.macro.Interpreter#isBatchMode()Z
+ij.gui.ImageWindow#setImageJMenuBar(Lij/gui/ImageWindow;)V
+ij.IJ#getInstance()Lij/ImageJ;
+ij.IJ#log(Ljava/lang/String;)V
+ij.IJ#isMacOSX()Z
+ij.WindowManager#setCurrentWindow(Lij/gui/ImageWindow;)V

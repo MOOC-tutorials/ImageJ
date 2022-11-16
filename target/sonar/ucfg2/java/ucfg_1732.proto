@@ -1,0 +1,78 @@
+
+0ij.gui.Plot#labelsInBraces(C)[Ljava/lang/String;S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÊ
+ Ê("4*ˇ
+2S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÈ È(¢ü
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÈ$ È(.	
+%3int"java.lang.String#length()I*
+
+sjava.lang.String2length()ÿ’
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÈ È(3
+%4java.lang.String"0java.lang.String#substring(II)Ljava/lang/String;*
+
+sjava.lang.String*2*
+""2substring(II)ñ
+ì
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÈ È(4
+inBracesjava.lang.String"__id*
+
+%4java.lang.StringÛ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÍ Í(+
+%5java.lang.String[]"=java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;*
+
+inBracesjava.lang.String*
+,2split(Ljava/lang/String;)õ
+ò
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÍ Í(,
+	catLabelsjava.lang.String[]"__id*
+
+%5java.lang.String[]"x
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÎ Î(!
+
+	catLabelsjava.lang.String[]*∏
+3S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaË Ë(’“
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaË Ë(*
+%2boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+sjava.lang.String*
+}2endsWith(Ljava/lang/String;)*
+2
+1*í
+4S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÁ Á(¡æ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÁ Á( 
+%0java.lang.String")ij.gui.Plot#getLabel(C)Ljava/lang/String;*
+ij.gui.Plot*
+""2getLabel(C)è
+å
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÁ Á(!
+sjava.lang.String"__id*
+
+%0java.lang.StringŸ÷
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaË Ë(
+%1boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+sjava.lang.String*
+{2startsWith(Ljava/lang/String;)*
+3
+1*∑
+1S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÌ
+ Ì("]
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Plot.javaÌ Ì(
+"":
+""B
+ij.gui.Plot

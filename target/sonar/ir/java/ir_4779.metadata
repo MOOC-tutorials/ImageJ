@@ -1,0 +1,5 @@
+ij.plugin.ThreadLister#list_group(Ljava/io/PrintWriter;Ljava/lang/ThreadGroup;Ljava/lang/String;)V
+java.lang.ThreadGroup#getName()Ljava/lang/String;
+ij.plugin.ThreadLister#print_thread_info(Ljava/io/PrintWriter;Ljava/lang/Thread;Ljava/lang/String;)V
+ij.plugin.ThreadLister#list_group(Ljava/io/PrintWriter;Ljava/lang/ThreadGroup;Ljava/lang/String;)V
+java.lang.ThreadGroup#getMaxPriority()I

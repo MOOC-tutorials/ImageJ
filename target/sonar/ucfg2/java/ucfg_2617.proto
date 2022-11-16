@@ -1,0 +1,161 @@
+
+2ij.gui.Roi#getScaledStroke()Ljava/awt/BasicStroke;R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java™ ™(&"7*Ã
+2R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaØ Ø(ï
+í
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaØ Ø(
+%4java.awt.BasicStroke"__id**
+
+ij.gui.Roi"
+stroke∏µ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.javaØ Ø(.
+%5float"$java.awt.BasicStroke#getLineWidth()F*
+
+%4java.awt.BasicStroke2getLineWidth()ï
+í
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java±! ±('
+%6java.awt.BasicStroke"__id**
+
+ij.gui.Roi"
+stroke∞≠
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java±! ±(3	
+%7int"!java.awt.BasicStroke#getEndCap()I*
+
+%6java.awt.BasicStroke2getEndCap()ï
+í
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java±5 ±(;
+%8java.awt.BasicStroke"__id**
+
+ij.gui.Roi"
+stroke¥±
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java±5 ±(I	
+%9int"#java.awt.BasicStroke#getLineJoin()I*
+
+%8java.awt.BasicStroke2getLineJoin()ñ
+ì
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java±K ±(Q
+%10java.awt.BasicStroke"__id**
+
+ij.gui.Roi"
+strokeºπ
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java±K ±(a
+%11float"%java.awt.BasicStroke#getMiterLimit()F*
+
+%10java.awt.BasicStroke2getMiterLimit()ñ
+ì
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java±c ±(i
+%12java.awt.BasicStroke"__id**
+
+ij.gui.Roi"
+strokeΩ∫
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java±c ±(x
+%13float[]"%java.awt.BasicStroke#getDashArray()[F*
+
+%12java.awt.BasicStroke2getDashArray()ó
+î
+S
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java±z ±(Ä
+%14java.awt.BasicStroke"__id**
+
+ij.gui.Roi"
+strokeª∏
+S
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java±z ±(è
+%15float"$java.awt.BasicStroke#getDashPhase()F*
+
+%14java.awt.BasicStroke2getDashPhase()äá
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java± ±(
+%16java.awt.BasicStroke"java.awt.BasicStroke˘
+ˆ
+S
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java±
+ ±(ê
+%17"%java.awt.BasicStroke#<init>(FIIF[FF)V*
+
+%16java.awt.BasicStroke*
+""*
+	
+%7int*
+	
+%9int*
+
+%11float*
+
+%13float[]*
+
+%15float"t
+S
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java± ±(ë
+
+%16java.awt.BasicStroke*±
+3R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java≠ ≠(è
+å
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java≠ ≠(
+%2ij.gui.ImageCanvas"__id**
+
+ij.gui.Roi"
+icΩ∫
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java≠ ≠($
+%3double"&ij.gui.ImageCanvas#getMagnification()D*
+
+%2ij.gui.ImageCanvas2getMagnification()*
+2
+1*„
+4R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¨
+ ¨(ï
+í
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¨
+ ¨(
+%1java.awt.BasicStroke"__id**
+
+ij.gui.Roi"
+stroke"r
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java¨ ¨(
+
+%1java.awt.BasicStroke*Ò
+7R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java´ ´(è
+å
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java´ ´(
+%0ij.gui.ImageCanvas"__id**
+
+ij.gui.Roi"
+ic*
+3
+4*Â
+1R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java≥
+ ≥(ñ
+ì
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java≥
+ ≥(
+%18java.awt.BasicStroke"__id**
+
+ij.gui.Roi"
+stroke"s
+R
+F/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Roi.java≥ ≥(
+
+%18java.awt.BasicStrokeB
+
+ij.gui.Roi

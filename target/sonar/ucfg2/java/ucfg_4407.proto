@@ -1,0 +1,69 @@
+
+/ij.io.FileSaver#saveAsFits(Ljava/lang/String;)ZW
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaË Ë("3*¿
+2W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÌ Ì(#"a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÌ Ì($
+""*À
+3W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÌ Ì(”
+‘
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÌ Ì(
+%0ij.ImagePlus"__id**
+ij.io.FileSaver"
+impÂ
+¿
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÌ Ì(
+%1boolean"*ij.io.FileSaver#okForFits(Lij/ImagePlus;)Z*"
+ij.io.FileSaver*
+
+%0ij.ImagePlus*
+2
+1*Þ
+1W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÍ Í(”
+‘
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÍ Í(
+%2ij.ImagePlus"__id**
+ij.io.FileSaver"
+imp£
+ 
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÍ Í(2
+%3java.lang.Object"Uij.IJ#runPlugIn(Lij/ImagePlus;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*	"
+ij.IJ*
+
+%2ij.ImagePlus*
+ij.plugin.FITS_Writer*
+
+pathjava.lang.String•
+’
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÎ Î(
+%4ij.io.FileInfo"__id**
+ij.io.FileSaver"
+fit
+r
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÎ Î(	
+%5int"__id*
+""Ñ
+Î
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÎ Î(
+
+%6void"-ij.io.FileSaver#updateImp(Lij/io/FileInfo;I)V*
+ij.io.FileSaver*
+
+%4ij.io.FileInfo*
+	
+%5int"a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/FileSaver.javaÏ Ï(
+"":
+pathjava.lang.StringB
+ij.io.FileSaver

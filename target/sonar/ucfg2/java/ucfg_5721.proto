@@ -1,0 +1,101 @@
+
+?ij.gui.Overlay#measure(Lij/ImagePlus;)Lij/measure/ResultsTable;V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaÖ Ö("5*¶
+3V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaÛ Û(´±
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaÛ Û(
+%6
+ij.gui.Roi"!ij.gui.Overlay#get(I)Lij/gui/Roi;*
+ij.gui.Overlay*
+""2get(I)ˆ
+…
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaÛ Û(
+roi
+ij.gui.Roi"__id*
+
+%6
+ij.gui.RoiÍÊ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaÜ Ü(
+
+%7void""ij.ImagePlus#setRoi(Lij/gui/Roi;)V*
+
+impij.ImagePlus*
+
+roi
+ij.gui.Roi2setRoi(Lij/gui/Roi;)Á¾
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaİ İ(
+
+%8void"$ij.plugin.filter.Analyzer#measure()V*'
+%
+analyzerij.plugin.filter.Analyzer2	measure()*
+4*€
+4V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaÚ Ú(š—
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaÚ Ú(	
+%5int"ij.gui.Overlay#size()I*
+ij.gui.Overlay2size()*
+3
+1*å
+
+5V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.java× ×(&“
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.java× ×($
+%0ij.measure.ResultsTable"ij.measure.ResultsTable¥
+¢
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.java× ×(&
+%1"!ij.measure.ResultsTable#<init>()V*
+
+%0ij.measure.ResultsTable¡
+
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.java× ×('
+rtij.measure.ResultsTable"__id*
+
+%0ij.measure.ResultsTableÍÊ
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaØ Ø(
+
+%2void"*ij.measure.ResultsTable#showRowNumbers(Z)V*
+
+rtij.measure.ResultsTable*22showRowNumbers(Z)—”
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaÙ Ù("
+%3ij.plugin.filter.Analyzer"ij.plugin.filter.Analyzerˆ
+…
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaÙ Ù(+
+%4"Jij.plugin.filter.Analyzer#<init>(Lij/ImagePlus;Lij/measure/ResultsTable;)V*!
+
+%3ij.plugin.filter.Analyzer*
+
+impij.ImagePlus*
+
+rtij.measure.ResultsTable«
+¨
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaÙ Ù(,%
+analyzerij.plugin.filter.Analyzer"__id*!
+
+%3ij.plugin.filter.Analyzer*
+4*ÿ
+1V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaß ß(¦£
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaß ß(
+
+%9void"ij.ImagePlus#deleteRoi()V*
+
+impij.ImagePlus2deleteRoi()"y
+V
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javaà à(
+
+rtij.measure.ResultsTable:
+impij.ImagePlusB
+ij.gui.Overlay

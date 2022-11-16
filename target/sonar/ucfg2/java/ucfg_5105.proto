@@ -1,0 +1,398 @@
+
+6ij.io.Opener#openZip(Ljava/lang/String;)Lij/ImagePlus;T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaå å("42*Ö
+24T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaó ó(ó
+ğ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaó ó(l
+%12void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*`^
+\Use roiManager(\"Open\", path) instead of open(path)\nto open ROI sets in batch mode macros.*
+22*É
+26T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaò6 ò(@â
+ß
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaò6 ò(N!
+%11ij.plugin.frame.RoiManager"Dij.plugin.frame.RoiManager#getInstance()Lij/plugin/frame/RoiManager;*"
+ij.plugin.frame.RoiManager*
+24
+23*
+28T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaò ò($¨
+¥
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaò ò(2
+%10boolean"#ij.macro.Interpreter#isBatchMode()Z*"
+ij.macro.Interpreter*
+26
+23*ì
+30T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaò	 ò(…
+‚
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaò	 ò(
+%9boolean"ij.IJ#isMacro()Z*	"
+ij.IJ*
+28
+23*£
+32T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javağ ğ(¼¹
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javağ ğ(
+
+%8void"%java.util.zip.ZipInputStream#close()V*%
+#
+zisjava.util.zip.ZipInputStream2close()*
+30
+22*
+10T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‚ ‚(¬
+©
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‚ ‚(
+%22void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+msgjava.lang.String*
+8*ß
+11T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java€ €(Xã
+à
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java€ €(]
+%21java.lang.String"__concat*IG
+EThis ZIP archive does not contain a TIFF or DICOM file, or ROIs:\n   *
+
+pathjava.lang.String“
+
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java€ €(^
+msgjava.lang.String"__id*
+
+%21java.lang.String*
+9
+10*Ù
+34T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaî î(!“
+
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaî î(!
+namejava.lang.String"__id*
+
+%6java.lang.StringÜÙ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaï ï(
+%7boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+.roi2endsWith(Ljava/lang/String;)*
+21
+32* 
+12T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaÿ ÿ(½º
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaÿ ÿ(
+%20void"%java.util.zip.ZipInputStream#close()V*%
+#
+zisjava.util.zip.ZipInputStream2close()*
+11*¶
+35T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaî î(ÓĞ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaî î( 
+%6java.lang.String"2java.util.zip.ZipEntry#getName()Ljava/lang/String;*!
+
+entryjava.util.zip.ZipEntry2	getName()*
+34*ğ
+13T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaı
+ ı(
+‹
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaı ı(
+impij.ImagePlus"__id*
+
+dcmij.plugin.DICOM*
+7*º
+36T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaì ì("^
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaì ì(
+""*Ö
+14T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaû û(‘
+
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaû û(
+dcmij.plugin.DICOM"__id*
+
+%17ij.plugin.DICOMßÜ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaü ü(
+%19void"(ij.plugin.DICOM#run(Ljava/lang/String;)V*
+
+dcmij.plugin.DICOM*
+
+namejava.lang.String2run(Ljava/lang/String;)*
+13*Ÿ
+37T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaë ë(¼¹
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaë ë(
+
+%5void"%java.util.zip.ZipInputStream#close()V*%
+#
+zisjava.util.zip.ZipInputStream2close()*
+36*¸
+15T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaû û(
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaû û(
+%17ij.plugin.DICOM"ij.plugin.DICOMÑ
+Î
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaû û(
+%18".ij.plugin.DICOM#<init>(Ljava/io/InputStream;)V*
+
+%17ij.plugin.DICOM*%
+#
+zisjava.util.zip.ZipInputStream*
+14*‡
+38T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaé é(' 
+
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaé é('
+entryjava.util.zip.ZipEntry"__id*
+
+%4java.util.zip.ZipEntry*
+35
+37*ƒ
+39T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaè è(Fª
+§
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaè è(F#
+zisjava.util.zip.ZipInputStream"__id*$
+"
+%2java.util.zip.ZipInputStreamóğ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaé é(&
+%4java.util.zip.ZipEntry"Cjava.util.zip.ZipInputStream#getNextEntry()Ljava/util/zip/ZipEntry;*%
+#
+zisjava.util.zip.ZipInputStream2getNextEntry()*
+38*Ä
+17T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaú ú(İÚ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaú ú(#
+%16boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+.dcm2endsWith(Ljava/lang/String;)*
+15
+12*í
+18T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaù ù(‹
+ˆ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaù ù(
+impij.ImagePlus"__id*
+
+%15ij.ImagePlus*
+7*§
+19T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaù
+ ù(ÄÁ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaù
+ ù(
+%15ij.ImagePlus"Lij.io.Opener#openTiff(Ljava/io/InputStream;Ljava/lang/String;)Lij/ImagePlus;*
+ij.io.Opener*%
+#
+zisjava.util.zip.ZipInputStream*
+
+namejava.lang.String21openTiff(Ljava/io/InputStream;Ljava/lang/String;)*
+18*È
+1T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java•	 •("m
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java• •(
+
+impij.ImagePlus*¹
+2T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java“ “(
+}
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java“ “((
+%32java.lang.String"__id*
+""µ
+²
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java“ “((
+%33java.lang.String"__concat*
+
+parentjava.lang.String*
+
+%32java.lang.StringŸ
+œ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java“ “((#
+
+fiij.io.FileInfo"
+	directory"__id*
+
+%33java.lang.String*
+1*
+3T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java (¼¹
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java (
+%30java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+fjava.io.File2	getName()
+›
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java ("
+
+fiij.io.FileInfo"
+
+fileName"__id*
+
+%30java.lang.StringÀ½
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‘ ‘( 
+%31java.lang.String"*java.io.File#getParent()Ljava/lang/String;*
+
+fjava.io.File2getParent()–
+“
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‘ ‘(!
+parentjava.lang.String"__id*
+
+%31java.lang.String*
+2
+1*
+4T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaŒ Œ({y
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaŒ Œ(
+%27java.io.File"java.io.File½
+º
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaŒ Œ(
+%28"(java.io.File#<init>(Ljava/lang/String;)V*
+
+%27java.io.File*
+
+pathjava.lang.String‰
+†
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaŒ Œ(
+fjava.io.File"__id*
+
+%27java.io.FileÒÏ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java ()
+%29ij.io.FileInfo"2ij.ImagePlus#getOriginalFileInfo()Lij/io/FileInfo;*
+
+impij.ImagePlus2getOriginalFileInfo()
+‹
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java (*
+fiij.io.FileInfo"__id*
+
+%29ij.io.FileInfo*
+3
+1*
+7T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‡ ‡(½º
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java‡ ‡(
+%24void"%java.util.zip.ZipInputStream#close()V*%
+#
+zisjava.util.zip.ZipInputStream2close()*
+4*¹
+8T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java… …("^
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java… …(
+""*­
+9T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java„ „(Ì
+É
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.java„ „(
+%23void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+
+Opener*
+
+msgjava.lang.String*
+8*ä
+40T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaè è(E›˜
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaè è(*"
+%2java.util.zip.ZipInputStream"java.util.zip.ZipInputStreamã
+à
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaè è(E
+%3";java.util.zip.ZipInputStream#<init>(Ljava/io/InputStream;)V*$
+"
+%2java.util.zip.ZipInputStream*
+
+%0java.io.FileInputStream*
+39*È
+41T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaè? è(C‘
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaè/ è(>
+%0java.io.FileInputStream"java.io.FileInputStreamÑ
+Î
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaè+ è(D
+%1"3java.io.FileInputStream#<init>(Ljava/lang/String;)V*
+
+%0java.io.FileInputStream*
+
+pathjava.lang.String*
+40*İ
+42T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaæ æ({
+y
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaæ æ(
+impij.ImagePlus"__id*
+""*
+41*Ä
+21T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaø ø(İÚ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaø ø(
+%14boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+.tif2endsWith(Ljava/lang/String;)*
+17
+19*º
+22T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaö ö("^
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaö ö(
+""*î
+23T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaõ õ(‹
+ˆ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/Opener.javaõ õ(?
+%13java.lang.String"Fij.IJ#runMacro(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*	"
+ij.IJ*(&
+$roiManager(\"Open\", getArgument());*
+
+pathjava.lang.String*
+22:
+pathjava.lang.StringB
+ij.io.Opener

@@ -1,0 +1,104 @@
+
+>ij.plugin.RoiScaler#scaleText(Lij/gui/TextRoi;DDZ)Lij/gui/Roi;[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaç ç("1*‚
+1[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaé é(Ã…
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaé é($
+%0java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roiij.gui.TextRoi2getBounds()†
+ù
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaé é(%
+boundsjava.awt.Rectangle"__id*
+
+%0java.awt.Rectangle¢
+ü
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaè è(*
+
+%1long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""¢
+ü
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaê ê(*
+
+%2long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""–Õ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaë ë("
+%3java.awt.Font".ij.gui.TextRoi#getCurrentFont()Ljava/awt/Font;*
+
+roiij.gui.TextRoi2getCurrentFont()î
+ë
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaë ë(#
+fontjava.awt.Font"__id*
+
+%3java.awt.Font©¶
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaí! í(/	
+%4int"java.awt.Font#getSize()I*
+
+fontjava.awt.Font2	getSize()—Œ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaí	 í(8
+%5java.awt.Font"*java.awt.Font#deriveFont(F)Ljava/awt/Font;*
+
+fontjava.awt.Font*
+""2deriveFont(F)î
+ë
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaí í(8
+fontjava.awt.Font"__id*
+
+%5java.awt.Font»≈
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaì ì(,
+%6java.lang.String"*ij.gui.TextRoi#getText()Ljava/lang/String;*
+
+roiij.gui.TextRoi2	getText()ÜÉ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaì ì(
+%7ij.gui.TextRoi"ij.gui.TextRoi˛
+˚
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaì ì(3
+%8";ij.gui.TextRoi#<init>(IILjava/lang/String;Ljava/awt/Font;)V*
+
+%7ij.gui.TextRoi*
+""*
+""*
+
+%6java.lang.String*
+
+fontjava.awt.Fontí
+è
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaì ì(4
+roi2
+ij.gui.Roi"__id*
+
+%7ij.gui.TextRoi„‡
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaî î(
+
+%9void"(ij.gui.Roi#copyAttributes(Lij/gui/Roi;)V*
+
+roi2
+ij.gui.Roi*
+
+roiij.gui.TextRoi2copyAttributes(Lij/gui/Roi;)"s
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiScaler.javaï ï(
+
+roi2
+ij.gui.Roi:
+roiij.gui.TextRoi:
+"":
+"":
+""B"
+ij.plugin.RoiScaler

@@ -1,0 +1,132 @@
+
+3ij.process.StackProcessor#crop(IIII)Lij/ImageStack;a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaä ä("5*
+3a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaé é(´
+®
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaé é(
+%2ij.ImageStack"__id*(*&
+ij.process.StackProcessor"
+stackÔÏ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaé é(-
+%3ij.process.ImageProcessor"8ij.ImageStack#getProcessor(I)Lij/process/ImageProcessor;*
+
+%2ij.ImageStack*22getProcessor(I)±
+Æ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaé é(. 
+ip1ij.process.ImageProcessor"__id*!
+
+%3ij.process.ImageProcessorÌÍ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaè è("
+
+%4void"'ij.process.ImageProcessor#setRoi(IIII)V*"
+ 
+ip1ij.process.ImageProcessor*
+""*
+""*
+""*
+""2setRoi(IIII)´
+®
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaê ê(
+%5ij.ImageStack"__id*(*&
+ij.process.StackProcessor"
+stackﬂ‹
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaê ê((
+%6java.lang.String"0ij.ImageStack#getSliceLabel(I)Ljava/lang/String;*
+
+%5ij.ImageStack*22getSliceLabel(I)°
+û
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaê ê()
+labeljava.lang.String"__id*
+
+%6java.lang.String´
+®
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaë ë(
+%7ij.ImageStack"__id*(*&
+ij.process.StackProcessor"
+stackæª
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaë ë(
+
+%8void"ij.ImageStack#deleteSlice(I)V*
+
+%7ij.ImageStack*22deleteSlice(I)Ì
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaí	 í(
+%9ij.process.ImageProcessor";ij.process.ImageProcessor#crop()Lij/process/ImageProcessor;*"
+ 
+ip1ij.process.ImageProcessor2crop()±
+Æ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaí í( 
+ip2ij.process.ImageProcessor"__id*!
+
+%9ij.process.ImageProcessor–Õ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaì ì(
+%10void"Fij.ImageStack#addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+stack2ij.ImageStack*
+
+labeljava.lang.String*"
+ 
+ip2ij.process.ImageProcessor27addSlice(Ljava/lang/String;Lij/process/ImageProcessor;)û
+õ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaî î(%
+%11void"ij.IJ#showProgress(D)V*	"
+ij.IJ*
+""*
+3
+1*‰
+5a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaã( ã(-äá
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaã ã('
+%0ij.ImageStack"ij.ImageStackÆ
+´
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaã ã(6
+%1"ij.ImageStack#<init>(II)V*
+
+%0ij.ImageStack*
+""*
+""ú
+ô
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaã ã(7
+stack2ij.ImageStack"__id*
+
+%0ij.ImageStackñ
+ì
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaå å( 
+ip2ij.process.ImageProcessor"__id*
+""*
+3
+1*á
+1a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javañ ñ(û
+õ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javañ ñ(
+%12void"ij.IJ#showProgress(D)V*	"
+ij.IJ*
+"""~
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/StackProcessor.javaó ó(
+
+stack2ij.ImageStack:
+"":
+"":
+"":
+""B
+ij.process.StackProcessor

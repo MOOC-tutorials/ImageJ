@@ -1,0 +1,13 @@
+ij.plugin.RGBStackMerge#mergeHyperstacks([Lij/ImagePlus;Z)Lij/ImagePlus;
+ij.ImageStack#instance-init#
+ij.CompositeImage#instance-init#
+ij.process.LUT#instance-init#
+ij.plugin.RGBStackMerge#isDuplicate(I[Lij/ImagePlus;)Z
+ij.process.LUT#createLutFromColor(Ljava/awt/Color;)Lij/process/LUT;
+java.lang.String#substring(I)Ljava/lang/String;
+ij.CompositeImage#<init>(Lij/ImagePlus;I)V
+ij.ImageStack#<init>(II)V
+ij.ImagePlus#instance-init#
+ij.process.LUT#<init>(Ljava/awt/image/IndexColorModel;DD)V
+ij.ImagePlus#<init>(Ljava/lang/String;Lij/ImageStack;)V
+java.lang.String#startsWith(Ljava/lang/String;)Z

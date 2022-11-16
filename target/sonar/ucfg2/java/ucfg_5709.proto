@@ -1,0 +1,62 @@
+
+,ij.gui.Overlay#getIndex(Ljava/lang/String;)IT
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javak k("6"7*¹
+3T
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javap p("^
+T
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javap p(
+""*¤
+4T
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javao o(—
+”
+T
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javao o(
+%1
+ij.gui.Roi"
+__arrayGet*
+
+roisij.gui.Roi[]*
+""¸µ
+T
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javao o($
+%2java.lang.String"&ij.gui.Roi#getName()Ljava/lang/String;*
+
+%1
+ij.gui.Roi2	getName()èå
+T
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javao o(%
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+namejava.lang.String*
+
+%2java.lang.String2equals(Ljava/lang/Object;)*	
+3
+4
+1*¥
+6T
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javam m(³°
+T
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javam m(
+%0ij.gui.Roi[]"%ij.gui.Overlay#toArray()[Lij/gui/Roi;*
+ij.gui.Overlay2	toArray()‹
+ˆ
+T
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javam m(
+roisij.gui.Roi[]"__id*
+
+%0ij.gui.Roi[]*
+4
+1*¹
+7T
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javal l("^
+T
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javal l(
+""*¹
+1T
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javar
+ r("^
+T
+J/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Overlay.javar r(
+"":
+namejava.lang.StringB
+ij.gui.Overlay

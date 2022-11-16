@@ -1,0 +1,673 @@
+
+Sij.plugin.frame.ThresholdAdjuster#doSet(Lij/ImagePlus;Lij/process/ImageProcessor;)Vi
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java— —("44*•
+24i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaË Ë(”–
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaË Ë(
+%32double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()”–
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÈ È(
+%33double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()*
+18
+21*‰
+25i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÂ Â("s
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÊ Ê(
+""*Å
+26i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‚] ‚(_‰·
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‚ ‚(f
+%29void"Nij.gui.GenericDialog#addNumericField(Ljava/lang/String;DIILjava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Upper threshold level: *
+""*
+
+
+%26int*2
+*
+""28addNumericField(Ljava/lang/String;DIILjava/lang/String;)À»
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java„ „(
+%30void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()–Õ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‰ ‰(
+%31boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+24
+25*Ü
+27i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‚Z ‚([é
+ã
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‚Y ‚([
+
+%26int"__id*
+
+
+%28int*
+26*Ü
+28i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‚P ‚(Vé
+ã
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‚P ‚(V
+
+%26int"__id*
+
+
+%27int*
+26*î
+29i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java·] ·(_‰·
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java· ·(f
+%24void"Nij.gui.GenericDialog#addNumericField(Ljava/lang/String;DIILjava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+Lower threshold level: *
+""*
+
+
+%21int*2
+*
+""28addNumericField(Ljava/lang/String;DIILjava/lang/String;)±
+Æ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‚9 ‚(I
+%25double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""*
+27
+28*Ü
+30i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java·Z ·([é
+ã
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java·Y ·([
+
+%21int"__id*
+
+
+%23int*
+29*Ü
+31i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java·P ·(Vé
+ã
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java·P ·(V
+
+%21int"__id*
+
+
+%22int*
+29*Á
+32j
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaﬂ ﬂ(Å°û
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‡ ‡('
+%18ij.gui.GenericDialog"ij.gui.GenericDialog‡
+›
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‡ ‡(?
+%19"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%18ij.gui.GenericDialog*
+Set Threshold LevelsØ
+¨
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‡ ‡(@
+gdij.gui.GenericDialog"__id*
+
+%18ij.gui.GenericDialog±
+Æ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java·9 ·(I
+%20double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""*
+30
+31*…
+10i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÜ Ü(·ﬁ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÜ8 Ü(L
+%53double",ij.process.ImageProcessor#getMinThreshold()D*!
+
+ipij.process.ImageProcessor2getMinThreshold() 
+«
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÜ1 Ü(O
+%54java.lang.String"ij.IJ#d2s(DI)Ljava/lang/String;*	"
+ij.IJ*
+
+%53double*2«
+ƒ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÜ Ü(O
+%55java.lang.String"__concat*
+IJ.setThreshold(imp, *
+
+%54java.lang.String¥
+±
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÜ Ü(T
+%56java.lang.String"__concat*
+
+%55java.lang.String*
+, ·ﬁ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÜ\ Ü(p
+%57double",ij.process.ImageProcessor#getMaxThreshold()D*!
+
+ipij.process.ImageProcessor2getMaxThreshold() 
+«
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÜU Ü(s
+%58java.lang.String"ij.IJ#d2s(DI)Ljava/lang/String;*	"
+ij.IJ*
+
+%57double*2«
+ƒ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÜ Ü(s
+%59java.lang.String"__concat*
+
+%56java.lang.String*
+
+%58java.lang.String¥
+±
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÜ Ü(x
+%60java.lang.String"__concat*
+
+%59java.lang.String*
+);Ó
+Î
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÜ Ü(y
+%61void"8ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+
+%60java.lang.String*
+0*à
+33j
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaﬂ ﬂ(Äè
+å
+j
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaﬂ ﬂ(Ä
+
+%14int"__id*
+
+
+%16int*
+32*ø
+11i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÖ Ö(ƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÖ Ö(
+%52boolean"&ij.plugin.frame.Recorder#scriptMode()Z*"
+ij.plugin.frame.Recorder*
+9
+10*ã
+34i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaﬂX ﬂ(\ƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaﬂa ﬂ(x
+
+%17int")ij.plugin.filter.Analyzer#getPrecision()I*"
+ij.plugin.filter.Analyzerª
+∏
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaﬂX ﬂ(|
+
+%15int"java.lang.Math#max(II)I*"
+java.lang.Math*
+
+
+%17int*2é
+ã
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaﬂX ﬂ(|
+
+%14int"__id*
+
+
+%15int*
+32*∏
+12i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÑ Ñ(
+Ω∫
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÑ Ñ(
+
+%51int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()*
+8
+11*’
+35i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaﬂA ﬂ(DŸ÷
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaﬂA ﬂ(T
+%13boolean"'ij.measure.Calibration#isSigned16Bit()Z*
+
+calij.measure.Calibration2isSigned16Bit()*
+33
+34*÷
+
+13i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java˝ ˝(ù
+ö
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java˝ ˝(
+%46void"ij.IJ#wait(I)V*	"
+ij.IJ*2Ù˜Ù
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java˛ ˛(+
+%47void",ij.process.ImageProcessor#setThreshold(DDI)V*!
+
+ipij.process.ImageProcessor*
+""*
+""*
+""2setThreshold(DDI)èå
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaˇ ˇ(
+%48void"@ij.process.ImageProcessor#setSnapshotPixels(Ljava/lang/Object;)V*!
+
+ipij.process.ImageProcessor*
+""2%setSnapshotPixels(Ljava/lang/Object;)øº
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÅ Å( 
+%49ij.process.ImageProcessor"Sij.plugin.frame.ThresholdAdjuster#setup(Lij/ImagePlus;Z)Lij/process/ImageProcessor;*%#
+!ij.plugin.frame.ThresholdAdjuster*
+
+impij.ImagePlus*2 2setup(Lij/ImagePlus;Z)ÌÍ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÇ Ç(
+%50void"5ij.plugin.frame.ThresholdAdjuster#updateScrollBars()V*%#
+!ij.plugin.frame.ThresholdAdjuster2updateScrollBars()*
+0
+12*ª
+39i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java€ €(⁄◊
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java€ €(!
+%11double"$ij.measure.Calibration#getCValue(D)D*
+
+calij.measure.Calibration*
+""2getCValue(D)⁄◊
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‹ ‹(!
+%12double"$ij.measure.Calibration#getCValue(D)D*
+
+calij.measure.Calibration*
+""2getCValue(D)*
+35
+33
+23
+34*Û
+18i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaˆ ˆ(ï
+í
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaˆ ˆ(
+%42void"Nij.plugin.frame.ThresholdAdjuster#resetMinAndMax(Lij/process/ImageProcessor;)V*%#
+!ij.plugin.frame.ThresholdAdjuster*!
+
+ipij.process.ImageProcessorœÃ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java˜ ˜(
+%43double"#ij.process.ImageProcessor#getMin()D*!
+
+ipij.process.ImageProcessor2getMin()œÃ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java¯ ¯(
+%44double"#ij.process.ImageProcessor#getMax()D*!
+
+ipij.process.ImageProcessor2getMax()øº
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java˘ ˘(
+
+%45int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+13*à
+0 "Ä
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaõ õ(
+implicit return*Ñ
+1i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaó ó(é
+ã
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaó ó(6
+%83void"Hij.plugin.frame.Recorder#record(Ljava/lang/String;IILjava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+setThreshold*
+""*
+""*
+raw*
+0*√
+2i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaï ï(∑
+¥
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaï ï(8
+%78java.lang.String"__concat*
+IJ.setRawThreshold(imp, *
+""¥
+±
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaï ï(=
+%79java.lang.String"__concat*
+
+%78java.lang.String*
+, ¥
+±
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaï ï(A
+%80java.lang.String"__concat*
+
+%79java.lang.String*
+""¥
+±
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaï ï(F
+%81java.lang.String"__concat*
+
+%80java.lang.String*
+);Ó
+Î
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaï ï(G
+%82void"8ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+
+%81java.lang.String*
+0*Ω
+3i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaî	 î(ƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaî	 î(
+%77boolean"&ij.plugin.frame.Recorder#scriptMode()Z*"
+ij.plugin.frame.Recorder*
+2
+1*È
+4i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaí í(Û
+
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaí í(/
+%76void"6ij.plugin.frame.Recorder#record(Ljava/lang/String;II)V*"
+ij.plugin.frame.Recorder*
+setThreshold*
+""*
+""*
+0*¿
+5i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaê ê(¥
+±
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaê ê(5
+%71java.lang.String"__concat*
+IJ.setThreshold(imp, *
+""¥
+±
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaê ê(:
+%72java.lang.String"__concat*
+
+%71java.lang.String*
+, ¥
+±
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaê ê(>
+%73java.lang.String"__concat*
+
+%72java.lang.String*
+""¥
+±
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaê ê(C
+%74java.lang.String"__concat*
+
+%73java.lang.String*
+);Ó
+Î
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaê ê(D
+%75void"8ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+
+%74java.lang.String*
+0*˜
+6i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaç ç(⁄◊
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaç ç(%
+%68double"$ij.measure.Calibration#getCValue(D)D*
+
+calij.measure.Calibration*
+""2getCValue(D)⁄◊
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaé é(%
+%69double"$ij.measure.Calibration#getCValue(D)D*
+
+calij.measure.Calibration*
+""2getCValue(D)ƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaè	 è(
+%70boolean"&ij.plugin.frame.Recorder#scriptMode()Z*"
+ij.plugin.frame.Recorder*
+4
+5*ö
+8i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaä ä(·ﬁ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaä ä('
+%65double",ij.process.ImageProcessor#getMinThreshold()D*!
+
+ipij.process.ImageProcessor2getMinThreshold()·ﬁ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaã ã('
+%66double",ij.process.ImageProcessor#getMaxThreshold()D*!
+
+ipij.process.ImageProcessor2getMaxThreshold()Ÿ÷
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaå å(
+%67boolean"'ij.measure.Calibration#isSigned16Bit()Z*
+
+calij.measure.Calibration2isSigned16Bit()*
+3
+6*√
+9i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaà à(·ﬁ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaà% à(9
+%62double",ij.process.ImageProcessor#getMinThreshold()D*!
+
+ipij.process.ImageProcessor2getMinThreshold()·ﬁ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaà; à(O
+%63double",ij.process.ImageProcessor#getMaxThreshold()D*!
+
+ipij.process.ImageProcessor2getMaxThreshold()Ö
+Ç
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaà à(P
+%64void"6ij.plugin.frame.Recorder#record(Ljava/lang/String;DD)V*"
+ij.plugin.frame.Recorder*
+setThreshold*
+
+%62double*
+
+%63double*
+0*í
+41i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaŸ, Ÿ(5√
+¿
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaŸ, Ÿ(5
+%9java.awt.Checkbox"__id*4*2#
+!ij.plugin.frame.ThresholdAdjuster"
+	rawValuesƒ¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaŸ, Ÿ(@
+%10boolean"java.awt.Checkbox#getState()Z*
+
+%9java.awt.Checkbox2
+getState()*
+35
+39
+33
+23
+34*ﬁ
+42i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaŸ Ÿ(“œ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaŸ Ÿ('
+%8boolean"$ij.measure.Calibration#calibrated()Z*
+
+calij.measure.Calibration2calibrated()*
+35
+39
+41
+33
+23
+34*£
+43i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java÷ ÷(ä
+á
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java÷ ÷(+
+%4double"__id*
+""«ƒ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java÷ ÷(,
+%5double"Hij.plugin.frame.ThresholdAdjuster#scaleUp(Lij/process/ImageProcessor;D)D*%#
+!ij.plugin.frame.ThresholdAdjuster*!
+
+ipij.process.ImageProcessor*
+
+%4double2%scaleUp(Lij/process/ImageProcessor;D)ä
+á
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java◊ ◊(+
+%6double"__id*
+""«ƒ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java◊ ◊(,
+%7double"Hij.plugin.frame.ThresholdAdjuster#scaleUp(Lij/process/ImageProcessor;D)D*%#
+!ij.plugin.frame.ThresholdAdjuster*!
+
+ipij.process.ImageProcessor*
+
+%6double2%scaleUp(Lij/process/ImageProcessor;D)*
+42*∑
+21i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÒ Ò(ﬁ€
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÒ Ò(#
+%40double"&ij.measure.Calibration#getRawValue(D)D*
+
+calij.measure.Calibration*
+""2getRawValue(D)ﬁ€
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÚ Ú(#
+%41double"&ij.measure.Calibration#getRawValue(D)D*
+
+calij.measure.Calibration*
+""2getRawValue(D)*
+18*Ò
+44i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java“ “(‡›
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java“ “(&
+%0double",ij.process.ImageProcessor#getMinThreshold()D*!
+
+ipij.process.ImageProcessor2getMinThreshold()‡›
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java” ”(&
+%1double",ij.process.ImageProcessor#getMaxThreshold()D*!
+
+ipij.process.ImageProcessor2getMaxThreshold()ÏÈ
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‘ ‘((
+%2ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()≥
+∞
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java‘ ‘()
+calij.measure.Calibration"__id*
+
+%2ij.measure.Calibrationä
+á
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.java’ ’()
+%3double"__id*
+""*
+42
+43*°
+23i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÏ Ï(ƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÏ Ï(&
+%34java.awt.TextField"__id*3*1#
+!ij.plugin.frame.ThresholdAdjuster"
+
+minLabel„‡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÏ Ï(0
+%35java.lang.String"2java.awt.TextComponent#getText()Ljava/lang/String;*
+
+%34java.awt.TextField2	getText()‰
+·
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÏ Ï(9
+%36double"/ij.util.Tools#parseDouble(Ljava/lang/String;D)D*"
+ij.util.Tools*
+
+%35java.lang.String*
+""ƒ
+¡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÌ Ì(&
+%37java.awt.TextField"__id*3*1#
+!ij.plugin.frame.ThresholdAdjuster"
+
+maxLabel„‡
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÌ Ì(0
+%38java.lang.String"2java.awt.TextComponent#getText()Ljava/lang/String;*
+
+%37java.awt.TextField2	getText()‰
+·
+i
+]/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ThresholdAdjuster.javaÌ Ì(9
+%39double"/ij.util.Tools#parseDouble(Ljava/lang/String;D)D*"
+ij.util.Tools*
+
+%38java.lang.String*
+""*
+18
+21:
+impij.ImagePlus:
+ipij.process.ImageProcessorB%#
+!ij.plugin.frame.ThresholdAdjuster

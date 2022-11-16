@@ -1,0 +1,142 @@
+
+<ij.macro.Functions#getProcessor()Lij/process/ImageProcessor;Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java™ ™("9*Ö
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£ £(®
+«
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£ £( 
+%12ij.process.ImageProcessor"__id*%*#
+ij.macro.Functions"
+	defaultIP¿
+¼
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£ £(3
+%13java.awt.Color"3ij.gui.Toolbar#getForegroundColor()Ljava/awt/Color;*"
+ij.gui.Toolbarüù
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java£ £(4
+%14void"5ij.process.ImageProcessor#setColor(Ljava/awt/Color;)V*"
+ 
+%12ij.process.ImageProcessor*
+
+%13java.awt.Color2setColor(Ljava/awt/Color;)*
+1*å
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¡ ¡(®
+«
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¡ ¡( 
+%10ij.process.ImageProcessor"__id*%*#
+ij.macro.Functions"
+	defaultIPÍÊ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¡ ¡(#
+%11void"&ij.process.ImageProcessor#setValue(D)V*"
+ 
+%10ij.process.ImageProcessor*
+""2setValue(D)*
+1*’
+4Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java   (¨
+¥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java   (&
+%9boolean"java.lang.Double#isNaN(D)Z*"
+java.lang.Double*
+""*
+2
+3*·
+5Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaŸ Ÿ(­
+ª
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaŸ Ÿ(
+%6ij.process.ImageProcessor"__id*%*#
+ij.macro.Functions"
+	defaultIP¤
+¡
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaŸ Ÿ("
+%7java.awt.Color"__id*'*%
+ij.macro.Functions"
+globalColorùö
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaŸ Ÿ(#
+
+%8void"5ij.process.ImageProcessor#setColor(Ljava/awt/Color;)V*!
+
+%6ij.process.ImageProcessor*
+
+%7java.awt.Color2setColor(Ljava/awt/Color;)*
+1*Ž
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaž ž(¤
+¡
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaž ž(
+%5java.awt.Color"__id*'*%
+ij.macro.Functions"
+globalColor*
+4
+5*ê
+7Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java (­
+ª
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java (
+%3ij.process.ImageProcessor"__id*%*#
+ij.macro.Functions"
+	defaultIPÓÐ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java (+
+
+%4void"*ij.process.ImageProcessor#setLineWidth(I)V*!
+
+%3ij.process.ImageProcessor*
+""2setLineWidth(I)*
+6*¿
+8Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java› ›(ÄÁ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java› ›(
+%1ij.ImagePlus"+ij.macro.Functions#getImage()Lij/ImagePlus;*
+ij.macro.Functions2
+getImage()ÞÛ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java› ›((
+%2ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+%1ij.ImagePlus2getProcessor()­
+ª
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java› ›((#
+ij.macro.Functions"
+	defaultIP"__id*!
+
+%2ij.process.ImageProcessor*
+6
+7*—
+9Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaš š(­
+ª
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaš š(
+%0ij.process.ImageProcessor"__id*%*#
+ij.macro.Functions"
+	defaultIP*
+8
+1*“
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¥	 ¥(®
+«
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¥	 ¥( 
+%15ij.process.ImageProcessor"__id*%*#
+ij.macro.Functions"
+	defaultIP"€
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¥ ¥("
+ 
+%15ij.process.ImageProcessorB
+ij.macro.Functions

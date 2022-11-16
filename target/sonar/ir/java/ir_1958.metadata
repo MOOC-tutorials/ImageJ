@@ -1,0 +1,14 @@
+ij.IJ#saveAs(Lij/ImagePlus;Ljava/lang/String;Ljava/lang/String;)V
+ij.io.FileSaver#getJpegQuality()I
+ij.IJ#saveAsTiff(Lij/ImagePlus;Ljava/lang/String;)Z
+java.lang.String#indexOf(Ljava/lang/String;)I
+ij.IJ#run(Ljava/lang/String;)V
+ij.plugin.GifWriter#save(Lij/ImagePlus;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+java.lang.String#length()I
+ij.IJ#updateExtension(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#endsWith(Ljava/lang/String;)Z
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+ij.IJ#run(Lij/ImagePlus;Ljava/lang/String;Ljava/lang/String;)V
+ij.plugin.JpegWriter#save(Lij/ImagePlus;Ljava/lang/String;I)Ljava/lang/String;
+ij.IJ#error(Ljava/lang/String;)V

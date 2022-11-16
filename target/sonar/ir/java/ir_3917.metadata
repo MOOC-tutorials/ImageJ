@@ -1,0 +1,11 @@
+ij.gui.PointRoi#<init>(IILij/ImagePlus;)V
+ij.plugin.frame.Recorder#scriptMode()Z
+ij.gui.PointRoi#incrementCounter(Lij/ImagePlus;)V
+ij.gui.Roi#getColor()Ljava/awt/Color;
+ij.gui.Toolbar#getMultiPointMode()Z
+ij.plugin.Colors#colorToString(Ljava/awt/Color;)Ljava/lang/String;
+ij.gui.PointRoi#makeXorYArray(DLij/ImagePlus;Z)[F
+ij.gui.PointRoi#convertSizeToIndex(I)I
+ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V
+java.lang.String#toLowerCase()Ljava/lang/String;
+ij.plugin.frame.Recorder#record(Ljava/lang/String;IILjava/lang/String;)V

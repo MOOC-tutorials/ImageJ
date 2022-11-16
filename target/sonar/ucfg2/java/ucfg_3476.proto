@@ -1,0 +1,1182 @@
+
+;ij.plugin.filter.LineGraphAnalyzer#analyze(Lij/ImagePlus;)Vh
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java% %("100*Ä
+24j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaï ï(¬
+ø
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaï ï(
+%101ij.util.FloatArray"
+__arrayGet*!
+
+yDataAlljava.util.ArrayList*
+""æª
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaï ï(
+%102int"ij.util.FloatArray#size()I*
+
+%101ij.util.FloatArray2size()*
+25
+23*¡
+25j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaî î(ƒ¡
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaî î(!
+%100int"java.util.ArrayList#size()I*!
+
+yDataAlljava.util.ArrayList2size()*
+24
+21*Ë
+69h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaX X(ø
+º
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaX X(%
+%45ij.util.FloatArray"
+__arrayGet*!
+
+yDataAlljava.util.ArrayList*
+""´
+®
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaX X(&
+arrij.util.FloatArray"__id*
+
+%45ij.util.FloatArray*
+70
+67*Ê
+27j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaë ë(
+"t
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaë ë(
+
+""*ª
+28j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaê ê(æª
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaê ê(
+
+%99int"ij.util.FloatArray#size()I*
+
+xDataij.util.FloatArray2size()*
+25
+27*º
+70h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaW W(¡æ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaW W(#
+
+%44int"java.util.ArrayList#size()I*!
+
+yDataAlljava.util.ArrayList2size()*
+69
+61*∏
+71h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaV" V(*¡æ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaV" V(1
+
+%43int"java.util.ArrayList#size()I*!
+
+yDataAlljava.util.ArrayList2size()*
+70*ª
+72h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaU U(¿Ω
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaU U(
+
+%42int"ij.util.FloatArray#size()I*!
+
+	yValuesLoij.util.FloatArray2size()*
+71
+33*ç
+73h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaR R(œÃ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaR R(&
+%40double"ij.measure.Calibration#getX(D)D*
+
+calij.measure.Calibration*
+""2getX(D)ƒ¡
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaS S(
+
+%41int"ij.util.FloatArray#add(F)I*
+
+xDataij.util.FloatArray*
+""2add(F)*
+72*È
+31j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaç ç(ã
+à
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaç ç(#
+%97float"__id*
+""‚ﬂ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaç ç($
+%98float"ij.util.FloatArray#set(IF)F*%
+#
+curveValuesLoij.util.FloatArray*
+""*
+
+%97float2set(IF)*
+33*√
+75h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaO O(»≈
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaO O('
+
+%39int"ij.util.FloatArray#add(F)I*!
+
+	yValuesHiij.util.FloatArray*
+""2add(F)*
+72
+73*≠
+32j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaã ã(¡
+æ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaã ã($
+%95ij.util.FloatArray"
+__arrayGet*!
+
+yDataAlljava.util.ArrayList*
+""≠
+™
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaã ã(%
+arrij.util.FloatArray"__id*
+
+%95ij.util.FloatArrayºπ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaå å(
+
+%96int"ij.util.FloatArray#size()I*
+
+arrij.util.FloatArray2size()*
+31
+33*Ç
+76h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaN N(¿Ω
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaN N(
+
+%37int"ij.util.FloatArray#size()I*!
+
+	yValuesLoij.util.FloatArray2size()¿Ω
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaN N(*
+
+%38int"ij.util.FloatArray#size()I*!
+
+	yValuesHiij.util.FloatArray2size()*
+72
+73
+75*Ã
+33j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaä ä(√¿
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaä ä("
+
+%94int"java.util.ArrayList#size()I*!
+
+yDataAlljava.util.ArrayList2size()*
+28
+86
+32
+76
+87*«
+78h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaJ J(»≈
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaJ J(
+
+%36int"ij.util.FloatArray#add(F)I*!
+
+	yValuesHiij.util.FloatArray*
+""2add(F)*
+86
+76
+87*Ü
+35j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaá á(≈¬
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaá á(
+%92void"ij.util.FloatArray#clear()V*!
+
+	yValuesLoij.util.FloatArray2clear()≈¬
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaà à(
+%93void"ij.util.FloatArray#clear()V*!
+
+	yValuesHiij.util.FloatArray2clear()*
+33*ö
+37j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaÖ Ö(Ã…
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaÖE Ö(U
+%89float"ij.util.FloatArray#get(I)F*!
+
+	yValuesLoij.util.FloatArray*
+""2get(I)Ã…
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaÖW Ö(g
+%90float"ij.util.FloatArray#get(I)F*!
+
+	yValuesHiij.util.FloatArray*
+""2get(I)ÉÄ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaÖ Ö(h
+%91void"oij.plugin.filter.LineGraphAnalyzer#addPoint(Ljava/util/ArrayList;Lij/util/FloatArray;Lij/util/FloatArray;IIFF)V*&$
+"ij.plugin.filter.LineGraphAnalyzer*!
+
+yDataAlljava.util.ArrayList*%
+#
+curveValuesLoij.util.FloatArray*%
+#
+curveValuesHiij.util.FloatArray*
+""*
+""*
+
+%89float*
+
+%90float2KaddPoint(Ljava/util/ArrayList;Lij/util/FloatArray;Lij/util/FloatArray;IIFF)*
+45*ã
+38j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaÑ
+ Ñ(Ã…
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaÑ Ñ(&
+%87float"ij.util.FloatArray#get(I)F*!
+
+	yValuesLoij.util.FloatArray*
+""2get(I)ø
+º
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaÑ
+ Ñ('
+%88boolean"java.lang.Float#isNaN(F)Z*"
+java.lang.Float*
+
+%87float*
+37
+45*Ø
+100h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java& &(ÎË
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java& &((
+%0ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+impij.ImagePlus2getCalibration()≤
+Ø
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java& &()
+calij.measure.Calibration"__id*
+
+%0ij.measure.Calibration√¿
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java' '(+
+%1boolean"ij.ImagePlus#isInvertedLut()Z*
+
+impij.ImagePlus2isInvertedLut()√¿
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java( ((
+%2
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()ö
+ó
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java( ((
+roi
+ij.gui.Roi"__id*
+
+%2
+ij.gui.RoiÌÍ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java) )((
+%3ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()∑
+¥
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java) )()
+ipij.process.ImageProcessor"__id*!
+
+%3ij.process.ImageProcessorÏÈ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java* *(
+%4java.awt.Rectangle"6ij.process.ImageProcessor#getRoi()Ljava/awt/Rectangle;*!
+
+ipij.process.ImageProcessor2getRoi()´
+®
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java* *(
+rectjava.awt.Rectangle"__id*
+
+%4java.awt.Rectangle–Õ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java+ +(	
+%5int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()ﬂ‹
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java, ,(,
+%6double",ij.process.ImageProcessor#getMinThreshold()D*!
+
+ipij.process.ImageProcessor2getMinThreshold()ﬂ‹
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java- -(,
+%7double",ij.process.ImageProcessor#getMaxThreshold()D*!
+
+ipij.process.ImageProcessor2getMaxThreshold()â
+Ü
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java. .(1
+%8double"__id*
+""*
+92
+99*«
+81h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaE E(»≈
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaE E(
+
+%35int"ij.util.FloatArray#add(F)I*!
+
+	yValuesLoij.util.FloatArray*
+""2add(F)*
+86
+76
+87*˝
+
+40h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java~ ~( «
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java~F ~(V
+%82float"ij.util.FloatArray#get(I)F*!
+
+	yValuesLoij.util.FloatArray*
+""2get(I) «
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java~X ~(h
+%83float"ij.util.FloatArray#get(I)F*!
+
+	yValuesHiij.util.FloatArray*
+""2get(I)Å˛
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java~ ~(i
+%84void"oij.plugin.filter.LineGraphAnalyzer#addPoint(Ljava/util/ArrayList;Lij/util/FloatArray;Lij/util/FloatArray;IIFF)V*&$
+"ij.plugin.filter.LineGraphAnalyzer*!
+
+yDataAlljava.util.ArrayList*%
+#
+curveValuesLoij.util.FloatArray*%
+#
+curveValuesHiij.util.FloatArray*
+""*
+""*
+
+%82float*
+
+%83float2KaddPoint(Ljava/util/ArrayList;Lij/util/FloatArray;Lij/util/FloatArray;IIFF)â
+Ü
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java ("
+%85float"__id*
+""‹Ÿ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java (#
+%86float"ij.util.FloatArray#set(IF)F*!
+
+	yValuesLoij.util.FloatArray*
+""*
+
+%85float2set(IF)*
+38*Ø
+41h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java| |( ø
+º
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java| |('
+%79ij.util.FloatArray"
+__arrayGet*!
+
+yDataAlljava.util.ArrayList*
+""´
+®
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java| |((
+arrij.util.FloatArray"__id*
+
+%79ij.util.FloatArray∫∑
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java} }(
+
+%80int"ij.util.FloatArray#size()I*
+
+arrij.util.FloatArray2size()á
+Ñ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java}! }(0
+
+%81int"__id*
+""*
+40
+42*ˆ
+86h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java@ @(ÔÏ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java@ @()
+%34float",ij.process.ImageProcessor#getPixelValue(II)F*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixelValue(II)*
+81
+86
+76
+87
+78*º
+42h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java{ {(¡æ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java{ {(%
+
+%78int"java.util.ArrayList#size()I*!
+
+yDataAlljava.util.ArrayList2size()*
+38
+41*—
+87h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java? ?( «
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java? ?((
+%33boolean"ij.gui.Roi#contains(II)Z*
+
+roi
+ij.gui.Roi*
+""*
+""2contains(II)*
+81
+86
+76
+87
+78*Ö
+44h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaz
+ z( «
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaz z(&
+%76float"ij.util.FloatArray#get(I)F*!
+
+	yValuesLoij.util.FloatArray*
+""2get(I)Ω
+∫
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaz
+ z('
+%77boolean"java.lang.Float#isNaN(F)Z*"
+java.lang.Float*
+
+%76float*
+38
+42*ª
+45h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javay y(¿Ω
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javay y($
+
+%75int"ij.util.FloatArray#size()I*!
+
+	yValuesLoij.util.FloatArray2size()*
+35
+44*Å
+48h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javau u( «
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javauD u(]
+%70float"ij.util.FloatArray#get(I)F*!
+
+	yValuesLoij.util.FloatArray*
+""2get(I) «
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javau_ u(x
+%71float"ij.util.FloatArray#get(I)F*!
+
+	yValuesHiij.util.FloatArray*
+""2get(I)Å˛
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javau u(y
+%72void"oij.plugin.filter.LineGraphAnalyzer#addPoint(Ljava/util/ArrayList;Lij/util/FloatArray;Lij/util/FloatArray;IIFF)V*&$
+"ij.plugin.filter.LineGraphAnalyzer*!
+
+yDataAlljava.util.ArrayList*%
+#
+curveValuesLoij.util.FloatArray*%
+#
+curveValuesHiij.util.FloatArray*
+""*
+""*
+
+%70float*
+
+%71float2KaddPoint(Ljava/util/ArrayList;Lij/util/FloatArray;Lij/util/FloatArray;IIFF)â
+Ü
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javav  v()
+%73float"__id*
+""‹Ÿ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javav v(*
+%74float"ij.util.FloatArray#set(IF)F*!
+
+	yValuesLoij.util.FloatArray*
+""*
+
+%73float2set(IF)*
+59
+45*≠
+92h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java3 3(úô
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java4 4(#
+%19ij.util.FloatArray"ij.util.FloatArray∏
+µ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java4 4(/
+%20"ij.util.FloatArray#<init>(I)V*
+
+%19ij.util.FloatArray*
+""≠
+™
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java4 4(0
+xDataij.util.FloatArray"__id*
+
+%19ij.util.FloatArrayûõ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java5' 5(<
+%21java.util.ArrayList"java.util.ArrayList∏
+µ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java5# 5(@
+%22"java.util.ArrayList#<init>(I)V*
+
+%21java.util.ArrayList*2
+≤
+Ø
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java5 5(A
+yDataAlljava.util.ArrayList"__id*
+
+%21java.util.ArrayListúô
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java6 6('
+%23ij.util.FloatArray"ij.util.FloatArray∂
+≥
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java6 6(+
+%24"ij.util.FloatArray#<init>(I)V*
+
+%23ij.util.FloatArray*2
+±
+Æ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java6 6(,
+	yValuesLoij.util.FloatArray"__id*
+
+%23ij.util.FloatArrayúô
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java7 7('
+%25ij.util.FloatArray"ij.util.FloatArray∂
+≥
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java7 7(+
+%26"ij.util.FloatArray#<init>(I)V*
+
+%25ij.util.FloatArray*2
+±
+Æ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java7 7(,
+	yValuesHiij.util.FloatArray"__id*
+
+%25ij.util.FloatArrayúô
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java8! 8(+
+%27ij.util.FloatArray"ij.util.FloatArray∂
+≥
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java8 8(/
+%28"ij.util.FloatArray#<init>(I)V*
+
+%27ij.util.FloatArray*2
+µ
+≤
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java8 8(0#
+curveValuesLoij.util.FloatArray"__id*
+
+%27ij.util.FloatArrayúô
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java9! 9(+
+%29ij.util.FloatArray"ij.util.FloatArray∂
+≥
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java9 9(/
+%30"ij.util.FloatArray#<init>(I)V*
+
+%29ij.util.FloatArray*2
+µ
+≤
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java9 9(0#
+curveValuesHiij.util.FloatArray"__id*
+
+%29ij.util.FloatArray÷”
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java:" :(.6
+%31/ij.plugin.filter.LineGraphAnalyzer$Extrapolator"/ij.plugin.filter.LineGraphAnalyzer$Extrapolatorç
+ä
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java: :(0
+%32"]ij.plugin.filter.LineGraphAnalyzer$Extrapolator#<init>(Lij/plugin/filter/LineGraphAnalyzer;)V*8
+6
+%31/ij.plugin.filter.LineGraphAnalyzer$ExtrapolatorÓ
+Î
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java: :(1?
+extrapolator/ij.plugin.filter.LineGraphAnalyzer$Extrapolator"__id*8
+6
+%31/ij.plugin.filter.LineGraphAnalyzer$Extrapolator*
+28
+86
+76
+87*ä
+94h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java12 1(:ì
+ê
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java12 1(:
+%16double"__id*
+
+%18double*
+92*ï
+95h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java1  1(%â
+Ü
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java1  1(/
+%17float"__id*
+""í
+è
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java1  1(/
+%16double"__id*
+
+%17float*
+92*ô
+97h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java0, 0(1â
+Ü
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java0, 0(;
+%15float"__id*
+""í
+è
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java0+ 0(;
+%12double"__id*
+
+%14float*
+94
+95*˛
+53h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javao% o(-á
+Ñ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javao1 o(;
+
+%69int"__id*
+""*
+58*é
+98h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java0  0((ì
+ê
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java0  0((
+%12double"__id*
+
+%13double*
+94
+95*ı
+99h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java/ /(Õ 
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java/( /(3
+%9double"#ij.process.ImageProcessor#getMin()D*!
+
+ipij.process.ImageProcessor2getMin()ŒÀ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java/6 /(A
+%10double"#ij.process.ImageProcessor#getMax()D*!
+
+ipij.process.ImageProcessor2getMax()Ÿ÷
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java/ /(C
+%11double"$ij.measure.Calibration#getCValue(D)D*
+
+calij.measure.Calibration*
+""2getCValue(D)*
+97
+98*¡
+12j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaß ß(∆
+√
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaß ß()
+%122float[]"java.util.Arrays#copyOf([FI)[F*"
+java.util.Arrays*
+""*
+""*
+9
+1*Ô
+56h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javak k(ŒÀ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javak k(.
+%64float"ij.util.FloatArray#get(I)F*%
+#
+curveValuesHiij.util.FloatArray*
+""2get(I) «
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javak1 k(A
+%65float"ij.util.FloatArray#get(I)F*!
+
+	yValuesLoij.util.FloatArray*
+""2get(I) «
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javakC k(S
+%66float"ij.util.FloatArray#get(I)F*!
+
+	yValuesHiij.util.FloatArray*
+""2get(I)ŒÀ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javakV k(j
+%67float"ij.util.FloatArray#get(I)F*%
+#
+curveValuesLoij.util.FloatArray*
+""2get(I)∏
+µ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javak k(k
+%68float"java.lang.Math#min(FF)F*"
+java.lang.Math*
+""*
+""*
+58
+53*â
+13j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java† †(≥
+∞
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java† †("
+%111int[]"ij.util.Tools#rank([D)[I*"
+ij.util.Tools*
+""ÎË
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java¢ ¢(&
+%112java.lang.String"3ij.measure.Calibration#getUnits()Ljava/lang/String;*
+
+calij.measure.Calibration2
+getUnits()∏
+µ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java¢ ¢(&
+%113java.lang.String"__concat*
+X (*
+
+%112java.lang.String∂
+≥
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java¢ ¢(*
+%114java.lang.String"__concat*
+
+%113java.lang.String*
+)≠
+™
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java¢ ¢(+
+xLabeljava.lang.String"__id*
+
+%114java.lang.StringÎË
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java£ £(&
+%115java.lang.String"3ij.measure.Calibration#getYUnit()Ljava/lang/String;*
+
+calij.measure.Calibration2
+getYUnit()∏
+µ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java£ £(&
+%116java.lang.String"__concat*
+Y (*
+
+%115java.lang.String∂
+≥
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java£ £(*
+%117java.lang.String"__concat*
+
+%116java.lang.String*
+)≠
+™
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java£ £(+
+yLabeljava.lang.String"__id*
+
+%117java.lang.Stringı
+Ú
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java§ §(@
+%118java.lang.String"Dij.WindowManager#getUniqueName(Ljava/lang/String;)Ljava/lang/String;*"
+ij.WindowManager*
+
+Line Graphëé
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java§ §(
+%119ij.gui.Plot"ij.gui.Plot≥
+∞
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java§ §(Q
+%120"Kij.gui.Plot#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*
+
+%119ij.gui.Plot*
+
+%118java.lang.String*
+
+xLabeljava.lang.String*
+
+yLabeljava.lang.String°
+û
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java§ §(R
+plotij.gui.Plot"__id*
+
+%119ij.gui.Plot «
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java• •("
+%121float[]"ij.util.FloatArray#toArray()[F*
+
+xDataij.util.FloatArray2	toArray()*
+
+9
+12
+1*¥
+57h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javae e( «
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javae e(+
+%55float"ij.util.FloatArray#get(I)F*!
+
+	yValuesLoij.util.FloatArray*
+""2get(I) «
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javae. e(>
+%56float"ij.util.FloatArray#get(I)F*!
+
+	yValuesHiij.util.FloatArray*
+""2get(I)∞
+≠
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaf f(8
+%57double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+"" «
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javag g()
+%58float"ij.util.FloatArray#get(I)F*!
+
+	yValuesHiij.util.FloatArray*
+""2get(I) «
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javag, g(<
+%59float"ij.util.FloatArray#get(I)F*!
+
+	yValuesLoij.util.FloatArray*
+""2get(I)±
+Æ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javah h(C
+%60double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""â
+Ü
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javai i(
+%61float"__id*
+""ŒÀ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaj j(+
+%62float"ij.util.FloatArray#get(I)F*%
+#
+curveValuesLoij.util.FloatArray*
+""2get(I)Ω
+∫
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaj j(,
+%63boolean"java.lang.Float#isNaN(F)Z*"
+java.lang.Float*
+
+%62float*
+58
+53
+56*√
+58h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javad d(¿Ω
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javad d(%
+
+%54int"ij.util.FloatArray#size()I*!
+
+	yValuesLoij.util.FloatArray2size()*
+57
+48
+59
+45*°
+59h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java` `(ø
+º
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaa) a(8
+%51ij.util.FloatArray"
+__arrayGet*!
+
+yDataAlljava.util.ArrayList*
+""€ÿ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaa a(Q
+%52float"xij.plugin.filter.LineGraphAnalyzer#extrapolated(Lij/util/FloatArray;ILij/plugin/filter/LineGraphAnalyzer$Extrapolator;)F*&$
+"ij.plugin.filter.LineGraphAnalyzer*
+
+%51ij.util.FloatArray*
+""*A
+?
+extrapolator/ij.plugin.filter.LineGraphAnalyzer$Extrapolator2Textrapolated(Lij/util/FloatArray;ILij/plugin/filter/LineGraphAnalyzer$Extrapolator;)ä
+á
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javab b(*
+%53double"__id*
+""*
+58*Ñ
+17j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaú	 ú(«ƒ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaú ú( 
+%109float"ij.util.FloatArray#get(I)F*
+
+arrij.util.FloatArray*
+""2get(I)¡
+æ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaú	 ú(!
+%110boolean"java.lang.Float#isNaN(F)Z*"
+java.lang.Float*
+
+%109float*
+18*∫
+18j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaõ õ(Ω∫
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaõ õ(
+%108int"ij.util.FloatArray#size()I*
+
+arrij.util.FloatArray2size()*
+17
+20*Ï
+19j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaö ö(¬
+ø
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaö ö(#
+%107ij.util.FloatArray"
+__arrayGet*!
+
+yDataAlljava.util.ArrayList*
+""Æ
+´
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaö ö($
+arrij.util.FloatArray"__id*
+
+%107ij.util.FloatArray*
+18*â
+0 "Å
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaµ µ(
+implicit return*ï
+1j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java≥ ≥(À»
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java≥ ≥(
+%130void"ij.gui.Plot#setLimitsToFit(Z)V*
+
+plotij.gui.Plot*2 2setLimitsToFit(Z)–Õ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java¥ ¥(
+%131ij.gui.PlotWindow"%ij.gui.Plot#show()Lij/gui/PlotWindow;*
+
+plotij.gui.Plot2show()*
+0*‹
+3j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java± ±(ä
+á
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java±( ±(1
+%127int"__id*
+""¢
+ü
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java±3 ±(G
+%128java.lang.String"__concat*
+y*
+""∞≠
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java± ±(H
+%129void"1ij.gui.Plot#addPoints([F[F[FILjava/lang/String;)V*
+
+plotij.gui.Plot*
+""*
+""*
+""*
+
+%127int*
+
+%128java.lang.String2$addPoints([F[F[FILjava/lang/String;)*
+9
+1*÷
+6j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java≠ ≠(‹Ÿ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java≠ ≠(3
+%126double" ij.measure.Calibration#getY(DI)D*
+
+calij.measure.Calibration*
+""*
+""2getY(DI)*
+3
+7* 
+7j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java¨ ¨(Õ 
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java¨ ¨(
+%125boolean" ij.measure.Calibration#scaled()Z*
+
+calij.measure.Calibration2scaled()*	
+3
+6
+7*à
+9j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java© ©(¬
+ø
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java™ ™(#
+%123ij.util.FloatArray"
+__arrayGet*!
+
+yDataAlljava.util.ArrayList*
+""…∆
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java™ ™(-
+%124float[]"ij.util.FloatArray#toArray()[F*
+
+%123ij.util.FloatArray2	toArray()*
+3
+7*´
+61h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java^ ^(∞
+≠
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.java^ ^(%
+%50int[]"ij.util.Tools#rank([D)[I*"
+ij.util.Tools*
+""*
+59
+45*¡
+20j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaô ô(ƒ¡
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaô ô(!
+%106int"java.util.ArrayList#size()I*!
+
+yDataAlljava.util.ArrayList2size()*
+13
+19*Ω
+21j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaò ò('ƒ¡
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaò ò(.
+%105int"java.util.ArrayList#size()I*!
+
+yDataAlljava.util.ArrayList2size()*
+20*ˇ
+65h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaZ Z(#ƒ¡
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaZ* Z(5
+%48float"ij.util.FloatArray#get(I)F*
+
+arrij.util.FloatArray*
+""2get(I)Ω
+∫
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaZ Z(6
+%49boolean"java.lang.Float#isNaN(F)Z*"
+java.lang.Float*
+
+%48float*
+70
+67*π
+66h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaZ
+ Z(∫∑
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaZ Z(
+
+%47int"ij.util.FloatArray#size()I*
+
+arrij.util.FloatArray2size()*
+70
+65
+67*¸
+23j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javañ ñ(¬
+ø
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javañ ñ(
+%103ij.util.FloatArray"
+__arrayGet*!
+
+yDataAlljava.util.ArrayList*
+""æª
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javañ ñ(#
+%104int"ij.util.FloatArray#size()I*
+
+%103ij.util.FloatArray2size()*
+25*Ç
+67h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaY* Y(,á
+Ñ
+h
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/LineGraphAnalyzer.javaY9 Y(H
+
+%46int"__id*
+""*
+70
+66:
+impij.ImagePlusB&$
+"ij.plugin.filter.LineGraphAnalyzer

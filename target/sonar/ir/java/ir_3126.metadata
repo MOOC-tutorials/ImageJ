@@ -1,0 +1,6 @@
+ij.macro.Functions#getMetadata()Ljava/lang/String;
+java.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+ij.macro.Interpreter#nextToken()I
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+ij.macro.Interpreter#nextNextToken()I
+ij.macro.Interpreter#getParens()V

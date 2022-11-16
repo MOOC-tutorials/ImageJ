@@ -1,0 +1,528 @@
+
+ij.measure.CurveFitter#f(I[DD)D^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaØ Ø("1*€
+24^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java‡ ‰( ¯
+¬
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaˆ ˆ(&
+%39double"java.lang.Math#pow(DD)D*"
+java.lang.Math*
+""*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java‰ ‰(
+""*€
+25^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java„ †('¯
+¬
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java… …(&
+%38double"java.lang.Math#pow(DD)D*"
+java.lang.Math*
+""*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java† †(%
+""*÷
+26^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaƒ ƒ(¦
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaƒ ƒ( 
+%37double"java.lang.Math#log(D)D*"
+java.lang.Math*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaƒ ƒ(!
+""*Î
+27^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java‚ ‚("h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java‚ ‚(
+""*€
+29^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaý ÿ(!¯
+¬
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaÿ ÿ( 
+%36double"java.lang.Math#pow(DD)D*"
+java.lang.Math*
+""*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaÿ ÿ(!
+""*÷
+30^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaû ü(=¦
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaü ü(<
+%35double"java.lang.Math#exp(D)D*"
+java.lang.Math*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaü ü(=
+""*÷
+31^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaù ú(B¦
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaú ú(A
+%34double"java.lang.Math#exp(D)D*"
+java.lang.Math*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaú ú(B
+""*÷
+32^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java÷ ø(I¦
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaø ø(H
+%33double"java.lang.Math#exp(D)D*"
+java.lang.Math*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaø ø(I
+""*í
+11^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java˜ ¢(
+}
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java› ›(#
+%47double"__id*
+""*
+5
+9*©
+33^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaó ö(¦
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaô' ô(8
+%31double"java.lang.Math#exp(D)D*"
+java.lang.Math*
+""¯
+¬
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaô ô(A
+%32double"java.lang.Math#pow(DD)D*"
+java.lang.Math*
+""*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaö ö(
+""*÷
+34^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javañ ò()¦
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaò ò('
+%30double"java.lang.Math#exp(D)D*"
+java.lang.Math*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaò ò()
+""*÷
+12^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java— —(¦
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java— —("
+%46double"java.lang.Math#log(D)D*"
+java.lang.Math*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java— —(#
+""*÷
+35^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaï ð(+¦
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javað ð($
+%29double"java.lang.Math#exp(D)D*"
+java.lang.Math*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javað ð(+
+""*Ï
+13^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java– –(
+}
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java– –(
+%45double"__id*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java– –(
+""*÷
+36^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaí î('¦
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaî î(!
+%28double"java.lang.Math#exp(D)D*"
+java.lang.Math*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaî î('
+""*÷
+37^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaê ì(!¦
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaì ì( 
+%27double"java.lang.Math#exp(D)D*"
+java.lang.Math*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaì ì(!
+""*©
+15^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java (¯
+¬
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java (*
+%43double"java.lang.Math#pow(DD)D*"
+java.lang.Math*
+""*
+""¦
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java‘ ‘(+
+%44double"java.lang.Math#exp(D)D*"
+java.lang.Math*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java’ ’(
+""*Î
+38^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaè é(d"h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaé é(d
+""*Ï
+16^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaŽ Ž( 
+}
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaŽ Ž($
+%42double"__id*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaŽ Ž(%
+""*Î
+39^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaæ ç(["h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaç ç([
+""*Ï
+18^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java ( 
+}
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java ($
+%41double"__id*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java (%
+""*Ÿ
+1^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaÙ
+ Ù({
+y
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaÚ Ú(	
+%0int"__id*
+""{
+y
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaÜ Ü(	
+%1int"__id*
+""{
+y
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaÞ Þ(	
+%2int"__id*
+""{
+y
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaà à(	
+%3int"__id*
+""{
+y
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaâ â(	
+%4int"__id*
+""{
+y
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaä ä(	
+%5int"__id*
+""{
+y
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaæ æ(	
+%6int"__id*
+""{
+y
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaè è(	
+%7int"__id*
+""{
+y
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaê ê(	
+%8int"__id*
+""{
+y
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaë ë(	
+%9int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaí í(
+
+%10int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaï ï(
+
+%11int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javañ ñ(
+
+%12int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaó ó(
+
+%13int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java÷ ÷(
+
+%14int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaù ù(
+
+%15int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaû û(
+
+%16int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaý ý(
+
+%17int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaþ þ(
+
+%18int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java€ €(
+
+%19int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java„ „(
+
+%20int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java‡ ‡(
+
+%21int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaŠ Š(
+
+%22int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java“ “(
+
+%23int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java˜ ˜(
+
+%24int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java™ ™(
+
+%25int"__id*
+""|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java£ £(
+
+%26int"__id*
+""*z
+24
+25
+26
+27
+29
+30
+31
+32
+11
+33
+34
+12
+35
+13
+36
+37
+15
+38
+16
+39
+18
+2
+3
+40
+41
+42
+20
+43
+44
+22
+45*Í
+2^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java¥ ¦("h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java¦ ¦(
+""*ö
+3^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java£ ¤(1¦
+£
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java¤ ¤(0
+%53double"ij.util.IJMath#erf(D)D*"
+ij.util.IJMath*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java¤ ¤(1
+""*Í
+4^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java¢ ¢("h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java¢ ¢(
+""*š
+5^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaž
+ ž(¯
+¬
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaŸ	 Ÿ(
+%52double"java.lang.Math#pow(DD)D*"
+java.lang.Math*
+""*
+""*
+4*ô
+7^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaœ- œ(0‰
+†
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaœ- œ(0
+%49double"__id*
+
+%51double*
+4*õ
+8^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaœ  œ(&
+}
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaœ  œ(*
+%50double"__id*
+""‰
+†
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaœ  œ(*
+%49double"__id*
+
+%50double*
+4*é
+9^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaœ	 œ(|
+z
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaœ œ(
+
+%48int"__id*
+""*
+7
+8*Î
+40^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaä å(P"h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaå å(P
+""*Î
+41^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaâ ã(E"h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaã ã(E
+""*Î
+42^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaà á(:"h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaá á(:
+""*Ï
+20^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaŒ Œ( 
+}
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaŒ Œ($
+%40double"__id*
+"""h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaŒ Œ(%
+""*Î
+43^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaÞ ß(/"h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaß ß(/
+""*Î
+44^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaÜ Ý($"h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaÝ Ý($
+""*Î
+22^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java‹ ‹("h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.java‹ ‹(
+""*Î
+45^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaÚ Û("h
+^
+R/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/measure/CurveFitter.javaÛ Û(
+"":
+"":
+"":
+""B"
+ij.measure.CurveFitter

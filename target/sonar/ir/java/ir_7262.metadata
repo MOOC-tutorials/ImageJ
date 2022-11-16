@@ -1,0 +1,6 @@
+ij.gui.ImageWindow#setImageJMenuBar(Lij/gui/ImageWindow;)V
+ij.IJ#wait(I)V
+ij.IJ#getInstance()Lij/ImageJ;
+java.lang.System#currentTimeMillis()J
+ij.Menus#getMenuBar()Ljava/awt/MenuBar;
+ij.macro.Interpreter#nonBatchMacroRunning()Z

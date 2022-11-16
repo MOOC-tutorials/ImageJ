@@ -1,0 +1,157 @@
+
+Qij.VirtualStack#sortDicom([Ljava/lang/String;[Ljava/lang/String;I)Lij/ImageStack;W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java± ±("11*ﬂ
+3W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaπ π(ù
+ö
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaπ π(
+%10java.lang.String[]"__id**
+ij.VirtualStack"
+names©
+¶
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaπ π(
+%11java.lang.String"
+__arrayGet*
+
+names2java.lang.String[]*
+""Ø
+¨
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaπ π(
+%12"
+__arraySet*
+
+%10java.lang.String[]*
+""*
+
+%11java.lang.Stringû
+õ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java∫ ∫(	
+%13java.lang.String[]"__id**
+ij.VirtualStack"
+labelsß
+§
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java∫ ∫(
+%14java.lang.String"
+__arrayGet*
+
+infojava.lang.String[]*
+""Ø
+¨
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java∫ ∫(
+%15"
+__arraySet*
+
+%13java.lang.String[]*
+""*
+
+%14java.lang.String*
+5
+1*ø
+4W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java∏ ∏("a
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java∏ ∏(
+""*ë
+5W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java∑ ∑(©
+¶
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java∑& ∑(0
+%5java.lang.String"
+__arrayGet*
+
+stringsjava.lang.String[]*
+""©
+¶
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java∑; ∑(E
+%6java.lang.String"
+__arrayGet*
+
+stringsjava.lang.String[]*
+""ß§
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java∑; ∑(N	
+%7int"java.lang.String#length()I*
+
+%6java.lang.String2length()’“
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java∑& ∑(Y
+%8java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*
+
+%5java.lang.String*
+""2substring(I)–
+Õ
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java∑ ∑(_
+%9double"/ij.util.Tools#parseDouble(Ljava/lang/String;D)D*"
+ij.util.Tools*
+
+%8java.lang.String*
+""*
+3
+4*‡
+9W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaµ µ(	ú
+ô
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaµ µ(
+%2java.lang.String[]"__id**
+ij.VirtualStack"
+names§
+°
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaµ µ(
+%3java.lang.String"
+__arrayGet*
+
+%2java.lang.String[]*
+""∞
+≠
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaµ µ(
+%4"
+__arraySet*
+
+names2java.lang.String[]*
+""*
+
+%3java.lang.String*	
+5
+9
+1*¥
+11W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java≤
+ ≤(ùö
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java≤
+ ≤(	
+%0int"ij.VirtualStack#size()I*
+ij.VirtualStack2size()äá
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java≥ ≥(!
+%1java.lang.String[]"java.lang.String[]ú
+ô
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.java≥ ≥("
+names2java.lang.String[]"__id*
+
+%1java.lang.String[]*	
+5
+9
+1*Ã
+1W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaº	 º("n
+W
+K/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/VirtualStack.javaº º(
+ij.VirtualStack:
+stringsjava.lang.String[]:
+infojava.lang.String[]:
+""B
+ij.VirtualStack

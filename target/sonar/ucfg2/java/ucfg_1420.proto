@@ -1,0 +1,1397 @@
+
+0ij.plugin.Converter#convert(Ljava/lang/String;)VY
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java) )("136*“
+69Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaT T(Ê„
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaT T((
+%99boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+HSB (32-bit)2equals(Ljava/lang/Object;)*
+65
+67* 
+70Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaS S(5ﬁ€
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaS S(5
+%98void"3ij.process.StackConverter#convertToHSBHyperstack()V*"
+ 
+%96ij.process.StackConverter2convertToHSBHyperstack()*
+52
+12*˜
+71Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaS S(õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaS S(
+%95ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaS	 S( 
+%96ij.process.StackConverter"ij.process.StackConverter”
+–
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaS S(
+%97"1ij.process.StackConverter#<init>(Lij/ImagePlus;)V*"
+ 
+%96ij.process.StackConverter*
+
+%95ij.ImagePlus*
+70*œ
+73Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaR R(„‡
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaR R(%
+%94boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+	HSB Stack2equals(Ljava/lang/Object;)*
+69
+71* 
+74Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaQ Q(5ﬁ€
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaQ Q(5
+%93void"3ij.process.StackConverter#convertToRGBHyperstack()V*"
+ 
+%91ij.process.StackConverter2convertToRGBHyperstack()*
+52
+12*˜
+75Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaQ Q(õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaQ Q(
+%90ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaQ	 Q( 
+%91ij.process.StackConverter"ij.process.StackConverter”
+–
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaQ Q(
+%92"1ij.process.StackConverter#<init>(Lij/ImagePlus;)V*"
+ 
+%91ij.process.StackConverter*
+
+%90ij.ImagePlus*
+74*œ
+77Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaP P(„‡
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaP P(%
+%89boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+	RGB Stack2equals(Ljava/lang/Object;)*
+73
+75*∂
+78Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaO O(+ «
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaO O(+
+%88void")ij.process.StackConverter#convertToRGB()V*"
+ 
+%86ij.process.StackConverter2convertToRGB()*
+52
+12*˜
+79Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaO O(õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaO O(
+%85ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaO	 O( 
+%86ij.process.StackConverter"ij.process.StackConverter”
+–
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaO O(
+%87"1ij.process.StackConverter#<init>(Lij/ImagePlus;)V*"
+ 
+%86ij.process.StackConverter*
+
+%85ij.ImagePlus*
+78*–
+100Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaE# E('„‡
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaE# E(;
+%59boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+	RGB Color2equals(Ljava/lang/Object;)*
+93
+98*ó
+102Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaE E(©¶
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaE E(
+%58boolean"ij.ImageStack#isLab()Z*
+
+stackij.ImageStack2isLab()*	
+93
+100*Û
+103Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaD D(9çä
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaD D(#
+%56ij.gui.ImageWindow"ij.gui.ImageWindowˆ
+Û
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaD D(9
+%57">ij.gui.ImageWindow#<init>(Lij/ImagePlus;Lij/gui/ImageCanvas;)V*
+
+%56ij.gui.ImageWindow*
+
+%53ij.ImagePlus*
+
+%55ij.gui.ImageCanvas*
+52
+12*Ò
+104Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaD$ D('õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaD$ D('
+%53ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaD) D(,
+%54ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impÀ»
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaD) D(8
+%55ij.gui.ImageCanvas",ij.ImagePlus#getCanvas()Lij/gui/ImageCanvas;*
+
+%54ij.ImagePlus2getCanvas()*
+103*∆
+106Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaC C(0‘—
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaC C(0
+%52void".ij.process.ImageConverter#convertHSB32ToRGB()V*"
+ 
+%50ij.process.ImageConverter2convertHSB32ToRGB()*
+104
+52
+12*˘
+107Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaC C(õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaC C(
+%49ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaC	 C( 
+%50ij.process.ImageConverter"ij.process.ImageConverter”
+–
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaC C(
+%51"1ij.process.ImageConverter#<init>(Lij/ImagePlus;)V*"
+ 
+%50ij.process.ImageConverter*
+
+%49ij.ImagePlus*
+106*œ
+81Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaN N(„‡
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaN N(%
+%84boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+	RGB Color2equals(Ljava/lang/Object;)*
+79
+77*“
+109Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaB% B()„‡
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaB% B(=
+%48boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+	RGB Color2equals(Ljava/lang/Object;)*
+
+102
+107*º
+82Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaM M(.–Õ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaM M(.
+%83void",ij.process.ImageConverter#convertToGray32()V*"
+ 
+%81ij.process.ImageConverter2convertToGray32()*
+52
+12*˜
+83Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaM M(õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaM M(
+%80ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaM	 M( 
+%81ij.process.ImageConverter"ij.process.ImageConverter”
+–
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaM M(
+%82"1ij.process.ImageConverter#<init>(Lij/ImagePlus;)V*"
+ 
+%81ij.process.ImageConverter*
+
+%80ij.ImagePlus*
+82*Ã
+85Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaL L(‡›
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaL L("
+%79boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+
+32-bit2equals(Ljava/lang/Object;)*
+81
+83*º
+86Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaK K(.–Õ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaK K(.
+%78void",ij.process.StackConverter#convertToGray16()V*"
+ 
+%76ij.process.StackConverter2convertToGray16()*
+52
+12*˜
+87Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaK K(õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaK K(
+%75ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaK	 K( 
+%76ij.process.StackConverter"ij.process.StackConverter”
+–
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaK K(
+%77"1ij.process.StackConverter#<init>(Lij/ImagePlus;)V*"
+ 
+%76ij.process.StackConverter*
+
+%75ij.ImagePlus*
+86*Ã
+89Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaJ J(‡›
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaJ J("
+%74boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+
+16-bit2equals(Ljava/lang/Object;)*
+85
+87*ú
+111Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaB B(≠™
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaB B(!
+%47boolean"ij.ImageStack#isHSB32()Z*
+
+stackij.ImageStack2	isHSB32()*
+
+102
+109*Û
+112Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaA A(9çä
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaA A(#
+%45ij.gui.ImageWindow"ij.gui.ImageWindowˆ
+Û
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaA A(9
+%46">ij.gui.ImageWindow#<init>(Lij/ImagePlus;Lij/gui/ImageCanvas;)V*
+
+%45ij.gui.ImageWindow*
+
+%42ij.ImagePlus*
+
+%44ij.gui.ImageCanvas*
+52
+12*Ò
+113Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaA$ A('õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaA$ A('
+%42ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaA) A(,
+%43ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impÀ»
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaA) A(8
+%44ij.gui.ImageCanvas",ij.ImagePlus#getCanvas()Lij/gui/ImageCanvas;*
+
+%43ij.ImagePlus2getCanvas()*
+112*¬
+115Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java@ @(.–Õ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java@ @(.
+%41void",ij.process.ImageConverter#convertHSBToRGB()V*"
+ 
+%39ij.process.ImageConverter2convertHSBToRGB()*
+113
+52
+12*˘
+116Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java@ @(õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java@ @(
+%38ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java@	 @( 
+%39ij.process.ImageConverter"ij.process.ImageConverter”
+–
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java@ @(
+%40"1ij.process.ImageConverter#<init>(Lij/ImagePlus;)V*"
+ 
+%39ij.process.ImageConverter*
+
+%38ij.ImagePlus*
+115*∫
+90Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaI I(-ŒÀ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaI I(-
+%73void"+ij.process.StackConverter#convertToGray8()V*"
+ 
+%71ij.process.StackConverter2convertToGray8()*
+52
+12*“
+118Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java?# ?('„‡
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java?# ?(;
+%37boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+	RGB Color2equals(Ljava/lang/Object;)*
+
+116
+111*˜
+91Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaI I(õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaI I(
+%70ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaI	 I( 
+%71ij.process.StackConverter"ij.process.StackConverter”
+–
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaI I(
+%72"1ij.process.StackConverter#<init>(Lij/ImagePlus;)V*"
+ 
+%71ij.process.StackConverter*
+
+%70ij.ImagePlus*
+90*À
+93Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaH H(ﬂ‹
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaH H(#
+%69boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*	
+8-bit2equals(Ljava/lang/Object;)*
+91
+89*Ú
+94Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaG G(9çä
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaG G(#
+%67ij.gui.ImageWindow"ij.gui.ImageWindowˆ
+Û
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaG G(9
+%68">ij.gui.ImageWindow#<init>(Lij/ImagePlus;Lij/gui/ImageCanvas;)V*
+
+%67ij.gui.ImageWindow*
+
+%64ij.ImagePlus*
+
+%66ij.gui.ImageCanvas*
+52
+12*Ô
+95Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaG$ G('õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaG$ G('
+%64ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaG) G(,
+%65ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impÀ»
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaG) G(8
+%66ij.gui.ImageCanvas",ij.ImagePlus#getCanvas()Lij/gui/ImageCanvas;*
+
+%65ij.ImagePlus2getCanvas()*
+94*¿
+97Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaF F(.–Õ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaF F(.
+%63void",ij.process.ImageConverter#convertLabToRGB()V*"
+ 
+%61ij.process.ImageConverter2convertLabToRGB()*
+95
+52
+12*Æ
+10[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaÇ Ç(û
+õ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaÇ Ç(
+%154ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impà
+Ö
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaÇ Ç(
+%155java.lang.String"__id*
+""ñì
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaÇ Ç(!
+%156void";ij.ImagePlus#setProp(Ljava/lang/String;Ljava/lang/String;)V*
+
+%154ij.ImagePlus*
+
+%155java.lang.String*
+""2-setProp(Ljava/lang/String;Ljava/lang/String;)*
+2
+1*˜
+98Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaF F(õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaF F(
+%60ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaF	 F( 
+%61ij.process.ImageConverter"ij.process.ImageConverter”
+–
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaF F(
+%62"1ij.process.ImageConverter#<init>(Lij/ImagePlus;)V*"
+ 
+%61ij.process.ImageConverter*
+
+%60ij.ImagePlus*
+97*÷
+12[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaÅ Å(Ê„
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaÅ Å(
+%153boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+	RGB Color*
+
+itemjava.lang.String2equals(Ljava/lang/Object;)*
+
+2
+10
+1*ˇ
+13Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java (ó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java (
+%152void"ij.IJ#showProgress(D)V*	"
+ij.IJ*
+""*
+12*„
+14Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java| |(ú
+ô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java| |(
+%151ij.ImagePlus"__id* *
+ij.plugin.Converter"
+imp"c
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java} }(
+""*‘
+15Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaz z(ÏÈ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaz z(*
+%150void"6ij.process.ImageConverter#convertRGBtoIndexedColor(I)V*!
+
+icij.process.ImageConverter*
+""2convertRGBtoIndexedColor(I)*
+13*ï
+17Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaw w("©
+¶
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javax x((
+%149long"%java.lang.System#currentTimeMillis()J*"
+java.lang.System*
+13
+15*õ
+18Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaw w(≥∞
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaw w(!
+%148int" ij.plugin.Converter#getNumber()I*
+ij.plugin.Converter2getNumber()*
+17*ò
+120Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java? ?(©¶
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java? ?(
+%36boolean"ij.ImageStack#isHSB()Z*
+
+stackij.ImageStack2isHSB()*
+
+118
+111*Û
+121Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java> >(9çä
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java> >(#
+%34ij.gui.ImageWindow"ij.gui.ImageWindowˆ
+Û
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java> >(9
+%35">ij.gui.ImageWindow#<init>(Lij/ImagePlus;Lij/gui/ImageCanvas;)V*
+
+%34ij.gui.ImageWindow*
+
+%31ij.ImagePlus*
+
+%33ij.gui.ImageCanvas*
+52
+12*y
+0 "r
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaí í(
+implicit return*Ò
+122Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java>$ >('õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java>$ >('
+%31ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java>) >(,
+%32ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impÀ»
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java>) >(8
+%33ij.gui.ImageCanvas",ij.ImagePlus#getCanvas()Lij/gui/ImageCanvas;*
+
+%32ij.ImagePlus2getCanvas()*
+121*Ã
+1[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaè è(û
+õ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaè è(
+%166ij.ImagePlus"__id* *
+ij.plugin.Converter"
+imp—
+Œ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaè è(
+%167void"2ij.IJ#showTime(Lij/ImagePlus;JLjava/lang/String;)V*	"
+ij.IJ*
+
+%166ij.ImagePlus*
+""* û
+õ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaê ê(
+%168ij.ImagePlus"__id* *
+ij.plugin.Converter"
+imp∂≥
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaê ê(
+%169void"ij.ImagePlus#repaintWindow()V*
+
+%168ij.ImagePlus2repaintWindow()ï
+í
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaë ë(
+%170void"ij.Menus#updateMenus()V*"
+
+ij.Menus*
+0*ﬁ
+2[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaé é(û
+õ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaé é(
+%164ij.ImagePlus"__id* *
+ij.plugin.Converter"
+imp’“
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaé é(
+%165void""ij.ImagePlus#setRoi(Lij/gui/Roi;)V*
+
+%164ij.ImagePlus*
+
+roi
+ij.gui.Roi2setRoi(Lij/gui/Roi;)*
+1*Ã
+124Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java= =(3⁄◊
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java= =(3
+%30void"1ij.process.ImageConverter#convertRGBStackToRGB()V*"
+ 
+%28ij.process.ImageConverter2convertRGBStackToRGB()*
+52
+122
+12*˘
+125Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java= =(õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java= =(
+%27ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java=	 =( 
+%28ij.process.ImageConverter"ij.process.ImageConverter”
+–
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java= =(
+%29"1ij.process.ImageConverter#<init>(Lij/ImagePlus;)V*"
+ 
+%28ij.process.ImageConverter*
+
+%27ij.ImagePlus*
+124*«
+4[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaã ã(
+"e
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaã ã(
+
+""*˜
+5[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaä ä(è
+å
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaä ä(
+%163void"ij.Macro#abort()V*"
+
+ij.Macro*
+4*“
+127Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java< <( „‡
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java< <(4
+%26boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+	RGB Color2equals(Ljava/lang/Object;)*
+
+125
+120*û
+6[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaà à(	û
+õ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaà à(	
+%161ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impï
+í
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaâ â(
+%162void"ij.Menus#updateMenus()V*"
+
+ij.Menus*
+5*ı
+7[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaá á(
+ç
+ä
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaá á(
+%160void"ij.Undo#reset()V*"	
+ij.Undo*
+6*ò
+129Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java: :(,©¶
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java< <(
+%25boolean"ij.ImageStack#isRGB()Z*
+
+stackij.ImageStack2isRGB()*
+
+127
+120*å
+8[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaÜ Ü(§
+°
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaÜ Ü(
+%159void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ* *
+7*ã
+9[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaÑ	 Ñ(#û
+õ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaÖ Ö(
+%157ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impÇˇ
+[
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaÖ Ö(
+%158void":ij.plugin.Converter#unsupportedConversion(Lij/ImagePlus;)V*
+ij.plugin.Converter*
+
+%157ij.ImagePlus2%unsupportedConversion(Lij/ImagePlus;)*
+8*“
+20Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javav v(Ê„
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javav v(,
+%147boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+8-bit Color2equals(Ljava/lang/Object;)*
+14
+18*≤
+21Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javau u( «
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javau u(
+%146void")ij.process.ImageConverter#convertToRGB()V*!
+
+icij.process.ImageConverter2convertToRGB()*
+13*–
+23Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javat t(‰·
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javat t(*
+%145boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+	RGB Color2equals(Ljava/lang/Object;)*
+20
+21*≤
+24Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javas s( «
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javas s(
+%144void")ij.process.ImageConverter#convertToLab()V*!
+
+icij.process.ImageConverter2convertToLab()*
+13*Û
+25Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javar r(ã
+à
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javar r(
+%143void"ij.Undo#reset()V*"	
+ij.Undo*
+24*–
+27Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaq q(‰·
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaq q(*
+%142boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+	Lab Stack2equals(Ljava/lang/Object;)*
+25
+23*∂
+28Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javap p(ŒÀ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javap p(
+%141void"+ij.process.ImageConverter#convertToHSB32()V*!
+
+icij.process.ImageConverter2convertToHSB32()*
+13*Û
+29Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javao o(ã
+à
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javao o(
+%140void"ij.Undo#reset()V*"	
+ij.Undo*
+28*õ
+130Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java: :(±Æ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java: :(+
+%24boolean"ij.ImageStack#isVirtual()Z*
+
+stackij.ImageStack2isVirtual()*
+129*‡
+132Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java5 5(õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java5 5(
+%19ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impõ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java6 6(
+%20ij.ImagePlus"__id* *
+ij.plugin.Converter"
+imp´
+®
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java6 6(
+%21java.applet.Applet"%ij.IJ#getApplet()Ljava/applet/Applet;*	"
+ij.IJõ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java7 7(
+%22ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impÀ»
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java7 7($
+%23ij.gui.ImageWindow",ij.ImagePlus#getWindow()Lij/gui/ImageWindow;*
+
+%22ij.ImagePlus2getWindow()ú
+ô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java7 7(%
+winij.gui.ImageWindow"__id*
+
+%23ij.gui.ImageWindow*	
+50
+130*∏
+133Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java4 4(õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java4 4(
+%16ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impﬂ‹
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java4 4( 
+%17ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+%16ij.ImagePlus2getProcessor()ŒÀ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java4 4(&
+%18void"+ij.process.ImageProcessor#resetThreshold()V*"
+ 
+%17ij.process.ImageProcessor2resetThreshold()*
+132*≈
+134Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java. .(∞
+≠
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java. .(&
+%6java.lang.String"__concat*
+Converting to *
+
+itemjava.lang.Stringó
+î
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java. .('
+msgjava.lang.String"__id*
+
+%6java.lang.String§
+°
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java/ /(
+%7java.lang.String"__concat*
+
+msgjava.lang.String*
+...∂
+≥
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java/ /(
+
+%8void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%7java.lang.Stringß
+§
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java0 0(*
+
+%9long"%java.lang.System#currentTimeMillis()J*"
+java.lang.Systemõ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java1 1(
+%10ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impµ≤
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java1 1(
+%11
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+%10ij.ImagePlus2getRoi()å
+â
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java1 1(
+roi
+ij.gui.Roi"__id*
+
+%11
+ij.gui.Roiõ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java2 2(
+%12ij.ImagePlus"__id* *
+ij.plugin.Converter"
+imp™ß
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java2 2(
+%13void"ij.ImagePlus#deleteRoi()V*
+
+%12ij.ImagePlus2deleteRoi()õ
+ò
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java3 3(
+
+%14ij.ImagePlus"__id* *
+ij.plugin.Converter"
+imp±Æ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java3 3(
+%15boolean"ij.ImagePlus#isThreshold()Z*
+
+%14ij.ImagePlus2isThreshold()*
+
+132
+133*⁄
+135Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java- -(ö
+ó
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java- -(
+%4ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impΩ∫
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java- -(
+%5ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+%4ij.ImagePlus2
+getStack()ì
+ê
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java- -(
+stackij.ImageStack"__id*
+
+%5ij.ImageStack*
+134*É
+136Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java* *(ö
+ó
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java* *(
+%0ij.ImagePlus"__id* *
+ij.plugin.Converter"
+imp£†
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java* *(	
+%1int"ij.ImagePlus#getType()I*
+
+%0ij.ImagePlus2	getType()Ñ
+Å
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java+ +(
+stackij.ImageStack"__id*
+""ö
+ó
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java, ,(	
+%2ij.ImagePlus"__id* *
+ij.plugin.Converter"
+imp≠™
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java, ,(	
+%3int"ij.ImagePlus#getStackSize()I*
+
+%2ij.ImagePlus2getStackSize()*
+
+134
+135*”
+31Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javan n(Á‰
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javan n(-
+%139boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+HSB (32-bit)2equals(Ljava/lang/Object;)*
+27
+29*≤
+32Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javam m( «
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javam m(
+%138void")ij.process.ImageConverter#convertToHSB()V*!
+
+icij.process.ImageConverter2convertToHSB()*
+13*Û
+33Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javal l(ã
+à
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javal l(
+%137void"ij.Undo#reset()V*"	
+ij.Undo*
+32*–
+35Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javak k(‰·
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javak k(*
+%136boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+	HSB Stack2equals(Ljava/lang/Object;)*
+31
+33*º
+36Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaj j(‘—
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaj j(
+%135void".ij.process.ImageConverter#convertToRGBStack()V*!
+
+icij.process.ImageConverter2convertToRGBStack()*
+13*Û
+37Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javai i(ã
+à
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javai i(
+%134void"ij.Undo#reset()V*"	
+ij.Undo*
+36*–
+39Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javah h(‰·
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javah h(%
+%133boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+	RGB Stack2equals(Ljava/lang/Object;)*
+35
+37*∏
+40Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javag g(–Õ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javag g(
+%132void",ij.process.ImageConverter#convertToGray32()V*!
+
+icij.process.ImageConverter2convertToGray32()*
+13*Õ
+42Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaf f(·ﬁ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaf f("
+%131boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+
+32-bit2equals(Ljava/lang/Object;)*
+39
+40*∏
+43Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javae e(–Õ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javae e(
+%130void",ij.process.ImageConverter#convertToGray16()V*!
+
+icij.process.ImageConverter2convertToGray16()*
+13*Õ
+45Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javad d(·ﬁ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javad d("
+%129boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+
+16-bit2equals(Ljava/lang/Object;)*
+42
+43*∂
+46Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javac c(ŒÀ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javac c(
+%128void"+ij.process.ImageConverter#convertToGray8()V*!
+
+icij.process.ImageConverter2convertToGray8()*
+13*˘
+48Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaa a(3™
+ß
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaa a(3
+icij.process.ImageConverter"__id*#
+!
+%125ij.process.ImageConverter‡›
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javab b(
+%127boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*	
+8-bit2equals(Ljava/lang/Object;)*
+46
+45*¸
+49Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaa. a(1ú
+ô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaa. a(1
+%124ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impúô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaa a(-!
+%125ij.process.ImageConverter"ij.process.ImageConverter÷
+”
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaa a(2
+%126"1ij.process.ImageConverter#<init>(Lij/ImagePlus;)V*#
+!
+%125ij.process.ImageConverter*
+
+%124ij.ImagePlus*
+48*¬
+50Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java` `(x
+v
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java` `(#
+%121int"__id*
+""ú
+ô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java`% `((
+%122ij.ImagePlus"__id* *
+ij.plugin.Converter"
+imp¡
+æ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java` `()
+%123void"ij.Undo#setup(ILij/ImagePlus;)V*"	
+ij.Undo*
+
+%121int*
+
+%122ij.ImagePlus*
+49*“
+51Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java] ](0ÍÁ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java] ](0
+%120void"*ij.ImagePlus#setTitle(Ljava/lang/String;)V*
+
+%117ij.ImagePlus*
+
+%119java.lang.String2setTitle(Ljava/lang/String;)*
+12*Ì
+52Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java] ](ú
+ô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java] ](
+%117ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impú
+ô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java]! ]($
+%118ij.ImagePlus"__id* *
+ij.plugin.Converter"
+imp«ƒ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java]! ](/
+%119java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+%118ij.ImagePlus2
+getTitle()*
+51*⁄
+55Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java\ \(/Æ´
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java\ \(-*
+%115"java.lang.IllegalArgumentException""java.lang.IllegalArgumentException¬
+ø
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java\ \(/
+%116",java.lang.IllegalArgumentException#<init>()V*,
+*
+%115"java.lang.IllegalArgumentException*
+9*‘
+56Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java[4 [(;ËÂ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java[ [(<
+%114void"3ij.process.StackConverter#convertToIndexedColor(I)V*#
+!
+%112ij.process.StackConverter*
+""2convertToIndexedColor(I)*
+52
+12*¸
+57Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java[ [(ú
+ô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java[ [(
+%111ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impúô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java[
+ [(!
+%112ij.process.StackConverter"ij.process.StackConverter÷
+”
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.java[ [(
+%113"1ij.process.StackConverter#<init>(Lij/ImagePlus;)V*#
+!
+%112ij.process.StackConverter*
+
+%111ij.ImagePlus*
+56*£
+59Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaY Y(≥∞
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaY Y(!
+%110int" ij.plugin.Converter#getNumber()I*
+ij.plugin.Converter2getNumber()*
+57
+52
+12*“
+61Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaX X(Ê„
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaX X(*
+%109boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+8-bit Color2equals(Ljava/lang/Object;)*
+59
+55*Ã
+62Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaW W(5‡›
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaW W(5
+%108void"3ij.process.StackConverter#convertToLabHyperstack()V*#
+!
+%106ij.process.StackConverter2convertToLabHyperstack()*
+52
+12*¸
+63Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaW W(ú
+ô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaW W(
+%105ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impúô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaW	 W(!
+%106ij.process.StackConverter"ij.process.StackConverter÷
+”
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaW W(
+%107"1ij.process.StackConverter#<init>(Lij/ImagePlus;)V*#
+!
+%106ij.process.StackConverter*
+
+%105ij.ImagePlus*
+62*–
+65Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaV V(‰·
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaV V(%
+%104boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+itemjava.lang.String*
+	Lab Stack2equals(Ljava/lang/Object;)*
+61
+63*–
+66Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaU U(7‰·
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaU U(7
+%103void"5ij.process.StackConverter#convertToHSB32Hyperstack()V*#
+!
+%101ij.process.StackConverter2convertToHSB32Hyperstack()*
+52
+12*¸
+67Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaU U(ú
+ô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaU U(
+%100ij.ImagePlus"__id* *
+ij.plugin.Converter"
+impúô
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaU	 U(!
+%101ij.process.StackConverter"ij.process.StackConverter÷
+”
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Converter.javaU U(
+%102"1ij.process.StackConverter#<init>(Lij/ImagePlus;)V*#
+!
+%101ij.process.StackConverter*
+
+%100ij.ImagePlus*
+66:
+itemjava.lang.StringB
+ij.plugin.Converter

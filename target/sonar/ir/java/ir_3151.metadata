@@ -1,0 +1,7 @@
+ij.macro.Functions#join()Ljava/lang/String;
+ij.macro.Interpreter#getLeftParen()V
+ij.macro.Interpreter#getRightParen()V
+ij.macro.Interpreter#nextToken()I
+ij.macro.Functions#joinArray([Lij/macro/Variable;Ljava/lang/String;)Ljava/lang/StringBuilder;
+ij.macro.Functions#getNextString()Ljava/lang/String;
+java.lang.StringBuilder#toString()Ljava/lang/String;

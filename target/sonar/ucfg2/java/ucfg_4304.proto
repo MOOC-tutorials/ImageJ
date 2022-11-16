@@ -1,0 +1,87 @@
+
+3ij.plugin.Filters3D#showDialog(Ljava/lang/String;)ZY
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java3 3("3*√
+2Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java:
+ :("c
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java: :(
+""*ê
+3Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java4' 4(+êç
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java4 4(&
+%0ij.gui.GenericDialog"ij.gui.GenericDialog–
+Õ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java4 4(,
+%1"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%0ij.gui.GenericDialog*
+
+namejava.lang.Stringû
+õ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java4 4(-
+gdij.gui.GenericDialog"__id*
+
+%0ij.gui.GenericDialogâÜ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java5 5(-
+
+%2void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+	X radius:*
+""*22%addNumericField(Ljava/lang/String;DI)âÜ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java6 6(-
+
+%3void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+	Y radius:*
+""*22%addNumericField(Ljava/lang/String;DI)âÜ
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java7 7(-
+
+%4void";ij.gui.GenericDialog#addNumericField(Ljava/lang/String;DI)V*
+
+gdij.gui.GenericDialog*
+	Z radius:*
+""*22%addNumericField(Ljava/lang/String;DI)∫∑
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java8 8(
+
+%5void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()øº
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java9 9(
+%6boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+2
+1*í
+1Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java< <(¬ø
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java< <(&
+%7double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()¬ø
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java= =(&
+%8double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()¬ø
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java> >(&
+%9double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()"c
+Y
+O/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/Filters3D.java? ?(
+"":
+namejava.lang.StringB
+ij.plugin.Filters3D

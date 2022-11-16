@@ -1,0 +1,80 @@
+
+ij.macro.Functions#showPlot()DZ
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaö ö("4*á
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaú ú(×Ô
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaú ú(&
+%3ij.ImagePlus"/ij.gui.ImageWindow#getImagePlus()Lij/ImagePlus;*!
+
+
+plotWindowij.gui.PlotWindow2getImagePlus() 
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaú ú(.	
+%4int"ij.ImagePlus#getID()I*
+
+%3ij.ImagePlus2getID()*
+1*ç
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaø ø(š
+—
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaø ø(
+%1ij.gui.Plot"__id* *
+ij.macro.Functions"
+plot¼¹
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaø ø(&
+%2ij.gui.PlotWindow"%ij.gui.Plot#show()Lij/gui/PlotWindow;*
+
+%1ij.gui.Plot2show()¡
+
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaø ø('
+
+plotWindowij.gui.PlotWindow"__id*
+
+%2ij.gui.PlotWindow*
+2
+1*„
+4Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java÷ ÷(
+š
+—
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java÷ ÷(
+
+%0ij.gui.Plot"__id* *
+ij.macro.Functions"
+plot*
+3
+1*µ
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaü	 ü(
+Š
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaü ü(
+ij.macro.Functions"
+plot"__id*
+""¥
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaı ı(
+%5ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp¹¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaı ı(
+
+%6void"!ij.macro.Interpreter#getParens()V*
+
+%5ij.macro.Interpreter2getParens()z
+x
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaş	 ş(
+%7double"__id*
+"""d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaş ş(
+""B
+ij.macro.Functions

@@ -1,0 +1,985 @@
+
+Fij.plugin.frame.Channels#itemStateChanged(Ljava/awt/event/ItemEvent;)V`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java∏ ∏("72*®
+68`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaΩ Ω(µ≤
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaΩ Ω((	
+%3int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+66
+67*¯
+24`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java (~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÒ Ò(
+
+%62int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÒ Ò(
+
+%63int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÒ  Ò(#
+
+%64int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÒ* Ò(0
+
+%65int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÚ Ú(
+
+%66int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÛ Û(
+
+%67int"__id*
+""*
+25
+26
+27
+23*®
+69`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaº º(µ≤
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaº º($	
+%2int"ij.ImagePlus#getNChannels()I*
+
+impij.ImagePlus2getNChannels()*
+68
+66*É
+25`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÛ Û()î
+ë
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÛ Û(!
+modejava.lang.String"__id*
+	grayscale*
+23*ˇ
+26`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÚ Ú(&ê
+ç
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÚ Ú(
+modejava.lang.String"__id*	
+color*
+23*É
+27`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÒ Ò(Jî
+ë
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÒ2 Ò(B
+modejava.lang.String"__id*
+	composite*
+23*©
+28`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÏ
+ Ï(¨
+©
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÏ
+ Ï(
+%54java.lang.String"__concat*
+\"*
+
+cstrjava.lang.String´
+®
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÏ
+ Ï(
+%55java.lang.String"__concat*
+
+%54java.lang.String*
+\"†
+ù
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÏ Ï(
+cstrjava.lang.String"__id*
+
+%55java.lang.Stringœ
+Ã
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÌ Ì(E
+%56java.lang.String"__concat*)'
+%imp.setProp(\"CompositeProjection\", *
+
+cstrjava.lang.String´
+®
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÌ Ì(J
+%57java.lang.String"__concat*
+
+%56java.lang.String*
+);Â
+‚
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÌ Ì(K
+%58void"8ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+
+%57java.lang.StringΩ
+∫
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÓ Ó(3
+%59java.lang.String"__concat*
+imp.setDisplayMode(*
+
+modejava.lang.String´
+®
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÓ Ó(8
+%60java.lang.String"__concat*
+
+%59java.lang.String*
+);Â
+‚
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÓ Ó(9
+%61void"8ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+
+%60java.lang.String*
+0*¯
+29`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÁ Á(~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaË Ë(
+
+%48int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaË Ë(
+
+%49int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaË  Ë(#
+
+%50int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaË* Ë(0
+
+%51int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÈ È(
+
+%52int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÍ Í(
+
+%53int"__id*
+""*
+28
+30
+31
+32*™
+70`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaª ª(
+∑¥
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaª ª(
+%1boolean"ij.ImagePlus#isComposite()Z*
+
+impij.ImagePlus2isComposite()*
+69
+59*“
+71`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java∫ ∫("j
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java∫ ∫(
+""*Õ
+72`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaπ π(¡
+æ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaπ π(1
+%0ij.ImagePlus"0ij.WindowManager#getCurrentImage()Lij/ImagePlus;*"
+ij.WindowManagerñ
+ì
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaπ π(2
+impij.ImagePlus"__id*
+
+%0ij.ImagePlus*
+70
+71*Ü
+30`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÍ Í(,ó
+î
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÍ Í($
+modejava.lang.String"__id*
+IJ.GRAYSCALE*
+28*Ç
+31`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÈ È()ì
+ê
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÈ È(!
+modejava.lang.String"__id*
+
+IJ.COLOR*
+28*Ü
+32`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaË Ë(Mó
+î
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaË2 Ë(E
+modejava.lang.String"__id*
+IJ.COMPOSITE*
+28*Æ
+33`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÊ Ê("ª
+∏
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÊ Ê(/
+%47boolean"&ij.plugin.frame.Recorder#scriptMode()Z*"
+ij.plugin.frame.Recorder*
+24
+29*Ä
+34`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÂ Â(ç
+ä
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÂ Â(
+modejava.lang.String"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÊ Ê(
+
+%46int"__id*
+""*
+24
+33*˜
+35`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‚ ‚(¿Ω
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‚ ‚(
+%44void"ij.CompositeImage#setMode(I)V*
+
+ciij.CompositeImage*
+""2
+setMode(I)¬ø
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java„ „(
+%45void""ij.CompositeImage#updateAndDraw()V*
+
+ciij.CompositeImage2updateAndDraw()*
+0
+34*Ê
+36`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java· ·(˜
+Ù
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java· ·(1
+%43java.lang.String"Jij.IJ#runMacroFile(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*	"
+ij.IJ*
+ij.jar:InvertAllLuts*
+""*
+35*Ø
+37`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‡2 ‡(5ºπ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‡2 ‡(E
+%42boolean"ij.ImagePlus#isInvertedLut()Z*
+
+impij.ImagePlus2isInvertedLut()*
+35
+36*◊
+38`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‡ ‡( ‰·
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‡ ‡(-
+%41boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+Sum*
+
+cstrjava.lang.String2equals(Ljava/lang/Object;)*
+35
+37*◊
+39`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‡ ‡(‰·
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‡ ‡(
+%40boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+Max*
+
+cstrjava.lang.String2equals(Ljava/lang/Object;)*
+37
+38*Ø
+40`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaﬂO ﬂ(Rºπ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaﬂO ﬂ(b
+%39boolean"ij.ImagePlus#isInvertedLut()Z*
+
+impij.ImagePlus2isInvertedLut()*
+36
+39*⁄
+41`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaﬂ4 ﬂ(<Á‰
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaﬂ4 ﬂ(I
+%38boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+Invert*
+
+cstrjava.lang.String2equals(Ljava/lang/Object;)*
+39
+40*◊
+42`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaﬂ  ﬂ(%‰·
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaﬂ  ﬂ(2
+%37boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+Min*
+
+cstrjava.lang.String2equals(Ljava/lang/Object;)*
+40
+41*
+43`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaﬂ ﬂ(~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaﬂ ﬂ(
+
+%36int"__id*
+""*
+39
+42*ù
+44`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java› ›(Æ´
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java› ›(+
+%35void";ij.ImagePlus#setProp(Ljava/lang/String;Ljava/lang/String;)V*
+
+ciij.CompositeImage*
+CompositeProjection*
+
+cstrjava.lang.String2-setProp(Ljava/lang/String;Ljava/lang/String;)*
+43*˛
+46`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‹+ ‹(-ãà
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‹+ ‹(L
+%34java.lang.String":ij.ImagePlus#getProp(Ljava/lang/String;)Ljava/lang/String;*
+
+ciij.CompositeImage*
+CompositeProjection2getProp(Ljava/lang/String;)*
+43
+44*€
+47`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‹ ‹(‰·
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‹ ‹()
+%33boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+cstrjava.lang.String*
+Sum2equals(Ljava/lang/Object;)*
+46
+43
+44*ﬂ
+49`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java– –(»≈
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java– –(2
+
+%24int"#java.awt.Choice#getSelectedIndex()I*
+
+sourcejava.lang.Object2getSelectedIndex()ç
+ä
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java— —(
+cstrjava.lang.String"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java“ “(
+
+%25int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‘	 ‘(
+
+%26int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java’	 ’(
+
+%27int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java÷	 ÷(
+
+%28int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java◊	 ◊(
+
+%29int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÿ	 ÿ(
+
+%30int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaŸ	 Ÿ(
+
+%31int"__id*
+""~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java⁄	 ⁄(
+
+%32int"__id*
+""*
+47
+50
+51
+52
+53
+43
+56*Ñ
+50`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java⁄ ⁄(<ë
+é
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java⁄' ⁄(4
+cstrjava.lang.String"__id*
+
+Invert*
+47
+43*Å
+51`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaŸ Ÿ(6é
+ã
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaŸ$ Ÿ(.
+cstrjava.lang.String"__id*
+Min*
+47
+43*Å
+52`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÿ ÿ(6é
+ã
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÿ$ ÿ(.
+cstrjava.lang.String"__id*
+Max*
+47
+43*Å
+53`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java◊ ◊(8é
+ã
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java◊& ◊(0
+cstrjava.lang.String"__id*
+Sum*
+47
+43*œ
+11`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÉ É( æ
+ª
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÉ É( 
+%83java.lang.String"__concat*
+
+strjava.lang.String*
+
+%80java.lang.Stringü
+ú
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÉ É( 
+strjava.lang.String"__id*
+
+%83java.lang.String*
+15*Å
+56`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‘ ‘(5é
+ã
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java‘# ‘(-
+cstrjava.lang.String"__id*
+Sum*
+47
+43*é
+12`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÉ É( ü
+ú
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÉ É( 
+%80java.lang.String"__id*
+
+%82java.lang.String*
+11* 
+57`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÕ& Õ()õ
+ò
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÕ Õ(*
+ciij.CompositeImage"__id*
+
+impij.ImagePlus·ﬁ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaŒ Œ(
+%22java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*
+
+ejava.awt.event.ItemEvent2getSource()¢
+ü
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaŒ Œ( 
+sourcejava.lang.Object"__id*
+
+%22java.lang.Object≠
+™
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaœ œ(
+%23java.awt.Choice"__id*(*&
+ij.plugin.frame.Channels"
+choice*
+49
+20
+0*é
+13`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÉ É(ü
+ú
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÉ É(
+%80java.lang.String"__id*
+
+%81java.lang.String*
+11*“
+58`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÃ Ã(!"j
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÃ Ã(!
+""*´
+59`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÃ Ã(
+∏µ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÃ Ã(
+%21boolean"ij.ImagePlus#isComposite()Z*
+
+impij.ImagePlus2isComposite()*
+57
+58*∞
+15`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÇ Ç(∫∑
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÇ Ç((
+
+%79int"ij.ImagePlus#getNChannels()I*
+
+ciij.CompositeImage2getNChannels()*
+13
+9
+12*˜
+16`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÅ Å(à
+Ö
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÅ Å(
+strjava.lang.String"__id* *
+15*Ä
+17`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java˛ ˛(–Õ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java˛ ˛(/
+%77	boolean[]"'ij.CompositeImage#getActiveChannels()[Z*
+
+ciij.CompositeImage2getActiveChannels()ª∏
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaˇ ˇ(
+%78boolean"java.awt.Checkbox#getState()Z*
+
+cbjava.awt.Checkbox2
+getState()*
+2
+16*ß
+18`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java˝	 ˝(µ≤
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java˝	 ˝(
+
+%75int"ij.CompositeImage#getMode()I*
+
+ciij.CompositeImage2	getMode()~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java˝ ˝(#
+
+%76int"__id*
+""*
+6
+17*ˇ
+19`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java˚ ˚("¢
+ü
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java˚ ˚(#
+cbjava.awt.Checkbox"__id*
+
+sourcejava.lang.Object≥
+∞
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java¸ ¸(
+%73java.awt.Checkbox[]"__id***(
+ij.plugin.frame.Channels"
+
+checkbox±
+Æ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java¸ ¸(
+%74java.awt.Checkbox"
+__arrayGet*
+
+%73java.awt.Checkbox[]*
+""*
+18
+20*~
+0 "w
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaó ó(
+implicit return*ñ
+2`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaí í(¬ø
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaí í(
+%97void""ij.CompositeImage#updateAndDraw()V*
+
+ciij.CompositeImage2updateAndDraw()"j
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaì ì(
+""*“
+3`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaè è(Â
+‚
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaè è(0
+%96void"5ij.plugin.frame.Recorder#record(Ljava/lang/String;I)V*"
+ij.plugin.frame.Recorder*
+Stack.setChannel*
+""*
+2*¢
+4`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaç ç(ü
+ú
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaç ç(-
+%93java.lang.String"__concat*
+	imp.setC(*
+""´
+®
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaç ç(2
+%94java.lang.String"__concat*
+
+%93java.lang.String*
+);Â
+‚
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaç ç(3
+%95void"8ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+
+%94java.lang.String*
+2*´
+5`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaå å(ª
+∏
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaå å( 
+%92boolean"&ij.plugin.frame.Recorder#scriptMode()Z*"
+ij.plugin.frame.Recorder*
+3
+4*±
+6`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaä ä(	Æ´
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaä ä()
+
+%89int"ij.ImagePlus#getSlice()I*
+
+impij.ImagePlus2
+getSlice()Æ´
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaä+ ä(9
+
+%90int"ij.ImagePlus#getFrame()I*
+
+impij.ImagePlus2
+getFrame()ﬂ‹
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaä ä(:
+%91void"ij.ImagePlus#setPosition(III)V*
+
+impij.ImagePlus*
+""*
+
+
+%89int*
+
+
+%90int2setPosition(III)*
+2
+5*˝
+7`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaá á(ê
+ç
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaá á(7
+%88void"Fij.plugin.frame.Recorder#record(Ljava/lang/String;Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+Stack.setActiveChannels*
+
+strjava.lang.String*
+2*∆
+8`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÖ Ö(¡
+æ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÖ Ö(:
+%85java.lang.String"__concat*
+imp.setActiveChannels(\"*
+
+strjava.lang.String≠
+™
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÖ Ö(A
+%86java.lang.String"__concat*
+
+%85java.lang.String*
+\");Â
+‚
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÖ Ö(B
+%87void"8ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+
+%86java.lang.String*
+2*´
+9`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÑ Ñ(ª
+∏
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaÑ Ñ( 
+%84boolean"&ij.plugin.frame.Recorder#scriptMode()Z*"
+ij.plugin.frame.Recorder*
+7
+8*ª
+60`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java» »(±
+Æ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java»A »(J
+%14java.lang.String"__id*+*)
+ij.plugin.frame.Channels"
+	moreLabelŒ
+À
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java» »(J
+%15java.lang.String"__concat*)'
+%A composite image is required (e.g., *
+
+%14java.lang.String—
+Œ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java» »(u
+%16java.lang.String"__concat*
+
+%15java.lang.String*,*
+( Open HeLa Cells),\nor create one using ±
+Æ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java»v »(
+%17java.lang.String"__id*+*)
+ij.plugin.frame.Channels"
+	moreLabelæ
+ª
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java» »(
+%18java.lang.String"__concat*
+
+%16java.lang.String*
+
+%17java.lang.String∫
+∑
+a
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java» »(í
+%19java.lang.String"__concat*
+
+%18java.lang.String*
+ Make Composite.€
+ÿ
+a
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java» »(ì
+%20void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+
+Channels*
+
+%19java.lang.String"j
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java… …(
+""*¶
+61`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java∆ ∆(∑
+¥
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java∆ ∆(#
+%13void"$ij.IJ#doCommand(Ljava/lang/String;)V*	"
+ij.IJ*
+Make Composite*
+59*“
+62`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaƒ ƒ("j
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaƒ ƒ(
+""*˛
+63`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java¿) ¿(,À»
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java¿) ¿(7
+%7java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+impij.ImagePlus2
+getTitle()óî
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java¿ ¿((
+%8ij.gui.GenericDialog"ij.gui.GenericDialog’
+“
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java¿ ¿(8
+%9"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%8ij.gui.GenericDialog*
+
+%7java.lang.String•
+¢
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java¿ ¿(9
+gdij.gui.GenericDialog"__id*
+
+%8ij.gui.GenericDialogîë
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java¡ ¡(=
+%10void"4ij.gui.GenericDialog#addMessage(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*,*
+(Convert to multichannel composite image?2addMessage(Ljava/lang/String;)¬ø
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java¬ ¬(
+%11void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()«ƒ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java√ √(
+%12boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+61
+62*Ô
+64`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaø- ø(5}
+{
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaø6 ø(Q	
+%6int"__id*
+""*
+60
+63*•
+20`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java˙ ˙(≥
+∞
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.java˙ ˙(
+%72java.awt.Checkbox[]"__id***(
+ij.plugin.frame.Channels"
+
+checkbox*
+19
+0*™
+66`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaø ø(
+≥∞
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaø ø(	
+%5int"ij.ImagePlus#getBitDepth()I*
+
+impij.ImagePlus2getBitDepth()*
+60
+63
+64*§
+67`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaæ æ(µ≤
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaæ æ(!	
+%4int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+66*Ì
+23`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaı ı(“
+œ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaı ı(J
+%68java.lang.String"__concat*,*
+(Property.set(\"CompositeProjection\", \"*
+
+cstrjava.lang.StringØ
+¨
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaı ı(S
+%69java.lang.String"__concat*
+
+%68java.lang.String*
+
+\");\nÁ
+‰
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaı ı(T
+%70void":ij.plugin.frame.Recorder#recordString(Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+
+%69java.lang.Stringé
+ã
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/Channels.javaˆ ˆ(2
+%71void"Fij.plugin.frame.Recorder#record(Ljava/lang/String;Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+Stack.setDisplayMode*
+
+modejava.lang.String*
+0:
+ejava.awt.event.ItemEventB
+ij.plugin.frame.Channels

@@ -1,0 +1,340 @@
+
+Cij.plugin.CalibrationBar#addVerticalColorBar(Lij/gui/Overlay;IIII)V`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaå å(!"20*∏
+13`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java™ ™(…∆
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java™ ™(!
+%9double"#ij.process.ImageProcessor#getMin()D*%
+#
+ipOrigij.process.ImageProcessor2getMin()*
+11*‡
+2`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaº º(∑
+¥
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaº º($
+%24java.lang.String"__id*1*/
+ij.plugin.CalibrationBar"
+barOutlineColoröó
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaº º(%
+%25java.awt.Color"Eij.plugin.CalibrationBar#getColor(Ljava/lang/String;)Ljava/awt/Color;*
+ij.plugin.CalibrationBar*
+
+%24java.lang.String2getColor(Ljava/lang/String;)ô
+ñ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaº º(&
+cjava.awt.Color"__id*
+
+%25java.awt.Color*
+0
+1*µ
+14`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java¶ ¶(¶
+£
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java® ®(
+%7ij.ImagePlus"__id*%*#
+ij.plugin.CalibrationBar"
+imp‰·
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java® ®(+
+%8ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+%7ij.ImagePlus2getProcessor()≥
+∞
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java® ®(,#
+ipOrigij.process.ImageProcessor"__id*!
+
+%8ij.process.ImageProcessor*
+13
+7*ç
+4`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaµ µ(~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaµ µ(
+
+%14int"__id*
+""ÜÉ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java∂ ∂(
+%15ij.gui.Line"ij.gui.LineΩ
+∫
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java∂ ∂(1
+%16"ij.gui.Line#<init>(IIII)V*
+
+%15ij.gui.Line*
+""*
+""*
+""*
+""ñ
+ì
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java∂ ∂(2
+lineij.gui.Line"__id*
+
+%15ij.gui.Lineåâ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java∑ ∑( 
+%17java.awt.Color"java.awt.Color∫
+∑
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java∑ ∑(S
+%18"java.awt.Color#<init>(III)V*
+
+%17java.awt.Color*
+""*
+""*
+""ÚÔ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java∑ ∑(T
+%19void",ij.gui.Roi#setStrokeColor(Ljava/awt/Color;)V*
+
+lineij.gui.Line*
+
+%17java.awt.Color2 setStrokeColor(Ljava/awt/Color;)Å
+
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java∏ ∏(#
+%20double"__id*
+""Ã…
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java∏ ∏($
+%21void"ij.gui.Roi#setStrokeWidth(D)V*
+
+lineij.gui.Line*
+
+%20double2setStrokeWidth(D)å
+â
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaπ π($
+%22java.lang.String"__id*
+""õò
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaπ π(%
+%23void"3ij.gui.Overlay#add(Lij/gui/Roi;Ljava/lang/String;)V*
+
+overlayij.gui.Overlay*
+
+lineij.gui.Line*
+
+%22java.lang.String2#add(Lij/gui/Roi;Ljava/lang/String;)*
+7*ï
+6`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java≤ ≤(~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java≤2 ≤(<
+
+%12int"__id*
+""®
+•
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java≤ ≤(C
+%13long"java.lang.Math#round(D)J*"
+java.lang.Math*
+""*
+4*˛
+18`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaú ú(É
+Ä
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaù ù(
+rLUTbyte[]"__id*
+""É
+Ä
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaû û(
+gLUTbyte[]"__id*
+""É
+Ä
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaü ü(
+bLUTbyte[]"__id*
+""*
+14*Ì
+7`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java± ±(~
+|
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java± ±($
+
+%11int"__id*
+""*
+2
+6*≈
+19`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaì( ì(*≥
+∞
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaì ì(+#
+mjava.awt.image.IndexColorModel"__id*!
+
+cmjava.awt.image.ColorModel”–
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaî î(	
+%3int",java.awt.image.IndexColorModel#getMapSize()I*%
+#
+mjava.awt.image.IndexColorModel2getMapSize()É
+Ä
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaï ï(
+rLUTbyte[]"__id*
+""É
+Ä
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javañ ñ(
+gLUTbyte[]"__id*
+""É
+Ä
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaó ó(
+bLUTbyte[]"__id*
+""‰·
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaò ò(
+
+%4void"+java.awt.image.IndexColorModel#getReds([B)V*%
+#
+mjava.awt.image.IndexColorModel*
+
+rLUTbyte[]2getReds([B)ËÂ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaô ô(
+
+%5void"-java.awt.image.IndexColorModel#getGreens([B)V*%
+#
+mjava.awt.image.IndexColorModel*
+
+gLUTbyte[]2getGreens([B)Ê„
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaö ö(
+
+%6void",java.awt.image.IndexColorModel#getBlues([B)V*%
+#
+mjava.awt.image.IndexColorModel*
+
+bLUTbyte[]2getBlues([B)*
+14*’
+
+20`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaç ç(É
+Ä
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaè è(
+rLUTbyte[]"__id*
+""É
+Ä
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaè è(
+gLUTbyte[]"__id*
+""É
+Ä
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaè è(
+bLUTbyte[]"__id*
+""¶
+£
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaë! ë($
+%0ij.ImagePlus"__id*%*#
+ij.plugin.CalibrationBar"
+imp‰·
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaë! ë(3
+%1ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+%0ij.ImagePlus2getProcessor()éã
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaë! ë(J
+%2java.awt.image.ColorModel"Kij.process.ImageProcessor#getCurrentColorModel()Ljava/awt/image/ColorModel;*!
+
+%1ij.process.ImageProcessor2getCurrentColorModel()Ø
+¨
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaë ë(K
+cmjava.awt.image.ColorModel"__id*!
+
+%2java.awt.image.ColorModel*
+18
+19*~
+0 "w
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java√ √(
+implicit return*∏
+11`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java¨ ¨( «
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java¨ ¨(!
+%10double"#ij.process.ImageProcessor#getMax()D*%
+#
+ipOrigij.process.ImageProcessor2getMax()*
+7*ù
+1`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaæ æ(ÑÅ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaæ æ(
+%26
+ij.gui.Roi"
+ij.gui.Roiª
+∏
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaæ æ('
+%27"ij.gui.Roi#<init>(IIII)V*
+
+%26
+ij.gui.Roi*
+""*
+""*
+""*
+""ë
+é
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaæ æ((
+r
+ij.gui.Roi"__id*
+
+%26
+ij.gui.RoiÏÈ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.javaø ø(
+%28void",ij.gui.Roi#setStrokeColor(Ljava/awt/Color;)V*
+
+r
+ij.gui.Roi*
+
+cjava.awt.Color2 setStrokeColor(Ljava/awt/Color;)øº
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java¿ ¿(
+%29void"ij.gui.Roi#setStrokeWidth(D)V*
+
+r
+ij.gui.Roi*
+""2setStrokeWidth(D)å
+â
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java¡ ¡(!
+%30java.lang.String"__id*
+""óî
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CalibrationBar.java¡ ¡("
+%31void"3ij.gui.Overlay#add(Lij/gui/Roi;Ljava/lang/String;)V*
+
+overlayij.gui.Overlay*
+
+r
+ij.gui.Roi*
+
+%30java.lang.String2#add(Lij/gui/Roi;Ljava/lang/String;)*
+0:
+overlayij.gui.Overlay:
+"":
+"":
+"":
+""B
+ij.plugin.CalibrationBar

@@ -1,0 +1,42 @@
+
+Nij.plugin.filter.BackgroundSubtracter#setup(Ljava/lang/String;Lij/ImagePlus;)Ik
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaJ J("3*Ç
+2k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaL L(ðí
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaL L(
+%1ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()ÞÛ
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaL L(/
+
+%2void"+ij.process.ImageProcessor#resetMinAndMax()V*!
+
+%1ij.process.ImageProcessor2resetMinAndMax()‰
+†
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaM M(	
+%3int"__id*
+"""u
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaM M(
+""*ê
+3k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaK K(ïì
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaK K(
+%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*	
+final2equals(Ljava/lang/Object;)*
+2
+1*ç
+1k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaO O("u
+k
+a/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/BackgroundSubtracter.javaO O(
+"":
+argjava.lang.String:
+impij.ImagePlusB)'
+%ij.plugin.filter.BackgroundSubtracter

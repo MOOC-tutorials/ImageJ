@@ -1,0 +1,13 @@
+ij.ImageJ#run()V
+ij.WindowManager#getNonImageWindows()[Ljava/awt/Frame;
+ij.Prefs#savePreferences()V
+ij.IJ#cleanup()V
+ij.WindowManager#getImage(I)Lij/ImagePlus;
+ij.WindowManager#getIDList()[I
+ij.gui.GenericDialog#<init>(Ljava/lang/String;Ljava/awt/Frame;)V
+ij.WindowManager#closeAllWindows()Z
+ij.Prefs#set(Ljava/lang/String;Ljava/lang/String;)V
+ij.WindowManager#getImageCount()I
+ij.gui.GenericDialog#instance-init#
+java.lang.System#exit(I)V
+ij.IJ#macroRunning()Z

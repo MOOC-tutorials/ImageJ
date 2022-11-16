@@ -1,0 +1,177 @@
+
+Eij.process.TypeConverter#convertRGBToByte()Lij/process/ByteProcessor;^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.java_ _("10*Ô
+5^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javaj j(Ñ
+Å
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javak k(*
+pixels8byte[]"__id*
+""*
+1*ı
+6^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javai i(±
+Æ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javai i( 
+%18ij.process.ImageProcessor"__id*$*"
+ij.process.TypeConverter"
+ip÷”
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javai i(+
+%19double[]"+ij.process.ColorProcessor#getRGBWeights()[D*"
+ 
+%18ij.process.ImageProcessor2getRGBWeights()*
+5*ﬁ
+7^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javaf f(±
+Æ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javaf f( 
+%13ij.process.ImageProcessor"__id*$*"
+ij.process.TypeConverter"
+ipÊ„
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javaf f((
+%14java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*"
+ 
+%13ij.process.ImageProcessor2getPixels()∆
+√
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javag g(3
+%15double[]"1ij.process.ColorProcessor#getWeightingFactors()[D*"
+ij.process.ColorProcessor±
+Æ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javah h( 
+%16ij.process.ImageProcessor"__id*$*"
+ij.process.TypeConverter"
+ip÷”
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javah h(*
+%17double[]"+ij.process.ColorProcessor#getRGBWeights()[D*"
+ 
+%16ij.process.ImageProcessor2getRGBWeights()*
+5
+6*è
+8^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javaa a(∞
+≠
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javaa a(
+%2ij.process.ImageProcessor"__id*$*"
+ij.process.TypeConverter"
+ip÷”
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javaa a((
+%3byte[]"-ij.process.ImageProcessor#create8BitImage()[B*!
+
+%2ij.process.ImageProcessor2create8BitImage()å
+â
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javaa a()
+pixels8byte[]"__id*
+
+%3byte[]∞
+≠
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javab( b(*
+%4ij.process.ImageProcessor"__id*$*"
+ij.process.TypeConverter"
+ipƒ¡
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javab( b(5	
+%5int"%ij.process.ImageProcessor#getWidth()I*!
+
+%4ij.process.ImageProcessor2
+getWidth()∞
+≠
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javab7 b(9
+%6ij.process.ImageProcessor"__id*$*"
+ij.process.TypeConverter"
+ip∆√
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javab7 b(E	
+%7int"&ij.process.ImageProcessor#getHeight()I*!
+
+%6ij.process.ImageProcessor2getHeight()ùö
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javab b('
+%8ij.process.ByteProcessor"ij.process.ByteProcessor‚
+ﬂ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javab b(O
+%9"&ij.process.ByteProcessor#<init>(II[B)V* 
+
+%8ij.process.ByteProcessor*
+	
+%5int*
+	
+%7int*
+
+pixels8byte[]´
+®
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javab b(P
+bpij.process.ByteProcessor"__id* 
+
+%8ij.process.ByteProcessor±
+Æ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javac c( 
+%10ij.process.ImageProcessor"__id*$*"
+ij.process.TypeConverter"
+ipÄ˝
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javac c(& 
+%11java.awt.image.ColorModel"Dij.process.ImageProcessor#getColorModel()Ljava/awt/image/ColorModel;*"
+ 
+%10ij.process.ImageProcessor2getColorModel()©¶
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javac c('
+%12void"Eij.process.ImageProcessor#setColorModel(Ljava/awt/image/ColorModel;)V* 
+
+bpij.process.ByteProcessor*"
+ 
+%11java.awt.image.ColorModel2*setColorModel(Ljava/awt/image/ColorModel;)"Ç
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javad d( 
+
+bpij.process.ByteProcessor*Ó
+10^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.java` `(∞
+≠
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.java` `(
+%0ij.process.ImageProcessor"__id*$*"
+ij.process.TypeConverter"
+ipÃ…
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.java` `(	
+%1int")ij.process.ImageProcessor#getNChannels()I*!
+
+%0ij.process.ImageProcessor2getNChannels()*
+7
+8*ä
+1^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javat t( ûõ
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javat t(
+%20ij.process.ByteProcessor"ij.process.ByteProcessor˝
+˙
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javat	 t(8
+%21"Aij.process.ByteProcessor#<init>(II[BLjava/awt/image/ColorModel;)V*!
+
+%20ij.process.ByteProcessor*
+""*
+""*
+
+pixels8byte[]*
+"""É
+^
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/TypeConverter.javat t(9!
+
+%20ij.process.ByteProcessorB
+ij.process.TypeConverter

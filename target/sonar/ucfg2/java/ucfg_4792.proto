@@ -1,0 +1,79 @@
+
+Vij.plugin.filter.Rotator#dialogItemChanged(Lij/gui/GenericDialog;Ljava/awt/AWTEvent;)Z`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java´ ´(!"7*¹
+2`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java¿ ¿(ÌÉ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java¿ ¿( 
+%7boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+1*Û
+3`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java» »(ÉÆ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java» »(%
+%4double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()ÐÍ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java¼ ¼(/	
+%5int"*ij.gui.GenericDialog#getNextChoiceIndex()I*
+
+gdij.gui.GenericDialog2getNextChoiceIndex()ÌÉ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java½ ½(*
+%6boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+2
+1*Ñ
+4`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java¹
+ ¹("j
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java¹ ¹(
+""*¢
+5`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java¸ ¸(µ
+²
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java¸ ¸(2
+
+%3void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*
+Angle is invalid.*
+4*®
+6`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java¸ ¸(	¾»
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java¸ ¸(
+%2boolean"ij.gui.GenericDialog#wasOKed()Z*
+
+gdij.gui.GenericDialog2	wasOKed()*
+4
+5*†
+7`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.javaµ
+ µ(ÉÆ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.javaµ
+ µ(
+%0double"%ij.gui.GenericDialog#getNextNumber()D*
+
+gdij.gui.GenericDialog2getNextNumber()ÊÇ
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.java· ·(
+%1boolean"%ij.gui.GenericDialog#invalidNumber()Z*
+
+gdij.gui.GenericDialog2invalidNumber()*
+3
+6*Ñ
+1`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.javaÀ	 À("j
+`
+T/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Rotator.javaÀ À(
+"":
+gdij.gui.GenericDialog:
+ejava.awt.AWTEventB
+ij.plugin.filter.Rotator

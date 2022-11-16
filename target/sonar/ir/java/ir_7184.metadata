@@ -1,0 +1,9 @@
+ij.plugin.Options#freshStart()V
+ij.plugin.Commands#closeAll()Z
+ij.Macro#getOptions()Ljava/lang/String;
+ij.plugin.frame.RoiManager#getInstance()Lij/plugin/frame/RoiManager;
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+ij.plugin.filter.Analyzer#resetCounter()Z
+ij.WindowManager#getWindow(Ljava/lang/String;)Ljava/awt/Window;
+ij.IJ#log(Ljava/lang/String;)V
+java.lang.String#toLowerCase()Ljava/lang/String;

@@ -1,0 +1,644 @@
+
+-ij.plugin.tool.PixelInspector#writeNumbers()Vj
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java‹ ‹("49*„
+46j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÁ Á(∂
+≥
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÁ Á(
+%12ij.ImagePlus"__id***(
+ij.plugin.tool.PixelInspector"
+impÌ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÁ Á(( 
+%13ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+%12ij.ImagePlus2getProcessor()∫
+∑
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÁ Á()
+ipij.process.ImageProcessor"__id*"
+ 
+%13ij.process.ImageProcessor*
+44
+45*¢
+47j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaﬁ ﬁ(’
+“
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaﬁ ﬁ(
+
+%4void"5ij.plugin.tool.PixelInspector#removeImageListeners()V*!
+ij.plugin.tool.PixelInspector“
+œ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaﬂ ﬂ(
+
+%5void"2ij.plugin.tool.PixelInspector#addImageListeners()V*!
+ij.plugin.tool.PixelInspectorÂ‚
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java‡ ‡(
+
+%6void"1ij.plugin.tool.PixelInspector#initializeLabels()V*!
+ij.plugin.tool.PixelInspector2initializeLabels()øº
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java· ·(
+
+%7void"java.awt.Window#pack()V*!
+ij.plugin.tool.PixelInspector2pack()µ
+≤
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java‚ ‚(
+%8ij.ImagePlus"__id***(
+ij.plugin.tool.PixelInspector"
+imp∞≠
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java‚ ‚(	
+%9int"ij.ImagePlus#getID()I*
+
+%8ij.ImagePlus2getID()∂
+≥
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java„ „(
+%10ij.ImagePlus"__id***(
+ij.plugin.tool.PixelInspector"
+impæª
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java„ „(
+
+%11int"ij.ImagePlus#getBitDepth()I*
+
+%10ij.ImagePlus2getBitDepth()"t
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÂ Â(
+
+""*Ò
+48j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java› ›(µ
+≤
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java› ›(
+%2ij.ImagePlus"__id***(
+ij.plugin.tool.PixelInspector"
+impºπ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java› ›(*	
+%3int"ij.ImagePlus#getBitDepth()I*
+
+%2ij.ImagePlus2getBitDepth()*
+46
+47*ã
+26j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÛ Û(@˙˜
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÛ Û(@
+%32void"+java.awt.Label#setText(Ljava/lang/String;)V*
+
+%28java.awt.Label*
+
+%29java.lang.String2setText(Ljava/lang/String;)*
+13
+3
+4
+17
+9
+20
+32
+0*Â
+49j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java› ›(	µ
+≤
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java› ›(	
+%0ij.ImagePlus"__id***(
+ij.plugin.tool.PixelInspector"
+imp∞≠
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java› ›(	
+%1int"ij.ImagePlus#getID()I*
+
+%0ij.ImagePlus2getID()*
+47
+48*¢
+27j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÛ< Û(?©
+¶
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÛ< Û(?
+%29java.lang.String"__id*
+
+%31java.lang.String*
+26*˝
+28j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÛ Û(&ÿ
+’
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÛ Û(9
+%30java.lang.String"/java.lang.Integer#toString(I)Ljava/lang/String;*"
+java.lang.Integer*
+""©
+¶
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÛ Û(9
+%29java.lang.String"__id*
+
+%30java.lang.String*
+26*Ú
+29j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÚ Ú([Ω
+∫
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÛ Û(	
+%27java.awt.Label[]"__id*-*+
+ij.plugin.tool.PixelInspector"
+labelsµ
+≤
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÛ Û(
+%28java.awt.Label"
+__arrayGet*
+
+%27java.awt.Label[]*
+""*
+27
+28*à
+30j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÚY Ú(Zè
+å
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÚY Ú(Z
+
+%24int"__id*
+
+
+%26int*
+29*à
+31j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÚL Ú(Rè
+å
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÚL Ú(V
+
+%24int"__id*
+
+
+%25int*
+29*—
+32j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÒ Ò($»
+≈
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÚ Ú(-
+
+%22int",ij.plugin.filter.Analyzer#getMeasurements()I*"
+ij.plugin.filter.Analyzerâ
+Ü
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÚ0 Ú(E
+
+%23int"__id*
+""*
+30
+31*Ã	
+12j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÄ Ä(Ω
+∫
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÄ Ä(
+%49java.awt.Label[]"__id*-*+
+ij.plugin.tool.PixelInspector"
+labelsµ
+≤
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÄ Ä(
+%50java.awt.Label"
+__arrayGet*
+
+%49java.awt.Label[]*
+""Â‚
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÄ) Ä(9
+
+%51int"'ij.process.ImageProcessor#getPixel(II)I*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixel(II)ﬁ
+€
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÄ Ä(:
+%52java.lang.String"/java.lang.Integer#toString(I)Ljava/lang/String;*"
+java.lang.Integer*
+
+
+%51int˙˜
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÄ Ä(;
+%53void"+java.awt.Label#setText(Ljava/lang/String;)V*
+
+%50java.awt.Label*
+
+%52java.lang.String2setText(Ljava/lang/String;)*
+13
+3
+4
+17
+9
+20
+32
+0*à
+13j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaˇO ˇ(^â
+Ü
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaˇb ˇ(j
+
+%48int"__id*
+""*
+
+4
+9
+12*˙
+38j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÔ Ô(?˙˜
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÔ Ô(?
+%21void"+java.awt.Label#setText(Ljava/lang/String;)V*
+
+%17java.awt.Label*
+
+%18java.lang.String2setText(Ljava/lang/String;)*
+42
+32
+0*Í	
+16j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java˛ ˛(Ω
+∫
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java˛ ˛(
+%43java.awt.Label[]"__id*-*+
+ij.plugin.tool.PixelInspector"
+labelsµ
+≤
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java˛ ˛(
+%44java.awt.Label"
+__arrayGet*
+
+%43java.awt.Label[]*
+""Â‚
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java˛  ˛(0
+
+%45int"'ij.process.ImageProcessor#getPixel(II)I*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixel(II)¸
+˘
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java˛ ˛(3
+%46java.lang.String";ij.plugin.tool.PixelInspector#int2hex(II)Ljava/lang/String;*!"
+ij.plugin.tool.PixelInspector*
+
+
+%45int*2˙˜
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java˛ ˛(4
+%47void"+java.awt.Label#setText(Ljava/lang/String;)V*
+
+%44java.awt.Label*
+
+%46java.lang.String2setText(Ljava/lang/String;)*
+13
+3
+4
+17
+9
+20
+32
+0*¢
+39j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÔ; Ô(>©
+¶
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÔ; Ô(>
+%18java.lang.String"__id*
+
+%20java.lang.String*
+38*å
+17j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java˝0 ˝(>â
+Ü
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java˝B ˝(I
+
+%42int"__id*
+""*
+13
+4
+16
+9*∂
+19j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¯ ¯(Â‚
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¯ ¯(
+
+%34int"'ij.process.ImageProcessor#getPixel(II)I*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixel(II)Ω
+∫
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¸ ¸(
+%35java.awt.Label[]"__id*-*+
+ij.plugin.tool.PixelInspector"
+labelsµ
+≤
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¸ ¸(
+%36java.awt.Label"
+__arrayGet*
+
+%35java.awt.Label[]*
+""°
+û
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¸ ¸(
+%37java.lang.String"__concat*
+""*
+,µ
+≤
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¸ ¸(
+%38java.lang.String"__concat*
+
+%37java.lang.String*
+""¥
+±
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¸ ¸(#
+%39java.lang.String"__concat*
+
+%38java.lang.String*
+,µ
+≤
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¸ ¸(%
+%40java.lang.String"__concat*
+
+%39java.lang.String*
+""˙˜
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java¸ ¸(&
+%41void"+java.awt.Label#setText(Ljava/lang/String;)V*
+
+%36java.awt.Label*
+
+%40java.lang.String2setText(Ljava/lang/String;)*
+13
+3
+4
+17
+9
+20
+32
+0*â
+0 "Å
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaâ â(
+implicit return*Ó
+3j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÜ Ü(Ω
+∫
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÜ Ü(
+%68java.awt.Label[]"__id*-*+
+ij.plugin.tool.PixelInspector"
+labelsµ
+≤
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÜ Ü(
+%69java.awt.Label"
+__arrayGet*
+
+%68java.awt.Label[]*
+""Ê„
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÜ Ü(
+%70void"+java.awt.Label#setText(Ljava/lang/String;)V*
+
+%69java.awt.Label*
+ 2setText(Ljava/lang/String;)*
+13
+3
+4
+17
+9
+20
+32
+0*í
+
+4j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÑ Ñ(Ω
+∫
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÑ Ñ(
+%63java.awt.Label[]"__id*-*+
+ij.plugin.tool.PixelInspector"
+labelsµ
+≤
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÑ Ñ(
+%64java.awt.Label"
+__arrayGet*
+
+%63java.awt.Label[]*
+""ÒÓ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÑ! Ñ(6
+%65float",ij.process.ImageProcessor#getPixelValue(II)F*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixelValue(II)ôñ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÑ Ñ(H
+%66java.lang.String"=ij.plugin.tool.PixelInspector#stringOf(FIZ)Ljava/lang/String;*!
+ij.plugin.tool.PixelInspector*
+
+%65float*
+""*
+""2stringOf(FIZ)˙˜
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÑ Ñ(I
+%67void"+java.awt.Label#setText(Ljava/lang/String;)V*
+
+%64java.awt.Label*
+
+%66java.lang.String2setText(Ljava/lang/String;)*
+13
+3
+4
+17
+9
+20
+32
+0*ë
+5j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÇ Ç(VÑ
+Å
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÇ Ç(V
+%61java.lang.String";ij.plugin.tool.PixelInspector#int2hex(II)Ljava/lang/String;*!"
+ij.plugin.tool.PixelInspector*
+
+
+%57int*
+
+
+%58int˙˜
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÇ Ç(W
+%62void"+java.awt.Label#setText(Ljava/lang/String;)V*
+
+%56java.awt.Label*
+
+%61java.lang.String2setText(Ljava/lang/String;)*
+13
+3
+4
+17
+9
+20
+32
+0*Ü
+6j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÇT Ç(Uè
+å
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÇT Ç(U
+
+%58int"__id*
+
+
+%60int*
+5*Ü
+7j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÇP Ç(Qè
+å
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÇP Ç(Q
+
+%58int"__id*
+
+
+%59int*
+5*◊
+8j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÇ Ç(Ω
+∫
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÇ Ç(
+%55java.awt.Label[]"__id*-*+
+ij.plugin.tool.PixelInspector"
+labelsµ
+≤
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÇ Ç(
+%56java.awt.Label"
+__arrayGet*
+
+%55java.awt.Label[]*
+""Â‚
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÇ  Ç(0
+
+%57int"'ij.process.ImageProcessor#getPixel(II)I*!
+
+ipij.process.ImageProcessor*
+""*
+""2getPixel(II)*
+6
+7*É
+9j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÅO Å(^â
+Ü
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÅb Å(j
+
+%54int"__id*
+""*
+4
+8*˝
+40j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÔ% Ô(,ÿ
+’
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÔ% Ô(8
+%19java.lang.String"/java.lang.Integer#toString(I)Ljava/lang/String;*"
+java.lang.Integer*
+""©
+¶
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÔ% Ô(8
+%18java.lang.String"__id*
+
+%19java.lang.String*
+38*Ú
+42j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÔ Ô(	Ω
+∫
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÔ Ô(	
+%16java.awt.Label[]"__id*-*+
+ij.plugin.tool.PixelInspector"
+labelsµ
+≤
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÔ Ô(
+%17java.awt.Label"
+__arrayGet*
+
+%16java.awt.Label[]*
+""*
+39
+40*ê
+20j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java˜) ˜(7â
+Ü
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.java˜; ˜(B
+
+%33int"__id*
+""*
+13
+4
+17
+19
+9*ß
+44j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÈ È(—Œ
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÈ È(
+
+%14int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()”–
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaÍ Í(
+
+%15int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()*
+42
+32
+0*Ê
+45j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaË Ë("t
+j
+^/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/tool/PixelInspectionTool.javaË Ë(
+""B!
+ij.plugin.tool.PixelInspector

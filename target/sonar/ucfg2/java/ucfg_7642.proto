@@ -1,0 +1,628 @@
+
+7ij.plugin.frame.ColorThresholder#setup(Lij/ImagePlus;)Zh
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÌ	 Ì("21"22*©
+13h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaå å(µ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaå å(
+%23byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+hSourceµ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaå å(
+%24byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+sSourceµ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaå å(%
+%25byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+bSourceãà
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaå å(&
+%26void")ij.process.ColorProcessor#getHSB([B[B[B)V*!
+
+cpij.process.ColorProcessor*
+
+%23byte[]*
+
+%24byte[]*
+
+%25byte[]2getHSB([B[B[B)*
+8*Ç
+14h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaã ã(á
+Ñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaã ã(
+
+%22int"__id*
+""*
+13
+12*©
+15h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaä ä(µ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaä ä(
+%18byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+hSourceµ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaä ä(
+%19byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+sSourceµ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaä ä(%
+%20byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+bSourceãà
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaä ä(&
+%21void")ij.process.ColorProcessor#getRGB([B[B[B)V*!
+
+cpij.process.ColorProcessor*
+
+%18byte[]*
+
+%19byte[]*
+
+%20byte[]2getRGB([B[B[B)*
+8*›
+16h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java˜ ˜(ò
+ï
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java˜ ˜(
+
+%6void"ij.Undo#reset()V*"	
+ij.UndoΩ∫
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java˘ ˘(!	
+%7int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()Õ 
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java˙ ˙(
+%8ij.ImageStack"&ij.ImagePlus#getStack()Lij/ImageStack;*
+
+impij.ImagePlus2
+getStack()π
+∂
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java˙ ˙(-"
+ ij.plugin.frame.ColorThresholder"
+stack"__id*
+
+%8ij.ImageStackπ
+∂
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java˚ ˚(
+%9ij.ImageStack"__id*/*-"
+ ij.plugin.frame.ColorThresholder"
+stack∑¥
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java˚ ˚(
+
+%10int"ij.ImageStack#getWidth()I*
+
+%9ij.ImageStack2
+getWidth()∫
+∑
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¸ ¸(
+%11ij.ImageStack"__id*/*-"
+ ij.plugin.frame.ColorThresholder"
+stack∫∑
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¸ ¸(
+
+%12int"ij.ImageStack#getHeight()I*
+
+%11ij.ImageStack2getHeight()¨
+©
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaˇ ˇ( /"
+ ij.plugin.frame.ColorThresholder"	
+hSource"__id*
+""¨
+©
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÄ Ä( /"
+ ij.plugin.frame.ColorThresholder"	
+sSource"__id*
+""¨
+©
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÅ Å( /"
+ ij.plugin.frame.ColorThresholder"	
+bSource"__id*
+""®•
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÉ É(*
+%13ij.process.ByteProcessor"ij.process.ByteProcessorÕ
+ 
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÉ É(9
+%14"$ij.process.ByteProcessor#<init>(II)V*!
+
+%13ij.process.ByteProcessor*
+""*
+""π
+∂
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÉ É(:!
+maskij.process.ImageProcessor"__id*!
+
+%13ij.process.ByteProcessor¥±
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÑ Ñ( 
+%15void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+
+impij.ImagePlus*
+Mask*#
+!
+maskij.process.ImageProcessor21setProperty(Ljava/lang/String;Ljava/lang/Object;)∑
+¥
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaá á(*
+cpij.process.ColorProcessor"__id*!
+
+ipij.process.ImageProcessorÃ
+…
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaà à(.
+%16void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ*
+Converting colour space...á
+Ñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaâ â(
+
+%17int"__id*
+""*
+14
+15*ô
+19h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÛ Û(
+ÌÍ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÛ Û(
+%3ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()∑
+¥
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÛ Û(
+ipij.process.ImageProcessor"__id*!
+
+%3ij.process.ImageProcessorØ¨
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÙ Ù(	
+%4int"ij.ImagePlus#getID()I*
+
+impij.ImagePlus2getID()√¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaı ı(#	
+%5int"ij.ImagePlus#getCurrentSlice()I*
+
+impij.ImagePlus2getCurrentSlice()*
+16
+1*·
+1h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java∏ ∏("r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java∫ ∫(
+""*∂
+2h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java∂ ∂(¡æ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java∂ ∂(
+%66void"ij.ImagePlus#updateAndDraw()V*
+
+impij.ImagePlus2updateAndDraw()*
+1*ﬂ
+3h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaµ µ(ÍÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaµ µ(
+%65void"4ij.plugin.frame.ColorThresholder#autoSetThreshold()V*$"
+ ij.plugin.frame.ColorThresholder2autoSetThreshold()*
+2*•3
+4h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaü' ü((¥±
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaü ü(&%
+%42java.awt.image.IndexColorModel"java.awt.image.IndexColorModelï
+í
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaü ü(C
+%43"0java.awt.image.IndexColorModel#<init>(II[B[B[B)V*'
+%
+%42java.awt.image.IndexColorModel*2*2Ä*
+
+redsbyte[]*
+
+greensbyte[]*
+
+bluesbyte[]Ω
+∫
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaü ü(D
+cmjava.awt.image.ColorModel"__id*'
+%
+%42java.awt.image.IndexColorModelµ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java§8 §(?
+%44byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+hSource®•
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java§ §(*
+%45ij.process.ByteProcessor"ij.process.ByteProcessorû
+õ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java§ §(C
+%46"Aij.process.ByteProcessor#<init>(II[BLjava/awt/image/ColorModel;)V*!
+
+%45ij.process.ByteProcessor*
+""*
+""*
+
+%44byte[]*!
+
+cmjava.awt.image.ColorModelπ
+∂
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java§ §(D!
+bpHueij.process.ByteProcessor"__id*!
+
+%45ij.process.ByteProcessorêç
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java• •(#
+%47ij.ImagePlus"ij.ImagePlus˛
+˚
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java• •(0
+%48"Cij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%47ij.ImagePlus*
+Hue*#
+!
+bpHueij.process.ByteProcessor¢
+ü
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java• •(1
+impHueij.ImagePlus"__id*
+
+%47ij.ImagePlusµ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java®8 ®(?
+%49byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+sSource®•
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java® ®(*
+%50ij.process.ByteProcessor"ij.process.ByteProcessorû
+õ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java® ®(C
+%51"Aij.process.ByteProcessor#<init>(II[BLjava/awt/image/ColorModel;)V*!
+
+%50ij.process.ByteProcessor*
+""*
+""*
+
+%49byte[]*!
+
+cmjava.awt.image.ColorModelπ
+∂
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java® ®(D!
+bpSatij.process.ByteProcessor"__id*!
+
+%50ij.process.ByteProcessorêç
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java© ©(#
+%52ij.ImagePlus"ij.ImagePlus˛
+˚
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java© ©(0
+%53"Cij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%52ij.ImagePlus*
+Sat*#
+!
+bpSatij.process.ByteProcessor¢
+ü
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java© ©(1
+impSatij.ImagePlus"__id*
+
+%52ij.ImagePlusµ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¨8 ¨(?
+%54byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+bSource®•
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¨ ¨(*
+%55ij.process.ByteProcessor"ij.process.ByteProcessorû
+õ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¨ ¨(C
+%56"Aij.process.ByteProcessor#<init>(II[BLjava/awt/image/ColorModel;)V*!
+
+%55ij.process.ByteProcessor*
+""*
+""*
+
+%54byte[]*!
+
+cmjava.awt.image.ColorModelπ
+∂
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java¨ ¨(D!
+bpBriij.process.ByteProcessor"__id*!
+
+%55ij.process.ByteProcessorêç
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java≠ ≠(#
+%57ij.ImagePlus"ij.ImagePlus˛
+˚
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java≠ ≠(0
+%58"Cij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V*
+
+%57ij.ImagePlus*
+Bri*#
+!
+bpBriij.process.ByteProcessor¢
+ü
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java≠ ≠(1
+impBriij.ImagePlus"__id*
+
+%57ij.ImagePlus’
+“
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java∞ ∞(0
+%59)ij.plugin.frame.ColorThresholder$BandPlot"__id*.*,"
+ ij.plugin.frame.ColorThresholder"
+plotµ≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java∞ ∞(
+%60void"Hij.plugin.frame.ColorThresholder$BandPlot#setHistogram(Lij/ImagePlus;I)V*2
+0
+%59)ij.plugin.frame.ColorThresholder$BandPlot*
+
+impHueij.ImagePlus*2 2setHistogram(Lij/ImagePlus;I)÷
+”
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java± ±(0
+%61)ij.plugin.frame.ColorThresholder$BandPlot"__id*/*-"
+ ij.plugin.frame.ColorThresholder"
+splot∑¥
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java± ±( 
+%62void"Hij.plugin.frame.ColorThresholder$BandPlot#setHistogram(Lij/ImagePlus;I)V*2
+0
+%61)ij.plugin.frame.ColorThresholder$BandPlot*
+
+impSatij.ImagePlus*22setHistogram(Lij/ImagePlus;I)÷
+”
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java≤ ≤(0
+%63)ij.plugin.frame.ColorThresholder$BandPlot"__id*/*-"
+ ij.plugin.frame.ColorThresholder"
+bplot∑¥
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java≤ ≤( 
+%64void"Hij.plugin.frame.ColorThresholder$BandPlot#setHistogram(Lij/ImagePlus;I)V*2
+0
+%63)ij.plugin.frame.ColorThresholder$BandPlot*
+
+impBriij.ImagePlus*22setHistogram(Lij/ImagePlus;I)*
+2
+3*®
+6h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaö ö(·
+ﬁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaö ö()
+%38java.awt.Color"/java.awt.Color#getHSBColor(FFF)Ljava/awt/Color;*"
+java.awt.Color*
+""*
+""*
+""°
+û
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaö ö()
+cjava.awt.Color"__id*
+
+%38java.awt.Color¥±
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaõ õ(
+
+%39int"java.awt.Color#getRed()I*
+
+cjava.awt.Color2getRed()∏µ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaú ú("
+
+%40int"java.awt.Color#getGreen()I*
+
+cjava.awt.Color2
+getGreen()∂≥
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaù ù( 
+
+%41int"java.awt.Color#getBlue()I*
+
+cjava.awt.Color2	getBlue()*
+4
+6*Ë
+8h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaí í(∞
+≠
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaí í(
+%37void"%ij.IJ#showStatus(Ljava/lang/String;)V*	"
+ij.IJ* ê
+ç
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaï ï(
+cjava.awt.Color"__id*
+""ã
+à
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javañ ñ(
+redsbyte[]"__id*
+""ç
+ä
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaó ó(!
+greensbyte[]"__id*
+""å
+â
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaò ò( 
+bluesbyte[]"__id*
+""*
+4
+6*ã
+9h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaê ê(
+µ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaê ê(
+%33byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+hSourceµ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaê ê(
+%34byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+sSourceµ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaê ê(&
+%35byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+bSourceÓÎ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaê ê('
+%36void"Kij.plugin.frame.ColorThresholder#getYUV(Lij/process/ImageProcessor;[B[B[B)V*$"
+ ij.plugin.frame.ColorThresholder*!
+
+cpij.process.ColorProcessor*
+
+%33byte[]*
+
+%34byte[]*
+
+%35byte[]2)getYUV(Lij/process/ImageProcessor;[B[B[B)*
+8*‚
+20h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÚ
+ Ú("r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÚ Ú(
+""*÷
+21h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÔ Ô(ú
+ô
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÔ Ô(
+ipij.process.ImageProcessor"__id*
+""≥∞
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.java (	
+%1int"ij.ImagePlus#getType()I*
+
+impij.ImagePlus2	getType()Ü
+É
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÒ Ò(	
+%2int"__id*
+""*
+19
+20*Ä
+10h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaè è(á
+Ñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaè è(
+
+%32int"__id*
+""*
+8
+9*∑
+22h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÓ Ó(¿
+Ω
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaÓ Ó(4
+
+%0void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+ColorThresholder.setup*
+21*·
+11h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaé é(
+µ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaé é(
+%28byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+hSourceµ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaé é(
+%29byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+sSourceµ
+≤
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaé é(&
+%30byte[]"__id*1*/"
+ ij.plugin.frame.ColorThresholder"	
+bSource√
+¿
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaé é('
+%31void"Kij.plugin.frame.ColorThresholder#getLab(Lij/process/ImageProcessor;[B[B[B)V*$""
+ ij.plugin.frame.ColorThresholder*!
+
+cpij.process.ColorProcessor*
+
+%28byte[]*
+
+%29byte[]*
+
+%30byte[]*
+8*Ç
+12h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaç ç(á
+Ñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/ColorThresholder.javaç ç(
+
+%27int"__id*
+""*
+10
+11:
+impij.ImagePlusB$"
+ ij.plugin.frame.ColorThresholder

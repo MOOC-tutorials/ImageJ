@@ -1,0 +1,492 @@
+
+)ij.plugin.frame.RoiManager#drawOrFill(I)Zb
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java≥	 ≥("35*ı
+24b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java√ √(Ä
+~
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java√ √(
+
+%19int"__id*
+""*
+19
+23*¨
+26b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java¿ ¿(≥
+∞
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java¿ ¿(
+%16java.util.ArrayList"__id*(*&
+ij.plugin.frame.RoiManager"
+rois≤
+Ø
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java¿ ¿(&
+%17java.lang.Object"
+__arrayGet*
+
+%16java.util.ArrayList*
+""õ
+ò
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java¿ ¿('
+roi
+ij.gui.Roi"__id*
+
+%17java.lang.Object™ß
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java¡ ¡(
+
+%18int"ij.gui.Roi#getType()I*
+
+roi
+ij.gui.Roi2	getType()*
+24
+26
+10*Ë
+28b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaΩ Ω(0≤
+Ø
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaΩ Ω(0!
+fillerij.plugin.filter.Filler"__id* 
+
+%11ij.plugin.filter.Filleræª
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaæ æ(#
+
+%15int"ij.ImagePlus#getCurrentSlice()I*
+
+impij.ImagePlus2getCurrentSlice()*
+26
+10*ì
+29b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaΩ+ Ω(/¢
+ü
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaΩ+ Ω(/
+%11ij.plugin.filter.Filler"__id*
+
+%13
+<nulltype>*
+28*˘
+30b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaΩ Ω(*†ù
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaΩ" Ω((
+%12ij.plugin.filter.Filler"ij.plugin.filter.Filler≥
+∞
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaΩ Ω(*
+%14"!ij.plugin.filter.Filler#<init>()V* 
+
+%12ij.plugin.filter.FillerØ
+¨
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaΩ Ω(*
+%11ij.plugin.filter.Filler"__id* 
+
+%12ij.plugin.filter.Filler*
+28*™
+31b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java∏ ∏(≤Ø
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java∏ ∏(
+
+%3void"ij.ImagePlus#deleteRoi()V*
+
+impij.ImagePlus2deleteRoi()Á‰
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaπ π((
+%4ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()±
+Æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaπ π()
+ipij.process.ImageProcessor"__id*!
+
+%4ij.process.ImageProcessor∆
+√
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java∫ ∫(*
+%5java.awt.Color"3ij.gui.Toolbar#getForegroundColor()Ljava/awt/Color;*"
+ij.gui.ToolbarÅ˛
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java∫ ∫(+
+
+%6void"5ij.process.ImageProcessor#setColor(Ljava/awt/Color;)V*!
+
+ipij.process.ImageProcessor*
+
+%5java.awt.Color2setColor(Ljava/awt/Color;)…∆
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaª ª(
+
+%7void"%ij.process.ImageProcessor#snapshot()V*!
+
+ipij.process.ImageProcessor2
+snapshot()
+}
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaº º(	
+%8int"__id*
+""≈
+¬
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaº º(
+
+%9void"ij.Undo#setup(ILij/ImagePlus;)V*"	
+ij.Undo*
+	
+%8int*
+
+impij.ImagePlusÄ
+~
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaΩ Ω(
+
+%10int"__id*
+""*
+29
+30*÷
+32b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java∑ ∑("l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java∑ ∑( 
+""*∞
+10b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java÷ ÷(Ω
+∫
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java÷ ÷(
+%40boolean"$ij.plugin.frame.RoiManager#record()Z*
+ij.plugin.frame.RoiManager*
+3
+9*†
+33b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java∑ ∑(
+´®
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java∑ ∑(
+%2boolean"ij.ImagePlus#lock()Z*
+
+impij.ImagePlus2lock()*
+31
+32*÷
+34b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java∂ ∂("l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java∂ ∂(
+""*á
+12b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÕ Õ(Ä
+~
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaŒ	 Œ(
+
+%37int"__id*
+""Ä
+~
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaœ	 œ(
+
+%38int"__id*
+""Ä
+~
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java–	 –(
+
+%39int"__id*
+""*
+13
+14
+15
+26
+10*º
+35b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java¥ ¥(Õ 
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java¥ ¥(
+%0int[]")ij.plugin.frame.RoiManager#getIndexes()[I*
+ij.plugin.frame.RoiManager2getIndexes()‹Ÿ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaµ µ(
+%1ij.ImagePlus"3ij.plugin.frame.RoiManager#getImage()Lij/ImagePlus;*
+ij.plugin.frame.RoiManager2
+getImage()ò
+ï
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaµ µ(
+impij.ImagePlus"__id*
+
+%1ij.ImagePlus*
+33
+34*¸
+13b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java– ”(äá
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java— —(
+%34void"3ij.gui.Roi#drawPixels(Lij/process/ImageProcessor;)V*
+
+roi
+ij.gui.Roi*!
+
+ipij.process.ImageProcessor2'drawPixels(Lij/process/ImageProcessor;)–Õ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java“$ “(3
+%35java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roi
+ij.gui.Roi2getBounds()ß§
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java“ “(4
+%36void"bij.plugin.filter.Filler#drawLabel(Lij/ImagePlus;Lij/process/ImageProcessor;ILjava/awt/Rectangle;)V*#
+!
+fillerij.plugin.filter.Filler*
+
+impij.ImagePlus*!
+
+ipij.process.ImageProcessor*
+""*
+
+%35java.awt.Rectangle2IdrawLabel(Lij/ImagePlus;Lij/process/ImageProcessor;ILjava/awt/Rectangle;)*
+26
+10*‰
+14b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaœ œ(#ÔÏ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaœ œ(
+%33void"-ij.process.ImageProcessor#fill(Lij/gui/Roi;)V*!
+
+ipij.process.ImageProcessor*
+
+roi
+ij.gui.Roi2fill(Lij/gui/Roi;)*
+26
+10*ˇ
+15b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaŒ Œ()äá
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaŒ Œ(!
+%32void"3ij.gui.Roi#drawPixels(Lij/process/ImageProcessor;)V*
+
+roi
+ij.gui.Roi*!
+
+ipij.process.ImageProcessor2'drawPixels(Lij/process/ImageProcessor;)*
+26
+10*Ñ
+16b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÀ À(ì
+ê
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÀ À(#
+%31void"ij.Undo#reset()V*"	
+ij.Undo*
+12*†	
+17b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java» »(ª∏
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java» »(
+%27void"ij.ImagePlus#setSlice(I)V*
+
+impij.ImagePlus*
+""2setSlice(I)ËÂ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java…	 …( 
+%28ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()≤
+Ø
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java… …(
+ipij.process.ImageProcessor"__id*"
+ 
+%28ij.process.ImageProcessor«
+ƒ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java   (,
+%29java.awt.Color"3ij.gui.Toolbar#getForegroundColor()Ljava/awt/Color;*"
+ij.gui.ToolbarÉÄ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java   (-
+%30void"5ij.process.ImageProcessor#setColor(Ljava/awt/Color;)V*!
+
+ipij.process.ImageProcessor*
+
+%29java.awt.Color2setColor(Ljava/awt/Color;)*
+16
+12*≠
+18b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java« «(∏µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java« «(.
+
+%26int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+17
+12*°
+19b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java≈ ≈(#¡
+æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java≈ ≈(##
+%23javax.swing.DefaultListModel"__id*-*+
+ij.plugin.frame.RoiManager"
+	listModelÄ˝
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java≈ ≈(<
+%24java.lang.Object">javax.swing.DefaultListModel#getElementAt(I)Ljava/lang/Object;*%
+#
+%23javax.swing.DefaultListModel*
+""2getElementAt(I)¢
+ü
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java≈ ≈(=
+namejava.lang.String"__id*
+
+%24java.lang.Object¿Ω
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java∆ ∆()
+
+%25int"Jij.plugin.frame.RoiManager#getSliceNumber(Lij/gui/Roi;Ljava/lang/String;)I*
+ij.plugin.frame.RoiManager*
+
+roi
+ij.gui.Roi*
+
+namejava.lang.String2.getSliceNumber(Lij/gui/Roi;Ljava/lang/String;)*
+18
+12*√
+1b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java⁄ ⁄(ª∏
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java⁄ ⁄(
+%51void"ij.ImagePlus#updateAndDraw()V*
+
+impij.ImagePlus2updateAndDraw()≠™
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java€ €(
+%52void"ij.ImagePlus#unlock()V*
+
+impij.ImagePlus2unlock()"l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java‹ ‹(
+""*Ò
+2b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaŸ Ÿ(Çˇ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaŸ Ÿ(
+%50boolean":ij.plugin.frame.RoiManager#runCommand(Ljava/lang/String;)Z*
+ij.plugin.frame.RoiManager*
+	show none2runCommand(Ljava/lang/String;)*
+1*Ô
+3b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÿ ÿ(º
+π
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÿ ÿ(
+%48java.awt.Checkbox"__id*3*1
+ij.plugin.frame.RoiManager"
+showAllCheckboxæª
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.javaÿ ÿ( 
+%49boolean"java.awt.Checkbox#getState()Z*
+
+%48java.awt.Checkbox2
+getState()*
+2
+1*Ù
+4b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java◊ ◊(:Ö
+Ç
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java◊ ◊(:
+%47void"Fij.plugin.frame.Recorder#record(Ljava/lang/String;Ljava/lang/String;)V*"
+ij.plugin.frame.Recorder*
+
+roiManager*
+
+%44java.lang.String*
+3*ê
+5b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java◊3 ◊(9°
+û
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java◊3 ◊(9
+%44java.lang.String"__id*
+
+%46java.lang.String*
+4*ê
+6b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java◊, ◊(2°
+û
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java◊, ◊(2
+%44java.lang.String"__id*
+
+%45java.lang.String*
+4*Ú
+7b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java◊ ◊(Ä
+~
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java◊' ◊(+
+
+%43int"__id*
+""*
+5
+6*Ú
+8b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java÷ ÷(#Ä
+~
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java÷% ÷()
+
+%42int"__id*
+""*
+3
+7*Ú
+9b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java÷ ÷(Ä
+~
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java÷ ÷(
+
+%41int"__id*
+""*
+7
+8*Ò
+21b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java√< √(@Ä
+~
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java√B √(K
+
+%22int"__id*
+""*
+19*ı
+22b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java√( √(,Ä
+~
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java√. √(:
+
+%21int"__id*
+""*
+19
+21*ı
+23b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java√ √(Ä
+~
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/frame/RoiManager.java√ √(&
+
+%20int"__id*
+""*
+19
+22:
+""B
+ij.plugin.frame.RoiManager

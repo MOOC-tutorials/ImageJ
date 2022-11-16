@@ -1,0 +1,17 @@
+ij.macro.Functions#roiManager()D
+ij.macro.Interpreter#getExpression()D
+ij.plugin.frame.RoiManager#getInstance()Lij/plugin/frame/RoiManager;
+ij.macro.Interpreter#nextToken()I
+ij.macro.Functions#getLastArg()D
+ij.macro.Functions#getFirstString()Ljava/lang/String;
+ij.macro.Functions#getNextArg()D
+ij.IJ#run(Ljava/lang/String;)V
+java.lang.String#toLowerCase()Ljava/lang/String;
+ij.macro.Interpreter#isBatchMode()Z
+ij.macro.Functions#getLastString()Ljava/lang/String;
+ij.macro.Interpreter#getComma()V
+ij.macro.Interpreter#getRightParen()V
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.plugin.frame.RoiManager#instance-init#
+ij.plugin.frame.RoiManager#<init>(Z)V
+ij.macro.Interpreter#getString()Ljava/lang/String;

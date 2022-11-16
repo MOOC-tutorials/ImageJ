@@ -1,0 +1,161 @@
+
+8ij.macro.Functions#overlaySetPosition(Lij/gui/Overlay;)DZ
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javañ6 ñ6("14*‹
+13Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaõ6 õ6(µ≤
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaù6 ù6(
+%3double" ij.macro.Functions#getNextArg()D*
+ij.macro.Functions2getNextArg()µ≤
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaû6 û6(
+%4double" ij.macro.Functions#getLastArg()D*
+ij.macro.Functions2getLastArg()*
+
+7
+8
+10*ı
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java´6 ´6(
+¬ø
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java´6 ´6(
+%14
+ij.gui.Roi"!ij.gui.Overlay#get(I)Lij/gui/Roi;*
+
+overlayij.gui.Overlay*
+""2get(I)…∆
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java´6 ´6(+
+%15void"ij.gui.Roi#setPosition(III)V*
+
+%14
+ij.gui.Roi*
+""*
+""*
+""2setPosition(III)*
+1*á
+14Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaó6 ó6(	∑¥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaô6 ô6(
+%0double"!ij.macro.Functions#getFirstArg()D*
+ij.macro.Functions2getFirstArg()•
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaö6 ö6(
+%1ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp∏µ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaö6 ö6(	
+%2int"!ij.macro.Interpreter#nextToken()I*
+
+%1ij.macro.Interpreter2nextToken()*
+13
+12*·
+4Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java©6 ©6(
+¬ø
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java©6 ©6(
+%12
+ij.gui.Roi"!ij.gui.Overlay#get(I)Lij/gui/Roi;*
+
+overlayij.gui.Overlay*
+""2get(I)µ≤
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java©6 ©6(%
+%13void"ij.gui.Roi#setPosition(I)V*
+
+%12
+ij.gui.Roi*
+""2setPosition(I)*
+1*¬
+6Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaß6
+ ß6({
+y
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaß6
+ ß6(
+%11double"__id*
+"""d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaß6 ß6(
+""*ò
+7Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java•6 •6(®•
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java•6 •6(
+
+%10int"ij.gui.Overlay#size()I*
+
+overlayij.gui.Overlay2size()*
+2
+4
+6
+1*Ù
+8Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java§6 §6(	•
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java§6 §6(	
+%8ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interpÂ‚
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java§6 §6(
+
+%9void"/ij.macro.Interpreter#error(Ljava/lang/String;)V*
+
+%8ij.macro.Interpreter*
+
+No overlay2error(Ljava/lang/String;)*
+7*Ø
+10Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¢6 ¢6(©
+¶
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¢6 ¢6(
+%7ij.gui.Overlay"__id*,**
+ij.macro.Functions"
+offscreenOverlayò
+ï
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¢6 ¢6(
+overlayij.gui.Overlay"__id*
+
+%7ij.gui.Overlay*
+7
+8*ÿ
+12Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java†6 †6(	•
+¢
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java†6 †6(	
+%5ij.macro.Interpreter"__id*"* 
+ij.macro.Functions"
+interp¡æ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java†6 †6(
+
+%6void"%ij.macro.Interpreter#getRightParen()V*
+
+%5ij.macro.Interpreter2getRightParen()*
+
+7
+8
+10*¬
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¨6	 ¨6({
+y
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¨6	 ¨6(
+%16double"__id*
+"""d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java¨6 ¨6(
+"":
+overlayij.gui.OverlayB
+ij.macro.Functions

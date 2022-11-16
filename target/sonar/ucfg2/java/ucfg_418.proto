@@ -1,0 +1,687 @@
+
+<ij.plugin.filter.ImageMath#run(Lij/process/ImageProcessor;)V`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java4 4("70"71*É
+68`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java9 9(¨
+©
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java9 9(
+%3java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg·ﬁ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java9 9(
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%3java.lang.String*
+sub2equals(Ljava/lang/Object;)*
+66
+67*Ü
+24`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javan n(≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javan n(
+%57java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg„‡
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javan n(
+%58boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%57java.lang.String*
+sqr2equals(Ljava/lang/Object;)*
+22
+23*µ
+69`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java8 8(«ƒ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java8 8(
+
+%2void"!ij.process.ImageProcessor#add(D)V*!
+
+ipij.process.ImageProcessor*
+""2add(D)*
+0*¨
+25`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javam m(æª
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javam m(
+%56void" ij.process.ImageProcessor#exp()V*!
+
+ipij.process.ImageProcessor2exp()*
+0*Ü
+26`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javal l(≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javal l(
+%54java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg„‡
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javal l(
+%55boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%54java.lang.String*
+exp2equals(Ljava/lang/Object;)*
+24
+25*¨
+27`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javak k(æª
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javak k(
+%53void" ij.process.ImageProcessor#log()V*!
+
+ipij.process.ImageProcessor2log()*
+0*Ü
+28`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaj j(≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaj j(
+%51java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg„‡
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaj j(
+%52boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%51java.lang.String*
+log2equals(Ljava/lang/Object;)*
+26
+27*∂
+29`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javai i(»≈
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javai i(
+%50void"!ij.process.ImageProcessor#set(D)V*!
+
+ipij.process.ImageProcessor*
+""2set(D)*
+0*É
+70`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java7 7(
+¨
+©
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java7 7(
+
+%0java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg·ﬁ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java7 7(
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.String*
+add2equals(Ljava/lang/Object;)*
+68
+69*“
+71`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java6 6("j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java6 6(
+""*Ü
+30`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javah h(≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javah h(
+%48java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg„‡
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javah h(
+%49boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%48java.lang.String*
+set2equals(Ljava/lang/Object;)*
+28
+29*∫
+31`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javag g(Ã…
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javag g(
+%47void"#ij.process.ImageProcessor#gamma(D)V*!
+
+ipij.process.ImageProcessor*
+""2gamma(D)*
+0*µ
+33`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javab b(«
+ƒ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javac c(4
+%46void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*&$
+"Gamma must be between 0.05 and 5.0*
+0*ø
+35`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaa
+ a(Õ 
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaa
+ a(
+%45boolean"(ij.plugin.filter.ImageMath#previewing()Z*
+ij.plugin.filter.ImageMath2previewing()*
+0
+33*å
+38`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java_ _(≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java_ _(
+%43java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+argÂ‚
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java_ _( 
+%44boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%43java.lang.String*	
+gamma2equals(Ljava/lang/Object;)*
+35
+30
+31*¬
+39`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java^ ^(‘—
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java^ ^(
+%42void"+ij.process.ImageProcessor#resetMinAndMax()V*!
+
+ipij.process.ImageProcessor2resetMinAndMax()*
+0*∫
+40`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java\ \(»≈
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java\ \(
+%41void"!ij.process.ImageProcessor#max(D)V*!
+
+ipij.process.ImageProcessor*
+""2max(D)*
+39
+0*Ü
+41`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java[ [(≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java[ [(
+%39java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg„‡
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java[ [(
+%40boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%39java.lang.String*
+max2equals(Ljava/lang/Object;)*
+38
+40*¬
+42`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaZ Z(‘—
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaZ Z(
+%38void"+ij.process.ImageProcessor#resetMinAndMax()V*!
+
+ipij.process.ImageProcessor2resetMinAndMax()*
+0*∫
+43`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaX X(»≈
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaX X(
+%37void"!ij.process.ImageProcessor#min(D)V*!
+
+ipij.process.ImageProcessor*
+""2min(D)*
+42
+0*Ü
+44`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaW W(≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaW W(
+%35java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg„‡
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaW W(
+%36boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%35java.lang.String*
+min2equals(Ljava/lang/Object;)*
+41
+43*º
+46`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaR R((ŒÀ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaR R((
+%32void"!ij.process.ImageProcessor#xor(I)V*!
+
+ipij.process.ImageProcessor*
+
+
+%31int2xor(I)*
+0*ˇ
+47`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaR R(≤
+Ø
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaR R($
+%30java.lang.String"__id*,**
+ij.plugin.filter.ImageMath"
+
+andValue€
+ÿ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaR R('
+
+%31int"0java.lang.Integer#parseInt(Ljava/lang/String;I)I*"
+java.lang.Integer*
+
+%30java.lang.String*2*
+46*Ü
+49`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaP P(≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaP P(
+%28java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg„‡
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaP P(
+%29boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%28java.lang.String*
+xor2equals(Ljava/lang/Object;)*
+47
+44*∫
+51`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaK K('Ã…
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaK K('
+%25void" ij.process.ImageProcessor#or(I)V*!
+
+ipij.process.ImageProcessor*
+
+
+%24int2or(I)*
+0*ˇ
+52`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaK K(≤
+Ø
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaK K(#
+%23java.lang.String"__id*,**
+ij.plugin.filter.ImageMath"
+
+andValue€
+ÿ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaK
+ K(&
+
+%24int"0java.lang.Integer#parseInt(Ljava/lang/String;I)I*"
+java.lang.Integer*
+
+%23java.lang.String*2*
+51*Ö
+54`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaI I(≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaI I(
+%21java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg‚ﬂ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaI I(
+%22boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%21java.lang.String*
+or2equals(Ljava/lang/Object;)*
+49
+52*Ñ
+10`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java} }(≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java} }(
+%70java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg„‡
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java} }(
+%71boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%70java.lang.String*
+nan2equals(Ljava/lang/Object;)*
+8
+9*¬
+11`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java| |(‘—
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java| |(
+%69void"+ij.process.ImageProcessor#resetMinAndMax()V*!
+
+ipij.process.ImageProcessor2resetMinAndMax()*
+0*º
+56`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaD D((ŒÀ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaD D((
+%18void"!ij.process.ImageProcessor#and(I)V*!
+
+ipij.process.ImageProcessor*
+
+
+%17int2and(I)*
+0*ˇ
+57`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaD D(≤
+Ø
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaD D($
+%16java.lang.String"__id*,**
+ij.plugin.filter.ImageMath"
+
+andValue€
+ÿ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaD D('
+
+%17int"0java.lang.Integer#parseInt(Ljava/lang/String;I)I*"
+java.lang.Integer*
+
+%16java.lang.String*2*
+56*Ü
+59`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaB B(≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaB B(
+%14java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg„‡
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaB B(
+%15boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%14java.lang.String*
+and2equals(Ljava/lang/Object;)*
+57
+54*Ü
+16`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javav v(«ƒ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javav v( 
+
+%67int"%ij.process.ImageProcessor#getWidth()I*!
+
+ipij.process.ImageProcessor2
+getWidth()…∆
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javav! v(/
+
+%68int"&ij.process.ImageProcessor#getHeight()I*!
+
+ipij.process.ImageProcessor2getHeight()*
+16
+11*÷
+17`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javau u(Á‰
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javau u(+
+%66java.lang.Object"7ij.process.ImageProcessor#getPixels()Ljava/lang/Object;*!
+
+ipij.process.ImageProcessor2getPixels()*
+16*“
+18`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javat t("j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javat t(
+""*ì
+19`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javas s(†ù
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javas s(
+%65boolean"@ij.plugin.filter.ImageMath#isFloat(Lij/process/ImageProcessor;)Z*
+ij.plugin.filter.ImageMath*!
+
+ipij.process.ImageProcessor2$isFloat(Lij/process/ImageProcessor;)*
+17
+18*Ä
+0 "y
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaã ã(
+implicit return*Î
+1b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaà à(¸
+˘
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaà à(
+%83void"Cij.plugin.filter.ImageMath#applyMacro(Lij/process/ImageProcessor;)V*
+ij.plugin.filter.ImageMath*!
+
+ipij.process.ImageProcessor*
+0*ã
+2b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaá á(Ø
+¨
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaá á(
+%81java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+argÁ‰
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaá á( 
+%82boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%81java.lang.String*	
+macro2equals(Ljava/lang/Object;)*
+0
+1*à
+3b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaÑ Ñ(¿Ω
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaÑ Ñ(
+%79void" ij.process.ImageProcessor#abs()V*!
+
+ipij.process.ImageProcessor2abs()÷”
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaÖ Ö(
+%80void"+ij.process.ImageProcessor#resetMinAndMax()V*!
+
+ipij.process.ImageProcessor2resetMinAndMax()*
+0*º
+4b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaÅ Å(Õ
+ 
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaÅ Å(6
+%78void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ**(
+&32-bit or signed 16-bit image required*
+0*€
+6b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaÄ) Ä(,´
+®
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaÄ) Ä(,
+%75ij.ImagePlus"__id*'*%
+ij.plugin.filter.ImageMath"
+impÊ„
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaÄ) Ä(=
+%76ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+
+%75ij.ImagePlus2getCalibration()“œ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaÄ) Ä(M
+%77boolean"'ij.measure.Calibration#isSigned16Bit()Z*
+
+%76ij.measure.Calibration2isSigned16Bit()*
+3
+4*â
+8`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java (≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java (
+%73java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg„‡
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java (
+%74boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%73java.lang.String*
+abs2equals(Ljava/lang/Object;)*
+2
+3
+4
+6*†
+9`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java~ ~(≥∞
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java~ ~(
+%72void"Kij.plugin.filter.ImageMath#setBackgroundToNaN(Lij/process/ImageProcessor;)V*
+ij.plugin.filter.ImageMath*!
+
+ipij.process.ImageProcessor2/setBackgroundToNaN(Lij/process/ImageProcessor;)*
+0*¿
+60`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaA A(“œ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaA A(
+%13void"&ij.process.ImageProcessor#multiply(D)V*!
+
+ipij.process.ImageProcessor*
+""2multiply(D)*
+0*“
+61`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java? ?("j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java? ?(
+""*”
+62`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java> >(©
+¶
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java> >(
+%11ij.ImagePlus"__id*'*%
+ij.plugin.filter.ImageMath"
+imp¥±
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java> >((
+
+%12int"ij.ImagePlus#getBitDepth()I*
+
+%11ij.ImagePlus2getBitDepth()*
+60
+61*à
+64`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java= =(¨
+©
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java= =(
+%9java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg‚ﬂ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java= =(
+%10boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%9java.lang.String*
+div2equals(Ljava/lang/Object;)*
+59
+60
+62*ç
+20`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javar r(≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javar r(
+%63java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+argÍÁ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javar r(%
+%64boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%63java.lang.String*
+
+reciprocal2equals(Ljava/lang/Object;)*
+19
+10*ø
+65`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java< <(—Œ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java< <(
+
+%8void"&ij.process.ImageProcessor#multiply(D)V*!
+
+ipij.process.ImageProcessor*
+""2multiply(D)*
+0*Æ
+21`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaq q(¿Ω
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javaq q(
+%62void"!ij.process.ImageProcessor#sqrt()V*!
+
+ipij.process.ImageProcessor2sqrt()*
+0*É
+66`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java; ;(¨
+©
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java; ;(
+%6java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg·ﬁ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java; ;(
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%6java.lang.String*
+mul2equals(Ljava/lang/Object;)*
+64
+65*á
+22`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javap p(≠
+™
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javap p(
+%60java.lang.String"__id*'*%
+ij.plugin.filter.ImageMath"
+arg‰·
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javap p(
+%61boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%60java.lang.String*
+sqrt2equals(Ljava/lang/Object;)*
+20
+21*ø
+67`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java: :(—Œ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.java: :(
+
+%5void"&ij.process.ImageProcessor#subtract(D)V*!
+
+ipij.process.ImageProcessor*
+""2subtract(D)*
+0*¨
+23`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javao o(æª
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/ImageMath.javao o(
+%59void" ij.process.ImageProcessor#sqr()V*!
+
+ipij.process.ImageProcessor2sqr()*
+0:
+ipij.process.ImageProcessorB
+ij.plugin.filter.ImageMath

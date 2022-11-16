@@ -1,0 +1,14 @@
+ij.plugin.OverlayCommands#addImage(Z)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.Undo#setup(ILij/ImagePlus;)V
+ij.WindowManager#getImage(I)Lij/ImagePlus;
+ij.gui.Overlay#instance-init#
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+ij.IJ#isMacro()Z
+ij.gui.Overlay#<init>()V
+ij.gui.GenericDialog#<init>(Ljava/lang/String;)V
+ij.WindowManager#getIDList()[I
+ij.plugin.OverlayCommands#setPosition(Lij/ImagePlus;Lij/gui/Roi;)V
+ij.gui.GenericDialog#instance-init#
+ij.gui.ImageRoi#instance-init#
+ij.gui.ImageRoi#<init>(IILij/process/ImageProcessor;)V

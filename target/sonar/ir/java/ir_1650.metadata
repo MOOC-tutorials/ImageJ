@@ -1,0 +1,11 @@
+ij.gui.Plot#show()Lij/gui/PlotWindow;
+ij.WindowManager#setTempCurrentImage(Lij/ImagePlus;)V
+ij.IJ#selectWindow(I)V
+ij.macro.Interpreter#isBatchMode()Z
+ij.gui.PlotWindow#<init>(Lij/gui/Plot;)V
+ij.gui.PlotWindow#instance-init#
+ij.macro.Interpreter#addBatchModeImage(Lij/ImagePlus;)V
+ij.IJ#getInstance()Lij/ImageJ;
+ij.gui.Plot#getMainCurveObject()Lij/gui/PlotObject;
+ij.IJ#isMacro()Z
+ij.IJ#macroRunning()Z

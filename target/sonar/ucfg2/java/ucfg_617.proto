@@ -1,0 +1,82 @@
+
+Kij.process.ImageProcessor#getIndexSampleModel()Ljava/awt/image/SampleModel;a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java© ©(*"3*È
+2a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java« «(-•’
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java« «(/$
+%1java.awt.image.IndexColorModel"Pij.process.ImageProcessor#getDefaultColorModel()Ljava/awt/image/IndexColorModel;*
+ij.process.ImageProcessor2getDefaultColorModel()»
+¸
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java« «(0%
+icmjava.awt.image.IndexColorModel"__id*&
+$
+%1java.awt.image.IndexColorModelÆÃ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java¬ ¬(?#
+%2java.awt.image.WritableRaster"`java.awt.image.IndexColorModel#createCompatibleWritableRaster(II)Ljava/awt/image/WritableRaster;*'
+%
+icmjava.awt.image.IndexColorModel*2*22"createCompatibleWritableRaster(II)¸
+µ
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java¬ ¬(@#
+wrjava.awt.image.WritableRaster"__id*%
+#
+%2java.awt.image.WritableRaster…‚
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java­ ­($ 
+%3java.awt.image.SampleModel"Bjava.awt.image.Raster#getSampleModel()Ljava/awt/image/SampleModel;*%
+#
+wrjava.awt.image.WritableRaster2getSampleModel()¾
+»
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java­ ­($,
+ij.process.ImageProcessor"
+sampleModel"__id*"
+ 
+%3java.awt.image.SampleModel¾
+»
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java® ®( 
+%4java.awt.image.SampleModel"__id*.*,
+ij.process.ImageProcessor"
+sampleModelµ²
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java® ®(G 
+%5java.awt.image.SampleModel"Vjava.awt.image.SampleModel#createCompatibleSampleModel(II)Ljava/awt/image/SampleModel;*"
+ 
+%4java.awt.image.SampleModel*
+""*
+""2createCompatibleSampleModel(II)¾
+»
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java® ®(G,
+ij.process.ImageProcessor"
+sampleModel"__id*"
+ 
+%5java.awt.image.SampleModel*
+1*¯
+3a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaª ª(¾
+»
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.javaª ª( 
+%0java.awt.image.SampleModel"__id*.*,
+ij.process.ImageProcessor"
+sampleModel*
+2
+1*±
+1a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java°	 °(¾
+»
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java°	 °( 
+%6java.awt.image.SampleModel"__id*.*,
+ij.process.ImageProcessor"
+sampleModel"‡
+a
+U/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/process/ImageProcessor.java° °("
+ 
+%6java.awt.image.SampleModelB
+ij.process.ImageProcessor

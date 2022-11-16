@@ -1,0 +1,16 @@
+ij.IJ#showStatus(Ljava/lang/String;Ljava/lang/String;)V
+java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+ij.IJ#wait(I)V
+java.awt.Color#<init>(III)V
+java.lang.String#substring(II)Ljava/lang/String;
+java.lang.String#indexOf(Ljava/lang/String;)I
+ij.IJ#showStatus(Ljava/lang/String;)V
+java.awt.Color#instance-init#
+java.lang.String#indexOf(Ljava/lang/String;I)I
+ij.WindowManager#getCurrentImage()Lij/ImagePlus;
+java.lang.String#length()I
+ij.util.Tools#parseDouble(Ljava/lang/String;D)D
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+ij.plugin.Colors#getColor(Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;
+ij.IJ#getInstance()Lij/ImageJ;
+ij.plugin.Colors#decode(Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;

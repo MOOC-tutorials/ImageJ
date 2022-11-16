@@ -1,0 +1,300 @@
+
+Gij.plugin.filter.FFTCustomFilter#getFilter()Lij/process/ImageProcessor;h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java… …("27*‹
+13h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java• •(”‘
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java• •(7
+%12void"6ij.gui.GenericDialog#addCheckbox(Ljava/lang/String;Z)V*
+
+gdij.gui.GenericDialog*
+Process entire stack*
+""2 addCheckbox(Ljava/lang/String;Z)*
+12*Æ
+24h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java‹ ‹($›˜
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java‹ ‹(,
+%2java.lang.String[]"java.lang.String[]­
+ª
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java‹ ‹(-
+titlesjava.lang.String[]"__id*
+
+%2java.lang.String[]*
+14
+22*Þ	
+14h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java’' ’(3Ÿœ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java’ ’(&
+%8ij.gui.GenericDialog"ij.gui.GenericDialogÓ
+Ð
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java’ ’(4
+%9"0ij.gui.GenericDialog#<init>(Ljava/lang/String;)V*
+
+%8ij.gui.GenericDialog*
+
+FFT Filter­
+ª
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java’ ’(5
+gdij.gui.GenericDialog"__id*
+
+%8ij.gui.GenericDialogº
+·
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java“" “(5
+%10java.lang.String"
+__arrayGet*
+
+titlesjava.lang.String[]*
+""þû
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java“ “(6
+%11void"Xij.gui.GenericDialog#addChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*	
+Filter:*
+
+titlesjava.lang.String[]*
+
+%10java.lang.String2BaddChoice(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)*
+13
+12*Ô
+25h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaˆ ˆ(ï
+ì
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaˆ ˆ(>
+
+%1void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+FFT*,*
+(A filter (as an open image) is required."r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java‰ ‰(
+""*«
+27h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java† †(°
+­
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java† †()
+%0int[]"ij.WindowManager#getIDList()[I*"
+ij.WindowManager*
+24
+25*¼
+19h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaŽ Ž(*Á
+¾
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaŽ Ž(*
+%7"
+__arraySet*
+
+titlesjava.lang.String[]*
+""*
+
+%4java.lang.String*
+14
+22*
+1h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java©	 ©("‘
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java© ©(%
+#
+filterij.process.ImageProcessor*É
+2h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java¨ ¨(•’
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java¨ ¨(' 
+%27ij.process.ImageProcessor"Eij.process.ImageProcessor#convertToByte(Z)Lij/process/ImageProcessor;*%
+#
+filterij.process.ImageProcessor*22convertToByte(Z)¼
+¹
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java¨ ¨('#
+filterij.process.ImageProcessor"__id*"
+ 
+%27ij.process.ImageProcessor*
+1*Ñ
+3h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java§ §(ÙÖ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java§ §(*
+
+%26int"(ij.process.ImageProcessor#getBitDepth()I*%
+#
+filterij.process.ImageProcessor2getBitDepth()*
+2
+1*«
+4h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java¦ ¦(#ôñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java¦ ¦(2 
+%25ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+	filterImpij.ImagePlus2getProcessor()¼
+¹
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java¦ ¦(3#
+filterij.process.ImageProcessor"__id*"
+ 
+%25ij.process.ImageProcessor*
+3
+1*É
+5h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java£ £(å
+â
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java£ £(3
+%24void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+FFT*!
+The filter cannot be a stack."r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java¤ ¤(
+""*¼
+6h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java¢ ¢(ÄÁ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java¢ ¢(
+
+%23int"ij.ImagePlus#getStackSize()I*
+
+	filterImpij.ImagePlus2getStackSize()*
+4
+5*æ
+7h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaŸ Ÿ(‚
+ÿ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaŸ Ÿ(P
+%22void"2ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V*	"
+ij.IJ*
+FFT*><
+:The filter cannot be the same as the image being filtered."r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java   (
+""*¦
+8h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java (%Ì
+É
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java (B
+%20ij.ImagePlus"*ij.WindowManager#getImage(I)Lij/ImagePlus;*"
+ij.WindowManager*
+""¥
+¢
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java (C
+	filterImpij.ImagePlus"__id*
+
+%20ij.ImagePlus·
+´
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaž ž(
+%21ij.ImagePlus"__id*-*+"
+ ij.plugin.filter.FFTCustomFilter"
+imp*
+6
+7*Ê
+9h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaœ œ(ÕÒ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaœ œ(%
+%19boolean"&ij.gui.GenericDialog#getNextBoolean()Z*
+
+gdij.gui.GenericDialog2getNextBoolean()*
+8*œ
+20h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaŽ( Ž(*¥
+¢
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaŽ( Ž(*
+%4java.lang.String"__id*
+
+%6java.lang.String*
+19*ò
+21h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaŽ Ž(ÓÐ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaŽ Ž('
+%5java.lang.String")ij.ImagePlus#getTitle()Ljava/lang/String;*
+
+impij.ImagePlus2
+getTitle()¥
+¢
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaŽ Ž('
+%4java.lang.String"__id*
+
+%5java.lang.String*
+19*Ò
+10h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaš š(ÙÖ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.javaš š('
+
+%18int"*ij.gui.GenericDialog#getNextChoiceIndex()I*
+
+gdij.gui.GenericDialog2getNextChoiceIndex()*
+8
+9*ç
+22h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java ( Ë
+È
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java (3
+%3ij.ImagePlus"*ij.WindowManager#getImage(I)Lij/ImagePlus;*"
+ij.WindowManager*
+""ž
+›
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java (4
+impij.ImagePlus"__id*
+
+%3ij.ImagePlus*
+20
+21*â
+11h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java™
+ ™("r
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java™ ™(
+""*‹	
+12h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java– –(”
+‘
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java– –(
+%13java.lang.String"__id*
+""Ô
+Ñ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java– –(9
+%14java.lang.String"__concat*
+
+%13java.lang.String*'%
+#/docs/menus/process.html#fft-filterƒ€
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java– –(:
+%15void"1ij.gui.GenericDialog#addHelp(Ljava/lang/String;)V*
+
+gdij.gui.GenericDialog*
+
+%14java.lang.String2addHelp(Ljava/lang/String;)ÊÇ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java— —(
+%16void""ij.gui.GenericDialog#showDialog()V*
+
+gdij.gui.GenericDialog2showDialog()ÏÌ
+h
+\/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTCustomFilter.java˜ ˜(
+%17boolean"#ij.gui.GenericDialog#wasCanceled()Z*
+
+gdij.gui.GenericDialog2wasCanceled()*
+10
+11B$"
+ ij.plugin.filter.FFTCustomFilter

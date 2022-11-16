@@ -1,0 +1,17 @@
+ij.plugin.Selection#addToRoiManager(Lij/ImagePlus;)V
+ij.plugin.frame.Recorder#scriptMode()Z
+ij.WindowManager#getFrame(Ljava/lang/String;)Ljava/awt/Frame;
+ij.IJ#wait(I)V
+ij.plugin.frame.Recorder#record(Ljava/lang/String;III)V
+ij.plugin.frame.Recorder#record(Ljava/lang/String;I)V
+ij.IJ#error(Ljava/lang/String;Ljava/lang/String;)V
+ij.macro.Interpreter#isBatchModeRoiManager()Z
+ij.IJ#run(Ljava/lang/String;)V
+ij.IJ#altKeyDown()Z
+ij.IJ#beep()V
+ij.IJ#setKeyDown(I)V
+java.lang.System#currentTimeMillis()J
+ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V
+ij.IJ#error(Ljava/lang/String;)V
+ij.IJ#setKeyUp(I)V
+ij.IJ#macroRunning()Z

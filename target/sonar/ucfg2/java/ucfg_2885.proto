@@ -1,0 +1,171 @@
+
+Cij.plugin.filter.Convolver#setup(Ljava/lang/String;Lij/ImagePlus;)I`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java( (("11*Í
+2`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java9 9(~
+|
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java9 9(
+
+%15int"__id*
+""*
+1*Í
+3`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java7 7(~
+|
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java7 7(
+
+%14int"__id*
+""*
+1*ﬂ
+4`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java4 4(&∂≥
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java5 5(
+
+%12int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()∂≥
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java6 6(
+
+%13int"ij.ImagePlus#getStackSize()I*
+
+impij.ImagePlus2getStackSize()*
+2
+3*ó
+5`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java4 4(™ß
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java4 4(&
+%11boolean"ij.gui.Roi#isLine()Z*
+
+roi
+ij.gui.Roi2isLine()*
+4*◊
+6`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java2 2(í
+è
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java2 2(
+
+%9void"ij.IJ#resetEscape()V*	"
+ij.IJºπ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java3 3(
+%10
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()ì
+ê
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java3 3(
+roi
+ij.gui.Roi"__id*
+
+%10
+ij.gui.Roi*
+4
+5*…
+7`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java. .(Â‚
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java. .(
+%5ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()”–
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java. .(&
+
+%6void"+ij.process.ImageProcessor#resetMinAndMax()V*!
+
+%5ij.process.ImageProcessor2resetMinAndMax()∏µ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java/ /(
+
+%7void"ij.ImagePlus#updateAndDraw()V*
+
+impij.ImagePlus2updateAndDraw()}
+{
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java0
+ 0(	
+%8int"__id*
+"""j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java0 0(
+""*´
+8`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java- -(ª∏
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java- -('
+%4
+ij.gui.Roi"!ij.ImagePlus#getRoi()Lij/gui/Roi;*
+
+impij.ImagePlus2getRoi()*
+6
+7*‘
+9`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java- -(	‰·
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java- -(
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+argjava.lang.String*	
+final2equals(Ljava/lang/Object;)*
+6
+8*‚
+10`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java, ,(é
+ã
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java, ,(
+
+%1void"ij.IJ#noImage()V*	"
+ij.IJ}
+{
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java, ,(	
+%2int"__id*
+"""j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java, ,(
+""*õ
+11`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java) )(©
+¶
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java) )(%
+ij.plugin.filter.Convolver"
+imp"__id*
+
+impij.ImagePlus«
+ƒ
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java* *(+
+%0java.lang.Thread"2java.lang.Thread#currentThread()Ljava/lang/Thread;*"
+java.lang.Thread≥
+∞
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java* *(+,
+ij.plugin.filter.Convolver"
+
+mainThread"__id*
+
+%0java.lang.Thread*
+9
+10*â
+1`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java: :(µ≤
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java: :(
+%16void"ij.ImagePlus#startTiming()V*
+
+impij.ImagePlus2startTiming()"j
+`
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/Convolver.java; ;(
+"":
+argjava.lang.String:
+impij.ImagePlusB
+ij.plugin.filter.Convolver

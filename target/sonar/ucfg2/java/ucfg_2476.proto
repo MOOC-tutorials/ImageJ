@@ -1,0 +1,238 @@
+
+aij.plugin.filter.FFTFilter#tileMirror(Lij/process/ImageProcessor;IIII)Lij/process/ImageProcessor;b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java   (!"39"33"34*¬
+25b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java» »(	·´
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java» »(%
+%17void"@ij.process.ImageProcessor#insert(Lij/process/ImageProcessor;II)V*$
+"
+ipoutij.process.ImageProcessor*"
+ 
+ip2ij.process.ImageProcessor*
+""*
+""2%insert(Lij/process/ImageProcessor;II)*
+25
+22*Ç
+15b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaÆ Æ(ÓÐ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaÆ Æ(
+%20void")ij.process.ImageProcessor#flipVertical()V*"
+ 
+ip2ij.process.ImageProcessor2flipVertical()*
+8
+11*¨	
+39b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java¡ ¡(§
+¤
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java¡ ¡(3
+%0java.lang.String"__concat*
+FFT.tileMirror: *
+""ª
+§
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java¡ ¡(7
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+x«
+¨
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java¡ ¡(>
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+""ª
+§
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java¡ ¡(B
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+ Æ
+Ã
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java¡ ¡(E
+%4java.lang.String"__concat*
+
+%3java.lang.String*!
+
+ipij.process.ImageProcessor¸
+µ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java¡ ¡(F
+
+%5void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%4java.lang.String*
+33
+34*¬
+18b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaÂ Â(	·´
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaÂ Â(%
+%19void"@ij.process.ImageProcessor#insert(Lij/process/ImageProcessor;II)V*$
+"
+ipoutij.process.ImageProcessor*"
+ 
+ip2ij.process.ImageProcessor*
+""*
+""2%insert(Lij/process/ImageProcessor;II)*
+15
+18*ô
+1b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaÔ	 Ô("Š
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaÔ Ô($
+"
+ipoutij.process.ImageProcessor*©
+4b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaÐ Ð(	·´
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaÐ Ð(%
+%23void"@ij.process.ImageProcessor#insert(Lij/process/ImageProcessor;II)V*$
+"
+ipoutij.process.ImageProcessor*"
+ 
+ip2ij.process.ImageProcessor*
+""*
+""2%insert(Lij/process/ImageProcessor;II)*
+4
+1*É
+8b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaÍ Í(×Ô
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaÍ Í(
+%22void"+ij.process.ImageProcessor#flipHorizontal()V*"
+ 
+ip2ij.process.ImageProcessor2flipHorizontal()*
+4
+1*È
+30b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java· ·(ÓÐ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java· ·(
+%16void")ij.process.ImageProcessor#flipVertical()V*"
+ 
+ip2ij.process.ImageProcessor2flipVertical()*
+25
+22*Ð
+32b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaµ µ(×Ô
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaµ µ(
+%15void"+ij.process.ImageProcessor#flipHorizontal()V*"
+ 
+ip2ij.process.ImageProcessor2flipHorizontal()*
+25
+30
+22*Ì
+22b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java¿ ¿(×Ô
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java¿ ¿(
+%18void"+ij.process.ImageProcessor#flipHorizontal()V*"
+ 
+ip2ij.process.ImageProcessor2flipHorizontal()*
+15
+18*É
+33b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java§ §(š—
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java§ §(:
+%7ij.process.ImageProcessor"Hij.process.ImageProcessor#createProcessor(II)Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor*
+""*
+""2createProcessor(II)´
+±
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java§ §(;"
+ipoutij.process.ImageProcessor"__id*!
+
+%7ij.process.ImageProcessorðí
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java© ©( 
+%8ij.process.ImageProcessor";ij.process.ImageProcessor#crop()Lij/process/ImageProcessor;*!
+
+ipij.process.ImageProcessor2crop()²
+¯
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java© ©(! 
+ip2ij.process.ImageProcessor"__id*!
+
+%8ij.process.ImageProcessorÉÆ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaª ª(	
+%9int"%ij.process.ImageProcessor#getWidth()I*"
+ 
+ip2ij.process.ImageProcessor2
+getWidth()ÌÉ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java« «(
+
+%10int"&ij.process.ImageProcessor#getHeight()I*"
+ 
+ip2ij.process.ImageProcessor2getHeight()«
+¨
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java® ®(+
+%11double"java.lang.Math#ceil(D)D*"
+java.lang.Math*
+""«
+¨
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java¯ ¯(6
+%12double"java.lang.Math#ceil(D)D*"
+java.lang.Math*
+""«
+¨
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java° °(+
+%13double"java.lang.Math#ceil(D)D*"
+java.lang.Math*
+""«
+¨
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java± ±(7
+%14double"java.lang.Math#ceil(D)D*"
+java.lang.Math*
+""*
+25
+30
+32
+22*«
+11b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaÉ É(	·´
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.javaÉ É(%
+%21void"@ij.process.ImageProcessor#insert(Lij/process/ImageProcessor;II)V*$
+"
+ipoutij.process.ImageProcessor*"
+ 
+ip2ij.process.ImageProcessor*
+""*
+""2%insert(Lij/process/ImageProcessor;II)*
+8
+11*¢
+34b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java£ £(É
+Æ
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java£ £(2
+
+%6void" ij.IJ#error(Ljava/lang/String;)V*	"
+ij.IJ*'%
+#Image to be tiled is out of bounds."l
+b
+V/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/filter/FFTFilter.java¤ ¤(
+"":
+ipij.process.ImageProcessor:
+"":
+"":
+"":
+""B
+ij.plugin.filter.FFTFilter

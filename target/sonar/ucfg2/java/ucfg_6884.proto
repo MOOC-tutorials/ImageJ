@@ -1,0 +1,184 @@
+
+%ij.gui.PolygonRoi#getSpline(I[F[F)[[FY
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java≠ ≠("27"20*à
+3Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java’ ’(ŒÀ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java÷ ÷(-
+%20double"&ij.measure.SplineFitter#evalSpline(D)D* 
+
+sfxij.measure.SplineFitter*
+""2evalSpline(D)ŒÀ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java◊ ◊(-
+%21double"&ij.measure.SplineFitter#evalSpline(D)D* 
+
+sfyij.measure.SplineFitter*
+""2evalSpline(D)*
+3
+1*π
+15Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaΩ Ω(°
+û
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaø$ ø(:
+%8double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""©
+¶
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaø ø(;
+%9double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+
+%8double*
+15
+11*‚
+5Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaœ& œ(3•¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaœC œ(K
+%14boolean"ij.gui.Roi#isLine()Z*
+ij.gui.PolygonRoi2isLine()óî
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaœ œ(%
+%15ij.measure.SplineFitter"ij.measure.SplineFitter–
+Õ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaœ œ(L
+%16"'ij.measure.SplineFitter#<init>([F[FIZ)V* 
+
+%15ij.measure.SplineFitter*
+""*
+""*
+""*
+""¶
+£
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaœ œ(M
+sfxij.measure.SplineFitter"__id* 
+
+%15ij.measure.SplineFitter•¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java–C –(K
+%17boolean"ij.gui.Roi#isLine()Z*
+ij.gui.PolygonRoi2isLine()óî
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java– –(%
+%18ij.measure.SplineFitter"ij.measure.SplineFitter–
+Õ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java– –(L
+%19"'ij.measure.SplineFitter#<init>([F[FIZ)V* 
+
+%18ij.measure.SplineFitter*
+""*
+""*
+""*
+""¶
+£
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java– –(M
+sfyij.measure.SplineFitter"__id* 
+
+%18ij.measure.SplineFitter*
+3
+1*¯
+27Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaØ	 Ø(ü
+ú
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaØ	 Ø(
+%0float[]"ij.gui.Roi#toFloat([I)[F*"
+
+ij.gui.Roi*
+""ü
+ú
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java∞	 ∞(
+%1float[]"ij.gui.Roi#toFloat([I)[F*"
+
+ij.gui.Roi*
+""Ã…
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java± ±(
+
+%2void"-ij.gui.PolygonRoi#enableSubPixelResolution()V*
+ij.gui.PolygonRoi2enableSubPixelResolution()*
+20*¥
+17Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java∑ ∑(.»≈
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java∏ ∏()
+%7double"*ij.gui.PolygonRoi#getUncalibratedLength()D*
+ij.gui.PolygonRoi2getUncalibratedLength()*
+15
+11*‚
+18Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java∑$ ∑(+{
+y
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java∑$ ∑(-	
+%4int"__id*
+	
+%6int*
+17*ß
+7Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÀ À()¡æ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaÀ À(1
+%13void"#ij.gui.PolygonRoi#enlargeArrays(I)V*
+ij.gui.PolygonRoi*
+""2enlargeArrays(I)*
+5*‚
+19Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java∑ ∑(!{
+y
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java∑ ∑(!	
+%4int"__id*
+	
+%5int*
+17*ê
+20Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java∑ ∑(§°
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java∑ ∑(
+%3boolean"ij.gui.Roi#isLine()Z*
+ij.gui.PolygonRoi2isLine()*
+18
+19*∫
+10Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java≈ ≈(¢
+ü
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java«$ «(:
+%11double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""´
+®
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.java« «(;
+%12double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+
+%11double*
+5
+7*ê
+11Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaƒ ƒ(•¢
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaƒ ƒ(
+%10boolean"ij.gui.Roi#isLine()Z*
+ij.gui.PolygonRoi2isLine()*
+5
+10*√
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaŸ Ÿ("c
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PolygonRoi.javaŸ Ÿ(*
+"":
+"":
+"":
+""B
+ij.gui.PolygonRoi

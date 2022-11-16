@@ -1,0 +1,110 @@
+
+Bij.plugin.RoiRotator#rotateShape(Lij/gui/ShapeRoi;DDD)Lij/gui/Roi;Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javat t("1*ü
+1Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javau u(«ƒ
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javau u(
+%0java.awt.Shape"*ij.gui.ShapeRoi#getShape()Ljava/awt/Shape;*
+
+roiij.gui.ShapeRoi2
+getShape()ñ
+ì
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javau u(
+shapejava.awt.Shape"__id*
+
+%0java.awt.Shape£†
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javav v(*#
+%1java.awt.geom.AffineTransform"java.awt.geom.AffineTransformµ
+≤
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javav v(,
+%2"'java.awt.geom.AffineTransform#<init>()V*%
+#
+%1java.awt.geom.AffineTransform±
+Æ
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javav v(-#
+atjava.awt.geom.AffineTransform"__id*%
+#
+%1java.awt.geom.AffineTransform„‡
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaw w($
+
+%3void"*java.awt.geom.AffineTransform#rotate(DDD)V*%
+#
+atjava.awt.geom.AffineTransform*
+""*
+""*
+""2rotate(DDD)Ã…
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javax x(
+%4java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roiij.gui.ShapeRoi2getBounds()ö
+ó
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javax x( 
+rjava.awt.Rectangle"__id*
+
+%4java.awt.Rectangleﬂ‹
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javay y(
+
+%5void",java.awt.geom.AffineTransform#translate(DD)V*%
+#
+atjava.awt.geom.AffineTransform*
+""*
+""2translate(DD)π∂
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaz z(1
+%6java.awt.Shape"Vjava.awt.geom.AffineTransform#createTransformedShape(Ljava/awt/Shape;)Ljava/awt/Shape;*%
+#
+atjava.awt.geom.AffineTransform*
+
+shapejava.awt.Shape2(createTransformedShape(Ljava/awt/Shape;)ó
+î
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.javaz z(2
+shape2java.awt.Shape"__id*
+
+%6java.awt.ShapeáÑ
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.java{ {(
+%7ij.gui.ShapeRoi"ij.gui.ShapeRoi≈
+¬
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.java{ {(!
+%8")ij.gui.ShapeRoi#<init>(Ljava/awt/Shape;)V*
+
+%7ij.gui.ShapeRoi*
+
+shape2java.awt.Shapeí
+è
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.java{ {("
+roi2
+ij.gui.Roi"__id*
+
+%7ij.gui.ShapeRoi„‡
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.java| |(
+
+%9void"(ij.gui.Roi#copyAttributes(Lij/gui/Roi;)V*
+
+roi2
+ij.gui.Roi*
+
+roiij.gui.ShapeRoi2copyAttributes(Lij/gui/Roi;)"r
+Z
+P/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/RoiRotator.java} }(
+
+roi2
+ij.gui.Roi:
+roiij.gui.ShapeRoi:
+"":
+"":
+""B"
+ij.plugin.RoiRotator

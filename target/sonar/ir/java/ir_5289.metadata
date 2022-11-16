@@ -1,0 +1,6 @@
+ij.plugin.Thresholder#run(Ljava/lang/String;)V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.Undo#setup(ILij/ImagePlus;)V
+ij.plugin.Thresholder#applyThreshold(Lij/ImagePlus;Z)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.IJ#showProgress(D)V

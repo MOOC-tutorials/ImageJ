@@ -1,0 +1,99 @@
+
+Eij.plugin.DragAndDrop#parseHTML(Ljava/lang/String;)Ljava/lang/String;[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javai i("7"8*¾
+2[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javau u(âß
+[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javau u((
+%7java.lang.String"0java.lang.String#substring(II)Ljava/lang/String;*
+
+sjava.lang.String*
+""*
+""2substring(II)"w
+[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javau u()
+
+%7java.lang.String*Í
+3[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javas s(âß
+[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javas s()	
+%6int".java.lang.String#indexOf(Ljava/lang/String;I)I*
+
+sjava.lang.String*
+\"*
+""2indexOf(Ljava/lang/String;I)*
+2
+1*È
+4[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javaq q(ÝÚ
+[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javaq q(	
+%5int"-java.lang.String#indexOf(Ljava/lang/String;)I*
+
+sjava.lang.String*	
+href=\"2indexOf(Ljava/lang/String;)*
+3
+1*¾
+5[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javao o(âß
+[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javao o((
+%4java.lang.String"0java.lang.String#substring(II)Ljava/lang/String;*
+
+sjava.lang.String*
+""*
+""2substring(II)"w
+[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javao o()
+
+%4java.lang.String*Í
+6[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javam m(âß
+[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javam m()	
+%3int".java.lang.String#indexOf(Ljava/lang/String;I)I*
+
+sjava.lang.String*
+\"*
+""2indexOf(Ljava/lang/String;I)*
+4
+5*Ç
+7[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javak k(ÜÙ
+[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javak k("	
+%2int"-java.lang.String#indexOf(Ljava/lang/String;)I*
+
+sjava.lang.String*
+
+src=\"2indexOf(Ljava/lang/String;)*
+4
+6*É
+8[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javaj j(­
+ª
+[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javaj j(+
+%0java.lang.String"__concat*
+parseHTML:\n*
+
+sjava.lang.String±
+®
+[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javaj j(,
+
+%1void"ij.IJ#log(Ljava/lang/String;)V*	"
+ij.IJ*
+
+%0java.lang.String*
+7*Ø
+1[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javaw	 w(
+"v
+[
+Q/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/DragAndDrop.javaw w(
+
+sjava.lang.String:
+sjava.lang.StringB
+ij.plugin.DragAndDrop

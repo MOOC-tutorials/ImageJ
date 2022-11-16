@@ -1,0 +1,138 @@
+
+,ij.ImagePlus#createImagePlus()Lij/ImagePlus;T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaπ π(!"5*Æ
+2T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java√ √(Ω∫
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java√ √(
+%11java.lang.Object"(ij.io.FileInfo#clone()Ljava/lang/Object;*
+
+fiij.io.FileInfo2clone()ê
+ç
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java√ √(
+fiij.io.FileInfo"__id*
+
+%11java.lang.Objectå
+â
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaƒ ƒ(#
+
+fiij.io.FileInfo"
+	directory"__id*
+""Ü
+É
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java≈ ≈(
+
+fiij.io.FileInfo"
+url"__id*
+""‚ﬂ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∆ ∆(
+%12void"+ij.ImagePlus#setFileInfo(Lij/io/FileInfo;)V*
+
+imp2ij.ImagePlus*
+
+fiij.io.FileInfo2setFileInfo(Lij/io/FileInfo;)*
+1*å
+3T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¿ ¿(’“
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¿ ¿(+
+%8java.lang.String[]"6ij.ImagePlus#getPropertiesAsArray()[Ljava/lang/String;*
+ij.ImagePlus2getPropertiesAsArray()ÔÏ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¿ ¿(,
+
+%9void"0ij.ImagePlus#setProperties([Ljava/lang/String;)V*
+
+imp2ij.ImagePlus*
+
+%8java.lang.String[]2"setProperties([Ljava/lang/String;)Õ 
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¡ ¡(%
+%10ij.io.FileInfo"2ij.ImagePlus#getOriginalFileInfo()Lij/io/FileInfo;*
+ij.ImagePlus2getOriginalFileInfo()é
+ã
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java¡ ¡(&
+fiij.io.FileInfo"__id*
+
+%10ij.io.FileInfo*
+2
+1*¯
+4T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaø ø(óî
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaø ø(!
+
+%7void"?ij.ImagePlus#setProperty(Ljava/lang/String;Ljava/lang/Object;)V*
+
+imp2ij.ImagePlus*
+Info*
+
+infojava.lang.String21setProperty(Ljava/lang/String;Ljava/lang/Object;)*
+3*©
+5T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∫ ∫("zx
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∫ ∫( 
+%0ij.ImagePlus"ij.ImagePlusç
+ä
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∫ ∫("
+%1"ij.ImagePlus#<init>()V*
+
+%0ij.ImagePlusã
+à
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java∫ ∫(#
+imp2ij.ImagePlus"__id*
+
+%0ij.ImagePlusöó
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaª ª(	
+%2int"ij.ImagePlus#getType()I*
+ij.ImagePlus2	getType()∞≠
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaª ª(
+
+%3void"ij.ImagePlus#setType(I)V*
+
+imp2ij.ImagePlus*
+	
+%2int2
+setType(I)“œ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaº º(&
+%4ij.measure.Calibration"5ij.ImagePlus#getCalibration()Lij/measure/Calibration;*
+ij.ImagePlus2getCalibration()ˇ¸
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaº º('
+
+%5void"6ij.ImagePlus#setCalibration(Lij/measure/Calibration;)V*
+
+imp2ij.ImagePlus*
+
+%4ij.measure.Calibration2(setCalibration(Lij/measure/Calibration;)ÓÎ
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaΩ Ω(+
+%6java.lang.Object">ij.ImagePlus#getProperty(Ljava/lang/String;)Ljava/lang/Object;*
+ij.ImagePlus*
+Info2getProperty(Ljava/lang/String;)ì
+ê
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.javaΩ Ω(,
+infojava.lang.String"__id*
+
+%6java.lang.Object*
+3
+4*…
+1T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java»	 »("n
+T
+H/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/ImagePlus.java» »(
+
+imp2ij.ImagePlusB
+ij.ImagePlus

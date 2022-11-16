@@ -1,0 +1,17 @@
+ij.macro.Functions#doIJ()Ljava/lang/String;
+ij.IJ#getToolName()Ljava/lang/String;
+ij.macro.Functions#getLastArg()D
+ij.IJ#deleteRows(II)V
+ij.IJ#currentMemory()J
+ij.IJ#freeMemory()Ljava/lang/String;
+ij.macro.Interpreter#getParens()V
+ij.macro.Interpreter#getToken()V
+ij.IJ#maxMemory()J
+ij.macro.Functions#checksum()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.macro.Functions#pad()Ljava/lang/String;
+ij.macro.Functions#getFirstArg()D
+ij.IJ#redirectErrorMessages()V
+ij.macro.Functions#renameResults()V
+ij.IJ#log(Ljava/lang/String;)V
+ij.IJ#getFullVersion()Ljava/lang/String;

@@ -1,0 +1,15 @@
+ij.plugin.Zoom#setZoom(Lij/ImagePlus;DII)V
+ij.plugin.Zoom#waitUntilActivated(Lij/ImagePlus;)V
+ij.gui.GUI#getMaxWindowBounds(Ljava/awt/Component;)Ljava/awt/Rectangle;
+ij.IJ#wait(I)V
+ij.Macro#getOptions()Ljava/lang/String;
+java.awt.Rectangle#<init>(IIII)V
+java.lang.Math#round(D)J
+java.awt.Dimension#<init>(II)V
+java.awt.Rectangle#instance-init#
+java.awt.Dimension#instance-init#
+ij.gui.GenericDialog#<init>(Ljava/lang/String;)V
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+ij.plugin.frame.Recorder#recordCall(Ljava/lang/String;)V
+ij.gui.GenericDialog#instance-init#
+ij.IJ#macroRunning()Z

@@ -1,0 +1,15 @@
+ij.plugin.filter.ParticleAnalyzer#showDialog()Z
+ij.measure.Calibration#<init>()V
+ij.Macro#getOptions()Ljava/lang/String;
+ij.util.Tools#split(Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+ij.plugin.filter.Analyzer#getMeasurements()I
+java.lang.String#indexOf(Ljava/lang/String;)I
+ij.IJ#d2s(D)Ljava/lang/String;
+ij.plugin.filter.Analyzer#setMeasurements(I)V
+ij.measure.Calibration#instance-init#
+ij.gui.GenericDialog#<init>(Ljava/lang/String;)V
+ij.measure.ResultsTable#d2s(DI)Ljava/lang/String;
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+ij.gui.GenericDialog#instance-init#
+java.lang.Double#isNaN(D)Z
+ij.IJ#error(Ljava/lang/String;)V

@@ -1,0 +1,11 @@
+ij.macro.Functions#setForegroundOrBackground(Z)Lij/macro/Variable;
+ij.macro.Interpreter#getLeftParen()V
+ij.macro.Interpreter#getExpression()D
+ij.macro.Interpreter#getRightParen()V
+ij.macro.Functions#getLastArg()D
+ij.gui.Toolbar#setBackgroundColor(Ljava/awt/Color;)V
+ij.macro.Functions#getNextArg()D
+ij.plugin.Colors#decode(Ljava/lang/String;Ljava/awt/Color;)Ljava/awt/Color;
+ij.macro.Functions#getString()Ljava/lang/String;
+ij.gui.Toolbar#setForegroundColor(Ljava/awt/Color;)V
+ij.plugin.Colors#toColor(III)Ljava/awt/Color;

@@ -1,0 +1,12 @@
+ij.plugin.AVI_Reader#readAvi2Index(J)V
+ij.plugin.AVI_Reader#readLong()J
+java.lang.Long#toHexString(J)Ljava/lang/String;
+ij.plugin.AVI_Reader#fourccString(I)Ljava/lang/String;
+ij.plugin.AVI_Reader#posSizeString(JJ)Ljava/lang/String;
+ij.plugin.AVI_Reader#findFourccAndRead(IZJZ)J
+ij.plugin.AVI_Reader#readShort()S
+ij.plugin.AVI_Reader#readInt()I
+ij.IJ#log(Ljava/lang/String;)V
+java.io.RandomAccessFile#readByte()B
+ij.plugin.AVI_Reader#timeString()Ljava/lang/String;
+ij.IJ#showProgress(D)V

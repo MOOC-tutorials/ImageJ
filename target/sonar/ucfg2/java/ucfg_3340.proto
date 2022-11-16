@@ -1,0 +1,128 @@
+
+=ij.macro.Functions#getOverlayElementBounds(Lij/gui/Overlay;)DZ
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java€5 €5('"3*¡
+2Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java„5
+ „5(z
+x
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java„5
+ „5(
+%6double"__id*
+"""d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java„5 „5(
+""*Â
+3Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java‹5 ‹5(∑¥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java‹5 ‹5( 
+%0double"!ij.macro.Functions#getFirstArg()D*
+ij.macro.Functions2getFirstArg()‹Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java›5 ›5( 
+%1ij.macro.Variable"7ij.macro.Functions#getNextVariable()Lij/macro/Variable;*
+ij.macro.Functions2getNextVariable()ò
+ï
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java›5 ›5(!
+xij.macro.Variable"__id*
+
+%1ij.macro.Variable‹Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaﬁ5 ﬁ5( 
+%2ij.macro.Variable"7ij.macro.Functions#getNextVariable()Lij/macro/Variable;*
+ij.macro.Functions2getNextVariable()ò
+ï
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaﬁ5 ﬁ5(!
+yij.macro.Variable"__id*
+
+%2ij.macro.Variable‹Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaﬂ5 ﬂ5($
+%3ij.macro.Variable"7ij.macro.Functions#getNextVariable()Lij/macro/Variable;*
+ij.macro.Functions2getNextVariable()ú
+ô
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaﬂ5 ﬂ5(%
+widthij.macro.Variable"__id*
+
+%3ij.macro.Variable‹Ÿ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java‡5 ‡5(%
+%4ij.macro.Variable"7ij.macro.Functions#getLastVariable()Lij/macro/Variable;*
+ij.macro.Functions2getLastVariable()ù
+ö
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java‡5 ‡5(&
+heightij.macro.Variable"__id*
+
+%4ij.macro.Variable¡æ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java·5 ·5(
+%5
+ij.gui.Roi"!ij.gui.Overlay#get(I)Lij/gui/Roi;*
+
+overlayij.gui.Overlay*
+""2get(I)å
+â
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java·5 ·5(
+roi
+ij.gui.Roi"__id*
+
+%5
+ij.gui.Roi*
+2
+1*Í
+1Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java‰5 ‰5(ÌÍ
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java‰5 ‰5(-&
+%7 java.awt.geom.Rectangle2D$Double"=ij.gui.Roi#getFloatBounds()Ljava/awt/geom/Rectangle2D$Double;*
+
+roi
+ij.gui.Roi2getFloatBounds()∂
+≥
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.java‰5 ‰5(.%
+r java.awt.geom.Rectangle2D$Double"__id*(
+&
+%7 java.awt.geom.Rectangle2D$Double∫∑
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÂ5 Â5(
+
+%8void"ij.macro.Variable#setValue(D)V*
+
+xij.macro.Variable*
+""2setValue(D)∫∑
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÊ5 Ê5(
+
+%9void"ij.macro.Variable#setValue(D)V*
+
+yij.macro.Variable*
+""2setValue(D)øº
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÁ5 Á5(
+%10void"ij.macro.Variable#setValue(D)V*
+
+widthij.macro.Variable*
+""2setValue(D)¿Ω
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaË5 Ë5(
+%11void"ij.macro.Variable#setValue(D)V*
+
+heightij.macro.Variable*
+""2setValue(D){
+y
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÈ5	 È5(
+%12double"__id*
+"""d
+Z
+N/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/macro/Functions.javaÈ5 È5(
+"":
+overlayij.gui.OverlayB
+ij.macro.Functions

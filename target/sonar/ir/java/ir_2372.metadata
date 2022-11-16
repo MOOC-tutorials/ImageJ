@@ -1,0 +1,10 @@
+ij.text.TextWindow#close(Z)V
+ij.IJ#setTextPanel(Lij/text/TextPanel;)V
+ij.Prefs#saveLocation(Ljava/lang/String;Ljava/awt/Point;)V
+ij.Prefs#set(Ljava/lang/String;I)V
+ij.IJ#notifyEventListeners(I)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+ij.WindowManager#removeWindow(Ljava/awt/Frame;)V
+ij.plugin.filter.Analyzer#resetCounter()Z
+ij.IJ#setDebugMode(Z)V
+ij.IJ#log(Ljava/lang/String;)V

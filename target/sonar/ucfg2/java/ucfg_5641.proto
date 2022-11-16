@@ -1,0 +1,89 @@
+
+9ij.plugin.CommandLister#getShortcuts()[Ljava/lang/String;]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java+ +("1*•
+1]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java, ,(åâ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java, ,(
+%0java.util.Vector"java.util.Vectorû
+õ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java, ,(
+%1"java.util.Vector#<init>()V*
+
+%0java.util.Vectorô
+ñ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java, ,(
+vjava.util.Vector"__id*
+
+%0java.util.Vectorπ
+∂
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java- -(,
+%2java.util.Hashtable",ij.Menus#getShortcuts()Ljava/util/Hashtable;*"
+
+ij.Menusß
+§
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java- -(- 
+	shortcutsjava.util.Hashtable"__id*
+
+%2java.util.Hashtableﬂ‹
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java. .($
+
+%3void"Vij.plugin.CommandLister#addShortcutsToVector(Ljava/util/Hashtable;Ljava/util/Vector;)V*
+ij.plugin.CommandLister*"
+ 
+	shortcutsjava.util.Hashtable*
+
+vjava.util.Vector2=addShortcutsToVector(Ljava/util/Hashtable;Ljava/util/Vector;)æ
+ª
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java/ /(6
+%4java.util.Hashtable"1ij.Menus#getMacroShortcuts()Ljava/util/Hashtable;*"
+
+ij.Menus¨
+©
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java/ /(7%
+macroShortcutsjava.util.Hashtable"__id*
+
+%4java.util.Hashtable‰·
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java0 0()
+
+%5void"Vij.plugin.CommandLister#addShortcutsToVector(Ljava/util/Hashtable;Ljava/util/Vector;)V*
+ij.plugin.CommandLister*'
+%
+macroShortcutsjava.util.Hashtable*
+
+vjava.util.Vector2=addShortcutsToVector(Ljava/util/Hashtable;Ljava/util/Vector;)®•
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java1 1(%	
+%6int"java.util.Vector#size()I*
+
+vjava.util.Vector2size()êç
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java1 1(&
+%7java.lang.String[]"java.lang.String[]†
+ù
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java1 1('
+listjava.lang.String[]"__id*
+
+%7java.lang.String[]ıÚ
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java2 2(
+
+%8void"/java.util.Vector#copyInto([Ljava/lang/Object;)V*
+
+vjava.util.Vector*
+
+listjava.lang.String[]2copyInto([Ljava/lang/Object;)"}
+]
+S/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/plugin/CommandLister.java3 3(
+
+listjava.lang.String[]B
+ij.plugin.CommandLister

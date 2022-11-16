@@ -1,0 +1,8 @@
+ij.macro.Functions#fromPlot(Lij/gui/Plot;C)D
+ij.macro.Interpreter#getLeftParen()V
+ij.macro.Interpreter#getExpression()D
+ij.macro.Interpreter#getRightParen()V
+ij.WindowManager#getImage(I)Lij/ImagePlus;
+ij.WindowManager#getImage(Ljava/lang/String;)Lij/ImagePlus;
+ij.macro.Functions#getNextArg()D
+ij.macro.Functions#getString()Ljava/lang/String;

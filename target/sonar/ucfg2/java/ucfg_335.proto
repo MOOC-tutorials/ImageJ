@@ -1,0 +1,450 @@
+
+&ij.gui.Line#draw(Ljava/awt/Graphics;)VS
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaï ï("36*
+24S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java„' „(+§¤
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java„0 „(@
+%19float"ij.gui.Roi#getStrokeWidth()F*
+ij.gui.Line2getStrokeWidth()t
+r
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java„A „(\
+%20double"__id*
+""›
+˜
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java„' „(]
+%21double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+""*
+23*ê
+27S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaù ù(äá
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaù ù(
+
+%9void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+colorjava.awt.Color2setColor(Ljava/awt/Color;)œ™
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaú ú(
+%10double"ij.gui.Roi#getXBase()D*
+ij.gui.Line2
+getXBase()œ™
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaú ú($
+%11double"ij.gui.Roi#getYBase()D*
+ij.gui.Line2
+getYBase()œ™
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaú. ú(8
+%12double"ij.gui.Roi#getXBase()D*
+ij.gui.Line2
+getXBase()œ™
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaúB ú(L
+%13double"ij.gui.Roi#getYBase()D*
+ij.gui.Line2
+getYBase()£ 
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaü ü(
+
+%14int"ij.gui.Roi#screenXD(D)I*
+ij.gui.Line*
+""2screenXD(D)£ 
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaı ı(
+
+%15int"ij.gui.Roi#screenYD(D)I*
+ij.gui.Line*
+""2screenYD(D)£ 
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaş ş(
+
+%16int"ij.gui.Roi#screenXD(D)I*
+ij.gui.Line*
+""2screenXD(D)£ 
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaÿ ÿ(
+
+%17int"ij.gui.Roi#screenYD(D)I*
+ij.gui.Line*
+""2screenYD(D)”
+‘
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java‚ ‚(!
+g2djava.awt.Graphics2D"__id*
+
+gjava.awt.Graphicsòï
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaƒ ƒ(
+%18void"3ij.gui.Roi#setRenderingHint(Ljava/awt/Graphics2D;)V*
+ij.gui.Line*
+
+g2djava.awt.Graphics2D2'setRenderingHint(Ljava/awt/Graphics2D;)*
+24
+23*î
+28S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java÷ ÷({
+y
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java÷ ÷(
+%8java.awt.Color"__id*
+""
+Œ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java÷ ÷(
+colorjava.awt.Color"__id*
+
+%8java.awt.Color*
+27*î
+29S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaõ õ({
+y
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaõ õ(
+%7java.awt.Color"__id*
+""
+Œ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaõ õ(
+colorjava.awt.Color"__id*
+
+%7java.awt.Color*
+27*à
+30S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaô ô({
+y
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaô ô(
+%6java.awt.Color"__id*
+""*
+28
+29*‘
+31S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javañ ñ(@«¨
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaò ò(
+%5double"ij.gui.Roi#getMagnification()D*
+ij.gui.Line2getMagnification()*
+27
+30*’
+32S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javañ+ ñ(=°­
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javañ+ ñ(?
+%4boolean" ij.gui.Roi#isActiveOverlayRoi()Z*
+ij.gui.Line2isActiveOverlayRoi()*
+31*Á
+10S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java“ “(ƒ
+€
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java“ “(
+%32java.awt.BasicStroke"__id*
+""óğ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java“ “(
+%33void"1java.awt.Graphics2D#setStroke(Ljava/awt/Stroke;)V*
+
+g2djava.awt.Graphics2D*
+
+%32java.awt.BasicStroke2setStroke(Ljava/awt/Stroke;)¦
+£
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java” ”(
+%34java.awt.Color"%ij.gui.Roi#getColor()Ljava/awt/Color;*"
+
+ij.gui.Roiãà
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java” ”(
+%35void"-java.awt.Graphics#setColor(Ljava/awt/Color;)V*
+
+gjava.awt.Graphics*
+
+%34java.awt.Color2setColor(Ljava/awt/Color;)ÒÏ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java• •(!
+%36void"!java.awt.Graphics#drawLine(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawLine(IIII)*
+4
+8*õ
+33S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javağ ğ(9
+Œ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javağ ğ(9
+colorjava.awt.Color"__id*
+
+%1java.awt.Color*
+31
+32*ƒ
+34S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javağ0 ğ(8’
+
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javağ0 ğ(8
+%3java.awt.Color"__id**
+
+ij.gui.Roi"
+
+ROIColorŒ
+‰
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javağ0 ğ(8
+%1java.awt.Color"__id*
+
+%3java.awt.Color*
+33*‡
+35S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javağ$ ğ(/–
+“
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javağ$ ğ(/
+%2java.awt.Color"__id* *
+ij.gui.Line"
+strokeColorŒ
+‰
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javağ$ ğ(/
+%1java.awt.Color"__id*
+
+%2java.awt.Color*
+33*º
+13S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java‘ ‘(ÒÏ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java‘ ‘(!
+%31void"!java.awt.Graphics#drawLine(IIII)V*
+
+gjava.awt.Graphics*
+""*
+""*
+""*
+""2drawLine(IIII)*
+
+4
+8
+10*ü
+36S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javağ ğ(–
+“
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javağ ğ(
+%0java.awt.Color"__id* *
+ij.gui.Line"
+strokeColor*
+35
+34*ç
+14S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaŠ Š(Ÿ
+œ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaŒ Œ(
+%27double"ij.gui.Roi#length(DD)D*"
+
+ij.gui.Roi*
+""*
+""™–
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java ("
+%28java.awt.geom.Line2D$Double"java.awt.geom.Line2D$DoubleĞ
+Í
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java (=
+%29")java.awt.geom.Line2D$Double#<init>(DDDD)V*$
+"
+%28java.awt.geom.Line2D$Double*
+""*
+""*
+""*
+""îë
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java (>
+%30void"+java.awt.Graphics2D#draw(Ljava/awt/Shape;)V*
+
+g2djava.awt.Graphics2D*$
+"
+%28java.awt.geom.Line2D$Double2draw(Ljava/awt/Shape;)*
+
+4
+8
+10*ß
+18S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaˆ ˆ(ƒ
+€
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaˆ ˆ(
+%25java.awt.BasicStroke"__id*
+""óğ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaˆ ˆ(
+%26void"1java.awt.Graphics2D#setStroke(Ljava/awt/Stroke;)V*
+
+g2djava.awt.Graphics2D*
+
+%25java.awt.BasicStroke2setStroke(Ljava/awt/Stroke;)*
+13
+14*q
+0 "j
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java¢ ¢(
+implicit return*Š
+1S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java¡ ¡(
+Š
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java¡ ¡(!
+%47ij.ImagePlus"__id**
+ij.gui.Line"
+impš—
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java¡ ¡((
+%48void"ij.ImagePlus#draw()V*
+
+%47ij.ImagePlus2draw()*
+0*‚
+3S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaŸ Ÿ(Ÿœ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaŸ Ÿ(
+%46void"ij.gui.Line#showStatus()V*
+ij.gui.Line2showStatus()*
+0
+1*Ö
+4S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java (q
+o
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java (
+
+%45int"__id*
+""*	
+3
+0
+1*î	
+5S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java˜ ˜(7—
+”
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java˜ ˜(7
+ij.gui.Line"
+handleColor"__id*
+
+%38java.awt.Coloròï
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java™ ™(
+%41void"-ij.gui.Roi#drawHandle(Ljava/awt/Graphics;II)V*
+ij.gui.Line*
+
+gjava.awt.Graphics*
+""*
+""2!drawHandle(Ljava/awt/Graphics;II)|
+z
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaš š(
+%42java.awt.Color"__id*
+""—
+”
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaš š(
+ij.gui.Line"
+handleColor"__id*
+
+%42java.awt.Coloròï
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java› ›(
+%43void"-ij.gui.Roi#drawHandle(Ljava/awt/Graphics;II)V*
+ij.gui.Line*
+
+gjava.awt.Graphics*
+""*
+""2!drawHandle(Ljava/awt/Graphics;II)òï
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.javaœ œ(
+%44void"-ij.gui.Roi#drawHandle(Ljava/awt/Graphics;II)V*
+ij.gui.Line*
+
+gjava.awt.Graphics*
+""*
+""2!drawHandle(Ljava/awt/Graphics;II)*
+4*„
+6S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java˜/ ˜(7“
+
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java˜/ ˜(7
+%40java.awt.Color"__id**
+
+ij.gui.Roi"
+
+ROIColor
+‹
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java˜/ ˜(7
+%38java.awt.Color"__id*
+
+%40java.awt.Color*
+5*ˆ
+7S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java˜# ˜(.—
+”
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java˜# ˜(.
+%39java.awt.Color"__id* *
+ij.gui.Line"
+strokeColor
+‹
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java˜# ˜(.
+%38java.awt.Color"__id*
+
+%39java.awt.Color*
+5*ú
+8S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java˜ ˜(—
+”
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java˜ ˜(
+%37java.awt.Color"__id* *
+ij.gui.Line"
+strokeColor*
+6
+7*©
+20S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java† †(ÍÊ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java† †("
+%23java.awt.BasicStroke"2ij.gui.Roi#getScaledStroke()Ljava/awt/BasicStroke;*
+ij.gui.Line2getScaledStroke()óğ
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java† †(#
+%24void"1java.awt.Graphics2D#setStroke(Ljava/awt/Stroke;)V*
+
+g2djava.awt.Graphics2D*
+
+%23java.awt.BasicStroke2setStroke(Ljava/awt/Stroke;)*
+13
+14*†
+23S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java„ „(e˜
+•
+S
+G/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/Line.java… …(
+%22java.awt.BasicStroke"__id**
+ij.gui.Line"
+stroke*
+13
+14
+18
+20:
+gjava.awt.GraphicsB
+ij.gui.Line

@@ -1,0 +1,130 @@
+
+9ij.io.RoiDecoder#getImageRoi(Lij/gui/Roi;III)Lij/gui/Roi;X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaí í("7"8*¯
+2X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaø ø(ÊÇ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaø ø( 
+%11void"&ij.gui.ImageRoi#setZeroTransparent(Z)V*
+
+roi2ij.gui.ImageRoi*22setZeroTransparent(Z)*
+1*„
+3X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaô ô(~|
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaô ô(
+%3ij.io.Opener"ij.io.Opener‘
+
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaô ô(
+%4"ij.io.Opener#<init>()V*
+
+%3ij.io.Opener×Ô
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaô ô(1
+%5ij.ImagePlus"*ij.io.Opener#deserialize([B)Lij/ImagePlus;*
+
+%3ij.io.Opener*
+
+bytesbyte[]2deserialize([B)
+‹
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaô ô(2
+impij.ImagePlus"__id*
+
+%5ij.ImagePlusİÚ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaõ) õ(;
+%6ij.process.ImageProcessor"6ij.ImagePlus#getProcessor()Lij/process/ImageProcessor;*
+
+impij.ImagePlus2getProcessor()…‚
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaõ õ(
+%7ij.gui.ImageRoi"ij.gui.ImageRoiç
+ä
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaõ õ(<
+%8"6ij.gui.ImageRoi#<init>(IILij/process/ImageProcessor;)V*
+
+%7ij.gui.ImageRoi*
+""*
+""*!
+
+%6ij.process.ImageProcessor•
+’
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaõ õ(=
+roi2ij.gui.ImageRoi"__id*
+
+%7ij.gui.ImageRoi»¸
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaö ö( 
+
+%9void"ij.gui.ImageRoi#setOpacity(D)V*
+
+roi2ij.gui.ImageRoi*
+""2setOpacity(D)v
+t
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.java÷ ÷(
+
+%10int"__id*
+""*
+2
+1*
+5X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaó ó(u
+s
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaó ó('	
+%1int"__id*
+""°­
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaó ó(*	
+%2int"ij.io.RoiDecoder#getByte(I)I*
+ij.io.RoiDecoder*
+""2
+getByte(I)*
+3
+5*Å
+7X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javağ ğ(ÅÂ
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javağ ğ(
+%0java.awt.Rectangle"*ij.gui.Roi#getBounds()Ljava/awt/Rectangle;*
+
+roi
+ij.gui.Roi2getBounds()˜
+•
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javağ ğ( 
+rjava.awt.Rectangle"__id*
+
+%0java.awt.Rectangle{
+y
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javañ ñ( 
+bytesbyte[]"__id*
+""*
+3
+5*Î
+8X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaï
+ ï("o
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaï ï(
+
+roi
+ij.gui.Roi*Ô
+1X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaù	 ù("u
+X
+L/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/io/RoiDecoder.javaù ù(
+
+roi2ij.gui.ImageRoi:
+roi
+ij.gui.Roi:
+"":
+"":
+""B
+ij.io.RoiDecoder

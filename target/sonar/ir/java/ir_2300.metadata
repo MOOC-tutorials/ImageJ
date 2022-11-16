@@ -1,0 +1,9 @@
+ij.gui.NewImage#createRGBImage(Ljava/lang/String;IIII)Lij/ImagePlus;
+ij.gui.NewImage#getSize(II)I
+ij.gui.NewImage#createStack(Lij/ImagePlus;Lij/process/ImageProcessor;III)Z
+ij.process.ColorProcessor#instance-init#
+ij.ImagePlus#<init>(Ljava/lang/String;Lij/process/ImageProcessor;)V
+ij.gui.NewImage#getFill(I)I
+ij.process.ColorProcessor#<init>(II[I)V
+ij.ImagePlus#instance-init#
+ij.gui.NewImage#fillNoiseRGB(Lij/process/ColorProcessor;Z)V

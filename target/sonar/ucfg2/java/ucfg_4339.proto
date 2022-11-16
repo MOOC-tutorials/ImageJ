@@ -1,0 +1,84 @@
+
+Zij.gui.PlotWindow#addPopupItem(Ljava/awt/PopupMenu;Ljava/lang/String;Z)Ljava/awt/MenuItem;Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÅ
+ Å("4*Ô
+2Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaá á(äá
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaá á(
+%3java.awt.MenuItem"java.awt.MenuItem«
+ƒ
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaá á(
+%4"-java.awt.MenuItem#<init>(Ljava/lang/String;)V*
+
+%3java.awt.MenuItem*
+
+sjava.lang.Stringò
+ï
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaá á(
+mijava.awt.MenuItem"__id*
+
+%3java.awt.MenuItemóî
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaà à(
+
+%5void"Ejava.awt.MenuItem#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+mijava.awt.MenuItem*
+ij.gui.PlotWindow22addActionListener(Ljava/awt/event/ActionListener;)*
+1*ó
+3Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÑ Ñ(öó
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÑ Ñ(
+%0java.awt.CheckboxMenuItem"java.awt.CheckboxMenuItem◊
+‘
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÑ Ñ(
+%1"5java.awt.CheckboxMenuItem#<init>(Ljava/lang/String;)V*!
+
+%0java.awt.CheckboxMenuItem*
+
+sjava.lang.String†
+ù
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÑ Ñ(
+mijava.awt.MenuItem"__id*!
+
+%0java.awt.CheckboxMenuItemóî
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÖ Ö(/
+
+%2void"Ijava.awt.CheckboxMenuItem#addItemListener(Ljava/awt/event/ItemListener;)V*
+
+mijava.awt.MenuItem*
+ij.gui.PlotWindow2.addItemListener(Ljava/awt/event/ItemListener;)*
+1*Ó
+4Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÇ Ç(Ö
+Ç
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaÇ Ç(
+mijava.awt.MenuItem"__id*
+""*
+2
+3*„
+1Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaä ä(äá
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaä ä(
+%6java.awt.MenuItem"9java.awt.Menu#add(Ljava/awt/MenuItem;)Ljava/awt/MenuItem;*!
+
+	popupMenujava.awt.PopupMenu*
+
+mijava.awt.MenuItem2add(Ljava/awt/MenuItem;)"v
+Y
+M/Users/sebastiannorena/Documents/Uniandes/l/ImageJ/src/ij/gui/PlotWindow.javaã ã(
+
+mijava.awt.MenuItem:
+	popupMenujava.awt.PopupMenu:
+sjava.lang.String:
+""B
+ij.gui.PlotWindow

@@ -1,0 +1,12 @@
+ij.io.ImportDialog#getDimensionsFromName(Ljava/lang/String;)V
+java.lang.String#instance-init#
+java.lang.String#matches(Ljava/lang/String;)Z
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.String#length()I
+ij.io.ImportDialog#guessFormat(Ljava/lang/String;Ljava/lang/String;)V
+java.lang.Character#isDigit(C)Z
+ij.util.Tools#parseDouble(Ljava/lang/String;D)D
+java.lang.String#charAt(I)C
+ij.util.Tools#split(Ljava/lang/String;)[Ljava/lang/String;
+java.lang.String#lastIndexOf(Ljava/lang/String;)I
+java.lang.String#<init>([C)V

@@ -1,0 +1,13 @@
+ij.plugin.AVI_Reader#openAndReadHeader(Ljava/lang/String;)V
+java.io.File#<init>(Ljava/lang/String;)V
+java.io.RandomAccessFile#<init>(Ljava/io/File;Ljava/lang/String;)V
+ij.plugin.AVI_Reader#fourccString(I)Ljava/lang/String;
+ij.plugin.AVI_Reader#findFourccAndRead(IZJZ)J
+java.lang.Exception#<init>(Ljava/lang/String;)V
+ij.plugin.AVI_Reader#readInt()I
+java.io.File#instance-init#
+java.lang.System#currentTimeMillis()J
+ij.IJ#log(Ljava/lang/String;)V
+java.io.RandomAccessFile#instance-init#
+java.lang.Exception#instance-init#
+ij.plugin.AVI_Reader#timeString()Ljava/lang/String;

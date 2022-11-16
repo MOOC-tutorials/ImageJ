@@ -1,0 +1,7 @@
+ij.plugin.OverlayCommands#measure()V
+ij.IJ#getImage()Lij/ImagePlus;
+ij.IJ#wait(I)V
+ij.process.ImageStatistics#getStatistics(Lij/process/ImageProcessor;ILij/measure/Calibration;)Lij/process/ImageStatistics;
+ij.IJ#run(Lij/ImagePlus;Ljava/lang/String;Ljava/lang/String;)V
+ij.IJ#isMacro()Z
+ij.IJ#error(Ljava/lang/String;)V
