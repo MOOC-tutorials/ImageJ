@@ -1,0 +1,19 @@
+name: SonarCloud
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-16.04
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up JDK
+      uses: actions/setup-java@v1
+      with:
+        java-version: '11'
+    - name: Analyze with SonarCloud
+      run: ./mvnw -B verify sonar:sonar -Dsonar.projectKey=SebastianNorenaMarquezMiso_ImageJ -Dsonar.organization=sebastiannorenamarquezmiso -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=131ab25045b17e4f7d9ed0d412713e707f205f9d
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SONAR_TOKEN: 131ab25045b17e4f7d9ed0d412713e707f205f9d
