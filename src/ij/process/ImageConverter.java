@@ -28,18 +28,18 @@ public class ImageConverter {
 		}
 		ImageProcessor ip = imp.getProcessor();
 		if (type==ImagePlus.GRAY16 || type==ImagePlus.GRAY32) {
-			imp.setProcessor(null, ip.convertToByte(doScaling));
+			imp.setProcessor(null, ip.convertToByteProcessor(doScaling));
 			imp.setCalibration(imp.getCalibration()); //update calibration
 			record();
 		} else if (type==ImagePlus.COLOR_RGB)
-	    	imp.setProcessor(null, ip.convertToByte(doScaling));
+	    	imp.setProcessor(null, ip.convertToByteProcessor(doScaling));
 		else if (ip.isPseudoColorLut()) {
 			boolean invertedLut = ip.isInvertedLut();
 			ip.setColorModel(LookUpTable.createGrayscaleColorModel(invertedLut));
 	    	imp.updateAndDraw();
 		} else {
 			ip = new ColorProcessor(imp.getImage());
-	    	imp.setProcessor(null, ip.convertToByte(doScaling));
+	    	imp.setProcessor(null, ip.convertToByteProcessor(doScaling));
 	    }
 	    ImageProcessor ip2 = imp.getProcessor();
 		if (Prefs.useInvertingLut && ip2 instanceof ByteProcessor && !ip2.isInvertedLut()&& !ip2.isColorLut()) {
@@ -62,7 +62,7 @@ public class ImageConverter {
 		if (type==ImagePlus.GRAY32)
 			record();
 		imp.trimProcessor();
-		imp.setProcessor(null, ip.convertToShort(doScaling));
+		imp.setProcessor(null, ip.convertToShortProcessor(doScaling));
 		imp.setCalibration(imp.getCalibration()); //update calibration
 	}
 	
@@ -92,7 +92,7 @@ public class ImageConverter {
 		}
 		ImageProcessor ip = imp.getProcessor();
 		imp.trimProcessor();
-		imp.setProcessor(null, ip.convertToFloat());
+		imp.setProcessor(null, ip.convertToFloatProcessor());
 		imp.setCalibration(cal); //update calibration
 		IJ.setMinAndMax(imp, min, max);
 	}
@@ -106,7 +106,7 @@ public class ImageConverter {
 			return;
 		}
 		ImageProcessor ip = imp.getProcessor();
-		imp.setProcessor(null, ip.convertToRGB());
+		imp.setProcessor(null, ip.convertToColorProcessor());
 		imp.setCalibration(imp.getCalibration()); //update calibration
 	}
 	

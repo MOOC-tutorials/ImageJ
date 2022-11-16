@@ -129,7 +129,7 @@ public class BMP_Writer implements PlugIn {
    if(biBitCount == 24)
      intBitmap = (int[]) imp.getProcessor().getPixels();
    else
-     byteBitmap = (byte[]) imp.getProcessor().convertToByte(true).getPixels();
+     byteBitmap = (byte[]) imp.getProcessor().convertToByteProcessor(true).getPixels();
    biWidth = parWidth;
    biHeight = parHeight;
    if(biBitCount==24)

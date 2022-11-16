@@ -487,7 +487,7 @@ public class AVI_Writer implements PlugInFilter {
     /** Write Grayscale (or indexed color) data. Lines are  
      *  padded to a length that is a multiple of 4 bytes. */
     private void writeByteFrame(ImageProcessor ip) throws IOException {
-        ip = ip.convertToByte(true);
+        ip = ip.convertToByteProcessor(true);
         byte[] pixels = (byte[])ip.getPixels();
         int width = ip.getWidth();
         int height = ip.getHeight();
@@ -507,7 +507,7 @@ public class AVI_Writer implements PlugInFilter {
      *  in reverse order (Windows convention). Lines are padded to a length
      *  that is a multiple of 4 bytes. */
     private void writeRGBFrame(ImageProcessor ip) throws IOException {
-        ip = ip.convertToRGB();
+        ip = ip.convertToColorProcessor();
         int[] pixels = (int[])ip.getPixels();
         int width = ip.getWidth();
         int height = ip.getHeight();

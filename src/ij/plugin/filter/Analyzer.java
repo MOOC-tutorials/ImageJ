@@ -526,9 +526,9 @@ public class Analyzer implements PlugInFilter, Measurements {
 	
 	private ImageProcessor convertToOriginalDepth(ImagePlus imp, ImageProcessor ip) {
 		if (imp.getBitDepth()==8)
-			ip = ip.convertToByte(false);
+			ip = ip.convertToByteProcessor(false);
 		else if (imp.getBitDepth()==16)
-			ip = ip.convertToShort(false);
+			ip = ip.convertToShortProcessor(false);
 		return ip;
 	}
 

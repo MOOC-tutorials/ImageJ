@@ -326,7 +326,7 @@ public class GelAnalyzer implements PlugIn {
 		if (plotHeight<250) plotHeight = 250;
 		// if (plotHeight>500) plotHeight = 500;
 		plotHeight = (int)(plotHeight*verticalScaleFactor);
-		ImageProcessor ip = new ByteProcessor(plotWidth, topMargin+nLanes*plotHeight+bottomMargin);
+		ByteProcessor ip = new ByteProcessor(plotWidth, topMargin+nLanes*plotHeight+bottomMargin);
 		ip.setColor(Color.white);
 		ip.fill();
 		ip.setColor(Color.black);
@@ -419,7 +419,7 @@ public class GelAnalyzer implements PlugIn {
 		ImageProcessor ip = gel.getProcessor();
 		ImageProcessor ipLanes = ip.duplicate();
 		if (!(ipLanes instanceof ByteProcessor))
-			ipLanes = ipLanes.convertToByte(true);
+			ipLanes = ipLanes.convertToByteProcessor(true);
 		ipLanes.setFont(f);
 		ipLanes.setLineWidth(lineWidth);
 		setCustomLut(ipLanes);

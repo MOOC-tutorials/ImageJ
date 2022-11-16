@@ -39,9 +39,9 @@ public class PlotVirtualStack extends VirtualStack {
 				Plot plot = new Plot(null, new ByteArrayInputStream(bytes));
 				ImageProcessor ip = plot.getProcessor();
 				if (bitDepth==24)
-					ip = ip.convertToRGB();
+					ip = ip.convertToColorProcessor();
 				else if (bitDepth==8)
-					ip =  ip.convertToByte(false);
+					ip =  ip.convertToByteProcessor(false);
 				return ip;
 			} catch (Exception e) {
 				IJ.handleException(e);

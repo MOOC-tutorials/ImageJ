@@ -286,7 +286,7 @@ public class Thresholder implements PlugIn, Measurements, ItemListener {
 		if (t1==ImageProcessor.NO_THRESHOLD) {
 			double min = ip.getMin();
 			double max = ip.getMax();
-			ip = ip.convertToByte(true);
+			ip = ip.convertToByteProcessor(true);
 			autoThreshold(ip);
 			t1 = (float)(min + (max-min)*(minThreshold/255.0));
 			t2 = (float)(min + (max-min)*(maxThreshold/255.0));
@@ -342,7 +342,7 @@ public class Thresholder implements PlugIn, Measurements, ItemListener {
 					minValues[i-1] = ip.getMin();
 					maxValues[i-1] = ip.getMax();
 				}
-				stack2.addSlice(label, ip.convertToByte(true));
+				stack2.addSlice(label, ip.convertToByteProcessor(true));
 			}
 			imp.setStack(null, stack2);
 		}
@@ -401,7 +401,7 @@ public class Thresholder implements PlugIn, Measurements, ItemListener {
 			label = stack1.getSliceLabel(i);
 			ip = stack1.getProcessor(i);
 			ip.setMinAndMax(0, 255);
-			stack2.addSlice(label, ip.convertToByte(true));
+			stack2.addSlice(label, ip.convertToByteProcessor(true));
 		}
 		imp.setStack(null, stack2);
 		imp.setSlice(currentSlice);
@@ -420,7 +420,7 @@ public class Thresholder implements PlugIn, Measurements, ItemListener {
 			throw new IllegalArgumentException("Non-RGB image requires");
 		if (ip.getMinThreshold()==ImageProcessor.NO_THRESHOLD)
 			throw new IllegalArgumentException("Image must be thresholded");
-		return ip.createMask();
+		return (ByteProcessor) ip.createMask();
 	}
 	
 	void autoThreshold(ImageProcessor ip) {

@@ -255,7 +255,7 @@ public class ImageCalculator implements PlugIn {
 		}
 		boolean rgb = ip2 instanceof ColorProcessor;
 		if (floatResult && !rgb)
-			ip2 = ip2.convertToFloat();
+			ip2 = ip2.convertToFloatProcessor();
 		try {
   			ip1.copyBits(ip2, 0, 0, mode);
 		}
@@ -264,7 +264,7 @@ public class ImageCalculator implements PlugIn {
 			return null;
 		}
 		if (floatResult && rgb)
-			ip1 = ip1.convertToFloat();
+			ip1 = ip1.convertToFloatProcessor();
 		if (!(ip1 instanceof ByteProcessor))
 			ip1.resetMinAndMax();
 		if (createWindow) {
@@ -280,8 +280,8 @@ public class ImageCalculator implements PlugIn {
 		int height = Math.min(ip1.getHeight(), ip2.getHeight());
 		ImageProcessor ip3 = ip1.createProcessor(width, height);
 		if (floatResult && !(ip1 instanceof ColorProcessor)) {
-			ip1 = ip1.convertToFloat();
-			ip3 = ip3.convertToFloat();
+			ip1 = ip1.convertToFloatProcessor();
+			ip3 = ip3.convertToFloatProcessor();
 		}
 		ip3.insert(ip1, 0, 0);
 		return ip3;
@@ -321,7 +321,7 @@ public class ImageCalculator implements PlugIn {
 				ImageProcessor ip2 = ip1.crop();
 				if (floatResult) {
 					ip2.setCalibrationTable(cal.getCTable());
-					ip2 = ip2.convertToFloat();
+					ip2 = ip2.convertToFloatProcessor();
 				} 
 				stack2.addSlice(stack1.getSliceLabel(i), ip2);
 			}

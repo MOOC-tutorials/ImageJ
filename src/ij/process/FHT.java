@@ -44,7 +44,7 @@ public class FHT extends FloatProcessor {
 	}
 
 	public FHT(ImageProcessor ip, boolean isFrequencyDomain) {
-		super(ip.getWidth(), ip.getHeight(), (float[])((ip instanceof FloatProcessor)?ip.duplicate().getPixels():ip.convertToFloat().getPixels()), null);
+		super(ip.getWidth(), ip.getHeight(), (float[])((ip instanceof FloatProcessor)?ip.duplicate().getPixels():ip.convertToFloatProcessor().getPixels()), null);
 		this.isFrequencyDomain = isFrequencyDomain;
 		maxN = getWidth();
 		resetRoi();

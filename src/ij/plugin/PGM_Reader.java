@@ -127,7 +127,7 @@ public class PGM_Reader extends ImagePlus implements PlugIn {
 			
 			if (!isColor) { // 8-bit grayscale
 				byte[] pixels = new byte[width * height];
-				ImageProcessor ip = new ByteProcessor(width, height, pixels, null);
+				ByteProcessor ip = new ByteProcessor(width, height, pixels, null);
 				if (rawBits)
 					openRawImage(is, width * height, pixels);
 				else
@@ -153,7 +153,7 @@ public class PGM_Reader extends ImagePlus implements PlugIn {
 			if (!sixteenBits) { // 8-bit color
 				int[] pixels = new int[width * height];
 				byte[] bytePixels = new byte[3 * width * height];
-				ImageProcessor ip = new ColorProcessor(width, height, pixels);
+				ColorProcessor ip = new ColorProcessor(width, height, pixels);
 				if (rawBits)
 					openRawImage(is, 3 * width * height, bytePixels);
 				else

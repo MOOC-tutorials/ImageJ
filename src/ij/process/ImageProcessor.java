@@ -625,7 +625,7 @@ public abstract class ImageProcessor implements Cloneable {
 				ip2.resetMinAndMax();
 			noReset = false;
 			min = ip2.getMin(); max = ip2.getMax();
-			ip2 = ip2.convertToByte(true);
+			ip2 = ip2.convertToByteProcessor(true);
 			ip2.setMask(mask);
 			ip2.setRoi(rect);
 		}
@@ -663,7 +663,7 @@ public abstract class ImageProcessor implements Cloneable {
 			ImageProcessor mask = ip2.getMask();
 			Rectangle rect = ip2.getRoi();
 			resetMinAndMax();
-			ip2 = convertToByte(true);
+			ip2 = ip2.convertToByteProcessor(true);
 			ip2.setMask(mask);
 			ip2.setRoi(rect);
 		}
@@ -1424,7 +1424,7 @@ public abstract class ImageProcessor implements Cloneable {
 			g.dispose();
 			ip = new ColorProcessor(bi);
 			if (this instanceof ByteProcessor) {
-				ip = ip.convertToByte(false);
+				ip = ip.convertToByteProcessor(false);
 				if (isInvertedLut()) ip.invert();
 			}
 			//new ij.ImagePlus("ip",ip).show();
@@ -1440,7 +1440,7 @@ public abstract class ImageProcessor implements Cloneable {
 		g.drawString(s, 0, h-descent);
 		g.dispose();
 		ImageProcessor ip = new ColorProcessor(bi);
-		ImageProcessor textMask = ip.convertToByte(false);
+		ImageProcessor textMask = ip.convertToByteProcessor(false);
 		byte[] mpixels = (byte[])textMask.getPixels();
 		//new ij.ImagePlus("textmask",textMask).show();
 		textMask.invert();
@@ -2297,7 +2297,7 @@ public abstract class ImageProcessor implements Cloneable {
 			width2 = height2;
 			height2 = w2;
 		}
-		ip1 = ip1.convertToFloat();
+		ip1 = ip1.convertToFloatProcessor();
 		int width1 = ip1.getWidth();
 		int height1 = ip1.getHeight();
 		ImageProcessor ip2 = ip1.createProcessor(width2, height2);
@@ -2317,9 +2317,9 @@ public abstract class ImageProcessor implements Cloneable {
 		for (int y=0; y<height2; y++)
         	ip2.putRow(0, y, data2, width2);
         if (bitDepth==8)
-			ip2 = ip2.convertToByte(false);
+			ip2 = ip2.convertToByteProcessor(false);
 		else if (bitDepth==16)
-			ip2 = ip2.convertToShort(false);
+			ip2 = ip2.convertToShortProcessor(false);
 		if (rotate)
 			ip2=ip2.rotateRight();
         return ip2;
@@ -2386,11 +2386,9 @@ public abstract class ImageProcessor implements Cloneable {
 
 	/** Returns the histogram of the image or ROI, using the specified number of bins. */
 	public int[] getHistogram(int nBins) {
-		ImageProcessor ip;
+		ImageProcessor ip = this;
 		if (((this instanceof ByteProcessor)||(this instanceof ColorProcessor)) && nBins!=256)
-			ip = convertToShort(false);
-		else
-			ip = this;
+			ip = ip.convertToShortProcessor(false);
 		ip.setHistogramSize(nBins);
 		ip.setHistogramRange(0.0, 0.0);
 		ImageStatistics stats = ImageStatistics.getStatistics(ip);
@@ -2420,91 +2418,34 @@ public abstract class ImageProcessor implements Cloneable {
 		}
 	}
 
-	/** Returns an 8-bit version of this image as a ByteProcessor. */
-	public ImageProcessor convertToByte(boolean doScaling) {
-		TypeConverter tc = new TypeConverter(this, doScaling);
-		return tc.convertToByte();
-	}
-
-	/** Returns a 16-bit version of this image as a ShortProcessor. */
-	public ImageProcessor convertToShort(boolean doScaling) {
-		TypeConverter tc = new TypeConverter(this, doScaling);
-		return tc.convertToShort();
-	}
-
-	/** Returns a 32-bit float version of this image as a FloatProcessor.
-		For byte and short images, converts using a calibration function
-		if a calibration table has been set using setCalibrationTable(). */
-	public ImageProcessor convertToFloat() {
-		TypeConverter tc = new TypeConverter(this, false);
-		return tc.convertToFloat(cTable);
-	}
-
-	/** Returns an RGB version of this image as a ColorProcessor. */
-	public ImageProcessor convertToRGB() {
-		TypeConverter tc = new TypeConverter(this, true);
-		return tc.convertToRGB();
-	}
 
 	/** Returns an 8-bit version of this image as a ByteProcessor. 16-bit and 32-bit
 	 * pixel data are scaled from min-max to 0-255.
 	*/
-	public ByteProcessor convertToByteProcessor() {
-		return convertToByteProcessor(true);
-	}
+	abstract public ByteProcessor convertToByteProcessor();
 
 	/** Returns an 8-bit version of this image as a ByteProcessor. 16-bit and 32-bit
 	 * pixel data are scaled from min-max to 0-255 if 'scale' is true.
 	*/
-	public ByteProcessor convertToByteProcessor(boolean scale) {
-		ByteProcessor bp;
-		if (this instanceof ByteProcessor)
-			bp = (ByteProcessor)this.duplicate();
-		else
-			bp = (ByteProcessor)this.convertToByte(scale);
-		return bp;
-	}
+	abstract public ByteProcessor convertToByteProcessor(boolean scale);
 
 	/** Returns a 16-bit version of this image as a ShortProcessor. 32-bit
 	 * pixel data are scaled from min-max to 0-255.
 	*/
-	public ShortProcessor convertToShortProcessor() {
-		return convertToShortProcessor(true);
-	}
+	abstract public ShortProcessor convertToShortProcessor();
 
 	/** Returns a 16-bit version of this image as a ShortProcessor. 32-bit
 	 * pixel data are scaled from min-max to 0-255 if 'scale' is true.
 	*/
-	public ShortProcessor convertToShortProcessor(boolean scale) {
-		ShortProcessor sp;
-		if (this instanceof ShortProcessor)
-			sp = (ShortProcessor)this.duplicate();
-		else
-			sp = (ShortProcessor)this.convertToShort(scale);
-		return sp;
-	}
+	abstract public ShortProcessor convertToShortProcessor(boolean scale);
 
 	/** Returns a 32-bit float version of this image as a FloatProcessor.
 		For byte and short images, converts using a calibration function
 		if a calibration table has been set using setCalibrationTable(). */
-	public FloatProcessor convertToFloatProcessor() {
-		FloatProcessor fp;
-		if (this instanceof FloatProcessor)
-			fp = (FloatProcessor)this.duplicate();
-		else
-			fp = (FloatProcessor)this.convertToFloat();
-		return fp;
-	}
+	abstract public FloatProcessor convertToFloatProcessor();
 
 	/** Returns an RGB version of this image as a ColorProcessor. */
-	public ColorProcessor convertToColorProcessor() {
-		ColorProcessor cp;
-		if (this instanceof ColorProcessor)
-			cp = (ColorProcessor)this.duplicate();
-		else
-			cp = (ColorProcessor)this.convertToRGB();
-		return cp;
-	}
+	abstract public ColorProcessor convertToColorProcessor();
 
 	/** Performs a convolution operation using the specified kernel.
 	KernelWidth and kernelHeight must be odd. */
@@ -2894,7 +2835,7 @@ public abstract class ImageProcessor implements Cloneable {
 	 * @see ij.ImagePlus#createThresholdMask
 	 * @see ij.ImagePlus#createRoiMask
 	*/
-	public ByteProcessor createMask() {
+	public ImageProcessor createMask() {
 		return null;
 	}
 

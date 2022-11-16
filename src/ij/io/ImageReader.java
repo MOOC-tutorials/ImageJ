@@ -501,7 +501,7 @@ public class ImageReader {
 	
 	int[] readJPEG(InputStream in) throws IOException {
 		BufferedImage bi = ImageIO.read(in);
-		ImageProcessor ip =  new ColorProcessor(bi);
+		ColorProcessor ip =  new ColorProcessor(bi);
 		return (int[])ip.getPixels();
 	}
 

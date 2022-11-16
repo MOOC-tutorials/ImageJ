@@ -915,7 +915,7 @@ public class RankFilters implements ExtendedPlugInFilter, DialogListener {
 		ImageStack stack = new ImageStack(w, h);
 		//for (double r=0.1; r<3; r+=0.01) {
 		for (double r=0.5; r<50; r+=0.5) {
-			ImageProcessor ip = new FloatProcessor(w,h,new int[w*h]);
+			FloatProcessor ip = new FloatProcessor(w,h,new int[w*h]);
 			float[] pixels = (float[])ip.getPixels();
 			int[] lineRadii = makeLineRadii(r);
 			int kHeight = kHeight(lineRadii);

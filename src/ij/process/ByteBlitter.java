@@ -46,7 +46,7 @@ public class ByteBlitter implements Blitter {
 				for (int i=0; i<size; i++)
 					srcPixels[i] = (byte)(pixels32[i]&255);
 		} else {
-			ip = ip.convertToByte(true);
+			ip = ip.convertToByteProcessor(true);
 			srcPixels = (byte [])ip.getPixels();
 		}
 		r1 = r1.intersection(r2);

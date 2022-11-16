@@ -194,7 +194,7 @@ public class Converter implements PlugIn {
 		ImageStack stack = new ImageStack();
 		for (int i=0; i<channels.length; i++) {
 			ImageProcessor ip = channels[i].getProcessor();
-			ip = ip.convertToRGB();
+			ip = ip.convertToColorProcessor();
 			stack.addSlice(ip);
 		}
 		imp.setStack(stack);

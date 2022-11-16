@@ -168,9 +168,9 @@ public class ImagesToStack implements PlugIn {
 					fi = null;
 			}
 			switch (stackType) {
-				case 16: ip = ip.convertToShort(false); break;
-				case 32: ip = ip.convertToFloat(); break;
-				case rgb: ip = ip.convertToRGB(); break;
+				case 16: ip = ip.convertToShortProcessor(false); break;
+				case 32: ip = ip.convertToFloatProcessor(); break;
+				case rgb: ip = ip.convertToColorProcessor(); break;
 				default: break;
 			}
 			if (invertedLut && !allInvertedLuts) {

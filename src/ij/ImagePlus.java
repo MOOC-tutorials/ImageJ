@@ -1123,7 +1123,7 @@ public class ImagePlus implements ImageObserver, Measurements, Cloneable {
 		ImageProcessor ip2 = ip;
 		int bitDepth = getBitDepth();
 		if (nBins!=256 && (bitDepth==8||bitDepth==24))
-			ip2 =ip.convertToShort(false);
+			ip2 =ip.convertToShortProcessor(false);
 		Roi roi2 = roi;
 		if (roi2==null)
 			ip2.resetRoi();

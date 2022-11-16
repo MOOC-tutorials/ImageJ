@@ -147,7 +147,7 @@ public class FFT implements PlugIn, Measurements {
 		int size = fht.getWidth();
 		boolean isFloat = filter.getBitDepth()==32;
 		if (!isFloat)
-			filter =  filter.convertToByte(true);					
+			filter =  filter.convertToByteProcessor(true);					
 		filter = filter.resize(size, size);
 		swapQuadrants(filter);
 		float[] fhtPixels = (float[])fht.getPixels();
@@ -216,8 +216,8 @@ public class FFT implements PlugIn, Measurements {
 		if (!showOutput && bitDepth!=24)
 			bitDepth = 32;
 		switch (bitDepth) {
-			case 8: ip2 = ip2.convertToByte(false); break;
-			case 16: ip2 = ip2.convertToShort(false); break;
+			case 8: ip2 = ip2.convertToByteProcessor(false); break;
+			case 16: ip2 = ip2.convertToShortProcessor(false); break;
 			case 24:
 				showStatus("Setting brightness");
 				if (fht.rgb==null || ip2==null) {
@@ -368,7 +368,7 @@ public class FFT implements PlugIn, Measurements {
 		float[] fht = (float[])ip.getPixels();
 		ImageProcessor mask = imp.getProcessor();
 		int bitDepth = mask.getBitDepth();
-		mask = mask.convertToByte(false);
+		mask = mask.convertToByteProcessor(false);
 		if (mask.getWidth()!=ip.getWidth() || mask.getHeight()!=ip.getHeight())
 			return;
 		mask.resetRoi();

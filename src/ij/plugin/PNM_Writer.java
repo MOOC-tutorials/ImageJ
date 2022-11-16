@@ -32,7 +32,7 @@ public class PNM_Writer implements PlugIn {
 				ip.invert();
 			}
 			if (img.getBitDepth()!=16)
-				ip = ip.convertToByte(true);
+				ip = ip.convertToByteProcessor(true);
 			isGray = true;
 			extension = ".pgm";
 		}

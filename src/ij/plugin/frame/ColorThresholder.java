@@ -588,7 +588,7 @@ public class ColorThresholder extends PlugInFrame implements PlugIn, Measurement
 		mode = BLACK_AND_WHITE;
 		apply(imp);
 		mode = saveMode;
-		ImageProcessor ip = imp.getProcessor().convertToByte(false);
+		ImageProcessor ip = imp.getProcessor().convertToByteProcessor(false);
 		int fg = Prefs.blackBackground?255:0;
 		ip.setThreshold(fg, fg, ImageProcessor.NO_LUT_UPDATE);
 		Roi roi = (new ThresholdToSelection()).convert(ip);

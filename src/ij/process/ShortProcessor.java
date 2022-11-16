@@ -67,6 +67,71 @@ public class ShortProcessor extends ImageProcessor {
 		this(width, height);
 	}
 	
+	private ByteProcessor convertToByte(boolean doScaling) {
+		int size = width*height;
+		short[] pixels16 = (short[])this.getPixels();
+		byte[] pixels8 = new byte[size];
+		if (doScaling) {
+			int value, min=(int)this.getMin(), max=(int)this.getMax();
+			double scale = 256.0/(max-min+1);
+			for (int i=0; i<size; i++) {
+				value = (pixels16[i]&0xffff)-min;
+				if (value<0) value = 0;
+				value = (int)(value*scale+0.5);
+				if (value>255) value = 255;
+				pixels8[i] = (byte)value;
+			}
+			return new ByteProcessor(width, height, pixels8, this.getCurrentColorModel());
+		} else {
+			int value;
+			for (int i=0; i<size; i++) {
+				value = pixels16[i]&0xffff;
+				if (value>255) value = 255;
+				pixels8[i] = (byte)value;
+			}
+			return new ByteProcessor(width, height, pixels8, this.getColorModel());
+		}
+	}
+	
+	private FloatProcessor convertToFloat(float[] cTable) {
+		short[] pixels16 = (short[])this.getPixels();
+		float[] pixels32 = new float[width*height];
+		int value;
+		if (cTable!=null && cTable.length==65536)
+			for (int i=0; i<width*height; i++)
+				pixels32[i] = cTable[pixels16[i]&0xffff];
+		else
+			for (int i=0; i<width*height; i++)
+				pixels32[i] = pixels16[i]&0xffff;
+	    ColorModel cm = this.getColorModel();
+	    return new FloatProcessor(width, height, pixels32, cm);
+	}
+	
+	public FloatProcessor convertToFloatProcessor() {
+		return this.convertToFloat(cTable);
+	}
+	
+	public ByteProcessor convertToByteProcessor() {
+		return this.convertToByte(true);
+	}
+	
+	public ByteProcessor convertToByteProcessor(boolean scaling) {
+		return this.convertToByte(scaling);
+	}
+	
+	public ShortProcessor convertToShortProcessor() {
+		return this;
+	}
+	
+	public ShortProcessor convertToShortProcessor(boolean scaling) {
+		return this;
+	}
+	
+	public ColorProcessor convertToColorProcessor() {
+		ImageProcessor ip2 = this.convertToByte(true);
+		return new ColorProcessor(ip2.createImage());
+	}
+	
 	public void findMinAndMax() {
 		if (fixedScale || pixels==null)
 			return;
@@ -459,8 +524,7 @@ public class ShortProcessor extends ImageProcessor {
 			new FloatBlitter(ipFloat).copyBits(ip, xloc, yloc, mode);
 			setPixels(1, ipFloat);
 		} else {
-			ip = ip.convertToShort(false);
-			new ShortBlitter(this).copyBits(ip, xloc, yloc, mode);
+			new ShortBlitter(this).copyBits(this, xloc, yloc, mode);
 		}
 	}
 	
@@ -1150,10 +1214,10 @@ public class ShortProcessor extends ImageProcessor {
 	
 	/** Performs a convolution operation using the specified kernel. */
 	public void convolve(float[] kernel, int kernelWidth, int kernelHeight) {
-		ImageProcessor ip2 = convertToFloat();
+		ImageProcessor ip2 = this.convertToFloatProcessor();
 		ip2.setRoi(getRoi());
 		new ij.plugin.filter.Convolver().convolve(ip2, kernel, kernelWidth, kernelHeight);
-		ip2 = ip2.convertToShort(false);
+		ip2 = ip2.convertToShortProcessor(false);
 		short[] pixels2 = (short[])ip2.getPixels();
 		System.arraycopy(pixels2, 0, pixels, 0, pixels.length);
 	}

@@ -36,7 +36,7 @@ public class FloatBlitter implements Blitter {
 		float[] srcPixels;
 		
 		if (!(ip instanceof FloatProcessor))
-			ip = ip.convertToFloat();
+			ip = ip.convertToFloatProcessor();
 		int srcWidth = ip.getWidth();
 		int srcHeight = ip.getHeight();
 		r1 = new Rectangle(srcWidth, srcHeight);

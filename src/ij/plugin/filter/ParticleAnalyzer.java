@@ -741,10 +741,10 @@ public class ParticleAnalyzer implements PlugInFilter, Measurements {
 		if (start!=-1) {
 			float[] c = column>=0?rt.getColumn(column):null;
 			if (c!=null) {
-				ImageProcessor ip = new FloatProcessor(c.length, 1, c, null);
+				FloatProcessor ip = new FloatProcessor(c.length, 1, c, null);
 				if (ip==null) return;
 				ip.setRoi(start, 0, ip.getWidth()-start, 1);
-				ip = ip.crop();
+				ip = (FloatProcessor) ip.crop();
 				ImageStatistics stats = new FloatStatistics(ip);
 				if (stats==null)
 					return;

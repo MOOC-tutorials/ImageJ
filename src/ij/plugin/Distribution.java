@@ -99,7 +99,7 @@ public class Distribution implements PlugIn, TextListener {
 			if (nBins<2) nBins = 2;
 		}
 
-		ImageProcessor ip = new FloatProcessor(count, 1, data, null);
+		FloatProcessor ip = new FloatProcessor(count, 1, data, null);
 		ImagePlus imp = new ImagePlus("", ip);
 		ImageStatistics stats = new StackStatistics(imp, nBins, nMin, nMax);
 		int maxCount = 0;

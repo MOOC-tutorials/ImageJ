@@ -623,7 +623,7 @@ public class ZProjector implements PlugIn {
 		for (int slice=startSlice; slice<=stopSlice; slice+=increment)
 			slices[index++] = stack.getProcessor(slice);
 		ImageProcessor ip2 = slices[0].duplicate();
-		ip2 = ip2.convertToFloat();
+		ip2 = ip2.convertToFloatProcessor();
 		float[] values = new float[sliceCount];
 		int width = ip2.getWidth();
 		int height = ip2.getHeight();
@@ -637,7 +637,7 @@ public class ZProjector implements PlugIn {
 			}
 		}
 		if (imp.getBitDepth()==8)
-			ip2 = ip2.convertToByte(false);
+			ip2 = ip2.convertToByteProcessor(false);
 		IJ.showProgress(1, 1);
 		return new ImagePlus(makeTitle(), ip2);
 	}

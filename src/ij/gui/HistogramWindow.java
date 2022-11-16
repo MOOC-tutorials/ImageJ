@@ -137,11 +137,11 @@ public class HistogramWindow extends ImageWindow implements Measurements, Action
 	}
 	
 	private ImageStatistics RGBHistogram(ImagePlus imp, int bins, double histMin, double histMax) {
-		ImageProcessor ip = (ColorProcessor)imp.getProcessor();
-		ip = ip.crop();
+		ColorProcessor ip = (ColorProcessor)imp.getProcessor();
+		ip = (ColorProcessor) ip.crop();
 		int w = ip.getWidth();
 		int h = ip.getHeight();
-		ImageProcessor ip2 = new ByteProcessor(w*3, h);
+		ByteProcessor ip2 = new ByteProcessor(w*3, h);
 		ByteProcessor temp = null;
 		for (int i=0; i<3; i++) {
 			temp = ((ColorProcessor)ip).getChannel(i+1,temp);
@@ -286,7 +286,7 @@ public class HistogramWindow extends ImageWindow implements Measurements, Action
 	void drawAlignedColorBar(ImagePlus imp, double xMin, double xMax, ImageProcessor ip, int x, int y, int width, int height) {
 		ImageProcessor ipSource = imp.getProcessor();
 		float[] pixels = null;
-		ImageProcessor ipRamp = null;
+		FloatProcessor ipRamp = null;
 		if (rgbMode>=INTENSITY1) {
 			ipRamp = new FloatProcessor(width, height);
 			if (rgbMode==RED)
@@ -322,9 +322,9 @@ public class HistogramWindow extends ImageWindow implements Measurements, Action
 		ipRamp.setMinAndMax(min,max);
 		ImageProcessor bar = null;
 		if (ip instanceof ColorProcessor)
-			bar = ipRamp.convertToRGB();
+			bar = ipRamp.convertToColorProcessor();
 		else
-			bar = ipRamp.convertToByte(true);
+			bar = ipRamp.convertToByteProcessor(true);
 		ip.insert(bar, x,y);
 		ip.setColor(Color.black);
 		ip.drawRect(x-1, y, width+2, height);

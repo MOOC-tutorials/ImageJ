@@ -429,7 +429,7 @@ public class RGBStackMerge implements PlugIn {
 				return (byte[])pixels;
 			else {
 				ImageProcessor ip = stack.getProcessor(slice);
-				ip = ip.convertToByte(scaleWhenConverting);
+				ip = ip.convertToByteProcessor(scaleWhenConverting);
 				return (byte[])ip.getPixels();
 			}
 		} else { //RGB

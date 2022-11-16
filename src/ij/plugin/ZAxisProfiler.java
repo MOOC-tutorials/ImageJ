@@ -253,7 +253,7 @@ public class ZAxisProfiler implements PlugIn, Measurements, PlotMaker {
 		imp.setRoi(roi);
 		ProfilePlot profile = new ProfilePlot(imp);
 		double[] values = profile.getProfile();
-		ImageProcessor ip2 = new FloatProcessor(values.length, 1, values);
+		FloatProcessor ip2 = new FloatProcessor(values.length, 1, values);
 		return ImageStatistics.getStatistics(ip2, measurements, cal);
 	}
 	

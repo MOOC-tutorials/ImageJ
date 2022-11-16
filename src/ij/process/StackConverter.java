@@ -62,7 +62,7 @@ public class StackConverter {
 			}
 			ip.setMinAndMax(min, max);
 			boolean scale = ImageConverter.getDoScaling();
-			stack2.addSlice(label, ip.convertToByte(scale));
+			stack2.addSlice(label, ip.convertToByteProcessor(scale));
 			if ((i%inc)==0) {
 				IJ.showProgress((double)i/nSlices);
 				IJ.showStatus("Converting to 8-bits: "+i+"/"+nSlices);
@@ -99,7 +99,7 @@ public class StackConverter {
 			if (ip instanceof ByteProcessor)
 				ip = new ColorProcessor(ip.createImage());
 			boolean scale = ImageConverter.getDoScaling();
-			stack2.addSlice(label, ip.convertToByte(scale));
+			stack2.addSlice(label, ip.convertToByteProcessor(scale));
 			if ((i%inc)==0) {
 				IJ.showProgress((double)i/nSlices);
 				IJ.showStatus("Converting to 8-bits: "+i+"/"+nSlices);
@@ -133,7 +133,7 @@ public class StackConverter {
 				int index = ((i-1)%channels);
 				ip1.setMinAndMax(luts[index].min,luts[index].max);
 			}
-			ip2 = ip1.convertToShort(scale);
+			ip2 = ip1.convertToShortProcessor(scale);
 			stack1.deleteSlice(1);
 			stack2.addSlice(label, ip2);
 			if ((i%inc)==0) {
@@ -168,7 +168,7 @@ public class StackConverter {
 			label = stack1.getSliceLabel(1);
 			ip1 = stack1.getProcessor(1);
 			ip1.setCalibrationTable(cal.getCTable());
-			ip2 = ip1.convertToFloat();
+			ip2 = ip1.convertToFloatProcessor();
 			stack1.deleteSlice(1);
 			stack2.addSlice(label, ip2);
 			if ((i%inc)==0) {
@@ -208,7 +208,7 @@ public class StackConverter {
 		for(int i=1; i<=nSlices; i++) {
 			label = stack1.getSliceLabel(i);
 			ip1 = stack1.getProcessor(i);
-			ip2 = ip1.convertToRGB();
+			ip2 = ip1.convertToColorProcessor();
 			stack2.addSlice(label, ip2);
 			if ((i%inc)==0) {
 				IJ.showProgress((double)i/nSlices);

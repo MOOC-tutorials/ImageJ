@@ -79,6 +79,69 @@ public class FloatProcessor extends ImageProcessor {
 		}
 		resetRoi();
 	}
+	
+	private ShortProcessor convertToShort(boolean doScaling) {
+		float[] pixels32 = (float[])this.getPixels();
+		short[] pixels16 = new short[width*height];
+		double min = this.getMin();
+		double max = this.getMax();
+		double scale;
+		if ((max-min)==0.0)
+			scale = 1.0;
+		else
+			scale = 65535.0/(max-min);
+		double value;
+		for (int i=0,j=0; i<width*height; i++) {
+			if (doScaling)
+				value = (pixels32[i]-min)*scale;
+			else
+				value = pixels32[i];
+			if (value<0.0) value = 0.0;
+			if (value>65535.0) value = 65535.0;
+			pixels16[i] = (short)(value+0.5);
+		}
+	    return new ShortProcessor(width, height, pixels16, this.getColorModel());
+	}
+	
+	private ByteProcessor convertToByte(boolean doScaling) {
+		if (doScaling) {
+			byte[] pixels8 = this.create8BitImage();
+			ByteProcessor bp = new ByteProcessor(this.getWidth(), this.getHeight(), pixels8);
+			bp.setColorModel(this.getColorModel());
+			return bp;
+		} else {
+			ByteProcessor bp = new ByteProcessor(width, height);
+			bp.setPixels(0, (FloatProcessor)this);
+			bp.setColorModel(this.getColorModel());
+			bp.resetMinAndMax();		//don't take min&max from ip
+			return bp;
+		}
+	}
+	
+	public ColorProcessor convertToColorProcessor() {
+		ImageProcessor ip2 = this.convertToByte(true);
+		return new ColorProcessor(ip2.createImage());
+	}
+	
+	public FloatProcessor convertToFloatProcessor() {
+		return this;
+	}
+	
+	public ByteProcessor convertToByteProcessor() {
+		return this.convertToByte(true);
+	}
+	
+	public ByteProcessor convertToByteProcessor(boolean scale) {
+		return this.convertToByte(scale);
+	}
+	
+	public ShortProcessor convertToShortProcessor() {
+		return this.convertToShort(true);
+	}
+	
+	public ShortProcessor convertToShortProcessor(boolean scale) {
+		return this.convertToShort(scale);
+	}
 
 	/**
 	Calculates the minimum and maximum pixel value for the entire image. 
@@ -437,7 +500,7 @@ public class FloatProcessor extends ImageProcessor {
 	/** Copies the image contained in 'ip' to (xloc, yloc) using one of
 		the transfer modes defined in the Blitter interface. */
 	public void copyBits(ImageProcessor ip, int xloc, int yloc, int mode) {
-		ip = ip.convertToFloat();
+		ip = ip.convertToFloatProcessor();
 		new FloatBlitter(this).copyBits(ip, xloc, yloc, mode);
 	}
 

@@ -122,7 +122,7 @@ public class Straightener implements PlugIn {
 		FloatPolygon p = roi.getFloatPolygon();
 		n = p.npoints;
 		ImageProcessor ip = imp.getProcessor();
-		ImageProcessor ip2 = new FloatProcessor(n, width);
+		FloatProcessor ip2 = new FloatProcessor(n, width);
 		//ImageProcessor distances = null;
 		//if (IJ.debugMode)  distances = new FloatProcessor(n, 1);
 		float[] pixels = (float[])ip2.getPixels();
@@ -202,9 +202,9 @@ public class Straightener implements PlugIn {
         ImageProcessor blue = straightenLine(imp2, width);
         if (blue==null) return null;
         ColorProcessor cp2 = new ColorProcessor(red.getWidth(), red.getHeight());
-        red = red.convertToByte(false);
-        green = green.convertToByte(false);
-        blue = blue.convertToByte(false);
+        red = red.convertToByteProcessor(false);
+        green = green.convertToByteProcessor(false);
+        blue = blue.convertToByteProcessor(false);
         cp2.setRGB((byte[])red.getPixels(), (byte[])green.getPixels(), (byte[])blue.getPixels());
         imp.setRoi(imp2.getRoi());
         return cp2;

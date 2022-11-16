@@ -1953,7 +1953,7 @@ public class Functions implements MacroConstants, Measurements {
 		ImageStatistics stats;
 		boolean custom8Bit = false;
 		if ((bitDepth==8||bitDepth==24) && nBins!=256) {
-			ImageProcessor ip = imp.getProcessor().convertToShort(false);
+			ImageProcessor ip = imp.getProcessor().convertToShortProcessor(false);
 			imp = imp.createImagePlus();
 			imp.setProcessor(ip);
 			stats = imp.getStatistics(AREA+MEAN+MODE+MIN_MAX, nBins, 0, 256);
@@ -3853,7 +3853,7 @@ public class Functions implements MacroConstants, Measurements {
 		} else if (roi!=null && roi.isLine()) {
 			ProfilePlot profile = new ProfilePlot(imp);
 			double[] values = profile.getProfile();
-			ImageProcessor ip2 = new FloatProcessor(values.length, 1, values);
+			FloatProcessor ip2 = new FloatProcessor(values.length, 1, values);
 			if (roi instanceof Line) {
 				Line l = (Line)roi;
 				if ((l.y1==l.y2||l.x1==l.x2)&&l.x1==l.x1d&& l.y1==l.y1d&& l.x2==l.x2d&& l.y2==l.y2d)

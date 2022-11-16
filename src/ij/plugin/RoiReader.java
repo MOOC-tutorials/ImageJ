@@ -37,7 +37,7 @@ public class RoiReader implements PlugIn {
 		Rectangle r = roi.getBounds();
 		ImagePlus img = WindowManager.getCurrentImage();
 		if (img==null || img.getWidth()<(r.x+r.width) || img.getHeight()<(r.y+r.height)) {
-			ImageProcessor ip =  new ByteProcessor(r.x+r.width+10, r.y+r.height+10);
+			ByteProcessor ip =  new ByteProcessor(r.x+r.width+10, r.y+r.height+10);
 			img = new ImagePlus(name, ip);
 			img.show();
 		}

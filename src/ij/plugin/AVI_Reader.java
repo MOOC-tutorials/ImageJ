@@ -1161,7 +1161,7 @@ public class AVI_Reader extends VirtualStack implements PlugIn {
 		} else
 			ip =  new ColorProcessor(bi);
 		if (convertToGray)
-			ip = ip.convertToByte(false);
+			ip = ip.convertToByteProcessor(false);
 		if (flipVertical)
 			ip.flipVertical();
 		if (ip.getWidth()!=dwWidth || ip.getHeight()!=biHeight)

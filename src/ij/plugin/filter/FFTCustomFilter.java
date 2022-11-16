@@ -70,8 +70,8 @@ public class FFTCustomFilter implements  PlugInFilter, Measurements {
 		ip2 = fht.crop();
 		int bitDepth = fht.originalBitDepth>0?fht.originalBitDepth:imp.getBitDepth();
 		switch (bitDepth) {
-			case 8: ip2 = ip2.convertToByte(true); break;
-			case 16: ip2 = ip2.convertToShort(true); break;
+			case 8: ip2 = ip2.convertToByteProcessor(true); break;
+			case 16: ip2 = ip2.convertToShortProcessor(true); break;
 			case 24:
 				showStatus("Setting brightness");
 				fht.rgb.setBrightness((FloatProcessor)ip2);
@@ -165,7 +165,7 @@ public class FFTCustomFilter implements  PlugInFilter, Measurements {
 		}		
 		ImageProcessor filter = filterImp.getProcessor();
 		if (filter!=null && filter.getBitDepth()!=32)		
-			filter =  filter.convertToByte(true);		
+			filter =  filter.convertToByteProcessor(true);		
 		return filter;
 	}
 	

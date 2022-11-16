@@ -147,7 +147,7 @@ public class RoiEnlarger implements PlugIn, DialogListener {
 		int height = bounds.height;
 		width += 2*n + 2;
 		height += 2*n + 2;
-		ImageProcessor ip = new ByteProcessor(width, height);
+		ByteProcessor ip = new ByteProcessor(width, height);
 		ip.invert();
 		roi.setLocation(n+1, n+1);
 		ip.setColor(0);
@@ -191,7 +191,7 @@ public class RoiEnlarger implements PlugIn, DialogListener {
 		Rectangle bounds = roi.getBounds();
 		int width = bounds.width + 2;
 		int height = bounds.height + 2;
-		ImageProcessor ip = new ByteProcessor(width, height);
+		ByteProcessor ip = new ByteProcessor(width, height);
 		roi.setLocation(1, 1);
 		ip.setColor(255);
 		ip.fill(roi);
@@ -223,7 +223,7 @@ public class RoiEnlarger implements PlugIn, DialogListener {
 		int height = bounds.height;
 		width += 2*n + 2;
 		height += 2*n + 2;
-		ImageProcessor ip = new ByteProcessor(width, height);
+		ByteProcessor ip = new ByteProcessor(width, height);
 		ip.invert();
 		roi.setLocation(n+1, n+1);
 		ip.setColor(0);
@@ -253,7 +253,7 @@ public class RoiEnlarger implements PlugIn, DialogListener {
 		Rectangle bounds = roi.getBounds();
 		int width = bounds.width + 2;
 		int height = bounds.height + 2;
-		ImageProcessor ip = new ByteProcessor(width, height);
+		ByteProcessor ip = new ByteProcessor(width, height);
 		roi.setLocation(1, 1);
 		ip.setColor(255);
 		ip.fill(roi);

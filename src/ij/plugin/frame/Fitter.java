@@ -198,7 +198,7 @@ public class Fitter extends PlugInFrame implements PlugIn, ItemListener, ActionL
 				data[y*width+x] = (float)cf.f(p, value);
 			}
 		}
-		ImageProcessor ip2 = new FloatProcessor(width, height, data, ip.getColorModel());
+		FloatProcessor ip2 = new FloatProcessor(width, height, data, ip.getColorModel());
 		new ImagePlus(img.getTitle()+"-transformed", ip2).show();
 	}
 

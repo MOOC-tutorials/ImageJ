@@ -387,8 +387,8 @@ public class Selection implements PlugIn, Measurements {
 			x2[i] = x[i];
 			y2[i] = y[i];
 		}
-		ImageProcessor ipx = new FloatProcessor(n, 1, x2, null);
-		ImageProcessor ipy = new FloatProcessor(n, 1, y2, null);
+		FloatProcessor ipx = new FloatProcessor(n, 1, x2, null);
+		FloatProcessor ipy = new FloatProcessor(n, 1, y2, null);
 		ipx.convolve(kernel, kernel.length, 1);
 		ipy.convolve(kernel, kernel.length, 1);
 		float[] indexes = new float[n];
@@ -458,8 +458,8 @@ public class Selection implements PlugIn, Measurements {
 			x2[i] = x[i];
 			y2[i] = y[i];
 		}
-		ImageProcessor ipx = new FloatProcessor(n, 1, x, null);
-		ImageProcessor ipy = new FloatProcessor(n, 1, y, null);
+		FloatProcessor ipx = new FloatProcessor(n, 1, x, null);
+		FloatProcessor ipy = new FloatProcessor(n, 1, y, null);
 		ipx.convolve(kernel, kernel.length, 1);
 		ipy.convolve(kernel, kernel.length, 1);
 		float[] indexes = new float[n];

@@ -1106,7 +1106,7 @@ class ThresholdPlot extends Canvas implements Measurements, MouseListener {
 				double cmax = calibrated?cal.getCValue(ip.getMax()):ip.getMax();
 				IJ.showStatus("min="+IJ.d2s(cal.getCValue(cmin), digits)+", max="+IJ.d2s(cal.getCValue(cmax), digits));
 			}
-			ip = ip.convertToByte(true);
+			ip = ip.convertToByteProcessor(true);
 			ip.setColorModel(ip.getDefaultColorModel());
 		}
 		Roi roi = imp.getRoi();

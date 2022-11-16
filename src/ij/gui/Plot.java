@@ -2891,8 +2891,8 @@ public class Plot implements Cloneable {
 			Rectangle cropRect = new Rectangle(bigBounds);
 			cropRect.y += y0;
 			box.setRoi(cropRect);
-			ImageProcessor boxI = box.crop();
-			box = boxI.convertToByteProcessor();
+			ByteProcessor boxI = box.crop();
+			box = (ByteProcessor) boxI.convertToByteProcessor();
 			return box;
 		}
 
@@ -2956,8 +2956,8 @@ public class Plot implements Cloneable {
 		xRight += h / 4;
 		Rectangle cropRect = new Rectangle(0, upperBound, xRight, lowerBound - upperBound);
 		box.setRoi(cropRect);
-		ImageProcessor boxI = box.crop();
-		box = boxI.convertToByteProcessor();
+		ByteProcessor boxI = box.crop();
+		box = (ByteProcessor) boxI.convertToByteProcessor();
 		return box;
 	}
 

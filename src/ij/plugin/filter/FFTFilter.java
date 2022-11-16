@@ -129,8 +129,8 @@ public class FFTFilter implements  PlugInFilter, Measurements {
 		// convert back to original data type
 		int bitDepth = imp.getBitDepth(); 
 		switch (bitDepth) {
-			case 8: ip2 = ip2.convertToByte(doScaling); break;
-			case 16: ip2 = ip2.convertToShort(doScaling); break;
+			case 8: ip2 = ip2.convertToByteProcessor(doScaling); break;
+			case 16: ip2 = ip2.convertToShortProcessor(doScaling); break;
 			case 24:
 				ip.snapshot();
 				showStatus("Setting brightness");

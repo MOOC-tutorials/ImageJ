@@ -153,10 +153,10 @@ public class ListVirtualStack extends VirtualStack implements PlugIn {
 			int bitDepth = getBitDepth();
 			if (imp.getBitDepth()!=bitDepth) {
 				switch (bitDepth) {
-					case 8: ip=ip.convertToByte(true); break;
-					case 16: ip=ip.convertToShort(true); break;
-					case 24:  ip=ip.convertToRGB(); break;
-					case 32: ip=ip.convertToFloat(); break;
+					case 8: ip=ip.convertToByteProcessor(true); break;
+					case 16: ip=ip.convertToShortProcessor(true); break;
+					case 24:  ip=ip.convertToColorProcessor(); break;
+					case 32: ip=ip.convertToFloatProcessor(); break;
 				}
 			}
 			if (ip.getWidth()!=imageWidth || ip.getHeight()!=imageHeight)

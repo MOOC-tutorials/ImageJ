@@ -195,11 +195,11 @@ public class EDM implements ExtendedPlugInFilter {
                 break;
             case SHORT:
                 floatEdm.setMinAndMax(0., 65535.);
-                outIp = floatEdm.convertToShort(true);
+                outIp = floatEdm.convertToShortProcessor(true);
                 break;
             case BYTE:
                 floatEdm.setMinAndMax(0., 255.);
-                outIp = floatEdm.convertToByte(true);
+                outIp = floatEdm.convertToByteProcessor(true);
                 break;
             case BYTE_OVERWRITE:
                 ip.setPixels(0, floatEdm);
@@ -255,7 +255,7 @@ public class EDM implements ExtendedPlugInFilter {
     public ShortProcessor make16bitEDM (ImageProcessor ip) {
         FloatProcessor floatEdm = makeFloatEDM(ip, 0, false);
         floatEdm.setMinAndMax(0, 65535./ONE);
-        return (ShortProcessor)floatEdm.convertToShort(true);
+        return (ShortProcessor)floatEdm.convertToShortProcessor(true);
     }
 
     /**

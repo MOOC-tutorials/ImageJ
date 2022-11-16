@@ -99,7 +99,7 @@ public class IntProcessor extends ColorProcessor {
 
 	/** Returns this image as an 8-bit BufferedImage . */
 	public BufferedImage getBufferedImage() {
-		return convertToByte(true).getBufferedImage();
+		return convertToByteProcessor(true).getBufferedImage();
 	}
 	
 	@Override

@@ -56,6 +56,73 @@ public class ColorProcessor extends ImageProcessor {
 		resetRoi();
 		this.pixels = pixels;
 	}
+	
+	
+	private ByteProcessor convertToByte(boolean doScaling) {
+		if (this.getNChannels()==1 && doScaling) {
+			byte[] pixels8 = this.create8BitImage();
+			ByteProcessor bp = new ByteProcessor(this.getWidth(), this.getHeight(), pixels8);
+			bp.setColorModel(this.getColorModel());
+			return bp;
+		}
+		int[] pixels32 = (int[])this.getPixels();
+		double[] w = ColorProcessor.getWeightingFactors();
+		if (((ColorProcessor)this).getRGBWeights()!=null)
+			w = ((ColorProcessor)this).getRGBWeights();
+		double rw=w[0], gw=w[1], bw=w[2];
+		byte[] pixels8 = new byte[width*height];
+		int c, r, g, b;
+		for (int i=0; i < width*height; i++) {
+			c = pixels32[i];
+			r = (c&0xff0000)>>16;
+			g = (c&0xff00)>>8;
+			b = c&0xff;
+			pixels8[i] = (byte)(r*rw + g*gw + b*bw + 0.5);
+		}
+		return new ByteProcessor(width, height, pixels8, null);
+	}
+	
+	private FloatProcessor convertToFloat(float[] cTable) {
+		int[] pixels = (int[])this.getPixels();
+		double[] w = ColorProcessor.getWeightingFactors();
+		if (((ColorProcessor)this).getRGBWeights()!=null)
+			w = ((ColorProcessor)this).getRGBWeights();
+		double rw=w[0], gw=w[1], bw=w[2];
+		float[] pixels32 = new float[width*height];
+		int c, r, g, b;
+		for (int i=0; i < width*height; i++) {
+			c = pixels[i];
+			r = (c&0xff0000)>>16;
+			g = (c&0xff00)>>8;
+			b = c&0xff;
+			pixels32[i] = (float)(r*rw + g*gw + b*bw);
+		}
+		return new FloatProcessor(width, height, pixels32);
+	}
+	
+	public FloatProcessor convertToFloatProcessor() {
+		return this.convertToFloat(cTable);
+	}
+	
+	public ByteProcessor convertToByteProcessor() {
+		return this.convertToByte(true);
+	}
+	
+	public ByteProcessor convertToByteProcessor(boolean scale) {
+		return this.convertToByte(scale);
+	}
+	
+	public ShortProcessor convertToShortProcessor() {
+		return this.convertToShortProcessor(true);
+	}
+	
+	public ShortProcessor convertToShortProcessor(boolean scale) {
+		return this.convertToByte(scale).convertToShortProcessor(scale);
+	}
+	
+	public ColorProcessor convertToColorProcessor() {
+		return this;
+	}
 
 	void createColorModel() {
 		cm = new DirectColorModel(24, 0xff0000, 0xff00, 0xff);
@@ -616,7 +683,7 @@ public class ColorProcessor extends ImageProcessor {
 	/** Copies the image contained in 'ip' to (xloc, yloc) using one of
 		the transfer modes defined in the Blitter interface. */
 	public void copyBits(ImageProcessor ip, int xloc, int yloc, int mode) {
-		ip = ip.convertToRGB();
+		ip = ip.convertToColorProcessor();
 		new ColorBlitter(this).copyBits(ip, xloc, yloc, mode);
 	}
 
@@ -1318,19 +1385,19 @@ public class ColorProcessor extends ImageProcessor {
 		ImageProcessor rip = new ByteProcessor(width, height, r, null);
 		ImageProcessor gip = new ByteProcessor(width, height, g, null);
 		ImageProcessor bip = new ByteProcessor(width, height, b, null);
-		ImageProcessor ip2 = rip.convertToFloat();
+		ImageProcessor ip2 = rip.convertToFloatProcessor();
 		Rectangle roi = getRoi();
 		ip2.setRoi(roi);
 		ip2.convolve(kernel, kernelWidth, kernelHeight);
-		ImageProcessor r2 = ip2.convertToByte(false);
-		ip2 = gip.convertToFloat();
+		ImageProcessor r2 = ip2.convertToByteProcessor(false);
+		ip2 = gip.convertToFloatProcessor();
 		ip2.setRoi(roi);
 		ip2.convolve(kernel, kernelWidth, kernelHeight);
-		ImageProcessor g2 = ip2.convertToByte(false);
-		ip2 = bip.convertToFloat();
+		ImageProcessor g2 = ip2.convertToByteProcessor(false);
+		ip2 = bip.convertToFloatProcessor();
 		ip2.setRoi(roi);
 		ip2.convolve(kernel, kernelWidth, kernelHeight);
-		ImageProcessor b2 = ip2.convertToByte(false);
+		ImageProcessor b2 = ip2.convertToByteProcessor(false);
 		setRGB((byte[])r2.getPixels(), (byte[])g2.getPixels(), (byte[])b2.getPixels());
    	}
 

@@ -236,7 +236,7 @@ public class RGBStackConverter implements PlugIn, DialogListener {
 			ip = stack1.getProcessor(i);
 			ip.setRoi(r);
 			ImageProcessor ip2 = ip.crop();
-			ip2 = ip2.convertToByte(true);
+			ip2 = ip2.convertToByteProcessor(true);
 			stack2.addSlice(null, ip2);
 		}
 		ImagePlus imp2 = imp.createImagePlus();

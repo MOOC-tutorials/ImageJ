@@ -89,17 +89,63 @@ public class ByteProcessor extends ImageProcessor {
 	 * @see ImageProcessor#convertToColorProcessor
 	*/
 	public ByteProcessor(ImageProcessor ip, boolean scale) {
-		ImageProcessor bp;
-		if (ip instanceof ByteProcessor)
-			bp = ip.duplicate();
-		else
-			bp = ip.convertToByte(scale);
+		ByteProcessor bp = this.convertToByteProcessor(scale);
 		this.width = bp.getWidth();
 		this.height = bp.getHeight();
 		resetRoi();
 		this.pixels = (byte[])bp.getPixels();
 		this.cm = bp.getCurrentColorModel();
 	}
+	
+	private ShortProcessor convertToShort(boolean doScaling) {
+		byte[] pixels8 = (byte[])this.getPixels();
+		short[] pixels16 = new short[width * height];
+		for (int i=0,j=0; i<width*height; i++)
+			pixels16[i] = (short)(pixels8[i]&0xff);
+	    return new ShortProcessor(width, height, pixels16, this.getColorModel());
+	}
+	
+	private FloatProcessor convertToFloat(float[] cTable) {
+		int n = width*height;
+		byte[] pixels8 = (byte[])this.getPixels();
+		float[] pixels32 = new float[n];
+		int value;
+		if (cTable!=null && cTable.length==256) {
+			for (int i=0; i<n; i++)
+				pixels32[i] = cTable[pixels8[i]&255];
+		} else {
+			for (int i=0; i<n; i++)
+				pixels32[i] = pixels8[i]&255;
+		}
+	    ColorModel cm = this.getColorModel();
+	    return new FloatProcessor(width, height, pixels32, cm);
+	}
+	
+	public ByteProcessor convertToByteProcessor() {
+		return this;
+	}
+	
+	
+	public ByteProcessor convertToByteProcessor(boolean scale) {
+		return this;
+	}
+	
+	public ShortProcessor convertToShortProcessor() {
+		return this.convertToShort(true);
+	}
+	
+	public ShortProcessor convertToShortProcessor(boolean scale) {
+		return this.convertToShort(scale);
+	}
+	
+	public FloatProcessor convertToFloatProcessor() {
+		return this.convertToFloat(cTable);
+	}
+	
+	public ColorProcessor convertToColorProcessor() {
+		return new ColorProcessor(this.createImage());
+	}
+
 
 	public Image createImage() {
 		if (cm==null)
@@ -133,8 +179,8 @@ public class ByteProcessor extends ImageProcessor {
 	}
 
 	/** Returns a new, blank ByteProcessor with the specified width and height. */
-	public ImageProcessor createProcessor(int width, int height) {
-		ImageProcessor ip2;
+	public ByteProcessor createProcessor(int width, int height) {
+		ByteProcessor ip2;
 		ip2 =  new ByteProcessor(width, height, new byte[width*height], getColorModel());
 		if (baseCM!=null)
 			ip2.setMinAndMax(min, max);
@@ -142,8 +188,8 @@ public class ByteProcessor extends ImageProcessor {
 		return ip2;
 	}
 
-	public ImageProcessor crop() {
-		ImageProcessor ip2 = createProcessor(roiWidth, roiHeight);
+	public ByteProcessor crop() {
+		ByteProcessor ip2 = createProcessor(roiWidth, roiHeight);
 		byte[] pixels2 = (byte[])ip2.getPixels();
 		for (int ys=roiY; ys<roiY+roiHeight; ys++) {
 			int offset1 = (ys-roiY)*roiWidth;
@@ -496,7 +542,7 @@ public class ByteProcessor extends ImageProcessor {
 			new FloatBlitter(ipFloat).copyBits(ip, xloc, yloc, mode);
 			setPixels(1, ipFloat);
 		} else {
-			ip = ip.convertToByte(true);
+			ip = this.convertToByteProcessor(true);
 			new ByteBlitter(this).copyBits(ip, xloc, yloc, mode);
 		}
 	}
@@ -1194,36 +1240,36 @@ public class ByteProcessor extends ImageProcessor {
 
 	/** Performs a convolution operation using the specified kernel. */
 	public void convolve(float[] kernel, int kernelWidth, int kernelHeight) {
-		ImageProcessor ip2 = convertToFloat();
+		ImageProcessor ip2 = this.convertToFloatProcessor();
 		ip2.setRoi(getRoi());
 		new ij.plugin.filter.Convolver().convolve(ip2, kernel, kernelWidth, kernelHeight);
-		ip2 = ip2.convertToByte(false);
+		ip2 = ip2.convertToByteProcessor(false);
 		byte[] pixels2 = (byte[])ip2.getPixels();
 		System.arraycopy(pixels2, 0, pixels, 0, pixels.length);
 	}
 	
 	public FloatProcessor[] toFloatProcessors() {
 		FloatProcessor[] fp = new FloatProcessor[1];
-		fp[0] = (FloatProcessor)convertToFloat();
+		fp[0] = (FloatProcessor)this.convertToFloatProcessor();
 		return fp;
 	}
 	
 	public void setFromFloatProcessors(FloatProcessor[]  fp) {
-		ImageProcessor ip2 = fp[0].convertToByte(false);
+		ImageProcessor ip2 = fp[0].convertToByteProcessor(false);
 		setPixels(ip2.getPixels());
 	}
 
 	public float[][] toFloatArrays() {
 		float[][] a = new float[1][];
 		//ImageProcessor fp = crop();
-		ImageProcessor fp = convertToFloat();
+		ImageProcessor fp = this.convertToFloatProcessor();
 		a[0] = (float[])fp.getPixels();
 		return a;
 	}
 	
 	public void setFromFloatArrays(float[][] arrays) {
 		ImageProcessor ip2 = new FloatProcessor(roiWidth, roiHeight, arrays[0], null);
-		ip2 = ip2.convertToByte(false);
+		ip2 = ip2.convertToByteProcessor(false);
 		setPixels(ip2.getPixels());
 		//insert(ip2, roiX, roiY); 
 	}

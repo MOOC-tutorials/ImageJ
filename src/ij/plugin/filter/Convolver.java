@@ -199,7 +199,7 @@ public class Convolver implements ExtendedPlugInFilter, DialogListener, ActionLi
 		if (notFloat) {
 			if (ip2 instanceof ColorProcessor)
 				throw new IllegalArgumentException("RGB images not supported");
-			ip2 = ip2.convertToFloat();
+			ip2 = ip2.convertToFloatProcessor();
 		}
 		if (kw==1 || kh==1)
 			convolveFloat1D((FloatProcessor)ip2, kernel, kw, kh, normalize?getScale(kernel):1.0);
@@ -207,9 +207,9 @@ public class Convolver implements ExtendedPlugInFilter, DialogListener, ActionLi
 			convolveFloat(ip2, kernel, kw, kh);
 		if (notFloat) {
 			if (ip instanceof ByteProcessor)
-				ip2 = ip2.convertToByte(false);
+				ip2 = ip2.convertToByteProcessor(false);
 			else
-				ip2 = ip2.convertToShort(false);
+				ip2 = ip2.convertToShortProcessor(false);
 			ip.setPixels(ip2.getPixels());
 		}
 		return !canceled;

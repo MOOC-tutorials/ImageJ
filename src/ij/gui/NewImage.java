@@ -137,7 +137,7 @@ public class NewImage {
 		int size = getSize(width, height);
 		if (size<0) return null;
 		byte[] pixels = new byte[size];
-		ImageProcessor ip = new ByteProcessor(width, height, pixels, null);
+		ByteProcessor ip = new ByteProcessor(width, height, pixels, null);
 		switch (fill) {
 			case FILL_WHITE:
 				for (int i=0; i<width*height; i++)
@@ -276,7 +276,7 @@ public class NewImage {
 		int size = getSize(width, height);
 		if (size<0) return null;
 		short[] pixels = new short[size];
-		ImageProcessor ip = new ShortProcessor(width, height, pixels, null);
+		ShortProcessor ip = new ShortProcessor(width, height, pixels, null);
 		switch (fill) {
 			case FILL_WHITE: case FILL_BLACK:
 				break;
@@ -324,7 +324,7 @@ public class NewImage {
 		int size = getSize(width, height);
 		if (size<0) return null;
 		float[] pixels = new float[size];
-		ImageProcessor ip = new FloatProcessor(width, height, pixels, null);
+		FloatProcessor ip = new FloatProcessor(width, height, pixels, null);
 		switch (fill) {
 			case FILL_WHITE: case FILL_BLACK:
 				break;

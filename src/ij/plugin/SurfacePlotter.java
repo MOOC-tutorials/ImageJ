@@ -131,7 +131,7 @@ public class SurfacePlotter implements PlugIn {
 		ip.setRoi(roi);
 		if (!(ip instanceof ByteProcessor)) {
 			ip.setMinAndMax(img.getProcessor().getMin(), img.getProcessor().getMax());
-			ip = ip.convertToByte(true);
+			ip = ip.convertToByteProcessor(true);
 			ip.setRoi(roi);
 		}
 		double angle = (angleInDegrees/360.0)*2.0*Math.PI;
@@ -250,7 +250,7 @@ public class SurfacePlotter implements PlugIn {
 			
 		if (showAxis) {
 			if (!lut.isGrayscale() && showGrayscale)
-				ip2 = ip2.convertToRGB();			
+				ip2 = ip2.convertToColorProcessor();			
 			drawAndLabelAxis(ip, ip2, roi);
 		}
 
@@ -387,7 +387,7 @@ public class SurfacePlotter implements PlugIn {
 		int tW = w;
 		if(ipW>w)
 			tW = ipW;
-		ImageProcessor ipText = new ByteProcessor(tW, ipH);
+		ByteProcessor ipText = new ByteProcessor(tW, ipH);
 		ipText.setFont(new Font("SansSerif", Font.PLAIN, fontSize));
 		ipText.setColor(Color.white);
 		ipText.fill();

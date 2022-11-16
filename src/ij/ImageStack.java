@@ -133,10 +133,10 @@ public class ImageStack {
 			this.bitDepth = newBitDepth;
 		if (this.bitDepth!=newBitDepth) {
 			switch (this.bitDepth) {
-				case 8: ip=ip.convertToByte(true); break;
-				case 16: ip=ip.convertToShort(true); break;
-				case 24:  ip=ip.convertToRGB(); break;
-				case 32: ip=ip.convertToFloat(); break;
+				case 8: ip=ip.convertToByteProcessor(true); break;
+				case 16: ip=ip.convertToShortProcessor(true); break;
+				case 24:  ip=ip.convertToColorProcessor(); break;
+				case 32: ip=ip.convertToFloatProcessor(); break;
 			}
 		}
 		return ip;
@@ -703,7 +703,7 @@ public class ImageStack {
 		ImageStack stack2 = new ImageStack(width, height, getColorModel());
 		for (int i=1; i<=size(); i++) {
 			ImageProcessor ip2 = this.getProcessor(i);
-			ip2 = ip2.convertToFloat();
+			ip2 = ip2.convertToFloatProcessor();
 			stack2.addSlice(this.getSliceLabel(i), ip2);
 		}
 		return stack2;

@@ -43,12 +43,12 @@ public class ImageRoi extends Roi {
 		}
 		Image img2 = img;
 		if (angle!=0.0) {
-			ImageProcessor ip = new ColorProcessor(img);
+			ColorProcessor ip = new ColorProcessor(img);
 			ip.setInterpolate(true);
 			ip.setBackgroundValue(0.0);
 			ip.rotate(angle);
 			if (zeroTransparent)
-				ip = makeZeroTransparent(ip, true);
+				ip = (ColorProcessor) makeZeroTransparent(ip, true);
 			img2 = ip.createImage();
 		}
 		g.drawImage(img2, screenX(x), screenY(y), sx2, sy2, 0, 0, img.getWidth(null), img.getHeight(null), null);
