@@ -2,18 +2,35 @@ name: SonarCloud
 on:
   push:
     branches:
-      - master
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened]
 jobs:
   build:
-    runs-on: ubuntu-16.04
+    name: Build and analyze
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Set up JDK
-      uses: actions/setup-java@v1
-      with:
-        java-version: '11'
-    - name: Analyze with SonarCloud
-      run: ./mvnw -B verify sonar:sonar -Dsonar.projectKey=SebastianNorenaMarquezMiso_ImageJ -Dsonar.organization=sebastiannorenamarquezmiso -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=131ab25045b17e4f7d9ed0d412713e707f205f9d
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SONAR_TOKEN: 131ab25045b17e4f7d9ed0d412713e707f205f9d
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+      - name: Set up JDK 11
+        uses: actions/setup-java@v1
+        with:
+          java-version: 11
+      - name: Cache SonarCloud packages
+        uses: actions/cache@v1
+        with:
+          path: ~/.sonar/cache
+          key: ${{ runner.os }}-sonar
+          restore-keys: ${{ runner.os }}-sonar
+      - name: Cache Maven packages
+        uses: actions/cache@v1
+        with:
+          path: ~/.m2
+          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+          restore-keys: ${{ runner.os }}-m2
+      - name: Build and analyze
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
+          SONAR_TOKEN: d98baf8b63f92d79976f2201a2da223dbbf61a62
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=SebastianNorenaMarquezMiso_ImageJ
