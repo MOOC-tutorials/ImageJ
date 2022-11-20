@@ -67,6 +67,7 @@ public class ShortProcessor extends ImageProcessor {
 		this(width, height);
 	}
 	
+	@Override
 	public void findMinAndMax() {
 		if (fixedScale || pixels==null)
 			return;
@@ -86,40 +87,6 @@ public class ShortProcessor extends ImageProcessor {
 		minMaxSet = true;
 	}
 
-	/** Create an 8-bit AWT image by scaling pixels in the range min-max to 0-255. */
-	public Image createImage() {
-		if (!minMaxSet)
-			findMinAndMax();
-		boolean firstTime = pixels8==null;
-		boolean thresholding = minThreshold!=NO_THRESHOLD && lutUpdateMode<NO_LUT_UPDATE;
-		//ij.IJ.log("createImage: "+firstTime+"  "+lutAnimation+"  "+thresholding);
-		if (firstTime || !lutAnimation)
-			create8BitImage(thresholding&&lutUpdateMode==RED_LUT);
-		if (cm==null)
-			makeDefaultColorModel();
-		if (thresholding) {
-			int t1 = (int)minThreshold;
-			int t2 = (int)maxThreshold;
-			int size = width*height;
-			int value;
-			if (lutUpdateMode==BLACK_AND_WHITE_LUT) {
-				for (int i=0; i<size; i++) {
-					value = (pixels[i]&0xffff);
-					if (value>=t1 && value<=t2)
-						pixels8[i] = (byte)255;
-					else
-						pixels8[i] = (byte)0;
-				}
-			} else { // threshold red
-				for (int i=0; i<size; i++) {
-					value = (pixels[i]&0xffff);
-					if (value>=t1 && value<=t2)
-						pixels8[i] = (byte)255;
-				}
-			}
-		}
-		return createBufferedImage();
-	}
 	
 	// create 8-bit image by linearly scaling from 16-bits to 8-bits
 	private byte[] create8BitImage(boolean thresholding) {

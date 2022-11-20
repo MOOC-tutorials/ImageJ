@@ -109,6 +109,9 @@ public abstract class ImageProcessor implements Cloneable {
 	protected static double seed = Double.NaN;
 	protected static Random rnd;
 	protected boolean fillValueSet;
+	private int[] pixels;
+	private byte[] pixels8;
+	protected int min, max;
 
 	protected void showProgress(double percentDone) {
 		if (progressBar!=null)
@@ -206,6 +209,114 @@ public abstract class ImageProcessor implements Cloneable {
 			if (lut.min!=0.0 || lut.max!=0.0)
 				setMinAndMax(lut.min, lut.max);
 		}
+	}
+	
+	public void findMinAndMax() {
+		int size = width*height;
+		int value;
+		int min = pixels[0];
+		int max = pixels[0];
+		for (int i=1; i<size; i++) {
+			value = pixels[i];
+			if (value<min)
+				min = value;
+			else if (value>max)
+				max = value;
+		}
+		this.min = min;
+		this.max = max;
+		minMaxSet = true;
+	}
+	
+	public Image createImage() {
+		if (!minMaxSet)
+			this.findMinAndMax();
+		boolean firstTime = pixels8==null;
+		boolean thresholding = minThreshold!=NO_THRESHOLD && lutUpdateMode<NO_LUT_UPDATE;
+		//ij.IJ.log("createImage: "+firstTime+"  "+lutAnimation+"  "+thresholding);
+		if (firstTime || !lutAnimation)
+			this.create8BitImage(thresholding&&lutUpdateMode==RED_LUT, this.pixels8, this.pixels);
+		if (cm==null)
+			makeDefaultColorModel();
+		if (thresholding) {
+			int t1 = (int)minThreshold;
+			int t2 = (int)maxThreshold;
+			int size = width*height;
+			int value;
+			if (lutUpdateMode==BLACK_AND_WHITE_LUT) {
+				for (int i=0; i<size; i++) {
+					value = (pixels[i]&0xffff);
+					if (value>=t1 && value<=t2)
+						pixels8[i] = (byte)255;
+					else
+						pixels8[i] = (byte)0;
+				}
+			} else { // threshold red
+				for (int i=0; i<size; i++) {
+					value = (pixels[i]&0xffff);
+					if (value>=t1 && value<=t2)
+						pixels8[i] = (byte)255;
+				}
+			}
+		}
+		return createBufferedImage(pixels8);
+	}
+	
+	protected byte[] create8BitImage(boolean thresholding, byte[] pixels8, int[] pixels) {
+		int size = width*height;
+		if (pixels8==null)
+			pixels8 = new byte[size];
+		double value;
+		int ivalue;
+		double min2 = getMin();
+		double max2 = getMax();
+		double scale = 255.0/(max2-min2);
+		int maxValue = thresholding?254:255;
+		for (int i=0; i<size; i++) {
+			value = pixels[i]-min2;
+			if (value<0.0) value=0.0;
+			ivalue = (int)(value*scale+0.5);
+			if (ivalue>maxValue) ivalue = maxValue;
+			pixels8[i] = (byte)ivalue;
+		}
+		return pixels8;
+	}
+	
+	protected byte[] create8BitImage(boolean thresholding, byte[] pixels8, float[] pixels) {
+		thresholding = false;
+		int size = width*height;
+		if (pixels8==null)
+			pixels8 = new byte[size];
+		double value;
+		int ivalue;
+		double min2 = getMin();
+		double max2 = getMax();
+		double scale = 255.0/(max2-min2);
+		int maxValue = thresholding?254:255;
+		for (int i=0; i<size; i++) {
+			value = pixels[i]-min2;
+			if (value<0.0) value=0.0;
+			ivalue = (int)(value*scale+0.5);
+			if (ivalue>maxValue) ivalue = maxValue;
+			pixels8[i] = (byte)ivalue;
+		}
+		return pixels8;
+	}
+	
+		
+	protected Image createBufferedImage(byte[] pixels8) {
+		if (raster==null) {
+			SampleModel sm = getIndexSampleModel();
+			DataBuffer db = new DataBufferByte(pixels8, width*height, 0);
+			raster = Raster.createWritableRaster(sm, db, null);
+		}
+		if (image==null || cm!=cm2) {
+			if (cm==null) cm = getDefaultColorModel();
+			image = new BufferedImage(cm, raster, false, null);
+			cm2 = cm;
+		}
+		lutAnimation = false;
+		return image;
 	}
 
 
@@ -2168,8 +2279,6 @@ public abstract class ImageProcessor implements Cloneable {
 	/** Pixels greater than 'value' are set to 'value'. */
 	public void max(double value) {process(MAXIMUM, value);}
 
-	/** Returns a copy of this image is the form of an AWT Image. */
-	public abstract Image createImage();
 
 	/** Returns this image as a BufferedImage. */
 	public BufferedImage getBufferedImage() {
