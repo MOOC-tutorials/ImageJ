@@ -2951,12 +2951,21 @@ public class ImagePlus implements ImageObserver, Measurements, Cloneable {
 			}
 			updateAndDraw();
 		} else if (roi!=null) {
-			roi.startPaste(clipboard);
+			startPaste(clipboard);
 			Undo.setup(Undo.PASTE, this);
 		}
 		changes = true;
     }
-    
+
+	public void startPaste(ImagePlus clipboard) {
+		IJ.showStatus("Pasting...");
+		IJ.wait(10);
+		this.clipboard = clipboard;
+		ImagePlus imp;
+		getProcessor().snapshot();
+		roi.updateClipRect();
+	}
+
     /** Inserts the contents of the internal clipboard at the
     	specified location, without updating the display. */
 	 public void paste(int x, int y) {
