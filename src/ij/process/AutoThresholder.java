@@ -443,33 +443,14 @@ public class AutoThresholder {
 		while ( Math.abs ( new_thresh - old_thresh ) > tolerance );
 		return threshold;
 	}
-
-	int MaxEntropy(int [] data ) {
-		// Implements Kapur-Sahoo-Wong (Maximum Entropy) thresholding method
-		// Kapur J.N., Sahoo P.K., and Wong A.K.C. (1985) "A New Method for
-		// Gray-Level Picture Thresholding Using the Entropy of the Histogram"
-		// Graphical Models and Image Processing, 29(3): 273-285
-		// M. Emre Celebi
-		// 06.15.2007
-		// Ported to ImageJ plugin by G.Landini from E Celebi's fourier_0.8 routines
-		int threshold=-1;
-		int ih, it;
-		int first_bin;
-		int last_bin;
-		double tot_ent;  /* total entropy */
-		double max_ent;  /* max entropy */
-		double ent_back; /* entropy of the background pixels at a given threshold */
-		double ent_obj;  /* entropy of the object pixels at a given threshold */
-		double [] norm_histo = new double[256]; /* normalized histogram */
-		double [] P1 = new double[256]; /* cumulative normalized histogram */
-		double [] P2 = new double[256]; 
-
+	
+	void CommonEntropy(int [] data, int ih, int first_bin, int[] norm_histo, int[] P1, double[] P2, int last_bin){
 		double total =0;
 		for (ih = 0; ih < 256; ih++ ) 
 			total+=data[ih];
 
 		for (ih = 0; ih < 256; ih++ )
-			norm_histo[ih] = data[ih]/total;
+			norm_histo[ih] = (int) (data[ih]/total);
 
 		P1[0]=norm_histo[0];
 		P2[0]=1.0-P1[0];
@@ -486,8 +467,7 @@ public class AutoThresholder {
 				break;
 			}
 		}
-
-		/* Determine the last non-zero bin */
+		
 		last_bin=255;
 		for (ih = 255; ih >= first_bin; ih-- ) {
 			if ( !(Math.abs(P2[ih])<2.220446049250313E-16)) {
@@ -495,6 +475,30 @@ public class AutoThresholder {
 				break;
 			}
 		}
+	}
+
+	int MaxEntropy(int [] data ) {
+		// Implements Kapur-Sahoo-Wong (Maximum Entropy) thresholding method
+		// Kapur J.N., Sahoo P.K., and Wong A.K.C. (1985) "A New Method for
+		// Gray-Level Picture Thresholding Using the Entropy of the Histogram"
+		// Graphical Models and Image Processing, 29(3): 273-285
+		// M. Emre Celebi
+		// 06.15.2007
+		// Ported to ImageJ plugin by G.Landini from E Celebi's fourier_0.8 routines
+		int threshold=-1;
+		int ih = 0, it;
+		int first_bin = 0;
+		int last_bin = 0;
+		double tot_ent;  /* total entropy */
+		double max_ent;  /* max entropy */
+		double ent_back; /* entropy of the background pixels at a given threshold */
+		double ent_obj;  /* entropy of the object pixels at a given threshold */
+		double [] norm_histo = new double[256]; /* normalized histogram */
+		double [] P1 = new double[256]; /* cumulative normalized histogram */
+		double [] P2 = new double[256]; 
+		
+		this.CommonEntropy(data, ih, first_bin, data, data, P2,last_bin);
+
 
 		// Calculate the total entropy each gray-level
 		// and find the threshold that maximizes it 
@@ -812,9 +816,9 @@ public class AutoThresholder {
 		int threshold; 
 		int opt_threshold;
 
-		int ih, it;
-		int first_bin;
-		int last_bin;
+		int ih = 0, it;
+		int first_bin = 0;
+		int last_bin = 0;
 		int tmp_var;
 		int t_star1, t_star2, t_star3;
 		int beta1, beta2, beta3;
@@ -828,38 +832,9 @@ public class AutoThresholder {
 		double [] norm_histo = new double[256]; /* normalized histogram */
 		double [] P1 = new double[256]; /* cumulative normalized histogram */
 		double [] P2 = new double[256]; 
-
-		double total =0;
-		for (ih = 0; ih < 256; ih++ ) 
-			total+=data[ih];
-
-		for (ih = 0; ih < 256; ih++ )
-			norm_histo[ih] = data[ih]/total;
-
-		P1[0]=norm_histo[0];
-		P2[0]=1.0-P1[0];
-		for (ih = 1; ih < 256; ih++ ){
-			P1[ih]= P1[ih-1] + norm_histo[ih];
-			P2[ih]= 1.0 - P1[ih];
-		}
-
-		/* Determine the first non-zero bin */
-		first_bin=0;
-		for (ih = 0; ih < 256; ih++ ) {
-			if ( !(Math.abs(P1[ih])<2.220446049250313E-16)) {
-				first_bin = ih;
-				break;
-			}
-		}
-
-		/* Determine the last non-zero bin */
-		last_bin=255;
-		for (ih = 255; ih >= first_bin; ih-- ) {
-			if ( !(Math.abs(P2[ih])<2.220446049250313E-16)) {
-				last_bin = ih;
-				break;
-			}
-		}
+		
+	
+		this.CommonEntropy(data, ih, first_bin, data, data, P2,last_bin);
 
 		/* Maximum Entropy Thresholding - BEGIN */
 		/* ALPHA = 1.0 */

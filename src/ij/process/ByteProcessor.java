@@ -567,6 +567,72 @@ public class ByteProcessor extends ImageProcessor {
 		    p7 p8 p9
 		</pre>
 	*/
+    private void minFilter(int sum, int p1, int p2, int p3, int p4, int p5, int p6, int p7, int p8,int p9) {
+    	sum = p5;
+		if (p1<sum) sum = p1;
+		if (p2<sum) sum = p2;
+		if (p3<sum) sum = p3;
+		if (p4<sum) sum = p4;
+		if (p6<sum) sum = p6;
+		if (p7<sum) sum = p7;
+		if (p8<sum) sum = p8;
+		if (p9<sum) sum = p9;
+    }    
+    
+    private void maxFilter(int sum, int p1, int p2, int p3, int p4, int p5, int p6, int p7, int p8,int p9) {
+    	sum = p5;
+		if (p1>sum) sum = p1;
+		if (p2>sum) sum = p2;
+		if (p3>sum) sum = p3;
+		if (p4>sum) sum = p4;
+		if (p6>sum) sum = p6;
+		if (p7>sum) sum = p7;
+		if (p8>sum) sum = p8;
+		if (p9>sum) sum = p9;
+    }    
+    
+    private void erodeFilter(int sum, int binaryForeground, int p1, int p2, int p3, int p4, int p5, int p6, int p7, int p8,int p9) {
+        int count;
+    	if (p5==binaryBackground)
+			sum = binaryBackground;
+		else {
+			count = 0;
+			if (p1==binaryBackground) count++;
+			if (p2==binaryBackground) count++;
+			if (p3==binaryBackground) count++;
+			if (p4==binaryBackground) count++;
+			if (p6==binaryBackground) count++;
+			if (p7==binaryBackground) count++;
+			if (p8==binaryBackground) count++;
+			if (p9==binaryBackground) count++;							
+			if (count>=binaryCount)
+				sum = binaryBackground;
+			else
+			sum = binaryForeground;
+		}
+    }   
+    
+    private void dilateFilter(int sum, int binaryForeground, int p1, int p2, int p3, int p4, int p5, int p6, int p7, int p8,int p9) {
+        int count;
+        if (p5==binaryForeground)
+			sum = binaryForeground;
+		else {
+			count = 0;
+			if (p1==binaryForeground) count++;
+			if (p2==binaryForeground) count++;
+			if (p3==binaryForeground) count++;
+			if (p4==binaryForeground) count++;
+			if (p6==binaryForeground) count++;
+			if (p7==binaryForeground) count++;
+			if (p8==binaryForeground) count++;
+			if (p9==binaryForeground) count++;							
+			if (count>=binaryCount)
+				sum = binaryForeground;
+			else
+				sum = binaryBackground;
+		}
+    }  
+    
 	public void filter(int type) {
 		int p1, p2, p3, p4, p5, p6, p7, p8, p9;
 		byte[] pixels2 = (byte[])getPixelsCopy();
@@ -578,7 +644,6 @@ public class ByteProcessor extends ImageProcessor {
         int[] values = new int[10];
         if (type==MEDIAN_FILTER) values = new int[10];
         int rowOffset = width;
-        int count;
         int binaryForeground = 255 - binaryBackground;
 		for (int y=yMin; y<=yMax; y++) {
 			offset = xMin + y * width;
@@ -613,64 +678,16 @@ public class ByteProcessor extends ImageProcessor {
 						sum = findMedian(values);
 						break;
 					case MIN:
-						sum = p5;
-						if (p1<sum) sum = p1;
-						if (p2<sum) sum = p2;
-						if (p3<sum) sum = p3;
-						if (p4<sum) sum = p4;
-						if (p6<sum) sum = p6;
-						if (p7<sum) sum = p7;
-						if (p8<sum) sum = p8;
-						if (p9<sum) sum = p9;
+						this.minFilter(sum, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 						break;
 					case MAX:
-						sum = p5;
-						if (p1>sum) sum = p1;
-						if (p2>sum) sum = p2;
-						if (p3>sum) sum = p3;
-						if (p4>sum) sum = p4;
-						if (p6>sum) sum = p6;
-						if (p7>sum) sum = p7;
-						if (p8>sum) sum = p8;
-						if (p9>sum) sum = p9;
+						this.maxFilter(sum, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 						break;
 					case ERODE:
-						if (p5==binaryBackground)
-							sum = binaryBackground;
-						else {
-							count = 0;
-							if (p1==binaryBackground) count++;
-							if (p2==binaryBackground) count++;
-							if (p3==binaryBackground) count++;
-							if (p4==binaryBackground) count++;
-							if (p6==binaryBackground) count++;
-							if (p7==binaryBackground) count++;
-							if (p8==binaryBackground) count++;
-							if (p9==binaryBackground) count++;							
-							if (count>=binaryCount)
-								sum = binaryBackground;
-							else
-							sum = binaryForeground;
-						}
+						this.erodeFilter(sum, binaryForeground, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 						break;
 					case DILATE:
-						if (p5==binaryForeground)
-							sum = binaryForeground;
-						else {
-							count = 0;
-							if (p1==binaryForeground) count++;
-							if (p2==binaryForeground) count++;
-							if (p3==binaryForeground) count++;
-							if (p4==binaryForeground) count++;
-							if (p6==binaryForeground) count++;
-							if (p7==binaryForeground) count++;
-							if (p8==binaryForeground) count++;
-							if (p9==binaryForeground) count++;							
-							if (count>=binaryCount)
-								sum = binaryForeground;
-							else
-								sum = binaryBackground;
-						}
+						this.dilateFilter(sum, binaryForeground, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 						break;
 				}
 				
@@ -716,64 +733,16 @@ public class ByteProcessor extends ImageProcessor {
                     if (sum> 255) sum = 255;
                     break;
                 case MIN:
-                    sum = p5;
-                    if (p1<sum) sum = p1;
-                    if (p2<sum) sum = p2;
-                    if (p3<sum) sum = p3;
-                    if (p4<sum) sum = p4;
-                    if (p6<sum) sum = p6;
-                    if (p7<sum) sum = p7;
-                    if (p8<sum) sum = p8;
-                    if (p9<sum) sum = p9;
+                    this.minFilter(sum, p1, p2, p3, p4, p5, p6, p7, p8, p9);
                     break;
                 case MAX:
-                    sum = p5;
-                    if (p1>sum) sum = p1;
-                    if (p2>sum) sum = p2;
-                    if (p3>sum) sum = p3;
-                    if (p4>sum) sum = p4;
-                    if (p6>sum) sum = p6;
-                    if (p7>sum) sum = p7;
-                    if (p8>sum) sum = p8;
-                    if (p9>sum) sum = p9;
+                    this.maxFilter(sum, p1, p2, p3, p4, p5, p6, p7, p8, p9);
                     break;
 				case ERODE:
-					if (p5==binaryBackground)
-						sum = binaryBackground;
-					else {
-						count = 0;
-						if (p1==binaryBackground) count++;
-						if (p2==binaryBackground) count++;
-						if (p3==binaryBackground) count++;
-						if (p4==binaryBackground) count++;
-						if (p6==binaryBackground) count++;
-						if (p7==binaryBackground) count++;
-						if (p8==binaryBackground) count++;
-						if (p9==binaryBackground) count++;							
-						if (count>=binaryCount)
-							sum = binaryBackground;
-						else
-						sum = binaryForeground;
-					}
+					this.erodeFilter(sum, binaryForeground, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 					break;
 				case DILATE:
-					if (p5==binaryForeground)
-						sum = binaryForeground;
-					else {
-						count = 0;
-						if (p1==binaryForeground) count++;
-						if (p2==binaryForeground) count++;
-						if (p3==binaryForeground) count++;
-						if (p4==binaryForeground) count++;
-						if (p6==binaryForeground) count++;
-						if (p7==binaryForeground) count++;
-						if (p8==binaryForeground) count++;
-						if (p9==binaryForeground) count++;							
-						if (count>=binaryCount)
-							sum = binaryForeground;
-						else
-							sum = binaryBackground;
-					}
+					this.dilateFilter(sum, binaryForeground, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 					break;
             }
             pixels[x+y*width] = (byte)sum;
