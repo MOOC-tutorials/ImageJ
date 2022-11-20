@@ -1709,15 +1709,6 @@ public class Roi extends Object implements Cloneable, java.io.Serializable, Iter
 			return null;
 	}
 
-//	public void startPaste(ImagePlus clipboard) {
-//		IJ.showStatus("Pasting...");
-//		IJ.wait(10);
-//		this.clipboard = clipboard;
-//		imp.getProcessor().snapshot();
-//		updateClipRect();
-//		imp.draw(clipX, clipY, clipWidth, clipHeight);
-//	}
-
 	void updatePaste() {
 		if (clipboard!=null) {
 			imp.getMask();
