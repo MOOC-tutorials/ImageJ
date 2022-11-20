@@ -228,7 +228,7 @@ public abstract class ImageProcessor implements Cloneable {
 		minMaxSet = true;
 	}
 	
-	private Image createImage() {
+	public Image createImage() {
 		if (!minMaxSet)
 			this.findMinAndMax();
 		boolean firstTime = pixels8==null;
