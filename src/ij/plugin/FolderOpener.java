@@ -399,9 +399,9 @@ public class FolderOpener implements PlugIn, TextListener {
 				imp2.getProcessor().setMinAndMax(min, max);
 			if (fi==null)
 				fi = new FileInfo();
-			fi.fileFormat = FileInfo.UNKNOWN;
-			fi.fileName = "";
-			fi.directory = directory;
+			fi.setFileFormat(FileInfo.UNKNOWN);
+			fi.setFileName("");
+			fi.setDirectory(directory);
 			imp2.setFileInfo(fi); // saves FileInfo of the first image
 			imp2.setOverlay(overlay);
 			if (stack instanceof VirtualStack) {
@@ -522,21 +522,21 @@ public class FolderOpener implements PlugIn, TextListener {
 		FileInfo[] info = Opener.getTiffFileInfo(path);
 		if (info==null || info.length==0)
 			return;
-		int n =info[0].nImages;
-		if (info.length==1 && n>1) {
-			long size = fi.width*fi.height*fi.getBytesPerPixel();
+		int n =info[0].getnImages();
+		if (info.length == 1 && n > 1) {
+			long size = fi.getWidth()*fi.getHeight()*fi.getBytesPerPixel();
 			for (int i=0; i<n; i++) {
-				FileInfo fi = (FileInfo)info[0].clone();
-				fi.nImages = 1;
-				fi.longOffset = fi.getOffset() + i*(size + fi.getGap());
+				FileInfo fi = (FileInfo)info[0];
+				fi.setnImages(1);
+				fi.setLongOffset(fi.getOffset() + i*(size + fi.getGap()));
 				stack.addImage(fi);
 			}
 		} else {
 			FileInfo fi = info[0];
-			if (fi.fileType==FileInfo.RGB48) {
+			if (fi.getFileType()==FileInfo.RGB48) {
 				for (int slice=1; slice<=3; slice++) {
-					FileInfo fi2 = (FileInfo)fi.clone();
-					fi2.sliceNumber = slice;
+					FileInfo fi2 = fi;
+					fi2.setSliceNumber(slice);
 					stack.addImage(fi2);
 				}
 			} else

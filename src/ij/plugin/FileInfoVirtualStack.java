@@ -91,39 +91,39 @@ public class FileInfoVirtualStack extends VirtualStack implements PlugIn {
 			return;
 		}
 		if (IJ.debugMode)
-			IJ.log(info[0].debugInfo);
+			IJ.log(info[0].getDebugInfo());
 	}
 		
 	private ImagePlus open() {
 		FileInfo fi = info[0];
-		int n = fi.nImages;
+		int n = fi.getnImages();
 		if (info.length==1 && n>1) {
-			long bytesPerImage = fi.width*fi.height*fi.getBytesPerPixel();
-			if (fi.fileType==FileInfo.GRAY12_UNSIGNED)
-				bytesPerImage = (int)(1.5*fi.width)*fi.height;
+			long bytesPerImage = fi.getWidth()*fi.getHeight()*fi.getBytesPerPixel();
+			if (fi.getFileType()==FileInfo.GRAY12_UNSIGNED)
+				bytesPerImage = (int)(1.5*fi.getWidth())*fi.getHeight();
 			n = validateNImages(fi, bytesPerImage);
 			info = new FileInfo[n];
 			for (int i=0; i<n; i++) {
-				info[i] = (FileInfo)fi.clone();
-				info[i].nImages = 1;
-				info[i].longOffset = fi.getOffset() + i*(bytesPerImage + fi.getGap());
+				info[i] = (FileInfo)fi;
+				info[i].setnImages(1);
+				info[i].setLongOffset(fi.getOffset() + i*(bytesPerImage + fi.getGap()));
 			}
 		}
 		nImages = info.length;
 		FileOpener fo = new FileOpener(info[0]);
 		ImagePlus imp = fo.openImage();
-		if (nImages==1 && fi.fileType==FileInfo.RGB48)
+		if (nImages==1 && fi.getFileType()==FileInfo.RGB48)
 			return imp;
 		Properties props = fo.decodeDescriptionString(fi);
-		ImagePlus imp2 = new ImagePlus(fi.fileName, this);
+		ImagePlus imp2 = new ImagePlus(fi.getFileName(), this);
 		imp2.setDisplayRange(imp.getDisplayRangeMin(),imp.getDisplayRangeMax());
 		imp2.setFileInfo(fi);
 		if (imp!=null && props!=null) {
 			setBitDepth(imp.getBitDepth());
 			imp2.setCalibration(imp.getCalibration());
 			imp2.setOverlay(imp.getOverlay());
-			if (fi.info!=null)
-				imp2.setProperty("Info", fi.info);
+			if (fi.getInfo()!=null)
+				imp2.setProperty("Info", fi.getInfo());
 			int channels = getInt(props,"channels");
 			int slices = getInt(props,"slices");
 			int frames = getInt(props,"frames");
@@ -132,11 +132,11 @@ public class FileInfoVirtualStack extends VirtualStack implements PlugIn {
 				if (getBoolean(props, "hyperstack"))
 					imp2.setOpenAsHyperStack(true);
 			}
-			if (channels>1 && fi.description!=null) {
+			if (channels>1 && fi.getDescription()!=null) {
 				int mode = IJ.COMPOSITE;
-				if (fi.description.indexOf("mode=color")!=-1)
+				if (fi.getDescription().indexOf("mode=color")!=-1)
 					mode = IJ.COLOR;
-				else if (fi.description.indexOf("mode=gray")!=-1)
+				else if (fi.getDescription().indexOf("mode=gray")!=-1)
 					mode = IJ.GRAYSCALE;
 				imp2 = new CompositeImage(imp2, mode);
 			}
@@ -147,14 +147,14 @@ public class FileInfoVirtualStack extends VirtualStack implements PlugIn {
 	private int validateNImages(FileInfo fi, long bytesPerImage) {
 		File f = new File(fi.getFilePath());
 		if (!f.exists())
-			return fi.nImages;
+			return fi.getnImages();
 		long fileLength = f.length();
-		for (int i=fi.nImages-1; i>=0; i--) {
+		for (int i=fi.getnImages()-1; i>=0; i--) {
 			long offset =  fi.getOffset() + i*(bytesPerImage+fi.getGap());
 			if (offset+bytesPerImage<=fileLength)
 				return i+1;
 		}
-		return fi.nImages;
+		return fi.getnImages();
 	}
 
 	int getInt(Properties props, String key) {
@@ -196,7 +196,7 @@ public class FileInfoVirtualStack extends VirtualStack implements PlugIn {
 		if (n<1 || n>nImages)
 			throw new IllegalArgumentException("Argument out of range: "+n);
 		//if (n>1) IJ.log("  "+(info[n-1].getOffset()-info[n-2].getOffset()));
-		info[n-1].nImages = 1; // why is this needed?
+		info[n-1].setnImages(1); // why is this needed?
 		ImageProcessor ip = null;
 		if (IJ.debugMode) {
 			long t0 = System.currentTimeMillis();
@@ -205,10 +205,10 @@ public class FileInfoVirtualStack extends VirtualStack implements PlugIn {
 			IJ.log("FileInfoVirtualStack: "+n+", offset="+info[n-1].getOffset()+", "+(System.currentTimeMillis()-t0)+"ms");
 		} else {
 			FileOpener fo = new FileOpener(info[n-1]);
-			if (info[n-1].fileType==FileInfo.RGB48) {
+			if (info[n-1].getFileType()==FileInfo.RGB48) {
 				ImagePlus imp = fo.openImage();
-				if (info[n-1].sliceNumber>0)
-					imp.setSlice(info[n-1].sliceNumber);
+				if (info[n-1].getSliceNumber()>0)
+					imp.setSlice(info[n-1].getSliceNumber());
 				ip = imp.getProcessor();
 			} else
 				ip = fo.openProcessor();
@@ -219,7 +219,7 @@ public class FileInfoVirtualStack extends VirtualStack implements PlugIn {
 			return ip;
 		} else {
 			int w=getWidth(), h=getHeight();
-			IJ.log("Read error or file not found ("+n+"): "+info[n-1].directory+info[n-1].fileName);
+			IJ.log("Read error or file not found ("+n+"): "+info[n-1].getDirectory()+info[n-1].getFileName());
 			switch (getBitDepth()) {
 				case 8: return new ByteProcessor(w, h);
 				case 16: return new ShortProcessor(w, h);
@@ -243,18 +243,18 @@ public class FileInfoVirtualStack extends VirtualStack implements PlugIn {
 	public String getSliceLabel(int n) {
 		if (n<1 || n>nImages)
 			throw new IllegalArgumentException("Argument out of range: "+n);
-		if (info[0].sliceLabels==null || info[0].sliceLabels.length!=nImages)
+		if (info[0].getSliceLabels()==null || info[0].getSliceLabels().length!=nImages)
 			return null;
 		else
-			return info[0].sliceLabels[n-1];
+			return info[0].getSliceLabels()[n-1];
 	}
 
 	public int getWidth() {
-		return info[0].width;
+		return info[0].getWidth();
 	}
 	
 	public int getHeight() {
-		return info[0].height;
+		return info[0].getHeight();
 	}
 	
 	/** Adds an image to this stack. */
@@ -273,7 +273,7 @@ public class FileInfoVirtualStack extends VirtualStack implements PlugIn {
 	@Override
 	public String getDirectory() {
 		if (info!=null && info.length>0)
-			return info[0].directory;
+			return info[0].getDirectory();
 		else
 			return null;
 	}
@@ -282,7 +282,7 @@ public class FileInfoVirtualStack extends VirtualStack implements PlugIn {
 	public String getFileName(int n) {
 		int index = n - 1;
 		if (index>=0 && info!=null && info.length>index)
-			return info[index].fileName;
+			return info[index].getFileName();
 		else
 			return null;
 	}

@@ -32,16 +32,18 @@ import ij.plugin.frame.*;
 public class FileOpener {
 
 	private FileInfo fi;
-	private int width, height;
+	private int width;
+	private int height;
 	private static boolean showConflictMessage = true;
-	private double minValue, maxValue;
+	private double minValue;
+	private double maxValue;
 	private static boolean silentMode;
 
 	public FileOpener(FileInfo fi) {
 		this.fi = fi;
 		if (fi!=null) {
-			width = fi.width;
-			height = fi.height;
+			width = fi.getWidth();
+			height = fi.getHeight();
 		}
 		if (IJ.debugMode) IJ.log("FileInfo: "+fi);
 	}
@@ -65,113 +67,121 @@ public class FileOpener {
 
 		ImagePlus imp=null;
 		Object pixels;
-		ProgressBar pb=null;
-	    ImageProcessor ip;
+		ImageProcessor ip;
 		
 		ColorModel cm = createColorModel(fi);
-		if (fi.nImages>1)
+		if (fi.getnImages()>1)
 			return openStack(cm, show);
-		switch (fi.fileType) {
-			case FileInfo.GRAY8:
-			case FileInfo.COLOR8:
+		switch (fi.getFileType()) {
 			case FileInfo.BITMAP:
 				pixels = readPixels(fi);
 				if (pixels==null) return null;
 				ip = new ByteProcessor(width, height, (byte[])pixels, cm);
-    			imp = new ImagePlus(fi.fileName, ip);
+    			imp = new ImagePlus(fi.getFileName(), ip);
 				break;
-			case FileInfo.GRAY16_SIGNED:
-			case FileInfo.GRAY16_UNSIGNED:
 			case FileInfo.GRAY12_UNSIGNED:
 				pixels = readPixels(fi);
 				if (pixels==null) return null;
 	    		ip = new ShortProcessor(width, height, (short[])pixels, cm);
-       			imp = new ImagePlus(fi.fileName, ip);
+       			imp = new ImagePlus(fi.getFileName(), ip);
 				break;
-			case FileInfo.GRAY32_INT:
-			case FileInfo.GRAY32_UNSIGNED:
-			case FileInfo.GRAY32_FLOAT:
-			case FileInfo.GRAY24_UNSIGNED:
 			case FileInfo.GRAY64_FLOAT:
 				pixels = readPixels(fi);
 				if (pixels==null) return null;
 	    		ip = new FloatProcessor(width, height, (float[])pixels, cm);
-       			imp = new ImagePlus(fi.fileName, ip);
+       			imp = new ImagePlus(fi.getFileName(), ip);
 				break;
-			case FileInfo.RGB:
-			case FileInfo.BGR:
-			case FileInfo.ARGB:
-			case FileInfo.ABGR:
-			case FileInfo.BARG:
-			case FileInfo.RGB_PLANAR:
 			case FileInfo.CMYK:
 				pixels = readPixels(fi);
 				if (pixels==null) return null;
 				ip = new ColorProcessor(width, height, (int[])pixels);
-				if (fi.fileType==FileInfo.CMYK)
+				if (fi.getFileType()==FileInfo.CMYK)
 					ip.invert();
-				imp = new ImagePlus(fi.fileName, ip);
+				imp = new ImagePlus(fi.getFileName(), ip);
 				break;
-			case FileInfo.RGB48:
 			case FileInfo.RGB48_PLANAR:
-				boolean planar = fi.fileType==FileInfo.RGB48_PLANAR;
+				boolean planar = fi.getFileType()==FileInfo.RGB48_PLANAR;
 				Object[] pixelArray = (Object[])readPixels(fi);
 				if (pixelArray==null) return null;
 				int nChannels = 3;
 				ImageStack stack = new ImageStack(width, height);
-				stack.addSlice("Red", pixelArray[0]);
-				stack.addSlice("Green", pixelArray[1]);
-				stack.addSlice("Blue", pixelArray[2]);
-				if (fi.samplesPerPixel==4 && pixelArray.length==4) {
-					stack.addSlice("Gray", pixelArray[3]);
-					nChannels = 4;
-				}
-        		imp = new ImagePlus(fi.fileName, stack);
-        		imp.setDimensions(nChannels, 1, 1);
-        		if (planar)
-        			imp.getProcessor().resetMinAndMax();
-				imp.setFileInfo(fi);
-				int mode = IJ.COMPOSITE;
-				if (fi.description!=null) {
-					if (fi.description.indexOf("mode=color")!=-1)
-					mode = IJ.COLOR;
-					else if (fi.description.indexOf("mode=gray")!=-1)
-					mode = IJ.GRAYSCALE;
-				}
-        		imp = new CompositeImage(imp, mode);
-        		if (!planar && fi.displayRanges==null) {
-        			if (nChannels==4)
-        				((CompositeImage)imp).resetDisplayRanges();
-        			else {
-						for (int c=1; c<=3; c++) {
-							imp.setPosition(c, 1, 1);
-							imp.setDisplayRange(minValue, maxValue);
-						}
-						imp.setPosition(1, 1, 1);
-       				}
-        		}
-        		if (fi.whiteIsZero) // cmyk?
-        			IJ.run(imp, "Invert", "");
+				nChannels = setStackProperties(pixelArray, nChannels, stack);
+        		imp = new ImagePlus(fi.getFileName(), stack);
+        		imp = setFinalDimensions(imp, planar, nChannels);
 				break;
+			default:
 		}
 		imp.setFileInfo(fi);
 		setCalibration(imp);
-		if (fi.info!=null)
-			imp.setProperty("Info", fi.info);
-		if (fi.sliceLabels!=null&&fi.sliceLabels.length==1&&fi.sliceLabels[0]!=null)
-			imp.setProp("Slice_Label", fi.sliceLabels[0]);
-		if (fi.plot!=null) try {
-			Plot plot = new Plot(imp, new ByteArrayInputStream(fi.plot));
+		setPropertiesFileOpener(show, imp);
+		return imp;
+	}
+
+	private void setPropertiesFileOpener(boolean show, ImagePlus imp) {
+		if (fi.getInfo()!=null)
+			imp.setProperty("Info", fi.getInfo());
+		if (fi.getSliceLabels()!=null&&fi.getSliceLabels().length==1&&fi.getSliceLabels()[0]!=null)
+			imp.setProp("Slice_Label", fi.getSliceLabels()[0]);
+		if (fi.getPlot()!=null) try {
+			Plot plot = new Plot(imp, new ByteArrayInputStream(fi.getPlot()));
 			imp.setProperty(Plot.PROPERTY_KEY, plot);
 		} catch (Exception e) { IJ.handleException(e); }
-		if (fi.roi!=null)
+		if (fi.getRoi()!=null)
 			decodeAndSetRoi(imp, fi);
-		if (fi.overlay!=null)
-			setOverlay(imp, fi.overlay);
-		if (fi.properties!=null)
-			imp.setProperties(fi.properties);
+		if (fi.getOverlay()!=null)
+			setOverlay(imp, fi.getOverlay());
+		if (fi.getProperties()!=null)
+			imp.setProperties(fi.getProperties());
 		if (show) imp.show();
+	}
+
+	private ImagePlus setFinalDimensions(ImagePlus imp, boolean planar, int nChannels) {
+		imp.setDimensions(nChannels, 1, 1);
+		if (planar)
+			imp.getProcessor().resetMinAndMax();
+		imp.setFileInfo(fi);
+		int mode = IJ.COMPOSITE;
+		mode = descriptionSetting(mode);
+		imp = new CompositeImage(imp, mode);
+		setPoditionsImage(imp, planar, nChannels);
+		if (fi.isWhiteIsZero()) // cmyk?
+			IJ.run(imp, "Invert", "");
 		return imp;
+	}
+
+	private int descriptionSetting(int mode) {
+		if (fi.getDescription()!=null) {
+			if (fi.getDescription().indexOf("mode=color")!=-1)
+			mode = IJ.COLOR;
+			else if (fi.getDescription().indexOf("mode=gray")!=-1)
+			mode = IJ.GRAYSCALE;
+		}
+		return mode;
+	}
+
+	private void setPoditionsImage(ImagePlus imp, boolean planar, int nChannels) {
+		if (!planar && fi.getDisplayRanges()==null) {
+			if (nChannels==4)
+				((CompositeImage)imp).resetDisplayRanges();
+			else {
+				for (int c=1; c<=3; c++) {
+					imp.setPosition(c, 1, 1);
+					imp.setDisplayRange(minValue, maxValue);
+				}
+				imp.setPosition(1, 1, 1);
+			}
+		}
+	}
+
+	private int setStackProperties(Object[] pixelArray, int nChannels, ImageStack stack) {
+		stack.addSlice("Red", pixelArray[0]);
+		stack.addSlice("Green", pixelArray[1]);
+		stack.addSlice("Blue", pixelArray[2]);
+		if (fi.getSamplesPerPixel()==4 && pixelArray.length==4) {
+			stack.addSlice("Gray", pixelArray[3]);
+			nChannels = 4;
+		}
+		return nChannels;
 	}
 	
 	public ImageProcessor openProcessor() {
@@ -179,7 +189,7 @@ public class FileOpener {
 		ProgressBar pb=null;
 		ImageProcessor ip = null;		
 		ColorModel cm = createColorModel(fi);
-		switch (fi.fileType) {
+		switch (fi.getFileType()) {
 			case FileInfo.GRAY8:
 			case FileInfo.COLOR8:
 			case FileInfo.BITMAP:
@@ -213,7 +223,7 @@ public class FileOpener {
 				pixels = readPixels(fi);
 				if (pixels==null) return null;
 				ip = new ColorProcessor(width, height, (int[])pixels);
-				if (fi.fileType==FileInfo.CMYK)
+				if (fi.getFileType()==FileInfo.CMYK)
 					ip.invert();
 				break;
 		}
@@ -242,7 +252,7 @@ public class FileOpener {
 
 	/** Opens a stack of images. */
 	ImagePlus openStack(ColorModel cm, boolean show) {
-		ImageStack stack = new ImageStack(fi.width, fi.height, cm);
+		ImageStack stack = new ImageStack(fi.getWidth(), fi.getHeight(), cm);
 		long skip = fi.getOffset();
 		Object pixels;
 		try {
@@ -251,9 +261,9 @@ public class FileOpener {
 			if (is==null)
 				return null;
 			IJ.resetEscape();
-			for (int i=1; i<=fi.nImages; i++) {
+			for (int i=1; i<=fi.getnImages(); i++) {
 				if (!silentMode)
-					IJ.showStatus("Reading: " + i + "/" + fi.nImages);
+					IJ.showStatus("Reading: " + i + "/" + fi.getnImages());
 				if (IJ.escapePressed()) {
 					IJ.beep();
 					IJ.showProgress(1.0);
@@ -266,7 +276,7 @@ public class FileOpener {
 				stack.addSlice(null, pixels);
 				skip = fi.getGap();
 				if (!silentMode)
-					IJ.showProgress(i, fi.nImages);
+					IJ.showProgress(i, fi.getnImages());
 			}
 			is.close();
 		}
@@ -274,25 +284,25 @@ public class FileOpener {
 			IJ.log("" + e);
 		}
 		catch(OutOfMemoryError e) {
-			IJ.outOfMemory(fi.fileName);
+			IJ.outOfMemory(fi.getFileName());
 			stack.trim();
 		}
 		if (!silentMode) IJ.showProgress(1.0);
 		if (stack.size()==0)
 			return null;
-		if (fi.sliceLabels!=null && fi.sliceLabels.length<=stack.size()) {
-			for (int i=0; i<fi.sliceLabels.length; i++)
-				stack.setSliceLabel(fi.sliceLabels[i], i+1);
+		if (fi.getSliceLabels()!=null && fi.getSliceLabels().length<=stack.size()) {
+			for (int i=0; i<fi.getSliceLabels().length; i++)
+				stack.setSliceLabel(fi.getSliceLabels()[i], i+1);
 		}
-		ImagePlus imp = new ImagePlus(fi.fileName, stack);
-		if (fi.info!=null)
-			imp.setProperty("Info", fi.info);
-		if (fi.roi!=null)
+		ImagePlus imp = new ImagePlus(fi.getFileName(), stack);
+		if (fi.getInfo()!=null)
+			imp.setProperty("Info", fi.getInfo());
+		if (fi.getRoi()!=null)
 			decodeAndSetRoi(imp, fi);
-		if (fi.overlay!=null)
-			setOverlay(imp, fi.overlay);
-		if (fi.properties!=null)
-			imp.setProperties(fi.properties);
+		if (fi.getOverlay()!=null)
+			setOverlay(imp, fi.getOverlay());
+		if (fi.getProperties()!=null)
+			imp.setProperties(fi.getProperties());
 		if (show) imp.show();
 		imp.setFileInfo(fi);
 		setCalibration(imp);
@@ -304,7 +314,7 @@ public class FileOpener {
 	}
 	
 	private void decodeAndSetRoi(ImagePlus imp, FileInfo fi) {
-		Roi roi = RoiDecoder.openFromByteArray(fi.roi);
+		Roi roi = RoiDecoder.openFromByteArray(fi.getRoi());
 		imp.setRoi(roi);
 		if ((roi instanceof PointRoi) && ((PointRoi)roi).getNCounters()>1) 
 			IJ.setTool("multi-point");
@@ -334,8 +344,8 @@ public class FileOpener {
 		if (fi==null)
 			return;
 		String path = fi.getFilePath();
-		if (fi.url!=null && !fi.url.equals("") && (fi.directory==null||fi.directory.equals("")))
-			path = fi.url;
+		if (fi.getUrl()!=null && !fi.getUrl().equals("") && (fi.getDirectory()==null||fi.getDirectory().equals("")))
+			path = fi.getUrl();
 		IJ.showStatus("Loading: " + path);
 		ImagePlus imp2 = null;
 		if (!path.endsWith(".raw"))
@@ -343,13 +353,13 @@ public class FileOpener {
 		if (imp2!=null)
 			imp.setImage(imp2);
 		else {
-			if (fi.nImages>1)
+			if (fi.getnImages()>1)
 				return;
 			Object pixels = readPixels(fi);
 			if (pixels==null) return;
 			ColorModel cm = createColorModel(fi);
 			ImageProcessor ip = null;
-			switch (fi.fileType) {
+			switch (fi.getFileType()) {
 				case FileInfo.GRAY8:
 				case FileInfo.COLOR8:
 				case FileInfo.BITMAP:
@@ -385,40 +395,40 @@ public class FileOpener {
 	}
 	
 	void setCalibration(ImagePlus imp) {
-		if (fi.fileType==FileInfo.GRAY16_SIGNED) {
+		if (fi.getFileType()==FileInfo.GRAY16_SIGNED) {
 			if (IJ.debugMode) IJ.log("16-bit signed");
  			imp.getLocalCalibration().setSigned16BitCalibration();
 		}
 		Properties props = decodeDescriptionString(fi);
 		Calibration cal = imp.getCalibration();
 		boolean calibrated = false;
-		if (fi.pixelWidth>0.0 && fi.unit!=null) {
+		if (fi.getPixelWidth()>0.0 && fi.getUnit()!=null) {
 			double threshold = 0.001;
-			if (fi.description!=null && fi.description.startsWith("ImageJ"))
+			if (fi.getDescription()!=null && fi.getDescription().startsWith("ImageJ"))
 				threshold = 0.0001;
-			if (Prefs.convertToMicrons && fi.pixelWidth<=threshold && fi.unit.equals("cm")) {
-				fi.pixelWidth *= 10000.0;
-				fi.pixelHeight *= 10000.0;
-				if (fi.pixelDepth!=1.0)
-					fi.pixelDepth *= 10000.0;
-				fi.unit = "um";
+			if (Prefs.convertToMicrons && fi.getPixelWidth()<=threshold && fi.getUnit().equals("cm")) {
+				fi.setPixelWidth(fi.getPixelWidth() * 10000.0);
+				fi.setPixelHeight(fi.getPixelHeight() * 10000.0);
+				if (fi.getPixelDepth()!=1.0)
+					fi.setPixelDepth(fi.getPixelDepth() * 10000.0);
+				fi.setUnit("um");
 			}
-			cal.pixelWidth = fi.pixelWidth;
-			cal.pixelHeight = fi.pixelHeight;
-			cal.pixelDepth = fi.pixelDepth;
-			cal.setUnit(fi.unit);
+			cal.pixelWidth = fi.getPixelWidth();
+			cal.pixelHeight = fi.getPixelHeight();
+			cal.pixelDepth = fi.getPixelDepth();
+			cal.setUnit(fi.getUnit());
 			calibrated = true;
 		}
 		
-		if (fi.valueUnit!=null) {
+		if (fi.getValueUnit()!=null) {
 			if (imp.getBitDepth()==32)
-				cal.setValueUnit(fi.valueUnit);
+				cal.setValueUnit(fi.getValueUnit());
 			else {
-				int f = fi.calibrationFunction;
-				if ((f>=Calibration.STRAIGHT_LINE && f<=Calibration.EXP_RECOVERY && fi.coefficients!=null)
+				int f = fi.getCalibrationFunction();
+				if ((f>=Calibration.STRAIGHT_LINE && f<=Calibration.EXP_RECOVERY && fi.getCoefficients()!=null)
 				|| f==Calibration.UNCALIBRATED_OD) {
 					boolean zeroClip = props!=null && props.getProperty("zeroclip", "false").equals("true");	
-					cal.setFunction(f, fi.coefficients, fi.valueUnit, zeroClip);
+					cal.setFunction(f, fi.getCoefficients(), fi.getValueUnit(), zeroClip);
 					calibrated = true;
 				}
 			}
@@ -427,8 +437,8 @@ public class FileOpener {
 		if (calibrated)
 			checkForCalibrationConflict(imp, cal);
 		
-		if (fi.frameInterval!=0.0)
-			cal.frameInterval = fi.frameInterval;
+		if (fi.getFrameInterval()!=0.0)
+			cal.frameInterval = fi.getFrameInterval();
 		
 		if (props==null)
 			return;
@@ -504,32 +514,32 @@ public class FileOpener {
 
 	/** Returns an IndexColorModel for the image specified by this FileInfo. */
 	public ColorModel createColorModel(FileInfo fi) {
-		if (fi.lutSize>0)
-			return new IndexColorModel(8, fi.lutSize, fi.reds, fi.greens, fi.blues);
+		if (fi.getLutSize()>0)
+			return new IndexColorModel(8, fi.getLutSize(), fi.getReds(), fi.getGreens(), fi.getBlues());
 		else
-			return LookUpTable.createGrayscaleColorModel(fi.whiteIsZero);
+			return LookUpTable.createGrayscaleColorModel(fi.isWhiteIsZero());
 	}
 
 	/** Returns an InputStream for the image described by this FileInfo. */
 	public InputStream createInputStream(FileInfo fi) throws IOException, MalformedURLException {
 		InputStream is = null;
-		boolean gzip = fi.fileName!=null && (fi.fileName.endsWith(".gz")||fi.fileName.endsWith(".GZ"));
-		if (fi.inputStream!=null)
-			is = fi.inputStream;
-		else if (fi.url!=null && !fi.url.equals(""))
-			is = new URL(fi.url+fi.fileName).openStream();
+		boolean gzip = fi.getFileName()!=null && (fi.getFileName().endsWith(".gz")||fi.getFileName().endsWith(".GZ"));
+		if (fi.getInputStream()!=null)
+			is = fi.getInputStream();
+		else if (fi.getUrl()!=null && !fi.getUrl().equals(""))
+			is = new URL(fi.getUrl()+fi.getFileName()).openStream();
 		else {
-			if (fi.directory!=null && fi.directory.length()>0 && !(fi.directory.endsWith(Prefs.separator)||fi.directory.endsWith("/")))
-				fi.directory += Prefs.separator;
+			if (fi.getDirectory()!=null && fi.getDirectory().length()>0 && !(fi.getDirectory().endsWith(Prefs.separator)||fi.getDirectory().endsWith("/")))
+				fi.setDirectory(fi.getDirectory() + Prefs.separator);
 		    File f = new File(fi.getFilePath());
-		    if (gzip) fi.compression = FileInfo.COMPRESSION_UNKNOWN;
+		    if (gzip) fi.setCompression(FileInfo.COMPRESSION_UNKNOWN);
 		    if (f==null || !f.exists() || f.isDirectory() || !validateFileInfo(f, fi))
 		    	is = null;
 		    else
 				is = new FileInputStream(f);
 		}
 		if (is!=null) {
-			if (fi.compression>=FileInfo.LZW)
+			if (fi.getCompression()>=FileInfo.LZW)
 				is = new RandomAccessStream(is);
 			else if (gzip)
 				is = new GZIPInputStream(is, 50000);
@@ -540,7 +550,7 @@ public class FileOpener {
 	static boolean validateFileInfo(File f, FileInfo fi) {
 		long offset = fi.getOffset();
 		long length = 0;
-		if (fi.width<=0 || fi.height<=0) {
+		if (fi.getWidth()<=0 || fi.getHeight()<=0) {
 		   error("Width or height <= 0.", fi, offset, length);
 		   return false;
 		}
@@ -550,12 +560,12 @@ public class FileOpener {
 		   error("Offset is negative.", fi, offset, length);
 		   return false;
 		}
-		if (fi.fileType==FileInfo.BITMAP || fi.compression!=FileInfo.COMPRESSION_NONE)
+		if (fi.getFileType()==FileInfo.BITMAP || fi.getCompression()!=FileInfo.COMPRESSION_NONE)
 			return true;
 		length = f.length();
-		long size = fi.width*fi.height*fi.getBytesPerPixel();
-		size = fi.nImages>1?size:size/4;
-		if (fi.height==1) size = 0; // allows plugins to read info of unknown length at end of file
+		long size = fi.getWidth()*fi.getHeight()*fi.getBytesPerPixel();
+		size = fi.getnImages()>1?size:size/4;
+		if (fi.getHeight()==1) size = 0; // allows plugins to read info of unknown length at end of file
 		if (offset+size>length) {
 		   error("Offset + image size > file length.", fi, offset, length);
 		   return false;
@@ -566,8 +576,8 @@ public class FileOpener {
 	static void error(String msg, FileInfo fi, long offset, long length) {
 		String msg2 = "FileInfo parameter error. \n"
 			+msg + "\n \n"
-			+"  Width: " + fi.width + "\n"
-			+"  Height: " + fi.height + "\n"
+			+"  Width: " + fi.getWidth() + "\n"
+			+"  Height: " + fi.getHeight() + "\n"
 			+"  Offset: " + offset + "\n"
 			+"  Bytes/pixel: " + fi.getBytesPerPixel() + "\n"
 			+(length>0?"  File length: " + length + "\n":"");
@@ -600,24 +610,24 @@ public class FileOpener {
 	}
 
 	public Properties decodeDescriptionString(FileInfo fi) {
-		if (fi.description==null || fi.description.length()<7)
+		if (fi.getDescription()==null || fi.getDescription().length()<7)
 			return null;
 		if (IJ.debugMode)
-			IJ.log("Image Description: " + new String(fi.description).replace('\n',' '));
-		if (!fi.description.startsWith("ImageJ"))
+			IJ.log("Image Description: " + new String(fi.getDescription()).replace('\n',' '));
+		if (!fi.getDescription().startsWith("ImageJ"))
 			return null;
 		Properties props = new Properties();
-		InputStream is = new ByteArrayInputStream(fi.description.getBytes());
+		InputStream is = new ByteArrayInputStream(fi.getDescription().getBytes());
 		try {props.load(is); is.close();}
 		catch (IOException e) {return null;}
 		String dsUnit = props.getProperty("unit","");
-		if ("cm".equals(fi.unit) && "um".equals(dsUnit)) {
-			fi.pixelWidth *= 10000;
-			fi.pixelHeight *= 10000;
+		if ("cm".equals(fi.getUnit()) && "um".equals(dsUnit)) {
+			fi.setPixelWidth(fi.getPixelWidth() * 10000);
+			fi.setPixelHeight(fi.getPixelHeight() * 10000);
 		}
-		fi.unit = dsUnit;
+		fi.setUnit(dsUnit);
 		Double n = getNumber(props,"cf");
-		if (n!=null) fi.calibrationFunction = n.intValue();
+		if (n!=null) fi.setCalibrationFunction(n.intValue());
 		double c[] = new double[5];
 		int count = 0;
 		for (int i=0; i<5; i++) {
@@ -627,23 +637,23 @@ public class FileOpener {
 			count++;
 		}
 		if (count>=2) {
-			fi.coefficients = new double[count];
+			fi.setCoefficients(new double[count]);
 			for (int i=0; i<count; i++)
-				fi.coefficients[i] = c[i];			
+				fi.getCoefficients()[i] = c[i];			
 		}
-		fi.valueUnit = props.getProperty("vunit");
+		fi.setValueUnit(props.getProperty("vunit"));
 		n = getNumber(props,"images");
 		if (n!=null && n.doubleValue()>1.0)
-		fi.nImages = (int)n.doubleValue();
+		fi.setnImages((int)n.doubleValue());
 		n = getNumber(props, "spacing");
 		if (n!=null) {
 			double spacing = n.doubleValue();
 			if (spacing<0) spacing = -spacing;
-			fi.pixelDepth = spacing;
+			fi.setPixelDepth(spacing);
 		}
 		String name = props.getProperty("name");
 		if (name!=null)
-			fi.fileName = name;
+			fi.setFileName(name);
 		return props;
 	}
 

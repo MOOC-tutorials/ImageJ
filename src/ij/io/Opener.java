@@ -8,7 +8,6 @@ import ij.text.TextWindow;
 import ij.util.Java2;
 import ij.measure.ResultsTable;
 import ij.macro.Interpreter;
-import ij.util.Tools;
 import java.awt.*;
 import java.awt.image.*;
 import java.io.*;
@@ -17,7 +16,6 @@ import java.net.*;
 import java.util.*;
 import java.util.zip.*;
 import javax.swing.*;
-import javax.swing.filechooser.*;
 import java.awt.event.KeyEvent;
 import javax.imageio.ImageIO;
 import java.lang.reflect.Method;
@@ -557,10 +555,10 @@ public class Opener {
 		FileInfo fi = imp.getOriginalFileInfo();
 		if (fi==null) {
 			fi = new FileInfo();
-			fi.width = imp.getWidth();
-			fi.height = imp.getHeight();
-			fi.directory = getDir(path);
-			fi.fileName = getName(path);
+			fi.setWidth(imp.getWidth());
+			fi.setHeight(imp.getHeight());
+			fi.setDirectory(getDir(path));
+			fi.setFileName(getName(path));
 			imp.setFileInfo(fi);
 		}
 		if (imp.getWidth()>0 && imp.getHeight()>0) {
@@ -684,9 +682,9 @@ public class Opener {
 			if (imp.getType()==ImagePlus.COLOR_RGB)
 				convertGrayJpegTo8Bits(imp);
 			FileInfo fi = new FileInfo();
-			fi.fileFormat = fi.GIF_OR_JPG;
-			fi.fileName = name;
-			fi.directory = dir;
+			fi.setFileFormat(fi.GIF_OR_JPG);
+			fi.setFileName(name);
+			fi.setDirectory(dir);
 			imp.setFileInfo(fi);
 		}
 		if (imp != null) {  // correct iPhone photo orientation (Norbert Vischer)
@@ -746,11 +744,11 @@ public class Opener {
 		}
 		imp = new ImagePlus(f.getName(), img);
 		FileInfo fi = new FileInfo();
-		fi.fileFormat = fi.IMAGEIO;
-		fi.fileName = f.getName();
+		fi.setFileFormat(fi.IMAGEIO);
+		fi.setFileName(f.getName());
 		String parent = f.getParent();
 		if (parent!=null)
-			fi.directory = parent + File.separator;
+			fi.setDirectory(parent + File.separator);
 		imp.setFileInfo(fi);
 		return imp;
 	}
@@ -769,15 +767,15 @@ public class Opener {
 		boolean sameSizeAndType = true;
 		boolean contiguous = true;
 		long startingOffset = info[0].getOffset();
-		int size = info[0].width*info[0].height*info[0].getBytesPerPixel();
+		int size = info[0].getWidth()*info[0].getHeight()*info[0].getBytesPerPixel();
 		for (int i=1; i<info.length; i++) {
-			sameSizeAndType &= info[i].fileType==info[0].fileType
-				&& info[i].width==info[0].width
-				&& info[i].height==info[0].height;
+			sameSizeAndType &= info[i].getFileType()==info[0].getFileType()
+				&& info[i].getWidth()==info[0].getWidth()
+				&& info[i].getHeight()==info[0].getHeight();
 			contiguous &= info[i].getOffset()==startingOffset+i*size;
 		}
-		if (contiguous &&  info[0].fileType!=FileInfo.RGB48)
-			info[0].nImages = info.length;
+		if (contiguous &&  info[0].getFileType()!=FileInfo.RGB48)
+			info[0].setnImages(info.length);
 		//if (IJ.debugMode) {
 		//	IJ.log("sameSizeAndType: " + sameSizeAndType);
 		//	IJ.log("contiguous: " + contiguous);
@@ -791,20 +789,20 @@ public class Opener {
 		if (info.length>1 && !allSameSizeAndType(info))
 			return null;
 		FileInfo fi = info[0];
-		if (fi.nImages>1)
+		if (fi.getnImages()>1)
 			return new FileOpener(fi).openImage(); // open contiguous images as stack
 		else {
 			ColorModel cm = createColorModel(fi);
-			ImageStack stack = new ImageStack(fi.width, fi.height, cm);
+			ImageStack stack = new ImageStack(fi.getWidth(), fi.getHeight(), cm);
 			Object pixels = null;
 			long skip = fi.getOffset();
-			int imageSize = fi.width*fi.height*fi.getBytesPerPixel();
-			if (info[0].fileType==FileInfo.GRAY12_UNSIGNED) {
-				imageSize = (int)(fi.width*fi.height*1.5);
+			int imageSize = fi.getWidth()*fi.getHeight()*fi.getBytesPerPixel();
+			if (info[0].getFileType()==FileInfo.GRAY12_UNSIGNED) {
+				imageSize = (int)(fi.getWidth()*fi.getHeight()*1.5);
 				if ((imageSize&1)==1) imageSize++; // add 1 if odd
-			} if (info[0].fileType==FileInfo.BITMAP) {
-				int scan=(int)Math.ceil(fi.width/8.0);
-				imageSize = scan*fi.height;
+			} if (info[0].getFileType()==FileInfo.BITMAP) {
+				int scan=(int)Math.ceil(fi.getWidth()/8.0);
+				imageSize = scan*fi.getHeight();
 			}
 			long loc = 0L;
 			int nChannels = 1;
@@ -822,11 +820,11 @@ public class Opener {
 						IJ.showProgress(1.0);
 						return null;
 					}
-					fi.stripOffsets = info[i].stripOffsets;
-					fi.stripLengths = info[i].stripLengths;
+					fi.setStripOffsets(info[i].getStripOffsets());
+					fi.setStripLengths(info[i].getStripLengths());
 					int bpp = info[i].getBytesPerPixel();
-					if (info[i].samplesPerPixel>1 && !(bpp==3||bpp==4||bpp==6)) {
-						nChannels = fi.samplesPerPixel;
+					if (info[i].getSamplesPerPixel()>1 && !(bpp==3||bpp==4||bpp==6)) {
+						nChannels = fi.getSamplesPerPixel();
 						channels = new Object[nChannels];
 						for (int c=0; c<nChannels; c++) {
 							pixels = reader.readPixels(is, c==0?skip:0L);
@@ -838,13 +836,13 @@ public class Opener {
 					loc += imageSize*nChannels+skip;
 					if (i<(info.length-1)) {
 						skip = info[i+1].getOffset()-loc;
-						if (info[i+1].compression>=FileInfo.LZW) skip = 0;
+						if (info[i+1].getCompression()>=FileInfo.LZW) skip = 0;
 						if (skip<0L) {
 							IJ.error("Opener", "Unexpected image offset");
 							break;
 						}
 					}
-					if (fi.fileType==FileInfo.RGB48) {
+					if (fi.getFileType()==FileInfo.RGB48) {
 						Object[] pixels2 = (Object[])pixels;
 						stack.addSlice(null, pixels2[0]);					
 						stack.addSlice(null, pixels2[1]);					
@@ -865,27 +863,27 @@ public class Opener {
 				IJ.handleException(e);
 			}
 			catch(OutOfMemoryError e) {
-				IJ.outOfMemory(fi.fileName);
+				IJ.outOfMemory(fi.getFileName());
 				stack.deleteLastSlice();
 				stack.deleteLastSlice();
 			}
 			IJ.showProgress(1.0);
 			if (stack.size()==0)
 				return null;
-			if (fi.fileType==FileInfo.GRAY16_UNSIGNED||fi.fileType==FileInfo.GRAY12_UNSIGNED
-			||fi.fileType==FileInfo.GRAY32_FLOAT||fi.fileType==FileInfo.RGB48) {
+			if (fi.getFileType()==FileInfo.GRAY16_UNSIGNED||fi.getFileType()==FileInfo.GRAY12_UNSIGNED
+			||fi.getFileType()==FileInfo.GRAY32_FLOAT||fi.getFileType()==FileInfo.RGB48) {
 				ImageProcessor ip = stack.getProcessor(1);
 				ip.resetMinAndMax();
 				stack.update(ip);
 			}
 			//if (fi.whiteIsZero)
 			//	new StackProcessor(stack, stack.getProcessor(1)).invert();
-			ImagePlus imp = new ImagePlus(fi.fileName, stack);
+			ImagePlus imp = new ImagePlus(fi.getFileName(), stack);
 			new FileOpener(fi).setCalibration(imp);
 			imp.setFileInfo(fi);
-			if (fi.info!=null)
-				imp.setProperty("Info", fi.info);
-			if (fi.description!=null && fi.description.contains("order=zct"))
+			if (fi.getInfo()!=null)
+				imp.setProperty("Info", fi.getInfo());
+			if (fi.getDescription()!=null && fi.getDescription().contains("order=zct"))
 				new HyperStackConverter().shuffle(imp, HyperStackConverter.ZCT);
 			int stackSize = stack.size();
 			if (nChannels>1 && (stackSize%nChannels)==0) {
@@ -932,20 +930,20 @@ public class Opener {
 		}
 		if (info==null) return null;
 		FileInfo fi = info[0];
-		if (info.length==1 && fi.nImages>1) {
-			if (n<1 || n>fi.nImages)
-				throw new IllegalArgumentException("N out of 1-"+fi.nImages+" range");
-			long size = fi.width*fi.height*fi.getBytesPerPixel();
-			fi.longOffset = fi.getOffset() + (n-1)*(size+fi.getGap());
-			fi.offset = 0;
-			fi.nImages = 1;
+		if (info.length==1 && fi.getnImages()>1) {
+			if (n<1 || n>fi.getnImages())
+				throw new IllegalArgumentException("N out of 1-"+fi.getnImages()+" range");
+			long size = fi.getWidth()*fi.getHeight()*fi.getBytesPerPixel();
+			fi.setLongOffset(fi.getOffset() + (n-1)*(size+fi.getGap()));
+			fi.setOffset(0);
+			fi.setnImages(1);
 		} else {
 			if (n<1 || n>info.length)
 				throw new IllegalArgumentException("N out of 1-"+info.length+" range");
-			fi.longOffset = info[n-1].getOffset();
-			fi.offset = 0;
-			fi.stripOffsets = info[n-1].stripOffsets; 
-			fi.stripLengths = info[n-1].stripLengths; 
+			fi.setLongOffset(info[n-1].getOffset());
+			fi.setOffset(0);
+			fi.setStripOffsets(info[n-1].getStripOffsets()); 
+			fi.setStripLengths(info[n-1].getStripLengths()); 
 		}
 		FileOpener fo = new FileOpener(fi);
 		return fo.openImage();
@@ -978,12 +976,12 @@ public class Opener {
 			IJ.error("Open TIFF", ""+e);
 			return null;
 		}
-		if (url!=null && info!=null && info.length==1 && info[0].inputStream!=null) {
+		if (url!=null && info!=null && info.length==1 && info[0].getInputStream()!=null) {
 			try {
-				info[0].inputStream.close();
+				info[0].getInputStream().close();
 			} catch (IOException e) {}
 			try {
-				info[0].inputStream = new URL(url).openStream();
+				info[0].setInputStream(new URL(url).openStream());
 			} catch (Exception e) {
 				IJ.error("Open TIFF", ""+e);
 				return null;
@@ -1036,11 +1034,11 @@ public class Opener {
 		File f = new File(path);
 		FileInfo fi = imp.getOriginalFileInfo();
 		if (fi!=null) {
-			fi.fileFormat = FileInfo.ZIP_ARCHIVE;
-			fi.fileName = f.getName();
+			fi.setFileFormat(FileInfo.ZIP_ARCHIVE);
+			fi.setFileName(f.getName());
 			String parent = f.getParent();
 			if (parent!=null)
-				fi.directory = parent+File.separator;
+				fi.setDirectory(parent+File.separator);
 		}
 		return imp;
 	}
@@ -1061,20 +1059,20 @@ public class Opener {
 		ImagePlus imp = opener.openImage();
 		if (imp==null)
 			return null;
-		imp.setTitle(info[0].fileName);
+		imp.setTitle(info[0].getFileName());
 		imp = makeComposite(imp, info[0]);
 		return imp;
    }
    
 	private ImagePlus makeComposite(ImagePlus imp, FileInfo fi) {
 		int c = imp.getNChannels();
-		boolean composite = c>1 && fi.description!=null && fi.description.indexOf("mode=")!=-1;
+		boolean composite = c>1 && fi.getDescription()!=null && fi.getDescription().indexOf("mode=")!=-1;
 		if (c>1 && (imp.getOpenAsHyperStack()||composite) && !imp.isComposite() && imp.getType()!=ImagePlus.COLOR_RGB) {
 			int mode = IJ.COLOR;
-			if (fi.description!=null) {
-				if (fi.description.indexOf("mode=composite")!=-1)
+			if (fi.getDescription()!=null) {
+				if (fi.getDescription().indexOf("mode=composite")!=-1)
 					mode = IJ.COMPOSITE;
-				else if (fi.description.indexOf("mode=gray")!=-1)
+				else if (fi.getDescription().indexOf("mode=gray")!=-1)
 					mode = IJ.GRAYSCALE;
 			}
 			imp = new CompositeImage(imp, mode);
@@ -1108,7 +1106,7 @@ public class Opener {
 			return null;
 		ImagePlus imp = null;
 		if (IJ.debugMode) // dump tiff tags
-			IJ.log(info[0].debugInfo);
+			IJ.log(info[0].getDebugInfo());
 		if (info.length>1) { // try to open as stack
 			imp = openTiffStack(info);
 			if (imp!=null)
@@ -1118,7 +1116,7 @@ public class Opener {
 		imp = fo.openImage();
 		if (imp==null)
 			return null;
-		int[] offsets = info[0].stripOffsets;
+		int[] offsets = info[0].getStripOffsets();
 		if (offsets!=null&&offsets.length>1) {
 			long firstOffset = (long)offsets[0]&0xffffffffL;
 			long lastOffset = (long)offsets[offsets.length-1]&0xffffffffL;
@@ -1387,25 +1385,25 @@ public class Opener {
 
 	/** Returns an IndexColorModel for the image specified by this FileInfo. */
 	ColorModel createColorModel(FileInfo fi) {
-		if (fi.lutSize>0)
-			return new IndexColorModel(8, fi.lutSize, fi.reds, fi.greens, fi.blues);
+		if (fi.getLutSize()>0)
+			return new IndexColorModel(8, fi.getLutSize(), fi.getReds(), fi.getGreens(), fi.getBlues());
 		else
-			return LookUpTable.createGrayscaleColorModel(fi.whiteIsZero);
+			return LookUpTable.createGrayscaleColorModel(fi.isWhiteIsZero());
 	}
 
 	/** Returns an InputStream for the image described by this FileInfo. */
 	InputStream createInputStream(FileInfo fi) throws IOException, MalformedURLException {
-		if (fi.inputStream!=null)
-			return fi.inputStream;
-		else if (fi.url!=null && !fi.url.equals(""))
-			return new URL(fi.url+fi.fileName).openStream();
+		if (fi.getInputStream()!=null)
+			return fi.getInputStream();
+		else if (fi.getUrl()!=null && !fi.getUrl().equals(""))
+			return new URL(fi.getUrl()+fi.getFileName()).openStream();
 		else {
 			File f = new File(fi.getFilePath());
 			if (f==null || f.isDirectory())
 				return null;
 			else {
 				InputStream is = new FileInputStream(f);
-				if (fi.compression>=FileInfo.LZW || (fi.stripOffsets!=null&&fi.stripOffsets.length>1))
+				if (fi.getCompression()>=FileInfo.LZW || (fi.getStripOffsets()!=null&&fi.getStripOffsets().length>1))
 					is = new RandomAccessStream(is);
 				return is;
 			}

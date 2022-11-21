@@ -76,8 +76,8 @@ public class CompositeImage extends ImagePlus {
 		setCalibration(imp.getCalibration());
 		FileInfo fi = imp.getOriginalFileInfo();
 		if (fi!=null) {
-			displayRanges = fi.displayRanges; 
-			channelLuts = fi.channelLuts;
+			displayRanges = fi.getDisplayRanges(); 
+			channelLuts = fi.getChannelLuts();
 		}
 		setFileInfo(fi);
 		Object info = imp.getProperty("Info");

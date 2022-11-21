@@ -42,17 +42,17 @@ public class FileSaver {
 	public boolean save() {
 		FileInfo ofi = null;
 		if (imp!=null) ofi = imp.getOriginalFileInfo();
-		boolean validName = ofi!=null && imp.getTitle().equals(ofi.fileName);
-		if (validName && ofi.fileFormat==FileInfo.TIFF && ofi.directory!=null && !ofi.directory.equals("") && (ofi.url==null||ofi.url.equals(""))) {
+		boolean validName = ofi!=null && imp.getTitle().equals(ofi.getFileName());
+		if (validName && ofi.getFileFormat()==FileInfo.TIFF && ofi.getDirectory()!=null && !ofi.getDirectory().equals("") && (ofi.getUrl()==null||ofi.getUrl().equals(""))) {
             name = imp.getTitle();
-            directory = ofi.directory;
+            directory = ofi.getDirectory();
 			String path = directory+name;
 			File f = new File(path);
 			if (f==null || !f.exists())
 				return saveAsTiff();
 			if (!IJ.isMacro()) {
 				GenericDialog gd = new GenericDialog("Save as TIFF");
-				gd.addMessage("\""+ofi.fileName+"\" already exists.\nDo you want to replace it?");
+				gd.addMessage("\""+ofi.getFileName()+"\" already exists.\nDo you want to replace it?");
 				gd.setOKLabel("Replace");
 				gd.showDialog();
 				if (gd.wasCanceled())
@@ -87,7 +87,7 @@ public class FileSaver {
 		String path = getPath("TIFF", ".tif");
 		if (path==null)
 			return false;
-		if (fi.nImages>1)
+		if (fi.getnImages()>1)
 			return saveAsTiffStack(path);
 		else
 			return saveAsTiff(path);
@@ -96,24 +96,24 @@ public class FileSaver {
 	/** Saves the image in TIFF format using the specified path. Equivalent to
 		 IJ.saveAsTiff(imp,path), which is more convenient. */
 	public boolean saveAsTiff(String path) {
-		if (fi.nImages>1)
+		if (fi.getnImages()>1)
 			return saveAsTiffStack(path);
 		if (imp.getProperty("FHT")!=null && path.contains("FFT of "))
 			setupFFTSave();
-		fi.info = imp.getInfoProperty();
+		fi.setInfo(imp.getInfoProperty());
 		String label = imp.hasImageStack()?imp.getStack().getSliceLabel(1):null;
 		if (label!=null) {
-			fi.sliceLabels = new String[1];
-			fi.sliceLabels[0] = label;
+			fi.setSliceLabels(new String[1]);
+			fi.getSliceLabels()[0] = label;
 		}
-		fi.description = getDescriptionString();
+		fi.setDescription(getDescriptionString());
 		if (imp.getProperty(Plot.PROPERTY_KEY) != null) {
 			Plot plot = (Plot)(imp.getProperty(Plot.PROPERTY_KEY));
-			fi.plot = plot.toByteArray();
+			fi.setPlot(plot.toByteArray());
 		}
-		fi.roi = RoiEncoder.saveAsByteArray(imp.getRoi());
-		fi.overlay = getOverlay(imp);
-		fi.properties = imp.getPropertiesAsArray();
+		fi.setRoi(RoiEncoder.saveAsByteArray(imp.getRoi()));
+		fi.setOverlay(getOverlay(imp));
+		fi.setProperties(imp.getPropertiesAsArray());
 		DataOutputStream out = null;
 		try {
 			TiffEncoder file = new TiffEncoder(fi);
@@ -174,18 +174,18 @@ public class FileSaver {
 	/** Saves the stack as a multi-image TIFF using the specified path.
 		 Equivalent to IJ.saveAsTiff(imp,path), which is more convenient. */
 	public boolean saveAsTiffStack(String path) {
-		if (fi.nImages==1) {
+		if (fi.getnImages()==1) {
 			error("This is not a stack");
 			return false;
 		}
 		boolean virtualStack = imp.getStack().isVirtual();
 		if (virtualStack)
-			fi.virtualStack = (VirtualStack)imp.getStack();
-		fi.info = imp.getInfoProperty();
-		fi.description = getDescriptionString();
+			fi.setVirtualStack((VirtualStack)imp.getStack());
+		fi.setInfo(imp.getInfoProperty());
+		fi.setDescription(getDescriptionString());
 		if (virtualStack) {
 			FileInfo ofi = imp.getOriginalFileInfo();
-			if (path!=null && ofi!=null && path.equals(ofi.directory+ofi.fileName)) {
+			if (path!=null && ofi!=null && path.equals(ofi.getDirectory()+ofi.getFileName())) {
 				error("TIFF virtual stacks cannot be saved in place.");
 				return false;
 			}
@@ -199,12 +199,12 @@ public class FileSaver {
 					labels = new String[vs.getSize()];
 				labels[i-1] = label;
 			}
-			fi.sliceLabels = labels;
+			fi.setSliceLabels(labels);
 		} else
-			fi.sliceLabels = imp.getStack().getSliceLabels();
-		fi.roi = RoiEncoder.saveAsByteArray(imp.getRoi());
-		fi.overlay = getOverlay(imp);
-		fi.properties = imp.getPropertiesAsArray();
+			fi.setSliceLabels(imp.getStack().getSliceLabels());
+		fi.setRoi(RoiEncoder.saveAsByteArray(imp.getRoi()));
+		fi.setOverlay(getOverlay(imp));
+		fi.setProperties(imp.getPropertiesAsArray());
 		if (imp.isComposite()) saveDisplayRangesAndLuts(imp, fi);
 		DataOutputStream out = null;
 		try {
@@ -228,17 +228,17 @@ public class FileSaver {
 	public byte[] serialize() {
 		if (imp.getStack().isVirtual())
 			return null;
-		fi.info = imp.getInfoProperty();
+		fi.setInfo(imp.getInfoProperty());
 		saveName = true;
-		fi.description = getDescriptionString();
+		fi.setDescription(getDescriptionString());
 		saveName = false;
-		fi.sliceLabels = imp.getStack().getSliceLabels();
+		fi.setSliceLabels(imp.getStack().getSliceLabels());
 		if (imp.getProperty(Plot.PROPERTY_KEY) != null) {
 			Plot plot = (Plot)(imp.getProperty(Plot.PROPERTY_KEY));
-			fi.plot = plot.toByteArray();
+			fi.setPlot(plot.toByteArray());
 		}
-		fi.roi = RoiEncoder.saveAsByteArray(imp.getRoi());
-		fi.overlay = getOverlay(imp);
+		fi.setRoi(RoiEncoder.saveAsByteArray(imp.getRoi()));
+		fi.setOverlay(getOverlay(imp));
 		if (imp.isComposite()) saveDisplayRangesAndLuts(imp, fi);
 		ByteArrayOutputStream out = null;
 		try {
@@ -258,20 +258,20 @@ public class FileSaver {
 	public void saveDisplayRangesAndLuts(ImagePlus imp, FileInfo fi) {
 		CompositeImage ci = (CompositeImage)imp;
 		int channels = imp.getNChannels();
-		fi.displayRanges = new double[channels*2];
+		fi.setDisplayRanges(new double[channels*2]);
 		for (int i=1; i<=channels; i++) {
 			LUT lut = ci.getChannelLut(i);
-			fi.displayRanges[(i-1)*2] = lut.min;
-			fi.displayRanges[(i-1)*2+1] = lut.max;
+			fi.getDisplayRanges()[(i-1)*2] = lut.min;
+			fi.getDisplayRanges()[(i-1)*2+1] = lut.max;
 		}
 		if (ci.hasCustomLuts()) {
-			fi.channelLuts = new byte[channels][];
+			fi.setChannelLuts(new byte[channels][]);
 			for (int i=0; i<channels; i++) {
 				LUT lut = ci.getChannelLut(i+1);
 				byte[] bytes = lut.getBytes();
 				if (bytes==null)
-					{fi.channelLuts=null; break;}
-				fi.channelLuts[i] = bytes;
+					{break;}
+				fi.getChannelLuts()[i] = bytes;
 			}
 		}	
 	}
@@ -298,19 +298,19 @@ public class FileSaver {
 			name = name.substring(0,name.length()-4);
 		if (!name.endsWith(".tif"))
 			name = name+".tif";
-		fi.description = getDescriptionString();
-		fi.info = imp.getInfoProperty();
-		fi.properties = imp.getPropertiesAsArray();
+		fi.setDescription(getDescriptionString());
+		fi.setInfo(imp.getInfoProperty());
+		fi.setProperties(imp.getPropertiesAsArray());
 		if (imp.getProperty(Plot.PROPERTY_KEY) != null) {
 			Plot plot = (Plot)(imp.getProperty(Plot.PROPERTY_KEY));
-			fi.plot = plot.toByteArray();
+			fi.setPlot(plot.toByteArray());
 		}
-		fi.roi = RoiEncoder.saveAsByteArray(imp.getRoi());
-		fi.overlay = getOverlay(imp);
-		fi.sliceLabels = imp.getStack().getSliceLabels();
+		fi.setRoi(RoiEncoder.saveAsByteArray(imp.getRoi()));
+		fi.setOverlay(getOverlay(imp));
+		fi.setSliceLabels(imp.getStack().getSliceLabels());
 		if (imp.isComposite()) saveDisplayRangesAndLuts(imp, fi);
-		if (fi.nImages>1 && imp.getStack().isVirtual())
-			fi.virtualStack = (VirtualStack)imp.getStack();
+		if (fi.getnImages()>1 && imp.getStack().isVirtual())
+		fi.setVirtualStack((VirtualStack)imp.getStack());
 		DataOutputStream out = null;
 		try {
 			ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(path));
@@ -485,8 +485,8 @@ public class FileSaver {
 	
 	/** Save the image as raw data using the specified path. */
 	public boolean saveAsRaw(String path) {
-		fi.nImages = 1;
-		fi.intelByteOrder = Prefs.intelByteOrder;
+		fi.setnImages(1);
+		fi.setIntelByteOrder(Prefs.intelByteOrder);
 		boolean signed16Bit = false;
 		short[] pixels = null;
 		int n = 0;
@@ -521,24 +521,24 @@ public class FileSaver {
 
 	/** Save the stack as raw data using the specified path. */
 	public boolean saveAsRawStack(String path) {
-		if (fi.nImages==1)
+		if (fi.getnImages()==1)
 			{IJ.log("This is not a stack"); return false;}
-		fi.intelByteOrder = Prefs.intelByteOrder;
+		fi.setIntelByteOrder(Prefs.intelByteOrder);
 		boolean signed16Bit = false;
 		Object[] stack = null;
 		int n = 0;
 		boolean virtualStack = imp.getStackSize()>1 && imp.getStack().isVirtual();
 		if (virtualStack) {
-			fi.virtualStack = (VirtualStack)imp.getStack();
-			if (imp.getProperty("AnalyzeFormat")!=null) fi.fileName="FlipTheseImages";
+			fi.setVirtualStack((VirtualStack)imp.getStack());
+			if (imp.getProperty("AnalyzeFormat")!=null) fi.setFileName("FlipTheseImages");
 		}
 		OutputStream out = null;
 		try {
 			signed16Bit = imp.getCalibration().isSigned16Bit();
 			if (signed16Bit && !virtualStack) {
-				stack = (Object[])fi.pixels;
+				stack = (Object[])fi.getPixels();
 				n = imp.getWidth()*imp.getHeight();
-				for (int slice=0; slice<fi.nImages; slice++) {
+				for (int slice=0; slice<fi.getnImages(); slice++) {
 					short[] pixels = (short[])stack[slice];
 					for (int i=0; i<n; i++)
 						pixels[i] = (short)(pixels[i]-32768);
@@ -556,7 +556,7 @@ public class FileSaver {
 				try {out.close();} catch (IOException e) {}
 		}
 		if (signed16Bit) {
-			for (int slice=0; slice<fi.nImages; slice++) {
+			for (int slice=0; slice<fi.getnImages(); slice++) {
 				short[] pixels = (short[])stack[slice];
 				for (int i=0; i<n; i++)
 					pixels[i] = (short)(pixels[i]+32768);
@@ -634,9 +634,9 @@ public class FileSaver {
 			pixels[i+512] = blues[i];
 		}
 		FileInfo fi = new FileInfo();
-		fi.width = 768;
-		fi.height = 1;
-		fi.pixels = pixels;
+		fi.setWidth(768);
+		fi.setHeight(1);
+		fi.setPixels(pixels);
 
 		OutputStream out = null;
 		try {
@@ -669,24 +669,23 @@ public class FileSaver {
 	private void updateImp(FileInfo fi, int fileFormat) {
 		imp.changes = false;
 		if (name!=null) {
-			fi.fileFormat = fileFormat;
+			fi.setFileFormat(fileFormat);
 			FileInfo ofi = imp.getOriginalFileInfo();
 			if (ofi!=null) {
-				if (ofi.openNextName==null) {
-					fi.openNextName = ofi.fileName;
-					fi.openNextDir = ofi.directory;
+				if (ofi.getOpenNextName()==null) {
+					fi.setOpenNextName(ofi.getFileName());
+					fi.setOpenNextDir(ofi.getDirectory());
 				} else {
-					fi.openNextName = ofi.openNextName;
-					fi.openNextDir = ofi.openNextDir ;
+					fi.setOpenNextName(ofi.getOpenNextName());
+					fi.setOpenNextDir(ofi.getOpenNextDir());
 				}
 			}
-			fi.fileName = name;
-			fi.directory = directory;
+			fi.setFileName(name);
+			fi.setDirectory(directory);
 			//if (fileFormat==fi.TIFF)
 			//	fi.offset = TiffEncoder.IMAGE_START;
-			fi.description = null;
 			imp.setTitle(name);
-			fi.imageSaved = true;
+			fi.setImageSaved(true);
 			imp.setFileInfo(fi);
 		}
 	}
@@ -709,8 +708,8 @@ public class FileSaver {
 		Calibration cal = imp.getCalibration();
 		StringBuffer sb = new StringBuffer(100);
 		sb.append("ImageJ="+ImageJ.VERSION+"\n");
-		if (fi.nImages>1 && fi.fileType!=FileInfo.RGB48)
-			sb.append("images="+fi.nImages+"\n");
+		if (fi.getnImages()>1 && fi.getFileType()!=FileInfo.RGB48)
+			sb.append("images="+fi.getnImages()+"\n");
 		int channels = imp.getNChannels();
 		if (channels>1)
 			sb.append("channels="+channels+"\n");
@@ -725,18 +724,18 @@ public class FileSaver {
 			String mode = ((CompositeImage)imp).getModeAsString();
 			sb.append("mode="+mode+"\n");
 		}
-		if (fi.unit!=null)
-			appendEscapedLine(sb, "unit="+fi.unit);
+		if (fi.getUnit()!=null)
+			appendEscapedLine(sb, "unit="+fi.getUnit());
 		int bitDepth = imp.getBitDepth();
-		if (fi.valueUnit!=null && (fi.calibrationFunction!=Calibration.CUSTOM||bitDepth==32)) {
+		if (fi.getValueUnit()!=null && (fi.getCalibrationFunction()!=Calibration.CUSTOM||bitDepth==32)) {
 			if (bitDepth!=32) {
-				sb.append("cf="+fi.calibrationFunction+"\n");
-				if (fi.coefficients!=null) {
-					for (int i=0; i<fi.coefficients.length; i++)
-						sb.append("c"+i+"="+fi.coefficients[i]+"\n");
+				sb.append("cf="+fi.getCalibrationFunction()+"\n");
+				if (fi.getCoefficients()!=null) {
+					for (int i=0; i<fi.getCoefficients().length; i++)
+						sb.append("c"+i+"="+fi.getCoefficients()[i]+"\n");
 				}
 			}
-			appendEscapedLine(sb, "vunit="+fi.valueUnit);
+			appendEscapedLine(sb, "vunit="+fi.getValueUnit());
 			if (cal.zeroClip() && bitDepth!=32)
 				sb.append("zeroclip=true\n");
 		}
@@ -753,9 +752,9 @@ public class FileSaver {
 			appendEscapedLine(sb, "yunit="+cal.getYUnit());
 		if (!cal.getZUnit().equals(cal.getUnit()))
 			appendEscapedLine(sb, "zunit="+cal.getZUnit());
-		if (fi.nImages>1) {
-			if (fi.pixelDepth!=1.0)
-				sb.append("spacing="+fi.pixelDepth+"\n");
+		if (fi.getnImages()>1) {
+			if (fi.getPixelDepth()!=1.0)
+				sb.append("spacing="+fi.getPixelDepth()+"\n");
 			if (cal.fps!=0.0) {
 				if ((int)cal.fps==cal.fps)
 					sb.append("fps="+(int)cal.fps+"\n");

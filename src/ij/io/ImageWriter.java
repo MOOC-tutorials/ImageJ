@@ -20,7 +20,7 @@ public class ImageWriter {
 	
 	void write8BitImage(OutputStream out, byte[] pixels)  throws IOException {
 		int bytesWritten = 0;
-		int size = fi.width*fi.height;
+		int size = fi.getWidth()*fi.getHeight();
 		int count = getCount(size);
 		while (bytesWritten<size) {
 			if ((bytesWritten + count)>size)
@@ -35,29 +35,29 @@ public class ImageWriter {
 	void write8BitStack(OutputStream out, Object[] stack)  throws IOException {
 		showProgressBar = false;
 		savingStack = true;
-		for (int i=0; i<fi.nImages; i++) {
-			IJ.showStatus("Writing: " + (i+1) + "/" + fi.nImages);
+		for (int i=0; i<fi.getnImages(); i++) {
+			IJ.showStatus("Writing: " + (i+1) + "/" + fi.getnImages());
 			write8BitImage(out, (byte[])stack[i]);
-			IJ.showProgress((double)(i+1)/fi.nImages);
+			IJ.showProgress((double)(i+1)/fi.getnImages());
 		}
 	}
 
 	void write8BitVirtualStack(OutputStream out, VirtualStack virtualStack)  throws IOException {
 		showProgressBar = false;
-		boolean flip = "FlipTheseImages".equals(fi.fileName);
-		for (int i=1; i<=fi.nImages; i++) {
-			IJ.showStatus("Writing: " + i + "/" + fi.nImages);
+		boolean flip = "FlipTheseImages".equals(fi.getFileName());
+		for (int i=1; i<=fi.getnImages(); i++) {
+			IJ.showStatus("Writing: " + i + "/" + fi.getnImages());
 			ImageProcessor ip = virtualStack.getProcessor(i);
 			if (flip) ip.flipVertical();
 			byte[] pixels = (byte[])ip.getPixels();
 			write8BitImage(out, pixels);
-			IJ.showProgress((double)i/fi.nImages);
+			IJ.showProgress((double)i/fi.getnImages());
 		}
 	}
 
 	void write16BitImage(OutputStream out, short[] pixels)  throws IOException {
 		long bytesWritten = 0L;
-		long size = 2L*fi.width*fi.height;
+		long size = 2L*fi.getWidth()*fi.getHeight();
 		int count = getCount(size);
 		byte[] buffer = new byte[count];
 
@@ -66,7 +66,7 @@ public class ImageWriter {
 				count = (int)(size-bytesWritten);
 			int j = (int)(bytesWritten/2L);
 			int value;
-			if (fi.intelByteOrder)
+			if (fi.isIntelByteOrder())
 				for (int i=0; i < count; i+=2) {
 					value = pixels[j];
 					buffer[i] = (byte)value;
@@ -88,23 +88,23 @@ public class ImageWriter {
 	
 	void write16BitStack(OutputStream out, Object[] stack)  throws IOException {
 		showProgressBar = false;
-		for (int i=0; i<fi.nImages; i++) {
-			IJ.showStatus("Writing: " + (i+1) + "/" + fi.nImages);
+		for (int i=0; i<fi.getnImages(); i++) {
+			IJ.showStatus("Writing: " + (i+1) + "/" + fi.getnImages());
 			write16BitImage(out, (short[])stack[i]);
-			IJ.showProgress((double)(i+1)/fi.nImages);
+			IJ.showProgress((double)(i+1)/fi.getnImages());
 		}
 	}
 
 	void write16BitVirtualStack(OutputStream out, VirtualStack virtualStack)  throws IOException {
 		showProgressBar = false;
-		boolean flip = "FlipTheseImages".equals(fi.fileName);
-		for (int i=1; i<=fi.nImages; i++) {
-			IJ.showStatus("Writing: " + i + "/" + fi.nImages);
+		boolean flip = "FlipTheseImages".equals(fi.getFileName());
+		for (int i=1; i<=fi.getnImages(); i++) {
+			IJ.showStatus("Writing: " + i + "/" + fi.getnImages());
 			ImageProcessor ip = virtualStack.getProcessor(i);
 			if (flip) ip.flipVertical();
 			short[] pixels = (short[])ip.getPixels();
 			write16BitImage(out, pixels);
-			IJ.showProgress((double)i/fi.nImages);
+			IJ.showProgress((double)i/fi.getnImages());
 		}
 	}
 
@@ -112,15 +112,15 @@ public class ImageWriter {
 		short[] r = (short[])stack[0];
 		short[] g = (short[])stack[1];
 		short[] b = (short[])stack[2];
-		int size = fi.width*fi.height;
-		int count = fi.width*6;
+		int size = fi.getWidth()*fi.getHeight();
+		int count = fi.getWidth()*6;
 		byte[] buffer = new byte[count];
-		for (int line=0; line<fi.height; line++) {
+		for (int line=0; line<fi.getHeight(); line++) {
 			int index2 = 0;
-			int index1 = line*fi.width;
+			int index1 = line*fi.getWidth();
 			int value;
-			if (fi.intelByteOrder) {
-				for (int i=0; i<fi.width; i++) {
+			if (fi.isIntelByteOrder()) {
+				for (int i=0; i<fi.getWidth(); i++) {
 					value = r[index1];
 					buffer[index2++] = (byte)value;
 					buffer[index2++] = (byte)(value>>>8);
@@ -133,7 +133,7 @@ public class ImageWriter {
 					index1++;
 				}
 			} else {
-				for (int i=0; i<fi.width; i++) {
+				for (int i=0; i<fi.getWidth(); i++) {
 					value = r[index1];
 					buffer[index2++] = (byte)(value>>>8);
 					buffer[index2++] = (byte)value;
@@ -152,7 +152,7 @@ public class ImageWriter {
 
 	void writeFloatImage(OutputStream out, float[] pixels)  throws IOException {
 		long bytesWritten = 0L;
-		long size = 4L*fi.width*fi.height;
+		long size = 4L*fi.getWidth()*fi.getHeight();
 		int count = getCount(size);
 		byte[] buffer = new byte[count];
 		int tmp;
@@ -161,7 +161,7 @@ public class ImageWriter {
 			if ((bytesWritten + count)>size)
 				count = (int)(size-bytesWritten);
 			int j = (int)(bytesWritten/4L);
-			if (fi.intelByteOrder)
+			if (fi.isIntelByteOrder())
 				for (int i=0; i < count; i+=4) {
 					tmp = Float.floatToRawIntBits(pixels[j]);
 					buffer[i]   = (byte)tmp;
@@ -200,30 +200,30 @@ public class ImageWriter {
 	
 	void writeFloatStack(OutputStream out, Object[] stack)  throws IOException {
 		showProgressBar = false;
-		for (int i=0; i<fi.nImages; i++) {
-			IJ.showStatus("Writing: " + (i+1) + "/" + fi.nImages);
+		for (int i=0; i<fi.getnImages(); i++) {
+			IJ.showStatus("Writing: " + (i+1) + "/" + fi.getnImages());
 			writeFloatImage(out, (float[])stack[i]);
-			IJ.showProgress((double)(i+1)/fi.nImages);
+			IJ.showProgress((double)(i+1)/fi.getnImages());
 		}
 	}
 
 	void writeFloatVirtualStack(OutputStream out, VirtualStack virtualStack)  throws IOException {
 		showProgressBar = false;
-		boolean flip = "FlipTheseImages".equals(fi.fileName);
-		for (int i=1; i<=fi.nImages; i++) {
-			IJ.showStatus("Writing: " + i + "/" + fi.nImages);
+		boolean flip = "FlipTheseImages".equals(fi.getFileName());
+		for (int i=1; i<=fi.getnImages(); i++) {
+			IJ.showStatus("Writing: " + i + "/" + fi.getnImages());
 			ImageProcessor ip = virtualStack.getProcessor(i);
 			if (flip) ip.flipVertical();
 			float[] pixels = (float[])ip.getPixels();
 			writeFloatImage(out, pixels);
-			IJ.showProgress((double)i/fi.nImages);
+			IJ.showProgress((double)i/fi.getnImages());
 		}
 	}
 
 	void writeRGBImage(OutputStream out, int[] pixels)  throws IOException {
 		long bytesWritten = 0L;
-		long size = 3L*fi.width*fi.height;
-		int count = fi.width*24;
+		long size = 3L*fi.getWidth()*fi.getHeight();
+		int count = fi.getWidth()*24;
 		byte[] buffer = new byte[count];
 		while (bytesWritten<size) {
 			if ((bytesWritten+count)>size)
@@ -243,76 +243,76 @@ public class ImageWriter {
 	
 	void writeRGBStack(OutputStream out, Object[] stack)  throws IOException {
 		showProgressBar = false;
-		for (int i=0; i<fi.nImages; i++) {
-			IJ.showStatus("Writing: " + (i+1) + "/" + fi.nImages);
+		for (int i=0; i<fi.getnImages(); i++) {
+			IJ.showStatus("Writing: " + (i+1) + "/" + fi.getnImages());
 			writeRGBImage(out, (int[])stack[i]);
-			IJ.showProgress((double)(i+1)/fi.nImages);
+			IJ.showProgress((double)(i+1)/fi.getnImages());
 		}
 	}
 
 	void writeRGBVirtualStack(OutputStream out, VirtualStack virtualStack)  throws IOException {
 		showProgressBar = false;
-		boolean flip = "FlipTheseImages".equals(fi.fileName);
-		for (int i=1; i<=fi.nImages; i++) {
-			IJ.showStatus("Writing: " + i + "/" + fi.nImages);
+		boolean flip = "FlipTheseImages".equals(fi.getFileName());
+		for (int i=1; i<=fi.getnImages(); i++) {
+			IJ.showStatus("Writing: " + i + "/" + fi.getnImages());
 			ImageProcessor ip = virtualStack.getProcessor(i);
 			if (flip) ip.flipVertical();
 			int[] pixels = (int[])ip.getPixels();
 			writeRGBImage(out, pixels);
-			IJ.showProgress((double)i/fi.nImages);
+			IJ.showProgress((double)i/fi.getnImages());
 		}
 	}
 
 	/** Writes the image to the specified OutputStream.
-		The OutputStream is not closed. The fi.pixels field
-		must contain the image data. If fi.nImages>1
-		then fi.pixels must be a 2D array, for example an
+		The OutputStream is not closed. The fi.getPixels() field
+		must contain the image data. If fi.getnImages()>1
+		then fi.getPixels() must be a 2D array, for example an
  		array of images returned by ImageStack.getImageArray()).
  		The fi.offset field is ignored. */
 	public void write(OutputStream out) throws IOException {
-		if (fi.pixels==null && fi.virtualStack==null)
-				throw new IOException("ImageWriter: fi.pixels==null");
-		if (fi.nImages>1 && fi.virtualStack==null && !(fi.pixels instanceof Object[]))
-				throw new IOException("ImageWriter: fi.pixels not a stack");
-		if (fi.width*fi.height*fi.getBytesPerPixel()<26214400)
+		if (fi.getPixels()==null && fi.getVirtualStack()==null)
+				throw new IOException("ImageWriter: fi.getPixels()==null");
+		if (fi.getnImages()>1 && fi.getVirtualStack()==null && !(fi.getPixels() instanceof Object[]))
+				throw new IOException("ImageWriter: fi.getPixels() not a stack");
+		if (fi.getWidth()*fi.getHeight()*fi.getBytesPerPixel()<26214400)
 			showProgressBar = false; // don't show progress bar if image<25MB
-		switch (fi.fileType) {
+		switch (fi.getFileType()) {
 			case FileInfo.GRAY8:
 			case FileInfo.COLOR8:
-				if (fi.nImages>1 && fi.virtualStack!=null)
-					write8BitVirtualStack(out, fi.virtualStack);
-				else if (fi.nImages>1)
-					write8BitStack(out, (Object[])fi.pixels);
+				if (fi.getnImages()>1 && fi.getVirtualStack()!=null)
+					write8BitVirtualStack(out, fi.getVirtualStack());
+				else if (fi.getnImages()>1)
+					write8BitStack(out, (Object[])fi.getPixels());
 				else
-					write8BitImage(out, (byte[])fi.pixels);
+					write8BitImage(out, (byte[])fi.getPixels());
 				break;
 			case FileInfo.GRAY16_SIGNED:
 			case FileInfo.GRAY16_UNSIGNED:
-				if (fi.nImages>1 && fi.virtualStack!=null)
-					write16BitVirtualStack(out, fi.virtualStack);
-				else if (fi.nImages>1)
-					write16BitStack(out, (Object[])fi.pixels);
+				if (fi.getnImages()>1 && fi.getVirtualStack()!=null)
+					write16BitVirtualStack(out, fi.getVirtualStack());
+				else if (fi.getnImages()>1)
+					write16BitStack(out, (Object[])fi.getPixels());
 				else
-					write16BitImage(out, (short[])fi.pixels);
+					write16BitImage(out, (short[])fi.getPixels());
 				break;
 			case FileInfo.RGB48:
-				writeRGB48Image(out, (Object[])fi.pixels);
+				writeRGB48Image(out, (Object[])fi.getPixels());
 				break;
 			case FileInfo.GRAY32_FLOAT:
-				if (fi.nImages>1 && fi.virtualStack!=null)
-					writeFloatVirtualStack(out, fi.virtualStack);
-				else if (fi.nImages>1)
-					writeFloatStack(out, (Object[])fi.pixels);
+				if (fi.getnImages()>1 && fi.getVirtualStack()!=null)
+					writeFloatVirtualStack(out, fi.getVirtualStack());
+				else if (fi.getnImages()>1)
+					writeFloatStack(out, (Object[])fi.getPixels());
 				else
-					writeFloatImage(out, (float[])fi.pixels);
+					writeFloatImage(out, (float[])fi.getPixels());
 				break;
 			case FileInfo.RGB:
-				if (fi.nImages>1 && fi.virtualStack!=null)
-					writeRGBVirtualStack(out, fi.virtualStack);
-				else if (fi.nImages>1)
-					writeRGBStack(out, (Object[])fi.pixels);
+				if (fi.getnImages()>1 && fi.getVirtualStack()!=null)
+					writeRGBVirtualStack(out, fi.getVirtualStack());
+				else if (fi.getnImages()>1)
+					writeRGBStack(out, (Object[])fi.getPixels());
 				else
-					writeRGBImage(out, (int[])fi.pixels);
+					writeRGBImage(out, (int[])fi.getPixels());
 				break;
 			default:
 		}

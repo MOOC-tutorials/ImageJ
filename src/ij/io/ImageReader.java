@@ -33,8 +33,8 @@ public class ImageReader {
 	*/
 	public ImageReader (FileInfo fi) {
 		this.fi = fi;
-	    width = fi.width;
-	    height = fi.height;
+	    width = fi.getWidth();
+	    height = fi.getHeight();
 	    skipCount = fi.getOffset();
 	}
 	
@@ -43,7 +43,7 @@ public class ImageReader {
 	}
 	
 	byte[] read8bitImage(InputStream in) throws IOException {
-		if (fi.compression>FileInfo.COMPRESSION_NONE)
+		if (fi.getCompression()>FileInfo.COMPRESSION_NONE)
 			return readCompressed8bitImage(in);
 		byte[] pixels = new byte[nPixels];
 		// assume contiguous strips
@@ -66,14 +66,14 @@ public class ImageReader {
 		byte[] pixels = new byte[nPixels];
 		int current = 0;
 		byte last = 0;
-		for (int i=0; i<fi.stripOffsets.length; i++) {
+		for (int i=0; i<fi.getStripOffsets().length; i++) {
 			if (in instanceof RandomAccessStream)
-				((RandomAccessStream)in).seek(fi.stripOffsets[i]);
+				((RandomAccessStream)in).seek(fi.getStripOffsets()[i]);
 			else if (i > 0) {
-				long skip = (fi.stripOffsets[i]&0xffffffffL) - (fi.stripOffsets[i-1]&0xffffffffL) - fi.stripLengths[i-1];
+				long skip = (fi.getStripOffsets()[i]&0xffffffffL) - (fi.getStripOffsets()[i-1]&0xffffffffL) - fi.getStripLengths()[i-1];
 				if (skip > 0L) in.skip(skip);
 			}
-			byte[] byteArray = new byte[fi.stripLengths[i]];
+			byte[] byteArray = new byte[fi.getStripLengths()[i]];
 			int read = 0, left = byteArray.length;
 			while (left > 0) {
 				int r = in.read(byteArray, read, left);
@@ -83,25 +83,25 @@ public class ImageReader {
 			}
 			byteArray = uncompress(byteArray);
 			int length = byteArray.length;
-			length = length - (length%fi.width);
-			if (fi.compression==FileInfo.LZW_WITH_DIFFERENCING) {
+			length = length - (length%fi.getWidth());
+			if (fi.getCompression()==FileInfo.LZW_WITH_DIFFERENCING) {
 				for (int b=0; b<length; b++) {
 					byteArray[b] += last;
-					last = b % fi.width == fi.width - 1 ? 0 : byteArray[b];
+					last = b % fi.getWidth() == fi.getWidth() - 1 ? 0 : byteArray[b];
 				}
 			}
 			if (current+length>pixels.length)
 				length = pixels.length-current;
 			System.arraycopy(byteArray, 0, pixels, current, length);
 			current += length;
-			showProgress(i+1, fi.stripOffsets.length);
+			showProgress(i+1, fi.getStripOffsets().length);
 		}
 		return pixels;
 	}
 	
 	/** Reads a 16-bit image. Signed pixels are converted to unsigned by adding 32768. */
 	short[] read16bitImage(InputStream in) throws IOException {
-		if (fi.compression>FileInfo.COMPRESSION_NONE || (fi.stripOffsets!=null&&fi.stripOffsets.length>1) && fi.fileType!=FileInfo.RGB48_PLANAR)
+		if (fi.getCompression()>FileInfo.COMPRESSION_NONE || (fi.getStripOffsets()!=null&&fi.getStripOffsets().length>1) && fi.getFileType()!=FileInfo.RGB48_PLANAR)
 			return readCompressed16bitImage(in);
 		int pixelsRead;
 		byte[] buffer = new byte[bufferSize];
@@ -128,15 +128,15 @@ public class ImageReader {
 			totalRead += bufferSize;
 			showProgress(totalRead, byteCount);
 			pixelsRead = bufferSize/bytesPerPixel;
-			if (fi.intelByteOrder) {
-				if (fi.fileType==FileInfo.GRAY16_SIGNED)
+			if (fi.isIntelByteOrder()) {
+				if (fi.getFileType()==FileInfo.GRAY16_SIGNED)
 					for (int i=base,j=0; i<(base+pixelsRead); i++,j+=2)
 						pixels[i] = (short)((((buffer[j+1]&0xff)<<8) | (buffer[j]&0xff))+32768);
 				else
 					for (int i=base,j=0; i<(base+pixelsRead); i++,j+=2)
 						pixels[i] = (short)(((buffer[j+1]&0xff)<<8) | (buffer[j]&0xff));
 			} else {
-				if (fi.fileType==FileInfo.GRAY16_SIGNED)
+				if (fi.getFileType()==FileInfo.GRAY16_SIGNED)
 					for (int i=base,j=0; i<(base+pixelsRead); i++,j+=2)
 						pixels[i] = (short)((((buffer[j]&0xff)<<8) | (buffer[j+1]&0xff))+32768);
 				else
@@ -149,19 +149,19 @@ public class ImageReader {
 	}
 	
 	short[] readCompressed16bitImage(InputStream in) throws IOException {
-		if (IJ.debugMode) IJ.log("ImageReader.read16bit, offset="+fi.stripOffsets[0]);
+		if (IJ.debugMode) IJ.log("ImageReader.read16bit, offset="+fi.getStripOffsets()[0]);
 		short[] pixels = new short[nPixels];
 		int base = 0;
 		short last = 0;
-		for (int k=0; k<fi.stripOffsets.length; k++) {
-			//IJ.log("seek: "+k+" "+fi.stripOffsets[k]+" "+fi.stripLengths[k]+"  "+(in instanceof RandomAccessStream));
+		for (int k=0; k<fi.getStripOffsets().length; k++) {
+			//IJ.log("seek: "+k+" "+fi.getStripOffsets()[k]+" "+fi.getStripLengths()[k]+"  "+(in instanceof RandomAccessStream));
 			if (in instanceof RandomAccessStream)
-				((RandomAccessStream)in).seek(fi.stripOffsets[k]);
+				((RandomAccessStream)in).seek(fi.getStripOffsets()[k]);
 			else if (k > 0) {
-				long skip = (fi.stripOffsets[k]&0xffffffffL) - (fi.stripOffsets[k-1]&0xffffffffL) - fi.stripLengths[k-1];
+				long skip = (fi.getStripOffsets()[k]&0xffffffffL) - (fi.getStripOffsets()[k-1]&0xffffffffL) - fi.getStripLengths()[k-1];
 				if (skip > 0L) in.skip(skip);
 			}
-			byte[] byteArray = new byte[fi.stripLengths[k]];
+			byte[] byteArray = new byte[fi.getStripLengths()[k]];
 			int read = 0, left = byteArray.length;
 			while (left > 0) {
 				int r = in.read(byteArray, read, left);
@@ -171,26 +171,26 @@ public class ImageReader {
 			}
 			byteArray = uncompress(byteArray);
 			int pixelsRead = byteArray.length/bytesPerPixel;
-			pixelsRead = pixelsRead - (pixelsRead%fi.width);
+			pixelsRead = pixelsRead - (pixelsRead%fi.getWidth());
 			int pmax = base+pixelsRead;
 			if (pmax > nPixels) pmax = nPixels;
-			if (fi.intelByteOrder) {
+			if (fi.isIntelByteOrder()) {
 				for (int i=base,j=0; i<pmax; i++,j+=2)
 					pixels[i] = (short)(((byteArray[j+1]&0xff)<<8) | (byteArray[j]&0xff));
 			} else {
 				for (int i=base,j=0; i<pmax; i++,j+=2)
 					pixels[i] = (short)(((byteArray[j]&0xff)<<8) | (byteArray[j+1]&0xff));
 			}
-			if (fi.compression==FileInfo.LZW_WITH_DIFFERENCING) {
+			if (fi.getCompression()==FileInfo.LZW_WITH_DIFFERENCING) {
 				for (int b=base; b<pmax; b++) {
 					pixels[b] += last;
-					last = b % fi.width == fi.width - 1 ? 0 : pixels[b];
+					last = b % fi.getWidth() == fi.getWidth() - 1 ? 0 : pixels[b];
 				}
 			}
 			base += pixelsRead;
-			showProgress(k+1, fi.stripOffsets.length);
+			showProgress(k+1, fi.getStripOffsets().length);
 		}
-		if (fi.fileType==FileInfo.GRAY16_SIGNED) {
+		if (fi.getFileType()==FileInfo.GRAY16_SIGNED) {
 			// convert to unsigned
 			for (int i=0; i<nPixels; i++)
 				pixels[i] = (short)(pixels[i]+32768);
@@ -199,7 +199,7 @@ public class ImageReader {
 	}
 
 	float[] read32bitImage(InputStream in) throws IOException {
-		if (fi.compression>FileInfo.COMPRESSION_NONE || (fi.stripOffsets!=null&&fi.stripOffsets.length>1))
+		if (fi.getCompression()>FileInfo.COMPRESSION_NONE || (fi.getStripOffsets()!=null&&fi.getStripOffsets().length>1))
 			return readCompressed32bitImage(in);
 		int pixelsRead;
 		byte[] buffer = new byte[bufferSize];
@@ -230,12 +230,12 @@ public class ImageReader {
 			int pmax = base+pixelsRead;
 			if (pmax>nPixels) pmax = nPixels;
 			int j = 0;
-			if (fi.intelByteOrder)
+			if (fi.isIntelByteOrder())
 				for (int i=base; i<pmax; i++) {
 					tmp = (int)(((buffer[j+3]&0xff)<<24) | ((buffer[j+2]&0xff)<<16) | ((buffer[j+1]&0xff)<<8) | (buffer[j]&0xff));
-					if (fi.fileType==FileInfo.GRAY32_FLOAT)
+					if (fi.getFileType()==FileInfo.GRAY32_FLOAT)
 						pixels[i] = Float.intBitsToFloat(tmp);
-					else if (fi.fileType==FileInfo.GRAY32_UNSIGNED)
+					else if (fi.getFileType()==FileInfo.GRAY32_UNSIGNED)
 						pixels[i] = (float)(tmp&0xffffffffL);
 					else
 						pixels[i] = tmp;
@@ -244,9 +244,9 @@ public class ImageReader {
 			else
 				for (int i=base; i<pmax; i++) {
 					tmp = (int)(((buffer[j]&0xff)<<24) | ((buffer[j+1]&0xff)<<16) | ((buffer[j+2]&0xff)<<8) | (buffer[j+3]&0xff));
-					if (fi.fileType==FileInfo.GRAY32_FLOAT)
+					if (fi.getFileType()==FileInfo.GRAY32_FLOAT)
 						pixels[i] = Float.intBitsToFloat(tmp);
-					else if (fi.fileType==FileInfo.GRAY32_UNSIGNED)
+					else if (fi.getFileType()==FileInfo.GRAY32_UNSIGNED)
 						pixels[i] = (float)(tmp&0xffffffffL);
 					else
 						pixels[i] = tmp;
@@ -261,14 +261,14 @@ public class ImageReader {
 		float[] pixels = new float[nPixels];
 		int base = 0;
 		float last = 0;
-		for (int k=0; k<fi.stripOffsets.length; k++) {
+		for (int k=0; k<fi.getStripOffsets().length; k++) {
 			if (in instanceof RandomAccessStream)
-				((RandomAccessStream)in).seek(fi.stripOffsets[k]);
+				((RandomAccessStream)in).seek(fi.getStripOffsets()[k]);
 			else if (k > 0) {
-				long skip = (fi.stripOffsets[k]&0xffffffffL) - (fi.stripOffsets[k-1]&0xffffffffL) - fi.stripLengths[k-1];
+				long skip = (fi.getStripOffsets()[k]&0xffffffffL) - (fi.getStripOffsets()[k-1]&0xffffffffL) - fi.getStripLengths()[k-1];
 				if (skip > 0L) in.skip(skip);
 			}
-			byte[] byteArray = new byte[fi.stripLengths[k]];
+			byte[] byteArray = new byte[fi.getStripLengths()[k]];
 			int read = 0, left = byteArray.length;
 			while (left > 0) {
 				int r = in.read(byteArray, read, left);
@@ -278,16 +278,16 @@ public class ImageReader {
 			}
 			byteArray = uncompress(byteArray);
 			int pixelsRead = byteArray.length/bytesPerPixel;
-			pixelsRead = pixelsRead - (pixelsRead%fi.width);
+			pixelsRead = pixelsRead - (pixelsRead%fi.getWidth());
 			int pmax = base+pixelsRead;
 			if (pmax > nPixels) pmax = nPixels;
 			int tmp;
-			if (fi.intelByteOrder) {
+			if (fi.isIntelByteOrder()) {
 				for (int i=base,j=0; i<pmax; i++,j+=4) {
 					tmp = (int)(((byteArray[j+3]&0xff)<<24) | ((byteArray[j+2]&0xff)<<16) | ((byteArray[j+1]&0xff)<<8) | (byteArray[j]&0xff));
-					if (fi.fileType==FileInfo.GRAY32_FLOAT)
+					if (fi.getFileType()==FileInfo.GRAY32_FLOAT)
 						pixels[i] = Float.intBitsToFloat(tmp);
-					else if (fi.fileType==FileInfo.GRAY32_UNSIGNED)
+					else if (fi.getFileType()==FileInfo.GRAY32_UNSIGNED)
 						pixels[i] = (float)(tmp&0xffffffffL);
 					else
 						pixels[i] = tmp;
@@ -295,22 +295,22 @@ public class ImageReader {
 			} else {
 				for (int i=base,j=0; i<pmax; i++,j+=4) {
 					tmp = (int)(((byteArray[j]&0xff)<<24) | ((byteArray[j+1]&0xff)<<16) | ((byteArray[j+2]&0xff)<<8) | (byteArray[j+3]&0xff));
-					if (fi.fileType==FileInfo.GRAY32_FLOAT)
+					if (fi.getFileType()==FileInfo.GRAY32_FLOAT)
 						pixels[i] = Float.intBitsToFloat(tmp);
-					else if (fi.fileType==FileInfo.GRAY32_UNSIGNED)
+					else if (fi.getFileType()==FileInfo.GRAY32_UNSIGNED)
 						pixels[i] = (float)(tmp&0xffffffffL);
 					else
 						pixels[i] = tmp;
 				}
 			}
-			if (fi.compression==FileInfo.LZW_WITH_DIFFERENCING) {
+			if (fi.getCompression()==FileInfo.LZW_WITH_DIFFERENCING) {
 				for (int b=base; b<pmax; b++) {
 					pixels[b] += last;
-					last = b % fi.width == fi.width - 1 ? 0 : pixels[b];
+					last = b % fi.getWidth() == fi.getWidth() - 1 ? 0 : pixels[b];
 				}
 			}
 			base += pixelsRead;
-			showProgress(k+1, fi.stripOffsets.length);
+			showProgress(k+1, fi.getStripOffsets().length);
 		}
 		return pixels;
 	}
@@ -347,7 +347,7 @@ public class ImageReader {
 			for (int i=base; i < (base+pixelsRead); i++) {
 				b1 = buffer[j+7]&0xff;  b2 = buffer[j+6]&0xff;  b3 = buffer[j+5]&0xff;  b4 = buffer[j+4]&0xff; 
 				b5 = buffer[j+3]&0xff;  b6 = buffer[j+2]&0xff;  b7 = buffer[j+1]&0xff;  b8 = buffer[j]&0xff; 
-				if (fi.intelByteOrder)
+				if (fi.isIntelByteOrder())
 					tmp = (long)((b1<<56)|(b2<<48)|(b3<<40)|(b4<<32)|(b5<<24)|(b6<<16)|(b7<<8)|b8);
 				else
 					tmp = (long)((b8<<56)|(b7<<48)|(b6<<40)|(b5<<32)|(b4<<24)|(b3<<16)|(b2<<8)|b1);
@@ -360,9 +360,9 @@ public class ImageReader {
 	}
 
 	int[] readChunkyRGB(InputStream in) throws IOException {
-		if (fi.compression==FileInfo.JPEG)
+		if (fi.getCompression()==FileInfo.JPEG)
 			return readJPEG(in);
-		else if (fi.compression>FileInfo.COMPRESSION_NONE || (fi.stripOffsets!=null&&fi.stripOffsets.length>1))
+		else if (fi.getCompression()>FileInfo.COMPRESSION_NONE || (fi.getStripOffsets()!=null&&fi.getStripOffsets().length>1))
 			return readCompressedChunkyRGB(in);
 		int pixelsRead;
 		bufferSize = 24*width;
@@ -391,21 +391,21 @@ public class ImageReader {
 			totalRead += bufferSize;
 			showProgress(totalRead, byteCount);
 			pixelsRead = bufferSize/bytesPerPixel;
-			boolean bgr = fi.fileType==FileInfo.BGR;
+			boolean bgr = fi.getFileType()==FileInfo.BGR;
 			int j = 0;
 			for (int i=base; i<(base+pixelsRead); i++) {
 				if (bytesPerPixel==4) {
-					if (fi.fileType==FileInfo.BARG) {  // MCID
+					if (fi.getFileType()==FileInfo.BARG) {  // MCID
 						b = buffer[j++]&0xff;
 						j++; // ignore alfa byte
 						r = buffer[j++]&0xff;
 						g = buffer[j++]&0xff;
-					} else if (fi.fileType==FileInfo.ABGR) {
+					} else if (fi.getFileType()==FileInfo.ABGR) {
 						b = buffer[j++]&0xff;
 						g = buffer[j++]&0xff;
 						r = buffer[j++]&0xff;
 						j++; // ignore alfa byte
-					} else if (fi.fileType==FileInfo.CMYK) {
+					} else if (fi.getFileType()==FileInfo.CMYK) {
 						r = buffer[j++] & 0xff; // c
 						g = buffer[j++] & 0xff; // m
 						b = buffer[j++] & 0xff; // y
@@ -442,17 +442,17 @@ public class ImageReader {
 		int lastRed=0, lastGreen=0, lastBlue=0;
 		int nextByte;
 		int red=0, green=0, blue=0, alpha = 0;
-		boolean bgr = fi.fileType==FileInfo.BGR;
-		boolean cmyk = fi.fileType==FileInfo.CMYK;
-		boolean differencing = fi.compression == FileInfo.LZW_WITH_DIFFERENCING;
-		for (int i=0; i<fi.stripOffsets.length; i++) {
+		boolean bgr = fi.getFileType()==FileInfo.BGR;
+		boolean cmyk = fi.getFileType()==FileInfo.CMYK;
+		boolean differencing = fi.getCompression() == FileInfo.LZW_WITH_DIFFERENCING;
+		for (int i=0; i<fi.getStripOffsets().length; i++) {
 			if (in instanceof RandomAccessStream)
-				((RandomAccessStream)in).seek(fi.stripOffsets[i]);
+				((RandomAccessStream)in).seek(fi.getStripOffsets()[i]);
 			else if (i > 0) {
-				long skip = (fi.stripOffsets[i]&0xffffffffL) - (fi.stripOffsets[i-1]&0xffffffffL) - fi.stripLengths[i-1];
+				long skip = (fi.getStripOffsets()[i]&0xffffffffL) - (fi.getStripOffsets()[i-1]&0xffffffffL) - fi.getStripLengths()[i-1];
 				if (skip > 0L) in.skip(skip);
 			}
-			byte[] byteArray = new byte[fi.stripLengths[i]];
+			byte[] byteArray = new byte[fi.getStripLengths()[i]];
 			int read = 0, left = byteArray.length;
 			while (left > 0) {
 				int r = in.read(byteArray, read, left);
@@ -463,13 +463,13 @@ public class ImageReader {
 			byteArray = uncompress(byteArray);
 			if (differencing) {
 				for (int b=0; b<byteArray.length; b++) {
-					if (b / bytesPerPixel % fi.width == 0) continue;
+					if (b / bytesPerPixel % fi.getWidth() == 0) continue;
 					byteArray[b] += byteArray[b - bytesPerPixel];
 				}
 			}
 			int k = 0;
 			int pixelsRead = byteArray.length/bytesPerPixel;
-			pixelsRead = pixelsRead - (pixelsRead%fi.width);
+			pixelsRead = pixelsRead - (pixelsRead%fi.getWidth());
 			int pmax = base+pixelsRead;
 			if (pmax > nPixels) pmax = nPixels;
 			for (int j=base; j<pmax; j++) {
@@ -494,7 +494,7 @@ public class ImageReader {
 					pixels[j] = 0xff000000 | (red<<16) | (green<<8) | blue;
 			}
 			base += pixelsRead;
-			showProgress(i+1, fi.stripOffsets.length);
+			showProgress(i+1, fi.getStripOffsets().length);
 		}
 		return pixels;
 	}
@@ -506,7 +506,7 @@ public class ImageReader {
 	}
 
 	int[] readPlanarRGB(InputStream in) throws IOException {
-		if (fi.compression>FileInfo.COMPRESSION_NONE || (fi.stripOffsets!=null&&fi.stripOffsets.length>1))
+		if (fi.getCompression()>FileInfo.COMPRESSION_NONE || (fi.getStripOffsets()!=null&&fi.getStripOffsets().length>1))
 			return readCompressedPlanarRGBImage(in);
 		DataInputStream dis = new DataInputStream(in);
 		int planeSize = nPixels; // 1/3 image size
@@ -571,31 +571,31 @@ public class ImageReader {
 	}
 	
 	Object readRGB48(InputStream in) throws IOException {
-		if (fi.compression>FileInfo.COMPRESSION_NONE)
+		if (fi.getCompression()>FileInfo.COMPRESSION_NONE)
 			return readCompressedRGB48(in);
-		int channels = fi.samplesPerPixel;
+		int channels = fi.getSamplesPerPixel();
 		if (channels==1) channels=3;
 		short[][] stack = new short[channels][nPixels];
 		DataInputStream dis = new DataInputStream(in);
 		int pixel = 0;
 		int min=65535, max=0;
-		if (fi.stripLengths==null) {
-			fi.stripLengths = new int[fi.stripOffsets.length];
-			fi.stripLengths[0] = width*height*bytesPerPixel;
+		if (fi.getStripLengths()==null) {
+			fi.setStripLengths(new int[fi.getStripOffsets().length]);
+			fi.getStripLengths()[0] = width*height*bytesPerPixel;
 		}
-		for (int i=0; i<fi.stripOffsets.length; i++) {
+		for (int i=0; i<fi.getStripOffsets().length; i++) {
 			if (i>0) {
-				long skip = (fi.stripOffsets[i]&0xffffffffL) - (fi.stripOffsets[i-1]&0xffffffffL) - fi.stripLengths[i-1];
+				long skip = (fi.getStripOffsets()[i]&0xffffffffL) - (fi.getStripOffsets()[i-1]&0xffffffffL) - fi.getStripLengths()[i-1];
 				if (skip>0L) dis.skip(skip);
 			}
-			int len = fi.stripLengths[i];
+			int len = fi.getStripLengths()[i];
 			int bytesToGo = (nPixels-pixel)*channels*2;
 			if (len>bytesToGo) len = bytesToGo;
 			byte[] buffer = new byte[len];
 			dis.readFully(buffer);
 			int value;
 			int channel=0;
-			boolean intel = fi.intelByteOrder;
+			boolean intel = fi.isIntelByteOrder();
 			for (int base=0; base<len; base+=2) {
 				if (intel)
 					value = ((buffer[base+1]&0xff)<<8) | (buffer[base]&0xff);
@@ -612,26 +612,26 @@ public class ImageReader {
 					pixel++;
 				}
 			}
-			showProgress(i+1, fi.stripOffsets.length);
+			showProgress(i+1, fi.getStripOffsets().length);
 		}
 		this.min=min; this.max=max;
 		return stack;
 	}
 
 	Object readCompressedRGB48(InputStream in) throws IOException {
-		if (fi.compression==FileInfo.LZW_WITH_DIFFERENCING)
+		if (fi.getCompression()==FileInfo.LZW_WITH_DIFFERENCING)
 			throw new IOException("ImageJ cannot open 48-bit LZW compressed TIFFs with predictor");
 		int channels = 3;
 		short[][] stack = new short[channels][nPixels];
 		DataInputStream dis = new DataInputStream(in);
 		int pixel = 0;
 		int min=65535, max=0;
-		for (int i=0; i<fi.stripOffsets.length; i++) {
+		for (int i=0; i<fi.getStripOffsets().length; i++) {
 			if (i>0) {
-				long skip = (fi.stripOffsets[i]&0xffffffffL) - (fi.stripOffsets[i-1]&0xffffffffL) - fi.stripLengths[i-1];
+				long skip = (fi.getStripOffsets()[i]&0xffffffffL) - (fi.getStripOffsets()[i-1]&0xffffffffL) - fi.getStripLengths()[i-1];
 				if (skip>0L) dis.skip(skip);
 			}
-			int len = fi.stripLengths[i];
+			int len = fi.getStripLengths()[i];
 			byte[] buffer = new byte[len];
 			dis.readFully(buffer);
 			buffer = uncompress(buffer);
@@ -639,7 +639,7 @@ public class ImageReader {
 			if (len % 2 != 0) len--;
 			int value;
 			int channel=0;
-			boolean intel = fi.intelByteOrder;
+			boolean intel = fi.isIntelByteOrder();
 			for (int base=0; base<len && pixel<nPixels; base+=2) {
 				if (intel)
 					value = ((buffer[base+1]&0xff)<<8) | (buffer[base]&0xff);
@@ -656,14 +656,14 @@ public class ImageReader {
 					pixel++;
 				}
 			}
-			showProgress(i+1, fi.stripOffsets.length);
+			showProgress(i+1, fi.getStripOffsets().length);
 		}
 		this.min=min; this.max=max;
 		return stack;
 	}
 
 	Object readRGB48Planar(InputStream in) throws IOException {
-		int channels = fi.samplesPerPixel;
+		int channels = fi.getSamplesPerPixel();
 		if (channels==1) channels=3;
 		Object[] stack = new Object[channels];
 		for (int i=0; i<channels; i++) 
@@ -712,7 +712,7 @@ public class ImageReader {
 	}
 
 	byte[] read1bitImage(InputStream in) throws IOException {
-		if (fi.compression==FileInfo.LZW)
+		if (fi.getCompression()==FileInfo.LZW)
 			throw new IOException("ImageJ cannot open 1-bit LZW compressed TIFFs");
  		int scan=(int)Math.ceil(width/8.0);
 		int len = scan*height;
@@ -749,7 +749,7 @@ public class ImageReader {
 			}
 		}
 		byteCount = ((long)width)*height*bytesPerPixel;
-		if (fi.fileType==FileInfo.BITMAP) {
+		if (fi.getFileType()==FileInfo.BITMAP) {
  			int scan=width/8, pad = width%8;
 			if (pad>0) scan++;
 			byteCount = scan*height;
@@ -771,7 +771,7 @@ public class ImageReader {
 		Object pixels;
 		startTime = System.currentTimeMillis();
 		try {
-			switch (fi.fileType) {
+			switch (fi.getFileType()) {
 				case FileInfo.GRAY8:
 				case FileInfo.COLOR8:
 					bytesPerPixel = 1;
@@ -807,7 +807,7 @@ public class ImageReader {
 					pixels = (Object)readChunkyRGB(in);
 					break;
 				case FileInfo.RGB_PLANAR:
-					if (!(in instanceof RandomAccessStream) && fi.stripOffsets!=null && fi.stripOffsets.length>1)
+					if (!(in instanceof RandomAccessStream) && fi.getStripOffsets()!=null && fi.getStripOffsets().length>1)
 						in = new RandomAccessStream(in);
 					bytesPerPixel = 3;
 					skip(in);
@@ -880,11 +880,11 @@ public class ImageReader {
 	}
 	
 	private byte[] uncompress(byte[] input) {
-		if (fi.compression==FileInfo.PACK_BITS)
-			return packBitsUncompress(input, fi.rowsPerStrip*fi.width*fi.getBytesPerPixel());
-		else if (fi.compression==FileInfo.LZW || fi.compression==FileInfo.LZW_WITH_DIFFERENCING)
+		if (fi.getCompression()==FileInfo.PACK_BITS)
+			return packBitsUncompress(input, fi.getRowsPerStrip()*fi.getWidth()*fi.getBytesPerPixel());
+		else if (fi.getCompression()==FileInfo.LZW || fi.getCompression()==FileInfo.LZW_WITH_DIFFERENCING)
 			return lzwUncompress(input);
-		else if (fi.compression==FileInfo.ZIP)
+		else if (fi.getCompression()==FileInfo.ZIP)
 			return zipUncompress(input);
 		else
 			return input;

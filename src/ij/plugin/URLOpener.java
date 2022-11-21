@@ -37,18 +37,18 @@ public class URLOpener implements PlugIn {
 					Opener.convertGrayJpegTo8Bits(imp);
 				WindowManager.checkForDuplicateName = true;
 				FileInfo fi = imp.getOriginalFileInfo();
-				if (fi!=null && fi.fileType==FileInfo.RGB48)
+				if (fi!=null && fi.getFileType()==FileInfo.RGB48)
 					imp = new CompositeImage(imp, IJ.COMPOSITE);
-				else if (imp.getNChannels()>1 && fi!=null && fi.description!=null && fi.description.indexOf("mode=")!=-1) {
+				else if (imp.getNChannels()>1 && fi!=null && fi.getDescription()!=null && fi.getDescription().indexOf("mode=")!=-1) {
 					int mode = IJ.COLOR;
-					if (fi.description.indexOf("mode=composite")!=-1)
+					if (fi.getDescription().indexOf("mode=composite")!=-1)
 						mode = IJ.COMPOSITE;
-					else if (fi.description.indexOf("mode=gray")!=-1)
+					else if (fi.getDescription().indexOf("mode=gray")!=-1)
 						mode = IJ.GRAYSCALE;
 					imp = new CompositeImage(imp, mode);
 				}
-				if (fi!=null && (fi.url==null || fi.url.length()==0)) {
-					fi.url = url;
+				if (fi!=null && (fi.getUrl()==null || fi.getUrl().length()==0)) {
+					fi.setUrl(url);
 					imp.setFileInfo(fi);
 				}
 				imp.show(Opener.getLoadRate(startTime,imp));
@@ -84,18 +84,18 @@ public class URLOpener implements PlugIn {
 			ImagePlus imp = new ImagePlus(url);
 			WindowManager.checkForDuplicateName = true;
 			FileInfo fi = imp.getOriginalFileInfo();
-			if (fi!=null && fi.fileType==FileInfo.RGB48)
+			if (fi!=null && fi.getFileType()==FileInfo.RGB48)
 				imp = new CompositeImage(imp, IJ.COMPOSITE);
-			else if (imp.getNChannels()>1 && fi!=null && fi.description!=null && fi.description.indexOf("mode=")!=-1) {
+			else if (imp.getNChannels()>1 && fi!=null && fi.getDescription()!=null && fi.getDescription().indexOf("mode=")!=-1) {
 				int mode = IJ.COLOR;
-				if (fi.description.indexOf("mode=composite")!=-1)
+				if (fi.getDescription().indexOf("mode=composite")!=-1)
 					mode = IJ.COMPOSITE;
-				else if (fi.description.indexOf("mode=gray")!=-1)
+				else if (fi.getDescription().indexOf("mode=gray")!=-1)
 					mode = IJ.GRAYSCALE;
 				imp = new CompositeImage(imp, mode);
 			}
-			if (fi!=null && (fi.url==null || fi.url.length()==0)) {
-				fi.url = url;
+			if (fi!=null && (fi.getUrl()==null || fi.getUrl().length()==0)) {
+				fi.setUrl(url);
 				imp.setFileInfo(fi);
 			}
 			imp.show(Opener.getLoadRate(startTime,imp));

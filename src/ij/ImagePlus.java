@@ -903,10 +903,10 @@ public class ImagePlus implements ImageObserver, Measurements, Cloneable {
 		retieved using getOriginalFileInfo(). */
 	public void setFileInfo(FileInfo fi) {
 		if (fi!=null) {
-			fi.pixels = null;
-			if (fi.imageSaved) {
+			fi.setPixels(null);
+			if (fi.isImageSaved()) {
 				notifyListeners(SAVED);
-				fi.imageSaved = false;
+				fi.setImageSaved(false);
 			}
 		}
 		fileInfo = fi;
@@ -2267,10 +2267,10 @@ public class ImagePlus implements ImageObserver, Measurements, Cloneable {
 			return;
 		}
 		FileInfo fi = getOriginalFileInfo();
-		boolean isFileInfo = fi!=null && fi.fileFormat!=FileInfo.UNKNOWN;
+		boolean isFileInfo = fi!=null && fi.getFileFormat()!=FileInfo.UNKNOWN;
 		if (!isFileInfo && url==null)
 			return;
-		if (fi.directory==null && url==null)
+		if (fi.getDirectory()==null && url==null)
 			return;
 		if (ij!=null && changes && isFileInfo && !Interpreter.isBatchMode() && !IJ.isMacro() && !IJ.altKeyDown()) {
 			if (!IJ.showMessageWithCancel("Revert?", "Revert to saved version of\n\""+getTitle()+"\"?"))
@@ -2304,11 +2304,11 @@ public class ImagePlus implements ImageObserver, Measurements, Cloneable {
 		if (url!=null && !url.equals("")) {
 			path = url;
 			url2 = url;
-		} else if (fi!=null && !((fi.directory==null||fi.directory.equals("")))) {
+		} else if (fi!=null && !((fi.getDirectory()==null||fi.getDirectory().equals("")))) {
 			path = fi.getFilePath();
-		} else if (fi!=null && fi.url!=null && !fi.url.equals("")) {
-			path = fi.url;
-			url2 = fi.url;
+		} else if (fi!=null && fi.getUrl()!=null && !fi.getUrl().equals("")) {
+			path = fi.getUrl();
+			url2 = fi.getUrl();
 		} else
 			return;
 		IJ.showStatus("Loading: " + path);
@@ -2328,8 +2328,8 @@ public class ImagePlus implements ImageObserver, Measurements, Cloneable {
 				changes = false;
 				close();
 				FileInfo fi2 = imp.getOriginalFileInfo();
-				if (fi2!=null && (fi2.url==null || fi2.url.length()==0)) {
-					fi2.url = url2;
+				if (fi2!=null && (fi2.getUrl()==null || fi2.getUrl().length()==0)) {
+					fi2.setUrl(url2);
 					imp.setFileInfo(fi2);
 				}
 				ImageWindow.setNextLocation(loc);
@@ -2347,51 +2347,51 @@ public class ImagePlus implements ImageObserver, Measurements, Cloneable {
 	*/
     public FileInfo getFileInfo() {
     	FileInfo fi = new FileInfo();
-    	fi.width = width;
-    	fi.height = height;
-    	fi.nImages = getStackSize();
+    	fi.setWidth(width);
+    	fi.setHeight(height);
+    	fi.setnImages(getStackSize());
     	if (compositeImage)
-    		fi.nImages = getImageStackSize();
-    	fi.whiteIsZero = isInvertedLut();
-		fi.intelByteOrder = false;
-		if (fi.nImages==1 && ip!=null)
-			fi.pixels = ip.getPixels();
+    		fi.setnImages(getImageStackSize());
+    	fi.setWhiteIsZero(isInvertedLut());
+		fi.setIntelByteOrder(false);
+		if (fi.getnImages()==1 && ip!=null)
+			fi.setPixels(ip.getPixels());
 		else if (stack!=null)
-			fi.pixels = stack.getImageArray();
+			fi.setPixels(stack.getImageArray());
 		Calibration cal = getCalibration();
     	if (cal.scaled()) {
-    		fi.pixelWidth = cal.pixelWidth;
-    		fi.pixelHeight = cal.pixelHeight;
-   			fi.unit = cal.getUnit();
+    		fi.setPixelWidth(cal.pixelWidth);
+    		fi.setPixelHeight(cal.pixelHeight);
+   			fi.setUnit(cal.getUnit());
     	}
-    	if (fi.nImages>1)
-     		fi.pixelDepth = cal.pixelDepth;
-   		fi.frameInterval = cal.frameInterval;
+    	if (fi.getnImages()>1)
+     		fi.setPixelDepth(cal.pixelDepth);
+   		fi.setFrameInterval(cal.frameInterval);
     	if (cal.calibrated()) {
-    		fi.calibrationFunction = cal.getFunction();
-     		fi.coefficients = cal.getCoefficients();
-			fi.valueUnit = cal.getValueUnit();
+    		fi.setCalibrationFunction(cal.getFunction());
+     		fi.setCoefficients(cal.getCoefficients());
+			fi.setValueUnit(cal.getValueUnit());
 		} else if (!Calibration.DEFAULT_VALUE_UNIT.equals(cal.getValueUnit()))
-			fi.valueUnit = cal.getValueUnit();
+			fi.setValueUnit(cal.getValueUnit());
 
     	switch (imageType) {
 			case GRAY8: case COLOR_256:
 				LookUpTable lut = createLut();
 				boolean customLut = !lut.isGrayscale() || (ip!=null&&!ip.isDefaultLut());
 				if (imageType==COLOR_256 || customLut)
-					fi.fileType = FileInfo.COLOR8;
+					fi.setFileType(FileInfo.COLOR8);
 				else
-					fi.fileType = FileInfo.GRAY8;
+					fi.setFileType(FileInfo.GRAY8);
 				addLut(lut, fi);
 				break;
 	    	case GRAY16:
-	    		if (compositeImage && fi.nImages==3) {
+	    		if (compositeImage && fi.getnImages()==3) {
 	    			if ("Red".equals(getStack().getSliceLabel(1)))
-						fi.fileType = fi.RGB48;
+						fi.setFileType(fi.RGB48);
 					else
-						fi.fileType = fi.GRAY16_UNSIGNED;
+						fi.setFileType(fi.GRAY16_UNSIGNED);
 				} else
-					fi.fileType = fi.GRAY16_UNSIGNED;
+					fi.setFileType(fi.GRAY16_UNSIGNED);
 				if (!compositeImage) {
     				lut = createLut();
     				if (!lut.isGrayscale() || (ip!=null&&!ip.isDefaultLut()))
@@ -2399,7 +2399,7 @@ public class ImagePlus implements ImageObserver, Measurements, Cloneable {
 				}
 				break;
 	    	case GRAY32:
-				fi.fileType = fi.GRAY32_FLOAT;
+				fi.setFileType(fi.GRAY32_FLOAT);
 				if (!compositeImage) {
     				lut = createLut();
     				if (!lut.isGrayscale() || (ip!=null&&!ip.isDefaultLut()))
@@ -2407,7 +2407,7 @@ public class ImagePlus implements ImageObserver, Measurements, Cloneable {
 				}
 				break;
 	    	case COLOR_RGB:
-				fi.fileType = fi.RGB;
+				fi.setFileType(fi.RGB);
 				break;
 			default:
     	}
@@ -2415,10 +2415,10 @@ public class ImagePlus implements ImageObserver, Measurements, Cloneable {
     }
 
 	private void addLut(LookUpTable lut, FileInfo fi) {
-		fi.lutSize = lut.getMapSize();
-		fi.reds = lut.getReds();
-		fi.greens = lut.getGreens();
-		fi.blues = lut.getBlues();
+		fi.setLutSize(lut.getMapSize());
+		fi.setReds(lut.getReds());
+		fi.setGreens(lut.getGreens());
+		fi.setBlues(lut.getBlues());
 	}
 
     /** Returns the FileInfo object that was used to open this image.
@@ -2429,10 +2429,10 @@ public class ImagePlus implements ImageObserver, Measurements, Cloneable {
     public FileInfo getOriginalFileInfo() {
     	if (fileInfo==null & url!=null) {
     		fileInfo = new FileInfo();
-    		fileInfo.width = width;
-    		fileInfo.height = height;
-    		fileInfo.url = url;
-    		fileInfo.directory = null;
+    		fileInfo.setWidth(width);
+    		fileInfo.setHeight(height);
+    		fileInfo.setUrl(url);
+    		fileInfo.setDirectory(null);
     	}
     	return fileInfo;
     }
@@ -2624,9 +2624,8 @@ public class ImagePlus implements ImageObserver, Measurements, Cloneable {
 		imp2.setProperties(getPropertiesAsArray());
 		FileInfo fi = getOriginalFileInfo();
 		if (fi!=null) {
-			fi = (FileInfo)fi.clone();
-			fi.directory = null;
-			fi.url = null;
+			fi.setDirectory(null);
+			fi.setUrl(null);
 			imp2.setFileInfo(fi);
 		}
 		return imp2;

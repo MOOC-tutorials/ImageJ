@@ -55,9 +55,9 @@ public class BMP_Reader extends ImagePlus implements PlugIn {
                 if (mis==null) IJ.log("BMP_Reader: mis=null");
                 Image img = Toolkit.getDefaultToolkit().createImage(mis);
                 FileInfo fi = new FileInfo();
-                fi.fileFormat = FileInfo.BMP;
-                fi.fileName = name;
-                fi.directory = directory;
+                fi.setFileFormat(FileInfo.BMP);
+                fi.setFileName(name);
+                fi.setDirectory(directory);
                 setImage(img);
                 setTitle(name);
                 setFileInfo(fi);

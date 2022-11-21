@@ -40,9 +40,9 @@ public class GIF_Reader extends ImagePlus implements PlugIn {
 				Opener.convertGrayJpegTo8Bits(this);
 		}
 		FileInfo fi = new FileInfo();
-		fi.fileFormat = fi.GIF_OR_JPG;
-		fi.fileName = name;
-		fi.directory = dir;
+		fi.setFileFormat(fi.GIF_OR_JPG);
+		fi.setFileName(name);
+		fi.setDirectory(dir);
 		setFileInfo(fi);
 	}
 

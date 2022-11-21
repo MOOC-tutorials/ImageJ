@@ -148,7 +148,7 @@ public class ImagesToStack implements PlugIn {
 		double max = -Double.MAX_VALUE;
 		ImageStack stack = new ImageStack(width, height);
 		FileInfo fi = images[0].getOriginalFileInfo();
-		if (fi!=null && fi.directory==null) fi = null;
+		if (fi!=null && fi.getDirectory()==null) fi = null;
 		Overlay overlay = new Overlay();
 		for (int i=0; i<count; i++) {
 			ImageProcessor ip = images[i].getProcessor();
@@ -164,7 +164,7 @@ public class ImagesToStack implements PlugIn {
 			}
 			if (fi!=null) {
 				FileInfo fi2 = images[i].getOriginalFileInfo();
-				if (fi2!=null && !fi.directory.equals(fi2.directory))
+				if (fi2!=null && !fi.getDirectory().equals(fi2.getDirectory()))
 					fi = null;
 			}
 			switch (stackType) {
@@ -234,8 +234,8 @@ public class ImagesToStack implements PlugIn {
 		if (cal2!=null)
 			imp.setCalibration(cal2);
 		if (fi!=null) {
-			fi.fileName = "";
-			fi.nImages = imp.getStackSize();
+			fi.setFileName("");
+			fi.setnImages(imp.getStackSize());
 			imp.setFileInfo(fi);
 		}
 		if (overlay.size()>0)

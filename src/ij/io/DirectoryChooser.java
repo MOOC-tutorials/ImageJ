@@ -1,12 +1,14 @@
 package ij.io;
-import ij.*;
-import ij.gui.*;
 import ij.plugin.frame.Recorder;
+import ij.IJ;
+import ij.Macro;
+import ij.Prefs;
 import ij.util.Java2;
 import java.awt.*;
 import java.io.*;
+import java.lang.reflect.InvocationTargetException;
+
 import javax.swing.*;
-import javax.swing.filechooser.*;
 
 /** This class displays a dialog box that allows the user can select a directory. */ 
  public class DirectoryChooser {
@@ -59,7 +61,11 @@ import javax.swing.filechooser.*;
 					}
 				}
 			});
-		} catch (Exception e) {}
+		} catch (InterruptedException e) {
+			Thread.currentThread().interrupt();
+		} catch (InvocationTargetException e) {
+			e.printStackTrace();
+		}
 		Java2.setLookAndFeel(saveLookAndFeel);
 	}
  
@@ -94,9 +100,9 @@ import javax.swing.filechooser.*;
  	// On Mac OS X, we can select directories using the native file open dialog
  	void getDirectoryUsingFileDialog(String title) {
  		boolean saveUseJFC = Prefs.useJFileChooser;
- 		Prefs.useJFileChooser = false;
 		System.setProperty("apple.awt.fileDialogForDirectories", "true");
-		String dir=null, name=null;
+		String dir=null;
+		String name=null;
 		String defaultDir = OpenDialog.getDefaultDirectory();
 		if (defaultDir!=null) {
 			File f = new File(defaultDir);

@@ -26,8 +26,8 @@ public class LutLoader extends ImagePlus implements PlugIn {
 		if (name==null) return null;
 		LutLoader ll = new LutLoader();
 		FileInfo fi = ll.getBuiltInLut(name.toLowerCase());
-		if (fi.fileName!=null)
-			return new IndexColorModel(8, 256, fi.reds, fi.greens, fi.blues);
+		if (fi.getFileName()!=null)
+			return new IndexColorModel(8, 256, fi.getReds(), fi.getGreens(), fi.getBlues());
 		String path = IJ.getDir("luts")+name+".lut";
 		IndexColorModel lut = LutLoader.openLut("noerror:"+path);
 		if (lut==null) {
@@ -48,7 +48,7 @@ public class LutLoader extends ImagePlus implements PlugIn {
 		
 		// Built in LUT
 		FileInfo fi = getBuiltInLut(arg);
-		if (fi.fileName!=null) {
+		if (fi.getFileName()!=null) {
 			showLut(fi, true);
 			Menus.updateMenus();			
 			return;
@@ -56,9 +56,9 @@ public class LutLoader extends ImagePlus implements PlugIn {
 		
 		// LUT in luts folder
 		OpenDialog od = new OpenDialog("Open LUT...", arg);
-		fi.directory = od.getDirectory();
-		fi.fileName = od.getFileName();
-		if (fi.fileName==null)
+		fi.setDirectory(od.getDirectory());
+		fi.setFileName(od.getFileName());
+		if (fi.getFileName()==null)
 				return;
 		if (openLut(fi))
 			showLut(fi, arg.equals(""));
@@ -67,44 +67,44 @@ public class LutLoader extends ImagePlus implements PlugIn {
 	
 	private FileInfo getBuiltInLut(String name) {
 		FileInfo fi = new FileInfo();
-		fi.reds = new byte[256]; 
-		fi.greens = new byte[256]; 
-		fi.blues = new byte[256];
-		fi.lutSize = 256;
-		fi.fileName = null;
+		fi.setReds(new byte[256]); 
+		fi.setGreens(new byte[256]); 
+		fi.setBlues(new byte[256]);
+		fi.setLutSize(256);
+		fi.setFileName(null);
 		if (name==null)
 			return fi;
 		if (name.equals("3-3-2 rgb")) name="3-3-2 RGB";
 		if (name.equals("red/green")) name="redgreen";
 		int nColors = 0;
 		if (name.equals("fire"))
-			nColors = fire(fi.reds, fi.greens, fi.blues);
+			nColors = fire(fi.getReds(), fi.getGreens(), fi.getBlues());
 		else if (name.equals("grays"))
-			nColors = grays(fi.reds, fi.greens, fi.blues);
+			nColors = grays(fi.getReds(), fi.getGreens(), fi.getBlues());
 		else if (name.equals("ice"))
-			nColors = ice(fi.reds, fi.greens, fi.blues);
+			nColors = ice(fi.getReds(), fi.getGreens(), fi.getBlues());
 		else if (name.equals("spectrum"))
-			nColors = spectrum(fi.reds, fi.greens, fi.blues);
+			nColors = spectrum(fi.getReds(), fi.getGreens(), fi.getBlues());
 		else if (name.equals("3-3-2 RGB"))
-			nColors = rgb332(fi.reds, fi.greens, fi.blues);
+			nColors = rgb332(fi.getReds(), fi.getGreens(), fi.getBlues());
 		else if (name.equals("red"))
-			nColors = primaryColor(4, fi.reds, fi.greens, fi.blues);
+			nColors = primaryColor(4, fi.getReds(), fi.getGreens(), fi.getBlues());
 		else if (name.equals("green"))
-			nColors = primaryColor(2, fi.reds, fi.greens, fi.blues);
+			nColors = primaryColor(2, fi.getReds(), fi.getGreens(), fi.getBlues());
 		else if (name.equals("blue"))
-			nColors = primaryColor(1, fi.reds, fi.greens, fi.blues);
+			nColors = primaryColor(1, fi.getReds(), fi.getGreens(), fi.getBlues());
 		else if (name.equals("cyan"))
-			nColors = primaryColor(3, fi.reds, fi.greens, fi.blues);
+			nColors = primaryColor(3, fi.getReds(), fi.getGreens(), fi.getBlues());
 		else if (name.equals("magenta"))
-			nColors = primaryColor(5, fi.reds, fi.greens, fi.blues);
+			nColors = primaryColor(5, fi.getReds(), fi.getGreens(), fi.getBlues());
 		else if (name.equals("yellow"))
-			nColors = primaryColor(6, fi.reds, fi.greens, fi.blues);
+			nColors = primaryColor(6, fi.getReds(), fi.getGreens(), fi.getBlues());
 		else if (name.equals("redgreen"))
-			nColors = redGreen(fi.reds, fi.greens, fi.blues);
+			nColors = redGreen(fi.getReds(), fi.getGreens(), fi.getBlues());
 		if (nColors>0) {
 			if (nColors<256)
-				interpolate(fi.reds, fi.greens, fi.blues, nColors);
-			fi.fileName = name;
+				interpolate(fi.getReds(), fi.getGreens(), fi.getBlues(), nColors);
+			fi.setFileName(name);
 		}
 		return fi;
 	}
@@ -118,7 +118,7 @@ public class LutLoader extends ImagePlus implements PlugIn {
 				CompositeImage cimp = (CompositeImage)imp;
 				cimp.setMode(IJ.COLOR);
 				int saveC = cimp.getChannel();
-				IndexColorModel cm = new IndexColorModel(8, 256, fi.reds, fi.greens, fi.blues);
+				IndexColorModel cm = new IndexColorModel(8, 256, fi.getReds(), fi.getGreens(), fi.getBlues());
 				for (int c=1; c<=cimp.getNChannels(); c++) {
 					cimp.setC(c);
 					cimp.setChannelColorModel(cm);
@@ -127,7 +127,7 @@ public class LutLoader extends ImagePlus implements PlugIn {
 				imp.updateAndRepaintWindow();
 			} else {
 				ImageProcessor ip = imp.getChannelProcessor();
-				IndexColorModel cm = new IndexColorModel(8, 256, fi.reds, fi.greens, fi.blues);
+				IndexColorModel cm = new IndexColorModel(8, 256, fi.getReds(), fi.getGreens(), fi.getBlues());
 				if (imp.isComposite())
 					((CompositeImage)imp).setChannelColorModel(cm);
 				else {
@@ -148,8 +148,8 @@ public class LutLoader extends ImagePlus implements PlugIn {
 	}
 	
 	private void saveLUTName(ImagePlus imp, FileInfo fi) {
-		if (imp!=null && fi!=null && fi.fileName!=null) {
-			String name = fi.fileName;
+		if (imp!=null && fi!=null && fi.getFileName()!=null) {
+			String name = fi.getFileName();
 			if (name.endsWith(".lut"))
 				name = name.substring(0,name.length()-4);
 			if (name.equals("grays"))
@@ -288,35 +288,35 @@ public class LutLoader extends ImagePlus implements PlugIn {
 		if (noError)
 			pathOrURL = pathOrURL.substring(8);
 		FileInfo fi = new FileInfo();
-		fi.reds = new byte[256]; 
-		fi.greens = new byte[256]; 
-		fi.blues = new byte[256];
-		fi.lutSize = 256;
+		fi.setReds(new byte[256]); 
+		fi.setGreens(new byte[256]); 
+		fi.setBlues(new byte[256]);
+		fi.setLutSize(256);
 		int nColors = 0;
 		if (pathOrURL.contains("://")) {
-			fi.url = pathOrURL;
-			fi.fileName = "";
+			fi.setUrl(pathOrURL);
+			fi.setFileName("");
 		} else {
 			OpenDialog od = new OpenDialog("Open LUT...", pathOrURL);
-			fi.directory = od.getDirectory();
-			fi.fileName = od.getFileName();
-			if (fi.fileName==null)
+			fi.setDirectory(od.getDirectory());
+			fi.setFileName(od.getFileName());
+			if (fi.getFileName()==null)
 				return null;
 		}
 		LutLoader loader = new LutLoader();
 		loader.suppressErrors = noError;
 		boolean ok = loader.openLut(fi);
 		if (ok)
-			return new LUT(fi.reds, fi.greens, fi.blues);
+			return new LUT(fi.getReds(), fi.getGreens(), fi.getBlues());
 		else
 			return null;
 	}
 	
 	/** Opens an NIH Image LUT, 768 byte binary LUT or text LUT from a file or URL. */
 	boolean openLut(FileInfo fi) {
-		boolean isURL = fi.url!=null && !fi.url.equals("");
+		boolean isURL = fi.getUrl()!=null && !fi.getUrl().equals("");
 		int length = 0;
-		String path = isURL?fi.url:fi.getFilePath();
+		String path = isURL?fi.getUrl():fi.getFilePath();
 		if (!isURL) {
 			File f = new File(path);
 			length = (int)f.length();
@@ -350,7 +350,7 @@ public class LutLoader extends ImagePlus implements PlugIn {
 	int openBinaryLut(FileInfo fi, boolean isURL, boolean raw) throws IOException {
 		InputStream is;
 		if (isURL)
-			is = new URL(fi.url+fi.fileName).openStream();
+			is = new URL(fi.getUrl()+fi.getFileName()).openStream();
 		else
 			is = new FileInputStream(fi.getFilePath());
 		DataInputStream f = new DataInputStream(is);
@@ -370,11 +370,11 @@ public class LutLoader extends ImagePlus implements PlugIn {
 			long fill2 = f.readLong();
 			int filler = f.readInt();
 		}
-		f.read(fi.reds, 0, nColors);
-		f.read(fi.greens, 0, nColors);
-		f.read(fi.blues, 0, nColors);
+		f.read(fi.getReds(), 0, nColors);
+		f.read(fi.getGreens(), 0, nColors);
+		f.read(fi.getBlues(), 0, nColors);
 		if (nColors<256)
-			interpolate(fi.reds, fi.greens, fi.blues, nColors);
+			interpolate(fi.getReds(), fi.getGreens(), fi.getBlues(), nColors);
 		f.close();
 		return 256;
 	}
@@ -394,17 +394,17 @@ public class LutLoader extends ImagePlus implements PlugIn {
 		ip.setRoi(x, y, 3, 256);
 		ip = ip.crop();
 		for (int i=0; i<256; i++) {
-			fi.reds[i] = (byte)ip.getPixelValue(0,i);
-			fi.greens[i] = (byte)ip.getPixelValue(1,i);
-			fi.blues[i] = (byte)ip.getPixelValue(2,i);
+			fi.getReds()[i] = (byte)ip.getPixelValue(0,i);
+			fi.getGreens()[i] = (byte)ip.getPixelValue(1,i);
+			fi.getBlues()[i] = (byte)ip.getPixelValue(2,i);
 		}
 		return 256;
 	}
 
 	private void createImage(FileInfo fi, boolean show) {
-		IndexColorModel cm = new IndexColorModel(8, 256, fi.reds, fi.greens, fi.blues);
+		IndexColorModel cm = new IndexColorModel(8, 256, fi.getReds(), fi.getGreens(), fi.getBlues());
 		ByteProcessor bp = createImage(cm);
-		setProcessor(fi.fileName, bp);
+		setProcessor(fi.getFileName(), bp);
 		saveLUTName(this, fi);
 		if (show) show();
 	}

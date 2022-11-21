@@ -337,8 +337,8 @@ public class AVI_Reader extends VirtualStack implements PlugIn {
 			imp.getProcessor().resetMinAndMax();
 		setFramesPerSecond(imp);
 		FileInfo fi = new FileInfo();
-		fi.fileName = fileName;
-		fi.directory = fileDir;
+		fi.setFileName(fileName);
+		fi.setDirectory(fileDir);
 		imp.setFileInfo(fi);
 		if (arg.equals(""))
 			imp.show();

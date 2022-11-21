@@ -92,8 +92,8 @@ public class ImageInfo implements PlugIn {
 		FileInfo fi = imp.getOriginalFileInfo();
 		if (fi==null)
 			return null;
-		String directory = fi.directory;
-		String name = fi.fileName;
+		String directory = fi.getDirectory();
+		String name = fi.getFileName();
 		if (directory==null)
 			return null;
 		if ((name==null||name.equals("")) && imp.getStack().isVirtual())
@@ -344,10 +344,10 @@ public class ImageInfo implements PlugIn {
 
 	    FileInfo fi = imp.getOriginalFileInfo();
 		if (fi!=null) {
-			if (fi.url!=null && !fi.url.equals(""))
-				s += "URL: " + fi.url + "\n";
+			if (fi.getUrl()!=null && !fi.getUrl().equals(""))
+				s += "URL: " + fi.getUrl() + "\n";
 			else {
-				String defaultDir = (fi.directory==null || fi.directory.length()==0)?System.getProperty("user.dir"):"";
+				String defaultDir = (fi.getDirectory()==null || fi.getDirectory().length()==0)?System.getProperty("user.dir"):"";
 				if (defaultDir.length()>0) {
 					defaultDir = defaultDir.replaceAll("\\\\", "/");
 					defaultDir += "/";

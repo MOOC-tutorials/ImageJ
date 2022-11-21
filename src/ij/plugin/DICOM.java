@@ -107,7 +107,7 @@ public class DICOM extends ImagePlus implements PlugIn {
 			info = dd.getDicomInfo();
 			return;
 		}
-		if (fi!=null && fi.width>0 && fi.height>0 && fi.offset>0) {
+		if (fi!=null && fi.getWidth()>0 && fi.getHeight()>0 && fi.getOffset()>0) {
 			FileOpener fo = new FileOpener(fi);
 			ImagePlus imp = fo.openImage();
 			// Avoid opening as float even if slope != 1.0 in case ignoreRescaleSlope or fixedDicomScaling
@@ -126,7 +126,7 @@ public class DICOM extends ImagePlus implements PlugIn {
 					ImageStatistics stats = imp.getRawStatistics();
 					imp.setDisplayRange(stats.min,stats.max);
 				}
-			} else if (fi.fileType==FileInfo.GRAY16_SIGNED) {
+			} else if (fi.getFileType()==FileInfo.GRAY16_SIGNED) {
 				if (dd.rescaleIntercept!=0.0 && (dd.rescaleSlope==1.0||Prefs.fixedDicomScaling)) {
 					double[] coeff = new double[2];
 					coeff[0] = dd.rescaleSlope*(-32768) + dd.rescaleIntercept;
@@ -134,7 +134,7 @@ public class DICOM extends ImagePlus implements PlugIn {
 					imp.getCalibration().setFunction(Calibration.STRAIGHT_LINE, coeff, "Gray Value");
 				}
 			} else if (dd.rescaleIntercept!=0.0 && 
-					  (dd.rescaleSlope==1.0||Prefs.fixedDicomScaling||fi.fileType==FileInfo.GRAY8)) {
+					  (dd.rescaleSlope==1.0||Prefs.fixedDicomScaling||fi.getFileType()==FileInfo.GRAY8)) {
 				double[] coeff = new double[2];
 				coeff[0] = dd.rescaleIntercept;
 				coeff[1] = dd.rescaleSlope;
@@ -209,7 +209,7 @@ public class DICOM extends ImagePlus implements PlugIn {
 			ip.resetMinAndMax();
 			Calibration cal = imp.getCalibration();
 			cal.setFunction(Calibration.NONE, null, "Gray Value");
-			fi.fileType = FileInfo.GRAY16_UNSIGNED;
+			fi.setFileType(FileInfo.GRAY16_UNSIGNED);
 		}
 	}
 	
@@ -280,8 +280,6 @@ class DicomDecoder {
 	private int vr;  // Value Representation
 	private static final int IMPLICIT_VR = 0x2D2D; // '--' 
 	private byte[] vrLetters = new byte[2];
- 	private int previousGroup;
- 	private String previousInfo;
  	private StringBuffer dicomInfo = new StringBuffer(1000);
  	private boolean dicmFound; // "DICM" found at offset 128
  	private boolean oddLocations;  // one or more tags at odd locations
@@ -439,7 +437,6 @@ class DicomDecoder {
   
 	byte[] getLut(int length) throws IOException {
 		if ((length&1)!=0) { // odd
-			String dummy = getString(length);
 			return null;
 		}
 		length /= 2;
@@ -523,22 +520,22 @@ class DicomDecoder {
 		long skipCount;
 		FileInfo fi = new FileInfo();
 		int bitsAllocated = 16;
-		fi.fileFormat = fi.RAW;
-		fi.fileName = fileName;
+		fi.setFileFormat(fi.RAW);
+		fi.setFileName(fileName);
 		if (directory.indexOf("://")>0) { // is URL
 			URL u = new URL(directory+fileName);
 			inputStream = new BufferedInputStream(u.openStream());
-			fi.inputStream = inputStream;
+			fi.setInputStream(inputStream);
 		} else if (inputStream!=null)
-			fi.inputStream = inputStream;
+			fi.setInputStream(inputStream);
 		else
-			fi.directory = directory;
-		fi.width = 0;
-		fi.height = 0;
-		fi.offset = 0;
-		fi.intelByteOrder = true;
-		fi.fileType = FileInfo.GRAY16_UNSIGNED;
-		fi.fileFormat = FileInfo.DICOM;
+			fi.setDirectory(directory);
+		fi.setWidth(0);
+		fi.setHeight(0);
+		fi.setOffset(0);
+		fi.setIntelByteOrder(true);
+		fi.setFileType(FileInfo.GRAY16_UNSIGNED);
+		fi.setFileFormat(FileInfo.DICOM);
 		int samplesPerPixel = 1;
 		int planarConfiguration = 0;
 		String photoInterpretation = "";
@@ -607,7 +604,7 @@ class DicomDecoder {
 					addInfo(tag, s);
 					double frames = s2d(s);
 					if (frames>1.0)
-						fi.nImages = (int)frames;
+						fi.setnImages((int)frames);
 					break;
 				case SAMPLES_PER_PIXEL:
 					samplesPerPixel = getShort();
@@ -622,12 +619,12 @@ class DicomDecoder {
 					addInfo(tag, planarConfiguration);
 					break;
 				case ROWS:
-					fi.height = getShort();
-					addInfo(tag, fi.height);
+					fi.setHeight(getShort());
+					addInfo(tag, fi.getHeight());
 					break;
 				case COLUMNS:
-					fi.width = getShort();
-					addInfo(tag, fi.width);
+					fi.setWidth(getShort());
+					addInfo(tag, fi.getWidth());
 					break;
 				case IMAGER_PIXEL_SPACING: case PIXEL_SPACING:
 					String scale = getString(elementLength);
@@ -636,21 +633,21 @@ class DicomDecoder {
 					break;
 				case SLICE_THICKNESS: case SLICE_SPACING:
 					String spacing = getString(elementLength);
-					fi.pixelDepth = s2d(spacing);
+					fi.setPixelDepth(s2d(spacing));
 					addInfo(tag, spacing);
 					break;
 				case BITS_ALLOCATED:
 					bitsAllocated = getShort();
 					if (bitsAllocated==8)
-						fi.fileType = FileInfo.GRAY8;
+						fi.setFileType(FileInfo.GRAY8);
 					else if (bitsAllocated==32)
-						fi.fileType = FileInfo.GRAY32_UNSIGNED;
+						fi.setFileType(FileInfo.GRAY32_UNSIGNED);
 					addInfo(tag, bitsAllocated);
 					break;
 				case PIXEL_REPRESENTATION:
 					int pixelRepresentation = getShort();
 					if (pixelRepresentation==1) {
-						fi.fileType = FileInfo.GRAY16_SIGNED;
+						fi.setFileType(FileInfo.GRAY16_SIGNED);
 						signed = true;
 					}
 					addInfo(tag, pixelRepresentation);
@@ -680,24 +677,24 @@ class DicomDecoder {
 					addInfo(tag, slop);
 					break;
 				case RED_PALETTE:
-					fi.reds = getLut(elementLength);
+					fi.setReds(getLut(elementLength));
 					addInfo(tag, elementLength/2);
 					break;
 				case GREEN_PALETTE:
-					fi.greens = getLut(elementLength);
+					fi.setGreens(getLut(elementLength));
 					addInfo(tag, elementLength/2);
 					break;
 				case BLUE_PALETTE:
-					fi.blues = getLut(elementLength);
+					fi.setBlues(getLut(elementLength));
 					addInfo(tag, elementLength/2);
 					break;
 				case FLOAT_PIXEL_DATA:
-					fi.fileType = FileInfo.GRAY32_FLOAT;
+					fi.setFileType(FileInfo.GRAY32_FLOAT);
 					// continue without break
 				case PIXEL_DATA:
 					// Start of image data...
 					if (elementLength!=0) {
-						fi.offset = location;
+						fi.setOffset(location);
 						addInfo(tag, location);
 						decodingTags = false;
 					} else
@@ -706,7 +703,7 @@ class DicomDecoder {
 				case 0x7F880010:
 					// What is this? - RAK
 					if (elementLength!=0) {
-						fi.offset = location+4;
+						fi.setOffset(location+4);
 						decodingTags = false;
 					}
 					break;
@@ -716,36 +713,36 @@ class DicomDecoder {
 			}
 		} // while(decodingTags)
 		
-		if (fi.fileType==FileInfo.GRAY8) {
-			if (fi.reds!=null && fi.greens!=null && fi.blues!=null
-			&& fi.reds.length==fi.greens.length
-			&& fi.reds.length==fi.blues.length) {
-				fi.fileType = FileInfo.COLOR8;
-				fi.lutSize = fi.reds.length;
+		if (fi.getFileType()==FileInfo.GRAY8) {
+			if (fi.getReds()!=null && fi.getGreens()!=null && fi.getBlues()!=null
+			&& fi.getReds().length==fi.getGreens().length
+			&& fi.getReds().length==fi.getBlues().length) {
+				fi.setFileType(FileInfo.COLOR8);
+				fi.setLutSize(fi.getReds().length);
 				
 			}
 		}
 				
-		if (fi.fileType==FileInfo.GRAY32_UNSIGNED && signed)
-			fi.fileType = FileInfo.GRAY32_INT;
+		if (fi.getFileType()==FileInfo.GRAY32_UNSIGNED && signed)
+			fi.setFileType(FileInfo.GRAY32_INT);
 
 		if (samplesPerPixel==3 && photoInterpretation.startsWith("RGB")) {
 			if (planarConfiguration==0)
-				fi.fileType = FileInfo.RGB;
+				fi.setFileType(FileInfo.RGB);
 			else if (planarConfiguration==1)
-				fi.fileType = FileInfo.RGB_PLANAR;
+				fi.setFileType(FileInfo.RGB_PLANAR);
 		} else if (photoInterpretation.endsWith("1 "))
-				fi.whiteIsZero = true;
+				fi.setWhiteIsZero(true);
 				
 		if (!littleEndian)
-			fi.intelByteOrder = false;
+			fi.setIntelByteOrder(false);
 		
 		if (IJ.debugMode) {
-			IJ.log("width: " + fi.width);
-			IJ.log("height: " + fi.height);
-			IJ.log("images: " + fi.nImages);
+			IJ.log("width: " + fi.getWidth());
+			IJ.log("height: " + fi.getHeight());
+			IJ.log("images: " + fi.getnImages());
 			IJ.log("bits allocated: " + bitsAllocated);
-			IJ.log("offset: " + fi.offset);
+			IJ.log("offset: " + fi.getOffset());
 		}
 	
 		if (inputStream!=null)
@@ -769,11 +766,6 @@ class DicomDecoder {
 		String info = getHeaderInfo(tag, value);
 		if (inSequence && info!=null && vr!=SQ) info = ">" + info;
 		if (info!=null &&  tag!=ITEM) {
-			int group = tag>>>16;
-			//if (group!=previousGroup && (previousInfo!=null&&previousInfo.indexOf("Sequence:")==-1))
-			//	dicomInfo.append("\n");
-			previousGroup = group;
-			previousInfo = info;
 			dicomInfo.append(tag2hex(tag)+info+"\n");
 		}
 		if (IJ.debugMode) {
@@ -963,9 +955,9 @@ class DicomDecoder {
 			xscale = s2d(scale.substring(i+1));
 		}
 		if (xscale!=0.0 && yscale!=0.0) {
-			fi.pixelWidth = xscale;
-			fi.pixelHeight = yscale;
-			fi.unit = "mm";
+			fi.setPixelWidth(xscale);
+			fi.setPixelHeight(yscale);
+			fi.setUnit("mm");
 		}
 	}
 	

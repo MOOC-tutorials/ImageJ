@@ -2,10 +2,9 @@ package ij.io;
 import ij.VirtualStack;
 import ij.IJ;
 import java.io.*;
-import java.util.Properties;
 
 /** This class consists of public fields that describe an image file. */
-public class FileInfo implements Cloneable {
+public class FileInfo{
 
 	/** 8-bit unsigned integer (0-255). */
 	public static final int GRAY8 = 0;
@@ -92,64 +91,128 @@ public class FileInfo implements Cloneable {
 	public static final int ZIP = 6;
 	
 	/* File format (TIFF, GIF_OR_JPG, BMP, etc.). Used by the File/Revert command */
-	public int fileFormat;
+	private int fileFormat;
 	
 	/* File type (GRAY8, GRAY_16_UNSIGNED, RGB, etc.) */
-	public int fileType;	
-	public String fileName;
-	public String directory;
-	public String url;
-    public int width;
-    public int height;
-    public int offset=0;  // Use getOffset() to read
-    public int nImages;
-    public int gapBetweenImages;   // Use getGap() to read
-    public boolean whiteIsZero;
-    public boolean intelByteOrder;
-	public int compression;
-    public int[] stripOffsets;  
-    public int[] stripLengths;
-    public int rowsPerStrip;
-	public int lutSize;
-	public byte[] reds;
-	public byte[] greens;
-	public byte[] blues;
-	public Object pixels;	
-	public String debugInfo;
-	public String[] sliceLabels;
-	public String info;
-	public InputStream inputStream;
-	public VirtualStack virtualStack;
-	public int sliceNumber; // used by FileInfoVirtualStack
+	private int fileType;	
+	private String fileName;
+	private String directory;
+	private String url;
+    private int width;
+    private int height;
+    private int offset=0;  // Use getOffset() to read
+    private int nImages;
+    private int gapBetweenImages;   // Use getGap() to read
+    private boolean whiteIsZero;
+    private boolean intelByteOrder;
+	private int compression;
+    private int[] stripOffsets;  
+    private int[] stripLengths;
+    private int rowsPerStrip;
+	private int lutSize;
+	private byte[] reds;
+	private byte[] greens;
+	private byte[] blues;
+	private Object pixels;	
+	private String debugInfo;
+	private String[] sliceLabels;
+	private String info;
+	private InputStream inputStream;
+	private VirtualStack virtualStack;
+	private int sliceNumber; // used by FileInfoVirtualStack
 	
-	public double pixelWidth=1.0;
-	public double pixelHeight=1.0;
-	public double pixelDepth=1.0;
-	public String unit;
-	public int calibrationFunction;
-	public double[] coefficients;
-	public String valueUnit;
-	public double frameInterval;
-	public String description;
+	private double pixelWidth=1.0;
+	private double pixelHeight=1.0;
+	private double pixelDepth=1.0;
+	private String unit;
+	private int calibrationFunction;
+	private double[] coefficients;
+	private String valueUnit;
+	private double frameInterval;
+	private String description;
 	// Use <i>longOffset</i> instead of <i>offset</i> when offset>2147483647.
-	public long longOffset;  // Use getOffset() to read
+	private long longOffset;  // Use getOffset() to read
 	// Use <i>longGap</i> instead of <i>gapBetweenImages</i> when gap>2147483647.
-	public long longGap;  // Use getGap() to read
+	private long longGap;  // Use getGap() to read
 	// Extra metadata to be stored in the TIFF header
-	public int[] metaDataTypes; // must be < 0xffffff
-	public byte[][] metaData;
-	public double[] displayRanges;
-	public byte[][] channelLuts;
-	public byte[] plot;			// serialized plot
-	public byte[] roi;			// serialized roi
-	public byte[][] overlay;	// serialized overlay objects
-	public int samplesPerPixel;
-	public String openNextDir, openNextName;
-	public String[] properties; // {key,value,key,value,...}
-	public boolean imageSaved;
-    
+	private int[] metaDataTypes; // must be < 0xffffff
+	private byte[][] metaData;
+	private double[] displayRanges;
+	private byte[][] channelLuts;
+	private byte[] plot;			// serialized plot
+	private byte[] roi;			// serialized roi
+	private byte[][] overlay;	// serialized overlay objects
+	private int samplesPerPixel;
+	private String openNextDir, openNextName;
+	private String[] properties; // {key,value,key,value,...}
+	private boolean imageSaved;
+
+	public FileInfo(int fileFormat,
+					int fileType,
+					String fileName, String directory, String url, int width, int height, int offset, int nImages,
+					int gapBetweenImages, boolean whiteIsZero, boolean intelByteOrder, int compression,
+					int[] stripOffsets, int[] stripLengths, int rowsPerStrip, int lutSize, byte[] reds, byte[] greens,
+					byte[] blues, Object pixels, String debugInfo, String[] sliceLabels, String info,
+					InputStream inputStream, VirtualStack virtualStack, int sliceNumber, double pixelWidth,
+					double pixelHeight, double pixelDepth, String unit, int calibrationFunction, double[] coefficients,
+					String valueUnit, double frameInterval, String description, long longOffset, long longGap,
+					int[] metaDataTypes, byte[][] metaData, double[] displayRanges, byte[][] channelLuts, byte[] plot,
+					byte[] roi, byte[][] overlay, int samplesPerPixel, String openNextDir, String openNextName,
+					String[] properties, boolean imageSaved) {
+		this.fileFormat = fileFormat;
+		this.fileType = fileType;
+		this.fileName = fileName;
+		this.directory = directory;
+		this.url = url;
+		this.width = width;
+		this.height = height;
+		this.offset = offset;
+		this.nImages = nImages;
+		this.gapBetweenImages = gapBetweenImages;
+		this.whiteIsZero = whiteIsZero;
+		this.intelByteOrder = intelByteOrder;
+		this.compression = compression;
+		this.stripOffsets = stripOffsets;
+		this.stripLengths = stripLengths;
+		this.rowsPerStrip = rowsPerStrip;
+		this.lutSize = lutSize;
+		this.reds = reds;
+		this.greens = greens;
+		this.blues = blues;
+		this.pixels = pixels;
+		this.debugInfo = debugInfo;
+		this.sliceLabels = sliceLabels;
+		this.info = info;
+		this.inputStream = inputStream;
+		this.virtualStack = virtualStack;
+		this.sliceNumber = sliceNumber;
+		this.pixelWidth = pixelWidth;
+		this.pixelHeight = pixelHeight;
+		this.pixelDepth = pixelDepth;
+		this.unit = unit;
+		this.calibrationFunction = calibrationFunction;
+		this.coefficients = coefficients;
+		this.valueUnit = valueUnit;
+		this.frameInterval = frameInterval;
+		this.description = description;
+		this.longOffset = longOffset;
+		this.longGap = longGap;
+		this.metaDataTypes = metaDataTypes;
+		this.metaData = metaData;
+		this.displayRanges = displayRanges;
+		this.channelLuts = channelLuts;
+		this.plot = plot;
+		this.roi = roi;
+		this.overlay = overlay;
+		this.samplesPerPixel = samplesPerPixel;
+		this.openNextDir = openNextDir;
+		this.openNextName = openNextName;
+		this.properties = properties;
+		this.imageSaved = imageSaved;
+	}
+
 	/** Creates a FileInfo object with all of its fields set to their default value. */
-     public FileInfo() {
+    public FileInfo() {
     	// assign default values
     	fileFormat = UNKNOWN;
     	fileType = GRAY8;
@@ -160,8 +223,404 @@ public class FileInfo implements Cloneable {
 		compression = COMPRESSION_NONE;
 		samplesPerPixel = 1;
     }
-    
-     /** Returns the file path. */
+
+	public int getFileFormat() {
+		return fileFormat;
+	}
+
+	public void setFileFormat(int fileFormat) {
+		this.fileFormat = fileFormat;
+	}
+
+	public int getFileType() {
+		return fileType;
+	}
+
+	public void setFileType(int fileType) {
+		this.fileType = fileType;
+	}
+
+	public String getFileName() {
+		return fileName;
+	}
+
+	public void setFileName(String fileName) {
+		this.fileName = fileName;
+	}
+
+	public String getDirectory() {
+		return directory;
+	}
+
+	public void setDirectory(String directory) {
+		this.directory = directory;
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+
+	public int getWidth() {
+		return width;
+	}
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
+
+	public void setOffset(int offset) {
+		this.offset = offset;
+	}
+
+	public int getnImages() {
+		return nImages;
+	}
+
+	public void setnImages(int nImages) {
+		this.nImages = nImages;
+	}
+
+	public int getGapBetweenImages() {
+		return gapBetweenImages;
+	}
+
+	public void setGapBetweenImages(int gapBetweenImages) {
+		this.gapBetweenImages = gapBetweenImages;
+	}
+
+	public boolean isWhiteIsZero() {
+		return whiteIsZero;
+	}
+
+	public void setWhiteIsZero(boolean whiteIsZero) {
+		this.whiteIsZero = whiteIsZero;
+	}
+
+	public boolean isIntelByteOrder() {
+		return intelByteOrder;
+	}
+
+	public void setIntelByteOrder(boolean intelByteOrder) {
+		this.intelByteOrder = intelByteOrder;
+	}
+
+	public int getCompression() {
+		return compression;
+	}
+
+	public void setCompression(int compression) {
+		this.compression = compression;
+	}
+
+	public int[] getStripOffsets() {
+		return stripOffsets;
+	}
+
+	public void setStripOffsets(int[] stripOffsets) {
+		this.stripOffsets = stripOffsets;
+	}
+
+	public int[] getStripLengths() {
+		return stripLengths;
+	}
+
+	public void setStripLengths(int[] stripLengths) {
+		this.stripLengths = stripLengths;
+	}
+
+	public int getRowsPerStrip() {
+		return rowsPerStrip;
+	}
+
+	public void setRowsPerStrip(int rowsPerStrip) {
+		this.rowsPerStrip = rowsPerStrip;
+	}
+
+	public int getLutSize() {
+		return lutSize;
+	}
+
+	public void setLutSize(int lutSize) {
+		this.lutSize = lutSize;
+	}
+
+	public byte[] getReds() {
+		return reds;
+	}
+
+	public void setReds(byte[] reds) {
+		this.reds = reds;
+	}
+
+	public byte[] getGreens() {
+		return greens;
+	}
+
+	public void setGreens(byte[] greens) {
+		this.greens = greens;
+	}
+
+	public byte[] getBlues() {
+		return blues;
+	}
+
+	public void setBlues(byte[] blues) {
+		this.blues = blues;
+	}
+
+	public Object getPixels() {
+		return pixels;
+	}
+
+	public void setPixels(Object pixels) {
+		this.pixels = pixels;
+	}
+
+	public String getDebugInfo() {
+		return debugInfo;
+	}
+
+	public void setDebugInfo(String debugInfo) {
+		this.debugInfo = debugInfo;
+	}
+
+	public String[] getSliceLabels() {
+		return sliceLabels;
+	}
+
+	public void setSliceLabels(String[] sliceLabels) {
+		this.sliceLabels = sliceLabels;
+	}
+
+	public String getInfo() {
+		return info;
+	}
+
+	public void setInfo(String info) {
+		this.info = info;
+	}
+
+	public InputStream getInputStream() {
+		return inputStream;
+	}
+
+	public void setInputStream(InputStream inputStream) {
+		this.inputStream = inputStream;
+	}
+
+	public VirtualStack getVirtualStack() {
+		return virtualStack;
+	}
+
+	public void setVirtualStack(VirtualStack virtualStack) {
+		this.virtualStack = virtualStack;
+	}
+
+	public int getSliceNumber() {
+		return sliceNumber;
+	}
+
+	public void setSliceNumber(int sliceNumber) {
+		this.sliceNumber = sliceNumber;
+	}
+
+	public double getPixelWidth() {
+		return pixelWidth;
+	}
+
+	public void setPixelWidth(double pixelWidth) {
+		this.pixelWidth = pixelWidth;
+	}
+
+	public double getPixelHeight() {
+		return pixelHeight;
+	}
+
+	public void setPixelHeight(double pixelHeight) {
+		this.pixelHeight = pixelHeight;
+	}
+
+	public double getPixelDepth() {
+		return pixelDepth;
+	}
+
+	public void setPixelDepth(double pixelDepth) {
+		this.pixelDepth = pixelDepth;
+	}
+
+	public String getUnit() {
+		return unit;
+	}
+
+	public void setUnit(String unit) {
+		this.unit = unit;
+	}
+
+	public int getCalibrationFunction() {
+		return calibrationFunction;
+	}
+
+	public void setCalibrationFunction(int calibrationFunction) {
+		this.calibrationFunction = calibrationFunction;
+	}
+
+	public double[] getCoefficients() {
+		return coefficients;
+	}
+
+	public void setCoefficients(double[] coefficients) {
+		this.coefficients = coefficients;
+	}
+
+	public String getValueUnit() {
+		return valueUnit;
+	}
+
+	public void setValueUnit(String valueUnit) {
+		this.valueUnit = valueUnit;
+	}
+
+	public double getFrameInterval() {
+		return frameInterval;
+	}
+
+	public void setFrameInterval(double frameInterval) {
+		this.frameInterval = frameInterval;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public long getLongOffset() {
+		return longOffset;
+	}
+
+	public void setLongOffset(long longOffset) {
+		this.longOffset = longOffset;
+	}
+
+	public long getLongGap() {
+		return longGap;
+	}
+
+	public void setLongGap(long longGap) {
+		this.longGap = longGap;
+	}
+
+	public int[] getMetaDataTypes() {
+		return metaDataTypes;
+	}
+
+	public void setMetaDataTypes(int[] metaDataTypes) {
+		this.metaDataTypes = metaDataTypes;
+	}
+
+	public byte[][] getMetaData() {
+		return metaData;
+	}
+
+	public void setMetaData(byte[][] metaData) {
+		this.metaData = metaData;
+	}
+
+	public double[] getDisplayRanges() {
+		return displayRanges;
+	}
+
+	public void setDisplayRanges(double[] displayRanges) {
+		this.displayRanges = displayRanges;
+	}
+
+	public byte[][] getChannelLuts() {
+		return channelLuts;
+	}
+
+	public void setChannelLuts(byte[][] channelLuts) {
+		this.channelLuts = channelLuts;
+	}
+
+	public byte[] getPlot() {
+		return plot;
+	}
+
+	public void setPlot(byte[] plot) {
+		this.plot = plot;
+	}
+
+	public byte[] getRoi() {
+		return roi;
+	}
+
+	public void setRoi(byte[] roi) {
+		this.roi = roi;
+	}
+
+	public byte[][] getOverlay() {
+		return overlay;
+	}
+
+	public void setOverlay(byte[][] overlay) {
+		this.overlay = overlay;
+	}
+
+	public int getSamplesPerPixel() {
+		return samplesPerPixel;
+	}
+
+	public void setSamplesPerPixel(int samplesPerPixel) {
+		this.samplesPerPixel = samplesPerPixel;
+	}
+
+	public String getOpenNextDir() {
+		return openNextDir;
+	}
+
+	public void setOpenNextDir(String openNextDir) {
+		this.openNextDir = openNextDir;
+	}
+
+	public String getOpenNextName() {
+		return openNextName;
+	}
+
+	public void setOpenNextName(String openNextName) {
+		this.openNextName = openNextName;
+	}
+
+	public String[] getProperties() {
+		return properties;
+	}
+
+	public void setProperties(String[] properties) {
+		this.properties = properties;
+	}
+
+	public boolean isImageSaved() {
+		return imageSaved;
+	}
+
+	public void setImageSaved(boolean imageSaved) {
+		this.imageSaved = imageSaved;
+	}
+
+	/** Returns the file path. */
 	public String getFilePath() {
 		String dir = directory;
 		if (dir==null)
@@ -238,7 +697,7 @@ public class FileInfo implements Cloneable {
     	return code;
     }
 
-    private String getType() {
+    public String getType() {
     	switch (fileType) {
 			case GRAY8: return "byte";
 			case GRAY16_SIGNED: return "short";
@@ -257,14 +716,10 @@ public class FileInfo implements Cloneable {
 			case BARG: return "BARG";
 			case CMYK: return "CMYK";
 			case GRAY64_FLOAT: return "double";
+			case GRAY24_UNSIGNED: return "Integer";
 			case RGB48_PLANAR: return "RGB48(p)";
 			default: return "";
     	}
     }
-
-	public synchronized Object clone() {
-		try {return super.clone();}
-		catch (CloneNotSupportedException e) {return null;}
-	}
 
 }

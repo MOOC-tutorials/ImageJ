@@ -25,8 +25,8 @@ public class Raw implements PlugIn {
 		File f = new File(filePath);
 		String parent = f.getParent();
 		if (parent!=null)
-			fi.directory = parent+ "/";
-		fi.fileName = f.getName();
+			fi.setDirectory(parent+ "/");
+		fi.setFileName(f.getName());
 		return (new FileOpener(fi)).open(false);
 	}	
 
@@ -55,11 +55,11 @@ public class Raw implements PlugIn {
 		directory = IJ.addSeparator(directory);
 		FileInfo[] info = new FileInfo[list.length];
 		for (int i=0; i<list.length; i++) {
-			info[i] = (FileInfo)fi.clone();
-			info[i].directory = directory;
-			info[i].fileName = list[i];
+			info[i] = (FileInfo)fi;
+			info[i].setDirectory(directory);
+			info[i].setFileName(list[i]);
 		}
-		VirtualStack stack = new FileInfoVirtualStack(info);
+		final VirtualStack stack = new FileInfoVirtualStack(info);
 		ImagePlus imp = new ImagePlus(directory, stack);
 		return imp;
 	}	

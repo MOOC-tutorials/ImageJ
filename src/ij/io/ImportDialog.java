@@ -51,9 +51,9 @@ public class ImportDialog {
 	private static int options;
     private static FileInfo lastFileInfo;
     private boolean openAll;
-    private static String[] types = {"8-bit", "16-bit Signed", "16-bit Unsigned",
-		"32-bit Signed", "32-bit Unsigned", "32-bit Real", "64-bit Real", "24-bit RGB", 
-		"24-bit RGB Planar", "24-bit BGR", "24-bit Integer", "32-bit ARGB", "32-bit ABGR", "1-bit Bitmap"};
+    private static String[] types = {"byte", "short", "ushort",
+		"int", "uint", "float", "double", "RGB", 
+		"RGB(p)", "BGR", "Integer", "ARGB", "ABGR", "bitmap"};
     	
     static {
     	options = Prefs.getInt(OPTIONS, 0);
@@ -139,7 +139,7 @@ public class ImportDialog {
 		for (int i=0; i<list.length; i++) {
 			if (list[i].startsWith("."))
 				continue;
-			fi.fileName = list[i];
+			fi.setFileName(list[i]);
 			imp = new FileOpener(fi).openImage();
 			if (imp==null)
 				IJ.log(list[i] + ": unable to open");
@@ -173,14 +173,14 @@ public class ImportDialog {
 				IJ.showStatus((stack.size()+1) + ": " + list[i]);
 			}
 		}
-		String dir = Recorder.fixPath(fi.directory);
+		String dir = Recorder.fixPath(fi.getDirectory());
 		Recorder.recordCall(fi.getCode()+"imp = Raw.openAll(\""+ dir+"\", fi);");
 		if (stack!=null) {
 			imp = new ImagePlus("Imported Stack", stack);
 			if (imp.getBitDepth()==16 || imp.getBitDepth()==32)
 				imp.getProcessor().setMinAndMax(min, max);
                 Calibration cal = imp.getCalibration();
-                if (fi.fileType==FileInfo.GRAY16_SIGNED)
+                if (fi.getFileType()==FileInfo.GRAY16_SIGNED)
                 	cal.setSigned16BitCalibration();
 			imp.show();
 		}
@@ -237,53 +237,55 @@ public class ImportDialog {
 			return null;
 		String imageType = types[choiceSelection];
 		FileInfo fi = new FileInfo();
-		fi.fileFormat = fi.RAW;
-		fi.fileName = fileName;
+		fi.setFileFormat(fi.RAW);
+		fi.setFileName(fileName);
 		directory = IJ.addSeparator(directory);
-		fi.directory = directory;
-		fi.width = width;
-		fi.height = height;
+		fi.setDirectory(directory);
+		fi.setWidth(width);
+		fi.setHeight(height);
 		if (offset>2147483647)
-			fi.longOffset = offset;
+			fi.setLongOffset(offset);
 		else
-			fi.offset = (int)offset;
-		fi.nImages = nImages;
-		fi.gapBetweenImages = (int)gapBetweenImages;
-		fi.longGap = gapBetweenImages;
-		fi.intelByteOrder = intelByteOrder;
-		fi.whiteIsZero = whiteIsZero;
-		if (imageType.equals("8-bit"))
-			fi.fileType = FileInfo.GRAY8;
-		else if (imageType.equals("16-bit Signed"))
-			fi.fileType = FileInfo.GRAY16_SIGNED;
-		else if (imageType.equals("16-bit Unsigned"))
-			fi.fileType = FileInfo.GRAY16_UNSIGNED;
-		else if (imageType.equals("32-bit Signed"))
-			fi.fileType = FileInfo.GRAY32_INT;
-		else if (imageType.equals("32-bit Unsigned"))
-			fi.fileType = FileInfo.GRAY32_UNSIGNED;
-		else if (imageType.equals("32-bit Real"))
-			fi.fileType = FileInfo.GRAY32_FLOAT;
-		else if (imageType.equals("64-bit Real"))
-			fi.fileType = FileInfo.GRAY64_FLOAT;
-		else if (imageType.equals("24-bit RGB"))
-			fi.fileType = FileInfo.RGB;
-		else if (imageType.equals("24-bit RGB Planar"))
-			fi.fileType = FileInfo.RGB_PLANAR;
-		else if (imageType.equals("24-bit BGR"))
-			fi.fileType = FileInfo.BGR;
-		else if (imageType.equals("24-bit Integer"))
-			fi.fileType = FileInfo.GRAY24_UNSIGNED;
-		else if (imageType.equals("32-bit ARGB"))
-			fi.fileType = FileInfo.ARGB;
-		else if (imageType.equals("32-bit ABGR"))
-			fi.fileType = FileInfo.ABGR;
-		else if (imageType.equals("1-bit Bitmap"))
-			fi.fileType = FileInfo.BITMAP;
-		else
-			fi.fileType = FileInfo.GRAY8;
+			fi.setLongOffset((int)offset);
+		fi.setnImages(nImages);
+		fi.setGapBetweenImages((int)gapBetweenImages);
+		fi.setLongGap(gapBetweenImages);
+		fi.setIntelByteOrder(intelByteOrder);
+		fi.setWhiteIsZero(whiteIsZero);
+		switch(imageType){
+			case "8-bit": 
+				fi.setFileType(FileInfo.GRAY8);
+			case "16-bit Signed":
+				fi.setFileType(FileInfo.GRAY16_SIGNED);
+			case "16-bit Unsigned":
+				fi.setFileType(FileInfo.GRAY16_UNSIGNED);
+			case "32-bit Signed":
+				fi.setFileType(FileInfo.GRAY32_INT);
+			case "32-bit Unsigned":
+				fi.setFileType(FileInfo.GRAY32_UNSIGNED);
+			case "32-bit Real":
+				fi.setFileType(FileInfo.GRAY32_FLOAT);
+			case "64-bit Real":
+				fi.setFileType(FileInfo.GRAY64_FLOAT);
+			case "24-bit RGB":
+				fi.setFileType(FileInfo.RGB);
+			case "24-bit RGB Planar":
+				fi.setFileType(FileInfo.RGB_PLANAR);
+			case "24-bit BGR":
+				fi.setFileType(FileInfo.BGR);
+			case "24-bit Integer":
+				fi.setFileType(FileInfo.GRAY24_UNSIGNED);
+			case "32-bit ARGB":
+				fi.setFileType(FileInfo.ARGB);
+			case "32-bit ABGR":
+				fi.setFileType(FileInfo.ABGR);
+			case "1-bit Bitmap":
+				fi.setFileType(FileInfo.BITMAP);
+			default:
+				fi.setFileType(FileInfo.GRAY8);
+		}
 		if (IJ.debugMode) IJ.log("ImportDialog: "+fi);
-		lastFileInfo = (FileInfo)fi.clone();
+		lastFileInfo = fi;
 		return fi;
 	}
 

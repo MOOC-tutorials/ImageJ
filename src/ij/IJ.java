@@ -1862,8 +1862,8 @@ public class IJ {
 		} else if (title2.equals("image")) {
 			ImagePlus imp = WindowManager.getCurrentImage();
 			FileInfo fi = imp!=null?imp.getOriginalFileInfo():null;
-			if (fi!=null && fi.directory!=null) {
-				dir = fi.directory;
+			if (fi!=null && fi.getDirectory()!=null) {
+				dir = fi.getDirectory();
 			} else
 				dir = null;
 		} else if (title2.equals("file"))

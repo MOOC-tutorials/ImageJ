@@ -28,11 +28,11 @@ public class FITS_Reader extends ImagePlus implements PlugIn {
 		try {
 			fi = fd.getInfo();
 		} catch (IOException e) {}
-		if (fi!=null && fi.width>0 && fi.height>0 && fi.offset>0) {
+		if (fi!=null && fi.getWidth()>0 && fi.getHeight()>0 && fi.getOffset()>0) {
 			FileOpener fo = new FileOpener(fi);
 			ImagePlus imp = fo.openImage();			
 			if (flipImages) {
-				if (fi.nImages==1) {
+				if (fi.getnImages()==1) {
 				  ImageProcessor ip = imp.getProcessor();			   
 				  ip.flipVertical(); // origin is at bottom left corner
 				  setProcessor(fileName, ip);
@@ -45,7 +45,7 @@ public class FITS_Reader extends ImagePlus implements PlugIn {
 			}
 			setStack(fileName, imp.getStack());
 			Calibration cal = imp.getCalibration();
-			if (fi.fileType==FileInfo.GRAY16_SIGNED && fd.bscale==1.0 && fd.bzero==32768.0)
+			if (fi.getFileType()==FileInfo.GRAY16_SIGNED && fd.bscale==1.0 && fd.bzero==32768.0)
 				cal.setFunction(Calibration.NONE, null, "Gray Value");
 			setCalibration(cal);
 			setProperty("Info", fd.getHeaderInfo());
@@ -75,12 +75,12 @@ class FitsDecoder {
 
 	FileInfo getInfo() throws IOException {
 		FileInfo fi = new FileInfo();
-		fi.fileFormat = FileInfo.FITS;
-		fi.fileName = fileName;
-		fi.directory = directory;
-		fi.width = 0;
-		fi.height = 0;
-		fi.offset = 0;
+		fi.setFileFormat(FileInfo.FITS);
+		fi.setFileName(fileName);
+		fi.setDirectory(directory);
+		fi.setWidth(0);
+		fi.setHeight(0);
+		fi.setOffset(0);
 
 		InputStream is = new FileInputStream(directory + fileName);
 		if (fileName.toLowerCase().endsWith(".gz")) is = new GZIPInputStream(is);
@@ -121,47 +121,47 @@ class FitsDecoder {
 			if (key.equals("BITPIX")) {
 				int bitsPerPixel = Integer.parseInt ( value );
 			   if (bitsPerPixel==8)
-					fi.fileType = FileInfo.GRAY8;
+					fi.setFileType(FileInfo.GRAY8);
 				else if (bitsPerPixel==16)
-					fi.fileType = FileInfo.GRAY16_SIGNED;
+					fi.setFileType(FileInfo.GRAY16_SIGNED);
 				else if (bitsPerPixel==32)
-					fi.fileType = FileInfo.GRAY32_INT;
+					fi.setFileType(FileInfo.GRAY32_INT);
 				else if (bitsPerPixel==-32)
-					fi.fileType = FileInfo.GRAY32_FLOAT;
+					fi.setFileType(FileInfo.GRAY32_FLOAT);
 				else if (bitsPerPixel==-64)
-					fi.fileType = FileInfo.GRAY64_FLOAT;
+					fi.setFileType(FileInfo.GRAY64_FLOAT);
 				else {
 					IJ.error("BITPIX must be 8, 16, 32, -32 (float) or -64 (double).");
 					f.close();
 					return null;
 				}
 			} else if (key.equals("NAXIS1"))
-				fi.width = Integer.parseInt ( value );
+				fi.setWidth(Integer.parseInt ( value ));
 			else if (key.equals("NAXIS2"))
-				fi.height = Integer.parseInt( value );
+				fi.setHeight(Integer.parseInt( value ));
 			else if (key.equals("NAXIS3")) //for multi-frame fits
-				fi.nImages = Integer.parseInt ( value );
+				fi.setnImages(Integer.parseInt ( value ));
 			else if (key.equals("BSCALE"))
 				bscale = parseDouble ( value );
 			else if (key.equals("BZERO"))
 				bzero = parseDouble ( value );
 		else if (key.equals("CDELT1"))
-				fi.pixelWidth = parseDouble ( value );
+				fi.setPixelWidth(parseDouble ( value ));
 		else if (key.equals("CDELT2"))
-				fi.pixelHeight = parseDouble ( value );
+				fi.setPixelHeight(parseDouble ( value ));
 		else if (key.equals("CDELT3"))
-				fi.pixelDepth = parseDouble ( value );
+				fi.setPixelDepth(parseDouble ( value ));
 		else if (key.equals("CTYPE1"))
-				fi.unit = value;
+				fi.setUnit(value);
 
-			if (count>360 && fi.width==0)
+			if (count>360 && fi.getWidth()==0)
 				{f.close(); return null;}
 		}
-		if (fi.pixelWidth==1.0 && fi.pixelDepth==1)
-			fi.unit = "pixel";
+		if (fi.getPixelWidth()==1.0 && fi.getPixelDepth()==1)
+			fi.setUnit("pixel");
 
 		f.close();
-		fi.offset = 2880+2880*(((count*80)-1)/2880);
+		fi.setOffset(2880+2880*(((count*80)-1)/2880));
 		return fi;
 	}
 

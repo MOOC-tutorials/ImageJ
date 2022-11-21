@@ -55,8 +55,8 @@ public class NextImageOpener implements PlugIn {
 	String getDirectory(ImagePlus imp) {
 		FileInfo fi = imp.getOriginalFileInfo();
 		if (fi==null) return null;
-		String dir = fi.openNextDir;
-		if (dir==null) dir = fi.directory;
+		String dir = fi.getOpenNextDir();
+		if (dir==null) dir = fi.getDirectory();
 		return dir;
 	}
 
@@ -64,10 +64,10 @@ public class NextImageOpener implements PlugIn {
 		String name = imp.getTitle();
 		FileInfo fi = imp.getOriginalFileInfo();
 		if (fi!=null) {
-			if (fi.openNextName!=null)
-				name = fi.openNextName;
-			else if (fi.fileName!=null)
-				name = fi.fileName;
+			if (fi.getOpenNextName()!=null)
+				name = fi.getOpenNextName();
+			else if (fi.getFileName()!=null)
+				name = fi.getFileName();
 		}
 		return name;
 	}
