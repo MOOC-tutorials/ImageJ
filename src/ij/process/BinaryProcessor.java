@@ -129,7 +129,7 @@ public class BinaryProcessor extends ByteProcessor {
 		moveTo(width-1,0); lineTo(width-1,height-1);
 		moveTo(0,height-1); lineTo(width/*-1*/,height-1);
 		ij.ImageStack movie=null;
-		boolean debug = ij.IJ.debugMode;
+		boolean debug = ij.IJDebugUtils.debugMode;
 		if (debug) movie = new ij.ImageStack(width, height);
 		if (debug) movie.addSlice("-", duplicate());
 		do {

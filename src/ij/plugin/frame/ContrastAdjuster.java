@@ -117,11 +117,11 @@ public class ContrastAdjuster extends PlugInDialog implements Runnable,
 			panel.setLayout(new BorderLayout());
 			minLabel = new Label(blankLabel8, Label.LEFT);
 			minLabel.setFont(monoFont);
-			if (IJ.debugMode) minLabel.setBackground(Color.yellow);
+			if (IJDebugUtils.debugMode) minLabel.setBackground(Color.yellow);
 			panel.add("West", minLabel);
 			maxLabel = new Label(blankLabel8, Label.RIGHT);
 			maxLabel.setFont(monoFont);
-			if (IJ.debugMode) maxLabel.setBackground(Color.yellow);
+			if (IJDebugUtils.debugMode) maxLabel.setBackground(Color.yellow);
 			panel.add("East", maxLabel);
 			add(panel);
 			blankLabel8 = "        ";
@@ -675,7 +675,7 @@ public class ContrastAdjuster extends PlugInDialog implements Runnable,
 		int[] table = new int[tableSize];
 		int min = (int)imp.getDisplayRangeMin();
 		int max = (int)imp.getDisplayRangeMax();
-		if (IJ.debugMode) IJ.log("Apply: mapping "+min+"-"+max+" to 0-"+(range-1));
+		if (IJDebugUtils.debugMode) IJ.log("Apply: mapping "+min+"-"+max+" to 0-"+(range-1));
 		for (int i=0; i<tableSize; i++) {
 			if (i<=min)
 				table[i] = 0;
@@ -766,7 +766,7 @@ public class ContrastAdjuster extends PlugInDialog implements Runnable,
 	private void applyRGBStack(ImagePlus imp) {
 		double min = imp.getDisplayRangeMin();
 		double max = imp.getDisplayRangeMax();
-		if (IJ.debugMode) IJ.log("applyRGBStack: "+min+"-"+max);
+		if (IJDebugUtils.debugMode) IJ.log("applyRGBStack: "+min+"-"+max);
 		int current = imp.getCurrentSlice();
 		int n = imp.getStackSize();
 		if (!IJ.showMessageWithCancel("Update Entire Stack?",
@@ -1175,7 +1175,7 @@ public class ContrastAdjuster extends PlugInDialog implements Runnable,
 		Window owin = e.getOppositeWindow();
 		if (owin==null || !(owin instanceof ImageWindow))
 			return;
-		if (IJ.debugMode) IJ.log("windowActivated: "+owin);
+		if (IJDebugUtils.debugMode) IJ.log("windowActivated: "+owin);
 		if (IJ.isMacro()) {
 			// do nothing if macro and RGB image
 			ImagePlus imp2 = WindowManager.getCurrentImage();

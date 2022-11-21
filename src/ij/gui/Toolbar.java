@@ -862,7 +862,7 @@ public class Toolbar extends Canvas implements MouseListener, MouseMotionListene
 			tool = CUSTOM1;
 		else if (legacyMode && tool>=CUSTOM1)
 			tool++;
-		if (IJ.debugMode) IJ.log("Toolbar.setTool: "+tool);
+		if (IJDebugUtils.debugMode) IJ.log("Toolbar.setTool: "+tool);
 		if ((tool==current&&!(tool==RECTANGLE||tool==OVAL||tool==POINT)) || tool<0 || tool>=getNumTools()-1)
 			return;
 		if (tool>=CUSTOM1&&tool<=getNumTools()-2) {
@@ -1073,7 +1073,7 @@ public class Toolbar extends Canvas implements MouseListener, MouseMotionListene
 		Toolbar tb = getInstance();
 		if (tb!=null) {
 			Graphics g = tb.getGraphics();
-			if (IJ.debugMode) IJ.log("Toolbar.repaintTool: "+tool+" "+g);
+			if (IJDebugUtils.debugMode) IJ.log("Toolbar.repaintTool: "+tool+" "+g);
 			if (g==null) return;
 			if (dscale>1.0)
 				tb.setStrokeWidth((Graphics2D)g);
@@ -1787,7 +1787,7 @@ public class Toolbar extends Canvas implements MouseListener, MouseMotionListene
         	setTool(RECTANGLE);
         if (names[tool].endsWith(" Menu Tool"))
             installMenu(tool);
-        if (IJ.debugMode) IJ.log("Toolbar.addTool: "+tool+" "+toolTip);
+        if (IJDebugUtils.debugMode) IJ.log("Toolbar.addTool: "+tool+" "+toolTip);
 		return tool;
 	}
     
@@ -1987,10 +1987,10 @@ public class Toolbar extends Canvas implements MouseListener, MouseMotionListene
 	}
 	
 	public void installStartupTools() {
-		if (IJ.debugMode) IJ.log("Toolbar.installStartupTools");
+		if (IJDebugUtils.debugMode) IJ.log("Toolbar.installStartupTools");
 		for (int i=0; i<=6; i++) {
 			String name = Prefs.get(TOOL_KEY + (i/10)%10 + i%10, "");
-			if (IJ.debugMode) IJ.log("  "+i+" "+name);
+			if (IJDebugUtils.debugMode) IJ.log("  "+i+" "+name);
 			if (name.equals("")) continue;
 			installingStartupTool = true;
 			boolean ok = installBuiltinTool(name);
@@ -2023,7 +2023,7 @@ public class Toolbar extends Canvas implements MouseListener, MouseMotionListene
 	}
 	
 	private boolean installBuiltinTool(String label) {
-		if (IJ.debugMode) IJ.log("Toolbar.installBuiltinTool: "+label);
+		if (IJDebugUtils.debugMode) IJ.log("Toolbar.installBuiltinTool: "+label);
 		boolean ok = true;
 		PlugInTool tool = null;
 		if (label.startsWith("Arrow")) {

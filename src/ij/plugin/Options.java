@@ -47,7 +47,7 @@ public class Options implements PlugIn {
 		if (IJ.isLinux())
 			gd.addCheckbox("Save window locations", !Prefs.doNotSaveWindowLocations);
 		gd.addCheckbox("Non-blocking filter dialogs", Prefs.nonBlockingFilterDialogs);
-		gd.addCheckbox("Debug mode", IJ.debugMode);
+		gd.addCheckbox("Debug mode", IJDebugUtils.debugMode);
 		//gd.addCheckbox("Modern mode", Prefs.modernMode);
 		gd.addHelp(IJ.URL+"/docs/menus/edit.html#misc");
 		gd.showDialog();
@@ -83,7 +83,7 @@ public class Options implements PlugIn {
 		if (IJ.isLinux())
 			Prefs.doNotSaveWindowLocations = !gd.getNextBoolean();
 		Prefs.nonBlockingFilterDialogs = gd.getNextBoolean();
-		IJ.setDebugMode(gd.getNextBoolean());
+		IJDebugUtils.setDebugMode(gd.getNextBoolean());
 		//Prefs.modernMode = gd.getNextBoolean();
 	}
 

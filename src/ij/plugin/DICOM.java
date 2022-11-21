@@ -151,7 +151,7 @@ public class DICOM extends ImagePlus implements PlugIn {
 				}
 				ImageProcessor ip = imp.getProcessor();
 				ip.setMinAndMax(min, max);
-				if (IJ.debugMode) IJ.log("window: "+min+"-"+max);
+				if (IJDebugUtils.debugMode) IJ.log("window: "+min+"-"+max);
 			}
 			if (imp.getStackSize()>1)
 				setStack(fileName, imp.getStack());
@@ -202,7 +202,7 @@ public class DICOM extends ImagePlus implements PlugIn {
 			if (value<min)
 				min = value;
 		}
-		if (IJ.debugMode) IJ.log("min: "+(min-32768));
+		if (IJDebugUtils.debugMode) IJ.log("min: "+(min-32768));
 		if (min>=32768) {
 			for (int i=0; i<pixels.length; i++)
 				pixels[i] = (short)(pixels[i]-32768);
@@ -305,7 +305,7 @@ class DicomDecoder {
 				InputStream is = new BufferedInputStream(new FileInputStream(f));
 				dictionary.load(is);
 				is.close();
-				if (IJ.debugMode) IJ.log("DicomDecoder: using "+dictionary.size()+" tag dictionary at "+path);
+				if (IJDebugUtils.debugMode) IJ.log("DicomDecoder: using "+dictionary.size()+" tag dictionary at "+path);
 			} catch (Exception e) {
 				dictionary = null;
 			}
@@ -313,7 +313,7 @@ class DicomDecoder {
 		if (dictionary==null) {
 			DicomDictionary d = new DicomDictionary();
 			dictionary = d.getDictionary();
-			if (IJ.debugMode) IJ.log("DicomDecoder: "+path+" not found; using "+dictionary.size()+" tag built in dictionary");
+			if (IJDebugUtils.debugMode) IJ.log("DicomDecoder: "+path+" not found; using "+dictionary.size()+" tag built in dictionary");
 		}
 	}
   
@@ -549,7 +549,7 @@ class DicomDecoder {
 			f.mark(400000);
 		} else
 			f = new BufferedInputStream(new FileInputStream(directory + fileName));
-		if (IJ.debugMode) {
+		if (IJDebugUtils.debugMode) {
 			IJ.log("");
 			IJ.log("DicomDecoder: decoding "+fileName);
 		}
@@ -567,10 +567,10 @@ class DicomDecoder {
 			else
 				f = new BufferedInputStream(new FileInputStream(directory + fileName));
 			location = 0;
-			if (IJ.debugMode) IJ.log(DICM + " not found at offset "+ID_OFFSET+"; reseting to offset 0");
+			if (IJDebugUtils.debugMode) IJ.log(DICM + " not found at offset "+ID_OFFSET+"; reseting to offset 0");
 		} else {
 			dicmFound = true;
-			if (IJ.debugMode) IJ.log(DICM + " found at offset " + ID_OFFSET);
+			if (IJDebugUtils.debugMode) IJ.log(DICM + " found at offset " + ID_OFFSET);
 		}
 		
 		boolean decodingTags = true;
@@ -740,7 +740,7 @@ class DicomDecoder {
 		if (!littleEndian)
 			fi.intelByteOrder = false;
 		
-		if (IJ.debugMode) {
+		if (IJDebugUtils.debugMode) {
 			IJ.log("width: " + fi.width);
 			IJ.log("height: " + fi.height);
 			IJ.log("images: " + fi.nImages);
@@ -776,7 +776,7 @@ class DicomDecoder {
 			previousInfo = info;
 			dicomInfo.append(tag2hex(tag)+info+"\n");
 		}
-		if (IJ.debugMode) {
+		if (IJDebugUtils.debugMode) {
 			if (info==null) info = "";
 			vrLetters[0] = (byte)(vr >> 8);
 			vrLetters[1] = (byte)(vr & 0xFF);
@@ -796,7 +796,7 @@ class DicomDecoder {
 	String getHeaderInfo(int tag, String value) throws IOException {
 		if (tag==ITEM_DELIMINATION || tag==SEQUENCE_DELIMINATION) {
 			inSequence = false;
-			if (!IJ.debugMode) return null;
+			if (!IJDebugUtils.debugMode) return null;
 		}
 		String key = i2hex(tag);
 		//while (key.length()<8)

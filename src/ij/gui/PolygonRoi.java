@@ -1675,7 +1675,7 @@ public class PolygonRoi extends Roi {
 		System.arraycopy(xp2, 0, xp2temp, 0, maxPoints);
 		System.arraycopy(yp2, 0, yp2temp, 0, maxPoints);
 		xp2=xp2temp; yp2=yp2temp;
-		if (IJ.debugMode) IJ.log("PolygonRoi: "+maxPoints+" points -> "+newSize);
+		if (IJDebugUtils.debugMode) IJ.log("PolygonRoi: "+maxPoints+" points -> "+newSize);
 		maxPoints = newSize;
 	}
 

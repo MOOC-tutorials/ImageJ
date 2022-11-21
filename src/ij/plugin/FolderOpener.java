@@ -195,7 +195,7 @@ public class FolderOpener implements PlugIn, TextListener {
 			return;
 		if (sortFileNames || IJ.isMacOSX())
 			list = StringSorter.sortNumerically(list);
-		if (IJ.debugMode) IJ.log("FolderOpener: "+directory+" ("+list.length+" files)");
+		if (IJDebugUtils.debugMode) IJ.log("FolderOpener: "+directory+" ("+list.length+" files)");
 		int width=0, height=0, stackSize=1;
 		ImageStack stack = null;
 		double min = Double.MAX_VALUE;
@@ -425,7 +425,7 @@ public class FolderOpener implements PlugIn, TextListener {
 				imp2.setStack(stack);
 				double voxelDepth = DicomTools.getVoxelDepth(stack);
 				if (voxelDepth>0.0) {
-					if (IJ.debugMode) IJ.log("DICOM voxel depth set to "+voxelDepth+" ("+cal.pixelDepth+")");
+					if (IJDebugUtils.debugMode) IJ.log("DICOM voxel depth set to "+voxelDepth+" ("+cal.pixelDepth+")");
 					cal.pixelDepth = voxelDepth;
 					imp2.setCalibration(cal);
 				}

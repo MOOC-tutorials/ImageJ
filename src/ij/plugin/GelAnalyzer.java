@@ -625,7 +625,7 @@ class PlotsCanvas extends ImageCanvas {
 		double total = 0.0;
 		for (int i=0; i<counter; i++)
 			total += measured[i];
-		if (IJ.debugMode && counter==actual.length) {
+		if (IJDebugUtils.debugMode && counter==actual.length) {
 			debug();
 			return;
 		}

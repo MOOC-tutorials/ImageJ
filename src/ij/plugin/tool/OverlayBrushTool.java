@@ -174,7 +174,7 @@ public class OverlayBrushTool extends PlugInTool implements Runnable {
 				return;
 			}
 			options = this;
-			if (IJ.debugMode) IJ.log("Options: true");
+			if (IJDebugUtils.debugMode) IJ.log("Options: true");
 			showDialog();
 		}
 
@@ -223,7 +223,7 @@ public class OverlayBrushTool extends PlugInTool implements Runnable {
 			}
 			gd.showDialog();
 			Prefs.saveLocation(LOC_KEY, gd.getLocation());
-			if (IJ.debugMode) IJ.log("Options: false");
+			if (IJDebugUtils.debugMode) IJ.log("Options: false");
 			gd = null;
 		}
 

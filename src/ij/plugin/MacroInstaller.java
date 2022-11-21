@@ -334,7 +334,7 @@ public class MacroInstaller implements PlugIn, MacroConstants, ActionListener {
 	}
 
 	void addShortcut(String name) {
-		if (IJ.debugMode) IJ.log("addShortcut: "+name);
+		if (IJDebugUtils.debugMode) IJ.log("addShortcut: "+name);
 		int index1 = name.indexOf('[');
 		if (index1==-1)
 			return;

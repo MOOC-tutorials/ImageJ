@@ -1732,7 +1732,7 @@ public class Functions implements MacroConstants, Measurements {
 
 	private String getWindowTitle() {
 		Window win = WindowManager.getActiveWindow();
-		if (IJ.debugMode) IJ.log("getWindowTitle: "+win);
+		if (IJDebugUtils.debugMode) IJ.log("getWindowTitle: "+win);
 		if (win==null)
 			return "";
 		else if (win instanceof Frame)
@@ -2903,7 +2903,7 @@ public class Functions implements MacroConstants, Measurements {
 		open100Percent = Prefs.open100Percent;
 		blackCanvas = Prefs.blackCanvas;
 		useJFileChooser = Prefs.useJFileChooser;
-		debugMode = IJ.debugMode;
+		debugMode = IJDebugUtils.debugMode;
 		foregroundColor =Toolbar.getForegroundColor();
 		backgroundColor =Toolbar.getBackgroundColor();
 		roiColor = Roi.getColor();
@@ -2945,7 +2945,7 @@ public class Functions implements MacroConstants, Measurements {
 		Prefs.blackCanvas = blackCanvas;
 		Prefs.useJFileChooser = useJFileChooser;
 		Prefs.useInvertingLut = useInvertingLut;
-		IJ.setDebugMode(debugMode);
+		IJDebugUtils.setDebugMode(debugMode);
 		Toolbar.setForegroundColor(foregroundColor);
 		Toolbar.setBackgroundColor(backgroundColor);
 		Roi.setColor(roiColor);
@@ -4669,7 +4669,7 @@ public class Functions implements MacroConstants, Measurements {
 		} else if (arg1.equals("changes"))
 			getImage().changes = state;
 		else if (arg1.equals("debugmode"))
-			IJ.setDebugMode(state);
+			IJDebugUtils.setDebugMode(state);
 		else if (arg1.equals("openusingplugins"))
 			Opener.setOpenUsingPlugins(state);
 		else if (arg1.equals("queuemacros"))
@@ -5055,7 +5055,7 @@ public class Functions implements MacroConstants, Measurements {
 	}
 
 	public static void registerExtensions(MacroExtension extensions) {
-		if (IJ.debugMode) IJ.log("registerExtensions");
+		if (IJDebugUtils.debugMode) IJ.log("registerExtensions");
 		Interpreter interp = Interpreter.getInstance();
 		if (interp==null) {
 			IJ.error("Macro must be running to install macro extensions");
@@ -5065,7 +5065,7 @@ public class Functions implements MacroConstants, Measurements {
 		ExtensionDescriptor[] descriptors = extensions.getExtensionFunctions();
 		for (int i=0; i<descriptors.length; ++i) {
 			interp.pgm.extensionRegistry.put(descriptors[i].name, descriptors[i]);
-			if (IJ.debugMode) IJ.log("  "+i+" "+descriptors[i].name);
+			if (IJDebugUtils.debugMode) IJ.log("  "+i+" "+descriptors[i].name);
 		}
 	}
 
@@ -5952,7 +5952,7 @@ public class Functions implements MacroConstants, Measurements {
 		else
 			interp.getParens();
 		if (arg.equals("conditional")) {
-			if (IJ.debugMode)
+			if (IJDebugUtils.debugMode)
 				arg = "break";
 			else
 				return null;

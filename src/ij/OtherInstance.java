@@ -45,7 +45,7 @@ public class OtherInstance {
 		int counter = 0;
 
 		public void sendArgument(String cmd) {
-			if (IJ.debugMode) IJ.log("SocketServer.sendArgument: \""+ cmd+"\"");
+			if (IJDebugUtils.debugMode) IJ.log("SocketServer.sendArgument: \""+ cmd+"\"");
 			if (cmd.startsWith("open "))
 				(new Opener()).openAndAddToRecent(cmd.substring(5));
 			else if (cmd.startsWith("macro ")) {
@@ -101,7 +101,7 @@ public class OtherInstance {
 			m.invoke(file, arguments);
 			return;
 		} catch (Exception e) {
-			if (IJ.debugMode)
+			if (IJDebugUtils.debugMode)
 				System.err.println("Java < 6 detected,"
 					+ " trying chmod 0600 " + path);
 		}
@@ -112,7 +112,7 @@ public class OtherInstance {
 				};
 				Runtime.getRuntime().exec(command);
 			} catch (Exception e) {
-				if (IJ.debugMode)
+				if (IJDebugUtils.debugMode)
 					System.err.println("Even chmod failed.");
 			}
 		}
@@ -156,7 +156,7 @@ public class OtherInstance {
 			} // for
 			return true;
 		} catch (Exception e) {
-			if (IJ.debugMode) {
+			if (IJDebugUtils.debugMode) {
 				System.err.println("Client exception: " + e);
 				e.printStackTrace();
 			}
@@ -172,7 +172,7 @@ public class OtherInstance {
 	static Implementation implementation;
 
 	public static void startServer() {
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			System.err.println("OtherInstance: starting server");
 		try {
 			implementation = new Implementation();
@@ -185,10 +185,10 @@ public class OtherInstance {
 			new ObjectOutputStream(out).writeObject(stub);
 			out.close();
 
-			if (IJ.debugMode)
+			if (IJDebugUtils.debugMode)
 				System.err.println("OtherInstance: server ready");
 		} catch (Exception e) {
-			if (IJ.debugMode) {
+			if (IJDebugUtils.debugMode) {
 				System.err.println("Server exception: " + e);
 				e.printStackTrace();
 			}

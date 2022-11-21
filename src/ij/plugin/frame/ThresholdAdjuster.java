@@ -403,7 +403,7 @@ public class ThresholdAdjuster extends PlugInDialog implements PlugIn, Measureme
 	 *  Returns the ImageProcessor of the image that should be used, or null if no appropriate image.
 	*/
 	ImageProcessor setup(ImagePlus imp, boolean enableAutoThreshold) {
-		if (IJ.debugMode) IJ.log("ThresholdAdjuster.setup: enableAuto="+enableAutoThreshold);
+		if (IJDebugUtils.debugMode) IJ.log("ThresholdAdjuster.setup: enableAuto="+enableAutoThreshold);
 		if (imp==null)
 			return null;
 		ImageProcessor ip;
@@ -1064,7 +1064,7 @@ class ThresholdPlot extends Canvas implements Measurements, MouseListener {
     }
 
 	ImageStatistics setHistogram(ImagePlus imp, boolean entireStack, boolean rawValues) {
-		if (IJ.debugMode) IJ.log("ThresholdAdjuster:setHistogram: "+entireStack+" "+entireStack2);
+		if (IJDebugUtils.debugMode) IJ.log("ThresholdAdjuster:setHistogram: "+entireStack+" "+entireStack2);
 		double mean = entireStack?imp.getProcessor().getStats().mean:0.0;
 		if (entireStack && stats!=null && imp.getID()==imageID2
 		&& entireStack==entireStack2 && mean==mean2)
@@ -1114,7 +1114,7 @@ class ThresholdPlot extends Canvas implements Measurements, MouseListener {
 		ip.setRoi(roi);
 		if (stats==null)
 			stats = ip.getStats();
-		if (IJ.debugMode) IJ.log("  stats: "+stats);
+		if (IJDebugUtils.debugMode) IJ.log("  stats: "+stats);
 		int maxCount2 = 0;  // number of pixels in 2nd-highest bin, used for y scale if mode is too high
 		histogram = stats.histogram;
 		originalModeCount = histogram[stats.mode];

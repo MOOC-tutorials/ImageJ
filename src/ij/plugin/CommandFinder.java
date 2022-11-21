@@ -188,7 +188,7 @@ public class CommandFinder implements PlugIn, ActionListener, WindowListener, Ke
 			return;
 		Hashtable table = Menus.getCommands();
 		String className = (String) table.get(cmd);
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("showSource: " + cmd + "   " + className);
 		if (className == null) {
 			error("No source associated with this command:\n  " + cmd);

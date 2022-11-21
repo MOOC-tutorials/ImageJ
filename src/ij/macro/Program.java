@@ -41,7 +41,7 @@ public class Program implements MacroConstants {
 			for (int i=0; i<=stLoc; i++)
 				systemTable[i] = table[i];
 		}
-		if (IJ.debugMode) IJ.log("Symbol table: "+(stLoc+1)+"  "+table.length+"  "+systemTable.length);
+		if (IJDebugUtils.debugMode) IJ.log("Symbol table: "+(stLoc+1)+"  "+table.length+"  "+systemTable.length);
 	}
 	
 	public int[] getCode() {
@@ -94,7 +94,7 @@ public class Program implements MacroConstants {
 		System.arraycopy(table, 0, tmp, 0, maxSymbols);
 		table = tmp;
 		maxSymbols *= 2;
-		if (IJ.debugMode) IJ.log("enlargeSymbolTable: "+table.length);
+		if (IJDebugUtils.debugMode) IJ.log("enlargeSymbolTable: "+table.length);
 	}
 	
 	void addToken(int tok, int lineNumber) {//n__

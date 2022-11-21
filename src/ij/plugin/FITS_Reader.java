@@ -168,7 +168,7 @@ class FitsDecoder {
 	String getString(int length) throws IOException {
 		byte[] b = new byte[length];
 		f.readFully(b);
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log(new String(b));
 		return new String(b);
 	}

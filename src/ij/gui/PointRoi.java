@@ -759,7 +759,7 @@ public class PointRoi extends PolygonRoi {
 		for (int i=0; i<nCounters; i++)
 			rt.setValue("Ctr "+i, row, counts[i]);
 		rt.show(getCountsTitle());
-		if (IJ.debugMode) debug();
+		if (IJDebugUtils.debugMode) debug();
 	}
 
 	private void debug() {

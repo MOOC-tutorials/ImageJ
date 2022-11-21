@@ -222,7 +222,7 @@ public class Thresholder implements PlugIn, Measurements, ItemListener {
 			ip.setColorModel(ip.getDefaultColorModel());
 		ip.resetThreshold();
 
-		if (IJ.debugMode) IJ.log("Thresholder (apply): "+minThreshold+"-"+maxThreshold+" "+fcolor+" "+bcolor+" "+fill1+" "+fill2);
+		if (IJDebugUtils.debugMode) IJ.log("Thresholder (apply): "+minThreshold+"-"+maxThreshold+" "+fcolor+" "+bcolor+" "+fill1+" "+fill2);
 		int[] lut = new int[256];
 		for (int i=0; i<256; i++) {
 			if (i>=minThreshold && i<=maxThreshold)
@@ -241,12 +241,12 @@ public class Thresholder implements PlugIn, Measurements, ItemListener {
 				ip.invertLut();
 				if (!IJ.isMacro() && ThresholdAdjuster.isDarkBackground() && !invertedLut && !Prefs.blackBackground)
 					IJ.log("\"Black background\" not set in Process>Binary>Options; inverting LUT");
-				if (IJ.debugMode) IJ.log("Thresholder (inverting lut)");
+				if (IJDebugUtils.debugMode) IJ.log("Thresholder (inverting lut)");
 			}
 		}
 		if (fill1 && fill2 && ((fcolor==0&&bcolor==255)||(fcolor==255&&bcolor==0))) {
 			imp.getProcessor().setThreshold(fcolor, fcolor, ImageProcessor.NO_LUT_UPDATE);
-			if (IJ.debugMode) IJ.log("Thresholder: "+fcolor+"-"+fcolor+" ("+(Prefs.blackBackground?"black":"white")+" background)");
+			if (IJDebugUtils.debugMode) IJ.log("Thresholder: "+fcolor+"-"+fcolor+" ("+(Prefs.blackBackground?"black":"white")+" background)");
 		}
 		imp.updateAndRepaintWindow();
 		imp.unlock();
@@ -319,7 +319,7 @@ public class Thresholder implements PlugIn, Measurements, ItemListener {
 			ci.updateAndDraw();
 		}
 		imp.getProcessor().setThreshold(255, 255, ImageProcessor.NO_LUT_UPDATE);
-		if (IJ.debugMode) IJ.log("Thresholder16: 255-255 ("+(Prefs.blackBackground?"black":"white")+" background)");
+		if (IJDebugUtils.debugMode) IJ.log("Thresholder16: 255-255 ("+(Prefs.blackBackground?"black":"white")+" background)");
 		IJ.showStatus("");
 		imp.unlock();
 	}
@@ -427,7 +427,7 @@ public class Thresholder implements PlugIn, Measurements, ItemListener {
 		ip.setAutoThreshold(ImageProcessor.ISODATA2, ImageProcessor.NO_LUT_UPDATE);
 		minThreshold = ip.getMinThreshold();
 		maxThreshold = ip.getMaxThreshold();
-		if (IJ.debugMode) IJ.log("Thresholder (auto): "+minThreshold+"-"+maxThreshold);
+		if (IJDebugUtils.debugMode) IJ.log("Thresholder (auto): "+minThreshold+"-"+maxThreshold);
  	}
  	
  	public static void setMethod(String method) {

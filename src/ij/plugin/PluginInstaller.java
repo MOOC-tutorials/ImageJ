@@ -157,7 +157,7 @@ public class PluginInstaller implements PlugIn {
 		int n = 0;
 		try {
 			url = new URL(urlString);
-			if (IJ.debugMode) IJ.log("PluginInstaller: "+urlString+"  " +url);
+			if (IJDebugUtils.debugMode) IJ.log("PluginInstaller: "+urlString+"  " +url);
 			if (url==null)
 				return null;
 			URLConnection uc = url.openConnection();

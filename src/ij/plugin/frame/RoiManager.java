@@ -490,7 +490,7 @@ public class RoiManager extends PlugInFrame implements ActionListener, ItemListe
 	 * @param n		if zero or greater, will be used to form the first part of the label
 	*/
 	public void add(ImagePlus imp, Roi roi, int n) {
-		if (IJ.debugMode && n<3 && roi!=null) IJ.log("RoiManager.add: "+n+" "+roi.getName());
+		if (IJDebugUtils.debugMode && n<3 && roi!=null) IJ.log("RoiManager.add: "+n+" "+roi.getName());
 		if (roi==null)
 			return;
 		String label = roi.getName();
@@ -982,7 +982,7 @@ public class RoiManager extends PlugInFrame implements ActionListener, ItemListe
 				IJ.showProgress(i, indexes.length);
 				String label = getUniqueName(names, indexes[i]);
 				Roi roi = (Roi)rois.get(indexes[i]);
-				if (IJ.debugMode) IJ.log("saveMultiple: "+i+"  "+label+"  "+roi);
+				if (IJDebugUtils.debugMode) IJ.log("saveMultiple: "+i+"  "+label+"  "+roi);
 				if (roi==null) continue;
 				if (!label.endsWith(".roi")) label += ".roi";
 				zos.putNextEntry(new ZipEntry(label));

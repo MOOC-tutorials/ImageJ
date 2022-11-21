@@ -276,7 +276,7 @@ public class PlugInFilterRunner implements Runnable, DialogListener {
    }
 
 	private void processImageUsingThreads(ImageProcessor ip, FloatProcessor fp, Object snapshotPixels) {
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("using threads: "+ip.getNChannels());
 		Thread thread = Thread.currentThread();
 		boolean convertToFloat = (flags&PlugInFilter.CONVERT_TO_FLOAT)!=0 && !(ip instanceof FloatProcessor);
@@ -319,7 +319,7 @@ public class PlugInFilterRunner implements Runnable, DialogListener {
 		ImageProcessor mask = ip.getMask();
 		Rectangle roi = ip.getRoi();
 		int threads = Prefs.getThreads();
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("processing channel: "+threads);
 		if (threads>roi.height) threads = roi.height;
 		if (threads>1) roisForThread = new Hashtable<Thread, ImageProcessor>(threads-1);
@@ -330,11 +330,11 @@ public class PlugInFilterRunner implements Runnable, DialogListener {
 			Rectangle roi2 = new Rectangle(roi.x, y1, roi.width, y2-y1+1);
 			roisForThread.put(bgThread, duplicateProcessor(ip, roi2));
 			bgThread.start();
-			if (IJ.debugMode)
+			if (IJDebugUtils.debugMode)
 				IJ.log("  starting thread: "+y1+"-"+y2);
 			y1 = y2+1;
 		}
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("  main thread "+y1+"-"+(roi.y+roi.height));
 		Rectangle roi2 = new Rectangle(roi.x, y1, roi.width, roi.y+roi.height-y1);
 		((PlugInFilter)theFilter).run(duplicateProcessor(ip, roi2)); 	// current thread does the rest
@@ -482,7 +482,7 @@ public class PlugInFilterRunner implements Runnable, DialogListener {
 
 	/** The background thread for preview */
 	private void runPreview() {
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("preview thread started; imp="+imp.getTitle());
 		Thread thread = Thread.currentThread();
 		ImageProcessor ip = imp.getProcessor();
@@ -526,7 +526,7 @@ public class PlugInFilterRunner implements Runnable, DialogListener {
 				previewDataOk = true;
 				previewTime = System.currentTimeMillis() - startTime;
 				imp.updateAndDraw();
-				if (IJ.debugMode)
+				if (IJDebugUtils.debugMode)
 					IJ.log("preview processing done");
 			}
 			gd.previewRunning(false);				// optical feedback
@@ -617,7 +617,7 @@ public class PlugInFilterRunner implements Runnable, DialogListener {
 			if (priority < Thread.MIN_PRIORITY) priority = Thread.MIN_PRIORITY;
 			previewThread.setPriority(priority);	//preview on lower priority than dialog
 			previewThread.start();
-			if (IJ.debugMode)
+			if (IJDebugUtils.debugMode)
 				IJ.log(command+" Preview thread was started");
 			return true;
 		}

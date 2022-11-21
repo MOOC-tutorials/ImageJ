@@ -524,10 +524,10 @@ public class MaximumFinder implements ExtendedPlugInFilter, DialogListener {
             // Segmentation required, convert to 8bit (also for 8-bit images, since the calibration
             // may have a negative slope). outIp has background 0, maximum areas 255
             outIp = make8bit(ip, typeP, isEDM, globalMin, globalMax, threshold);
-            //if (IJ.debugMode) new ImagePlus("pixel types precleanup", typeP.duplicate()).show();
+            //if (IJPluginUtils.debugMode) new ImagePlus("pixel types precleanup", typeP.duplicate()).show();
             cleanupMaxima(outIp, typeP, maxPoints);     //eliminate all the small maxima (i.e. those outside MAX_AREA)
-            //if (IJ.debugMode) new ImagePlus("pixel types postcleanup", typeP).show();
-            //if (IJ.debugMode) new ImagePlus("pre-watershed", outIp.duplicate()).show();
+            //if (IJPluginUtils.debugMode) new ImagePlus("pixel types postcleanup", typeP).show();
+            //if (IJPluginUtils.debugMode) new ImagePlus("pre-watershed", outIp.duplicate()).show();
             if (!watershedSegment(outIp))               //do watershed segmentation
                 return null;                            //if user-cancelled, return
             if (!isEDM) cleanupExtraLines(outIp);       //eliminate lines due to local minima (none in EDM)
@@ -1112,7 +1112,7 @@ public class MaximumFinder implements ExtendedPlugInFilter, DialogListener {
      * @return    false if canceled by the user (note: can be cancelled only if called by "run" with a known ImagePlus)
      */    
     private boolean watershedSegment(ByteProcessor ip) {
-        boolean debug = IJ.debugMode;
+        boolean debug = IJDebugUtils.debugMode;
         ImageStack movie=null;
         if (debug) {
             movie = new ImageStack(ip.getWidth(), ip.getHeight());

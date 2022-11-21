@@ -47,7 +47,7 @@ public class CompositeImage extends ImagePlus {
 		this.mode = mode;
 		int channels = imp.getNChannels();
 		bitDepth = getBitDepth();
-		if (IJ.debugMode) IJ.log("CompositeImage: "+imp+" "+mode+" "+channels);
+		if (IJDebugUtils.debugMode) IJ.log("CompositeImage: "+imp+" "+mode+" "+channels);
 		ImageStack stack2;
 		boolean isRGB = imp.getBitDepth()==24;
 		if (isRGB) {
@@ -288,7 +288,7 @@ public class CompositeImage extends ImagePlus {
 			else if (prop.contains("Invert")||prop.contains("invert"))
 				projectionMode = ImageProcessor.INVERT_PROJECTION;
 		}
-		long t0 = IJ.debugMode?System.nanoTime():0L;
+		long t0 = IJDebugUtils.debugMode?System.nanoTime():0L;
 		if (singleChannel && nChannels<=3) {
 			switch (currentChannel) {
 				case 0: cip[0].updateComposite(rgbPixels, ImageProcessor.UPDATE_RED); break;
@@ -321,7 +321,7 @@ public class CompositeImage extends ImagePlus {
 			for (int i=1; i<nChannels; i++)
 				if (active[i]) cip[i].updateComposite(rgbPixels, projectionMode);
 		}
-		if (IJ.debugMode) IJ.log(""+(System.nanoTime()-t0)/1000L);
+		if (IJDebugUtils.debugMode) IJ.log(""+(System.nanoTime()-t0)/1000L);
 		createBufferedImage();
 		if (img==null && awtImage!=null)
 			img = awtImage;

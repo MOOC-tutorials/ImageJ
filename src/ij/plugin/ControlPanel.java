@@ -398,7 +398,7 @@ public class ControlPanel implements PlugIn {
 	 *
 	 */
 	void loadProperties() {
-		if (IJ.debugMode) IJ.log("CP.loadProperties");
+		if (IJDebugUtils.debugMode) IJ.log("CP.loadProperties");
 		visiblePanels.removeAllElements();
 		expandedNodes.removeAllElements();
 		panels.clear();
@@ -408,7 +408,7 @@ public class ControlPanel implements PlugIn {
 			if (key.startsWith(".Control_Panel.")) {
 				key = key.substring(1, key.length());
 				String val = Prefs.get(key, null);
-				if (IJ.debugMode) IJ.log("  "+key+": "+val);
+				if (IJDebugUtils.debugMode) IJ.log("  "+key+": "+val);
 				if (Character.isDigit(val.charAt(0))) // value starts with digit
 					visiblePanels.addElement(key);
 				else if (val.equals("expand"))
@@ -418,7 +418,7 @@ public class ControlPanel implements PlugIn {
 	}
 
 	void saveProperties() {
-		if (IJ.debugMode) IJ.log("CP.saveProperties: "+propertiesChanged);
+		if (IJDebugUtils.debugMode) IJ.log("CP.saveProperties: "+propertiesChanged);
 		if (propertiesChanged) {
 			clearProperties();
 			for (Enumeration e=visiblePanels.elements(); e.hasMoreElements();) {
@@ -498,7 +498,7 @@ public class ControlPanel implements PlugIn {
 			String height = (Integer.valueOf(rect.height)).toString();
 			if (pTitle.equals("Control_Panel")) pTitle = "Control_Panel.@Main";
 			String geometry = xCoord+" "+yCoord+" "+width+" "+height;
-			if (IJ.debugMode) IJ.log("CP.recordGeometry: "+pTitle+" "+geometry);
+			if (IJDebugUtils.debugMode) IJ.log("CP.recordGeometry: "+pTitle+" "+geometry);
 			Prefs.set(pTitle, geometry);
 		}
 	}
@@ -507,7 +507,7 @@ public class ControlPanel implements PlugIn {
 		String pTitle = panel.getRootPath().toString();
 		pTitle = pStr2Key(pTitle);
 		if (pTitle.equals("Control_Panel")) pTitle = "Control_Panel.@Main";
-		if (IJ.debugMode) IJ.log("CP.restoreGeometry: "+pTitle);
+		if (IJDebugUtils.debugMode) IJ.log("CP.restoreGeometry: "+pTitle);
 		String geom = Prefs.get(pTitle, null);
 		if (geom!=null) {
 			int[] coords = s2ints(geom);
@@ -728,7 +728,7 @@ class TreePanel implements
 		addListeners();
 		pFrame.pack();
 		if (defaultLocation!=null) {
-			if (IJ.debugMode) IJ.log("CP.buildTreePanel: "+defaultLocation);
+			if (IJDebugUtils.debugMode) IJ.log("CP.buildTreePanel: "+defaultLocation);
 			pFrame.setLocation(defaultLocation.x, defaultLocation.y);
 		} else
 			pcp.restoreGeometry(this);
@@ -772,7 +772,7 @@ class TreePanel implements
 		pFrame.addComponentListener(new ComponentAdapter() {
 			public void componentMoved(ComponentEvent e) {
 				Rectangle r = e.getComponent().getBounds();
-				if (IJ.debugMode) IJ.log("CP.componentMoved: "+r);
+				if (IJDebugUtils.debugMode) IJ.log("CP.componentMoved: "+r);
 				if (r.x>0) {
 					defaultLocation = new Point(r.x, r.y);
 					recordGeometry();
@@ -943,7 +943,7 @@ class TreePanel implements
 	 * are saved
 	 */
 	public void windowClosing(WindowEvent e) {
-		if (IJ.debugMode) IJ.log("CP.windowClosing: "+isMainPanel);
+		if (IJDebugUtils.debugMode) IJ.log("CP.windowClosing: "+isMainPanel);
 		if (isMainPanel)
 			pcp.saveProperties();
 		pcp.unsetPanelShowingProperty(getRootPath().toString());

@@ -335,7 +335,7 @@ public class Wand {
                 if (inside(x,y))
                     insideCount++;
             }
-        if (IJ.debugMode)
+        if (IJDebugUtils.debugMode)
             IJ.log((((double)insideCount)/area<0.25?"line ":"blob ")+insideCount+" "+area+" "+IJ.d2s(((double)insideCount)/area));
         return ((double)insideCount)/area<0.25;
     }

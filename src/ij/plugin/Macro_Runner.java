@@ -19,7 +19,7 @@ public class Macro_Runner implements PlugIn {
 		is an empty string. The macro or script is assumed to be in the ImageJ 
 		plugins folder if  <code>name</code> is not a full path. */
 	public void run(String name) {
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("Macro_Runner.run(): "+name);
 		Thread thread = Thread.currentThread();
 		String threadName = thread.getName();
@@ -121,7 +121,7 @@ public class Macro_Runner implements PlugIn {
 				if (exists) path=path2;
 			}
 		}
-		if (IJ.debugMode) IJ.log("runMacro: "+path+" ("+name+")");
+		if (IJDebugUtils.debugMode) IJ.log("runMacro: "+path+" ("+name+")");
 		if (!exists || f==null) {
             IJ.error("RunMacro", "Macro or script not found:\n \n"+path);
 			return null;
@@ -265,7 +265,7 @@ public class Macro_Runner implements PlugIn {
 	private static String runScript(Object plugin, String script, String arg) {
 		if (plugin instanceof PlugInInterpreter) {
 			PlugInInterpreter interp = (PlugInInterpreter)plugin;
-			if (IJ.debugMode)
+			if (IJDebugUtils.debugMode)
 				IJ.log("Running "+interp.getName()+" script; arg=\""+arg+"\"");
 			interp.run(script, arg);
 			return interp.getReturnValue();

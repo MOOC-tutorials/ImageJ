@@ -124,7 +124,7 @@ public class Memory implements PlugIn {
 
 	long getMemorySetting(String file) {
 		String path = file.startsWith("/")?file:Prefs.getImageJDir()+file;
-		if (IJ.debugMode) IJ.log("getMemorySetting: "+path);
+		if (IJDebugUtils.debugMode) IJ.log("getMemorySetting: "+path);
 		f = new File(path);
 		if (!f.exists()) {
 			fileMissing = true;

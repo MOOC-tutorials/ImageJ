@@ -687,7 +687,7 @@ public class Duplicator implements PlugIn, TextListener, ItemListener {
 	}
 
 	public void textValueChanged(TextEvent e) {
-		if (IJ.debugMode) IJ.log("Duplicator.textValueChanged: "+e);
+		if (IJDebugUtils.debugMode) IJ.log("Duplicator.textValueChanged: "+e);
 		if (e.getSource()==titleField) {
 			if (!titleField.getText().equals(getNewTitle()))
 				titleChanged = true;

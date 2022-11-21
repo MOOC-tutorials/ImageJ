@@ -264,7 +264,7 @@ public class Calibrator implements PlugInFilter, Measurements, ActionListener {
 		    curveFitError = cf.getStatusString();
 		    return null;
 		}
-        if (IJ.debugMode) IJ.log(cf.getResultString());
+        if (IJDebugUtils.debugMode) IJ.log(cf.getResultString());
 		int np = cf.getNumParams();
 		double[] p = cf.getParams();
 		fitGoodness = IJ.d2s(cf.getRSquared(),6);

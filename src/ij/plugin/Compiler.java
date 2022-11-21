@@ -58,7 +58,7 @@ public class Compiler implements PlugIn, FilenameFilter {
 			return;
 		}
 		if (!isJavac()) {
-			if (IJ.debugMode) IJ.log("Compiler: javac not found");
+			if (IJDebugUtils.debugMode) IJ.log("Compiler: javac not found");
 			if (!checkForUpdateDone) {
 				checkForUpdate("/plugins/compiler/Compiler.jar", "1.48c");
 				checkForUpdateDone = true;
@@ -82,7 +82,7 @@ public class Compiler implements PlugIn, FilenameFilter {
 		String className = plugin.substring(slashIndex+1, plugin.length()-4);
 		File f = new File(Prefs.getImageJDir()+"plugins"+File.separator+"jars"+File.separator+className+".jar");
 		if (!f.exists() || !f.canWrite()) {
-			if (IJ.debugMode) IJ.log("checkForUpdate: jar not found ("+plugin+")");
+			if (IJDebugUtils.debugMode) IJ.log("checkForUpdate: jar not found ("+plugin+")");
 			return;
 		}
 		String version = null;
@@ -94,15 +94,15 @@ public class Compiler implements PlugIn, FilenameFilter {
 		}
 		catch (Exception e) {}
 		if (version==null) {
-			if (IJ.debugMode) IJ.log("checkForUpdate: class not found ("+className+")");
+			if (IJDebugUtils.debugMode) IJ.log("checkForUpdate: class not found ("+className+")");
 			return;
 		}
 		if (version.compareTo(currentVersion)>=0) {
-			if (IJ.debugMode) IJ.log("checkForUpdate: up to date ("+className+"  "+version+")");
+			if (IJDebugUtils.debugMode) IJ.log("checkForUpdate: up to date ("+className+"  "+version+")");
 			return;
 		}
 		boolean ok = Macro_Runner.downloadJar(plugin);
-		if (IJ.debugMode) IJ.log("checkForUpdate: "+className+" "+version+" "+ok);
+		if (IJDebugUtils.debugMode) IJ.log("checkForUpdate: "+className+" "+version+" "+ok);
 	}
 	 
 	boolean isJavac() {
@@ -130,7 +130,7 @@ public class Compiler implements PlugIn, FilenameFilter {
 		Vector sources = new Vector();
 		sources.add(path);
 		
-		if (IJ.debugMode) {
+		if (IJDebugUtils.debugMode) {
 			StringBuilder builder = new StringBuilder();
 			builder.append("javac");
 			for (int i=0; i< options.size(); i++){
@@ -319,7 +319,7 @@ class PlugInExecuter implements Runnable {
 	}
 	
 	void runCompiledPlugin(String className) {
-		if (IJ.debugMode) IJ.log("Compiler: running \""+className+"\"");
+		if (IJDebugUtils.debugMode) IJ.log("Compiler: running \""+className+"\"");
 		IJ.resetClassLoader();
 		ClassLoader loader = IJ.getClassLoader();
 		Object thePlugIn = null;
@@ -336,7 +336,7 @@ class PlugInExecuter implements Runnable {
 		}
 		catch (NoClassDefFoundError e) {
 			String err = e.getMessage();
-			if (IJ.debugMode) IJ.log("NoClassDefFoundError: "+err);
+			if (IJDebugUtils.debugMode) IJ.log("NoClassDefFoundError: "+err);
 			int index = err!=null?err.indexOf("wrong name: "):-1;
 			if (index>-1 && !className.contains(".")) {
 				String className2 = err.substring(index+12, err.length()-1);
@@ -371,7 +371,7 @@ abstract class CompilerTool {
 	public static class JavaxCompilerTool extends CompilerTool {
 
 		public boolean compile(List sources, List options, StringWriter log) {
-			if (IJ.debugMode) IJ.log("Compiler: using javax.tool.JavaCompiler");
+			if (IJDebugUtils.debugMode) IJ.log("Compiler: using javax.tool.JavaCompiler");
 			try {
 				JavaCompiler javac = getJavac();
 				DiagnosticCollector<JavaFileObject> diagnostics = new DiagnosticCollector<JavaFileObject>();
@@ -398,7 +398,7 @@ abstract class CompilerTool {
 		protected static Class javacC;
 
 		public boolean compile(List sources, List options, StringWriter log) {
-			if (IJ.debugMode) IJ.log("Compiler: using com.sun.tools.javac");
+			if (IJDebugUtils.debugMode) IJ.log("Compiler: using com.sun.tools.javac");
 			try {
 				final String[] args = new String[sources.size() + options.size()];
 				int argsIndex = 0;

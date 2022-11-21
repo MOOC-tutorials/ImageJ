@@ -1038,7 +1038,7 @@ public class Menus {
 			if (!f.isDirectory())
 				macrosPath = null;
 		}
-		if (IJ.debugMode) {
+		if (IJDebugUtils.debugMode) {
 			IJ.log("Menus.setupPluginsAndMacrosPaths");
 			IJ.log("   user.dir: "+currentDir);
 			IJ.log("   plugins.dir: "+System.getProperty("plugins.dir"));

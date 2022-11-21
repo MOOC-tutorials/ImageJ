@@ -204,7 +204,7 @@ public class ImageWindow extends Frame implements FocusListener, WindowListener,
 			}
 			xbase = Math.max(xbase, maxWindow.x);
 			ybase = Math.max(ybase, maxWindow.y);
-			//if (IJ.debugMode) IJ.log("ImageWindow.xbase: "+xbase);
+			//if (IJPluginUtils.debugMode) IJ.log("ImageWindow.xbase: "+xbase);
 			xloc = xbase;
 			yloc = ybase;
 		}
@@ -550,7 +550,7 @@ public class ImageWindow extends Frame implements FocusListener, WindowListener,
 		    Component m = getComponent(i);
 		    Dimension d = m.getPreferredSize();
 			extraHeight += d.height + 5;
-			if (IJ.debugMode) IJ.log(i+"  "+d.height+" "+extraHeight);
+			if (IJDebugUtils.debugMode) IJ.log(i+"  "+d.height+" "+extraHeight);
 		}
 		return new Dimension(extraWidth, extraHeight);
 	}
@@ -567,12 +567,12 @@ public class ImageWindow extends Frame implements FocusListener, WindowListener,
 		if (GenericDialog.getInstance()!=null && IJ.isMacOSX() && IJ.isJava18())
 			return; // workaround for OSX/Java 8 maximize bug 
 		Rectangle rect = getMaximumBounds();
-		if (IJ.debugMode) IJ.log("maximize: "+rect);
+		if (IJDebugUtils.debugMode) IJ.log("maximize: "+rect);
 		setLocationAndSize(rect.x, rect.y, rect.width, rect.height);
 	}
 	
 	public void minimize() {
-		if (IJ.debugMode) IJ.log("minimize: "+unzoomWhenMinimizing);
+		if (IJDebugUtils.debugMode) IJ.log("minimize: "+unzoomWhenMinimizing);
 		if (unzoomWhenMinimizing)
 			ic.unzoom();
 		unzoomWhenMinimizing = true;
@@ -585,13 +585,13 @@ public class ImageWindow extends Frame implements FocusListener, WindowListener,
 	
 	public void focusGained(FocusEvent e) {
 		if (!Interpreter.isBatchMode() && ij!=null && !ij.quitting() && imp!=null) {
-			//if (IJ.debugMode) IJ.log("focusGained: "+imp);
+			//if (IJPluginUtils.debugMode) IJ.log("focusGained: "+imp);
 			WindowManager.setCurrentWindow(this);
 		}
 	}
 
 	public void windowActivated(WindowEvent e) {
-		if (IJ.debugMode) IJ.log("windowActivated: "+imp.getTitle());
+		if (IJDebugUtils.debugMode) IJ.log("windowActivated: "+imp.getTitle());
 		if (IJ.isMacOSX())
 			setImageJMenuBar(this);
 		if (imp==null)
@@ -622,7 +622,7 @@ public class ImageWindow extends Frame implements FocusListener, WindowListener,
 	public void windowStateChanged(WindowEvent e) {
 		int oldState = e.getOldState();
 		int newState = e.getNewState();
-		if (IJ.debugMode) IJ.log("windowStateChanged: "+oldState+" "+newState);
+		if (IJDebugUtils.debugMode) IJ.log("windowStateChanged: "+oldState+" "+newState);
 		if ((oldState&Frame.MAXIMIZED_BOTH)==0 && (newState&Frame.MAXIMIZED_BOTH)!=0)
 			maximize();
 	}
@@ -638,7 +638,7 @@ public class ImageWindow extends Frame implements FocusListener, WindowListener,
 		int rotation = e.getWheelRotation();
 		int amount = e.getScrollAmount();
 		boolean ctrl = (e.getModifiers()&Event.CTRL_MASK)!=0;
-		if (IJ.debugMode) {
+		if (IJDebugUtils.debugMode) {
 			IJ.log("mouseWheelMoved: "+e);
 			IJ.log("  type: "+e.getScrollType());
 			IJ.log("  ctrl: "+ctrl);
@@ -753,7 +753,7 @@ public class ImageWindow extends Frame implements FocusListener, WindowListener,
 			long time = System.currentTimeMillis()-t0;
 			setMenuBarTime = time;
 			Menus.setMenuBarCount++;
-			//if (IJ.debugMode) IJ.log("setMenuBar: "+time+"ms ("+Menus.setMenuBarCount+")");
+			//if (IJPluginUtils.debugMode) IJ.log("setMenuBar: "+time+"ms ("+Menus.setMenuBarCount+")");
 			if (time>2000L)
 				Prefs.setIJMenuBar = false;
 		}

@@ -28,7 +28,7 @@ public class ImageJ_Updater implements PlugIn {
 		}
 		int exclamation = ij_jar.indexOf('!');
 		ij_jar = ij_jar.substring(9, exclamation);
-		if (IJ.debugMode) IJ.log("Updater (jar loc): "+ij_jar);
+		if (IJDebugUtils.debugMode) IJ.log("Updater (jar loc): "+ij_jar);
 		File file = new File(ij_jar);
 		if (!file.exists()) {
 			error("File not found: "+file.getPath());
@@ -122,7 +122,7 @@ public class ImageJ_Updater implements PlugIn {
 			IJ.showStatus("Connecting to "+IJ.URL);
 			URLConnection uc = url.openConnection();
 			int len = uc.getContentLength();
-			if (IJ.debugMode) IJ.log("Updater (url): "+ address + " "+ len);
+			if (IJDebugUtils.debugMode) IJ.log("Updater (url): "+ address + " "+ len);
 			if (len<=0)
 				return null;
 			String name = address.contains("daily")?"daily build (":"ij.jar (";
@@ -139,10 +139,10 @@ public class ImageJ_Updater implements PlugIn {
 			}
 			in.close();
 		} catch (IOException e) {
-			if (IJ.debugMode) IJ.log(""+e);
+			if (IJDebugUtils.debugMode) IJ.log(""+e);
 			return null;
 		}
-		if (IJ.debugMode) IJ.wait(6000);
+		if (IJDebugUtils.debugMode) IJ.wait(6000);
 		return data;
 	}
 
@@ -181,7 +181,7 @@ public class ImageJ_Updater implements PlugIn {
 	}
 	
 	void updateMenus() {
-		if (IJ.debugMode) {
+		if (IJDebugUtils.debugMode) {
 			long start = System.currentTimeMillis();
 			Menus.updateImageJMenus();
 			IJ.log("Refresh Menus: "+(System.currentTimeMillis()-start)+" ms");

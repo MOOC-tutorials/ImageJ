@@ -484,7 +484,7 @@ public class ColorThresholder extends PlugInFrame implements PlugIn, Measurement
 	}
 
 	public synchronized void adjustmentValueChanged(AdjustmentEvent e) {
-    	if (IJ.debugMode) IJ.log("ColorThresholder.adjustmentValueChanged ");
+    	if (IJDebugUtils.debugMode) IJ.log("ColorThresholder.adjustmentValueChanged ");
 		if (!checkImage()) return;
 		if (e.getSource() == minSlider)
 			adjustMinHue((int) minSlider.getValue());
@@ -505,7 +505,7 @@ public class ColorThresholder extends PlugInFrame implements PlugIn, Measurement
 	}
 
 	public synchronized void itemStateChanged(ItemEvent e) {
-		if (IJ.debugMode) IJ.log("ColorThresolder.itemStateChanged");
+		if (IJDebugUtils.debugMode) IJ.log("ColorThresolder.itemStateChanged");
 		ImagePlus imp = WindowManager.getCurrentImage();
 		if (imp==null) return;
 		Object source = e.getSource();
@@ -535,14 +535,14 @@ public class ColorThresholder extends PlugInFrame implements PlugIn, Measurement
 
 
 	public void focusGained(FocusEvent e){
-		if (IJ.debugMode) IJ.log("ColorThresolder.focusGained");
+		if (IJDebugUtils.debugMode) IJ.log("ColorThresolder.focusGained");
 		checkImage();
 	}
 
 	public void focusLost(FocusEvent e){}
 
 	public void actionPerformed(ActionEvent e) {
-		if (IJ.debugMode) IJ.log("ColorThresholder.actionPerformed");
+		if (IJDebugUtils.debugMode) IJ.log("ColorThresholder.actionPerformed");
 		Button b = (Button)e.getSource();
 		if (b==null) return;
 		boolean imageThere = b==sampleB || checkImage();
@@ -862,7 +862,7 @@ public class ColorThresholder extends PlugInFrame implements PlugIn, Measurement
 
 
 	private boolean checkImage() {
-		if (IJ.debugMode) IJ.log("ColorThresholder.checkImage");
+		if (IJDebugUtils.debugMode) IJ.log("ColorThresholder.checkImage");
 		ImagePlus imp = WindowManager.getCurrentImage();
 		if (imp==null || imp.getBitDepth()!=24) {
 			IJ.beep();
@@ -875,7 +875,7 @@ public class ColorThresholder extends PlugInFrame implements PlugIn, Measurement
 	}
 
 	boolean setup(ImagePlus imp) {
-		if (IJ.debugMode) IJ.log("ColorThresholder.setup");
+		if (IJDebugUtils.debugMode) IJ.log("ColorThresholder.setup");
 		ImageProcessor ip;
 		int type = imp.getType();
 		if (type!=ImagePlus.COLOR_RGB)
@@ -955,7 +955,7 @@ public class ColorThresholder extends PlugInFrame implements PlugIn, Measurement
 	}
 
 	void autoSetThreshold() {
-		if (IJ.debugMode) IJ.log("ColorThresholder.autoSetThreshold");
+		if (IJDebugUtils.debugMode) IJ.log("ColorThresholder.autoSetThreshold");
 		boolean darkb = darkBackground!=null && darkBackground.getState();
 		switch (colorSpace) {
 			case HSB:
@@ -1115,7 +1115,7 @@ public class ColorThresholder extends PlugInFrame implements PlugIn, Measurement
 	}
 
 	void apply(ImagePlus imp) {
-		if (IJ.debugMode) IJ.log("ColorThresholder.apply");
+		if (IJDebugUtils.debugMode) IJ.log("ColorThresholder.apply");
 		ImageProcessor fillMaskIP = (ImageProcessor)imp.getProperty("Mask");
 		if (fillMaskIP==null) return;
 		byte[] fillMask = (byte[])fillMaskIP.getPixels();
@@ -1247,7 +1247,7 @@ public class ColorThresholder extends PlugInFrame implements PlugIn, Measurement
 
 	// Restores the original pixel data
 	void reset(ImagePlus imp) {
-		if (IJ.debugMode) IJ.log("ColorThresholder.reset");
+		if (IJDebugUtils.debugMode) IJ.log("ColorThresholder.reset");
 		ImageProcessor ip = imp.getProcessor();
 		ImagePlus originalImage = (ImagePlus)imp.getProperty("OriginalImage");
 		if (originalImage==null) {
@@ -1265,7 +1265,7 @@ public class ColorThresholder extends PlugInFrame implements PlugIn, Measurement
 	}
 
     public void windowActivated(WindowEvent e) {
-    	if (IJ.debugMode) IJ.log("ColorThresholder.windowActivated ");
+    	if (IJDebugUtils.debugMode) IJ.log("ColorThresholder.windowActivated ");
     	ImagePlus imp = WindowManager.getCurrentImage();
 		if (imp==null || imp.getBitDepth()!=24) {
 			IJ.beep();

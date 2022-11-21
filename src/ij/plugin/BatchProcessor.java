@@ -194,7 +194,7 @@ import java.util.Vector;
 		for (int i=0; i<list.length; i++) {
 			if (IJ.escapePressed()) break;
 			String path = inputPath + list[i];
-			if (IJ.debugMode) IJ.log(i+": "+path);
+			if (IJDebugUtils.debugMode) IJ.log(i+": "+path);
 			if ((new File(path)).isDirectory())
 				continue;
 			if (list[i].startsWith(".")||list[i].endsWith(".avi")||list[i].endsWith(".AVI") || list[i].equals("Thumbs.db"))

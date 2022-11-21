@@ -167,7 +167,7 @@ public class Recorder extends PlugInFrame implements PlugIn, ActionListener, Ima
 	}
 	
 	public static void record(String method, String arg) {
-		if (IJ.debugMode) IJ.log("record: "+method+"  "+arg);
+		if (IJDebugUtils.debugMode) IJ.log("record: "+method+"  "+arg);
 		boolean sw = method.equals("selectWindow");
 		if (textArea!=null && !(scriptMode&&sw||commandName!=null&&sw)) {
 			if (scriptMode && method.equals("roiManager"))
@@ -307,7 +307,7 @@ public class Recorder extends PlugInFrame implements PlugIn, ActionListener, Ima
 	}
 	
 	public static void recordCall(String call, boolean recordCommand) {
-		if (IJ.debugMode) IJ.log("recordCall: "+call+"  "+commandName);
+		if (IJDebugUtils.debugMode) IJ.log("recordCall: "+call+"  "+commandName);
 		boolean isMacro = Thread.currentThread().getName().endsWith("Macro$") && !recordInMacros;
 		if (textArea!=null && scriptMode && !IJ.macroRunning() && !isMacro) {
 			if (javaMode() && call.startsWith("rm.setSelected")) {

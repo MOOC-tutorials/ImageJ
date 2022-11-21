@@ -431,7 +431,7 @@ public class Minimizer {
         wasInitialized = true;
         if (startTime == 0)
             startTime = System.currentTimeMillis();
-        //if (IJ.debugMode) showSimplex(simp, seed+" Initialized:");
+        //if (IJPluginUtils.debugMode) showSimplex(simp, seed+" Initialized:");
         int bestVertexNumber = minimize(simp);          // first minimization
         double bestValueSoFar = value(simp[bestVertexNumber]);
         //reinitialize until converged or error/aborted (don't care about reinitialization failure in other thread)
@@ -443,7 +443,7 @@ public class Minimizer {
                 reinitialisationFailure = true;
                 break;
             }
-            //if (IJ.debugMode) showSimplex(simp, seed+" Reinitialized:");
+            //if (IJPluginUtils.debugMode) showSimplex(simp, seed+" Reinitialized:");
             bestVertexNumber = minimize(simp);          // minimize with reinitialized simplex
             if (belowErrorLimit(value(simp[bestVertexNumber]), bestValueSoFar, 2.0)) break;
             bestValueSoFar = value(simp[bestVertexNumber]);
@@ -452,7 +452,7 @@ public class Minimizer {
             status = REINITIALIZATION_FAILURE;
         else if (status == SUCCESS || status == REINITIALIZATION_FAILURE) //i.e. not aborted, not max iterations exceeded
             numCompletedMinimizations++;                // it was a complete minimization
-        //if (IJ.debugMode) showSimplex(simp, seed+" Final:");
+        //if (IJPluginUtils.debugMode) showSimplex(simp, seed+" Final:");
         if (resultsVector != null) synchronized(resultsVector) {
             resultsVector.add(simp[bestVertexNumber]);
         } else
@@ -615,22 +615,22 @@ public class Minimizer {
         if (initialParams!=null) {
             for (int i=0; i<numParams; i++)
                 if (Double.isNaN(initialParams[i]))
-                    if (IJ.debugMode) IJ.log("Warning: Initial Parameter["+i+"] is NaN");
+                    if (IJDebugUtils.debugMode) IJ.log("Warning: Initial Parameter["+i+"] is NaN");
             System.arraycopy(initialParams, 0, simp[0], 0, Math.min(initialParams.length, numParams));
         }
         evaluate(simp[0]);
         if (Double.isNaN(value(simp[0]))) {
-            if (IJ.debugMode) showVertex(simp[0], "Warning: Initial Parameters yield NaN:");
+            if (IJDebugUtils.debugMode) showVertex(simp[0], "Warning: Initial Parameters yield NaN:");
             findValidInitalParams(simp[0], initialParamVariations, random);
         }
         if (Double.isNaN(value(simp[0]))) {
-            if (IJ.debugMode) IJ.log("Error: Could not find initial parameters not yielding NaN:");
+            if (IJDebugUtils.debugMode) IJ.log("Error: Could not find initial parameters not yielding NaN:");
             return null;
         }
         if (initializeSimplex(simp, initialParamVariations, random))
             return simp;
         else {
-            if (IJ.debugMode) showSimplex(simp, "Error: Could not make simplex vertices not yielding NaN");
+            if (IJDebugUtils.debugMode) showSimplex(simp, "Error: Could not make simplex vertices not yielding NaN");
             return null;
         }
     }

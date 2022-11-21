@@ -282,7 +282,7 @@ public class ImportDialog {
 			fi.fileType = FileInfo.BITMAP;
 		else
 			fi.fileType = FileInfo.GRAY8;
-		if (IJ.debugMode) IJ.log("ImportDialog: "+fi);
+		if (IJDebugUtils.debugMode) IJ.log("ImportDialog: "+fi);
 		lastFileInfo = (FileInfo)fi.clone();
 		return fi;
 	}

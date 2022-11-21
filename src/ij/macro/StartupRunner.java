@@ -1,5 +1,6 @@
 package ij.macro;
 import ij.IJ;
+import ij.IJDebugUtils;
 import ij.plugin.MacroInstaller;
 import ij.plugin.Startup;
 
@@ -9,7 +10,7 @@ public class StartupRunner implements Runnable {
 	/** Runs the RunAtStartup and AutoRun macros, on the current thread
 		if 'batchMode' true, otherwise on a separate thread. */
 	public void run(boolean batchMode) {
-		if (IJ.debugMode) IJ.log("StartupRunner: "+batchMode);
+		if (IJDebugUtils.debugMode) IJ.log("StartupRunner: "+batchMode);
 		if (batchMode)
 			run();
 		else {

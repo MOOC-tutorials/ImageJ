@@ -699,7 +699,7 @@ public class Editor extends PlugInFrame implements ActionListener, ItemListener,
 			IJ.showMessage("Editor", "Press Ctrl-Z to undo");
 			return;
 		}
-		if (IJ.debugMode) IJ.log("Undo1: "+undoBuffer.size());
+		if (IJDebugUtils.debugMode) IJ.log("Undo1: "+undoBuffer.size());
 		int position = ta.getCaretPosition();
 		if (undoBuffer.size()>1) {
 			undoBuffer.remove(undoBuffer.size()-1);
@@ -708,7 +708,7 @@ public class Editor extends PlugInFrame implements ActionListener, ItemListener,
 			ta.setText(text);
 			if (position<=text.length())
 				ta.setCaretPosition(position-offset(position));
-			if (IJ.debugMode) IJ.log("Undo2: "+undoBuffer.size()+" "+text);
+			if (IJDebugUtils.debugMode) IJ.log("Undo2: "+undoBuffer.size()+" "+text);
 		}
 	}
 	
@@ -778,7 +778,7 @@ public class Editor extends PlugInFrame implements ActionListener, ItemListener,
 			if (text.charAt(i)=='\r')
 				rcount++;
 		}
-		if (IJ.debugMode) IJ.log("offset: "+pos+" "+rcount);
+		if (IJDebugUtils.debugMode) IJ.log("offset: "+pos+" "+rcount);
 		return pos-rcount>=0?rcount:0;
 	}
 
@@ -1238,7 +1238,7 @@ public class Editor extends PlugInFrame implements ActionListener, ItemListener,
 	/** Override windowActivated in PlugInFrame to
 		prevent Mac menu bar from being installed. */
 	public void windowActivated(WindowEvent e) {
-			if (IJ.debugMode) IJ.log("Editor.windowActivated");
+			if (IJDebugUtils.debugMode) IJ.log("Editor.windowActivated");
 			WindowManager.setWindow(this);
 			instance = this;
 	}
@@ -1660,7 +1660,7 @@ public class Editor extends PlugInFrame implements ActionListener, ItemListener,
 	public void lostOwnership (Clipboard clip, Transferable cont) {}
 	
 	public int debug(Interpreter interp, int mode) {
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("debug: "+interp.getLineNumber()+"  "+mode+"  "+interp);
 		if (mode==RUN_TO_COMPLETION)
 			return 0;

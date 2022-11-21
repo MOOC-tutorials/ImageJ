@@ -711,7 +711,7 @@ public class ImageStack {
 	 
 	 int viewers(int inc) {
 	 	viewers += inc;
-	 	if (IJ.debugMode) IJ.log("stack.viewers: "+viewers);
+	 	if (IJDebugUtils.debugMode) IJ.log("stack.viewers: "+viewers);
 	 	return viewers;
 	 }
 	 

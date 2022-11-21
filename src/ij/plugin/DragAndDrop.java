@@ -40,9 +40,9 @@ public class DragAndDrop implements PlugIn, DropTargetListener, Runnable {
 			Transferable t = dtde.getTransferable();
 			iterator = null;
 			flavors = t.getTransferDataFlavors();
-			if (IJ.debugMode) IJ.log("DragAndDrop.drop: "+flavors.length+" flavors");
+			if (IJDebugUtils.debugMode) IJ.log("DragAndDrop.drop: "+flavors.length+" flavors");
 			for (int i=0; i<flavors.length; i++) {
-				if (IJ.debugMode) IJ.log("  flavor["+i+"]: "+flavors[i].getMimeType());
+				if (IJDebugUtils.debugMode) IJ.log("  flavor["+i+"]: "+flavors[i].getMimeType());
 				if (flavors[i].isFlavorJavaFileListType()) {
 					Object data = t.getTransferData(DataFlavor.javaFileListFlavor);
 					iterator = ((List)data).iterator();
@@ -56,7 +56,7 @@ public class DragAndDrop implements PlugIn, DropTargetListener, Runnable {
 					ArrayList list = new ArrayList();
 					if (s.indexOf("href=\"")!=-1 || s.indexOf("src=\"")!=-1) {
 						s = parseHTML(s);
-						if (IJ.debugMode) IJ.log("  url: "+s);
+						if (IJDebugUtils.debugMode) IJ.log("  url: "+s);
 						list.add(s);
 						this.iterator = list.iterator();
 						break;
@@ -66,7 +66,7 @@ public class DragAndDrop implements PlugIn, DropTargetListener, Runnable {
 					while (null != (tmp = br.readLine())) {
 						tmp = java.net.URLDecoder.decode(tmp.replaceAll("\\+","%2b"), "UTF-8");
 						if (tmp.startsWith("file://")) tmp = tmp.substring(7);
-						if (IJ.debugMode) IJ.log("  content: "+tmp);
+						if (IJDebugUtils.debugMode) IJ.log("  content: "+tmp);
 						if (tmp.startsWith("http://"))
 							list.add(s);
 						else
@@ -103,7 +103,7 @@ public class DragAndDrop implements PlugIn, DropTargetListener, Runnable {
 	}
 	
 	private String parseHTML(String s) {
-		if (IJ.debugMode) IJ.log("parseHTML:\n"+s);
+		if (IJDebugUtils.debugMode) IJ.log("parseHTML:\n"+s);
 		int index1 = s.indexOf("src=\"");
 		if (index1>=0) {
 			int index2 = s.indexOf("\"", index1+5);
@@ -121,13 +121,13 @@ public class DragAndDrop implements PlugIn, DropTargetListener, Runnable {
 
 	public void dragEnter(DropTargetDragEvent e)  {
 		IJ.showStatus("<<Drag and Drop>>");
-		if (IJ.debugMode) IJ.log("DragEnter: "+e.getLocation());
+		if (IJDebugUtils.debugMode) IJ.log("DragEnter: "+e.getLocation());
 		e.acceptDrag(DnDConstants.ACTION_COPY);
 		openAsVirtualStack = false;
 	}
 
 	public void dragOver(DropTargetDragEvent e) {
-		if (IJ.debugMode) IJ.log("DragOver: "+e.getLocation());
+		if (IJDebugUtils.debugMode) IJ.log("DragOver: "+e.getLocation());
 		Point loc = e.getLocation();
 		int buttonSize = Toolbar.getButtonSize();
 		int width = IJ.getInstance().getSize().width;
@@ -163,14 +163,14 @@ public class DragAndDrop implements PlugIn, DropTargetListener, Runnable {
 	
 	/** Open a URL. */
 	private void openURL(String url) {
-		if (IJ.debugMode) IJ.log("DragAndDrop.openURL: "+url);
+		if (IJDebugUtils.debugMode) IJ.log("DragAndDrop.openURL: "+url);
 		if (url!=null)
 			IJ.open(url);
 	}
 
 	/** Open a file. If it's a directory, ask to open all images as a sequence in a stack or individually. */
 	public void openFile(File f) {
-		if (IJ.debugMode) IJ.log("DragAndDrop.openFile: "+f);
+		if (IJDebugUtils.debugMode) IJ.log("DragAndDrop.openFile: "+f);
 		try {
 			if (null == f) return;
 			String path = f.getCanonicalPath();

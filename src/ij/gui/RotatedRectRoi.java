@@ -28,7 +28,7 @@ public class RotatedRectRoi extends PolygonRoi {
 		ystart = offScreenYD(sy);
 		ImageWindow win = imp.getWindow();
 		int pixels = win!=null?(int)(win.getSize().height/win.getCanvas().getMagnification()):imp.getHeight();
-		if (IJ.debugMode) IJ.log("RotatedRectRoi: "+(int)rectWidth+" "+pixels);
+		if (IJDebugUtils.debugMode) IJ.log("RotatedRectRoi: "+(int)rectWidth+" "+pixels);
 		if (rectWidth>pixels)
 			rectWidth = pixels/3;
 		setDrawOffset(false);

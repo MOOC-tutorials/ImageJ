@@ -10,7 +10,7 @@ public class DicomTools {
 
 	/** Sorts a DICOM stack by image number. */
 	public static ImageStack sort(ImageStack stack) {
-		if (IJ.debugMode) IJ.log("Sorting by DICOM image number");
+		if (IJDebugUtils.debugMode) IJ.log("Sorting by DICOM image number");
 		if (stack.size()==1) return stack;
 		String[] strings = getSortStrings(stack, "0020,0013");
 		if (strings==null) return stack;
@@ -50,12 +50,12 @@ public class DicomTools {
 			sliceLabels[i-1] = tags;
 			double value = getNumericTag(tags, tag);
 			if (Double.isNaN(value)) {
-				if (IJ.debugMode) IJ.log("  "+tag+"  tag missing in slice "+i);
+				if (IJDebugUtils.debugMode) IJ.log("  "+tag+"  tag missing in slice "+i);
 				if (showError) rescaleSlopeError(stack);
 				return null;
 			}
 			if (getSeriesNumber(tags)!=series) {
-				if (IJ.debugMode) IJ.log("  all slices must be part of the same series");
+				if (IJDebugUtils.debugMode) IJ.log("  all slices must be part of the same series");
 				if (showError) rescaleSlopeError(stack);
 				return null;
 			}
@@ -111,7 +111,7 @@ public class DicomTools {
 			double zn = Double.parseDouble(xyz[2]);
 			voxelDepth = Math.abs((zn - z0) / (stack.size() - 1));
 		}
-		if (IJ.debugMode) IJ.log("DicomTools.getVoxelDepth: "+voxelDepth+"  "+pos0+"  "+posn);
+		if (IJDebugUtils.debugMode) IJ.log("DicomTools.getVoxelDepth: "+voxelDepth+"  "+pos0+"  "+posn);
 		return voxelDepth;
 	}
 

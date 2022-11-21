@@ -198,7 +198,7 @@ public class Selection implements PlugIn, Measurements {
 			double yold = ynew;
 			ynew = A0 + xnew*(A1 + xnew*(A2 + 4.*xnew*xnew));
 			if (Math.abs(ynew)>Math.abs(yold)) {
-				if (IJ.debugMode) IJ.log("Fit Circle: wrong direction: |ynew| > |yold|");
+				if (IJDebugUtils.debugMode) IJ.log("Fit Circle: wrong direction: |ynew| > |yold|");
 				xnew = 0;
 				break;
 			}
@@ -208,15 +208,15 @@ public class Selection implements PlugIn, Measurements {
 			if (Math.abs((xnew-xold)/xnew) < epsilon)
 				break;
 			if (iter >= IterMax) {
-				if (IJ.debugMode) IJ.log("Fit Circle: will not converge");
+				if (IJDebugUtils.debugMode) IJ.log("Fit Circle: will not converge");
 				xnew = 0;
 			}
 			if (xnew<0) {
-				if (IJ.debugMode) IJ.log("Fit Circle: negative root:  x = "+xnew);
+				if (IJDebugUtils.debugMode) IJ.log("Fit Circle: negative root:  x = "+xnew);
 				xnew = 0;
 			}
 		}
-		if (IJ.debugMode) IJ.log("Fit Circle: n="+n+", xnew="+IJ.d2s(xnew,2)+", iterations="+iterations);
+		if (IJDebugUtils.debugMode) IJ.log("Fit Circle: n="+n+", xnew="+IJ.d2s(xnew,2)+", iterations="+iterations);
 		
 		// calculate the circle parameters
 		double DET = xnew*xnew - xnew*Mz + Cov_xy;
@@ -770,7 +770,7 @@ public class Selection implements PlugIn, Measurements {
 		}
 		RoiProperties rp = new RoiProperties(title, roi);
 		boolean ok = rp.showDialog();
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log(roi.getDebugInfo());
 		return ok;
 	}

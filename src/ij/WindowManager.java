@@ -494,7 +494,7 @@ public class WindowManager {
     
 	/** Activates the next image window on the window list. */
 	public static void putBehind() {
-		if (IJ.debugMode) IJ.log("putBehind");
+		if (IJDebugUtils.debugMode) IJ.log("putBehind");
 		if (imageList.size()<1 || currentWindow==null)
 			return;
 		int index = imageList.indexOf(currentWindow);

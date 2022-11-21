@@ -167,7 +167,7 @@ public class ImageCanvas extends Canvas implements MouseListener, MouseMotionLis
 		}
 		magnification = (double)dstWidth/srcRect.width;
 		imp.setTitle(imp.getTitle());
-		if (IJ.debugMode) IJ.log("setSourceRect: "+magnification+" "+(int)(srcRect.height*magnification+0.5)+" "+dstHeight+" "+srcRect);
+		if (IJDebugUtils.debugMode) IJ.log("setSourceRect: "+magnification+" "+(int)(srcRect.height*magnification+0.5)+" "+dstHeight+" "+srcRect);
 	}
 
 	void setSrcRect(Rectangle srcRect) {
@@ -211,11 +211,11 @@ public class ImageCanvas extends Canvas implements MouseListener, MouseMotionLis
 	
 	//public void repaint() {
 	//	super.repaint();
-	//	//if (IJ.debugMode) IJ.log("repaint: "+imp);
+	//	//if (IJPluginUtils.debugMode) IJ.log("repaint: "+imp);
 	//}
 	
     public void paint(Graphics g) {
-		// if (IJ.debugMode) IJ.log("paint: "+imp);
+		// if (IJPluginUtils.debugMode) IJ.log("paint: "+imp);
 		painted = true;
 		Roi roi = imp.getRoi();
 		Overlay overlay = imp.getOverlay();
@@ -247,7 +247,7 @@ public class ImageCanvas extends Canvas implements MouseListener, MouseMotionLis
 			if (roi!=null) drawRoi(roi, g);
 			if (srcRect.width<imageWidth || srcRect.height<imageHeight)
 				drawZoomIndicator(g);
-			//if (IJ.debugMode) showFrameRate(g);
+			//if (IJPluginUtils.debugMode) showFrameRate(g);
 		} catch(OutOfMemoryError e) {IJ.outOfMemory("Paint");}
 		setPaintPending(false);
     }
@@ -306,7 +306,7 @@ public class ImageCanvas extends Canvas implements MouseListener, MouseMotionLis
 		if (labelColor==null) labelColor = Color.white;
 		initGraphics(overlay, g, labelColor, Roi.getColor());
 		int n = overlay.size();
-		//if (IJ.debugMode) IJ.log("drawOverlay: "+n);
+		//if (IJPluginUtils.debugMode) IJ.log("drawOverlay: "+n);
 		int currentImage = imp!=null?imp.getCurrentSlice():-1;
 		int stackSize = imp.getStackSize();
 		if (stackSize==1)
@@ -560,7 +560,7 @@ public class ImageCanvas extends Canvas implements MouseListener, MouseMotionLis
 				drawRoi(roi, offScreenGraphics);
 			if (srcRect.width<imageWidth || srcRect.height<imageHeight)
 				drawZoomIndicator(offScreenGraphics);
-			//if (IJ.debugMode) showFrameRate(offScreenGraphics);
+			//if (IJPluginUtils.debugMode) showFrameRate(offScreenGraphics);
 			g.drawImage(offScreenImage, 0, 0, null);
 		}
 		catch(OutOfMemoryError e) {IJ.outOfMemory("Paint");}
@@ -1299,7 +1299,7 @@ public class ImageCanvas extends Canvas implements MouseListener, MouseMotionLis
 
 	protected void handlePopupMenu(MouseEvent e) {
 		if (disablePopupMenu) return;
-		if (IJ.debugMode) IJ.log("show popup: " + (e.isPopupTrigger()?"true":"false"));
+		if (IJDebugUtils.debugMode) IJ.log("show popup: " + (e.isPopupTrigger()?"true":"false"));
 		int sx = e.getX();
 		int sy = e.getY();
 		int ox = offScreenX(sx);

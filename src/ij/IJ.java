@@ -42,9 +42,6 @@ public class IJ {
 	public static final String URL = "http://imagej.nih.gov/ij";
 	public static final int ALL_KEYS = -1;
 	
-	/** Use setDebugMode(boolean) to enable/disable debug mode. */
-	public static boolean debugMode;
-	
 	public static boolean hideProcessStackDialog;
 	    
     public static final char micronSymbol = '\u00B5';
@@ -131,12 +128,6 @@ public class IJ {
 	public static ImageJ getInstance() {
 		return ij;
 	}
-	
-	/**Enable/disable debug mode.*/
-	public static void setDebugMode(boolean b) {
-		debugMode = b;
-		LogStream.redirectSystem(debugMode);
-	}
 
 	/** Runs the macro contained in the string <code>macro</code>
 		on the current thread. Returns any string value returned by
@@ -195,7 +186,7 @@ public class IJ {
 	/** Runs the specified plugin and returns a reference to it. */
 	public static Object runPlugIn(String commandName, String className, String arg) {
 		if (arg==null) arg = "";
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("runPlugIn: "+className+argument(arg));
 		// Load using custom classloader if this is a user 
 		// plugin and we are not running as an applet
@@ -224,7 +215,7 @@ public class IJ {
 	}
         
 	static Object runUserPlugIn(String commandName, String className, String arg, boolean createNewLoader) {
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("runUserPlugIn: "+className+", arg="+argument(arg));
 		if (applet!=null) return null;
 		if (createNewLoader)
@@ -248,7 +239,7 @@ public class IJ {
 			int dotIndex = className.indexOf('.');
 			if (dotIndex>=0 && className.contains("_")) {
 				// rerun plugin after removing folder name
-				if (debugMode) IJ.log("runUserPlugIn: rerunning "+className);
+				if (IJDebugUtils.debugMode) IJ.log("runUserPlugIn: rerunning "+className);
 				return runUserPlugIn(commandName, className.substring(dotIndex+1), arg, createNewLoader);
 			}
 			if (className.contains("_") && !suppressPluginNotFoundError)
@@ -1096,7 +1087,7 @@ public class IJ {
 				break;
 			case KeyEvent.VK_SHIFT:
 				shiftDown=true;
-				if (debugMode) beep();
+				if (IJDebugUtils.debugMode) beep();
 				break;
 			case KeyEvent.VK_SPACE: {
 				spaceDown=true;
@@ -1116,7 +1107,7 @@ public class IJ {
 			case KeyEvent.VK_CONTROL: controlDown=false; break;
 			case KeyEvent.VK_META: if (isMacintosh()) controlDown=false; break;
 			case KeyEvent.VK_ALT: altDown=false; updateStatus(); break;
-			case KeyEvent.VK_SHIFT: shiftDown=false; if (debugMode) beep(); break;
+			case KeyEvent.VK_SHIFT: shiftDown=false; if (IJDebugUtils.debugMode) beep(); break;
 			case KeyEvent.VK_SPACE:
 				spaceDown=false;
 				ImageWindow win = WindowManager.getCurrentWindow();
@@ -1974,7 +1965,7 @@ public class IJ {
 	public static String openUrlAsString(String url) {
 		//if (!trustManagerCreated && url.contains("nih.gov")) trustAllCerts();
 		url = Opener.updateUrl(url);
-		if (debugMode) log("OpenUrlAsString: "+url);
+		if (IJDebugUtils.debugMode) log("OpenUrlAsString: "+url);
 		StringBuffer sb = null;
 		url = url.replaceAll(" ", "%20");
 		try {

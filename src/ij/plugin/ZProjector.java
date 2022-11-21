@@ -326,7 +326,7 @@ public class ZProjector implements PlugIn {
 		FloatProcessor fp = new FloatProcessor(imp.getWidth(),imp.getHeight()); 
 		ImageStack stack = imp.getStack();
 		RayFunction rayFunc = getRayFunction(method, fp);
-		if (IJ.debugMode==true) {
+		if (IJDebugUtils.debugMode==true) {
 	    	IJ.log("\nProjecting stack from: "+startSlice
 		     	+" to: "+stopSlice); 
 		}

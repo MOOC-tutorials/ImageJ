@@ -194,7 +194,7 @@ public class Opener {
 						dir = new File(sdir);
 					if (dir!=null)
 						fc.setCurrentDirectory(dir);
-					if (IJ.debugMode) IJ.log("Opener.openMultiple: "+sdir+" "+dir);
+					if (IJDebugUtils.debugMode) IJ.log("Opener.openMultiple: "+sdir+" "+dir);
 					int returnVal = fc.showOpenDialog(IJ.getInstance());
 					if (returnVal!=JFileChooser.APPROVE_OPTION)
 						return;
@@ -329,7 +329,7 @@ public class Opener {
 		OpenDialog.setLastName(name);
 		String path = directory+name;
 		this.fileType = getFileType(path);
-		if (IJ.debugMode) IJ.log("openImage: \""+types[this.fileType]+"\", "+path);
+		if (IJDebugUtils.debugMode) IJ.log("openImage: \""+types[this.fileType]+"\", "+path);
 		switch (this.fileType) {
 			case TIFF:
 				imp = openTiff(directory, name);
@@ -440,7 +440,7 @@ public class Opener {
 	*/
 	public ImagePlus openURL(String url) {
 		url = updateUrl(url);
-		if (IJ.debugMode) IJ.log("OpenURL: "+url);
+		if (IJDebugUtils.debugMode) IJ.log("OpenURL: "+url);
 		ImagePlus imp = openCachedImage(url);
 		if (imp!=null)
 			return imp;
@@ -733,7 +733,7 @@ public class Opener {
 		} 
 		if (img==null)
 			return null;
-		if (IJ.debugMode) IJ.log("type="+img.getType()+", alpha="+img.getColorModel().hasAlpha()+", bands="+img.getSampleModel().getNumBands());
+		if (IJDebugUtils.debugMode) IJ.log("type="+img.getType()+", alpha="+img.getColorModel().hasAlpha()+", bands="+img.getSampleModel().getNumBands());
 		if (img.getColorModel().hasAlpha()) {
 			int width = img.getWidth();
 			int height = img.getHeight();
@@ -778,7 +778,7 @@ public class Opener {
 		}
 		if (contiguous &&  info[0].fileType!=FileInfo.RGB48)
 			info[0].nImages = info.length;
-		//if (IJ.debugMode) {
+		//if (IJPluginUtils.debugMode) {
 		//	IJ.log("sameSizeAndType: " + sameSizeAndType);
 		//	IJ.log("contiguous: " + contiguous);
 		//}
@@ -903,7 +903,7 @@ public class Opener {
 		Returns an ImagePlus object if successful. */
 	public ImagePlus openTiff(String directory, String name) {
 		TiffDecoder td = new TiffDecoder(directory, name);
-		if (IJ.debugMode) td.enableDebugging();
+		if (IJDebugUtils.debugMode) td.enableDebugging();
 		FileInfo[] info=null;
 		try {
 			info = td.getTiffInfo();
@@ -920,7 +920,7 @@ public class Opener {
 	/** Opens the nth image of the specified TIFF stack. */
 	public ImagePlus openTiff(String path, int n) {
 		TiffDecoder td = new TiffDecoder(getDir(path), getName(path));
-		if (IJ.debugMode) td.enableDebugging();
+		if (IJDebugUtils.debugMode) td.enableDebugging();
 		FileInfo[] info=null;
 		try {
 			info = td.getTiffInfo();
@@ -955,7 +955,7 @@ public class Opener {
 	public static FileInfo[] getTiffFileInfo(String path) {
 		Opener o = new Opener();
 		TiffDecoder td = new TiffDecoder(o.getDir(path), o.getName(path));
-		if (IJ.debugMode) td.enableDebugging();
+		if (IJDebugUtils.debugMode) td.enableDebugging();
 		try {
 			return td.getTiffInfo();
 		} catch (IOException e) {
@@ -969,7 +969,7 @@ public class Opener {
 		FileInfo[] info = null;
 		try {
 			TiffDecoder td = new TiffDecoder(in, name);
-			if (IJ.debugMode) td.enableDebugging();
+			if (IJDebugUtils.debugMode) td.enableDebugging();
 			info = td.getTiffInfo();
 		} catch (FileNotFoundException e) {
 			IJ.error("Open TIFF", "File not found: "+e.getMessage());
@@ -1049,7 +1049,7 @@ public class Opener {
 	public ImagePlus deserialize(byte[] bytes) {
 		ByteArrayInputStream stream = new ByteArrayInputStream(bytes);
 		TiffDecoder decoder = new TiffDecoder(stream, "Untitled");
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			decoder.enableDebugging();
 		FileInfo[] info = null;
 		try {
@@ -1107,7 +1107,7 @@ public class Opener {
 		if (info==null)
 			return null;
 		ImagePlus imp = null;
-		if (IJ.debugMode) // dump tiff tags
+		if (IJDebugUtils.debugMode) // dump tiff tags
 			IJ.log(info[0].debugInfo);
 		if (info.length>1) { // try to open as stack
 			imp = openTiffStack(info);

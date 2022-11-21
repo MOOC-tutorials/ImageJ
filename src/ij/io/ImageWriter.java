@@ -194,7 +194,7 @@ public class ImageWriter {
 		if (count>imageSize)
 			count = (int)imageSize;
 		count = (count/4)*4;
-		if (IJ.debugMode) IJ.log("ImageWriter: "+imageSize+" "+count+" "+imageSize/50);	
+		if (IJDebugUtils.debugMode) IJ.log("ImageWriter: "+imageSize+" "+count+" "+imageSize/50);	
 		return count;	
 	}
 	

@@ -75,7 +75,7 @@ public class Zoom implements PlugIn {
 				count++;
 			}
 		}
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("Zoom: "+ count+" "+imp.windowActivated()+" "+isCanvas+" "+imp);
     }
 

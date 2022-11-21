@@ -224,7 +224,7 @@ public class SaveDialog {
 					name = null;
 			}
 		}
-		if (IJ.debugMode) IJ.log(origName+"->"+name);
+		if (IJDebugUtils.debugMode) IJ.log(origName+"->"+name);
 		dir = fd.getDirectory();
 		if (name==null)
 			Macro.abort();

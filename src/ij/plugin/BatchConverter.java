@@ -53,7 +53,7 @@ import java.io.*;
 		for (int i=0; i<list.length; i++) {
 			if (IJ.escapePressed())
 				break;
-			if (IJ.debugMode) IJ.log(i+"  "+list[i]);
+			if (IJDebugUtils.debugMode) IJ.log(i+"  "+list[i]);
 			String path = inputPath + list[i];
 			if ((new File(path)).isDirectory())
 				continue;

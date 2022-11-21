@@ -1087,7 +1087,7 @@ public class TextPanel extends Panel implements AdjustmentListener,
 
 	/** Sets the ResultsTable associated with this TextPanel. */
 	public void setResultsTable(ResultsTable rt) {
-		if (IJ.debugMode) IJ.log("setResultsTable: "+rt);
+		if (IJDebugUtils.debugMode) IJ.log("setResultsTable: "+rt);
 		this.rt = rt;
 		if (!menusExtended)
 			extendMenus();
@@ -1095,7 +1095,7 @@ public class TextPanel extends Panel implements AdjustmentListener,
 
 	/** Returns the ResultsTable associated with this TextPanel, or null. */
 	public ResultsTable getResultsTable() {
-		if (IJ.debugMode) IJ.log("getResultsTable: "+rt);
+		if (IJDebugUtils.debugMode) IJ.log("getResultsTable: "+rt);
 		return rt;
 	}
 
@@ -1105,7 +1105,7 @@ public class TextPanel extends Panel implements AdjustmentListener,
 		if ((rt==null||rt.size()==0) && iRowCount>0 && labels!=null && !labels.equals("")) {
 			String tmpDir = IJ.getDir("temp");
 			if (tmpDir==null) {
-				if (IJ.debugMode) IJ.log("getOrCreateResultsTable: tmpDir null");
+				if (IJDebugUtils.debugMode) IJ.log("getOrCreateResultsTable: tmpDir null");
 				return null;
 			}
 			String path = tmpDir+"temp-table.csv";
@@ -1115,10 +1115,10 @@ public class TextPanel extends Panel implements AdjustmentListener,
 				new File(path).delete();
 			} catch (Exception e) {
 				rt = null;
-				if (IJ.debugMode) IJ.log("getOrCreateResultsTable: "+e);
+				if (IJDebugUtils.debugMode) IJ.log("getOrCreateResultsTable: "+e);
 			}
 		}
-		if (IJ.debugMode) IJ.log("getOrCreateResultsTable: "+rt);
+		if (IJDebugUtils.debugMode) IJ.log("getOrCreateResultsTable: "+rt);
 		return rt;
 	}
 

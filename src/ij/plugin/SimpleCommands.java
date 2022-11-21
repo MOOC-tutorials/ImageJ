@@ -243,17 +243,17 @@ public class SimpleCommands implements PlugIn {
 				return;
 			}
 		}
-		if (IJ.debugMode) IJ.log("Show Folder: arg="+arg+", path="+path);
+		if (IJDebugUtils.debugMode) IJ.log("Show Folder: arg="+arg+", path="+path);
 		String msg1 = "";
 		if (IJ.isLinux()) try {
-			if (IJ.debugMode) IJ.log("  trying xdg-open "+path);
+			if (IJDebugUtils.debugMode) IJ.log("  trying xdg-open "+path);
 			Runtime.getRuntime().exec(new String[] {"xdg-open", path} );
 			return;
 		} catch (Exception e2) {
 			msg1 = "xdg-open error: "+e2;
 		}
 		try {
-			if (IJ.debugMode) IJ.log("  trying Desktop.open "+dir);
+			if (IJDebugUtils.debugMode) IJ.log("  trying Desktop.open "+dir);
 			Desktop desktop = Desktop.getDesktop();
 			desktop.open(dir);
 		} catch (Exception e) {

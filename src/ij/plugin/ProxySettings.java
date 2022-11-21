@@ -50,7 +50,7 @@ public class ProxySettings implements PlugIn {
 		try {
 			System.setProperty("java.net.useSystemProxies", Prefs.useSystemProxies?"true":"false");
 		} catch(Exception e) {}
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			logProperties();
 	}
 	

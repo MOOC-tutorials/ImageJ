@@ -43,7 +43,7 @@ public class FileOpener {
 			width = fi.width;
 			height = fi.height;
 		}
-		if (IJ.debugMode) IJ.log("FileInfo: "+fi);
+		if (IJDebugUtils.debugMode) IJ.log("FileInfo: "+fi);
 	}
 	
 	/** Opens the image and returns it has an ImagePlus object. */
@@ -386,7 +386,7 @@ public class FileOpener {
 	
 	void setCalibration(ImagePlus imp) {
 		if (fi.fileType==FileInfo.GRAY16_SIGNED) {
-			if (IJ.debugMode) IJ.log("16-bit signed");
+			if (IJDebugUtils.debugMode) IJ.log("16-bit signed");
  			imp.getLocalCalibration().setSigned16BitCalibration();
 		}
 		Properties props = decodeDescriptionString(fi);
@@ -602,7 +602,7 @@ public class FileOpener {
 	public Properties decodeDescriptionString(FileInfo fi) {
 		if (fi.description==null || fi.description.length()<7)
 			return null;
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("Image Description: " + new String(fi.description).replace('\n',' '));
 		if (!fi.description.startsWith("ImageJ"))
 			return null;

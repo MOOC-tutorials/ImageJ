@@ -145,14 +145,14 @@ public class ImageJ extends Frame implements ActionListener,
 	public ImageJ(java.applet.Applet applet, int mode) {
 		super("ImageJ");
 		if ((mode&DEBUG)!=0)
-			IJ.setDebugMode(true);
+			IJDebugUtils.setDebugMode(true);
 		mode = mode & 255;
 		boolean useExceptionHandler = false;
 		if (mode==IMAGEJ_APP) {
 			mode = STANDALONE;
 			useExceptionHandler = true;
 		}
-		if (IJ.debugMode) IJ.log("ImageJ starting in debug mode: "+mode);
+		if (IJDebugUtils.debugMode) IJ.log("ImageJ starting in debug mode: "+mode);
 		embedded = applet==null && (mode==EMBEDDED||mode==NO_SHOW);
 		this.applet = applet;
 		String err1 = Prefs.load(this, applet);
@@ -202,12 +202,12 @@ public class ImageJ extends Frame implements ActionListener,
 			setVisible(true);
 			Dimension size = getSize();
 			if (size!=null) {
-				if (IJ.debugMode) IJ.log("size: "+size);
+				if (IJDebugUtils.debugMode) IJ.log("size: "+size);
 				if (IJ.isWindows() && (size.height>108||IJ.javaVersion()>=10)) {
 					// workaround for IJ window layout and FileDialog freeze problems with Windows 10 Creators Update
 					IJ.wait(10);
 					pack();
-					if (IJ.debugMode) IJ.log("pack()");
+					if (IJDebugUtils.debugMode) IJ.log("pack()");
 					if (!Prefs.jFileChooserSettingChanged)
 						Prefs.useJFileChooser = true;
 				} else if (IJ.isMacOSX()) {
@@ -381,7 +381,7 @@ public class ImageJ extends Frame implements ActionListener,
 				new Executer(cmd, imp);
 			}
 			lastKeyCommand = null;
-			if (IJ.debugMode) IJ.log("actionPerformed: time="+ellapsedTime+", "+e);
+			if (IJDebugUtils.debugMode) IJ.log("actionPerformed: time="+ellapsedTime+", "+e);
 		}
 	}
 
@@ -403,7 +403,7 @@ public class ImageJ extends Frame implements ActionListener,
 		if (!Prefs.noClickToGC)
 			System.gc();
 		IJ.showStatus(version()+IJ.freeMemory());
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("Windows: "+WindowManager.getWindowCount());
 	}
 	
@@ -430,7 +430,7 @@ public class ImageJ extends Frame implements ActionListener,
 			return;
 		char keyChar = e.getKeyChar();
 		int flags = e.getModifiers();
-		if (IJ.debugMode) IJ.log("keyPressed: code=" + keyCode + " (" + KeyEvent.getKeyText(keyCode)
+		if (IJDebugUtils.debugMode) IJ.log("keyPressed: code=" + keyCode + " (" + KeyEvent.getKeyText(keyCode)
 			+ "), char=\"" + keyChar + "\" (" + (int)keyChar + "), flags="
 			+ KeyEvent.getKeyModifiersText(flags));
 		boolean shift = (flags & KeyEvent.SHIFT_MASK) != 0;
@@ -735,9 +735,9 @@ public class ImageJ extends Frame implements ActionListener,
 			} else if (arg.startsWith("-macro") || arg.endsWith(".ijm") || arg.endsWith(".txt"))
 				batchMode = true;
 			else if (arg.startsWith("-debug"))
-				IJ.setDebugMode(true);
+				IJDebugUtils.setDebugMode(true);
 			else if (arg.startsWith("-ijpath") && i+1<nArgs) {
-				if (IJ.debugMode) IJ.log("-ijpath: "+args[i+1]);
+				if (IJDebugUtils.debugMode) IJ.log("-ijpath: "+args[i+1]);
 				Prefs.setHomeDir(args[i+1]);
 				commandLine = true;
 				args[i+1] = null;
@@ -791,7 +791,7 @@ public class ImageJ extends Frame implements ActionListener,
 				IJ.open(file.getAbsolutePath());
 			}
 		}
-		if (IJ.debugMode && IJ.getInstance()==null)
+		if (IJDebugUtils.debugMode && IJ.getInstance()==null)
 			new JavaProperties().run("");
 		if (noGUI) System.exit(0);
 	}

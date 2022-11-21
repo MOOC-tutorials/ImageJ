@@ -46,7 +46,7 @@ import javax.swing.filechooser.*;
 					String defaultDir = OpenDialog.getDefaultDirectory();
 					if (defaultDir!=null) {
 						File f = new File(defaultDir);
-						if (IJ.debugMode)
+						if (IJDebugUtils.debugMode)
 							IJ.log("DirectoryChooser,setSelectedFileW: "+f);
 						chooser.setSelectedFile(f);
 					}
@@ -76,7 +76,7 @@ import javax.swing.filechooser.*;
 			String defaultDir = OpenDialog.getDefaultDirectory();
 			if (defaultDir!=null) {
 				File f = new File(defaultDir);
-				if (IJ.debugMode)
+				if (IJDebugUtils.debugMode)
 					IJ.log("DirectoryChooser,setSelectedFile: "+f);
 				chooser.setSelectedFile(f);
 			}
@@ -103,7 +103,7 @@ import javax.swing.filechooser.*;
 			dir = f.getParent();
 			name = f.getName();
 		}
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("DirectoryChooser: dir=\""+dir+"\",  file=\""+name+"\"");
 		OpenDialog od = new OpenDialog(title, dir, null);
 		String odDir = od.getDirectory();
@@ -119,7 +119,7 @@ import javax.swing.filechooser.*;
 
  	/** Returns the directory selected by the user. */
  	public String getDirectory() {
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log("DirectoryChooser.getDirectory: "+directory);
 		if (Recorder.record && !IJ.isMacOSX())
 			Recorder.recordPath(title, directory);

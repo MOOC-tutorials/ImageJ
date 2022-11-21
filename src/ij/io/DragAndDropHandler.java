@@ -45,10 +45,10 @@ import java.awt.datatransfer.*;
 				java.util.List<File> fileList = null;
 				if (dataFlavor.isFlavorJavaFileListType()) {
 					fileList = (java.util.List<File>)t.getTransferData(DataFlavor.javaFileListFlavor);
-					if (IJ.debugMode) IJ.log("dragAndDrop FileList size="+fileList.size()+" first: "+fileList.get(0));
+					if (IJDebugUtils.debugMode) IJ.log("dragAndDrop FileList size="+fileList.size()+" first: "+fileList.get(0));
 				} else if (isSupportedTransferFlavor(dataFlavor)) {
 					String str = (String)t.getTransferData(dataFlavor);
-					if (IJ.debugMode) IJ.log("dragAndDrop str="+str);
+					if (IJDebugUtils.debugMode) IJ.log("dragAndDrop str="+str);
 					String[] strs = str.split("[\n\r]+");               //multiple files are separate lines
 					fileList = new ArrayList<File>(strs.length);
 					for (String s : strs) {
@@ -81,7 +81,7 @@ import java.awt.datatransfer.*;
 				}
 				jFileChooser.rescanCurrentDirectory();
 				return true;
-			} catch (Exception e) {if (IJ.debugMode) IJ.handleException(e);}
+			} catch (Exception e) {if (IJDebugUtils.debugMode) IJ.handleException(e);}
 		}
 		return false;
 	}

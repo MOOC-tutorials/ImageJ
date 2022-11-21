@@ -387,7 +387,7 @@ public class FFT implements PlugIn, Measurements {
 			changeValuesAndSymmetrize(mask, (byte)0, (byte)255); //1-255 become 255
 		for (int i=0; i<3; i++)
 			smooth(mask);
-		if (IJ.debugMode || IJ.altKeyDown())
+		if (IJDebugUtils.debugMode || IJ.altKeyDown())
 			new ImagePlus("mask", mask.duplicate()).show();
 		swapQuadrants(mask);
 		byte[] maskPixels = (byte[])mask.getPixels();

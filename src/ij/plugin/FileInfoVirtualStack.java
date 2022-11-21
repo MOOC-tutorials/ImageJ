@@ -76,7 +76,7 @@ public class FileInfoVirtualStack extends VirtualStack implements PlugIn {
 			return;
 		}
 		TiffDecoder td = new TiffDecoder(dir, name);
-		if (IJ.debugMode) td.enableDebugging();
+		if (IJDebugUtils.debugMode) td.enableDebugging();
 		IJ.showStatus("Decoding TIFF header...");
 		try {
 			info = td.getTiffInfo();
@@ -90,7 +90,7 @@ public class FileInfoVirtualStack extends VirtualStack implements PlugIn {
 			IJ.error("Virtual Stack", "This does not appear to be a TIFF stack");
 			return;
 		}
-		if (IJ.debugMode)
+		if (IJDebugUtils.debugMode)
 			IJ.log(info[0].debugInfo);
 	}
 		
@@ -198,7 +198,7 @@ public class FileInfoVirtualStack extends VirtualStack implements PlugIn {
 		//if (n>1) IJ.log("  "+(info[n-1].getOffset()-info[n-2].getOffset()));
 		info[n-1].nImages = 1; // why is this needed?
 		ImageProcessor ip = null;
-		if (IJ.debugMode) {
+		if (IJDebugUtils.debugMode) {
 			long t0 = System.currentTimeMillis();
 			FileOpener fo = new FileOpener(info[n-1]);
 			ip = fo.openProcessor();

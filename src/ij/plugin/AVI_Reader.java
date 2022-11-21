@@ -244,7 +244,7 @@ public class AVI_Reader extends VirtualStack implements PlugIn {
 	private	 ImageStack		   stack;
 	private	 ImagePlus		   imp;
 	//for debug messages and error handling
-	private	 boolean		   verbose = IJ.debugMode;
+	private	 boolean		   verbose = IJDebugUtils.debugMode;
 	private	 long			   startTime;
 	private	 boolean		   aborting;
 	private	 boolean		   displayDialog = true;

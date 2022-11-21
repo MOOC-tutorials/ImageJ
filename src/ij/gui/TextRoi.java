@@ -243,7 +243,7 @@ public class TextRoi extends Roi {
 
 	/** Draws the text on the screen, clipped to the ROI. */
 	public void draw(Graphics g) {
-		if (IJ.debugMode) IJ.log("draw: "+theText[0]+"  "+this.width+","+this.height);
+		if (IJDebugUtils.debugMode) IJ.log("draw: "+theText[0]+"  "+this.width+","+this.height);
 		if (Interpreter.isBatchMode() && ic!=null && ic.getDisplayList()!=null)
 			return;
 		Color c = getStrokeColor();

@@ -114,7 +114,7 @@ public class TextWindow extends Frame implements ActionListener, FocusListener, 
 			setLocation(loc);
 		} else {
 			setSize(width, height);
-			if (!IJ.debugMode)
+			if (!IJDebugUtils.debugMode)
 				GUI.centerOnImageJScreen(this);
 		}
 		show();
@@ -297,7 +297,7 @@ public class TextWindow extends Frame implements ActionListener, FocusListener, 
 			Dimension d = getSize();
 			Prefs.set(LOG_WIDTH_KEY, d.width);
 			Prefs.set(LOG_HEIGHT_KEY, d.height);
-			IJ.setDebugMode(false);
+			IJDebugUtils.setDebugMode(false);
 			IJ.log("\\Closed");
 			IJ.notifyEventListeners(IJEventListener.LOG_WINDOW_CLOSED);
 		} else if (getTitle().equals("Debug")) {

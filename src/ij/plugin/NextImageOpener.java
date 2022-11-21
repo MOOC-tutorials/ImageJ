@@ -37,13 +37,13 @@ public class NextImageOpener implements PlugIn {
  		imp0 = IJ.getImage();
  		// get current image directory
  		String currentPath = getDirectory(imp0);
-		if (IJ.debugMode) IJ.log("OpenNext.currentPath:" + currentPath);
+		if (IJDebugUtils.debugMode) IJ.log("OpenNext.currentPath:" + currentPath);
 		if (currentPath==null) {
 			IJ.error("Next Image", "Directory information for \""+imp0.getTitle()+"\" not found.");
 			return;
 		}
 		String nextPath = getNext(currentPath, getName(imp0), forward);
-		if (IJ.debugMode) IJ.log("OpenNext.nextPath:" + nextPath);
+		if (IJDebugUtils.debugMode) IJ.log("OpenNext.nextPath:" + nextPath);
 		// open
 		if (nextPath != null) {
 			String rtn = open(nextPath);
@@ -122,7 +122,7 @@ public class NextImageOpener implements PlugIn {
 				break;
 			}
 		}
-		if (IJ.debugMode) IJ.log("OpenNext.thisfile:" + thisfile);
+		if (IJDebugUtils.debugMode) IJ.log("OpenNext.thisfile:" + thisfile);
 		if(thisfile == -1) return null;// can't find current image
 		
 		// make candidate the index of the next file
@@ -133,7 +133,7 @@ public class NextImageOpener implements PlugIn {
 		// keep on going until an image file is found or we get back to beginning
 		while (candidate!=thisfile) {
 			String nextPath = path + names[candidate];
-			if (IJ.debugMode) IJ.log("OpenNext: "+ candidate + "  " + names[candidate]);
+			if (IJDebugUtils.debugMode) IJ.log("OpenNext: "+ candidate + "  " + names[candidate]);
 			File nextFile = new File(nextPath);
 			boolean canOpen = true;
 			if (names[candidate].startsWith(".") || nextFile.isDirectory())
@@ -157,7 +157,7 @@ public class NextImageOpener implements PlugIn {
 			}
 			
 		}
-		if (IJ.debugMode) IJ.log("OpenNext: Search failed");
+		if (IJDebugUtils.debugMode) IJ.log("OpenNext: Search failed");
 		return null;
 	}
 

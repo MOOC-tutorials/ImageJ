@@ -809,7 +809,7 @@ public class PlotWindow extends ImageWindow implements ActionListener, ItemListe
 			doUpdate = true;
 			bgThread.start();
 		}
-		if (IJ.debugMode) IJ.log("PlotWindow.createListeners");
+		if (IJDebugUtils.debugMode) IJ.log("PlotWindow.createListeners");
 		ImagePlus.addImageListener(this);
 		Roi.addRoiListener(this);
 		Font font = live.getFont();
@@ -818,7 +818,7 @@ public class PlotWindow extends ImageWindow implements ActionListener, ItemListe
 	}
 
 	private void disableLivePlot() {
-		if (IJ.debugMode) IJ.log("PlotWindow.disableLivePlot: "+srcImp);
+		if (IJDebugUtils.debugMode) IJ.log("PlotWindow.disableLivePlot: "+srcImp);
 		if (srcImp==null)
 			return;
 		if (bgThread!=null)
@@ -836,7 +836,7 @@ public class PlotWindow extends ImageWindow implements ActionListener, ItemListe
 
 	/** For live plots, update the plot if the ROI of the source image changes */
 	public synchronized void roiModified(ImagePlus img, int id) {
-		if (IJ.debugMode) IJ.log("PlotWindow.roiModified: "+img+"  "+id);
+		if (IJDebugUtils.debugMode) IJ.log("PlotWindow.roiModified: "+img+"  "+id);
 		if (img==srcImp) {
 			doUpdate=true;
 			notify();
