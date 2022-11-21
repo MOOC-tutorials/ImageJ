@@ -1,6 +1,6 @@
 # ImageJ
 
-Proyecto para analizar la calidad de código con respecto a su:
+Proyecto para analizar la calidad de código con respecto a su:j
 - Acoplamiento
 - Complejidad 
 - Duplicación
